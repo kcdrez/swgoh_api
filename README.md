@@ -11,6 +11,8 @@ authorName: 'Serverless, inc.'
 authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 -->
 
+Run ngrok:
+ngrok http 3000
 
 # Serverless Framework AWS NodeJS Example
 
@@ -67,8 +69,8 @@ Which should result in response similar to the following:
 
 ```json
 {
-    "statusCode": 200,
-    "body": "{\n  \"message\": \"Go Serverless v2.0! Your function executed successfully!\",\n  \"input\": {}\n}"
+  "statusCode": 200,
+  "body": "{\n  \"message\": \"Go Serverless v2.0! Your function executed successfully!\",\n  \"input\": {}\n}"
 }
 ```
 
