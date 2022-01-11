@@ -1,15 +1,20 @@
 const express = require("express");
-const axios = require("axios");
 
-const { baseUrl } = require("../utils");
+const player = require("./player");
 
 const routes = express.Router({
   mergeParams: true,
 });
 
-routes.get("/:allycode", async (req, res) => {
-  const response = await axios.get(`${baseUrl}/player/${req.params.allycode}`);
-  res.status(200).json(response.data);
+routes.get("/:allyCode", async (req, res) => {
+  try {
+    const response = await player.fetchPlayer(req.params.allyCode);
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+    });
+  }
 });
 
 module.exports = {

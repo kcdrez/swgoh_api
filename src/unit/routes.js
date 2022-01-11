@@ -1,15 +1,15 @@
 const express = require("express");
 
-const gear = require("./gear");
+const unit = require("./unit");
 
 const routes = express.Router({
   mergeParams: true,
 });
 
-routes.get("/", async (_req, res) => {
+routes.get("/:unitId", async (req, res) => {
   try {
-    const gearList = await gear.fetchGear();
-    res.status(200).json(gearList);
+    const response = await unit.fetchUnit(req.params.unitId);
+    res.status(200).json(response);
   } catch (error) {
     res.status(500).json({
       error: error.message,
