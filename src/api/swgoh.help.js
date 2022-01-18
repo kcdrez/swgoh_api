@@ -62,34 +62,10 @@ class apiClient {
     return response[0];
   }
 
-  async fetchAllUnits() {
-    return await this.fetch(this.baseUrl + "/swgoh/data", {
-      collection: "unitsList",
-    });
-  }
-  async fetchData(collection) {
-    return await this.fetch(this.baseUrl + "/swgoh/data", {
-      collection,
-    });
-  }
   async fetchGear() {
     return await this.fetch(this.baseUrl + "/swgoh/data", {
       collection: "equipmentList",
     });
-  }
-
-  async fetchBattles() {
-    return await this.fetch(this.baseUrl + "/swgoh/battles");
-  }
-
-  async fetchEvents() {
-    return await this.fetch(this.baseUrl + "/swgoh/events");
-  }
-
-  async debug() {
-    return await axios.get(
-      "https://6814-184-96-186-220.ngrok.io/player/843518525"
-    );
   }
 }
 
