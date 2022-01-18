@@ -52,14 +52,20 @@ class apiClient {
   }
 
   async fetchUnit(id) {
-    //todo: figure out how to pass in an or condition?
     const response = await this.fetch(this.baseUrl + "/swgoh/data", {
       collection: "unitsList",
       match: {
-        id,
+        id: id.toUpperCase(),
       },
     });
     return response[0];
+  }
+
+  async fetchAllUnits() {
+    const response = await this.fetch(this.baseUrl + "/swgoh/data", {
+      collection: "unitsList",
+    });
+    return response;
   }
 
   async fetchGear() {

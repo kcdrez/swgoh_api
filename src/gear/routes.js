@@ -17,6 +17,17 @@ routes.get("/", async (_req, res) => {
   }
 });
 
+routes.get("/refresh", async (req, res) => {
+  try {
+    const response = await gear.refresh();
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+    });
+  }
+});
+
 module.exports = {
   routes,
 };

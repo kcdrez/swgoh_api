@@ -39,6 +39,12 @@ class Gear {
       return fullGearList;
     }
   }
+
+  async refresh() {
+    this.gearList = [];
+    this.expires.gearList = null;
+    return this.fetchGear();
+  }
 }
 
 module.exports = new Gear();

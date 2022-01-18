@@ -2,6 +2,7 @@ const moment = require("moment");
 
 const helpApi = require("../api/swgoh.help");
 const ggApi = require("../api/swgoh.gg");
+const unit = require("../unit/unit");
 
 class Player {
   playerMapping = {};
@@ -28,47 +29,56 @@ class Player {
       ]);
       const { url, arena, fleet_arena, ally_code, name } = ggPlayer.data;
 
-      const units = helpPlayer.roster.map((unit) => {
-        const match = ggPlayer.units.find((x) => x.data.base_id === unit.defId);
-        if (match) {
-          const {
-            name,
-            base_id: id,
-            gear_level,
-            level,
-            power,
-            gear,
-            url,
-            stats,
-            ability_data,
-            relic_tier,
-            has_ultimate,
-            rarity: stars,
-          } = match.data;
+      const units = helpPlayer.roster
+        .map(async (unit) => {
+          const match = ggPlayer.units.find(
+            (x) => x.data.base_id === unit.defId
+          );
+          if (match) {
+            const { thumbnailName, unitTierList } = await fetchUnitData(
+              unit.defId
+            );
+            const {
+              name,
+              base_id: id,
+              gear_level,
+              level,
+              power,
+              gear,
+              url,
+              stats,
+              ability_data,
+              relic_tier,
+              has_ultimate,
+              rarity: stars,
+            } = match.data;
 
-          const { xp, mods, crew } = unit;
+            const { xp, mods, crew } = unit;
 
-          return {
-            name,
-            id,
-            gear_level,
-            level,
-            power,
-            gear,
-            url,
-            stats,
-            ability_data,
-            relic_tier,
-            has_ultimate,
-            xp,
-            mods,
-            crew,
-            stars,
-          };
-        } else {
-          return null;
-        }
-      });
+            return {
+              name,
+              id,
+              gear_level,
+              level,
+              power,
+              gear,
+              url,
+              stats,
+              ability_data,
+              relic_tier,
+              has_ultimate,
+              xp,
+              mods,
+              crew,
+              stars,
+              thumbnailName,
+              unitTierList,
+            };
+          } else {
+            return null;
+          }
+        })
+        .filter((x) => !!x);
 
       const player = { url, arena, fleet_arena, units, ally_code, name };
 
@@ -76,6 +86,22 @@ class Player {
       return player;
     }
   }
+
+  async refresh(allyCode) {
+    delete this.playerMapping[allyCode];
+    delete this.expires[allyCode];
+    return this.fetchPlayer(allyCode);
+  }
+
+  async debug() {
+    const { thumbnailName, unitTierList, nameKey } = await fetchUnitData(
+      "WATTAMBOR"
+    );
+  }
 }
+
+const fetchUnitData = async (unitId) => {
+  return await unit.fetchUnit(unitId);
+};
 
 module.exports = new Player();
