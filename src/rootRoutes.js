@@ -17,19 +17,6 @@ routes.get("/metadata", async (req, res) => {
   }
 });
 
-routes.get("/initialize", (req, res) => {
-  try {
-    Unit.init(); //dont await on this!
-    res.status(200).json({
-      message: "Initialize started. Please wait ~4 minutes before continuing",
-    });
-  } catch (error) {
-    res.status(500).json({
-      error: error.message,
-    });
-  }
-});
-
 module.exports = {
   routes,
 };

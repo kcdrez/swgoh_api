@@ -1,28 +1,18 @@
 const moment = require("moment");
 
 const helpApi = require("../api/swgoh.help");
+const unitsList = require("./seedData");
 
 class Unit {
   unitMapping = {};
   expires = {};
-  isInitialized = false;
 
-  constructor() {}
-
-  async init() {
-    if (this.isInitialized) {
-      console.info("Already initialized");
-    } else {
-      const start = new Date();
-      console.info("start init");
-      const response = await helpApi.fetchAllUnits();
-      response.forEach((unit) => {
-        this.expires[unit.id] = moment().add(7, "days");
-        this.unitMapping[unit.id] = unit;
-      });
-      console.info("done init", new Date() - start);
-      this.isInitialized = true;
-    }
+  constructor() {
+    unitsList.filter(x => x.obtainable && x.id.includes(":SEVEN_STAR"))
+    .forEach(unit => {
+      this.unitMapping[unit.baseId] = unit;
+      this.expires[unit.baseId] = moment().add(7, "days");
+    })
   }
 
   async fetchUnit(unitId) {
@@ -43,12 +33,6 @@ class Unit {
     delete this.unitMapping[unitId];
     delete this.expires[unitId];
     return this.fetchUnit(unitId);
-  }
-
-  async refreshAll() {
-    this.unitMapping = {};
-    this.expires = {};
-    await this.init();
   }
 }
 
