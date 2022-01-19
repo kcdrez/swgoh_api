@@ -17,9 +17,9 @@ routes.get("/metadata", async (req, res) => {
   }
 });
 
-routes.get("/initialize", async (req, res) => {
+routes.get("/initialize", (req, res) => {
   try {
-    await Unit.init();
+    Unit.init(); //dont await on this!
     res.status(200).json({
       message: "Initialize started. Please wait ~4 minutes before continuing",
     });
