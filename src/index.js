@@ -8,18 +8,20 @@ const { routes: gearRoutes } = require("./gear/routes");
 const { routes: unitRoutes } = require("./unit/routes");
 const Unit = require("./unit/unit");
 
-(async () => {
-  console.log("init first function on app load");
-  await Unit.init();
-})();
-
 const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
+app.all("*", initialize);
 app.use("/", rootRoutes);
 app.use("/player", playerRoutes);
 app.use("/gear", gearRoutes);
 app.use("/unit", unitRoutes);
 
 module.exports = app;
+
+async function initialize(req, res, next) {
+  console.log("init middleware");
+  await Unit.init();
+  next();
+}

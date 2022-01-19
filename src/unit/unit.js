@@ -5,19 +5,24 @@ const helpApi = require("../api/swgoh.help");
 class Unit {
   unitMapping = {};
   expires = {};
+  isInitialized = false;
 
   constructor() {}
 
   async init() {
-    const start = new Date();
-    console.info("start init");
-    const response = await helpApi.fetchAllUnits();
-    response.forEach((unit) => {
-      this.expires[unit.id] = moment().add(7, "days");
-      this.unitMapping[unit.id] = unit;
-    });
-    // await this.fetchUnit("WATTAMBOR");
-    console.info("done init", new Date() - start);
+    if (this.isInitialized) {
+      console.info("Already initialized");
+    } else {
+      const start = new Date();
+      console.info("start init");
+      const response = await helpApi.fetchAllUnits();
+      response.forEach((unit) => {
+        this.expires[unit.id] = moment().add(7, "days");
+        this.unitMapping[unit.id] = unit;
+      });
+      console.info("done init", new Date() - start);
+      this.isInitialized = true;
+    }
   }
 
   async fetchUnit(unitId) {
