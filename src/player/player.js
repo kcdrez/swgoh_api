@@ -29,58 +29,57 @@ class Player {
       ]);
       const { url, arena, fleet_arena, ally_code, name } = ggPlayer.data;
 
-      const units = helpPlayer.roster
-        .map(async (unit) => {
-          const match = ggPlayer.units.find(
-            (x) => x.data.base_id === unit.defId
-          );
-          if (match) {
-            const { thumbnailName, unitTierList } = await fetchUnitData(
-              unit.defId
-            );
-            const {
-              name,
-              base_id: id,
-              gear_level,
-              level,
-              power,
-              gear,
-              url,
-              stats,
-              ability_data,
-              relic_tier,
-              has_ultimate,
-              rarity: stars,
-            } = match.data;
+      const unitList = [];
+      for (let i = 0; i < helpPlayer.roster.length; i++) {
+        const { xp, mods, crew, defId } = helpPlayer.roster[i];
+        const match = ggPlayer.units.find((x) => x.data.base_id === defId);
+        if (match) {
+          const { thumbnailName, unitTierList } = await unit.fetchUnit(defId);
+          const {
+            name,
+            base_id: id,
+            gear_level,
+            level,
+            power,
+            gear,
+            stats,
+            ability_data,
+            relic_tier,
+            has_ultimate,
+            rarity: stars,
+          } = match.data;
 
-            const { xp, mods, crew } = unit;
+          unitList.push({
+            name,
+            id,
+            gear_level,
+            level,
+            power,
+            gear,
+            stats,
+            ability_data,
+            relic_tier,
+            has_ultimate,
+            xp,
+            mods,
+            crew,
+            stars,
+            thumbnailName,
+            unitTierList,
+          });
+        } else {
+          console.info("no unit match in ggPlayer units", defId);
+        }
+      }
 
-            return {
-              name,
-              id,
-              gear_level,
-              level,
-              power,
-              gear,
-              url,
-              stats,
-              ability_data,
-              relic_tier,
-              has_ultimate,
-              xp,
-              mods,
-              crew,
-              stars,
-              thumbnailName,
-              unitTierList,
-            };
-          } else {
-            return null;
-          }
-        })
-        .filter((x) => !!x);
-
-      const player = { url, arena, fleet_arena, units, ally_code, name };
+      const player = {
+        url,
+        arena,
+        fleet_arena,
+        units: unitList,
+        ally_code,
+        name,
+      };
 
       this.playerMapping[allyCode] = player;
       return player;
@@ -90,7 +89,7 @@ class Player {
   async refresh(allyCode) {
     delete this.playerMapping[allyCode];
     delete this.expires[allyCode];
-    return this.fetchPlayer(allyCode);
+    return await this.fetchPlayer(allyCode);
   }
 
   async debug() {
@@ -99,9 +98,5 @@ class Player {
     );
   }
 }
-
-const fetchUnitData = async (unitId) => {
-  return await unit.fetchUnit(unitId);
-};
 
 module.exports = new Player();

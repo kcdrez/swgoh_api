@@ -47,6 +47,4 @@ class Unit {
   }
 }
 
-const unit = new Unit();
-unit.init();
-module.exports = unit;
+module.exports = new Unit();

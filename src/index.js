@@ -6,6 +6,12 @@ const { routes: rootRoutes } = require("./rootRoutes");
 const { routes: playerRoutes } = require("./player/routes");
 const { routes: gearRoutes } = require("./gear/routes");
 const { routes: unitRoutes } = require("./unit/routes");
+const Unit = require("./unit/unit");
+
+(async () => {
+  console.log("init first function on app load");
+  await Unit.init();
+})();
 
 const app = express();
 
