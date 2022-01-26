@@ -3,7 +3,6 @@ const axios = require("axios");
 class apiClient {
   baseUrl = "https://api.swgoh.help";
   token = null;
-  playerData = {};
 
   constructor() {}
 

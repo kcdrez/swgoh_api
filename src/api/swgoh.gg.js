@@ -14,6 +14,11 @@ class apiClient {
     const response = await axios.get(baseUrl + "/gear");
     return response.data;
   }
+
+  async fetchUnits() {
+    const response = await axios.get(baseUrl + "/characters");
+    return response.data;
+  }
 }
 
 module.exports = new apiClient();

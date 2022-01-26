@@ -6,6 +6,8 @@ const { routes: rootRoutes } = require("./rootRoutes");
 const { routes: playerRoutes } = require("./player/routes");
 const { routes: gearRoutes } = require("./gear/routes");
 const { routes: unitRoutes } = require("./unit/routes");
+const { routes: ggRoutes } = require("./gg/routes");
+const { routes: helpRoutes } = require("./help/routes");
 
 const app = express();
 
@@ -15,5 +17,7 @@ app.use("/", rootRoutes);
 app.use("/player", playerRoutes);
 app.use("/gear", gearRoutes);
 app.use("/unit", unitRoutes);
+app.use("/gg", ggRoutes);
+app.use("/help", helpRoutes);
 
 module.exports = app;

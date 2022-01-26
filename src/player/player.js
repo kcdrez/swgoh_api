@@ -58,7 +58,7 @@ class Player {
             gear,
             stats,
             ability_data,
-            relic_tier,
+            relic_tier: relic_tier - 2,
             has_ultimate,
             xp,
             mods,
