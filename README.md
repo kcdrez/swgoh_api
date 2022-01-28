@@ -76,17 +76,8 @@ Which should result in response similar to the following:
 
 ### Local development
 
-You can invoke your function locally by using the following command:
+To run locally, run the command
 
-```bash
-serverless invoke local --function hello
-```
+`serverless offline`
 
-Which should result in response similar to the following:
-
-```
-{
-    "statusCode": 200,
-    "body": "{\n  \"message\": \"Go Serverless v2.0! Your function executed successfully!\",\n  \"input\": \"\"\n}"
-}
-```
+which will run the services on localhost:3000 by default.

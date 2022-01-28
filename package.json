@@ -10,11 +10,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.1065.0",
     "aws-serverless-express": "^3.4.0",
     "axios": "^0.24.0",
     "body-parser": "^1.19.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "moment": "^2.29.1"
+    "js-sha512": "^0.8.0",
+    "moment": "^2.29.1",
+    "serverless-http": "^2.7.0",
+    "serverless-offline": "^8.3.1"
   }
 }

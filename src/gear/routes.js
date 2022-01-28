@@ -28,6 +28,18 @@ routes.get("/refresh", async (req, res) => {
   }
 });
 
+routes.patch("/:userId", async (req, res) => {
+  const params = {
+    TableName: "usersTable",
+    Item: {
+      id: req.params.userId,
+      allyCode: req.body.allyCode,
+    },
+  };
+  await db.put(params).promise();
+  res.status(200).json({ user: params.Item });
+});
+
 module.exports = {
   routes,
 };
