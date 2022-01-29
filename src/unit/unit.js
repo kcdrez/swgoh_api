@@ -8,11 +8,10 @@ class Unit {
   expires = {};
 
   constructor() {
-    unitsList.filter(x => x.obtainable && x.id.includes(":SEVEN_STAR"))
-    .forEach(unit => {
+    unitsList.forEach((unit) => {
       this.unitMapping[unit.baseId] = unit;
       this.expires[unit.baseId] = moment().add(7, "days");
-    })
+    });
   }
 
   async fetchUnit(unitId) {
@@ -33,6 +32,10 @@ class Unit {
     delete this.unitMapping[unitId];
     delete this.expires[unitId];
     return this.fetchUnit(unitId);
+  }
+
+  async fetchAllUnits() {
+    return await helpApi.fetchAllUnits();
   }
 }
 

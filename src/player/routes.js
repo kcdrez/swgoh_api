@@ -17,6 +17,20 @@ routes.get("/refresh/:allyCode", async (req, res) => {
   }
 });
 
+routes.post("/:allyCode", async (req, res) => {
+  const { allyCode } = req.params;
+  if (!allyCode) {
+    res.status(500).json({ error: "Missing required field: allyCode" });
+  } else {
+    try {
+      await player.createUser(allyCode);
+      res.status(201).json({ success: true });
+    } catch (err) {
+      res.status(500).json({ error: err.message });
+    }
+  }
+});
+
 routes.get("/debug", async (req, res) => {
   try {
     const response = await player.debug();

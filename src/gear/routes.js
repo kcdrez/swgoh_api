@@ -1,6 +1,6 @@
 const express = require("express");
 
-const gear = require("./gear");
+const Gear = require("./gear");
 
 const routes = express.Router({
   mergeParams: true,
@@ -29,15 +29,19 @@ routes.get("/refresh", async (req, res) => {
 });
 
 routes.patch("/:userId", async (req, res) => {
-  const params = {
-    TableName: "usersTable",
-    Item: {
-      id: req.params.userId,
-      allyCode: req.body.allyCode,
-    },
-  };
-  await db.put(params).promise();
-  res.status(200).json({ user: params.Item });
+  const { gear } = req.body;
+  if (!gear) {
+    res.status(500).json({ error: "Missing required field: gear" });
+  } else {
+    try {
+      await Gear.updateGear(req.params.userId, { gear });
+      res.status(200).json({ success: true });
+    } catch (err) {
+      res.status(500).json({
+        error: err.message,
+      });
+    }
+  }
 });
 
 module.exports = {

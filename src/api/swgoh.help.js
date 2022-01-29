@@ -63,8 +63,28 @@ class apiClient {
   async fetchAllUnits() {
     const response = await this.fetch(this.baseUrl + "/swgoh/data", {
       collection: "unitsList",
+      project: {
+        id: 1,
+        thumbnailName: 1,
+        nameKey: 1,
+        descKey: 1,
+        baseId: 1,
+        unitTierList: 1,
+      },
     });
-    return response;
+    return response
+      .filter((x) => x.id.includes(":SEVEN_STAR"))
+      .map(({ unitTierList, ...x }) => {
+        return {
+          unitTierList: unitTierList.map(({ tier, equipmentSetList }) => {
+            return {
+              tier,
+              equipmentSetList,
+            };
+          }),
+          ...x,
+        };
+      });
   }
 
   async fetchGear() {

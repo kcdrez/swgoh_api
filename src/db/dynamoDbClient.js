@@ -1,5 +1,6 @@
 const { v4: uuidv4 } = require("uuid");
 const AWS = require("aws-sdk");
+const moment = require("moment");
 const sha512 = require("js-sha512");
 
 const db = new AWS.DynamoDB.DocumentClient();
@@ -18,13 +19,27 @@ class DbClient {
     return result.Item;
   }
 
-  async createUser(allyCode) {
+  async getUserByAllyCode(allyCode) {
+    const params = {
+      TableName: "usersTable",
+      FilterExpression: "contains (allyCode, :allyCode)",
+      ExpressionAttributeValues: {
+        ":allyCode": allyCode,
+      },
+    };
+    const result = await db.scan(params).promise();
+    return result.Items[0];
+  }
+
+  async createUser(allyCode, { name }) {
     const params = {
       TableName: "usersTable",
       Item: {
         id: uuidv4(),
         allyCode,
         gear: {},
+        name,
+        updatedAt: moment().unix(),
       },
     };
     await db.put(params).promise();
@@ -47,6 +62,7 @@ class DbClient {
         ":gear": gear || {},
       },
     };
+    console.log(params);
     await db.update(params).promise();
   }
 }

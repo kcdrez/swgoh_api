@@ -2,6 +2,7 @@ const moment = require("moment");
 
 const helpApi = require("../api/swgoh.help");
 const ggApi = require("../api/swgoh.gg");
+const dbClient = require("../db/dynamoDbClient");
 
 class Gear {
   gearList = [];
@@ -44,6 +45,10 @@ class Gear {
     this.gearList = [];
     this.expires.gearList = null;
     return this.fetchGear();
+  }
+
+  async updateGear(id, gearData) {
+    await dbClient.updateUser(id, gearData);
   }
 }
 
