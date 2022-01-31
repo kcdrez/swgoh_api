@@ -8,7 +8,7 @@ const routes = express.Router({
 
 routes.get("/", async (_req, res) => {
   try {
-    const gearList = await gear.fetchGear();
+    const gearList = await Gear.fetchGear();
     res.status(200).json(gearList);
   } catch (error) {
     res.status(500).json({
@@ -19,7 +19,7 @@ routes.get("/", async (_req, res) => {
 
 routes.get("/refresh", async (req, res) => {
   try {
-    const response = await gear.refresh();
+    const response = await Gear.refresh();
     res.status(200).json(response);
   } catch (error) {
     res.status(500).json({

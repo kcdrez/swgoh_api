@@ -53,6 +53,22 @@ routes.get("/:allyCode", async (req, res) => {
   }
 });
 
+routes.patch("/planner/:userId", async (req, res) => {
+  const { planner } = req.body;
+  if (!planner) {
+    res.status(500).json({ error: "Missing required field: planner" });
+  } else {
+    try {
+      await player.updatePlanner(req.params.userId, { planner });
+      res.status(200).json({ success: true });
+    } catch (err) {
+      res.status(500).json({
+        error: err.message,
+      });
+    }
+  }
+});
+
 module.exports = {
   routes,
 };

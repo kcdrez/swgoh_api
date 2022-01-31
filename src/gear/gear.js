@@ -3,42 +3,43 @@ const moment = require("moment");
 const helpApi = require("../api/swgoh.help");
 const ggApi = require("../api/swgoh.gg");
 const dbClient = require("../db/dynamoDbClient");
+const gearList = require("./seedData")
 
 class Gear {
-  gearList = [];
-  expires = {
-    gearList: null,
-  };
-
-  constructor() {}
+  constructor() { }
 
   async fetchGear() {
-    if (this.gearList.length > 0 && moment().isBefore(this.expires.gearList)) {
-      console.info("Using gear cache");
-      return this.gearList;
-    } else {
-      console.info("Fetching gear data from both APIs");
-      this.expires.gearList = moment().add(1, "days");
+    return gearList;
 
-      const helpApiGearList = helpApi.fetchGear();
-      const ggApiGearList = ggApi.fetchGear();
-      const [gearList1, gearList2] = await Promise.all([
-        helpApiGearList,
-        ggApiGearList,
-      ]);
-      const fullGearList = gearList1.map((gear) => {
-        const match = gearList2.find((x) => x.base_id === gear.id);
-        if (!match) {
-          console.error("no match", gear.id);
-          return null;
-        } else {
-          return { ...gear, ...match };
-        }
-      });
+    console.info("Fetching gear data from both APIs");
 
-      this.gearList = fullGearList;
-      return fullGearList;
-    }
+    const helpApiGearList = helpApi.fetchGear();
+    const ggApiGearList = ggApi.fetchGear();
+    const [gearList1, gearList2] = await Promise.all([
+      helpApiGearList,
+      ggApiGearList,
+    ]);
+    const fullGearList = gearList1.map(({ id, lookupMissionList, mark, tier }) => {
+      const match = gearList2.find((x) => x.base_id === id);
+      if (!match) {
+        console.error("no match", gear.id);
+        return null;
+      } else {
+        return {
+          id,
+          lookupMissionList,
+          mark,
+          tier,
+          name: match.name,
+          recipes: match.recipes,
+          image: match.image,
+          ingredients: match.ingredients,
+        };
+      }
+    });
+
+    this.gearList = fullGearList;
+    return fullGearList;
   }
 
   async refresh() {

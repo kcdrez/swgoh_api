@@ -9,7 +9,7 @@ class Player {
   playerMapping = {};
   expires = {};
 
-  constructor() {}
+  constructor() { }
 
   async fetchPlayer(allyCode) {
     const result = await dbClient.getUserByAllyCode(allyCode);
@@ -74,7 +74,15 @@ class Player {
     };
 
     if (result) {
-      player.gear = result.gear;
+      player.gear = result.gear || {};
+      player.relic = result.relic || {};
+      player.planner = result.planner || {};
+      /*
+      {
+        targetData: {},
+        unitList: []
+      }
+      */
       player.id = result.id;
     }
 
@@ -95,10 +103,8 @@ class Player {
     return await this.fetchPlayer(allyCode);
   }
 
-  async debug() {
-    const { thumbnailName, unitTierList, nameKey } = await fetchUnitData(
-      "WATTAMBOR"
-    );
+  async updatePlanner(id, plannerData) {
+    await dbClient.updateUser(id, plannerData);
   }
 }
 
