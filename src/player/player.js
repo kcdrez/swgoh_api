@@ -9,7 +9,7 @@ class Player {
   playerMapping = {};
   expires = {};
 
-  constructor() { }
+  constructor() {}
 
   async fetchPlayer(allyCode) {
     const result = await dbClient.getUserByAllyCode(allyCode);
@@ -77,12 +77,8 @@ class Player {
       player.gear = result.gear || {};
       player.relic = result.relic || {};
       player.planner = result.planner || {};
-      /*
-      {
-        targetData: {},
-        unitList: []
-      }
-      */
+      player.energyData = result.energyData || {};
+      player.teams = result.teams || [];
       player.id = result.id;
     }
 
@@ -105,6 +101,14 @@ class Player {
 
   async updatePlanner(id, plannerData) {
     await dbClient.updateUser(id, plannerData);
+  }
+
+  async updateEnergyData(id, energyData) {
+    await dbClient.updateUser(id, { energyData });
+  }
+
+  async updateTeams(id, teams) {
+    await dbClient.updateUser(id, teams);
   }
 }
 

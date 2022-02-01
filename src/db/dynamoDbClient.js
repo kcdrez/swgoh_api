@@ -6,7 +6,7 @@ const sha512 = require("js-sha512");
 const db = new AWS.DynamoDB.DocumentClient();
 
 class DbClient {
-  constructor() { }
+  constructor() {}
 
   async getUserById(id) {
     const params = {
@@ -53,27 +53,35 @@ class DbClient {
     return await db.scan(params).promise();
   }
 
-  async updateUser(id, { gear, relic, planner }) {
-    const expressions = []
-    const values = {}
+  async updateUser(id, { gear, relic, planner, energyData, teams }) {
+    const expressions = [];
+    const values = {};
     if (gear) {
-      expressions.push('gear = :gear');
+      expressions.push("gear = :gear");
       values[":gear"] = gear;
     }
     if (relic) {
-      expressions.push('relic = :relic');
+      expressions.push("relic = :relic");
       values[":relic"] = relic;
     }
     if (planner) {
-      expressions.push('planner = :planner');
+      expressions.push("planner = :planner");
       values[":planner"] = planner;
+    }
+    if (energyData) {
+      expressions.push("energyData = :energyData");
+      values[":energyData"] = energyData;
+    }
+    if (teams) {
+      expressions.push("teams = :teams");
+      values[":teams"] = teams;
     }
 
     if (expressions.length > 0) {
       const params = {
         TableName: "usersTable",
         Key: { id },
-        UpdateExpression: `SET ${expressions.join(', ')}`,
+        UpdateExpression: `SET ${expressions.join(", ")}`,
         ExpressionAttributeValues: values,
       };
       await db.update(params).promise();

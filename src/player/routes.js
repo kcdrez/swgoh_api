@@ -69,6 +69,40 @@ routes.patch("/planner/:userId", async (req, res) => {
   }
 });
 
+routes.patch("/energy/:userId", async (req, res) => {
+  const { energy, refreshes } = req.body;
+  if (!energy) {
+    res.status(500).json({ error: "Missing required field: energy" });
+  } else if (!refreshes) {
+    res.status(500).json({ error: "Missing required field: refreshes" });
+  } else {
+    try {
+      await player.updateEnergyData(req.params.userId, { energy, refreshes });
+      res.status(200).json({ success: true });
+    } catch (err) {
+      res.status(500).json({
+        error: err.message,
+      });
+    }
+  }
+});
+
+routes.patch("/teams/:userId", async (req, res) => {
+  const { teams } = req.body;
+  if (!teams) {
+    res.status(500).json({ error: "Missing required field: teams" });
+  } else {
+    try {
+      await player.updateTeams(req.params.userId, { teams });
+      res.status(200).json({ success: true });
+    } catch (err) {
+      res.status(500).json({
+        error: err.message,
+      });
+    }
+  }
+});
+
 module.exports = {
   routes,
 };
