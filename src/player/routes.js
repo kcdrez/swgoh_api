@@ -23,8 +23,8 @@ routes.post("/:allyCode", async (req, res) => {
     res.status(500).json({ error: "Missing required field: allyCode" });
   } else {
     try {
-      await player.createUser(allyCode);
-      res.status(201).json({ success: true });
+      const result = await player.createUser(allyCode);
+      res.status(201).json(result);
     } catch (err) {
       res.status(500).json({ error: err.message });
     }

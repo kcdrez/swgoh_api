@@ -91,6 +91,7 @@ class Player {
   async createUser(allyCode) {
     const { name } = await helpApi.fetchPlayer(allyCode);
     await dbClient.createUser(allyCode, { name });
+    return await this.fetchPlayer(allyCode);
   }
 
   async refresh(allyCode) {
