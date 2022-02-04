@@ -39,6 +39,17 @@ routes.get("/units", async (req, res) => {
   }
 });
 
+routes.get("/unit/:unitId", async (req, res) => {
+  try {
+    const response = await apiClient.fetchUnit(req.params.unitId);
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+    });
+  }
+});
+
 module.exports = {
   routes,
 };

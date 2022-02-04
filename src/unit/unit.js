@@ -4,39 +4,42 @@ const helpApi = require("../api/swgoh.help");
 const unitsList = require("./seedData");
 
 class Unit {
-  unitMapping = {};
-  expires = {};
-
-  constructor() {
-    unitsList.forEach((unit) => {
-      this.unitMapping[unit.baseId] = unit;
-      this.expires[unit.baseId] = moment().add(7, "days");
-    });
-  }
+  constructor() {}
 
   async fetchUnit(unitId) {
     unitId = unitId.toUpperCase();
-    if (!!this.unitMapping[unitId] && moment().isBefore(this.expires[unitId])) {
+
+    const match = unitsList.find((x) => x.baseId === unitId);
+    if (match) {
       console.info("Using unit cache", unitId);
-      return this.unitMapping[unitId];
+      return mapUnit(match);
     } else {
       console.info("Fetching unit data from help API", unitId);
-      this.expires[unitId] = moment().add(7, "days");
       const unit = await helpApi.fetchUnit(unitId);
-      this.unitMapping[unitId] = unit;
-      return unit;
+      return mapUnit(unit);
     }
   }
 
   async refresh(unitId) {
-    delete this.unitMapping[unitId];
-    delete this.expires[unitId];
     return this.fetchUnit(unitId);
+  }
+
+  getAllUnits() {
+    return unitsList.map(mapUnit);
   }
 
   async fetchAllUnits() {
     return await helpApi.fetchAllUnits();
   }
+}
+
+function mapUnit({ thumbnailName, baseId: id, nameKey: name, unitTierList }) {
+  return {
+    thumbnailName,
+    id,
+    name,
+    unitTierList,
+  };
 }
 
 module.exports = new Unit();

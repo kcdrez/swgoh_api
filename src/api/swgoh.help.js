@@ -70,10 +70,23 @@ class apiClient {
         descKey: 1,
         baseId: 1,
         unitTierList: 1,
+        obtainable: 1,
       },
     });
     return response
-      .filter((x) => x.id.includes(":SEVEN_STAR"))
+      .filter((x) => {
+        return (
+          x.id.includes(":SEVEN_STAR") &&
+          x.obtainable &&
+          !x.id.includes("_EVENT") &&
+          !x.id.includes("_MARQUEE") &&
+          !x.id.includes("_GLE") &&
+          !x.id.includes("JKL_PILOT") &&
+          !x.id.includes("_LEGACYEVENT") &&
+          !x.id.includes("_DUEL") &&
+          !x.id.includes("_tb")
+        );
+      })
       .map(({ unitTierList, ...x }) => {
         return {
           unitTierList: unitTierList.map(({ tier, equipmentSetList }) => {

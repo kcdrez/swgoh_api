@@ -6,16 +6,8 @@ module.exports = [
     nameKey: "Emperor's Shuttle",
     descKey:
       "Versatile Support that boosts Empire and Sith survivability while debuffing enemies",
+    obtainable: true,
     baseId: "EMPERORSSHUTTLE",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "affiliation_empire",
-      "profession_sith",
-      "selftag_emperorsshuttle",
-      "any_obtainable",
-      "gac_wantthemalive",
-    ],
   },
   {
     unitTierList: [
@@ -83,18 +75,8 @@ module.exports = [
     thumbnailName: "tex.charui_bb_echo",
     nameKey: "Echo",
     descKey: "Loyal Clone Trooper who supports his allies in battle",
+    obtainable: true,
     baseId: "BADBATCHECHO",
-    categoryIdList: [
-      "selftag_badbatchecho",
-      "alignment_light",
-      "role_support",
-      "affiliation_badbatch",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "any_obtainable",
-      "territory_geonosis_republic",
-      "gac_riskymission",
-    ],
   },
   {
     unitTierList: [
@@ -162,24 +144,8 @@ module.exports = [
     thumbnailName: "tex.charui_quigon",
     nameKey: "Qui-Gon Jinn",
     descKey: "Versatile attacker focused on generating extra attacks.",
+    obtainable: true,
     baseId: "QUIGONJINN",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_republic",
-      "longitudinally_implemented",
-      "selftag_quigonjinn",
-      "any_obtainable",
-      "affiliation_galactic_republic_jedi",
-      "non_viable_leader",
-      "gac_succession",
-      "gac_handlethis",
-      "gac_dontlookback",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -247,92 +213,8 @@ module.exports = [
     thumbnailName: "tex.charui_rose",
     nameKey: "Rose Tico",
     descKey: "A brave Resistance Attacker who can Stun and grant allies buffs.",
+    obtainable: true,
     baseId: "ROSETICO",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "affiliation_resistance",
-      "selftag_rosetico",
-      "any_obtainable",
-      "territory_light_platoon",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["006", "001", "011", "003", "002", "006"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["006", "013", "017", "022", "028", "029"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["034", "049", "053", "056", "058", "062"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["048", "057", "076", "069", "074", "078"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["048", "062", "086", "093", "089", "084"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["076", "078", "082", "086", "091", "092"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["076", "091", "092", "113", "106", "104"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["102", "097", "104", "113", "118", "112"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["110", "113", "112", "118", "125", "116"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["119", "102", "117", "120", "135", "144"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["117", "129", "131", "131", "142", "144"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "165",
-          "165",
-          "158",
-          "168",
-          "168",
-          "G12Finisher_GRIEVOUS_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "GRIEVOUS_MARQUEE:SEVEN_STAR",
-    thumbnailName: "tex.charui_grievous",
-    nameKey: "General Grievous",
-    descKey:
-      "Aggressive Attacker that grows increasingly stronger as the Droids around him fall. Although he hates being called a droid, he counts as one in combat.",
-    baseId: "GRIEVOUS_MARQUEE",
-    categoryIdList: [
-      "alignment_dark",
-      "species_droid",
-      "role_attacker",
-      "affiliation_separatist",
-      "affiliation_separatist_droid",
-      "role_leader",
-    ],
   },
   {
     unitTierList: [
@@ -401,21 +283,8 @@ module.exports = [
     nameKey: "Lobot",
     descKey:
       "Rebel Support that can reliably inflict Defense Down, clear allied debuffs, and speed up allied Droids",
+    obtainable: true,
     baseId: "LOBOT",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "specialmission_corerebels",
-      "species_human",
-      "selftag_lobot",
-      "any_obtainable",
-      "gac_hadnochoice",
-      "gac_landolobot",
-      "gac_alltooeasy",
-    ],
   },
   {
     unitTierList: [
@@ -484,16 +353,8 @@ module.exports = [
     nameKey: "Amilyn Holdo",
     descKey:
       "Seasoned Resistance Tank with powerful ally support and enemy debuffs",
+    obtainable: true,
     baseId: "AMILYNHOLDO",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "affiliation_resistance",
-      "selftag_amilynholdo",
-      "any_obtainable",
-      "territory_light_platoon",
-      "character_fleetcommander",
-    ],
   },
   {
     unitTierList: [],
@@ -502,16 +363,8 @@ module.exports = [
     nameKey: "Negotiator",
     descKey:
       "Offensive Jedi Capital Ship that uses Valor to bolster ally attacks and increase its Speed",
+    obtainable: true,
     baseId: "CAPITALNEGOTIATOR",
-    categoryIdList: [
-      "alignment_light",
-      "role_capital",
-      "affiliation_republic",
-      "profession_jedi",
-      "selftag_capitalnegotiator",
-      "any_obtainable",
-      "shipclass_capitalship",
-    ],
   },
   {
     unitTierList: [
@@ -579,15 +432,8 @@ module.exports = [
     thumbnailName: "tex.charui_ewok_chief",
     nameKey: "Ewok Elder",
     descKey: "Ewok Healer that specializes in Revives",
+    obtainable: true,
     baseId: "EWOKELDER",
-    categoryIdList: [
-      "alignment_light",
-      "role_healer",
-      "territory_light_platoon",
-      "species_ewok",
-      "selftag_ewokelder",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -656,22 +502,8 @@ module.exports = [
     nameKey: "Plo Koon",
     descKey:
       "Jedi Tank with Clone synergy, reliable enemy Dispel and anti-Stealth",
+    obtainable: true,
     baseId: "PLOKOON",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_republic",
-      "selftag_plokoon",
-      "any_obtainable",
-      "affiliation_galactic_republic_jedi",
-      "non_viable_leader",
-      "gac_jedigenerals",
-      "gac_jedicouncil",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [],
@@ -680,16 +512,8 @@ module.exports = [
     nameKey: "Sun Fac's Geonosian Starfighter",
     descKey:
       "Punishing Separatist Tank that automatically Taunts against buffed enemies",
+    obtainable: true,
     baseId: "GEONOSIANSTARFIGHTER1",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "territory_ship_platoon",
-      "selftag_geonosianstarfighter1",
-      "affiliation_separatist",
-      "species_geonosian",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -758,24 +582,8 @@ module.exports = [
     nameKey: "ARC Trooper",
     descKey:
       "Powerful Clone Attacker that can command a Blaster Turret on the battlefield",
+    obtainable: true,
     baseId: "ARCTROOPER501ST",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "affiliation_501st",
-      "affiliation_501st_visible",
-      "affiliation_501st_clone",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "any_obtainable",
-      "territory_light_platoon",
-      "selftag_arctrooper501st",
-      "territory_geonosis_republic",
-      "affiliation_order66",
-      "SOE_summoner",
-      "gac_experience",
-      "gac_herooftherepublic",
-    ],
   },
   {
     unitTierList: [],
@@ -784,16 +592,8 @@ module.exports = [
     nameKey: "Geonosian Soldier's Starfighter",
     descKey:
       "Aggressive Separatist Attacker that can Assist allies automatically",
+    obtainable: true,
     baseId: "GEONOSIANSTARFIGHTER2",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "territory_ship_platoon",
-      "affiliation_separatist",
-      "species_geonosian",
-      "selftag_geonosianstarfighter2",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -862,17 +662,8 @@ module.exports = [
     nameKey: "Geonosian Spy",
     descKey:
       "Stealthy Geonosian Attacker who Exposes enemies and has high damage potential",
+    obtainable: true,
     baseId: "GEONOSIANSPY",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "species_geonosian",
-      "affiliation_separatist",
-      "selftag_geonosianspy",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "longitudinally_implemented",
-    ],
   },
   {
     unitTierList: [],
@@ -881,16 +672,8 @@ module.exports = [
     nameKey: "Geonosian Spy's Starfighter",
     descKey:
       "Elusive Separatist Attacker that uses Stealth for both offense and defense",
+    obtainable: true,
     baseId: "GEONOSIANSTARFIGHTER3",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "territory_ship_platoon",
-      "selftag_geonosianstarfighter3",
-      "affiliation_separatist",
-      "species_geonosian",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -959,18 +742,8 @@ module.exports = [
     nameKey: "First Order TIE Pilot",
     descKey:
       "First Order attacker that can deal extreme damage in a single turn with Advantage",
+    obtainable: true,
     baseId: "FIRSTORDERTIEPILOT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_firstorder",
-      "species_human",
-      "selftag_firstordertiepilot",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "affiliation_fomilitary",
-      "gac_tiepilot",
-    ],
   },
   {
     unitTierList: [
@@ -1039,21 +812,8 @@ module.exports = [
     nameKey: "BB-8",
     descKey:
       "Persistent Resistance Droid who empowers allies by circulating Secret Intel",
+    obtainable: true,
     baseId: "BB8",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "species_droid",
-      "affiliation_resistance",
-      "selftag_bb8",
-      "any_obtainable",
-      "territory_light_platoon",
-      "platoon_legendary_light",
-      "platoon_legendary_restricted",
-      "gac_droidpilot",
-      "gc_light_droid",
-      "gac_loyaldroid",
-    ],
   },
   {
     unitTierList: [
@@ -1122,15 +882,8 @@ module.exports = [
     nameKey: "Logray",
     descKey:
       "Sage Ewok Support who can Daze enemies and grant Ewok allies many buffs",
+    obtainable: true,
     baseId: "LOGRAY",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "territory_light_platoon",
-      "species_ewok",
-      "selftag_logray",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -1199,17 +952,8 @@ module.exports = [
     nameKey: "URoRRuR'R'R",
     descKey:
       "Tusken Support that can Stun frequently and speed up Tuskens for surprise attacks",
+    obtainable: true,
     baseId: "URORRURRR",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "longitudinally_implemented",
-      "species_tusken",
-      "selftag_urorrurrr",
-      "any_obtainable",
-      "territory_dark_platoon",
-    ],
   },
   {
     unitTierList: [
@@ -1277,16 +1021,8 @@ module.exports = [
     thumbnailName: "tex.charui_mission",
     nameKey: "Mission Vao",
     descKey: "Slippery Scoundrel Attacker who blinds her enemies",
+    obtainable: true,
     baseId: "MISSIONVAO",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "affiliation_oldrepublic",
-      "profession_scoundrel",
-      "selftag_missionvao",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [],
@@ -1295,17 +1031,8 @@ module.exports = [
     nameKey: "Resistance X-wing",
     descKey:
       "Aggressive Resistance Support that shuts down enemies with Expose, Target Lock, and Daze",
+    obtainable: true,
     baseId: "XWINGRESISTANCE",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "territory_ship_platoon",
-      "affiliation_resistance",
-      "unit_xwing",
-      "selftag_xwingresistance",
-      "any_obtainable",
-      "affiliation_resistancexwings",
-    ],
   },
   {
     unitTierList: [
@@ -1373,22 +1100,8 @@ module.exports = [
     thumbnailName: "tex.charui_luminara",
     nameKey: "Luminara Unduli",
     descKey: "Versatile attacker with ability block and powerful party heal.",
+    obtainable: true,
     baseId: "LUMINARAUNDULI",
-    categoryIdList: [
-      "alignment_light",
-      "role_healer",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_republic",
-      "selftag_luminaraunduli",
-      "any_obtainable",
-      "affiliation_galactic_republic_jedi",
-      "non_viable_leader",
-      "gac_forcefully",
-      "gac_jedigenerals",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -1457,15 +1170,8 @@ module.exports = [
     nameKey: "Starkiller",
     descKey:
       "A powerful Dark Side Force User whose inner conflict lifts up other Force Users",
+    obtainable: true,
     baseId: "STARKILLER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "any_obtainable",
-      "selftag_starkiller",
-      "unaligned_force_user",
-      "territory_dark_platoon",
-    ],
   },
   {
     unitTierList: [],
@@ -1473,18 +1179,8 @@ module.exports = [
     thumbnailName: "tex.charui_houndstooth",
     nameKey: "Hound's Tooth",
     descKey: "Sustainable Bounty Hunter Tank that debilitates enemies",
+    obtainable: true,
     baseId: "HOUNDSTOOTH",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "profession_bountyhunter",
-      "profession_scoundrel",
-      "selftag_houndstooth",
-      "any_obtainable",
-      "territory_ship_platoon",
-      "shipclass_cargoship",
-      "gac_wantthemalive",
-    ],
   },
   {
     unitTierList: [],
@@ -1492,16 +1188,8 @@ module.exports = [
     thumbnailName: "tex.charui_arc170",
     nameKey: "Clone Sergeant's ARC-170",
     descKey: "Reliable Clone Tank that both inflicts and exploits Target Lock",
+    obtainable: true,
     baseId: "ARC170CLONESERGEANT",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_ship_platoon",
-      "affiliation_republic",
-      "profession_clonetrooper",
-      "selftag_arc170clonesergeant",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -1570,21 +1258,8 @@ module.exports = [
     nameKey: "Sith Eternal Emperor",
     descKey:
       "Cunning Emperor of the Sith that eliminates his enemies with the overwhelming power of the dark side",
+    obtainable: true,
     baseId: "SITHPALPATINE",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "galactic_legend",
-      "percent_health_resistant",
-      "reduced_massive_damage",
-      "profession_sith",
-      "affiliation_sithlord",
-      "affiliation_palp",
-      "selftag_sithpalpatine",
-      "any_obtainable",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -1652,15 +1327,8 @@ module.exports = [
     thumbnailName: "tex.charui_ewok_wicket",
     nameKey: "Wicket",
     descKey: "Jittery Ewok Attacker with Critical Hit and Stealth synergies",
+    obtainable: true,
     baseId: "WICKET",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "species_ewok",
-      "selftag_wicket",
-      "any_obtainable",
-      "territory_light_platoon",
-    ],
   },
   {
     unitTierList: [],
@@ -1669,18 +1337,8 @@ module.exports = [
     nameKey: "First Order TIE Fighter",
     descKey:
       "Aggressive First Order Attacker with reliable Target Lock and rapid-fire Special ability",
+    obtainable: true,
     baseId: "TIEFIGHTERFIRSTORDER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "territory_ship_platoon",
-      "selftag_tiefighterfirstorder",
-      "affiliation_firstorder",
-      "any_obtainable",
-      "affiliation_foties",
-      "gac_tie",
-      "gac_tiefighter",
-    ],
   },
   {
     unitTierList: [],
@@ -1688,16 +1346,8 @@ module.exports = [
     thumbnailName: "tex.charui_jedi_fighter",
     nameKey: "Jedi Consular's Starfighter",
     descKey: "Defensive Jedi Support that can rapidly restore ally Protection",
+    obtainable: true,
     baseId: "JEDISTARFIGHTERCONSULAR",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "territory_ship_platoon",
-      "selftag_jedistarfighterconsular",
-      "affiliation_republic",
-      "any_obtainable",
-      "profession_jedi",
-    ],
   },
   {
     unitTierList: [
@@ -1765,24 +1415,8 @@ module.exports = [
     thumbnailName: "tex.charui_chewbacca_ot",
     nameKey: "Chewbacca",
     descKey: "Mighty Rebel Attacker who Guards the weakest ally",
+    obtainable: true,
     baseId: "CHEWBACCALEGENDARY",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "profession_scoundrel",
-      "profession_smuggler",
-      "selftag_chewbaccalegendary",
-      "any_obtainable",
-      "species_wookiee",
-      "affiliation_rebels",
-      "affiliation_smuggled",
-      "affiliation_rebfalconcrew",
-      "gac_millenniumco-pilot",
-      "gac_hothvet",
-      "gac_rolochewie",
-      "gac_hadnochoice",
-      "gac_tk421",
-    ],
   },
   {
     unitTierList: [
@@ -1851,29 +1485,8 @@ module.exports = [
     nameKey: "Ahsoka Tano",
     descKey:
       "Versatile Attacker who constantly assists while healing and dispelling",
+    obtainable: true,
     baseId: "AHSOKATANO",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_republic",
-      "selftag_ahsokatano",
-      "any_obtainable",
-      "affiliation_501st",
-      "affiliation_501st_visible",
-      "affiliation_galactic_republic_jedi",
-      "territory_geonosis_republic",
-      "non_viable_leader",
-      "gac_succession",
-      "gac_experience",
-      "gac_ahsokasjourney",
-      "gac_desperateescape",
-      "gac_diversion",
-      "gac_herooftherepublic",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -1941,17 +1554,8 @@ module.exports = [
     thumbnailName: "tex.charui_wattambor",
     nameKey: "Wat Tambor",
     descKey: "Separatist Support who distributes powerful Tech to his allies",
+    obtainable: true,
     baseId: "WATTAMBOR",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "any_obtainable",
-      "affiliation_separatist",
-      "selftag_wattambor",
-      "category_pacifist",
-      "territory_geonosis_separatist",
-      "gac_algorithm",
-    ],
   },
   {
     unitTierList: [
@@ -2020,20 +1624,8 @@ module.exports = [
     nameKey: "Darth Nihilus",
     descKey:
       "Sith Support that can instantly defeat enemies by draining cooldowns",
+    obtainable: true,
     baseId: "DARTHNIHILUS",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "profession_sith",
-      "selftag_darthnihilus",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "quest_darthnihilus",
-      "affiliation_sithlord",
-      "non_viable_leader",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [],
@@ -2042,17 +1634,8 @@ module.exports = [
     nameKey: "Malevolence",
     descKey:
       "Separatist Capital Ship that powers up both Separatists and Droids and has the means to shut down entire enemy fleets.",
+    obtainable: true,
     baseId: "CAPITALMALEVOLENCE",
-    categoryIdList: [
-      "alignment_dark",
-      "role_capital",
-      "species_droid",
-      "affiliation_separatist",
-      "selftag_capitalmalevolence",
-      "any_obtainable",
-      "shipclass_capitalship",
-      "exclude_from_tb_mission",
-    ],
   },
   {
     unitTierList: [
@@ -2121,16 +1704,8 @@ module.exports = [
     nameKey: "General Hux",
     descKey:
       "Ruthless First Order Support that can prevent enemies from counterattacking.",
+    obtainable: true,
     baseId: "GENERALHUX",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "affiliation_firstorder",
-      "selftag_generalhux",
-      "any_obtainable",
-      "character_fleetcommander",
-    ],
   },
   {
     unitTierList: [],
@@ -2138,84 +1713,8 @@ module.exports = [
     thumbnailName: "tex.charui_sithfighter",
     nameKey: "Sith Fighter",
     descKey: "Agile Sith Attacker that bypasses enemy defenses",
+    obtainable: true,
     baseId: "SITHFIGHTER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "selftag_sithfighter",
-      "any_obtainable",
-      "profession_sith",
-      "territory_ship_platoon",
-      "affiliation_sithempire",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "KYLOREN_DUEL:SEVEN_STAR",
-    thumbnailName: "tex.charui_kyloren_tros",
-    nameKey: "Supreme Leader Kylo Ren",
-    descKey:
-      "This duelist has special abilities used only in this battle. This character isn't obtainable, and can't be used outside of this battle.",
-    baseId: "KYLOREN_DUEL",
-    categoryIdList: [
-      "alignment_dark",
-      "role_none",
-      "affiliation_firstorder",
-      "selftag_kyloren_duel",
-    ],
   },
   {
     unitTierList: [],
@@ -2224,17 +1723,8 @@ module.exports = [
     nameKey: "Xanadu Blood",
     descKey:
       "Debilitating Bounty Hunter Support that shuts down enemy offenses",
+    obtainable: true,
     baseId: "XANADUBLOOD",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "profession_bountyhunter",
-      "profession_scoundrel",
-      "selftag_xanadublood",
-      "any_obtainable",
-      "territory_ship_platoon",
-      "gac_wantthemalive",
-    ],
   },
   {
     unitTierList: [],
@@ -2243,15 +1733,8 @@ module.exports = [
     nameKey: "Chimaera",
     descKey:
       "Tactical Empire Capital Ship that shuts down enemy Capital Ships and manipulates the flow of battle",
+    obtainable: true,
     baseId: "CAPITALCHIMAERA",
-    categoryIdList: [
-      "alignment_dark",
-      "role_capital",
-      "affiliation_empire",
-      "selftag_capitalchimaera",
-      "any_obtainable",
-      "shipclass_capitalship",
-    ],
   },
   {
     unitTierList: [
@@ -2319,18 +1802,8 @@ module.exports = [
     thumbnailName: "tex.charui_darthmalak",
     nameKey: "Darth Malak",
     descKey: "Brutal Sith Tank who terrorizes and drains enemies to stay alive",
+    obtainable: true,
     baseId: "DARTHMALAK",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "profession_sith",
-      "affiliation_sithempire",
-      "selftag_darthmalak",
-      "percent_health_resistant",
-      "any_obtainable",
-      "affiliation_sithlord",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -2399,15 +1872,8 @@ module.exports = [
     nameKey: "Resistance Hero Poe",
     descKey:
       "Offensive Attacker who overpowers his enemies with debilitating effects",
+    obtainable: true,
     baseId: "EPIXPOE",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "any_obtainable",
-      "affiliation_resistance",
-      "selftag_epixpoe",
-      "affiliation_resfalconcrew",
-    ],
   },
   {
     unitTierList: [
@@ -2475,20 +1941,8 @@ module.exports = [
     thumbnailName: "tex.charui_rebelpilot_biggs",
     nameKey: "Biggs Darklighter",
     descKey: "Rebel Support with Critical Hit synergies who calls Assists",
+    obtainable: true,
     baseId: "BIGGSDARKLIGHTER",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "specialmission_corerebels",
-      "selftag_biggsdarklighter",
-      "any_obtainable",
-      "gac_rebelpilot",
-      "gac_wingmate",
-      "gac_trench",
-    ],
   },
   {
     unitTierList: [
@@ -2557,82 +2011,8 @@ module.exports = [
     nameKey: "Jolee Bindo",
     descKey:
       "Potent Jedi Healer with high durability and resistance to disruption",
+    obtainable: true,
     baseId: "JOLEEBINDO",
-    categoryIdList: [
-      "alignment_light",
-      "role_healer",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_oldrepublic",
-      "selftag_joleebindo",
-      "any_obtainable",
-      "gac_oldrep",
-      "conq_hokey_religion",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "001", "001", "001", "001", "001"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["001", "001", "001", "001", "001", "001"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["001", "001", "001", "001", "001", "001"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["001", "001", "001", "001", "001", "001"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["001", "001", "001", "001", "001", "001"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["001", "001", "001", "001", "001", "001"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["001", "001", "001", "001", "001", "001"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["001", "001", "001", "001", "001", "001"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["001", "001", "001", "001", "001", "001"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["001", "001", "001", "001", "001", "001"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["001", "001", "001", "001", "001", "001"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: ["001", "001", "001", "001", "001", "001"],
-      },
-    ],
-    id: "R2D2:SEVEN_STAR",
-    thumbnailName: "tex.charui_astromech_r2d2",
-    nameKey: "R2-D2",
-    descKey:
-      "Versatile Support Droid that protects allies by improving both their buffs and debuffs",
-    baseId: "R2D2",
-    categoryIdList: [
-      "alignment_light",
-      "affiliation_rebels",
-      "species_droid",
-      "role_support",
-    ],
   },
   {
     unitTierList: [
@@ -2700,19 +2080,8 @@ module.exports = [
     thumbnailName: "tex.charui_trooperclonegreen",
     nameKey: "Clone Sergeant - Phase I",
     descKey: "Clone Attacker with AoE damage and Turn Meter Reduction",
+    obtainable: true,
     baseId: "CLONESERGEANTPHASEI",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "species_human",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "selftag_clonesergeantphase1",
-      "any_obtainable",
-      "affiliation_order66",
-      "gac_servantoftheempire",
-    ],
   },
   {
     unitTierList: [
@@ -2781,16 +2150,8 @@ module.exports = [
     nameKey: "Teebo",
     descKey:
       "Ewok stealth character with stealth synergies and some control ability.",
+    obtainable: true,
     baseId: "TEEBO",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "territory_light_platoon",
-      "species_ewok",
-      "selftag_teebo",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -2858,165 +2219,8 @@ module.exports = [
     thumbnailName: "tex.charui_chewbacca",
     nameKey: "Clone Wars Chewbacca",
     descKey: "Durable Tank with both Taunt and self-Healing",
+    obtainable: true,
     baseId: "CLONEWARSCHEWBACCA",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_scoundrel",
-      "affiliation_republic",
-      "selftag_clonewarschewbacca",
-      "any_obtainable",
-      "species_wookiee",
-      "non_viable_leader",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "005", "011", "010", "003", "007"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["034", "026", "032", "028", "021", "018"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["055", "061", "029", "038", "036", "016"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["064", "074", "076", "056", "050", "023"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["084", "064", "081", "068", "076", "024"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["097", "092", "101", "091", "079", "089"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["113", "109", "104", "097", "092", "091"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["118", "112", "091", "108", "117", "086"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["121", "125", "114", "112", "113", "101"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["139", "138", "117", "109", "136", "107"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["117", "144", "9999", "144", "107", "9999"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "138", "9999"],
-      },
-    ],
-    id: "IMPERIALSCOUTDROID:SEVEN_STAR",
-    thumbnailName: "tex.charui_probedroid",
-    nameKey: "Imperial Probe Droid",
-    descKey:
-      "Versatile Empire Droid Support that can dispel Stealth, boost speed, and Self-Destruct for heavy damage",
-    baseId: "IMPERIALSCOUTDROID",
-    categoryIdList: [
-      "alignment_dark",
-      "affiliation_empire",
-      "species_droid",
-      "selftag_imperialscoutdroid",
-      "role_support",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["007", "007", "003", "008", "011", "010"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["025", "030", "014", "018", "028", "027"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["034", "014", "027", "041", "069", "049"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["068", "022", "037", "068", "049", "082"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["089", "065", "070", "015", "072", "088"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["070", "041", "041", "047", "073", "090"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["018", "068", "070", "054", "083", "107"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["095", "054", "117", "098", "098", "111"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["105", "095", "172", "098", "114", "125"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["173", "117", "172", "083", "114", "144"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["129", "127", "146", "132", "137", "143"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "163",
-          "162",
-          "161",
-          "168",
-          "169",
-          "G12Finisher_BADBATCHTECH_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "BADBATCHTECH_GLE:SEVEN_STAR",
-    thumbnailName: "tex.charui_bb_tech",
-    nameKey: "Tech",
-    descKey:
-      "Stealthy support character that gives Translation to other Clone Troopers and applies Target Lock to enemies.",
-    baseId: "BADBATCHTECH_GLE",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "any_obtainable",
-      "affiliation_badbatch",
-      "affiliation_501st",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "profession_translator",
-      "selftag_badbatchtech",
-      "gac_riskymission",
-    ],
   },
   {
     unitTierList: [
@@ -3085,17 +2289,8 @@ module.exports = [
     nameKey: "Royal Guard",
     descKey:
       "Versatile Empire Tank that punishes enemies for attacking other allies",
+    obtainable: true,
     baseId: "ROYALGUARD",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "affiliation_empire",
-      "selftag_royalguard",
-      "longitudinally_implemented",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_empire",
-    ],
   },
   {
     unitTierList: [],
@@ -3104,16 +2299,8 @@ module.exports = [
     nameKey: "B-28 Extinction-class Bomber",
     descKey:
       "Aggressive Sith Tank with a passive Taunt and self-preservation tactics",
+    obtainable: true,
     baseId: "SITHBOMBER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "selftag_sithbomber",
-      "any_obtainable",
-      "profession_sith",
-      "territory_ship_platoon",
-      "affiliation_sithempire",
-    ],
   },
   {
     unitTierList: [
@@ -3182,190 +2369,8 @@ module.exports = [
     nameKey: "Lord Vader",
     descKey:
       "Legendary Sith Lord who utilizes the actions of others to empower his own potential and is not to be underestimated",
+    obtainable: true,
     baseId: "LORDVADER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "galactic_legend",
-      "species_human",
-      "affiliation_empire",
-      "profession_sith",
-      "percent_health_resistant",
-      "reduced_massive_damage",
-      "any_obtainable",
-      "selftag_lordvader",
-      "gac_thechosenone",
-      "conq_hokey_religion",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["006", "004", "007", "008", "011", "015"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["010", "003", "012", "017", "031", "027"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["021", "014", "017", "037", "050", "055"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["069", "044", "058", "068", "047", "078"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["043", "048", "052", "056", "077", "079"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["017", "047", "056", "072", "088", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["061", "076", "081", "091", "100", "113"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["053", "056", "089", "096", "110", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["038", "089", "100", "109", "125", "115"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["116", "118", "109", "064", "060", "071"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["124", "140", "150", "108", "104", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "165",
-          "162",
-          "164",
-          "171",
-          "168",
-          "G12Finisher_ADMINISTRATORLANDO_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "ADMINISTRATORLANDO_GL_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_landobespin",
-    nameKey: "Lando Calrissian",
-    descKey:
-      "Scoundrel leader with high offense and excellent Critical Hit synergy",
-    baseId: "ADMINISTRATORLANDO_GL_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_scoundrel",
-      "species_human",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "specialmission_corerebels",
-      "selftag_administratorlando",
-      "affiliation_sabacc",
-      "affiliation_rebfalconcrew",
-      "gac_rebelpilot",
-      "gac_oldsmoothie",
-      "gac_hadnochoice",
-      "gac_landolobot",
-      "non_viable_leader",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["006", "006", "010", "001", "003", "001"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["034", "026", "029", "017", "011", "012"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["049", "056", "034", "053", "069", "057"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["069", "049", "081", "074", "024", "036"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["069", "084", "079", "081", "024", "040"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["097", "089", "049", "092", "101", "048"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["108", "106", "087", "101", "091", "102"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["109", "108", "113", "172", "117", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["092", "113", "113", "117", "119", "125"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["103", "116", "129", "138", "173", "139"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["135", "149", "138", "142", "141", "145"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "160",
-          "165",
-          "170",
-          "171",
-          "G12Finisher_THEMANDALORIAN_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "THEMANDALORIAN_JOURNEY_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_mandalorian",
-    nameKey: "The Mandalorian",
-    descKey:
-      "Powerful Mandalorian bounty hunter who relies on critical hits to overwhelm his enemies",
-    baseId: "THEMANDALORIAN_JOURNEY_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "profession_bountyhunter",
-      "profession_scoundrel",
-      "any_obtainable",
-      "selftag_themandalorian",
-      "gac_theguild",
-      "gac_identity",
-    ],
   },
   {
     unitTierList: [
@@ -3434,15 +2439,8 @@ module.exports = [
     nameKey: "Jawa Scavenger",
     descKey:
       "Versatile Jawa Support who can detonate Thermal Detonators to inflict a large variety of status effects",
+    obtainable: true,
     baseId: "JAWASCAVENGER",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "territory_light_platoon",
-      "species_jawa",
-      "selftag_jawascavenger",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -3510,20 +2508,8 @@ module.exports = [
     thumbnailName: "tex.charui_aurrasing",
     nameKey: "Aurra Sing",
     descKey: "Deadly Bounty Hunter that has increased damage while Stealthed",
+    obtainable: true,
     baseId: "AURRA_SING",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "profession_bountyhunter",
-      "profession_scoundrel",
-      "selftag_aurrasing",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_bountyhunter",
-      "gac_whateverittakes",
-      "gac_revenge",
-    ],
   },
   {
     unitTierList: [],
@@ -3532,94 +2518,8 @@ module.exports = [
     nameKey: "TIE Silencer",
     descKey:
       "Superior First Order Attacker that gains unlimited speed and deals massive damage",
+    obtainable: true,
     baseId: "TIESILENCER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_firstorder",
-      "selftag_tiesilencer",
-      "any_obtainable",
-      "territory_ship_platoon",
-      "territory_rare_ship_platoon",
-      "gac_tie",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["006", "006", "010", "001", "003", "001"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["034", "026", "029", "017", "011", "012"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["049", "056", "034", "053", "069", "057"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["069", "049", "081", "074", "024", "036"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["069", "084", "079", "081", "024", "040"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["097", "089", "049", "092", "101", "048"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["108", "106", "087", "101", "091", "102"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["109", "108", "113", "172", "117", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["092", "173", "113", "117", "119", "125"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["103", "116", "129", "138", "173", "139"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["172", "149", "138", "142", "141", "145"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "160",
-          "165",
-          "170",
-          "171",
-          "G12Finisher_STARKILLER_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "STARKILLER_LEGACYEVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_starkiller",
-    nameKey: "Starkiller",
-    descKey:
-      "A powerful Dark Side Force User whose inner conflict lifts up other Force Users",
-    baseId: "STARKILLER_LEGACYEVENT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "any_obtainable",
-      "selftag_starkiller",
-      "unaligned_force_user",
-      "territory_dark_platoon",
-    ],
   },
   {
     unitTierList: [
@@ -3688,22 +2588,8 @@ module.exports = [
     nameKey: "Cad Bane",
     descKey:
       "Bounty Hunter Support with a powerful Stun and bonuses against Jedi characters",
+    obtainable: true,
     baseId: "CADBANE",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "longitudinally_implemented",
-      "profession_scoundrel",
-      "profession_bountyhunter",
-      "selftag_cadbane",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_bountyhunter",
-      "non_viable_leader",
-      "gac_thebox",
-      "gac_revenge",
-    ],
   },
   {
     unitTierList: [
@@ -3772,21 +2658,8 @@ module.exports = [
     nameKey: "Captain Phasma",
     descKey:
       "High-damage First Order support that can grant allies many extra attacks",
+    obtainable: true,
     baseId: "PHASMA",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "affiliation_firstorder",
-      "species_human",
-      "selftag_phasma",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "affiliation_fomilitary",
-      "affiliation_foexecutionsquad",
-      "gac_fostormtrooper",
-      "non_viable_leader",
-    ],
   },
   {
     unitTierList: [
@@ -3855,22 +2728,8 @@ module.exports = [
     nameKey: "Finn",
     descKey:
       "Resistance tank that keeps the pressure up with a balance between offense and defense",
+    obtainable: true,
     baseId: "FINN",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "territory_light_platoon",
-      "affiliation_resistance",
-      "species_human",
-      "selftag_finn",
-      "any_obtainable",
-      "affiliation_gacs2fireteam",
-      "affiliation_jacket",
-      "affiliation_el16",
-      "gac_millenniumco-pilot",
-      "non_viable_leader",
-    ],
   },
   {
     unitTierList: [
@@ -3939,17 +2798,8 @@ module.exports = [
     nameKey: "Resistance Trooper",
     descKey:
       "Opportunistic Resistance attacker that can deal heavy damage to debuffed enemies",
+    obtainable: true,
     baseId: "RESISTANCETROOPER",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "affiliation_resistance",
-      "species_human",
-      "selftag_resistancetrooper",
-      "any_obtainable",
-      "affiliation_el16",
-    ],
   },
   {
     unitTierList: [
@@ -4018,18 +2868,8 @@ module.exports = [
     nameKey: "Nute Gunray",
     descKey:
       "Separatist Support who specializes in sabotaging enemy strategies",
+    obtainable: true,
     baseId: "NUTEGUNRAY",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "profession_scoundrel",
-      "affiliation_separatist",
-      "selftag_nutegunray",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "territory_geonosis_separatist",
-    ],
   },
   {
     unitTierList: [],
@@ -4038,18 +2878,8 @@ module.exports = [
     nameKey: "TIE Reaper",
     descKey:
       "Defensive Empire Support that Dispels, delays cooldowns, and removes Turn Meter from the enemy Capital Ship",
+    obtainable: true,
     baseId: "TIEREAPER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "selftag_tiereaper",
-      "affiliation_empire",
-      "any_obtainable",
-      "territory_ship_platoon",
-      "territory_rare_ship_platoon",
-      "gac_tie",
-      "gac_wantthemalive",
-    ],
   },
   {
     unitTierList: [
@@ -4118,173 +2948,8 @@ module.exports = [
     nameKey: "Iden Versio",
     descKey:
       "Tenacious Empire Attacker who expertly takes out foes while supporting her squad",
+    obtainable: true,
     baseId: "IDENVERSIOEMPIRE",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "affiliation_empire",
-      "affiliation_imperialtrooper",
-      "any_obtainable",
-      "selftag_idenversioempire",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["010", "002", "003", "007", "004", "005"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["025", "021", "015", "030", "028", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["030", "048", "050", "041", "030", "049"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["049", "048", "048", "055", "017", "074"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["048", "043", "063", "060", "084", "079"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["075", "038", "049", "034", "093", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["102", "079", "100", "036", "099", "099"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["108", "172", "099", "108", "118", "117"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["172", "172", "105", "109", "106", "117"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["079", "117", "120", "125", "087", "144"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["116", "129", "129", "134", "144", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "159",
-          "162",
-          "166",
-          "168",
-          "G12Finisher_BADBATCHWRECKER_A",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "BADBATCHWRECKER_GLE:SEVEN_STAR",
-    thumbnailName: "tex.charui_bb_wrecker",
-    nameKey: "Wrecker",
-    descKey:
-      "Resilient Clone Trooper who protects his allies and gets empowered when taking damage",
-    baseId: "BADBATCHWRECKER_GLE",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "any_obtainable",
-      "selftag_badbatchwrecker",
-      "affiliation_badbatch",
-      "affiliation_501st",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "gac_riskymission",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "001", "003", "005", "003", "011"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["003", "022", "016", "021", "021", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["021", "043", "055", "050", "062", "055"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["039", "058", "060", "055", "063", "074"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["021", "038", "041", "040", "064", "089"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["079", "084", "086", "075", "084", "092"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["077", "055", "064", "092", "099", "110"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["110", "084", "082", "064", "092", "117"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["125", "113", "117", "108", "118", "118"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["107", "129", "120", "138", "135", "139"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["129", "145", "138", "139", "116", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "159",
-          "158",
-          "160",
-          "170",
-          "171",
-          "G12Finisher_THEMANDALORIANBESKARARMOR_A",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "THEMANDALORIANBESKARARMOR_JOURNEY_EVENT_TIER4:SEVEN_STAR",
-    thumbnailName: "tex.charui_mandobeskar",
-    nameKey: "The Mandalorian (Beskar Armor)",
-    descKey:
-      "Fearless Scoundrel leader who hunts down enemies to protect his allies",
-    baseId: "THEMANDALORIANBESKARARMOR_JOURNEY_EVENT_TIER4",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "profession_scoundrel",
-      "any_obtainable",
-      "selftag_themandalorianbeskararmor",
-    ],
   },
   {
     unitTierList: [
@@ -4353,20 +3018,8 @@ module.exports = [
     nameKey: "Hoth Rebel Scout",
     descKey:
       "Single target attacker with crit synergies and speed building abilities.",
+    obtainable: true,
     baseId: "HOTHREBELSCOUT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "selftag_hothrebelscout",
-      "any_obtainable",
-      "territory_hoth",
-      "territory_light_platoon",
-      "territory_hoth_hero_rebel",
-      "gac_hothvet",
-      "gac_hothsoldscout",
-    ],
   },
   {
     unitTierList: [
@@ -4434,19 +3087,8 @@ module.exports = [
     thumbnailName: "tex.charui_firstordertrooper",
     nameKey: "First Order Stormtrooper",
     descKey: "First Order tank that uses Advantage to disrupt enemies",
+    obtainable: true,
     baseId: "FIRSTORDERTROOPER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "affiliation_firstorder",
-      "species_human",
-      "selftag_firstordertrooper",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "affiliation_fomilitary",
-      "affiliation_gacs2fireteam",
-      "gac_fostormtrooper",
-    ],
   },
   {
     unitTierList: [],
@@ -4455,17 +3097,8 @@ module.exports = [
     nameKey: "Bistan's U-wing",
     descKey:
       "Elusive Rebel Support that boosts ally Turn Meter while using Stealth and Target Lock",
+    obtainable: true,
     baseId: "UWINGSCARIF",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "selftag_uwingscarif",
-      "affiliation_rebels",
-      "affiliation_rogue_one",
-      "any_obtainable",
-      "territory_ship_platoon",
-      "gac_uwing",
-    ],
   },
   {
     unitTierList: [
@@ -4534,21 +3167,8 @@ module.exports = [
     nameKey: "Stormtrooper Han",
     descKey:
       "Versatile tank able to surprise enemies with sudden Turn Meter changes and Offense boosts",
+    obtainable: true,
     baseId: "STORMTROOPERHAN",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "territory_light_platoon",
-      "species_human",
-      "affiliation_rebels",
-      "specialmission_corerebels",
-      "profession_scoundrel",
-      "selftag_stormtrooperhan",
-      "any_obtainable",
-      "gac_rebelpilot",
-      "gac_tk421",
-    ],
   },
   {
     unitTierList: [
@@ -4617,15 +3237,8 @@ module.exports = [
     nameKey: "Mob Enforcer",
     descKey:
       "Scoundrel Tank with enemy debuff ability and a thermal detonator.",
+    obtainable: true,
     baseId: "HUMANTHUG",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "selftag_humanthug",
-      "profession_scoundrel",
-      "any_obtainable",
-      "territory_dark_platoon",
-    ],
   },
   {
     unitTierList: [
@@ -4694,20 +3307,8 @@ module.exports = [
     nameKey: "Vandor Chewbacca",
     descKey:
       "Aggressive Scoundrel Tank that provides Protection Recovery for his allies when they are attacked",
+    obtainable: true,
     baseId: "YOUNGCHEWBACCA",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_light_platoon",
-      "profession_scoundrel",
-      "selftag_youngchewbacca",
-      "any_obtainable",
-      "profession_smuggler",
-      "species_wookiee",
-      "affiliation_prisfalconcrew",
-      "gac_millenniumco-pilot",
-      "gac_workingclosely",
-    ],
   },
   {
     unitTierList: [],
@@ -4716,16 +3317,8 @@ module.exports = [
     nameKey: "Gauntlet Starfighter",
     descKey:
       "Reliable Empire Support that dispels ally debuffs and prevents enemy buffs",
+    obtainable: true,
     baseId: "GAUNTLETSTARFIGHTER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "territory_ship_platoon",
-      "affiliation_empire",
-      "selftag_gauntletstarfighter",
-      "any_obtainable",
-      "gac_wantthemalive",
-    ],
   },
   {
     unitTierList: [
@@ -4794,101 +3387,8 @@ module.exports = [
     nameKey: "Admiral Piett",
     descKey:
       "An ambitious Imperial Officer who supports his allies while plotting their demise",
+    obtainable: true,
     baseId: "ADMIRALPIETT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "affiliation_empire",
-      "affiliation_imperialtrooper",
-      "any_obtainable",
-      "selftag_admiralpiett",
-      "character_fleetcommander",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["002", "002", "006", "006", "009", "009"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["006", "012", "014", "017", "023", "026"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["027", "043", "044", "053", "054", "044"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["023", "043", "044", "061", "072", "077"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["039", "027", "078", "074", "085", "079"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["045", "043", "089", "088", "083", "098"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["058", "051", "078", "080", "097", "110"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["044", "056", "095", "113", "114", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["048", "065", "081", "110", "126", "120"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["071", "113", "129", "090", "103", "144"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["129", "131", "123", "129", "139", "141"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "160",
-          "158",
-          "165",
-          "169",
-          "169",
-          "G12Finisher_ASAJVENTRESS_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "ASAJVENTRESS_BOUNTYHUNTER:SEVEN_STAR",
-    thumbnailName: "tex.charui_ventress_bountyhunter",
-    nameKey: "Asajj Ventress",
-    descKey:
-      "Nightsister controller with healing who generates attack power as characters are defeated",
-    baseId: "ASAJVENTRESS_BOUNTYHUNTER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "affiliation_nightsisters",
-      "selftag_asajventriss",
-      "affiliation_separatist",
-      "unaligned_force_user",
-      "ds_unaligned_force_user",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "gac_dathomirnative",
-      "gac_asajjopress",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -4956,16 +3456,8 @@ module.exports = [
     thumbnailName: "tex.charui_kuiil",
     nameKey: "Kuiil",
     descKey: "A supportive mechanic who aids Droids and Scoundrels.",
+    obtainable: true,
     baseId: "KUIIL",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "profession_scoundrel",
-      "any_obtainable",
-      "selftag_kuiil",
-      "gac_spoken",
-      "gac_daringplan",
-    ],
   },
   {
     unitTierList: [
@@ -5034,17 +3526,8 @@ module.exports = [
     nameKey: "The Armorer",
     descKey:
       "A Mandalorian leader and support unit that collects beskar to buff her team and rally them.",
+    obtainable: true,
     baseId: "ARMORER",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "affiliation_mandalorian",
-      "any_obtainable",
-      "selftag_armorer",
-      "gac_theway",
-      "gac_foundlings",
-    ],
   },
   {
     unitTierList: [],
@@ -5053,17 +3536,8 @@ module.exports = [
     nameKey: "Vulture Droid",
     descKey:
       "Persistent Separatist Attacker that inflicts Buzz Droids and is replaced when defeated",
+    obtainable: true,
     baseId: "VULTUREDROID",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_separatist",
-      "affiliation_separatist_droid",
-      "species_droid",
-      "selftag_vulturedroid",
-      "crewless",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -5132,87 +3606,8 @@ module.exports = [
     nameKey: "Ki-Adi-Mundi",
     descKey:
       "Formidable Jedi Master who shifts between Ataru and Makashi lightsaber forms",
+    obtainable: true,
     baseId: "KIADIMUNDI",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "profession_jedi",
-      "affiliation_republic",
-      "selftag_kiadimundi",
-      "any_obtainable",
-      "affiliation_galactic_republic_jedi",
-      "territory_geonosis_republic",
-      "gac_jedigenerals",
-      "gac_jedicouncil",
-      "conq_hokey_religion",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["002", "006", "011", "003", "001", "004"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["011", "013", "017", "022", "018", "028"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["032", "034", "037", "060", "041", "061"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["044", "053", "040", "024", "069", "078"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["065", "069", "073", "076", "081", "079"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["066", "074", "077", "088", "093", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["046", "078", "086", "092", "110", "113"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["079", "108", "113", "106", "112", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["056", "113", "079", "103", "118", "126"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["084", "096", "090", "136", "136", "140"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["153", "128", "129", "129", "128", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: ["165", "164", "160", "9999", "9999", "9999"],
-      },
-    ],
-    id: "AWAKENEDREY:SEVEN_STAR",
-    thumbnailName: "tex.charui_reyjakku",
-    nameKey: "Rey",
-    descKey:
-      "Risky Attacker that has high damage and evasion, but is vulnerable to debuffs",
-    baseId: "AWAKENEDREY",
-    categoryIdList: [
-      "alignment_light",
-      "territory_light_platoon",
-      "role_attacker",
-      "affiliation_resistance",
-      "species_human",
-      "selftag_rey",
-      "role_leader",
-    ],
   },
   {
     unitTierList: [
@@ -5281,102 +3676,8 @@ module.exports = [
     nameKey: "Count Dooku",
     descKey:
       "Disciplined Separatist Attacker with high damage, counter attacks, and debuff capabilities",
+    obtainable: true,
     baseId: "COUNTDOOKU",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "affiliation_separatist",
-      "profession_sith",
-      "any_obtainable",
-      "selftag_countdooku",
-      "longitudinally_implemented",
-      "territory_dark_platoon",
-      "territory_geonosis_separatist",
-      "affiliation_sithlord",
-      "affiliation_forcelightning",
-      "gac_mothertcountd",
-      "gac_sepondathomir",
-      "gac_forcedtolivealie",
-      "conq_hokey_religion",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "005", "010", "010", "007", "003"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["034", "021", "015", "026", "018", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["050", "050", "041", "041", "037", "045"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["055", "042", "047", "049", "060", "060"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["080", "075", "057", "084", "057", "079"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["081", "055", "079", "092", "079", "089"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["068", "109", "080", "086", "109", "108"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["099", "101", "111", "091", "117", "109"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["112", "108", "096", "125", "106", "120"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["144", "116", "117", "139", "109", "144"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["096", "129", "153", "117", "140", "139"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "159",
-          "165",
-          "171",
-          "168",
-          "G12Finisher_IG11_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "IG11_MANDALORIAN_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_ig11",
-    nameKey: "IG-11 (Bounty Hunter)",
-    descKey: "Versatile Healer with strong Scoundrel and Droid synergies",
-    baseId: "IG11_MANDALORIAN_EVENT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_healer",
-      "any_obtainable",
-      "selftag_ig11",
-      "profession_bountyhunter",
-      "species_droid",
-      "profession_scoundrel",
-    ],
   },
   {
     unitTierList: [
@@ -5445,22 +3746,8 @@ module.exports = [
     nameKey: "Rey (Jedi Training)",
     descKey:
       "Resilient Resistance Tank who avenges debuffed allies and controls the battlefield",
+    obtainable: true,
     baseId: "REYJEDITRAINING",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "affiliation_resistance",
-      "selftag_reyjeditraining",
-      "any_obtainable",
-      "platoon_legendary_light",
-      "platoon_legendary_restricted",
-      "affiliation_reys",
-      "affiliation_resfalconcrew",
-      "unaligned_force_user",
-      "ls_unaligned_force_user",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -5529,17 +3816,8 @@ module.exports = [
     nameKey: "Chief Nebit",
     descKey:
       "Cunning Jawa Tank with Stealth synergies who can reduce cooldowns",
+    obtainable: true,
     baseId: "CHIEFNEBIT",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "territory_light_platoon",
-      "longitudinally_implemented",
-      "species_jawa",
-      "selftag_chiefnebit",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -5608,100 +3886,8 @@ module.exports = [
     nameKey: "Hoth Rebel Soldier",
     descKey:
       "Support character that debuffs, taunts, and defensively buffs, with Rebel and anti-Empire synergies.",
+    obtainable: true,
     baseId: "HOTHREBELSOLDIER",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "selftag_hothrebelsoldier",
-      "any_obtainable",
-      "territory_hoth",
-      "territory_light_platoon",
-      "territory_hoth_hero_rebel",
-      "gac_hothvet",
-      "gac_hothsoldscout",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "001", "009", "010", "009", "003"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["012", "020", "014", "015", "026", "027"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["035", "060", "048", "059", "058", "051"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["052", "055", "076", "024", "068", "077"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["036", "024", "077", "085", "083", "080"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["092", "095", "092", "092", "095", "090"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["102", "096", "098", "109", "105", "113"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["102", "088", "110", "105", "113", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["092", "108", "092", "111", "125", "132"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["107", "136", "126", "092", "129", "139"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["145", "123", "129", "143", "124", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "159",
-          "165",
-          "163",
-          "169",
-          "171",
-          "G12Finisher_CT210408_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "CT210408_GLE_INHERIT:SEVEN_STAR",
-    thumbnailName: "tex.charui_trooperclone_echo",
-    nameKey: "501st Clone Trooper",
-    descKey: "GLLV_FAKEECHO_DESC",
-    baseId: "CT210408_GLE_INHERIT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "affiliation_501st",
-      "affiliation_501st_visible",
-      "territory_light_platoon",
-      "species_human",
-      "profession_clonetrooper",
-      "affiliation_501st_clone",
-      "selftag_ct210408",
-      "selftag_fakeecho",
-    ],
   },
   {
     unitTierList: [
@@ -5770,21 +3956,8 @@ module.exports = [
     nameKey: "Dengar",
     descKey:
       "Adaptable Scoundrel attacker that Stuns and inflicts Tenacity Down.",
+    obtainable: true,
     baseId: "DENGAR",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "profession_scoundrel",
-      "profession_bountyhunter",
-      "selftag_dengar",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_bountyhunter",
-      "gac_execbh",
-      "non_viable_leader",
-      "gac_revenge",
-    ],
   },
   {
     unitTierList: [
@@ -5852,22 +4025,8 @@ module.exports = [
     thumbnailName: "tex.charui_trooperclone_cody",
     nameKey: 'CC-2224 "Cody"',
     descKey: "Clone Attacker that Stuns and calls tons of Assists",
+    obtainable: true,
     baseId: "CC2224",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "territory_light_platoon",
-      "species_human",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "selftag_cc2224",
-      "any_obtainable",
-      "affiliation_order66",
-      "non_viable_leader",
-      "gac_jangoclone",
-      "gac_servantoftheempire",
-    ],
   },
   {
     unitTierList: [
@@ -5936,14 +4095,8 @@ module.exports = [
     nameKey: "Resistance Hero Finn",
     descKey:
       "Supportive Attacker whose inspiration empowers his allies on the battlefield",
+    obtainable: true,
     baseId: "EPIXFINN",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "any_obtainable",
-      "affiliation_resistance",
-      "selftag_epixfinn",
-    ],
   },
   {
     unitTierList: [
@@ -6012,18 +4165,8 @@ module.exports = [
     nameKey: "Bastila Shan (Fallen)",
     descKey:
       "Strong Sith Support who inflicts a large number of debuffs including Shock, Fear, and Corrupted Battle Meditation",
+    obtainable: true,
     baseId: "BASTILASHANDARK",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "profession_sith",
-      "affiliation_sithempire",
-      "selftag_bastilashandark",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "affiliation_doubleblade",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -6092,19 +4235,8 @@ module.exports = [
     nameKey: "First Order SF TIE Pilot",
     descKey:
       "Subversive First Order Attacker who buffs allies and disrupts enemies",
+    obtainable: true,
     baseId: "FIRSTORDERSPECIALFORCESPILOT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "selftag_firstorderspecialforcespilot",
-      "affiliation_firstorder",
-      "any_obtainable",
-      "platoon_legendary_restricted",
-      "dark_marquee_unit",
-      "territory_dark_platoon",
-      "affiliation_fomilitary",
-      "gac_tiepilot",
-    ],
   },
   {
     unitTierList: [
@@ -6173,19 +4305,8 @@ module.exports = [
     nameKey: "Shoretrooper",
     descKey:
       "Empire Tank who enters battle with Taunt, heals allies, and grants them Critical Hit Immunity",
+    obtainable: true,
     baseId: "SHORETROOPER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "affiliation_empire",
-      "affiliation_imperialtrooper",
-      "selftag_shoretrooper",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_empire",
-      "specialmission_imperialtrooper",
-      "gac_impstormtroopers",
-    ],
   },
   {
     unitTierList: [],
@@ -6194,16 +4315,8 @@ module.exports = [
     nameKey: "Endurance",
     descKey:
       "Defensive Jedi Capital Ship that uses Valor to gain a huge Speed advantage",
+    obtainable: true,
     baseId: "CAPITALJEDICRUISER",
-    categoryIdList: [
-      "alignment_light",
-      "role_capital",
-      "affiliation_republic",
-      "selftag_capitaljedicruiser",
-      "any_obtainable",
-      "profession_jedi",
-      "shipclass_capitalship",
-    ],
   },
   {
     unitTierList: [
@@ -6272,19 +4385,8 @@ module.exports = [
     nameKey: "Dark Trooper",
     descKey:
       "An Imperial Remnant attacker whose abilities are modified by the amount in Dark Trooper Squad",
+    obtainable: true,
     baseId: "DARKTROOPER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "any_obtainable",
-      "selftag_darktrooper",
-      "species_droid",
-      "affiliation_empire",
-      "affiliation_imperialremnant",
-      "affiliation_imperialtrooper",
-      "affiliation_imperialtrooper_droid",
-      "gac_therescue",
-    ],
   },
   {
     unitTierList: [
@@ -6353,32 +4455,8 @@ module.exports = [
     nameKey: "General Kenobi",
     descKey:
       "Vigorous Jedi Tank who gains Foresight, dispels debuffs to grant buffs, and calls buffed allies to Assist",
+    obtainable: true,
     baseId: "GENERALKENOBI",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "profession_jedi",
-      "affiliation_republic",
-      "selftag_generalkenobi",
-      "any_obtainable",
-      "platoon_legendary_light",
-      "territory_light_platoon",
-      "specialmission_legendarylight",
-      "character_fleetcommander",
-      "platoon_legendary_restricted",
-      "affiliation_galactic_republic_jedi",
-      "territory_geonosis_republic",
-      "non_viable_leader",
-      "gac_succession",
-      "gac_jedigenerals",
-      "gac_jedicouncil",
-      "gac_thecovenssecrets",
-      "gac_riskymission",
-      "gac_handlethis",
-      "gac_herooftherepublic",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -6447,19 +4525,8 @@ module.exports = [
     nameKey: "Moff Gideon",
     descKey:
       "Empire Leader that can lead a fireteam into battle and punish enemies with the Leader tag",
+    obtainable: true,
     baseId: "MOFFGIDEONS1",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "any_obtainable",
-      "selftag_moffgideons1",
-      "affiliation_empire",
-      "affiliation_imperialremnant",
-      "affiliation_imperialtrooper",
-      "gac_darksaber",
-      "gac_therescue",
-    ],
   },
   {
     unitTierList: [
@@ -6528,18 +4595,8 @@ module.exports = [
     nameKey: "Nightsister Spirit",
     descKey:
       "Veiled Nightsister Attacker who Dispels, Stuns, and gains Foresight",
+    obtainable: true,
     baseId: "NIGHTSISTERSPIRIT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_nightsisters",
-      "selftag_nightsisterspirit",
-      "any_obtainable",
-      "dark_marquee_unit",
-      "territory_dark_platoon",
-      "gac_dathomirnative",
-      "gac_nszomspi",
-    ],
   },
   {
     unitTierList: [
@@ -6608,22 +4665,8 @@ module.exports = [
     nameKey: "Kit Fisto",
     descKey:
       "Versatile Jedi Attacker with multi-attack, Counter Chance, and a variety of ally buffs",
+    obtainable: true,
     baseId: "KITFISTO",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_republic",
-      "selftag_kitfisto",
-      "any_obtainable",
-      "affiliation_galactic_republic_jedi",
-      "gac_forcefully",
-      "gac_jedigenerals",
-      "gac_jedicouncil",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -6692,18 +4735,8 @@ module.exports = [
     nameKey: "Wrecker",
     descKey:
       "Resilient Clone Trooper who protects his allies and gets empowered when taking damage",
+    obtainable: true,
     baseId: "BADBATCHWRECKER",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "any_obtainable",
-      "selftag_badbatchwrecker",
-      "affiliation_badbatch",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "territory_geonosis_republic",
-      "gac_riskymission",
-    ],
   },
   {
     unitTierList: [
@@ -6772,23 +4805,8 @@ module.exports = [
     nameKey: "IG-88",
     descKey:
       "Droid Attacker with debuffs and a damage bonus against debuffed enemies",
+    obtainable: true,
     baseId: "IG88",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "species_droid",
-      "selftag_ig88",
-      "profession_scoundrel",
-      "profession_bountyhunter",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_bountyhunter",
-      "gac_droidpilot",
-      "gac_execbh",
-      "gac_revenge",
-      "gac_rebuilt",
-    ],
   },
   {
     unitTierList: [],
@@ -6797,15 +4815,8 @@ module.exports = [
     nameKey: "Raddus",
     descKey:
       "Supportive Resistance Capital Ship that will do whatever is necessary to protect the fleet",
+    obtainable: true,
     baseId: "CAPITALRADDUS",
-    categoryIdList: [
-      "alignment_light",
-      "role_capital",
-      "affiliation_resistance",
-      "selftag_capitalraddus",
-      "any_obtainable",
-      "shipclass_capitalship",
-    ],
   },
   {
     unitTierList: [
@@ -6874,20 +4885,8 @@ module.exports = [
     nameKey: "Hunter",
     descKey:
       "Tactical leader of the Bad Batch who subtly destroys his enemies.",
+    obtainable: true,
     baseId: "BADBATCHHUNTER",
-    categoryIdList: [
-      "selftag_badbatchhunter",
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "affiliation_badbatch",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "species_human",
-      "any_obtainable",
-      "territory_geonosis_republic",
-      "gac_riskymission",
-    ],
   },
   {
     unitTierList: [],
@@ -6896,84 +4895,8 @@ module.exports = [
     nameKey: "Rex's ARC-170",
     descKey:
       "Defensive Clone Tank that can inflict Target Lock and boost ally Protection and Tenacity",
+    obtainable: true,
     baseId: "ARC170REX",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "affiliation_republic",
-      "territory_ship_platoon",
-      "any_obtainable",
-      "selftag_arc170rex",
-      "profession_clonetrooper",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "REY_DUEL:SEVEN_STAR",
-    thumbnailName: "tex.charui_rey_tros",
-    nameKey: "Rey",
-    descKey:
-      "This duelist has special abilities used only in this battle. This character isn't obtainable, and can't be used outside of this battle.",
-    baseId: "REY_DUEL",
-    categoryIdList: [
-      "alignment_light",
-      "role_none",
-      "affiliation_resistance",
-      "selftag_rey_duel",
-    ],
   },
   {
     unitTierList: [
@@ -7042,352 +4965,8 @@ module.exports = [
     nameKey: "C-3PO",
     descKey:
       "Evasive support character that Confuses foes and strengthens mixed-faction interplay with Translation.",
+    obtainable: true,
     baseId: "C3POLEGENDARY",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "species_droid",
-      "affiliation_republic",
-      "affiliation_rebels",
-      "affiliation_resistance",
-      "any_obtainable",
-      "platoon_legendary_restricted",
-      "selftag_c3polegendary",
-      "category_pacifist",
-      "profession_translator",
-      "gac_hothvet",
-      "gc_light_droid",
-      "gac_rebuilt",
-      "gac_loyaldroid",
-      "gac_rebeldroid",
-      "gac_r2c3",
-      "gac_dontlookback",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "002", "003", "004", "004", "005"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["025", "021", "015", "028", "028", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["062", "076", "050", "041", "069", "049"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["055", "058", "024", "055", "060", "074"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["093", "043", "086", "051", "084", "079"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["075", "055", "092", "092", "093", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["102", "079", "106", "024", "100", "099"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["108", "101", "099", "112", "118", "117"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["117", "102", "096", "101", "106", "111"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["144", "116", "129", "125", "116", "144"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["109", "129", "146", "134", "144", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "159",
-          "160",
-          "166",
-          "168",
-          "G12Finisher_GREEFKARGA_A",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "GREEFKARGA_MANDALORIAN_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_greefkarga",
-    nameKey: "Greef Karga",
-    descKey: "Bounty Hunter Support that provides recovery and assist calls",
-    baseId: "GREEFKARGA_MANDALORIAN_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "any_obtainable",
-      "selftag_greefkarga",
-      "profession_bountyhunter",
-      "profession_scoundrel",
-      "specialmission_bountyhunter",
-      "gac_theguild",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["005", "003", "005", "005", "006", "001"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["034", "016", "034", "021", "012", "028"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["050", "055", "076", "061", "048", "050"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["064", "078", "076", "051", "055", "051"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["086", "093", "064", "074", "055", "076"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["097", "092", "084", "087", "092", "102"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["172", "108", "107", "113", "101", "093"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["118", "117", "112", "172", "113", "103"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["173", "120", "116", "125", "125", "113"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["139", "131", "116", "112", "172", "105"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["145", "129", "138", "120", "131", "128"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "159",
-          "165",
-          "160",
-          "168",
-          "170",
-          "G12Finisher_GENERALSKYWALKER_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "GENERALSKYWALKER_GLE_INHERIT:SEVEN_STAR",
-    thumbnailName: "tex.charui_generalanakin",
-    nameKey: "General Skywalker",
-    descKey: "Fierce Jedi Attacker who protects his battalion at all costs",
-    baseId: "GENERALSKYWALKER_GLE_INHERIT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "affiliation_501st",
-      "affiliation_501st_visible",
-      "affiliation_republic",
-      "profession_jedi",
-      "any_obtainable",
-      "selftag_generalskywalker",
-      "affiliation_galactic_republic_jedi",
-      "gac_jedigenerals",
-      "gac_jedicouncil",
-      "gac_thecovenssecrets",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["003", "005", "005", "005", "007", "008"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["034", "025", "012", "018", "021", "016"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["047", "041", "037", "043", "035", "055"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["034", "066", "050", "024", "063", "081"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["036", "050", "055", "063", "075", "080"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["024", "102", "102", "096", "094", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["055", "091", "092", "108", "108", "107"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["024", "108", "108", "117", "117", "111"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["102", "108", "103", "117", "120", "126"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["092", "112", "112", "119", "116", "145"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["102", "146", "131", "139", "144", "137"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "162",
-          "161",
-          "159",
-          "170",
-          "167",
-          "G12Finisher_GENERALKENOBI_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "GENERALKENOBI_GLE_INHERIT_VADER:SEVEN_STAR",
-    thumbnailName: "tex.charui_globiwan",
-    nameKey: "General Kenobi",
-    descKey:
-      "Vigorous Jedi Tank who gains Foresight, dispels debuffs to grant buffs, and calls buffed allies to Assist",
-    baseId: "GENERALKENOBI_GLE_INHERIT_VADER",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "character_fleetcommander",
-      "affiliation_republic",
-      "profession_jedi",
-      "selftag_generalkenobi",
-      "specialmission_legendarylight",
-      "platoon_legendary_restricted",
-      "affiliation_galactic_republic_jedi",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["003", "008", "003", "002", "006", "008"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["012", "021", "017", "028", "032", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["043", "044", "012", "043", "044", "049"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["040", "059", "038", "063", "040", "064"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["042", "063", "061", "078", "083", "088"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["063", "079", "085", "080", "087", "090"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["042", "097", "100", "040", "071", "099"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["087", "042", "071", "100", "118", "111"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["172", "114", "087", "119", "117", "118"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["115", "119", "119", "172", "139", "094"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["115", "110", "119", "140", "137", "172"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "165",
-          "164",
-          "158",
-          "170",
-          "168",
-          "G12Finisher_BADBATCHHUNTER_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "BADBATCHHUNTER_GLE:SEVEN_STAR",
-    thumbnailName: "tex.charui_bb_hunter",
-    nameKey: "Hunter",
-    descKey:
-      "Tactical leader of the Bad Batch who subtly destroys his enemies.",
-    baseId: "BADBATCHHUNTER_GLE",
-    categoryIdList: [
-      "selftag_badbatchhunter",
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "affiliation_badbatch",
-      "affiliation_501st",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "species_human",
-      "any_obtainable",
-      "gac_riskymission",
-    ],
   },
   {
     unitTierList: [
@@ -7456,20 +5035,8 @@ module.exports = [
     nameKey: "Captain Han Solo",
     descKey:
       "Daring Rebel Support that risks himself to Revive allies and Daze enemies",
+    obtainable: true,
     baseId: "HOTHHAN",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "affiliation_rebels",
-      "profession_scoundrel",
-      "selftag_hothhan",
-      "any_obtainable",
-      "territory_light_platoon",
-      "territory_hoth_hero_rebel",
-      "gac_rebelpilot",
-      "gac_hothvet",
-      "gac_hadnochoice",
-    ],
   },
   {
     unitTierList: [
@@ -7537,20 +5104,8 @@ module.exports = [
     thumbnailName: "tex.charui_bodhi",
     nameKey: "Bodhi Rook",
     descKey: "Clever Rebel Support who spots enemy units for his allies",
+    obtainable: true,
     baseId: "BODHIROOK",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "affiliation_rogue_one",
-      "specialmission_rogueone",
-      "specialmission_corerebels",
-      "selftag_bodhirook",
-      "any_obtainable",
-      "gac_rebelpilot",
-    ],
   },
   {
     unitTierList: [],
@@ -7559,18 +5114,8 @@ module.exports = [
     nameKey: "IG-2000",
     descKey:
       "Aggressive Bounty Hunter Attacker that deals massive damage to Breached enemies",
+    obtainable: true,
     baseId: "IG2000",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "profession_bountyhunter",
-      "profession_scoundrel",
-      "selftag_ig2000",
-      "species_droid",
-      "any_obtainable",
-      "territory_ship_platoon",
-      "gac_wantthemalive",
-    ],
   },
   {
     unitTierList: [
@@ -7639,21 +5184,8 @@ module.exports = [
     nameKey: "T3-M4",
     descKey:
       "Offensive Droid who supports a Droid team with extra stats and debuffs the enemy team",
+    obtainable: true,
     baseId: "T3_M4",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "affiliation_oldrepublic",
-      "species_droid",
-      "selftag_t3_m4",
-      "any_obtainable",
-      "territory_light_platoon",
-      "gac_droidpilot",
-      "gc_light_droid",
-      "gac_rebuilt",
-      "gac_loyaldroid",
-      "gac_hkt3",
-    ],
   },
   {
     unitTierList: [
@@ -7722,21 +5254,8 @@ module.exports = [
     nameKey: "Embo",
     descKey:
       "Deadly Bounty Hunter Attacker that consumes his Protection to boost his damage",
+    obtainable: true,
     baseId: "EMBO",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "profession_bountyhunter",
-      "profession_scoundrel",
-      "selftag_embo",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_bountyhunter",
-      "non_viable_leader",
-      "gac_thebox",
-      "gac_revenge",
-    ],
   },
   {
     unitTierList: [
@@ -7804,17 +5323,8 @@ module.exports = [
     thumbnailName: "tex.charui_visas",
     nameKey: "Visas Marr",
     descKey: "Offensive Healer with strong anti-Sith synergy",
+    obtainable: true,
     baseId: "VISASMARR",
-    categoryIdList: [
-      "alignment_light",
-      "role_healer",
-      "unaligned_force_user",
-      "ls_unaligned_force_user",
-      "territory_light_platoon",
-      "selftag_visasmarr",
-      "any_obtainable",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -7883,19 +5393,8 @@ module.exports = [
     nameKey: "Jedi Master Luke Skywalker",
     descKey:
       "The wizened Jedi master of legend who empowers his Jedi allies with the knowledge and skills he has obtained",
+    obtainable: true,
     baseId: "GRANDMASTERLUKE",
-    categoryIdList: [
-      "galactic_legend",
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "percent_health_resistant",
-      "reduced_massive_damage",
-      "profession_jedi",
-      "selftag_grandmasterluke",
-      "any_obtainable",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -7964,17 +5463,8 @@ module.exports = [
     nameKey: "Imperial Super Commando",
     descKey:
       "An Empire Attacker with counter mechanics who dispels buffs and applies buff immunity",
+    obtainable: true,
     baseId: "IMPERIALSUPERCOMMANDO",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_empire",
-      "affiliation_mandalorian",
-      "selftag_imperialsupercommando",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "gac_identity",
-    ],
   },
   {
     unitTierList: [
@@ -8043,30 +5533,8 @@ module.exports = [
     nameKey: "Boba Fett",
     descKey:
       "Ruthless Bounty Hunter Attacker who ignores Taunts, Ability Blocks and self-revives",
+    obtainable: true,
     baseId: "BOBAFETT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "longitudinally_implemented",
-      "profession_scoundrel",
-      "profession_bountyhunter",
-      "selftag_bobafett",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_bountyhunter",
-      "gac_execbh",
-      "gac_bespinocc",
-      "gac_hadnochoice",
-      "non_viable_leader",
-      "gac_whateverittakes",
-      "gac_identity",
-      "gac_revenge",
-      "gac_therescue",
-      "conq_wretched",
-      "conq_trustenemies",
-      "conq_likemyfather",
-    ],
   },
   {
     unitTierList: [
@@ -8134,22 +5602,8 @@ module.exports = [
     thumbnailName: "tex.charui_probedroid",
     nameKey: "Imperial Probe Droid",
     descKey: "Imperial Droid who reveals and tracks enemies with Target Lock",
+    obtainable: true,
     baseId: "IMPERIALPROBEDROID",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "affiliation_empire",
-      "species_droid",
-      "selftag_imperialprobedroid",
-      "any_obtainable",
-      "territory_hoth_empire",
-      "territory_dark_platoon",
-      "specialmission_empire",
-      "quest_imperial_probe_droid",
-      "gac_hothvet",
-      "gac_hothempvet",
-      "gac_impdroid",
-    ],
   },
   {
     unitTierList: [],
@@ -8158,15 +5612,8 @@ module.exports = [
     nameKey: "BTL-B Y-wing Starfighter",
     descKey:
       "Galactic Republic Tank that can withstand significant damage and Taunts when its allies are in need",
+    obtainable: true,
     baseId: "YWINGCLONEWARS",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "any_obtainable",
-      "selftag_ywingclonewars",
-      "affiliation_republic",
-      "crewless",
-    ],
   },
   {
     unitTierList: [
@@ -8235,161 +5682,64 @@ module.exports = [
     nameKey: "Rey",
     descKey:
       "Resistance Leader who safeguards her allies by providing powerful shields and delivering high damage",
+    obtainable: true,
     baseId: "GLREY",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "affiliation_resistance",
-      "galactic_legend",
-      "unaligned_force_user",
-      "ls_unaligned_force_user",
-      "percent_health_resistant",
-      "reduced_massive_damage",
-      "species_human",
-      "any_obtainable",
-      "affiliation_reys",
-      "selftag_glrey",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
       {
         tier: 1,
-        equipmentSetList: ["001", "002", "003", "004", "004", "005"],
+        equipmentSetList: ["007", "007", "003", "008", "011", "010"],
       },
       {
         tier: 2,
-        equipmentSetList: ["025", "021", "015", "028", "028", "034"],
+        equipmentSetList: ["025", "030", "014", "018", "028", "032"],
       },
       {
         tier: 3,
-        equipmentSetList: ["062", "076", "050", "041", "069", "049"],
+        equipmentSetList: ["034", "014", "028", "041", "069", "049"],
       },
       {
         tier: 4,
-        equipmentSetList: ["055", "058", "024", "055", "060", "074"],
+        equipmentSetList: ["068", "022", "037", "068", "049", "082"],
       },
       {
         tier: 5,
-        equipmentSetList: ["093", "043", "086", "051", "084", "079"],
+        equipmentSetList: ["089", "065", "070", "015", "040", "088"],
       },
       {
         tier: 6,
-        equipmentSetList: ["075", "055", "092", "092", "093", "097"],
+        equipmentSetList: ["045", "041", "041", "047", "073", "090"],
       },
       {
         tier: 7,
-        equipmentSetList: ["102", "079", "106", "024", "100", "099"],
+        equipmentSetList: ["102", "068", "070", "105", "083", "107"],
       },
       {
         tier: 8,
-        equipmentSetList: ["108", "101", "099", "112", "118", "117"],
+        equipmentSetList: ["095", "111", "117", "103", "112", "111"],
       },
       {
         tier: 9,
-        equipmentSetList: ["117", "102", "096", "101", "106", "111"],
+        equipmentSetList: ["071", "114", "111", "173", "114", "125"],
       },
       {
         tier: 10,
-        equipmentSetList: ["144", "116", "129", "125", "116", "144"],
+        equipmentSetList: ["173", "117", "172", "083", "114", "144"],
       },
       {
         tier: 11,
-        equipmentSetList: ["109", "129", "146", "134", "144", "142"],
+        equipmentSetList: ["117", "136", "146", "131", "137", "144"],
       },
       {
         tier: 12,
         equipmentSetList: [
-          "158",
-          "159",
-          "160",
-          "168",
-          "168",
-          "G12Finisher_LORDVADER_A",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "LORDVADER_GLE_INHERIT:SEVEN_STAR",
-    thumbnailName: "tex.charui_anakin_fallen",
-    nameKey: "Lord Vader",
-    descKey:
-      "Legendary Sith Lord who utilizes the actions of others to empower his own potential and is not to be underestimated",
-    baseId: "LORDVADER_GLE_INHERIT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "galactic_legend",
-      "species_human",
-      "affiliation_empire",
-      "profession_sith",
-      "percent_health_resistant",
-      "reduced_massive_damage",
-      "any_obtainable",
-      "selftag_lordvader",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "006", "005", "010", "003", "006"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["034", "019", "017", "029", "022", "014"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["046", "069", "056", "057", "034", "026"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["064", "078", "056", "055", "069", "036"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["078", "060", "064", "056", "024", "081"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["096", "092", "079", "052", "078", "055"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["106", "103", "078", "056", "101", "113"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["118", "117", "112", "113", "108", "097"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["126", "121", "112", "108", "108", "097"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["119", "138", "129", "108", "110", "097"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["119", "153", "153", "139", "131", "144"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "164",
-          "158",
           "165",
-          "167",
-          "167",
-          "G12Finisher_COMMANDERLUKESKYWALKER_C",
+          "162",
+          "161",
+          "168",
+          "169",
+          "G12Finisher_SECONDSISTER_A",
         ],
       },
       {
@@ -8397,17 +5747,13 @@ module.exports = [
         equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
       },
     ],
-    id: "COMMANDERLUKESKYWALKER_JKL_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_lukebespin",
-    nameKey: "Commander Luke Skywalker",
-    descKey: "Determined Rebel hero who can ignore debuffs or ignore Taunts",
-    baseId: "COMMANDERLUKESKYWALKER_JKL_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "affiliation_rebels",
-      "selftag_commanderlukeskywalker",
-      "role_attacker",
-    ],
+    id: "SECONDSISTER:SEVEN_STAR",
+    thumbnailName: "tex.charui_secondsister",
+    nameKey: "Second Sister",
+    descKey:
+      "Ruthless Inquisitor Attacker that specializes in eliminating Jedi",
+    obtainable: true,
+    baseId: "SECONDSISTER",
   },
   {
     unitTierList: [
@@ -8476,93 +5822,8 @@ module.exports = [
     nameKey: "Veteran Smuggler Han Solo",
     descKey:
       "Scoundrel Attacker with multi-attack and multiple devastating debuffs",
+    obtainable: true,
     baseId: "SMUGGLERHAN",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "affiliation_resistance",
-      "profession_scoundrel",
-      "selftag_smugglerhan",
-      "any_obtainable",
-      "territory_light_platoon",
-      "profession_smuggler",
-      "affiliation_veteransmuggler",
-      "affiliation_resfalconcrew",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "006", "005", "010", "003", "006"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["034", "019", "017", "029", "022", "014"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["046", "069", "056", "057", "034", "026"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["064", "078", "056", "055", "069", "036"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["078", "060", "064", "056", "024", "081"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["096", "092", "079", "052", "078", "055"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["106", "103", "078", "056", "101", "113"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["118", "117", "112", "113", "108", "097"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["126", "121", "112", "108", "108", "097"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["119", "138", "129", "108", "110", "097"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["119", "153", "153", "139", "131", "144"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "164",
-          "158",
-          "165",
-          "167",
-          "167",
-          "G12Finisher_COMMANDERLUKESKYWALKER_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "COMMANDERLUKESKYWALKER_HOTH_JKL_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_rebelhoth_luke",
-    nameKey: "Commander Luke Skywalker (Hoth)",
-    descKey: "Determined Rebel hero who can ignore debuffs or ignore Taunts",
-    baseId: "COMMANDERLUKESKYWALKER_HOTH_JKL_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "affiliation_rebels",
-      "selftag_commanderlukeskywalker",
-      "role_attacker",
-    ],
   },
   {
     unitTierList: [
@@ -8631,100 +5892,8 @@ module.exports = [
     nameKey: "Qi'ra",
     descKey:
       "High-utility Support that uses Prepared, debuffs, and an adaptable Leader ability to overwhelm enemies",
+    obtainable: true,
     baseId: "QIRA",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "profession_scoundrel",
-      "selftag_qira",
-      "any_obtainable",
-      "territory_light_platoon",
-      "profession_smuggler",
-      "affiliation_crimsondawn",
-      "gac_millenniumco-pilot",
-      "gac_revenge",
-      "gac_workingclosely",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "001", "003", "005", "003", "011"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["003", "022", "016", "021", "021", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["021", "043", "055", "050", "062", "055"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["039", "058", "060", "055", "063", "074"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["021", "038", "041", "040", "064", "089"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["079", "084", "086", "075", "084", "092"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["077", "055", "064", "092", "099", "110"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["110", "084", "082", "064", "092", "117"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["125", "113", "117", "108", "118", "118"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["107", "129", "120", "138", "135", "139"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["129", "145", "138", "139", "116", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "159",
-          "158",
-          "160",
-          "170",
-          "171",
-          "G12Finisher_CHEWBACCALEGENDARY_A",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "CHEWBACCALEGENDARY_JKL_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_chewbacca_ot",
-    nameKey: "Chewbacca",
-    descKey: "Mighty Rebel Attacker who Guards the weakest ally",
-    baseId: "CHEWBACCALEGENDARY_JKL_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "profession_scoundrel",
-      "profession_smuggler",
-      "selftag_chewbaccalegendary",
-      "species_wookiee",
-      "affiliation_rebels",
-      "affiliation_smuggled",
-      "affiliation_rebfalconcrew",
-    ],
   },
   {
     unitTierList: [
@@ -8793,21 +5962,8 @@ module.exports = [
     nameKey: "Kanan Jarrus",
     descKey:
       "Durable Phoenix Tank that keeps enemy Offense crippled and allies healthy",
+    obtainable: true,
     baseId: "KANANJARRUSS3",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_rebels",
-      "affiliation_phoenix",
-      "specialmission_corerebels",
-      "selftag_kananjarruss3",
-      "any_obtainable",
-      "gac_alliancejedi",
-      "gac_holocron",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -8876,99 +6032,8 @@ module.exports = [
     nameKey: "Magmatrooper",
     descKey:
       "Resilient Attacker that recovers quickly from debuffs and deals potent AoE damage",
+    obtainable: true,
     baseId: "MAGMATROOPER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_empire",
-      "affiliation_imperialtrooper",
-      "species_human",
-      "selftag_magmatrooper",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_empire",
-      "specialmission_imperialtrooper",
-      "gac_impstormtroopers",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "003", "006", "006", "004", "011"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["003", "012", "015", "017", "028", "025"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["041", "060", "069", "053", "049", "076"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["066", "041", "060", "049", "056", "081"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["046", "056", "024", "078", "093", "079"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["060", "046", "074", "091", "101", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["051", "089", "092", "097", "103", "113"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["081", "079", "092", "103", "113", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["091", "103", "109", "107", "118", "125"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["103", "110", "112", "125", "145", "139"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["131", "139", "153", "129", "129", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "165",
-          "158",
-          "164",
-          "168",
-          "171",
-          "G12Finisher_PRINCESSLEIA_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "PRINCESSLEIA_GL_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_leia_princess",
-    nameKey: "Princess Leia",
-    descKey:
-      "Well-rounded Rebel Attacker with extra attacks, Stealth, and team Critical bonuses.",
-    baseId: "PRINCESSLEIA_GL_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "specialmission_corerebels",
-      "selftag_princessleia",
-      "non_viable_leader",
-    ],
   },
   {
     unitTierList: [
@@ -9036,16 +6101,8 @@ module.exports = [
     thumbnailName: "tex.charui_kylekatarn",
     nameKey: "Kyle Katarn",
     descKey: "A Force-sensitive Rebel operative and Jedi Knight",
+    obtainable: true,
     baseId: "KYLEKATARN",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "any_obtainable",
-      "selftag_kylekatarn",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "profession_jedi",
-    ],
   },
   {
     unitTierList: [
@@ -9114,20 +6171,8 @@ module.exports = [
     nameKey: "Aayla Secura",
     descKey:
       "Versatile attacker with high survivability through Dodge, Hitpoints, and self healing.",
+    obtainable: true,
     baseId: "AAYLASECURA",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_republic",
-      "selftag_aaylasecura",
-      "any_obtainable",
-      "affiliation_galactic_republic_jedi",
-      "non_viable_leader",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -9196,24 +6241,8 @@ module.exports = [
     nameKey: "Obi-Wan Kenobi (Old Ben)",
     descKey:
       "Durable Jedi Tank able to shut down enemy offense with multiple debuffs",
+    obtainable: true,
     baseId: "OLDBENKENOBI",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "territory_light_platoon",
-      "species_human",
-      "profession_jedi",
-      "affiliation_rebels",
-      "selftag_oldbenkenobi",
-      "any_obtainable",
-      "affiliation_smuggled",
-      "gac_benr2d2",
-      "gac_alliancejedi",
-      "gac_avengeus",
-      "gac_iamthemaster",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -9282,98 +6311,8 @@ module.exports = [
     nameKey: "Hera Syndulla",
     descKey:
       "Cunning Phoenix Support that allows Phoenix allies to share their Unique abilities with each other",
+    obtainable: true,
     baseId: "HERASYNDULLAS3",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "affiliation_phoenix",
-      "specialmission_corerebels",
-      "selftag_herasyndullas3",
-      "any_obtainable",
-      "gac_rebelpilot",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["004", "001", "001", "005", "005", "003"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["019", "017", "015", "028", "025", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["004", "028", "049", "053", "060", "049"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["061", "051", "056", "068", "073", "074"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["076", "060", "074", "089", "079", "086"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["079", "089", "079", "086", "091", "092"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["068", "092", "097", "110", "109", "113"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["112", "117", "109", "106", "117", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["117", "172", "117", "126", "172", "116"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["172", "144", "172", "145", "138", "139"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["117", "172", "172", "140", "141", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "160",
-          "165",
-          "171",
-          "171",
-          "G12Finisher_SITHPALPATINE_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "SITHPALPATINE_GL_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_espalpatine_pre",
-    nameKey: "Sith Eternal Emperor",
-    descKey:
-      "Cunning Emperor of the Sith that eliminates his enemies with the overwhelming power of the dark side",
-    baseId: "SITHPALPATINE_GL_EVENT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_leader",
-      "role_attacker",
-      "galactic_legend",
-      "percent_health_resistant",
-      "reduced_massive_damage",
-      "profession_sith",
-      "selftag_sithpalpatine",
-    ],
   },
   {
     unitTierList: [],
@@ -9382,92 +6321,8 @@ module.exports = [
     nameKey: "Home One",
     descKey:
       "Versatile Rebel Capital Ship that uses Advantage and bonus attacks to turn the tide",
+    obtainable: true,
     baseId: "CAPITALMONCALAMARICRUISER",
-    categoryIdList: [
-      "alignment_light",
-      "role_capital",
-      "affiliation_rebels",
-      "selftag_capitalmoncalamaricruiser",
-      "any_obtainable",
-      "shipclass_capitalship",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "001", "003", "005", "003", "011"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["003", "022", "016", "021", "021", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["021", "043", "055", "050", "062", "055"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["039", "058", "060", "055", "063", "074"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["021", "038", "041", "040", "064", "089"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["079", "084", "086", "075", "084", "092"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["077", "055", "064", "092", "099", "110"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["110", "084", "082", "064", "092", "117"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["125", "113", "117", "108", "118", "118"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["107", "129", "120", "138", "135", "139"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["129", "145", "138", "139", "116", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "159",
-          "158",
-          "160",
-          "170",
-          "171",
-          "G12Finisher_THEMANDALORIANBESKARARMOR_A",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "THEMANDALORIANBESKARARMOR_JOURNEY_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_mandobeskar",
-    nameKey: "The Mandalorian (Beskar Armor)",
-    descKey:
-      "Fearless Scoundrel leader who hunts down enemies to protect his allies",
-    baseId: "THEMANDALORIANBESKARARMOR_JOURNEY_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "profession_scoundrel",
-      "any_obtainable",
-      "selftag_themandalorianbeskararmor",
-    ],
   },
   {
     unitTierList: [],
@@ -9476,18 +6331,8 @@ module.exports = [
     nameKey: "First Order SF TIE Fighter",
     descKey:
       "Superior First Order Attacker that has multiple offensive capabilities and inflicts multiple debuffs",
+    obtainable: true,
     baseId: "TIEFIGHTERFOSF",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_firstorder",
-      "selftag_tiefighterfosf",
-      "any_obtainable",
-      "territory_ship_platoon",
-      "territory_rare_ship_platoon",
-      "affiliation_foties",
-      "gac_tie",
-    ],
   },
   {
     unitTierList: [
@@ -9556,17 +6401,8 @@ module.exports = [
     nameKey: "IG-100 MagnaGuard",
     descKey:
       "Disruptive Droid Tank that Taunts and takes an extra turn before it is defeated",
+    obtainable: true,
     baseId: "MAGNAGUARD",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "species_droid",
-      "selftag_magnaguard",
-      "affiliation_separatist",
-      "affiliation_separatist_droid",
-      "any_obtainable",
-      "territory_dark_platoon",
-    ],
   },
   {
     unitTierList: [
@@ -9635,22 +6471,8 @@ module.exports = [
     nameKey: "Mother Talzin",
     descKey:
       "Vicious Nightsister Leader who inflicts Plague, preventing enemies from Dispelling debuffs",
+    obtainable: true,
     baseId: "MOTHERTALZIN",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "affiliation_nightsisters",
-      "selftag_mothertalzin",
-      "any_obtainable",
-      "platoon_legendary_restricted",
-      "dark_marquee_unit",
-      "territory_dark_platoon",
-      "gac_dathomirnative",
-      "gac_mothertcountd",
-      "gac_talzinopress",
-      "gac_revenge",
-    ],
   },
   {
     unitTierList: [
@@ -9719,144 +6541,8 @@ module.exports = [
     nameKey: "Death Trooper",
     descKey:
       "Terrifying Empire Attacker who inflicts debilitating debuffs and prevents revives",
+    obtainable: true,
     baseId: "DEATHTROOPER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_empire",
-      "affiliation_imperialremnant",
-      "affiliation_imperialtrooper",
-      "selftag_deathtrooper",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_empire",
-      "specialmission_imperialtrooper",
-      "gac_impstormtroopers",
-      "gac_krendeath",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "001", "002", "003", "005", "011"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["003", "012", "021", "013", "033", "033"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["029", "037", "043", "035", "062", "052"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["035", "024", "024", "063", "074", "077"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["024", "077", "089", "075", "079", "084"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["086", "088", "102", "091", "092", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["101", "092", "100", "109", "105", "108"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["105", "099", "108", "113", "112", "117"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["091", "105", "103", "117", "125", "120"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["095", "101", "108", "113", "119", "132"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["141", "129", "139", "108", "104", "131"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: ["135", "141", "153", "149", "152", "154"],
-      },
-    ],
-    id: "CHEWBACCA:SEVEN_STAR",
-    thumbnailName: "tex.charui_chewbacca",
-    nameKey: "Chewbacca",
-    descKey:
-      "Tank character with high hit points and defenses, self healing, and the ability to force enemy characters to attack him.",
-    baseId: "CHEWBACCA",
-    categoryIdList: [
-      "alignment_light",
-      "profession_scoundrel",
-      "affiliation_rebels",
-      "role_tank",
-      "species_wookiee",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["002", "002", "005", "005", "001", "013"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["021", "016", "011", "029", "013", "012"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["021", "049", "044", "013", "013", "012"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["064", "050", "029", "029", "021", "042"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["078", "079", "074", "029", "021", "042"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["092", "089", "081", "040", "021", "042"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["100", "086", "074", "043", "021", "045"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["118", "092", "081", "040", "069", "045"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["118", "116", "055", "078", "057", "071"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["116", "118", "109", "064", "060", "071"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["141", "129", "139", "108", "104", "131"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: ["002", "155", "097", "087", "093", "131"],
-      },
-    ],
-    id: "EVENPIELL:SEVEN_STAR",
-    thumbnailName: "tex.charui_evenpiell",
-    nameKey: "Even Piell",
-    descKey: "Tank via high HP Regeneration Dodge with Stealth potential",
-    baseId: "EVENPIELL",
-    categoryIdList: ["alignment_light", "profession_jedi", "role_tank"],
   },
   {
     unitTierList: [],
@@ -9865,18 +6551,8 @@ module.exports = [
     nameKey: "Lando's Millennium Falcon",
     descKey:
       "Devastating Scoundrel attacker that becomes more threatening after each ally reinforcement",
+    obtainable: true,
     baseId: "MILLENNIUMFALCONPRISTINE",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "profession_scoundrel",
-      "selftag_millenniumfalconpristine",
-      "any_obtainable",
-      "territory_ship_platoon",
-      "territory_rare_ship_platoon",
-      "shipclass_cargoship",
-      "affiliation_millennium",
-    ],
   },
   {
     unitTierList: [],
@@ -9885,93 +6561,8 @@ module.exports = [
     nameKey: "Poe Dameron's X-wing",
     descKey:
       "Heroic Resistance Attacker that can exploit Turn Meter and punish enemies without Protection",
+    obtainable: true,
     baseId: "XWINGBLACKONE",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_ship_platoon",
-      "affiliation_resistance",
-      "species_human",
-      "selftag_xwingblackone",
-      "any_obtainable",
-      "affiliation_resistancexwings",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["003", "002", "009", "002", "011", "005"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["016", "028", "032", "034", "020", "016"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["055", "054", "048", "055", "054", "028"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["026", "048", "034", "050", "054", "071"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["083", "080", "088", "068", "054", "050"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["095", "095", "096", "091", "083", "077"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["107", "108", "095", "095", "098", "102"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["117", "111", "102", "095", "090", "095"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["111", "117", "095", "099", "108", "098"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["131", "125", "129", "130", "130", "136"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["143", "131", "111", "117", "108", "123"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "162",
-          "163",
-          "158",
-          "169",
-          "168",
-          "G12Finisher_GENERALHUX_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "GENERALHUX_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_generalhux",
-    nameKey: "General Hux",
-    descKey:
-      "Ruthless First Order Support that can prevent enemies from counterattacking.",
-    baseId: "GENERALHUX_EVENT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "affiliation_firstorder",
-      "selftag_generalhux",
-    ],
   },
   {
     unitTierList: [
@@ -10039,27 +6630,8 @@ module.exports = [
     thumbnailName: "tex.charui_k2so",
     nameKey: "K-2SO",
     descKey: "Rebel Tank who Taunts and Counter Attacks",
+    obtainable: true,
     baseId: "K2SO",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_light_platoon",
-      "selftag_k2so",
-      "species_droid",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "affiliation_rogue_one",
-      "specialmission_rogueone",
-      "specialmission_corerebels",
-      "any_obtainable",
-      "gac_rebelpilot",
-      "gac_droidpilot",
-      "gc_light_droid",
-      "gac_loyaldroid",
-      "gac_impdroid",
-      "gac_rebeldroid",
-      "gac_rogueone",
-    ],
   },
   {
     unitTierList: [
@@ -10128,18 +6700,8 @@ module.exports = [
     nameKey: "Padmé Amidala",
     descKey:
       "Courageous leader who continuously helps her allies and adapts to any circumstance",
+    obtainable: true,
     baseId: "PADMEAMIDALA",
-    categoryIdList: [
-      "selftag_padmeamidala",
-      "role_support",
-      "role_leader",
-      "alignment_light",
-      "affiliation_republic",
-      "any_obtainable",
-      "territory_geonosis_republic",
-      "gac_forcedtolivealie",
-      "gac_dontlookback",
-    ],
   },
   {
     unitTierList: [
@@ -10208,15 +6770,8 @@ module.exports = [
     nameKey: "Wampa",
     descKey:
       "Fearsome predator from Hoth that attacks constantly with increasing strength",
+    obtainable: true,
     baseId: "WAMPA",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "selftag_wampa",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "platoon_legendary_dark",
-    ],
   },
   {
     unitTierList: [
@@ -10284,101 +6839,8 @@ module.exports = [
     thumbnailName: "tex.charui_macewindu",
     nameKey: "Mace Windu",
     descKey: "Aggressive Jedi tank with devastating damage if left unchecked",
+    obtainable: true,
     baseId: "MACEWINDU",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_republic",
-      "species_human",
-      "selftag_macewindu",
-      "any_obtainable",
-      "character_fleetcommander",
-      "affiliation_galactic_republic_jedi",
-      "territory_geonosis_republic",
-      "gac_jedigenerals",
-      "gac_jedicouncil",
-      "gac_riskymission",
-      "conq_hokey_religion",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["009", "002", "011", "011", "003", "011"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["017", "032", "028", "026", "029", "026"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["040", "053", "053", "056", "062", "037"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["078", "078", "055", "053", "051", "051"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["074", "079", "082", "076", "077", "051"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["096", "094", "055", "092", "102", "075"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["103", "108", "107", "108", "102", "102"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["103", "111", "109", "112", "108", "091"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["111", "119", "113", "108", "108", "102"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["120", "125", "125", "121", "129", "117"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["144", "117", "139", "129", "129", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "164",
-          "159",
-          "170",
-          "167",
-          "G12Finisher_HOTHLEIA_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "HOTHLEIA_JKL_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_leia_bespin",
-    nameKey: "Rebel Officer Leia Organa (Bespin)",
-    descKey:
-      "Tenacious Rebel Attacker that counters debuffs and is more effective against healthy targets",
-    baseId: "HOTHLEIA_JKL_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "affiliation_rebels",
-      "selftag_hothleia",
-    ],
   },
   {
     unitTierList: [
@@ -10446,19 +6908,8 @@ module.exports = [
     thumbnailName: "tex.charui_sithassassin",
     nameKey: "Sith Assassin",
     descKey: "Elusive Sith Attacker with Stealth synergy",
+    obtainable: true,
     baseId: "SITHASSASSIN",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "profession_sith",
-      "selftag_sithassassin",
-      "affiliation_sithempire",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "affiliation_doubleblade",
-      "affiliation_forcelightning",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -10527,21 +6978,8 @@ module.exports = [
     nameKey: "Jyn Erso",
     descKey:
       "Offensive Rebel Leader who gains Advantage, Stuns enemies, revives Rebel allies and grants them Potency Up",
+    obtainable: true,
     baseId: "JYNERSO",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "affiliation_rogue_one",
-      "specialmission_rogueone",
-      "specialmission_corerebels",
-      "selftag_jynerso",
-      "any_obtainable",
-      "gac_rogueone",
-    ],
   },
   {
     unitTierList: [
@@ -10609,18 +7047,8 @@ module.exports = [
     thumbnailName: "tex.charui_sion",
     nameKey: "Darth Sion",
     descKey: "Aggressive Sith tank that becomes stronger with Hatred",
+    obtainable: true,
     baseId: "DARTHSION",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "profession_sith",
-      "selftag_darthsion",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "quest_darthsion",
-      "affiliation_sithlord",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -10689,19 +7117,8 @@ module.exports = [
     nameKey: "Poggle the Lesser",
     descKey:
       "Support for Geonosian and Separatist allies, with strong offensive synergies",
+    obtainable: true,
     baseId: "POGGLETHELESSER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "species_geonosian",
-      "selftag_pogglethelesser",
-      "affiliation_separatist",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "territory_geonosis_separatist",
-      "non_viable_leader",
-    ],
   },
   {
     unitTierList: [
@@ -10770,107 +7187,8 @@ module.exports = [
     nameKey: 'CT-21-0408 "Echo"',
     descKey:
       "Clone Trooper Support that automatically assists allies and can dispel all enemy buffs",
+    obtainable: true,
     baseId: "CT210408",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "affiliation_501st",
-      "affiliation_501st_visible",
-      "territory_light_platoon",
-      "species_human",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "affiliation_501st_clone",
-      "selftag_ct210408",
-      "any_obtainable",
-      "territory_geonosis_republic",
-      "gac_algorithm",
-      "gac_experience",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["002", "003", "002", "006", "001", "010"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["004", "012", "017", "019", "028", "033"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["013", "029", "038", "036", "062", "052"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["068", "062", "052", "056", "024", "072"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["062", "073", "078", "072", "075", "093"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["076", "078", "080", "091", "092", "098"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["091", "091", "103", "109", "098", "113"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["098", "110", "113", "112", "112", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["098", "113", "113", "118", "125", "126"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["102", "102", "118", "139", "131", "131"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["138", "117", "131", "129", "129", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "163",
-          "165",
-          "160",
-          "168",
-          "169",
-          "G12Finisher_CC2224_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "CC2224_GLE_INHERIT:SEVEN_STAR",
-    thumbnailName: "tex.charui_trooperclone_cody",
-    nameKey: 'CC-2224 "Cody"',
-    descKey: "Clone Attacker that Stuns and calls tons of Assists",
-    baseId: "CC2224_GLE_INHERIT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "affiliation_212th",
-      "territory_light_platoon",
-      "species_human",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "selftag_cc2224",
-      "affiliation_order66",
-      "non_viable_leader",
-      "gac_jangoclone",
-      "affiliation_501st",
-      "affiliation_501st_clone",
-    ],
   },
   {
     unitTierList: [
@@ -10939,18 +7257,8 @@ module.exports = [
     nameKey: "Droideka",
     descKey:
       "Destructive Droid attacker that punishes fast enemies from behind its deflector shield",
+    obtainable: true,
     baseId: "DROIDEKA",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_separatist",
-      "affiliation_separatist_droid",
-      "species_droid",
-      "selftag_droideka",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "gac_sepondathomir",
-    ],
   },
   {
     unitTierList: [
@@ -11019,19 +7327,8 @@ module.exports = [
     nameKey: "Princess Leia",
     descKey:
       "Well-rounded Rebel Attacker with extra attacks, Stealth, and team Critical bonuses.",
+    obtainable: true,
     baseId: "PRINCESSLEIA",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "specialmission_corerebels",
-      "selftag_princessleia",
-      "any_obtainable",
-      "non_viable_leader",
-      "gac_hope",
-    ],
   },
   {
     unitTierList: [
@@ -11100,16 +7397,8 @@ module.exports = [
     nameKey: "Ugnaught",
     descKey:
       "Anti-Droid Support with AoE damage and high Evasion against Droids",
+    obtainable: true,
     baseId: "UGNAUGHT",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "territory_light_platoon",
-      "longitudinally_implemented",
-      "selftag_ugnaught",
-      "any_obtainable",
-      "gac_impdroid",
-    ],
   },
   {
     unitTierList: [
@@ -11178,25 +7467,8 @@ module.exports = [
     nameKey: "Snowtrooper",
     descKey:
       "Empire Attacker that becomes faster and stronger as enemies are defeated",
+    obtainable: true,
     baseId: "SNOWTROOPER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "species_human",
-      "affiliation_empire",
-      "affiliation_imperialtrooper",
-      "selftag_snowtrooper",
-      "any_obtainable",
-      "territory_hoth_empire",
-      "territory_dark_platoon",
-      "specialmission_empire",
-      "specialmission_imperialtrooper",
-      "quest_snowtrooper",
-      "gac_hothvet",
-      "gac_veerssnow",
-      "gac_hothempvet",
-      "gac_impstormtroopers",
-    ],
   },
   {
     unitTierList: [
@@ -11265,145 +7537,8 @@ module.exports = [
     nameKey: "First Order Officer",
     descKey:
       "First Order support that grants Advantage and can manipulate both ally and enemy Turn Meters",
+    obtainable: true,
     baseId: "FIRSTORDEROFFICERMALE",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "affiliation_firstorder",
-      "species_human",
-      "selftag_firstorderofficermale",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "affiliation_fomilitary",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "001", "002", "002", "006", "006"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["006", "013", "017", "023", "022", "041"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["012", "037", "044", "062", "057", "056"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["023", "023", "044", "076", "074", "064"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["045", "044", "043", "043", "074", "084"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["057", "076", "064", "084", "101", "087"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["069", "044", "081", "101", "110", "106"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["022", "022", "049", "104", "106", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["023", "058", "063", "110", "126", "115"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["116", "118", "109", "064", "060", "071"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["9999", "9999", "9999", "108", "104", "9999"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: ["002", "9999", "097", "087", "093", "9999"],
-      },
-    ],
-    id: "B1BATTLEDROID:SEVEN_STAR",
-    thumbnailName: "tex.charui_b1",
-    nameKey: "B1 Battle Droid",
-    descKey: "Droid horde character with high Turn Meter potential",
-    baseId: "B1BATTLEDROID",
-    categoryIdList: [
-      "alignment_dark",
-      "species_droid",
-      "role_attacker",
-      "selftag_b1battledroid",
-      "affiliation_separatist",
-      "affiliation_separatist_droid",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "003", "006", "006", "011", "004"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["003", "012", "017", "015", "028", "025"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["019", "025", "060", "069", "042", "049"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["025", "046", "069", "058", "078", "077"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["060", "053", "052", "056", "078", "079"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["051", "056", "074", "079", "088", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["074", "079", "092", "103", "107", "113"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["061", "078", "091", "103", "113", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["102", "103", "109", "113", "118", "126"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["116", "118", "109", "064", "060", "071"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["9999", "9999", "9999", "108", "104", "9999"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: ["002", "9999", "097", "087", "093", "9999"],
-      },
-    ],
-    id: "LUCE:SEVEN_STAR",
-    thumbnailName: "tex.charui_nightsister_luce",
-    nameKey: "Luce",
-    descKey:
-      "Multiple Attacker with death-cycled ATK generation; moderate survivability",
-    baseId: "LUCE",
-    categoryIdList: [
-      "alignment_dark",
-      "affiliation_nightsisters",
-      "role_attacker",
-    ],
   },
   {
     unitTierList: [
@@ -11472,114 +7607,8 @@ module.exports = [
     nameKey: "Darth Vader",
     descKey:
       "Fearsome Attacker that applies AoE Damage Over Time, and crushes debuffed targets for extra turns",
+    obtainable: true,
     baseId: "VADER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "species_human",
-      "affiliation_empire",
-      "profession_sith",
-      "selftag_vader",
-      "any_obtainable",
-      "territory_hoth_empire",
-      "territory_dark_platoon",
-      "specialmission_empire",
-      "affiliation_sithlord",
-      "gac_tiepilot",
-      "gac_trench",
-      "gac_execbh",
-      "gac_bespinocc",
-      "gac_vaderluke",
-      "gac_hadnochoice",
-      "gac_hothvet",
-      "gac_hothempvet",
-      "gac_foretold",
-      "gac_aspirations",
-      "gac_iamthemaster",
-      "gac_takethemaskoff",
-      "gac_thechosenone",
-      "conq_hokey_religion",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["002", "002", "005", "005", "009", "009"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["015", "041", "016", "016", "032", "026"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["055", "050", "050", "045", "017", "026"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["061", "055", "077", "039", "065", "047"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["095", "056", "040", "089", "091", "047"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["097", "091", "091", "081", "050", "026"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["105", "080", "099", "077", "068", "077"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["077", "117", "111", "043", "061", "094"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["099", "105", "077", "118", "130", "067"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["080", "143", "097", "117", "098", "067"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["111", "124", "142", "070", "117", "146"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "165",
-          "161",
-          "159",
-          "168",
-          "169",
-          "G12Finisher_GRANDMASTERLUKE_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "GRANDMASTERLUKE_GL_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_luke_jml",
-    nameKey: "Jedi Master Luke Skywalker",
-    descKey:
-      "The wizened Jedi master of legend who empowers his Jedi allies with the knowledge and skills he has obtained",
-    baseId: "GRANDMASTERLUKE_GL_EVENT",
-    categoryIdList: [
-      "galactic_legend",
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "percent_health_resistant",
-      "reduced_massive_damage",
-      "profession_jedi",
-      "selftag_grandmasterluke",
-    ],
   },
   {
     unitTierList: [
@@ -11648,20 +7677,8 @@ module.exports = [
     nameKey: "Ima-Gun Di",
     descKey:
       "Supportive Tank that boost ally defense and grants Jedi allies Counter Chance",
+    obtainable: true,
     baseId: "IMAGUNDI",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_republic",
-      "selftag_imagundi",
-      "any_obtainable",
-      "affiliation_galactic_republic_jedi",
-      "non_viable_leader",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [],
@@ -11670,19 +7687,8 @@ module.exports = [
     nameKey: "TIE Advanced x1",
     descKey:
       "Fearsome Empire Attacker that shuts enemies down with stacking debuffs and permanent Target Locks",
+    obtainable: true,
     baseId: "TIEADVANCED",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "territory_ship_platoon",
-      "selftag_tieadvanced",
-      "affiliation_empire",
-      "profession_sith",
-      "any_obtainable",
-      "gac_tie",
-      "gac_wantthemalive",
-      "gac_nowthisispodracing",
-    ],
   },
   {
     unitTierList: [
@@ -11751,22 +7757,8 @@ module.exports = [
     nameKey: "Baze Malbus",
     descKey:
       "Fearsome Rebel Tank who Taunts, dispels buffs, and inflicts debuffs",
+    obtainable: true,
     baseId: "BAZEMALBUS",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "affiliation_rogue_one",
-      "specialmission_rogueone",
-      "specialmission_corerebels",
-      "selftag_bazemalbus",
-      "any_obtainable",
-      "platoon_legendary_light",
-      "gac_whillsguard",
-      "gac_chaze",
-    ],
   },
   {
     unitTierList: [],
@@ -11775,17 +7767,8 @@ module.exports = [
     nameKey: "Phantom II",
     descKey:
       "Evasive Rebel attacker that provides as a decoy for the Ghost while applying buffs to allies",
+    obtainable: true,
     baseId: "PHANTOM2",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_ship_platoon",
-      "affiliation_rebels",
-      "affiliation_phoenix",
-      "selftag_phantom2",
-      "any_obtainable",
-      "shipclass_cargoship",
-    ],
   },
   {
     unitTierList: [
@@ -11854,25 +7837,8 @@ module.exports = [
     nameKey: "Emperor Palpatine",
     descKey:
       "Overwhelming Sith Support who inflicts Shock and can Stun targets for multiple turns",
+    obtainable: true,
     baseId: "EMPERORPALPATINE",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "profession_sith",
-      "affiliation_empire",
-      "selftag_emperorpalpatine",
-      "any_obtainable",
-      "platoon_legendary_dark",
-      "territory_dark_platoon",
-      "specialmission_empire",
-      "affiliation_palp",
-      "affiliation_order66",
-      "affiliation_sithlord",
-      "affiliation_forcelightning",
-      "gac_takethemaskoff",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -11941,28 +7907,8 @@ module.exports = [
     nameKey: "Lando Calrissian",
     descKey:
       "Scoundrel leader with high offense and excellent Critical Hit synergy",
+    obtainable: true,
     baseId: "ADMINISTRATORLANDO",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_scoundrel",
-      "species_human",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "specialmission_corerebels",
-      "selftag_administratorlando",
-      "any_obtainable",
-      "affiliation_sabacc",
-      "affiliation_rebfalconcrew",
-      "gac_rebelpilot",
-      "gac_oldsmoothie",
-      "gac_hadnochoice",
-      "gac_landolobot",
-      "non_viable_leader",
-      "gac_alltooeasy",
-    ],
   },
   {
     unitTierList: [
@@ -12031,16 +7977,8 @@ module.exports = [
     nameKey: "Sun Fac",
     descKey:
       "Geonosian Tank who punishes attackers with a variety of negative effects",
+    obtainable: true,
     baseId: "SUNFAC",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "species_geonosian",
-      "selftag_sunfac",
-      "affiliation_separatist",
-      "any_obtainable",
-      "territory_dark_platoon",
-    ],
   },
   {
     unitTierList: [],
@@ -12049,17 +7987,8 @@ module.exports = [
     nameKey: "Imperial TIE Bomber",
     descKey:
       "Debilitating Empire Tank that inflicts Burning, cripples enemies' Offense, and provides heavy defensive capability.",
+    obtainable: true,
     baseId: "TIEBOMBERIMPERIAL",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "affiliation_empire",
-      "selftag_tiebomberimperial",
-      "crewless",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "gac_wantthemalive",
-    ],
   },
   {
     unitTierList: [],
@@ -12068,100 +7997,8 @@ module.exports = [
     nameKey: "Anakin's Eta-2 Starfighter",
     descKey:
       "Aggressive Jedi Attacker that bolsters Offense and retaliates when allies are in trouble",
+    obtainable: true,
     baseId: "JEDISTARFIGHTERANAKIN",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_ship_platoon",
-      "affiliation_republic",
-      "profession_jedi",
-      "any_obtainable",
-      "selftag_jedistarfighteranakin",
-      "gac_funbegins",
-      "gac_nowthisispodracing",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "002", "003", "004", "004", "005"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["025", "021", "015", "028", "028", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["062", "076", "050", "041", "069", "049"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["055", "058", "024", "055", "060", "074"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["093", "043", "086", "051", "084", "079"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["075", "055", "092", "092", "093", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["102", "079", "106", "024", "100", "099"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["108", "101", "099", "112", "118", "117"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["117", "102", "096", "101", "106", "111"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["144", "116", "129", "125", "116", "144"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["109", "129", "146", "134", "144", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "159",
-          "160",
-          "168",
-          "168",
-          "G12Finisher_LORDVADER_A",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "LORDVADER_GLE:SEVEN_STAR",
-    thumbnailName: "tex.charui_anakin_fallen",
-    nameKey: "Lord Vader",
-    descKey:
-      "Legendary Sith Lord who utilizes the actions of others to empower his own potential and is not to be underestimated",
-    baseId: "LORDVADER_GLE",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "galactic_legend",
-      "species_human",
-      "affiliation_empire",
-      "profession_sith",
-      "percent_health_resistant",
-      "reduced_massive_damage",
-      "any_obtainable",
-      "selftag_lordvader",
-    ],
   },
   {
     unitTierList: [
@@ -12230,24 +8067,8 @@ module.exports = [
     nameKey: "Darth Sidious",
     descKey:
       "Brutal Attacker effective against Healers and Jedi while boosting allied Criticals as a Leader",
+    obtainable: true,
     baseId: "DARTHSIDIOUS",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "profession_sith",
-      "selftag_darthsidious",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "affiliation_sithlord",
-      "affiliation_palp",
-      "affiliation_order66",
-      "non_viable_leader",
-      "gac_sidmaul",
-      "gac_rival",
-      "gac_servantoftheempire",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -12315,16 +8136,8 @@ module.exports = [
     thumbnailName: "tex.charui_ewok_chirpa",
     nameKey: "Chief Chirpa",
     descKey: "Ewok Leader that greatly improves ally Basic abilities",
+    obtainable: true,
     baseId: "CHIEFCHIRPA",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "territory_light_platoon",
-      "species_ewok",
-      "selftag_chiefchirpa",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -12393,17 +8206,8 @@ module.exports = [
     nameKey: 'Garazeb "Zeb" Orrelios',
     descKey:
       "Versatile Phoenix Tank with wide variety of effects for allies or enemies with or without debuffs",
+    obtainable: true,
     baseId: "ZEBS3",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "affiliation_phoenix",
-      "specialmission_corerebels",
-      "selftag_zebs3",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [],
@@ -12412,17 +8216,8 @@ module.exports = [
     nameKey: "Ghost",
     descKey:
       "Elusive Rebel attacker that reduces enemy Potency and wreaks havok with Rebel allies",
+    obtainable: true,
     baseId: "GHOST",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_ship_platoon",
-      "affiliation_rebels",
-      "affiliation_phoenix",
-      "selftag_ghost",
-      "any_obtainable",
-      "shipclass_cargoship",
-    ],
   },
   {
     unitTierList: [
@@ -12491,16 +8286,8 @@ module.exports = [
     nameKey: "Nightsister Initiate",
     descKey:
       "Critical-focused Attacker that can render enemies immune to buffs",
+    obtainable: true,
     baseId: "NIGHTSISTERINITIATE",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_nightsisters",
-      "selftag_nightsisterinitiate",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "gac_dathomirnative",
-    ],
   },
   {
     unitTierList: [],
@@ -12509,94 +8296,8 @@ module.exports = [
     nameKey: "Han's Millennium Falcon",
     descKey:
       "Highly-modified Rebel Attacker that specializes in assists and shows up at just the right time",
+    obtainable: true,
     baseId: "MILLENNIUMFALCON",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "affiliation_rebels",
-      "profession_scoundrel",
-      "selftag_millenniumfalcon",
-      "shipclass_cargoship",
-      "any_obtainable",
-      "affiliation_millennium",
-      "gac_floataway",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["002", "003", "011", "007", "006", "004"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["010", "004", "021", "042", "025", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["004", "034", "040", "048", "065", "040"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["043", "043", "063", "066", "076", "078"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["055", "060", "061", "078", "082", "084"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["101", "066", "068", "091", "087", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["102", "113", "109", "089", "100", "106"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["117", "108", "113", "098", "110", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["097", "091", "102", "117", "125", "107"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["097", "118", "126", "112", "113", "126"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["142", "129", "139", "108", "104", "131"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "160",
-          "159",
-          "158",
-          "166",
-          "170",
-          "G12Finisher_REYJEDITRAINING_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "REYJEDITRAINING_GLEVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_rey_tros",
-    nameKey: "Rey",
-    descKey:
-      "Resilient Resistance Tank who avenges debuffed allies and controls the battlefield",
-    baseId: "REYJEDITRAINING_GLEVENT",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "affiliation_resistance",
-      "selftag_reyjeditraining",
-    ],
   },
   {
     unitTierList: [],
@@ -12604,16 +8305,8 @@ module.exports = [
     thumbnailName: "tex.charui_stardestroyer",
     nameKey: "Executrix",
     descKey: "Aggressive Empire Capital Ship that crushes debuffed enemies",
+    obtainable: true,
     baseId: "CAPITALSTARDESTROYER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_capital",
-      "affiliation_empire",
-      "selftag_capitalstardestroyer",
-      "any_obtainable",
-      "shipclass_capitalship",
-      "exclude_from_tb_mission",
-    ],
   },
   {
     unitTierList: [
@@ -12682,18 +8375,8 @@ module.exports = [
     nameKey: "Geonosian Brood Alpha",
     descKey:
       "Geonosian Support that swarms enemies with summoned allies and Hive Mind",
+    obtainable: true,
     baseId: "GEONOSIANBROODALPHA",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "species_geonosian",
-      "affiliation_separatist",
-      "selftag_geonosianbroodalpha",
-      "any_obtainable",
-      "platoon_legendary_restricted",
-      "SOE_summoner",
-    ],
   },
   {
     unitTierList: [
@@ -12762,16 +8445,8 @@ module.exports = [
     nameKey: "Nightsister Acolyte",
     descKey:
       "Stealth attacker with some enemy debuffing and self healing ability.",
+    obtainable: true,
     baseId: "NIGHTSISTERACOLYTE",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_nightsisters",
-      "selftag_nightsisteracolyte",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "gac_dathomirnative",
-    ],
   },
   {
     unitTierList: [
@@ -12840,151 +8515,8 @@ module.exports = [
     nameKey: "Geonosian Soldier",
     descKey:
       "Aggressive Attacker who calls assists and grants powerful offensive bonuses to Geonosian allies",
+    obtainable: true,
     baseId: "GEONOSIANSOLDIER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "species_geonosian",
-      "selftag_geonosiansoldier",
-      "affiliation_separatist",
-      "any_obtainable",
-      "territory_dark_platoon",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "001", "002", "003", "005", "011"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["003", "012", "021", "013", "033", "033"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["029", "037", "043", "035", "062", "052"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["035", "024", "024", "063", "074", "077"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["024", "077", "089", "075", "079", "084"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["086", "088", "102", "091", "092", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["101", "092", "100", "109", "105", "108"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["105", "099", "108", "113", "112", "117"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["091", "105", "103", "117", "125", "120"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["095", "101", "108", "113", "119", "132"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["9999", "9999", "9999", "108", "104", "9999"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "COMMANDODROIDDIPLOMAT:SEVEN_STAR",
-    thumbnailName: "tex.charui_bx",
-    nameKey: "Commando Droid Diplomat",
-    descKey: "Stealth-based Attacker with Crit buildup and high survivability",
-    baseId: "COMMANDODROIDDIPLOMAT",
-    categoryIdList: [
-      "alignment_dark",
-      "longitudinally_implemented",
-      "species_droid",
-      "role_tank",
-      "affiliation_separatist",
-      "affiliation_separatist_droid",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["003", "003", "002", "002", "004", "010"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["012", "012", "018", "026", "013", "028"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["052", "038", "013", "050", "062", "025"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["065", "082", "024", "034", "040", "055"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["091", "081", "035", "050", "049", "093"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["094", "082", "057", "062", "052", "086"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["108", "109", "084", "073", "100", "098"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["117", "091", "089", "099", "082", "112"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["107", "095", "116", "108", "125", "074"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["129", "121", "117", "109", "108", "111"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["146", "149", "130", "145", "131", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "165",
-          "159",
-          "162",
-          "168",
-          "166",
-          "G12Finisher_HOTHREBELSOLDIER_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "JKL_PILOT:SEVEN_STAR",
-    thumbnailName: "tex.charui_rebelhoth",
-    nameKey: "Hoth Rebel Soldier",
-    descKey:
-      "Support character that debuffs, taunts, and defensively buffs, with Rebel and anti-Empire synergies.",
-    baseId: "JKL_PILOT",
-    categoryIdList: ["role_attacker", "affiliation_rebels"],
   },
   {
     unitTierList: [
@@ -13053,31 +8585,8 @@ module.exports = [
     nameKey: "Darth Maul",
     descKey:
       "Deadly Attacker that gains power and extra turns as enemies are defeated",
+    obtainable: true,
     baseId: "MAUL",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "profession_sith",
-      "selftag_maul",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "affiliation_doubleblade",
-      "affiliation_sithlord",
-      "affiliation_dathbros",
-      "affiliation_crimsondawn",
-      "gac_thecovenssecrets",
-      "gac_dathomirnative",
-      "gac_sidmaul",
-      "gac_revenge",
-      "gac_deatchwatch",
-      "gac_desperateescape",
-      "gac_handlethis",
-      "gac_rival",
-      "gac_avengeus",
-      "gac_nightbrother",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -13145,16 +8654,8 @@ module.exports = [
     thumbnailName: "tex.charui_jawa_jawa",
     nameKey: "Jawa",
     descKey: "Attacker effective against debuffed enemies as well as Droids",
+    obtainable: true,
     baseId: "JAWA",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "species_jawa",
-      "longitudinally_implemented",
-      "selftag_jawa",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -13223,20 +8724,8 @@ module.exports = [
     nameKey: "Bossk",
     descKey:
       "Bounty Hunter Tank that constantly regenerates Health and Protection",
+    obtainable: true,
     baseId: "BOSSK",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "role_leader",
-      "profession_bountyhunter",
-      "profession_scoundrel",
-      "selftag_bossk",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_bountyhunter",
-      "gac_execbh",
-      "gac_revenge",
-    ],
   },
   {
     unitTierList: [
@@ -13305,16 +8794,8 @@ module.exports = [
     nameKey: "Resistance Pilot",
     descKey:
       "Resistance attacker that can use Expose, Foresight, and Turn Meter gains to surprise enemies",
+    obtainable: true,
     baseId: "RESISTANCEPILOT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "affiliation_resistance",
-      "species_human",
-      "selftag_resistancepilot",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -13383,18 +8864,8 @@ module.exports = [
     nameKey: "Jedi Knight Luke Skywalker",
     descKey:
       "Stalwart Jedi hero of legend who ascends to victorious heights alongside his Jedi allies through the will of the Force",
+    obtainable: true,
     baseId: "JEDIKNIGHTLUKE",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "profession_jedi",
-      "selftag_jediknightluke",
-      "any_obtainable",
-      "gac_therescue",
-      "gac_takethemaskoff",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -13463,24 +8934,8 @@ module.exports = [
     nameKey: "General Veers",
     descKey:
       "Aggressive Empire Support that becomes stronger as enemies are defeated",
+    obtainable: true,
     baseId: "VEERS",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "affiliation_empire",
-      "affiliation_imperialtrooper",
-      "selftag_veers",
-      "any_obtainable",
-      "territory_hoth_empire",
-      "territory_dark_platoon",
-      "specialmission_empire",
-      "specialmission_imperialtrooper",
-      "gac_hothvet",
-      "gac_veerssnow",
-      "gac_hothempvet",
-      "non_viable_leader",
-    ],
   },
   {
     unitTierList: [
@@ -13548,19 +9003,8 @@ module.exports = [
     thumbnailName: "tex.charui_pao",
     nameKey: "Pao",
     descKey: "Unrelenting Rebel Attacker with a mighty battle cry",
+    obtainable: true,
     baseId: "PAO",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "affiliation_rogue_one",
-      "specialmission_rogueone",
-      "specialmission_corerebels",
-      "selftag_pao",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [],
@@ -13568,15 +9012,8 @@ module.exports = [
     thumbnailName: "tex.charui_xwing_red2",
     nameKey: "Wedge Antilles's X-wing",
     descKey: "Aggressive Rebel Attacker that overwhelms enemies with debuffs",
+    obtainable: true,
     baseId: "XWINGRED2",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_ship_platoon",
-      "selftag_xwingred2",
-      "affiliation_rebels",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [],
@@ -13585,17 +9022,8 @@ module.exports = [
     nameKey: "Hyena Bomber",
     descKey:
       "Robust Separatist Tank that inflicts Buzz Droids and protects allies",
+    obtainable: true,
     baseId: "HYENABOMBER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "affiliation_separatist",
-      "affiliation_separatist_droid",
-      "species_droid",
-      "selftag_hyenabomber",
-      "crewless",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [],
@@ -13604,15 +9032,8 @@ module.exports = [
     nameKey: "Biggs Darklighter's X-wing",
     descKey:
       "Heroic Rebel Tank that can exploit Target Lock for Taunts and Assists",
+    obtainable: true,
     baseId: "XWINGRED3",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_ship_platoon",
-      "selftag_xwingred3",
-      "affiliation_rebels",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -13681,18 +9102,8 @@ module.exports = [
     nameKey: "Darth Revan",
     descKey:
       "Ruthless Sith Lord that is extremely effective at taking down the enemy leader",
+    obtainable: true,
     baseId: "DARTHREVAN",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "profession_sith",
-      "selftag_darthrevan",
-      "affiliation_sithempire",
-      "any_obtainable",
-      "affiliation_sithlord",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -13761,99 +9172,8 @@ module.exports = [
     nameKey: "Dathcha",
     descKey:
       "Versatile Support able to Ability Block and Stealth, effective against Droids or with Jawas",
+    obtainable: true,
     baseId: "DATHCHA",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "territory_light_platoon",
-      "species_jawa",
-      "selftag_dathcha",
-      "any_obtainable",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["003", "005", "005", "005", "007", "008"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["034", "025", "012", "018", "021", "016"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["047", "041", "037", "043", "035", "055"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["034", "066", "050", "024", "063", "081"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["036", "050", "055", "063", "075", "080"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["024", "102", "102", "096", "094", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["055", "091", "092", "108", "108", "107"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["024", "108", "108", "117", "117", "111"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["102", "108", "103", "117", "120", "126"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["092", "112", "112", "119", "116", "145"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["102", "146", "131", "139", "144", "137"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "162",
-          "161",
-          "159",
-          "170",
-          "167",
-          "G12Finisher_GENERALKENOBI_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "GENERALKENOBI_GLE_INHERIT:SEVEN_STAR",
-    thumbnailName: "tex.charui_globiwan",
-    nameKey: "General Kenobi",
-    descKey:
-      "Vigorous Jedi Tank who gains Foresight, dispels debuffs to grant buffs, and calls buffed allies to Assist",
-    baseId: "GENERALKENOBI_GLE_INHERIT",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "character_fleetcommander",
-      "affiliation_212th",
-      "affiliation_republic",
-      "profession_jedi",
-      "selftag_generalkenobi",
-      "specialmission_legendarylight",
-      "platoon_legendary_restricted",
-      "affiliation_galactic_republic_jedi",
-      "affiliation_501st",
-    ],
   },
   {
     unitTierList: [],
@@ -13861,16 +9181,8 @@ module.exports = [
     thumbnailName: "tex.charui_razorcrest",
     nameKey: "Razor Crest",
     descKey: "Tenacious Bounty Hunter attacker with Breach synergy.",
+    obtainable: true,
     baseId: "RAZORCREST",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "any_obtainable",
-      "selftag_razorcrest",
-      "profession_bountyhunter",
-      "shipclass_cargoship",
-      "profession_scoundrel",
-    ],
   },
   {
     unitTierList: [
@@ -13939,17 +9251,8 @@ module.exports = [
     nameKey: "Fennec Shand",
     descKey:
       "Lethal Bounty Hunter capable of taking on the most dangerous foes",
+    obtainable: true,
     baseId: "FENNECSHAND",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "profession_bountyhunter",
-      "profession_scoundrel",
-      "any_obtainable",
-      "selftag_fennecshand",
-      "conq_wretched",
-    ],
   },
   {
     unitTierList: [
@@ -14018,22 +9321,8 @@ module.exports = [
     nameKey: "Jedi Master Kenobi",
     descKey:
       "Renowned Jedi Master that provides damage and support through a diverse set of abilities",
+    obtainable: true,
     baseId: "JEDIMASTERKENOBI",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "galactic_legend",
-      "percent_health_resistant",
-      "reduced_massive_damage",
-      "any_obtainable",
-      "selftag_jedimasterkenobi",
-      "affiliation_galactic_republic_jedi",
-      "affiliation_republic",
-      "profession_jedi",
-      "turn_meter_blocking_leader",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -14102,30 +9391,8 @@ module.exports = [
     nameKey: "Jedi Knight Anakin",
     descKey:
       "High-pressure Jedi attacker that punishes enemies for wounding his allies",
+    obtainable: true,
     baseId: "ANAKINKNIGHT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_republic",
-      "species_human",
-      "selftag_anakinknight",
-      "any_obtainable",
-      "affiliation_galactic_republic_jedi",
-      "territory_geonosis_republic",
-      "non_viable_leader",
-      "gac_succession",
-      "gac_jedigenerals",
-      "gac_jedicouncil",
-      "gac_thecovenssecrets",
-      "gac_riskymission",
-      "gac_forcedtolivealie",
-      "gac_servantoftheempire",
-      "gac_thechosenone",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -14194,16 +9461,8 @@ module.exports = [
     nameKey: "Boba Fett, Scion of Jango",
     descKey:
       "Infamous Bounty Hunter Attacker with a variety of debuffs and synergy with both Bounty Hunters and Scoundrels",
+    obtainable: true,
     baseId: "BOBAFETTSCION",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "profession_bountyhunter",
-      "profession_scoundrel",
-      "any_obtainable",
-      "selftag_bobafettscion",
-    ],
   },
   {
     unitTierList: [
@@ -14271,21 +9530,8 @@ module.exports = [
     thumbnailName: "tex.charui_han_young",
     nameKey: "Young Han Solo",
     descKey: "Scoundrel Attacker who becomes more deadly over time",
+    obtainable: true,
     baseId: "YOUNGHAN",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "profession_scoundrel",
-      "selftag_younghan",
-      "any_obtainable",
-      "territory_light_platoon",
-      "profession_smuggler",
-      "affiliation_prisfalconcrew",
-      "affiliation_sabacc",
-      "gac_revenge",
-      "gac_droidfree",
-      "gac_workingclosely",
-    ],
   },
   {
     unitTierList: [
@@ -14353,18 +9599,8 @@ module.exports = [
     thumbnailName: "tex.charui_jedi_consular_03",
     nameKey: "Jedi Consular",
     descKey: "Well-rounded Jedi Healer with a mix of offense and defense",
+    obtainable: true,
     baseId: "JEDIKNIGHTCONSULAR",
-    categoryIdList: [
-      "alignment_light",
-      "role_healer",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_republic",
-      "selftag_jediknightconsular",
-      "any_obtainable",
-      "affiliation_galactic_republic_jedi",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -14432,17 +9668,8 @@ module.exports = [
     thumbnailName: "tex.charui_tiepilot",
     nameKey: "TIE Fighter Pilot",
     descKey: "Empire Attacker who inflicts Buff Immunity and gains Foresight",
+    obtainable: true,
     baseId: "TIEFIGHTERPILOT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_empire",
-      "selftag_tiefighterpilot",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_empire",
-      "gac_tiepilot",
-    ],
   },
   {
     unitTierList: [
@@ -14511,181 +9738,8 @@ module.exports = [
     nameKey: "B1 Battle Droid",
     descKey:
       "Fragile Separatist Attacker that overwhelms their enemies with numbers",
+    obtainable: true,
     baseId: "B1BATTLEDROIDV2",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "species_droid",
-      "affiliation_separatist",
-      "affiliation_separatist_droid",
-      "any_obtainable",
-      "dark_marquee_unit",
-      "territory_dark_platoon",
-      "selftag_b1battledroidv2",
-      "no_recovery",
-      "gac_sepondathomir",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["004", "001", "001", "005", "005", "003"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["019", "017", "015", "028", "025", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["004", "028", "049", "053", "060", "049"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["061", "051", "056", "068", "073", "074"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["076", "060", "074", "089", "079", "086"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["079", "089", "079", "086", "091", "092"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["068", "092", "097", "110", "109", "113"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["112", "117", "109", "106", "117", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["117", "172", "117", "126", "172", "116"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["172", "144", "172", "145", "138", "139"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["117", "172", "172", "140", "141", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "160",
-          "165",
-          "171",
-          "171",
-          "G12Finisher_JEDIMASTERKENOBI_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "JEDIMASTERKENOBI_GLE_INHERIT_T6:SEVEN_STAR",
-    thumbnailName: "tex.charui_globiwan",
-    nameKey: "Jedi Master Kenobi",
-    descKey:
-      "Renowned Jedi Master that provides damage and support through a diverse set of abilities",
-    baseId: "JEDIMASTERKENOBI_GLE_INHERIT_T6",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "galactic_legend",
-      "percent_health_resistant",
-      "reduced_massive_damage",
-      "any_obtainable",
-      "selftag_jedimasterkenobi",
-      "affiliation_galactic_republic_jedi",
-      "affiliation_republic",
-      "profession_jedi",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "002", "003", "004", "004", "005"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["025", "021", "015", "028", "028", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["062", "076", "050", "041", "069", "049"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["055", "058", "024", "055", "060", "074"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["093", "043", "086", "051", "084", "079"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["075", "055", "092", "092", "093", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["102", "079", "106", "024", "100", "099"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["108", "101", "099", "112", "118", "117"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["117", "102", "096", "101", "106", "111"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["144", "116", "129", "125", "116", "144"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["109", "129", "146", "134", "144", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "159",
-          "160",
-          "168",
-          "168",
-          "G12Finisher_ARCTROOPER501st_A",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "ARCTROOPER501ST_GLE_INHERIT:SEVEN_STAR",
-    thumbnailName: "tex.charui_trooperclone_arc",
-    nameKey: "501st ARC Trooper",
-    descKey:
-      "Powerful Clone Attacker that can command a Blaster Turret on the battlefield",
-    baseId: "ARCTROOPER501ST_GLE_INHERIT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_501st",
-      "affiliation_501st_clone",
-      "affiliation_501st_visible",
-      "profession_clonetrooper",
-      "selftag_arctrooper501st",
-      "SOE_summoner",
-    ],
   },
   {
     unitTierList: [
@@ -14753,16 +9807,8 @@ module.exports = [
     thumbnailName: "tex.charui_coruscantpolice",
     nameKey: "Coruscant Underworld Police",
     descKey: "Support that shuts down enemies with Stuns and Offense Down",
+    obtainable: true,
     baseId: "CORUSCANTUNDERWORLDPOLICE",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "territory_light_platoon",
-      "longitudinally_implemented",
-      "affiliation_republic",
-      "selftag_coruscantunderworldpolice",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -14831,15 +9877,8 @@ module.exports = [
     nameKey: "Gamorrean Guard",
     descKey:
       "Aggressive tank that Taunts and Counters with multiple Damage Over Time effects",
+    obtainable: true,
     baseId: "GAMORREANGUARD",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "any_obtainable",
-      "profession_scoundrel",
-      "territory_dark_platoon",
-      "selftag_gamorreanguard",
-    ],
   },
   {
     unitTierList: [
@@ -14908,17 +9947,8 @@ module.exports = [
     nameKey: "Zaalbar",
     descKey:
       "Versatile Scoundrel Tank with a powerful AoE attack and reactive Taunt",
+    obtainable: true,
     baseId: "ZAALBAR",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_light_platoon",
-      "affiliation_oldrepublic",
-      "profession_scoundrel",
-      "selftag_zaalbar",
-      "any_obtainable",
-      "species_wookiee",
-    ],
   },
   {
     unitTierList: [
@@ -14987,16 +10017,8 @@ module.exports = [
     nameKey: "Ewok Scout",
     descKey:
       "Powerful single-target Attacker that becomes evasive with Ewok allies",
+    obtainable: true,
     baseId: "EWOKSCOUT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "species_ewok",
-      "longitudinally_implemented",
-      "selftag_ewokscout",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -15065,37 +10087,8 @@ module.exports = [
     nameKey: "Veteran Smuggler Chewbacca",
     descKey:
       "Lumbering attacker who accumulates Offensive capabilities as enemies take actions",
+    obtainable: true,
     baseId: "SMUGGLERCHEWBACCA",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "affiliation_resistance",
-      "profession_scoundrel",
-      "selftag_smugglerchewbacca",
-      "any_obtainable",
-      "territory_light_platoon",
-      "species_wookiee",
-      "profession_smuggler",
-      "affiliation_veteransmuggler",
-      "affiliation_resfalconcrew",
-      "gac_millenniumco-pilot",
-    ],
-  },
-  {
-    unitTierList: [],
-    id: "CAPITALRADDUS_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_raddus",
-    nameKey: "Raddus",
-    descKey:
-      "Supportive Resistance Capital Ship that will do whatever is necessary to protect the fleet",
-    baseId: "CAPITALRADDUS_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "role_capital",
-      "affiliation_resistance",
-      "selftag_capitalraddus",
-      "shipclass_capitalship",
-    ],
   },
   {
     unitTierList: [],
@@ -15104,16 +10097,8 @@ module.exports = [
     nameKey: "Ebon Hawk",
     descKey:
       "Durable Old Republic Support that dispels enemies and prevents Target Lock",
+    obtainable: true,
     baseId: "EBONHAWK",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "affiliation_oldrepublic",
-      "selftag_ebonhawk",
-      "shipclass_cargoship",
-      "any_obtainable",
-      "territory_ship_platoon",
-    ],
   },
   {
     unitTierList: [
@@ -15182,99 +10167,8 @@ module.exports = [
     nameKey: "Nightsister Zombie",
     descKey:
       "Vile Nightsister Tank who inflicts Tenacity Down and can't be stopped from reviving endlessly",
+    obtainable: true,
     baseId: "NIGHTSISTERZOMBIE",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "affiliation_nightsisters",
-      "selftag_nightsisterzombie",
-      "any_obtainable",
-      "dark_marquee_unit",
-      "territory_dark_platoon",
-      "gac_dathomirnative",
-      "gac_nszomspi",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "002", "003", "004", "005", "007"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["007", "012", "021", "016", "030", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["018", "030", "032", "048", "040", "065"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["021", "041", "048", "065", "055", "067"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["037", "048", "065", "061", "063", "080"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["025", "038", "065", "082", "075", "087"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["048", "065", "063", "081", "088", "105"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["042", "048", "071", "063", "108", "117"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["112", "108", "108", "111", "117", "120"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["145", "138", "130", "120", "125", "106"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["131", "145", "125", "146", "124", "137"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "162",
-          "159",
-          "166",
-          "166",
-          "G12Finisher_CT5555_A",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "CT5555_GLE_INHERIT:SEVEN_STAR",
-    thumbnailName: "tex.charui_trooperclone_fives",
-    nameKey: "501st Veteran",
-    descKey: "GLLV_FAKEFIVES_DESC",
-    baseId: "CT5555_GLE_INHERIT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "role_leader",
-      "affiliation_501st",
-      "affiliation_501st_visible",
-      "territory_light_platoon",
-      "species_human",
-      "profession_clonetrooper",
-      "selftag_ct5555",
-      "selftag_fakefives",
-      "affiliation_501st_clone",
-    ],
   },
   {
     unitTierList: [
@@ -15342,17 +10236,8 @@ module.exports = [
     thumbnailName: "tex.charui_daka",
     nameKey: "Old Daka",
     descKey: "Defensive Nightsister Healer who Stuns and Revives",
+    obtainable: true,
     baseId: "DAKA",
-    categoryIdList: [
-      "alignment_dark",
-      "role_healer",
-      "role_leader",
-      "affiliation_nightsisters",
-      "selftag_daka",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "gac_dathomirnative",
-    ],
   },
   {
     unitTierList: [
@@ -15421,19 +10306,8 @@ module.exports = [
     nameKey: "The Mandalorian (Beskar Armor)",
     descKey:
       "Fearless Scoundrel leader who hunts down enemies to protect his allies",
+    obtainable: true,
     baseId: "THEMANDALORIANBESKARARMOR",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "affiliation_mandalorian",
-      "profession_scoundrel",
-      "any_obtainable",
-      "selftag_themandalorianbeskararmor",
-      "gac_daringplan",
-      "gac_therescue",
-      "gac_foundlings",
-    ],
   },
   {
     unitTierList: [],
@@ -15442,18 +10316,8 @@ module.exports = [
     nameKey: "Rey's Millennium Falcon",
     descKey:
       "Daring Resistance freighter that can turn the tide by sacrificing buffs",
+    obtainable: true,
     baseId: "MILLENNIUMFALCONEP7",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "selftag_millenniumfalconep7",
-      "affiliation_resistance",
-      "any_obtainable",
-      "territory_ship_platoon",
-      "territory_rare_ship_platoon",
-      "shipclass_cargoship",
-      "affiliation_millennium",
-    ],
   },
   {
     unitTierList: [
@@ -15522,18 +10386,8 @@ module.exports = [
     nameKey: "B2 Super Battle Droid",
     descKey:
       "Droid Tank that relentlessly punishes enemies that evade attacks or damage allies",
+    obtainable: true,
     baseId: "B2SUPERBATTLEDROID",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "species_droid",
-      "selftag_b2superbattledroid",
-      "affiliation_separatist",
-      "affiliation_separatist_droid",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "gac_sepondathomir",
-    ],
   },
   {
     unitTierList: [
@@ -15601,17 +10455,8 @@ module.exports = [
     thumbnailName: "tex.charui_monmothma",
     nameKey: "Mon Mothma",
     descKey: "Rebel Leader who supports and rallies her allies",
+    obtainable: true,
     baseId: "MONMOTHMA",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "affiliation_rebels",
-      "selftag_monmothma",
-      "any_obtainable",
-      "category_pacifist",
-      "gac_hope",
-    ],
   },
   {
     unitTierList: [
@@ -15680,22 +10525,8 @@ module.exports = [
     nameKey: "Stormtrooper",
     descKey:
       "Empire Tank that can Taunt and surprise enemies with unpredictable damage",
+    obtainable: true,
     baseId: "STORMTROOPER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "affiliation_empire",
-      "affiliation_imperialremnant",
-      "affiliation_imperialtrooper",
-      "selftag_stormtrooper",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_empire",
-      "specialmission_imperialtrooper",
-      "quest_stormtrooper",
-      "gac_bespinocc",
-      "gac_impstormtroopers",
-    ],
   },
   {
     unitTierList: [
@@ -15764,18 +10595,8 @@ module.exports = [
     nameKey: "Admiral Ackbar",
     descKey:
       "Rebel Support that can Dispel debuffs and grant allies extra turns",
+    obtainable: true,
     baseId: "ADMIRALACKBAR",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "specialmission_corerebels",
-      "selftag_admiralackbar",
-      "any_obtainable",
-      "character_fleetcommander",
-    ],
   },
   {
     unitTierList: [
@@ -15843,19 +10664,8 @@ module.exports = [
     thumbnailName: "tex.charui_rebel_scarif",
     nameKey: "Scarif Rebel Pathfinder",
     descKey: "Steadfast Rebel Tank who debuffs, Taunts, and self-revives",
+    obtainable: true,
     baseId: "SCARIFREBEL",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "affiliation_rogue_one",
-      "specialmission_rogueone",
-      "specialmission_corerebels",
-      "selftag_scarifrebel",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -15924,21 +10734,8 @@ module.exports = [
     nameKey: "Zam Wesell",
     descKey:
       "Lightning fast Scoundrel attacker that inflicts Evasion Down and detonates bombs.",
+    obtainable: true,
     baseId: "ZAMWESELL",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "profession_scoundrel",
-      "profession_bountyhunter",
-      "selftag_zamwesell",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_bountyhunter",
-      "non_viable_leader",
-      "gac_justajob",
-      "gac_revenge",
-    ],
   },
   {
     unitTierList: [
@@ -16007,267 +10804,8 @@ module.exports = [
     nameKey: 'CT-7567 "Rex"',
     descKey:
       "Clone Leader who fiercely supports and protects his 501st and Clone Trooper allies",
+    obtainable: true,
     baseId: "CT7567",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "affiliation_501st",
-      "affiliation_501st_visible",
-      "territory_light_platoon",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "species_human",
-      "selftag_ct7567",
-      "affiliation_501st_clone",
-      "any_obtainable",
-      "territory_geonosis_republic",
-      "gac_jangoclone",
-      "gac_experience",
-      "gac_ahsokasjourney",
-      "gac_desperateescape",
-      "gac_diversion",
-      "gac_herooftherepublic",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["005", "003", "005", "005", "006", "001"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["034", "016", "034", "021", "012", "028"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["050", "055", "076", "061", "048", "050"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["064", "078", "076", "051", "055", "051"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["086", "093", "064", "074", "055", "076"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["097", "092", "084", "087", "092", "102"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["172", "108", "107", "113", "101", "093"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["118", "117", "112", "172", "113", "103"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["173", "120", "116", "125", "125", "113"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["139", "131", "116", "112", "172", "105"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["145", "129", "138", "120", "131", "128"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "159",
-          "165",
-          "160",
-          "168",
-          "170",
-          "G12Finisher_GENERALSKYWALKER_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "GENERALSKYWALKER_GLE_INHERIT_T3:SEVEN_STAR",
-    thumbnailName: "tex.charui_anakin_fallen",
-    nameKey: "General Skywalker",
-    descKey: "Fierce Jedi Attacker who protects his battalion at all costs",
-    baseId: "GENERALSKYWALKER_GLE_INHERIT_T3",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "affiliation_empire",
-      "affiliation_501st",
-      "affiliation_501st_visible",
-      "profession_sith",
-      "any_obtainable",
-      "selftag_generalskywalker",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["006", "006", "010", "001", "003", "001"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["034", "026", "029", "017", "011", "012"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["049", "056", "034", "053", "069", "057"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["069", "049", "081", "074", "024", "036"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["069", "084", "079", "081", "024", "040"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["097", "089", "049", "092", "101", "048"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["108", "106", "087", "101", "091", "102"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["109", "108", "113", "172", "117", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["092", "113", "113", "117", "119", "125"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["103", "116", "129", "138", "173", "139"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["135", "149", "138", "142", "141", "145"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "160",
-          "165",
-          "170",
-          "171",
-          "G12Finisher_THEMANDALORIAN_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "THEMANDALORIAN_MUDDY:SEVEN_STAR",
-    thumbnailName: "tex.charui_mandalorian",
-    nameKey: "The Mandalorian",
-    descKey:
-      "Powerful Mandalorian bounty hunter who relies on critical hits to overwhelm his enemies",
-    baseId: "THEMANDALORIAN_MUDDY",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "profession_bountyhunter",
-      "profession_scoundrel",
-      "any_obtainable",
-      "selftag_themandalorian",
-      "gac_theguild",
-      "gac_identity",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["006", "006", "008", "004", "007", "005"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["019", "019", "028", "015", "026", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["059", "053", "069", "051", "013", "072"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["056", "081", "068", "024", "065", "076"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["082", "064", "079", "057", "058", "053"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["084", "096", "092", "101", "095", "091"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["110", "109", "094", "082", "103", "102"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["118", "112", "099", "098", "091", "113"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["115", "077", "103", "101", "094", "086"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["116", "118", "109", "064", "060", "071"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["140", "139", "150", "108", "104", "125"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "165",
-          "164",
-          "158",
-          "170",
-          "170",
-          "G12Finisher_CT7567_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "CT7567_GLE_INHERIT:SEVEN_STAR",
-    thumbnailName: "tex.charui_trooperclone_rex",
-    nameKey: "501st Captain",
-    descKey: "GLLV_FAKEREX_DESC",
-    baseId: "CT7567_GLE_INHERIT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "affiliation_501st",
-      "affiliation_501st_visible",
-      "territory_light_platoon",
-      "profession_clonetrooper",
-      "species_human",
-      "selftag_ct7567",
-      "selftag_fakerex",
-      "affiliation_501st_clone",
-    ],
   },
   {
     unitTierList: [
@@ -16336,31 +10874,8 @@ module.exports = [
     nameKey: "R2-D2",
     descKey:
       "Versatile Support Droid that inflicts Burning and grants allies Stealth",
+    obtainable: true,
     baseId: "R2D2_LEGENDARY",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "species_droid",
-      "affiliation_republic",
-      "affiliation_rebels",
-      "specialmission_legendarylight",
-      "affiliation_resistance",
-      "selftag_r2d2_legendary",
-      "any_obtainable",
-      "territory_light_platoon",
-      "platoon_legendary_light",
-      "platoon_legendary_restricted",
-      "territory_geonosis_republic",
-      "gac_droidpilot",
-      "gac_hothvet",
-      "gac_benr2d2",
-      "gc_light_droid",
-      "gac_rebuilt",
-      "gac_loyaldroid",
-      "gac_rebeldroid",
-      "gac_r2c3",
-      "gac_alltooeasy",
-    ],
   },
   {
     unitTierList: [],
@@ -16369,96 +10884,8 @@ module.exports = [
     nameKey: "Devastator",
     descKey:
       "Ruthless Empire Capital Ship that crushes debuffed enemies and dispels buffs when reinforcements enter battle",
+    obtainable: true,
     baseId: "FOTF_DEVASTATOR",
-    categoryIdList: [
-      "role_capital",
-      "affiliation_empire",
-      "selftag_fotf_devastator",
-      "shipclass_capitalship",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["003", "005", "005", "005", "007", "008"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["034", "025", "012", "018", "021", "016"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["047", "041", "037", "043", "035", "055"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["034", "066", "050", "024", "063", "081"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["036", "050", "055", "063", "075", "080"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["024", "102", "102", "096", "094", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["055", "091", "092", "108", "108", "107"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["024", "108", "108", "117", "117", "111"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["102", "108", "103", "117", "120", "126"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["092", "112", "112", "119", "116", "145"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["102", "146", "131", "139", "144", "137"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "162",
-          "161",
-          "159",
-          "170",
-          "167",
-          "G12Finisher_GENERALKENOBI_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "GENERALKENOBI_GLE:SEVEN_STAR",
-    thumbnailName: "tex.charui_obiwangeneral",
-    nameKey: "General Kenobi",
-    descKey:
-      "Vigorous Jedi Tank who gains Foresight, dispels debuffs to grant buffs, and calls buffed allies to Assist",
-    baseId: "GENERALKENOBI_GLE",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "character_fleetcommander",
-      "affiliation_212th",
-      "affiliation_republic",
-      "profession_jedi",
-      "selftag_generalkenobi",
-      "specialmission_legendarylight",
-      "platoon_legendary_restricted",
-      "affiliation_galactic_republic_jedi",
-      "affiliation_501st",
-    ],
   },
   {
     unitTierList: [
@@ -16527,20 +10954,8 @@ module.exports = [
     nameKey: "Commander Ahsoka Tano",
     descKey:
       "Legendary Master of Jar'Kai and Shien form Attacker, who deals high damage to a single target.",
+    obtainable: true,
     baseId: "COMMANDERAHSOKA",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "any_obtainable",
-      "selftag_commanderahsoka",
-      "affiliation_republic",
-      "profession_scoundrel",
-      "unaligned_force_user",
-      "ls_unaligned_force_user",
-      "territory_geonosis_republic",
-      "gac_diversion",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -16608,15 +11023,8 @@ module.exports = [
     thumbnailName: "tex.charui_ewok_paploo",
     nameKey: "Paploo",
     descKey: "Resourceful Ewok Tank with assist and buff synergies",
+    obtainable: true,
     baseId: "PAPLOO",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_light_platoon",
-      "species_ewok",
-      "selftag_paploo",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [],
@@ -16625,16 +11033,8 @@ module.exports = [
     nameKey: "Finalizer",
     descKey:
       "First Order Capital Ship that enables the First Order fleet to have an early game advantage and relentlessly pursue enemies",
+    obtainable: true,
     baseId: "CAPITALFINALIZER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_capital",
-      "any_obtainable",
-      "shipclass_capitalship",
-      "selftag_capitalfinalizer",
-      "affiliation_firstorder",
-      "exclude_from_tb_mission",
-    ],
   },
   {
     unitTierList: [
@@ -16703,21 +11103,8 @@ module.exports = [
     nameKey: "Colonel Starck",
     descKey:
       "Offensive Support who provides critical buffs and removes enemy Turn Meter",
+    obtainable: true,
     baseId: "COLONELSTARCK",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "affiliation_empire",
-      "affiliation_imperialtrooper",
-      "selftag_colonelstarck",
-      "any_obtainable",
-      "territory_hoth_empire",
-      "territory_dark_platoon",
-      "specialmission_empire",
-      "specialmission_imperialtrooper",
-      "gac_hothvet",
-      "gac_hothempvet",
-    ],
   },
   {
     unitTierList: [
@@ -16785,27 +11172,8 @@ module.exports = [
     thumbnailName: "tex.charui_generalanakin",
     nameKey: "General Skywalker",
     descKey: "Fierce Jedi Attacker who protects his battalion at all costs",
+    obtainable: true,
     baseId: "GENERALSKYWALKER",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "affiliation_501st",
-      "affiliation_501st_visible",
-      "affiliation_republic",
-      "profession_jedi",
-      "any_obtainable",
-      "selftag_generalskywalker",
-      "affiliation_galactic_republic_jedi",
-      "territory_geonosis_republic",
-      "gac_jedigenerals",
-      "gac_jedicouncil",
-      "gac_thecovenssecrets",
-      "gac_herooftherepublic",
-      "gac_servantoftheempire",
-      "gac_thechosenone",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -16874,15 +11242,8 @@ module.exports = [
     nameKey: "IG-86 Sentinel Droid",
     descKey:
       "Droid Attacker with a powerful Droid Assist and devastating Criticals",
+    obtainable: true,
     baseId: "IG86SENTINELDROID",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "species_droid",
-      "selftag_ig86sentineldroid",
-      "any_obtainable",
-      "territory_dark_platoon",
-    ],
   },
   {
     unitTierList: [
@@ -16951,20 +11312,8 @@ module.exports = [
     nameKey: "Sabine Wren",
     descKey:
       "Aggressive Phoenix Attacker that permanently strips Defense and punishes slower enemies",
+    obtainable: true,
     baseId: "SABINEWRENS3",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "affiliation_mandalorian",
-      "affiliation_rebels",
-      "affiliation_phoenix",
-      "specialmission_corerebels",
-      "selftag_sabinewrens3",
-      "any_obtainable",
-      "gac_identity",
-      "gac_darksaber",
-    ],
   },
   {
     unitTierList: [
@@ -17033,108 +11382,8 @@ module.exports = [
     nameKey: "Savage Opress",
     descKey:
       "Durable Attacker that crushes low-health units and becomes stronger when attacked",
+    obtainable: true,
     baseId: "SAVAGEOPRESS",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "profession_sith",
-      "longitudinally_implemented",
-      "selftag_savageopress",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "affiliation_doubleblade",
-      "affiliation_dathbros",
-      "non_viable_leader",
-      "gac_dathomirnative",
-      "gac_talzinopress",
-      "gac_asajjopress",
-      "gac_revenge",
-      "gac_rival",
-      "gac_nightbrother",
-      "conq_hokey_religion",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "001", "009", "010", "009", "003"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["012", "020", "014", "015", "026", "027"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["035", "060", "048", "059", "058", "051"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["052", "055", "076", "024", "068", "077"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["036", "024", "077", "085", "083", "080"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["092", "095", "092", "092", "095", "090"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["102", "096", "098", "109", "105", "113"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["102", "088", "110", "105", "113", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["092", "108", "092", "111", "125", "132"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["107", "136", "126", "092", "129", "139"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["145", "123", "129", "143", "124", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "159",
-          "165",
-          "163",
-          "169",
-          "171",
-          "G12Finisher_CT210408_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "CLONETROOPER212_GLE:SEVEN_STAR",
-    thumbnailName: "tex.charui_clone212",
-    nameKey: "212th Clone Trooper",
-    descKey: "A 212th Clone Trooper",
-    baseId: "CLONETROOPER212_GLE",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "affiliation_501st",
-      "affiliation_212th",
-      "territory_light_platoon",
-      "species_human",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "affiliation_501st_clone",
-      "affiliation_212th_clone",
-      "selftag_ct210408",
-    ],
   },
   {
     unitTierList: [
@@ -17203,95 +11452,8 @@ module.exports = [
     nameKey: "Enfys Nest",
     descKey:
       "Powerhouse attacker that stacks Protection when attacked, then dismantles enemy defenses with Dispels and Turn Meter manipulation",
+    obtainable: true,
     baseId: "ENFYSNEST",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "profession_scoundrel",
-      "selftag_enfysnest",
-      "any_obtainable",
-      "territory_light_platoon",
-      "profession_smuggler",
-      "gac_workingclosely",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["007", "008", "005", "005", "001", "002"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["021", "016", "016", "018", "032", "030"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["059", "013", "050", "047", "032", "014"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["077", "067", "055", "037", "018", "049"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["080", "075", "089", "050", "050", "040"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["094", "088", "093", "082", "024", "061"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["100", "088", "102", "099", "050", "063"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["117", "099", "084", "052", "070", "059"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["120", "111", "088", "071", "102", "074"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["129", "129", "145", "120", "131", "101"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["137", "153", "129", "131", "116", "109"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "161",
-          "162",
-          "164",
-          "166",
-          "171",
-          "G12Finisher_VADER_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "VADER_JKL_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_vader",
-    nameKey: "Darth Vader",
-    descKey:
-      "Fearsome Attacker that applies AoE Damage Over Time, and crushes debuffed targets for extra turns",
-    baseId: "VADER_JKL_EVENT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "species_human",
-      "affiliation_empire",
-      "profession_sith",
-      "selftag_vader",
-    ],
   },
   {
     unitTierList: [
@@ -17360,99 +11522,8 @@ module.exports = [
     nameKey: "Rey (Scavenger)",
     descKey:
       "Risky Attacker that has high damage and evasion, but is vulnerable to debuffs",
+    obtainable: true,
     baseId: "REY",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "affiliation_resistance",
-      "species_human",
-      "selftag_rey",
-      "any_obtainable",
-      "affiliation_reys",
-      "unaligned_force_user",
-      "ls_unaligned_force_user",
-      "gac_millenniumco-pilot",
-      "conq_hokey_religion",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["006", "004", "007", "008", "011", "015"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["010", "003", "012", "017", "031", "027"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["021", "014", "017", "037", "050", "055"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["069", "044", "058", "068", "047", "078"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["043", "048", "052", "056", "077", "079"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["017", "047", "056", "072", "088", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["061", "076", "081", "091", "100", "113"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["053", "056", "089", "096", "110", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["038", "089", "100", "109", "125", "115"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["116", "118", "109", "064", "060", "071"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["124", "140", "150", "108", "104", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "165",
-          "162",
-          "164",
-          "171",
-          "168",
-          "G12Finisher_ADMINISTRATORLANDO_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "ADMINISTRATORLANDO_JKL_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_landobespin",
-    nameKey: "Lando Calrissian",
-    descKey:
-      "Scoundrel leader with high offense and excellent Critical Hit synergy",
-    baseId: "ADMINISTRATORLANDO_JKL_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "profession_scoundrel",
-      "species_human",
-      "affiliation_rebels",
-      "selftag_administratorlando",
-    ],
   },
   {
     unitTierList: [
@@ -17521,20 +11592,8 @@ module.exports = [
     nameKey: "Bo-Katan Kryze",
     descKey:
       "A Mandalorian leader that unites fellow Mandalorians and rallies them to assist.",
+    obtainable: true,
     baseId: "BOKATAN",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "any_obtainable",
-      "selftag_bokatan",
-      "affiliation_mandalorian",
-      "profession_scoundrel",
-      "gac_deatchwatch",
-      "gac_ahsokasjourney",
-      "gac_darksaber",
-      "gac_therescue",
-    ],
   },
   {
     unitTierList: [],
@@ -17543,16 +11602,8 @@ module.exports = [
     nameKey: "Plo Koon's Jedi Starfighter",
     descKey:
       "Versatile Jedi Support with powerful Republic buffs and a targeted ally Taunt",
+    obtainable: true,
     baseId: "BLADEOFDORIN",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "territory_ship_platoon",
-      "affiliation_republic",
-      "profession_jedi",
-      "selftag_bladeofdorin",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -17620,17 +11671,8 @@ module.exports = [
     thumbnailName: "tex.charui_canderous",
     nameKey: "Canderous Ordo",
     descKey: "Powerful attacker who can make short work of enemy Tanks",
+    obtainable: true,
     baseId: "CANDEROUSORDO",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_mandalorian",
-      "profession_scoundrel",
-      "any_obtainable",
-      "affiliation_oldrepublic",
-      "selftag_canderousordo",
-      "territory_dark_platoon",
-    ],
   },
   {
     unitTierList: [
@@ -17699,21 +11741,8 @@ module.exports = [
     nameKey: "Director Krennic",
     descKey:
       "Intimidating Empire Support who inflicts devastating debuffs and slows enemies",
+    obtainable: true,
     baseId: "DIRECTORKRENNIC",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "species_human",
-      "affiliation_empire",
-      "selftag_directorkrennic",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_empire",
-      "gac_krendeath",
-      "non_viable_leader",
-      "gac_aspirations",
-    ],
   },
   {
     unitTierList: [
@@ -17782,20 +11811,8 @@ module.exports = [
     nameKey: "Poe Dameron",
     descKey:
       "Resistance Tank with a Taunt that inflicts Expose for big reversals",
+    obtainable: true,
     baseId: "POE",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "territory_light_platoon",
-      "affiliation_resistance",
-      "species_human",
-      "selftag_poe",
-      "any_obtainable",
-      "affiliation_jacket",
-      "affiliation_el16",
-      "non_viable_leader",
-    ],
   },
   {
     unitTierList: [
@@ -17864,312 +11881,8 @@ module.exports = [
     nameKey: "Omega",
     descKey:
       "Clever and empathetic attacker who utilizes buffs, debuffs, and the presence of her Bad Batch allies to take out her foes.",
+    obtainable: true,
     baseId: "BADBATCHOMEGA",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "any_obtainable",
-      "selftag_badbatchomega",
-      "affiliation_badbatch",
-      "profession_clonetrooper",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["005", "007", "008", "010", "010", "003"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["034", "032", "021", "018", "026", "030"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["055", "065", "048", "050", "047", "034"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["063", "068", "024", "055", "065", "048"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["075", "089", "067", "068", "051", "049"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["097", "092", "091", "089", "080", "055"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["108", "105", "109", "096", "091", "093"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["111", "117", "108", "099", "112", "102"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["116", "125", "112", "105", "104", "075"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["139", "145", "116", "108", "129", "144"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["134", "140", "129", "138", "146", "136"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "164",
-          "158",
-          "159",
-          "168",
-          "166",
-          "G12Finisher_KYLORENUNMASKED_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "KYLORENUNMASKED_GLEVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_kyloren_tros",
-    nameKey: "Supreme Leader Kylo Ren",
-    descKey: "Tough First Order Tank with a powerful Stun",
-    baseId: "KYLORENUNMASKED_GLEVENT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "role_leader",
-      "affiliation_firstorder",
-      "selftag_kylorenunmasked",
-      "percent_health_resistant",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["002", "003", "004", "008", "009", "011"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["012", "014", "015", "020", "028", "025"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["010", "020", "025", "059", "039", "049"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["015", "027", "070", "049", "068", "073"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["028", "047", "042", "054", "067", "080"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["028", "049", "024", "077", "080", "090"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["014", "024", "073", "067", "109", "107"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["018", "077", "075", "088", "090", "111"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["089", "102", "094", "105", "125", "132"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["9999", "9999", "117", "126", "9999", "125"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "110"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "125", "094"],
-      },
-    ],
-    id: "DARKBARRISSOFFEE:SEVEN_STAR",
-    thumbnailName: "tex.charui_barriss_dark",
-    nameKey: "Dark Side Barriss Offee",
-    descKey: "Strong Stealth/Crit Attacker with low survivability",
-    baseId: "DARKBARRISSOFFEE",
-    categoryIdList: ["alignment_dark", "role_attacker"],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "002", "003", "004", "005", "007"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["007", "012", "021", "016", "030", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["018", "030", "032", "048", "040", "065"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["021", "041", "048", "065", "055", "067"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["037", "048", "065", "061", "063", "080"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["025", "038", "065", "082", "075", "087"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["048", "065", "063", "081", "088", "105"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["042", "048", "071", "063", "108", "117"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["112", "108", "108", "111", "117", "120"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["145", "138", "130", "120", "125", "106"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["131", "145", "125", "146", "124", "137"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "162",
-          "159",
-          "166",
-          "166",
-          "G12Finisher_CT5555_A",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "CLONEVETERAN212_GLE:SEVEN_STAR",
-    thumbnailName: "tex.charui_clone212",
-    nameKey: "212th Veteran",
-    descKey: "A 212th Veteran Clone Trooper",
-    baseId: "CLONEVETERAN212_GLE",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "affiliation_501st",
-      "affiliation_212th",
-      "territory_light_platoon",
-      "species_human",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "selftag_ct5555",
-      "affiliation_501st_clone",
-      "affiliation_212th_clone",
-    ],
-  },
-  {
-    unitTierList: [],
-    id: "CAPITALFINALIZER_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_finalizer",
-    nameKey: "Finalizer",
-    descKey:
-      "First Order Capital Ship that enables the First Order fleet to have an early game advantage and relentlessly pursue enemies",
-    baseId: "CAPITALFINALIZER_EVENT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_capital",
-      "shipclass_capitalship",
-      "selftag_capitalfinalizer",
-      "affiliation_firstorder",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["007", "008", "005", "005", "001", "002"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["021", "016", "016", "018", "032", "030"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["059", "013", "050", "047", "032", "014"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["077", "067", "055", "037", "018", "049"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["080", "075", "089", "050", "050", "040"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["094", "088", "093", "082", "024", "061"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["100", "088", "102", "099", "050", "063"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["117", "099", "084", "052", "070", "059"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["120", "111", "088", "071", "102", "074"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["129", "129", "145", "120", "131", "101"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["137", "153", "129", "131", "116", "109"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: ["161", "162", "164", "166", "171", "9999"],
-      },
-    ],
-    id: "FOTF_VADER:SEVEN_STAR",
-    thumbnailName: "tex.charui_vader",
-    nameKey: "Darth Vader",
-    descKey:
-      "Fearsome Attacker that applies AoE Damage Over Time, and crushes debuffed targets for extra turns",
-    baseId: "FOTF_VADER",
-    categoryIdList: [
-      "alignment_dark",
-      "species_human",
-      "affiliation_empire",
-      "profession_sith",
-      "role_attacker",
-    ],
   },
   {
     unitTierList: [
@@ -18238,21 +11951,8 @@ module.exports = [
     nameKey: "Chirrut Îmwe",
     descKey:
       "Balanced Rebel Attacker who dispels debuffs, heals allies, and grants Tenacity Up",
+    obtainable: true,
     baseId: "CHIRRUTIMWE",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "affiliation_rogue_one",
-      "specialmission_rogueone",
-      "specialmission_corerebels",
-      "any_obtainable",
-      "selftag_chirrutimwe",
-      "gac_whillsguard",
-      "gac_chaze",
-    ],
   },
   {
     unitTierList: [],
@@ -18261,183 +11961,8 @@ module.exports = [
     nameKey: "Imperial TIE Fighter",
     descKey:
       "Evasive Empire Attacker that both inflicts and exploits Target Lock",
+    obtainable: true,
     baseId: "TIEFIGHTERIMPERIAL",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "territory_ship_platoon",
-      "affiliation_empire",
-      "selftag_tiefighterimperial",
-      "any_obtainable",
-      "gac_tie",
-      "gac_tiefighter",
-      "gac_wantthemalive",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["004", "001", "001", "005", "005", "003"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["019", "017", "015", "028", "025", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["004", "028", "049", "053", "060", "049"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["061", "051", "056", "068", "073", "074"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["076", "060", "074", "089", "079", "086"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["079", "089", "079", "086", "091", "092"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["068", "092", "097", "110", "109", "113"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["112", "117", "109", "106", "117", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["117", "172", "117", "126", "172", "116"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["172", "144", "172", "145", "138", "139"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["117", "172", "172", "140", "141", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "160",
-          "165",
-          "171",
-          "171",
-          "G12Finisher_JEDIMASTERKENOBI_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "JEDIMASTERKENOBI_GLE_INHERIT:SEVEN_STAR",
-    thumbnailName: "tex.charui_globiwan",
-    nameKey: "Jedi Master Kenobi",
-    descKey:
-      "Renowned Jedi Master that provides damage and support through a diverse set of abilities",
-    baseId: "JEDIMASTERKENOBI_GLE_INHERIT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "galactic_legend",
-      "percent_health_resistant",
-      "reduced_massive_damage",
-      "any_obtainable",
-      "selftag_jedimasterkenobi",
-      "affiliation_galactic_republic_jedi",
-      "affiliation_republic",
-      "profession_jedi",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["005", "002", "004", "011", "006", "003"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["025", "023", "023", "029", "017", "015"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["066", "066", "069", "044", "061", "076"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["066", "062", "076", "056", "074", "064"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["036", "056", "064", "079", "093", "084"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["102", "068", "101", "101", "097", "096"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["102", "092", "101", "096", "104", "099"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["024", "101", "101", "104", "099", "118"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["024", "101", "104", "118", "125", "126"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["117", "117", "118", "129", "129", "139"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["119", "117", "129", "129", "139", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "160",
-          "165",
-          "164",
-          "168",
-          "167",
-          "G12Finisher_HANSOLO_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "HANSOLO_GL_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_han_sickness",
-    nameKey: "Han Solo",
-    descKey:
-      "Daring Attacker that stacks Criticals in his favor and always shoots first",
-    baseId: "HANSOLO_GL_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "profession_scoundrel",
-      "affiliation_rebels",
-      "specialmission_legendarylight",
-      "selftag_hansolo",
-      "platoon_legendary_light",
-      "profession_smuggler",
-      "affiliation_rebfalconcrew",
-      "affiliation_smuggled",
-      "affiliation_sabacc",
-      "gac_rebelpilot",
-    ],
   },
   {
     unitTierList: [
@@ -18506,17 +12031,8 @@ module.exports = [
     nameKey: "Sith Marauder",
     descKey:
       "Destructive Sith Attacker that takes advantage of all buffs and debuffs in battle",
+    obtainable: true,
     baseId: "SITHMARAUDER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "profession_sith",
-      "affiliation_sithempire",
-      "selftag_sithmarauder",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -18585,20 +12101,8 @@ module.exports = [
     nameKey: "Barriss Offee",
     descKey:
       "Jedi Healer that can balance party Health and Dispel allied Jedi frequently",
+    obtainable: true,
     baseId: "BARRISSOFFEE",
-    categoryIdList: [
-      "alignment_light",
-      "role_healer",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_republic",
-      "selftag_barrissoffee",
-      "any_obtainable",
-      "affiliation_galactic_republic_jedi",
-      "non_viable_leader",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -18667,22 +12171,8 @@ module.exports = [
     nameKey: "Asajj Ventress",
     descKey:
       "Nightsister controller with healing who generates attack power as characters are defeated",
+    obtainable: true,
     baseId: "ASAJVENTRESS",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "affiliation_nightsisters",
-      "selftag_asajventriss",
-      "affiliation_separatist",
-      "unaligned_force_user",
-      "ds_unaligned_force_user",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "gac_dathomirnative",
-      "gac_asajjopress",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [],
@@ -18691,17 +12181,8 @@ module.exports = [
     nameKey: "Cassian's U-wing",
     descKey:
       "Evasive Rebel Support ship that turns the tide of battle with Stealth and Turn Meter manipulation",
+    obtainable: true,
     baseId: "UWINGROGUEONE",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "affiliation_rebels",
-      "affiliation_rogue_one",
-      "selftag_uwingrogueone",
-      "any_obtainable",
-      "territory_ship_platoon",
-      "gac_uwing",
-    ],
   },
   {
     unitTierList: [
@@ -18770,20 +12251,8 @@ module.exports = [
     nameKey: "Young Lando Calrissian",
     descKey:
       "Scoundrel Attacker that takes advantage of debuffed enemies and deals ever-increasing damage",
+    obtainable: true,
     baseId: "YOUNGLANDO",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "profession_scoundrel",
-      "selftag_younglando",
-      "any_obtainable",
-      "profession_smuggler",
-      "affiliation_sabacc",
-      "affiliation_prisfalconcrew",
-      "gac_droidfree",
-      "gac_workingclosely",
-    ],
   },
   {
     unitTierList: [
@@ -18851,29 +12320,8 @@ module.exports = [
     thumbnailName: "tex.charui_lukebespin",
     nameKey: "Commander Luke Skywalker",
     descKey: "Determined Rebel hero who can ignore debuffs or ignore Taunts",
+    obtainable: true,
     baseId: "COMMANDERLUKESKYWALKER",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "affiliation_rebels",
-      "selftag_commanderlukeskywalker",
-      "unaligned_force_user",
-      "ls_unaligned_force_user",
-      "any_obtainable",
-      "territory_hoth",
-      "platoon_legendary_light",
-      "platoon_legendary_restricted",
-      "territory_hoth_hero_rebel",
-      "territory_light_platoon",
-      "gac_rebelpilot",
-      "gac_hothvet",
-      "gac_vaderluke",
-      "gac_hodacls",
-      "gac_rogue",
-      "gac_alltooeasy",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -18941,97 +12389,8 @@ module.exports = [
     thumbnailName: "tex.charui_maul_cyborg",
     nameKey: "Maul",
     descKey: "Unrelenting attacker that uses his anguish to crush his foes",
+    obtainable: true,
     baseId: "MAULS7",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "any_obtainable",
-      "selftag_mauls7",
-      "affiliation_mandalorian",
-      "unaligned_force_user",
-      "ds_unaligned_force_user",
-      "conq_hokey_religion",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["011", "010", "010", "009", "005", "003"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["010", "028", "014", "020", "012", "012"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["049", "041", "065", "055", "050", "020"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["068", "082", "077", "073", "054", "049"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["088", "089", "073", "080", "055", "054"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["090", "088", "089", "063", "055", "102"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["108", "105", "109", "090", "091", "102"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["111", "117", "109", "114", "024", "050"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["125", "131", "117", "109", "105", "108"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["144", "146", "129", "130", "131", "107"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["142", "014", "144", "137", "150", "105"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "159",
-          "165",
-          "162",
-          "168",
-          "166",
-          "G12Finisher_C3POLEGENDARY_A",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "C3POLEGENDARY_JKL_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_c3p0",
-    nameKey: "C-3PO",
-    descKey:
-      "Evasive support character that Confuses foes and strengthens mixed-faction interplay with Translation.",
-    baseId: "C3POLEGENDARY_JKL_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "species_droid",
-      "affiliation_republic",
-      "affiliation_rebels",
-      "affiliation_resistance",
-      "selftag_c3polegendary",
-      "category_pacifist",
-    ],
   },
   {
     unitTierList: [
@@ -19100,20 +12459,8 @@ module.exports = [
     nameKey: "Gar Saxon",
     descKey:
       "Leader who grants Empire allies Counter Chance and Assists them when they Counter Attack",
+    obtainable: true,
     baseId: "GARSAXON",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "role_leader",
-      "affiliation_empire",
-      "affiliation_mandalorian",
-      "selftag_garsaxon",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "non_viable_leader",
-      "gac_identity",
-      "gac_deatchwatch",
-    ],
   },
   {
     unitTierList: [
@@ -19182,24 +12529,8 @@ module.exports = [
     nameKey: "L3-37",
     descKey:
       "Droid Tank that can dispel allies and has multiple ways to increase her stats permanently",
+    obtainable: true,
     baseId: "L3_37",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_light_platoon",
-      "profession_scoundrel",
-      "species_droid",
-      "selftag_l3_37",
-      "any_obtainable",
-      "profession_smuggler",
-      "affiliation_prisfalconcrew",
-      "gac_millenniumco-pilot",
-      "gac_droidpilot",
-      "gc_light_droid",
-      "gac_loyaldroid",
-      "gac_droidfree",
-      "gac_workingclosely",
-    ],
   },
   {
     unitTierList: [
@@ -19267,20 +12598,8 @@ module.exports = [
     thumbnailName: "tex.charui_tarkinadmiral",
     nameKey: "Grand Moff Tarkin",
     descKey: "Offensive Empire Support with crushing AoE debuffs",
+    obtainable: true,
     baseId: "GRANDMOFFTARKIN",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "species_human",
-      "affiliation_empire",
-      "selftag_grandmofftarkin",
-      "any_obtainable",
-      "character_fleetcommander",
-      "territory_dark_platoon",
-      "specialmission_empire",
-      "non_viable_leader",
-    ],
   },
   {
     unitTierList: [
@@ -19349,17 +12668,8 @@ module.exports = [
     nameKey: "Sith Trooper",
     descKey:
       "Elite trooper with powerful First Order and Sith synergy and high damage potential.",
+    obtainable: true,
     baseId: "FOSITHTROOPER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "affiliation_firstorder",
-      "profession_sith",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "selftag_fosithtrooper",
-      "gac_fostormtrooper",
-    ],
   },
   {
     unitTierList: [],
@@ -19367,15 +12677,8 @@ module.exports = [
     thumbnailName: "tex.charui_ywing",
     nameKey: "Rebel Y-wing",
     descKey: "Sturdy Rebel Tank that can disable enemy Protection",
+    obtainable: true,
     baseId: "YWINGREBEL",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "any_obtainable",
-      "selftag_ywingrebel",
-      "affiliation_rebels",
-      "crewless",
-    ],
   },
   {
     unitTierList: [
@@ -19443,21 +12746,8 @@ module.exports = [
     thumbnailName: "tex.charui_shaakti",
     nameKey: "Shaak Ti",
     descKey: "Inspiring Jedi Leader with heightened reflexes",
+    obtainable: true,
     baseId: "SHAAKTI",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "profession_jedi",
-      "affiliation_republic",
-      "selftag_shaakti",
-      "any_obtainable",
-      "affiliation_galactic_republic_jedi",
-      "territory_geonosis_republic",
-      "gac_jedigenerals",
-      "gac_jedicouncil",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -19526,18 +12816,8 @@ module.exports = [
     nameKey: "Cara Dune",
     descKey:
       "A Scoundrel/Rebel Tank who gains benefits when being led by either.",
+    obtainable: true,
     baseId: "CARADUNE",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "any_obtainable",
-      "selftag_caradune",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "profession_scoundrel",
-      "gac_daringplan",
-      "gac_therescue",
-    ],
   },
   {
     unitTierList: [],
@@ -19545,12 +12825,8 @@ module.exports = [
     thumbnailName: "tex.charui_gr75",
     nameKey: "GR-75",
     descKey: "A rebel transport ship that excels at protecting its allies.",
+    obtainable: true,
     baseId: "JKL_GR75",
-    categoryIdList: [
-      "role_capital",
-      "affiliation_rebels",
-      "shipclass_capitalship",
-    ],
   },
   {
     unitTierList: [
@@ -19619,26 +12895,8 @@ module.exports = [
     nameKey: "Han Solo",
     descKey:
       "Daring Attacker that stacks Criticals in his favor and always shoots first",
+    obtainable: true,
     baseId: "HANSOLO",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "profession_scoundrel",
-      "affiliation_rebels",
-      "specialmission_legendarylight",
-      "selftag_hansolo",
-      "any_obtainable",
-      "platoon_legendary_light",
-      "profession_smuggler",
-      "affiliation_rebfalconcrew",
-      "affiliation_smuggled",
-      "affiliation_sabacc",
-      "gac_rebelpilot",
-      "gac_shotfirst",
-      "gac_revenge",
-      "gac_alltooeasy",
-      "conq_trustenemies",
-    ],
   },
   {
     unitTierList: [
@@ -19706,19 +12964,8 @@ module.exports = [
     thumbnailName: "tex.charui_greefkarga",
     nameKey: "Greef Karga",
     descKey: "Bounty Hunter Support that provides recovery and assist calls",
+    obtainable: true,
     baseId: "GREEFKARGA",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "any_obtainable",
-      "selftag_greefkarga",
-      "profession_bountyhunter",
-      "profession_scoundrel",
-      "specialmission_bountyhunter",
-      "gac_theguild",
-      "gac_daringplan",
-    ],
   },
   {
     unitTierList: [
@@ -19787,15 +13034,8 @@ module.exports = [
     nameKey: "Tusken Shaman",
     descKey:
       "Offensive Healer that can also boost Offense and rapidly stack Damage Over Time effects",
+    obtainable: true,
     baseId: "TUSKENSHAMAN",
-    categoryIdList: [
-      "alignment_dark",
-      "role_healer",
-      "species_tusken",
-      "selftag_tuskenshaman",
-      "any_obtainable",
-      "territory_dark_platoon",
-    ],
   },
   {
     unitTierList: [
@@ -19864,22 +13104,8 @@ module.exports = [
     nameKey: "Kylo Ren",
     descKey:
       "Versatile First Order attacker that can reuse special attacks when damaged",
+    obtainable: true,
     baseId: "KYLOREN",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "species_human",
-      "affiliation_firstorder",
-      "unaligned_force_user",
-      "ds_unaligned_force_user",
-      "selftag_kyloren",
-      "any_obtainable",
-      "percent_health_resistant",
-      "territory_dark_platoon",
-      "affiliation_kylos",
-      "gac_tiepilot",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -19947,21 +13173,8 @@ module.exports = [
     thumbnailName: "tex.charui_greedo",
     nameKey: "Greedo",
     descKey: "Deadly Attacker that gains extra attacks from Critical Hits",
+    obtainable: true,
     baseId: "GREEDO",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "profession_scoundrel",
-      "profession_bountyhunter",
-      "selftag_greedo",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_bountyhunter",
-      "non_viable_leader",
-      "gac_shotfirst",
-      "gac_revenge",
-    ],
   },
   {
     unitTierList: [
@@ -20030,20 +13243,8 @@ module.exports = [
     nameKey: "Jedi Knight Revan",
     descKey:
       "Fabled Jedi leader who controls the battle with a wide mix of powerful abilities",
+    obtainable: true,
     baseId: "JEDIKNIGHTREVAN",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "profession_jedi",
-      "affiliation_oldrepublic",
-      "selftag_jediknightrevan",
-      "any_obtainable",
-      "platoon_legendary_restricted",
-      "gac_oldrep",
-      "turn_meter_blocking_leader",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [],
@@ -20052,19 +13253,8 @@ module.exports = [
     nameKey: "Slave I",
     descKey:
       "Deadly Bounty Hunter Attacker that inflicts and exploits Target Lock for high area-of-effect damage",
+    obtainable: true,
     baseId: "SLAVE1",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "territory_ship_platoon",
-      "selftag_slave1",
-      "profession_bountyhunter",
-      "profession_scoundrel",
-      "any_obtainable",
-      "shipclass_cargoship",
-      "gac_floataway",
-      "gac_wantthemalive",
-    ],
   },
   {
     unitTierList: [
@@ -20133,22 +13323,8 @@ module.exports = [
     nameKey: "Ezra Bridger",
     descKey:
       "Versatile Phoenix Attacker that can perform a variety of effects based on the Roles of allies",
+    obtainable: true,
     baseId: "EZRABRIDGERS3",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_rebels",
-      "affiliation_phoenix",
-      "specialmission_corerebels",
-      "selftag_ezrabridgers3",
-      "any_obtainable",
-      "gac_alliancejedi",
-      "gac_thecovenssecrets",
-      "gac_holocron",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -20217,22 +13393,8 @@ module.exports = [
     nameKey: "Threepio & Chewie",
     descKey:
       "Rebel Attacker duo that can distract their enemies with Blind and deal significant damage to all enemies in multi-encounter battles",
+    obtainable: true,
     baseId: "C3POCHEWBACCA",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "species_droid",
-      "affiliation_rebels",
-      "species_wookiee",
-      "selftag_c3pochewbacca",
-      "any_obtainable",
-      "gc_light_droid",
-      "gac_rebuilt",
-      "gac_loyaldroid",
-      "gac_rebeldroid",
-      "gac_r2c3",
-      "gac_alltooeasy",
-    ],
   },
   {
     unitTierList: [
@@ -20301,17 +13463,8 @@ module.exports = [
     nameKey: "Range Trooper",
     descKey:
       "Aggressive Empire Support that provides other Imperial Trooper allies with Assist chance",
+    obtainable: true,
     baseId: "RANGETROOPER",
-    categoryIdList: [
-      "selftag_rangetrooper",
-      "role_support",
-      "alignment_dark",
-      "affiliation_empire",
-      "affiliation_imperialtrooper",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "gac_impstormtroopers",
-    ],
   },
   {
     unitTierList: [
@@ -20379,40 +13532,8 @@ module.exports = [
     thumbnailName: "tex.charui_rebelpilot_wedge",
     nameKey: "Wedge Antilles",
     descKey: "Rebel Attacker with a strong offensive opening",
+    obtainable: true,
     baseId: "WEDGEANTILLES",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "specialmission_corerebels",
-      "selftag_wedgeantilles",
-      "any_obtainable",
-      "gac_rebelpilot",
-      "gac_wingmate",
-      "gac_trench",
-      "gac_hothvet",
-      "gac_rogue",
-    ],
-  },
-  {
-    unitTierList: [],
-    id: "VULTUREDROID_tb:SEVEN_STAR",
-    thumbnailName: "tex.charui_vulturedroid",
-    nameKey: "Vulture Droid",
-    descKey:
-      "A crewless Separatist Attacker that cripples it's enemies with Buzz Droids",
-    baseId: "VULTUREDROID_tb",
-    categoryIdList: [
-      "alignment_dark",
-      "affiliation_separatist",
-      "species_droid",
-      "role_attacker",
-      "selftag_vulturedroid",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -20481,95 +13602,8 @@ module.exports = [
     nameKey: "Tech",
     descKey:
       "Stealthy support character that gives Translation to other Clone Troopers and applies Target Lock to enemies.",
+    obtainable: true,
     baseId: "BADBATCHTECH",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "any_obtainable",
-      "affiliation_badbatch",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "profession_translator",
-      "selftag_badbatchtech",
-      "territory_geonosis_republic",
-      "gac_riskymission",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["002", "002", "005", "005", "009", "009"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["015", "041", "016", "016", "032", "026"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["055", "050", "050", "045", "017", "026"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["061", "055", "077", "039", "065", "047"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["095", "056", "040", "089", "091", "047"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["097", "091", "091", "081", "050", "026"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["105", "080", "099", "077", "068", "077"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["077", "117", "111", "043", "061", "094"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["099", "105", "077", "118", "130", "067"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["080", "143", "097", "117", "098", "067"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["111", "124", "142", "070", "117", "146"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "165",
-          "161",
-          "159",
-          "168",
-          "169",
-          "G12Finisher_AMILYNHOLDO_B",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "AMILYNHOLDO_RADDUS:SEVEN_STAR",
-    thumbnailName: "tex.charui_holdo",
-    nameKey: "Amilyn Holdo",
-    descKey:
-      "Seasoned Resistance Tank with powerful ally support and enemy debuffs",
-    baseId: "AMILYNHOLDO_RADDUS",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "affiliation_resistance",
-      "selftag_amilynholdo",
-      "territory_light_platoon",
-    ],
   },
   {
     unitTierList: [
@@ -20638,19 +13672,8 @@ module.exports = [
     nameKey: "Bistan",
     descKey:
       "Wild Rebel Attacker who gains Frenzy, debuffs enemies, and removes Turn Meter",
+    obtainable: true,
     baseId: "BISTAN",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "affiliation_rogue_one",
-      "specialmission_rogueone",
-      "specialmission_corerebels",
-      "selftag_bistan",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -20718,20 +13741,8 @@ module.exports = [
     thumbnailName: "tex.charui_ig11_nurse",
     nameKey: "IG-11",
     descKey: "Versatile Healer with strong Scoundrel and Droid synergies",
+    obtainable: true,
     baseId: "IG11",
-    categoryIdList: [
-      "alignment_light",
-      "role_healer",
-      "any_obtainable",
-      "selftag_ig11",
-      "species_droid",
-      "profession_scoundrel",
-      "gc_light_droid",
-      "gac_rebuilt",
-      "gac_loyaldroid",
-      "gac_daringplan",
-      "gac_spoken",
-    ],
   },
   {
     unitTierList: [
@@ -20799,18 +13810,8 @@ module.exports = [
     thumbnailName: "tex.charui_firstorder_executioner",
     nameKey: "First Order Executioner",
     descKey: "Merciless First Order Attacker who executes powerful attacks",
+    obtainable: true,
     baseId: "FIRSTORDEREXECUTIONER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "selftag_firstorderexecutioner",
-      "affiliation_firstorder",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "affiliation_fomilitary",
-      "affiliation_foexecutionsquad",
-      "gac_fostormtrooper",
-    ],
   },
   {
     unitTierList: [
@@ -20879,21 +13880,8 @@ module.exports = [
     nameKey: "The Mandalorian",
     descKey:
       "Powerful Mandalorian bounty hunter who relies on critical hits to overwhelm his enemies",
+    obtainable: true,
     baseId: "THEMANDALORIAN",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "profession_bountyhunter",
-      "affiliation_mandalorian",
-      "profession_scoundrel",
-      "any_obtainable",
-      "selftag_themandalorian",
-      "gac_theguild",
-      "gac_identity",
-      "gac_theway",
-      "gac_foundlings",
-    ],
   },
   {
     unitTierList: [
@@ -20961,16 +13949,8 @@ module.exports = [
     thumbnailName: "tex.charui_dashrendar",
     nameKey: "Dash Rendar",
     descKey: "Charismatic Scoundrel Leader who gives Scoundrel allies Prepared",
+    obtainable: true,
     baseId: "DASHRENDAR",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "profession_scoundrel",
-      "profession_smuggler",
-      "selftag_dashrendar",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -21039,14 +14019,8 @@ module.exports = [
     nameKey: "Darth Talon",
     descKey:
       "Nimble Sith attacker whose loyalty and lethality is without question",
+    obtainable: true,
     baseId: "DARTHTALON",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "profession_sith",
-      "selftag_darthtalon",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [],
@@ -21055,16 +14029,8 @@ module.exports = [
     nameKey: "Kylo Ren's Command Shuttle",
     descKey:
       "Durable First Order Support with unparalleled ability to manipulate allied Turn Meter",
+    obtainable: true,
     baseId: "COMMANDSHUTTLE",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "affiliation_firstorder",
-      "selftag_commandshuttle",
-      "any_obtainable",
-      "territory_ship_platoon",
-      "territory_rare_ship_platoon",
-    ],
   },
   {
     unitTierList: [
@@ -21133,24 +14099,8 @@ module.exports = [
     nameKey: "Rebel Officer Leia Organa",
     descKey:
       "Tenacious Rebel Attacker that counters debuffs and is more effective against healthy targets",
+    obtainable: true,
     baseId: "HOTHLEIA",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "affiliation_rebels",
-      "territory_hoth",
-      "selftag_hothleia",
-      "any_obtainable",
-      "territory_hoth_hero_rebel",
-      "territory_light_platoon",
-      "gac_millenniumco-pilot",
-      "gac_hothvet",
-      "gac_oldsmoothie",
-      "gac_hadnochoice",
-      "gac_rolochewie",
-      "gac_alltooeasy",
-    ],
   },
   {
     unitTierList: [
@@ -21219,25 +14169,8 @@ module.exports = [
     nameKey: "Jango Fett",
     descKey:
       "Notorious Bounty Hunter that exploits debuffed foes and inflicts Burning",
+    obtainable: true,
     baseId: "JANGOFETT",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "profession_bountyhunter",
-      "affiliation_mandalorian",
-      "profession_scoundrel",
-      "any_obtainable",
-      "specialmission_bountyhunter",
-      "selftag_jangofett",
-      "affiliation_separatist",
-      "gac_justajob",
-      "gac_jangoclone",
-      "gac_revenge",
-      "gac_identity",
-      "gac_foundlings",
-      "conq_likemyfather",
-    ],
   },
   {
     unitTierList: [
@@ -21306,23 +14239,8 @@ module.exports = [
     nameKey: "General Grievous",
     descKey:
       "Aggressive Attacker that grows increasingly stronger as the Droids around him fall. Although he hates being called a droid, he counts as one in combat.",
+    obtainable: true,
     baseId: "GRIEVOUS",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "species_droid",
-      "selftag_grievous",
-      "any_obtainable",
-      "affiliation_separatist",
-      "affiliation_separatist_droid",
-      "platoon_legendary_dark",
-      "territory_dark_platoon",
-      "territory_geonosis_separatist",
-      "character_fleetcommander",
-      "gac_droidpilot",
-      "gac_sepondathomir",
-    ],
   },
   {
     unitTierList: [
@@ -21391,15 +14309,8 @@ module.exports = [
     nameKey: "Jawa Engineer",
     descKey:
       "High-speed Jawa Healer with a Critical Chance buff and both Jawa and Droid synergy",
+    obtainable: true,
     baseId: "JAWAENGINEER",
-    categoryIdList: [
-      "alignment_light",
-      "role_healer",
-      "territory_light_platoon",
-      "species_jawa",
-      "selftag_jawaengineer",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -21467,16 +14378,8 @@ module.exports = [
     thumbnailName: "tex.charui_tuskenraider",
     nameKey: "Tusken Raider",
     descKey: "Durable Attacker with Tusken Synergy and a strong Assist attack",
+    obtainable: true,
     baseId: "TUSKENRAIDER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "longitudinally_implemented",
-      "species_tusken",
-      "selftag_tuskenraider",
-      "any_obtainable",
-      "territory_dark_platoon",
-    ],
   },
   {
     unitTierList: [],
@@ -21484,17 +14387,8 @@ module.exports = [
     thumbnailName: "tex.charui_executor",
     nameKey: "Executor",
     descKey: "Empire Capital Ship with strong Bounty Hunter synergy.",
+    obtainable: true,
     baseId: "CAPITALEXECUTOR",
-    categoryIdList: [
-      "alignment_dark",
-      "role_capital",
-      "affiliation_empire",
-      "any_obtainable",
-      "shipclass_capitalship",
-      "selftag_capitalexecutor",
-      "territory_dark_platoon",
-      "exclude_from_tb_mission",
-    ],
   },
   {
     unitTierList: [],
@@ -21503,16 +14397,8 @@ module.exports = [
     nameKey: "Ahsoka Tano's Jedi Starfighter",
     descKey:
       "Versatile Jedi Attacker that uses dispels and buffs to adapt to the battle",
+    obtainable: true,
     baseId: "JEDISTARFIGHTERAHSOKATANO",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_ship_platoon",
-      "affiliation_republic",
-      "profession_jedi",
-      "selftag_jedistarfighterahsokatano",
-      "any_obtainable",
-    ],
   },
   {
     unitTierList: [
@@ -21580,17 +14466,8 @@ module.exports = [
     thumbnailName: "tex.charui_sithtrooper",
     nameKey: "Sith Empire Trooper",
     descKey: "Sith Tank who Taunts and ignores enemy Protection",
+    obtainable: true,
     baseId: "SITHTROOPER",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "profession_sith",
-      "affiliation_sithempire",
-      "selftag_sithtrooper",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -21659,21 +14536,8 @@ module.exports = [
     nameKey: "Ahsoka Tano (Fulcrum)",
     descKey:
       "Enduring Rebel Attacker who shrugs off debuffs and consumes buffs to deal extra damage",
+    obtainable: true,
     baseId: "FULCRUMAHSOKA",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "unaligned_force_user",
-      "ls_unaligned_force_user",
-      "selftag_fulcrumahsoka",
-      "any_obtainable",
-      "gac_foretold",
-      "gac_master",
-      "gac_holocron",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -21742,87 +14606,8 @@ module.exports = [
     nameKey: "Chopper",
     descKey:
       "Surly Phoenix Support who Taunts and Dispels, and can recover Phoenix cooldowns",
+    obtainable: true,
     baseId: "CHOPPERS3",
-    categoryIdList: [
-      "selftag_choppers3",
-      "role_support",
-      "territory_light_platoon",
-      "alignment_light",
-      "affiliation_rebels",
-      "affiliation_phoenix",
-      "specialmission_corerebels",
-      "species_droid",
-      "any_obtainable",
-      "gac_droidpilot",
-      "gac_rebelpilot",
-      "gc_light_droid",
-      "gac_loyaldroid",
-      "gac_rebeldroid",
-      "gac_holocron",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["002", "003", "004", "007", "008", "009"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["003", "014", "015", "020", "032", "033"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["033", "027", "047", "036", "054", "052"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["012", "033", "038", "070", "054", "072"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["030", "026", "070", "072", "067", "080"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["070", "048", "073", "082", "095", "098"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["047", "054", "068", "089", "098", "107"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["067", "089", "088", "098", "109", "111"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["070", "088", "098", "109", "125", "132"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["116", "118", "109", "064", "060", "071"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["9999", "9999", "9999", "108", "104", "9999"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: ["002", "9999", "097", "087", "093", "9999"],
-      },
-    ],
-    id: "ENDORREBELSOLDIER:SEVEN_STAR",
-    thumbnailName: "tex.charui_rebelendorsoldier",
-    nameKey: "Endor Rebel Soldier",
-    descKey: "Rebel Tank with unique Ewok Attack bonuses",
-    baseId: "ENDORREBELSOLDIER",
-    categoryIdList: [
-      "alignment_light",
-      "species_human",
-      "role_tank",
-      "affiliation_rebels",
-    ],
   },
   {
     unitTierList: [
@@ -21891,23 +14676,8 @@ module.exports = [
     nameKey: "Grand Master Yoda",
     descKey:
       "Masterful Jedi support that can replicate enemy buffs and share them with allies",
+    obtainable: true,
     baseId: "GRANDMASTERYODA",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "profession_jedi",
-      "affiliation_republic",
-      "specialmission_legendarylight",
-      "selftag_grandmasteryoda",
-      "any_obtainable",
-      "platoon_legendary_light",
-      "affiliation_galactic_republic_jedi",
-      "territory_geonosis_republic",
-      "gac_jedigenerals",
-      "gac_jedicouncil",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -21975,17 +14745,8 @@ module.exports = [
     thumbnailName: "tex.charui_traya",
     nameKey: "Darth Traya",
     descKey: "Sith support who punishes enemies for relying on others",
+    obtainable: true,
     baseId: "DARTHTRAYA",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "profession_sith",
-      "selftag_darthtraya",
-      "any_obtainable",
-      "affiliation_sithlord",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -22054,22 +14815,8 @@ module.exports = [
     nameKey: "Supreme Leader Kylo Ren",
     descKey:
       "Destructive Leader of the First Order who overpowers his enemies with brutal attacks",
+    obtainable: true,
     baseId: "SUPREMELEADERKYLOREN",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "affiliation_firstorder",
-      "galactic_legend",
-      "any_obtainable",
-      "unaligned_force_user",
-      "ds_unaligned_force_user",
-      "selftag_supremeleaderkyloren",
-      "percent_health_resistant",
-      "reduced_massive_damage",
-      "gac_tiepilot",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -22138,16 +14885,8 @@ module.exports = [
     nameKey: "Mara Jade, The Emperor's Hand",
     descKey:
       "Dark Side force user Attacker who uses her allies to boost her own power and supports Emperor Palpatine",
+    obtainable: true,
     baseId: "MARAJADE",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "any_obtainable",
-      "selftag_marajade",
-      "affiliation_empire",
-      "unaligned_force_user",
-      "ds_unaligned_force_user",
-    ],
   },
   {
     unitTierList: [
@@ -22215,16 +14954,8 @@ module.exports = [
     thumbnailName: "tex.charui_carth",
     nameKey: "Carth Onasi",
     descKey: "Old Republic soldier that excels at clearing waves of enemies",
+    obtainable: true,
     baseId: "CARTHONASI",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "any_obtainable",
-      "territory_light_platoon",
-      "selftag_carthonasi",
-      "affiliation_oldrepublic",
-    ],
   },
   {
     unitTierList: [
@@ -22292,24 +15023,8 @@ module.exports = [
     thumbnailName: "tex.charui_kylo_unmasked",
     nameKey: "Kylo Ren (Unmasked)",
     descKey: "Tough First Order Tank with a powerful Stun",
+    obtainable: true,
     baseId: "KYLORENUNMASKED",
-    categoryIdList: [
-      "alignment_dark",
-      "role_tank",
-      "role_leader",
-      "species_human",
-      "affiliation_firstorder",
-      "unaligned_force_user",
-      "ds_unaligned_force_user",
-      "selftag_kylorenunmasked",
-      "any_obtainable",
-      "percent_health_resistant",
-      "platoon_legendary_restricted",
-      "territory_dark_platoon",
-      "affiliation_kylos",
-      "gac_tiepilot",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -22378,20 +15093,8 @@ module.exports = [
     nameKey: "Jedi Knight Guardian",
     descKey:
       "Tenacious Jedi tank with crippling debuffs and natural recovery at low Health",
+    obtainable: true,
     baseId: "JEDIKNIGHTGUARDIAN",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_republic",
-      "longitudinally_implemented",
-      "selftag_jediknightguardian",
-      "any_obtainable",
-      "affiliation_galactic_republic_jedi",
-      "affiliation_doubleblade",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -22459,19 +15162,8 @@ module.exports = [
     thumbnailName: "tex.charui_yodahermit",
     nameKey: "Hermit Yoda",
     descKey: "Jedi recluse who imparts sage wisdom in the ways of the Force",
+    obtainable: true,
     baseId: "HERMITYODA",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "profession_jedi",
-      "selftag_hermityoda",
-      "any_obtainable",
-      "platoon_legendary_light",
-      "platoon_legendary_restricted",
-      "category_pacifist",
-      "gac_hodacls",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -22539,21 +15231,8 @@ module.exports = [
     thumbnailName: "tex.charui_hk47",
     nameKey: "HK-47",
     descKey: "Offensive Attacker with powerful Darth Revan synergy",
+    obtainable: true,
     baseId: "HK47",
-    categoryIdList: [
-      "alignment_dark",
-      "role_attacker",
-      "role_leader",
-      "species_droid",
-      "selftag_hk47",
-      "affiliation_sithempire",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "specialmission_bountyhunter",
-      "gac_rebuilt",
-      "gac_loyaldroid",
-      "gac_hkt3",
-    ],
   },
   {
     unitTierList: [
@@ -22622,19 +15301,8 @@ module.exports = [
     nameKey: "Grand Admiral Thrawn",
     descKey:
       "Calculating Empire Leader who can halt enemies in their tracks, and grants Empire allies a new Special ability",
+    obtainable: true,
     baseId: "GRANDADMIRALTHRAWN",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "role_leader",
-      "affiliation_empire",
-      "selftag_grandadmiralthrawn",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "platoon_legendary_dark",
-      "character_fleetcommander",
-      "gac_master",
-    ],
   },
   {
     unitTierList: [
@@ -22702,23 +15370,8 @@ module.exports = [
     thumbnailName: "tex.charui_eethkoth",
     nameKey: "Eeth Koth",
     descKey: "Stunning Jedi Support extremely effective against Droids",
+    obtainable: true,
     baseId: "EETHKOTH",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "territory_light_platoon",
-      "profession_jedi",
-      "affiliation_republic",
-      "selftag_eethkoth",
-      "any_obtainable",
-      "affiliation_galactic_republic_jedi",
-      "non_viable_leader",
-      "gac_forcefully",
-      "gac_jedigenerals",
-      "gac_jedicouncil",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -22787,17 +15440,8 @@ module.exports = [
     nameKey: "Talia",
     descKey:
       "Aggressive Healer that sacrifices Health so allies can recover Health and Turn Meter",
+    obtainable: true,
     baseId: "TALIA",
-    categoryIdList: [
-      "alignment_dark",
-      "role_healer",
-      "role_leader",
-      "affiliation_nightsisters",
-      "selftag_talia",
-      "any_obtainable",
-      "territory_dark_platoon",
-      "gac_dathomirnative",
-    ],
   },
   {
     unitTierList: [
@@ -22866,18 +15510,8 @@ module.exports = [
     nameKey: "Juhani",
     descKey:
       "Unique Jedi Tank who dispels debuffs from Old Republic allies and becomes more dangerous below full Health",
+    obtainable: true,
     baseId: "JUHANI",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_light_platoon",
-      "affiliation_oldrepublic",
-      "profession_jedi",
-      "any_obtainable",
-      "selftag_juhani",
-      "gac_oldrep",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [
@@ -22946,23 +15580,8 @@ module.exports = [
     nameKey: 'CT-5555 "Fives"',
     descKey:
       "Tank with high Defense, enemy Speed reduction, and team-wide stat bonuses",
+    obtainable: true,
     baseId: "CT5555",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "role_leader",
-      "affiliation_501st",
-      "affiliation_501st_visible",
-      "territory_light_platoon",
-      "species_human",
-      "profession_clonetrooper",
-      "affiliation_republic",
-      "selftag_ct5555",
-      "affiliation_501st_clone",
-      "any_obtainable",
-      "territory_geonosis_republic",
-      "gac_experience",
-    ],
   },
   {
     unitTierList: [],
@@ -22971,93 +15590,8 @@ module.exports = [
     nameKey: "Scimitar",
     descKey:
       "Deadly Sith Support that can Stealth allies to set up devastating attacks",
+    obtainable: true,
     baseId: "SITHINFILTRATOR",
-    categoryIdList: [
-      "alignment_dark",
-      "role_support",
-      "territory_ship_platoon",
-      "selftag_sithinfiltrator",
-      "any_obtainable",
-      "profession_sith",
-    ],
-  },
-  {
-    unitTierList: [
-      {
-        tier: 1,
-        equipmentSetList: ["001", "002", "003", "004", "004", "005"],
-      },
-      {
-        tier: 2,
-        equipmentSetList: ["025", "021", "015", "028", "028", "034"],
-      },
-      {
-        tier: 3,
-        equipmentSetList: ["062", "076", "050", "041", "069", "049"],
-      },
-      {
-        tier: 4,
-        equipmentSetList: ["055", "058", "024", "055", "060", "074"],
-      },
-      {
-        tier: 5,
-        equipmentSetList: ["093", "043", "086", "051", "084", "079"],
-      },
-      {
-        tier: 6,
-        equipmentSetList: ["075", "055", "092", "092", "093", "097"],
-      },
-      {
-        tier: 7,
-        equipmentSetList: ["102", "079", "106", "024", "100", "099"],
-      },
-      {
-        tier: 8,
-        equipmentSetList: ["108", "101", "099", "112", "118", "117"],
-      },
-      {
-        tier: 9,
-        equipmentSetList: ["117", "102", "096", "101", "106", "111"],
-      },
-      {
-        tier: 10,
-        equipmentSetList: ["144", "116", "129", "125", "116", "144"],
-      },
-      {
-        tier: 11,
-        equipmentSetList: ["109", "129", "146", "134", "144", "142"],
-      },
-      {
-        tier: 12,
-        equipmentSetList: [
-          "158",
-          "159",
-          "160",
-          "168",
-          "168",
-          "G12Finisher_CARADUNE_C",
-        ],
-      },
-      {
-        tier: 13,
-        equipmentSetList: ["9999", "9999", "9999", "9999", "9999", "9999"],
-      },
-    ],
-    id: "CARADUNE_MANDALORIAN_EVENT:SEVEN_STAR",
-    thumbnailName: "tex.charui_caradune",
-    nameKey: "Cara Dune",
-    descKey:
-      "A Scoundrel/Rebel Tank who gains benefits when being led by either.",
-    baseId: "CARADUNE_MANDALORIAN_EVENT",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "any_obtainable",
-      "selftag_caradune",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "profession_scoundrel",
-    ],
   },
   {
     unitTierList: [
@@ -23126,20 +15660,8 @@ module.exports = [
     nameKey: "Cassian Andor",
     descKey:
       "Rebel Support who buffs allies at the start of battle and debuffs enemies during battle",
+    obtainable: true,
     baseId: "CASSIANANDOR",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "territory_light_platoon",
-      "affiliation_rebels",
-      "affiliation_rebelfighter",
-      "affiliation_rogue_one",
-      "specialmission_rogueone",
-      "specialmission_corerebels",
-      "selftag_cassianandor",
-      "any_obtainable",
-      "gac_rogueone",
-    ],
   },
   {
     unitTierList: [
@@ -23208,25 +15730,8 @@ module.exports = [
     nameKey: "Luke Skywalker (Farmboy)",
     descKey:
       "Attacker that can boost his own Critical Rate, then disable enemies with Critical Hits",
+    obtainable: true,
     baseId: "LUKESKYWALKER",
-    categoryIdList: [
-      "alignment_light",
-      "role_attacker",
-      "role_leader",
-      "territory_light_platoon",
-      "species_human",
-      "affiliation_rebels",
-      "specialmission_corerebels",
-      "selftag_lukeskywalker",
-      "any_obtainable",
-      "affiliation_smuggled",
-      "gac_rebelpilot",
-      "gac_trench",
-      "gac_tk421",
-      "non_viable_leader",
-      "gac_avengeus",
-      "gac_iamthemaster",
-    ],
   },
   {
     unitTierList: [
@@ -23295,20 +15800,8 @@ module.exports = [
     nameKey: "Bastila Shan",
     descKey:
       "Strong Jedi Support that grants allies an overwhelming first turn with her Leader ability",
+    obtainable: true,
     baseId: "BASTILASHAN",
-    categoryIdList: [
-      "alignment_light",
-      "role_support",
-      "role_leader",
-      "affiliation_oldrepublic",
-      "profession_jedi",
-      "selftag_bastilashan",
-      "any_obtainable",
-      "territory_light_platoon",
-      "affiliation_doubleblade",
-      "gac_oldrep",
-      "conq_hokey_religion",
-    ],
   },
   {
     unitTierList: [],
@@ -23317,15 +15810,7 @@ module.exports = [
     nameKey: "Umbaran Starfighter",
     descKey:
       "Risky Clone Tank that inflicts great damage and debuffs, but grants Turn Meter to enemies",
+    obtainable: true,
     baseId: "UMBARANSTARFIGHTER",
-    categoryIdList: [
-      "alignment_light",
-      "role_tank",
-      "territory_ship_platoon",
-      "affiliation_republic",
-      "profession_clonetrooper",
-      "selftag_umbaranstarfighter",
-      "any_obtainable",
-    ],
   },
 ];
