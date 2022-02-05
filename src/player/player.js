@@ -6,9 +6,6 @@ const unit = require("../unit/unit");
 const dbClient = require("../db/dynamoDbClient");
 
 class Player {
-  playerMapping = {};
-  expires = {};
-
   constructor() {}
 
   async fetchPlayer(allyCode) {
@@ -16,7 +13,7 @@ class Player {
 
     console.info("Fetching player data from both APIs", allyCode);
 
-    const [{ roster, name }, ggPlayer] = await Promise.all([
+    const [{ roster, name, updated }, ggPlayer] = await Promise.all([
       helpApi.fetchPlayer(allyCode),
       ggApi.fetchPlayer(allyCode),
     ]);
@@ -67,6 +64,7 @@ class Player {
     const player = {
       units: unitList,
       name,
+      updated,
     };
 
     if (result) {
@@ -87,12 +85,6 @@ class Player {
   async createUser(allyCode) {
     const { name } = await helpApi.fetchPlayer(allyCode);
     await dbClient.createUser(allyCode, { name });
-    return await this.fetchPlayer(allyCode);
-  }
-
-  async refresh(allyCode) {
-    delete this.playerMapping[allyCode];
-    delete this.expires[allyCode];
     return await this.fetchPlayer(allyCode);
   }
 
