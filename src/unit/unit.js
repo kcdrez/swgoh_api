@@ -11,7 +11,7 @@ class Unit {
   async fetchUnit(unitId) {
     unitId = unitId.toUpperCase();
 
-    const match = unitsList.find((x) => x.base_id === unitId);
+    const match = unitsList.find((x) => x.id === unitId);
     if (match) {
       console.info("Using unit cache", unitId);
       return match;

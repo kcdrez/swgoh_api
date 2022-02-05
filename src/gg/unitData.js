@@ -1,7 +1,7 @@
 module.exports = [
   {
     name: "Aayla Secura",
-    base_id: "AAYLASECURA",
+    id: "AAYLASECURA",
     pk: 80,
     url: "http://swgoh.gg/characters/aayla-secura/",
     image: "https://game-assets.swgoh.gg/tex.charui_aaylasecura.png",
@@ -79,7 +79,7 @@ module.exports = [
   },
   {
     name: "Admiral Ackbar",
-    base_id: "ADMIRALACKBAR",
+    id: "ADMIRALACKBAR",
     pk: 169,
     url: "http://swgoh.gg/characters/admiral-ackbar/",
     image: "https://game-assets.swgoh.gg/tex.charui_ackbaradmiral.png",
@@ -169,7 +169,7 @@ module.exports = [
   },
   {
     name: "Admiral Piett",
-    base_id: "ADMIRALPIETT",
+    id: "ADMIRALPIETT",
     pk: 562,
     url: "http://swgoh.gg/characters/admiral-piett/",
     image: "https://game-assets.swgoh.gg/tex.charui_piett.png",
@@ -261,7 +261,7 @@ module.exports = [
   },
   {
     name: "Ahsoka Tano",
-    base_id: "AHSOKATANO",
+    id: "AHSOKATANO",
     pk: 64,
     url: "http://swgoh.gg/characters/ahsoka-tano/",
     image: "https://game-assets.swgoh.gg/tex.charui_ahsoka.png",
@@ -342,7 +342,7 @@ module.exports = [
   },
   {
     name: "Ahsoka Tano (Fulcrum)",
-    base_id: "FULCRUMAHSOKA",
+    id: "FULCRUMAHSOKA",
     pk: 236,
     url: "http://swgoh.gg/characters/ahsoka-tano-fulcrum/",
     image: "https://game-assets.swgoh.gg/tex.charui_ahsokaadult.png",
@@ -429,7 +429,7 @@ module.exports = [
   },
   {
     name: "Amilyn Holdo",
-    base_id: "AMILYNHOLDO",
+    id: "AMILYNHOLDO",
     pk: 254,
     url: "http://swgoh.gg/characters/amilyn-holdo/",
     image: "https://game-assets.swgoh.gg/tex.charui_holdo.png",
@@ -509,7 +509,7 @@ module.exports = [
   },
   {
     name: "ARC Trooper",
-    base_id: "ARCTROOPER501ST",
+    id: "ARCTROOPER501ST",
     pk: 394,
     url: "http://swgoh.gg/characters/arc-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_arc.png",
@@ -588,7 +588,7 @@ module.exports = [
   },
   {
     name: "Asajj Ventress",
-    base_id: "ASAJVENTRESS",
+    id: "ASAJVENTRESS",
     pk: 23,
     url: "http://swgoh.gg/characters/asajj-ventress/",
     image: "https://game-assets.swgoh.gg/tex.charui_ventress.png",
@@ -676,7 +676,7 @@ module.exports = [
   },
   {
     name: "Aurra Sing",
-    base_id: "AURRA_SING",
+    id: "AURRA_SING",
     pk: 294,
     url: "http://swgoh.gg/characters/aurra-sing/",
     image: "https://game-assets.swgoh.gg/tex.charui_aurrasing.png",
@@ -756,7 +756,7 @@ module.exports = [
   },
   {
     name: "B1 Battle Droid",
-    base_id: "B1BATTLEDROIDV2",
+    id: "B1BATTLEDROIDV2",
     pk: 324,
     url: "http://swgoh.gg/characters/b1-battle-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_b1.png",
@@ -843,7 +843,7 @@ module.exports = [
   },
   {
     name: "B2 Super Battle Droid",
-    base_id: "B2SUPERBATTLEDROID",
+    id: "B2SUPERBATTLEDROID",
     pk: 195,
     url: "http://swgoh.gg/characters/b2-super-battle-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_b2.png",
@@ -931,7 +931,7 @@ module.exports = [
   },
   {
     name: "Barriss Offee",
-    base_id: "BARRISSOFFEE",
+    id: "BARRISSOFFEE",
     pk: 61,
     url: "http://swgoh.gg/characters/barriss-offee/",
     image: "https://game-assets.swgoh.gg/tex.charui_barriss_light.png",
@@ -1012,7 +1012,7 @@ module.exports = [
   },
   {
     name: "Bastila Shan",
-    base_id: "BASTILASHAN",
+    id: "BASTILASHAN",
     pk: 284,
     url: "http://swgoh.gg/characters/bastila-shan/",
     image: "https://game-assets.swgoh.gg/tex.charui_bastilashan.png",
@@ -1098,7 +1098,7 @@ module.exports = [
   },
   {
     name: "Bastila Shan (Fallen)",
-    base_id: "BASTILASHANDARK",
+    id: "BASTILASHANDARK",
     pk: 305,
     url: "http://swgoh.gg/characters/bastila-shan-fallen/",
     image: "https://game-assets.swgoh.gg/tex.charui_bastilashan_dark.png",
@@ -1193,7 +1193,7 @@ module.exports = [
   },
   {
     name: "Baze Malbus",
-    base_id: "BAZEMALBUS",
+    id: "BAZEMALBUS",
     pk: 216,
     url: "http://swgoh.gg/characters/baze-malbus/",
     image: "https://game-assets.swgoh.gg/tex.charui_bazemalbus.png",
@@ -1274,7 +1274,7 @@ module.exports = [
   },
   {
     name: "BB-8",
-    base_id: "BB8",
+    id: "BB8",
     pk: 242,
     url: "http://swgoh.gg/characters/bb-8/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb8.png",
@@ -1362,7 +1362,7 @@ module.exports = [
   },
   {
     name: "Biggs Darklighter",
-    base_id: "BIGGSDARKLIGHTER",
+    id: "BIGGSDARKLIGHTER",
     pk: 152,
     url: "http://swgoh.gg/characters/biggs-darklighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebelpilot_biggs.png",
@@ -1446,7 +1446,7 @@ module.exports = [
   },
   {
     name: "Bistan",
-    base_id: "BISTAN",
+    id: "BISTAN",
     pk: 214,
     url: "http://swgoh.gg/characters/bistan/",
     image: "https://game-assets.swgoh.gg/tex.charui_bistan.png",
@@ -1518,7 +1518,7 @@ module.exports = [
   },
   {
     name: "Bo-Katan Kryze",
-    base_id: "BOKATAN",
+    id: "BOKATAN",
     pk: 938,
     url: "http://swgoh.gg/characters/bo-katan-kryze/",
     image: "https://game-assets.swgoh.gg/tex.charui_bokatan.png",
@@ -1604,7 +1604,7 @@ module.exports = [
   },
   {
     name: "Boba Fett",
-    base_id: "BOBAFETT",
+    id: "BOBAFETT",
     pk: 164,
     url: "http://swgoh.gg/characters/boba-fett/",
     image: "https://game-assets.swgoh.gg/tex.charui_bobafett.png",
@@ -1693,7 +1693,7 @@ module.exports = [
   },
   {
     name: "Boba Fett, Scion of Jango",
-    base_id: "BOBAFETTSCION",
+    id: "BOBAFETTSCION",
     pk: 1942,
     url: "http://swgoh.gg/characters/boba-fett-scion-of-jango/",
     image: "https://game-assets.swgoh.gg/tex.charui_bobafettold.png",
@@ -1789,7 +1789,7 @@ module.exports = [
   },
   {
     name: "Bodhi Rook",
-    base_id: "BODHIROOK",
+    id: "BODHIROOK",
     pk: 232,
     url: "http://swgoh.gg/characters/bodhi-rook/",
     image: "https://game-assets.swgoh.gg/tex.charui_bodhi.png",
@@ -1868,7 +1868,7 @@ module.exports = [
   },
   {
     name: "Bossk",
-    base_id: "BOSSK",
+    id: "BOSSK",
     pk: 264,
     url: "http://swgoh.gg/characters/bossk/",
     image: "https://game-assets.swgoh.gg/tex.charui_bossk.png",
@@ -1951,7 +1951,7 @@ module.exports = [
   },
   {
     name: "C-3PO",
-    base_id: "C3POLEGENDARY",
+    id: "C3POLEGENDARY",
     pk: 312,
     url: "http://swgoh.gg/characters/c-3po/",
     image: "https://game-assets.swgoh.gg/tex.charui_c3p0.png",
@@ -2048,7 +2048,7 @@ module.exports = [
   },
   {
     name: "Cad Bane",
-    base_id: "CADBANE",
+    id: "CADBANE",
     pk: 121,
     url: "http://swgoh.gg/characters/cad-bane/",
     image: "https://game-assets.swgoh.gg/tex.charui_cadbane.png",
@@ -2131,7 +2131,7 @@ module.exports = [
   },
   {
     name: "Canderous Ordo",
-    base_id: "CANDEROUSORDO",
+    id: "CANDEROUSORDO",
     pk: 307,
     url: "http://swgoh.gg/characters/canderous-ordo/",
     image: "https://game-assets.swgoh.gg/tex.charui_canderous.png",
@@ -2220,7 +2220,7 @@ module.exports = [
   },
   {
     name: "Captain Han Solo",
-    base_id: "HOTHHAN",
+    id: "HOTHHAN",
     pk: 239,
     url: "http://swgoh.gg/characters/captain-han-solo/",
     image: "https://game-assets.swgoh.gg/tex.charui_hoth_han.png",
@@ -2292,7 +2292,7 @@ module.exports = [
   },
   {
     name: "Captain Phasma",
-    base_id: "PHASMA",
+    id: "PHASMA",
     pk: 67,
     url: "http://swgoh.gg/characters/captain-phasma/",
     image: "https://game-assets.swgoh.gg/tex.charui_phasma.png",
@@ -2374,7 +2374,7 @@ module.exports = [
   },
   {
     name: "Cara Dune",
-    base_id: "CARADUNE",
+    id: "CARADUNE",
     pk: 444,
     url: "http://swgoh.gg/characters/cara-dune/",
     image: "https://game-assets.swgoh.gg/tex.charui_caradune.png",
@@ -2455,7 +2455,7 @@ module.exports = [
   },
   {
     name: "Carth Onasi",
-    base_id: "CARTHONASI",
+    id: "CARTHONASI",
     pk: 310,
     url: "http://swgoh.gg/characters/carth-onasi/",
     image: "https://game-assets.swgoh.gg/tex.charui_carth.png",
@@ -2539,7 +2539,7 @@ module.exports = [
   },
   {
     name: "Cassian Andor",
-    base_id: "CASSIANANDOR",
+    id: "CASSIANANDOR",
     pk: 219,
     url: "http://swgoh.gg/characters/cassian-andor/",
     image: "https://game-assets.swgoh.gg/tex.charui_cassian.png",
@@ -2626,7 +2626,7 @@ module.exports = [
   },
   {
     name: 'CC-2224 "Cody"',
-    base_id: "CC2224",
+    id: "CC2224",
     pk: 26,
     url: "http://swgoh.gg/characters/cc-2224-cody/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_cody.png",
@@ -2703,7 +2703,7 @@ module.exports = [
   },
   {
     name: "Chewbacca",
-    base_id: "CHEWBACCALEGENDARY",
+    id: "CHEWBACCALEGENDARY",
     pk: 300,
     url: "http://swgoh.gg/characters/chewbacca/",
     image: "https://game-assets.swgoh.gg/tex.charui_chewbacca_ot.png",
@@ -2793,7 +2793,7 @@ module.exports = [
   },
   {
     name: "Chief Chirpa",
-    base_id: "CHIEFCHIRPA",
+    id: "CHIEFCHIRPA",
     pk: 72,
     url: "http://swgoh.gg/characters/chief-chirpa/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_chirpa.png",
@@ -2872,7 +2872,7 @@ module.exports = [
   },
   {
     name: "Chief Nebit",
-    base_id: "CHIEFNEBIT",
+    id: "CHIEFNEBIT",
     pk: 93,
     url: "http://swgoh.gg/characters/chief-nebit/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_nebit.png",
@@ -2954,7 +2954,7 @@ module.exports = [
   },
   {
     name: "Chirrut Îmwe",
-    base_id: "CHIRRUTIMWE",
+    id: "CHIRRUTIMWE",
     pk: 215,
     url: "http://swgoh.gg/characters/chirrut-imwe/",
     image: "https://game-assets.swgoh.gg/tex.charui_chirrut.png",
@@ -3026,7 +3026,7 @@ module.exports = [
   },
   {
     name: "Chopper",
-    base_id: "CHOPPERS3",
+    id: "CHOPPERS3",
     pk: 225,
     url: "http://swgoh.gg/characters/chopper/",
     image: "https://game-assets.swgoh.gg/tex.charui_chopper.png",
@@ -3109,7 +3109,7 @@ module.exports = [
   },
   {
     name: "Clone Sergeant - Phase I",
-    base_id: "CLONESERGEANTPHASEI",
+    id: "CLONESERGEANTPHASEI",
     pk: 186,
     url: "http://swgoh.gg/characters/clone-sergeant-phase-i/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclonegreen.png",
@@ -3192,7 +3192,7 @@ module.exports = [
   },
   {
     name: "Clone Wars Chewbacca",
-    base_id: "CLONEWARSCHEWBACCA",
+    id: "CLONEWARSCHEWBACCA",
     pk: 62,
     url: "http://swgoh.gg/characters/clone-wars-chewbacca/",
     image: "https://game-assets.swgoh.gg/tex.charui_chewbacca.png",
@@ -3277,7 +3277,7 @@ module.exports = [
   },
   {
     name: "Colonel Starck",
-    base_id: "COLONELSTARCK",
+    id: "COLONELSTARCK",
     pk: 247,
     url: "http://swgoh.gg/characters/colonel-starck/",
     image: "https://game-assets.swgoh.gg/tex.charui_colonel_stark.png",
@@ -3365,7 +3365,7 @@ module.exports = [
   },
   {
     name: "Commander Ahsoka Tano",
-    base_id: "COMMANDERAHSOKA",
+    id: "COMMANDERAHSOKA",
     pk: 1084,
     url: "http://swgoh.gg/characters/commander-ahsoka-tano/",
     image: "https://game-assets.swgoh.gg/tex.charui_commanderahsokatano.png",
@@ -3458,7 +3458,7 @@ module.exports = [
   },
   {
     name: "Commander Luke Skywalker",
-    base_id: "COMMANDERLUKESKYWALKER",
+    id: "COMMANDERLUKESKYWALKER",
     pk: 238,
     url: "http://swgoh.gg/characters/commander-luke-skywalker/",
     image: "https://game-assets.swgoh.gg/tex.charui_lukebespin.png",
@@ -3549,7 +3549,7 @@ module.exports = [
   },
   {
     name: "Coruscant Underworld Police",
-    base_id: "CORUSCANTUNDERWORLDPOLICE",
+    id: "CORUSCANTUNDERWORLDPOLICE",
     pk: 78,
     url: "http://swgoh.gg/characters/coruscant-underworld-police/",
     image: "https://game-assets.swgoh.gg/tex.charui_coruscantpolice.png",
@@ -3627,7 +3627,7 @@ module.exports = [
   },
   {
     name: "Count Dooku",
-    base_id: "COUNTDOOKU",
+    id: "COUNTDOOKU",
     pk: 91,
     url: "http://swgoh.gg/characters/count-dooku/",
     image: "https://game-assets.swgoh.gg/tex.charui_dooku.png",
@@ -3711,7 +3711,7 @@ module.exports = [
   },
   {
     name: 'CT-21-0408 "Echo"',
-    base_id: "CT210408",
+    id: "CT210408",
     pk: 149,
     url: "http://swgoh.gg/characters/ct-21-0408-echo/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_echo.png",
@@ -3791,7 +3791,7 @@ module.exports = [
   },
   {
     name: 'CT-5555 "Fives"',
-    base_id: "CT5555",
+    id: "CT5555",
     pk: 189,
     url: "http://swgoh.gg/characters/ct-5555-fives/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_fives.png",
@@ -3878,7 +3878,7 @@ module.exports = [
   },
   {
     name: 'CT-7567 "Rex"',
-    base_id: "CT7567",
+    id: "CT7567",
     pk: 16,
     url: "http://swgoh.gg/characters/ct-7567-rex/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_rex.png",
@@ -3965,7 +3965,7 @@ module.exports = [
   },
   {
     name: "Dark Trooper",
-    base_id: "DARKTROOPER",
+    id: "DARKTROOPER",
     pk: 907,
     url: "http://swgoh.gg/characters/dark-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_darktrooper.png",
@@ -4050,7 +4050,7 @@ module.exports = [
   },
   {
     name: "Darth Malak",
-    base_id: "DARTHMALAK",
+    id: "DARTHMALAK",
     pk: 342,
     url: "http://swgoh.gg/characters/darth-malak/",
     image: "https://game-assets.swgoh.gg/tex.charui_darthmalak.png",
@@ -4132,7 +4132,7 @@ module.exports = [
   },
   {
     name: "Darth Maul",
-    base_id: "MAUL",
+    id: "MAUL",
     pk: 82,
     url: "http://swgoh.gg/characters/darth-maul/",
     image: "https://game-assets.swgoh.gg/tex.charui_maul.png",
@@ -4214,7 +4214,7 @@ module.exports = [
   },
   {
     name: "Darth Nihilus",
-    base_id: "DARTHNIHILUS",
+    id: "DARTHNIHILUS",
     pk: 222,
     url: "http://swgoh.gg/characters/darth-nihilus/",
     image: "https://game-assets.swgoh.gg/tex.charui_nihilus.png",
@@ -4295,7 +4295,7 @@ module.exports = [
   },
   {
     name: "Darth Revan",
-    base_id: "DARTHREVAN",
+    id: "DARTHREVAN",
     pk: 336,
     url: "http://swgoh.gg/characters/darth-revan/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithrevan.png",
@@ -4381,7 +4381,7 @@ module.exports = [
   },
   {
     name: "Darth Sidious",
-    base_id: "DARTHSIDIOUS",
+    id: "DARTHSIDIOUS",
     pk: 73,
     url: "http://swgoh.gg/characters/darth-sidious/",
     image: "https://game-assets.swgoh.gg/tex.charui_sidious.png",
@@ -4461,7 +4461,7 @@ module.exports = [
   },
   {
     name: "Darth Sion",
-    base_id: "DARTHSION",
+    id: "DARTHSION",
     pk: 259,
     url: "http://swgoh.gg/characters/darth-sion/",
     image: "https://game-assets.swgoh.gg/tex.charui_sion.png",
@@ -4532,7 +4532,7 @@ module.exports = [
   },
   {
     name: "Darth Talon",
-    base_id: "DARTHTALON",
+    id: "DARTHTALON",
     pk: 2296,
     url: "http://swgoh.gg/characters/darth-talon/",
     image: "https://game-assets.swgoh.gg/tex.charui_darthtalon.png",
@@ -4614,7 +4614,7 @@ module.exports = [
   },
   {
     name: "Darth Traya",
-    base_id: "DARTHTRAYA",
+    id: "DARTHTRAYA",
     pk: 258,
     url: "http://swgoh.gg/characters/darth-traya/",
     image: "https://game-assets.swgoh.gg/tex.charui_traya.png",
@@ -4696,7 +4696,7 @@ module.exports = [
   },
   {
     name: "Darth Vader",
-    base_id: "VADER",
+    id: "VADER",
     pk: 200,
     url: "http://swgoh.gg/characters/darth-vader/",
     image: "https://game-assets.swgoh.gg/tex.charui_vader.png",
@@ -4781,7 +4781,7 @@ module.exports = [
   },
   {
     name: "Dash Rendar",
-    base_id: "DASHRENDAR",
+    id: "DASHRENDAR",
     pk: 2063,
     url: "http://swgoh.gg/characters/dash-rendar/",
     image: "https://game-assets.swgoh.gg/tex.charui_dashrendar.png",
@@ -4867,7 +4867,7 @@ module.exports = [
   },
   {
     name: "Dathcha",
-    base_id: "DATHCHA",
+    id: "DATHCHA",
     pk: 142,
     url: "http://swgoh.gg/characters/dathcha/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_dathcha.png",
@@ -4947,7 +4947,7 @@ module.exports = [
   },
   {
     name: "Death Trooper",
-    base_id: "DEATHTROOPER",
+    id: "DEATHTROOPER",
     pk: 221,
     url: "http://swgoh.gg/characters/death-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperdeath.png",
@@ -5030,7 +5030,7 @@ module.exports = [
   },
   {
     name: "Dengar",
-    base_id: "DENGAR",
+    id: "DENGAR",
     pk: 115,
     url: "http://swgoh.gg/characters/dengar/",
     image: "https://game-assets.swgoh.gg/tex.charui_dengar.png",
@@ -5114,7 +5114,7 @@ module.exports = [
   },
   {
     name: "Director Krennic",
-    base_id: "DIRECTORKRENNIC",
+    id: "DIRECTORKRENNIC",
     pk: 220,
     url: "http://swgoh.gg/characters/director-krennic/",
     image: "https://game-assets.swgoh.gg/tex.charui_krennic.png",
@@ -5204,7 +5204,7 @@ module.exports = [
   },
   {
     name: "Droideka",
-    base_id: "DROIDEKA",
+    id: "DROIDEKA",
     pk: 325,
     url: "http://swgoh.gg/characters/droideka/",
     image: "https://game-assets.swgoh.gg/tex.charui_droideka.png",
@@ -5283,7 +5283,7 @@ module.exports = [
   },
   {
     name: "Echo",
-    base_id: "BADBATCHECHO",
+    id: "BADBATCHECHO",
     pk: 1051,
     url: "http://swgoh.gg/characters/echo/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb_echo.png",
@@ -5366,7 +5366,7 @@ module.exports = [
   },
   {
     name: "Eeth Koth",
-    base_id: "EETHKOTH",
+    id: "EETHKOTH",
     pk: 203,
     url: "http://swgoh.gg/characters/eeth-koth/",
     image: "https://game-assets.swgoh.gg/tex.charui_eethkoth.png",
@@ -5443,7 +5443,7 @@ module.exports = [
   },
   {
     name: "Embo",
-    base_id: "EMBO",
+    id: "EMBO",
     pk: 290,
     url: "http://swgoh.gg/characters/embo/",
     image: "https://game-assets.swgoh.gg/tex.charui_embo.png",
@@ -5515,7 +5515,7 @@ module.exports = [
   },
   {
     name: "Emperor Palpatine",
-    base_id: "EMPERORPALPATINE",
+    id: "EMPERORPALPATINE",
     pk: 180,
     url: "http://swgoh.gg/characters/emperor-palpatine/",
     image: "https://game-assets.swgoh.gg/tex.charui_palpatineemperor.png",
@@ -5603,7 +5603,7 @@ module.exports = [
   },
   {
     name: "Enfys Nest",
-    base_id: "ENFYSNEST",
+    id: "ENFYSNEST",
     pk: 274,
     url: "http://swgoh.gg/characters/enfys-nest/",
     image: "https://game-assets.swgoh.gg/tex.charui_enfys.png",
@@ -5690,7 +5690,7 @@ module.exports = [
   },
   {
     name: "Ewok Elder",
-    base_id: "EWOKELDER",
+    id: "EWOKELDER",
     pk: 21,
     url: "http://swgoh.gg/characters/ewok-elder/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_chief.png",
@@ -5761,7 +5761,7 @@ module.exports = [
   },
   {
     name: "Ewok Scout",
-    base_id: "EWOKSCOUT",
+    id: "EWOKSCOUT",
     pk: 71,
     url: "http://swgoh.gg/characters/ewok-scout/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_scout.png",
@@ -5833,7 +5833,7 @@ module.exports = [
   },
   {
     name: "Ezra Bridger",
-    base_id: "EZRABRIDGERS3",
+    id: "EZRABRIDGERS3",
     pk: 230,
     url: "http://swgoh.gg/characters/ezra-bridger/",
     image: "https://game-assets.swgoh.gg/tex.charui_ezra_s3.png",
@@ -5920,7 +5920,7 @@ module.exports = [
   },
   {
     name: "Fennec Shand",
-    base_id: "FENNECSHAND",
+    id: "FENNECSHAND",
     pk: 1926,
     url: "http://swgoh.gg/characters/fennec-shand/",
     image: "https://game-assets.swgoh.gg/tex.charui_fennec.png",
@@ -6002,7 +6002,7 @@ module.exports = [
   },
   {
     name: "Finn",
-    base_id: "FINN",
+    id: "FINN",
     pk: 66,
     url: "http://swgoh.gg/characters/finn/",
     image: "https://game-assets.swgoh.gg/tex.charui_finnjakku.png",
@@ -6085,7 +6085,7 @@ module.exports = [
   },
   {
     name: "First Order Executioner",
-    base_id: "FIRSTORDEREXECUTIONER",
+    id: "FIRSTORDEREXECUTIONER",
     pk: 253,
     url: "http://swgoh.gg/characters/first-order-executioner/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorder_executioner.png",
@@ -6170,7 +6170,7 @@ module.exports = [
   },
   {
     name: "First Order Officer",
-    base_id: "FIRSTORDEROFFICERMALE",
+    id: "FIRSTORDEROFFICERMALE",
     pk: 166,
     url: "http://swgoh.gg/characters/first-order-officer/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorderofficer.png",
@@ -6256,7 +6256,7 @@ module.exports = [
   },
   {
     name: "First Order SF TIE Pilot",
-    base_id: "FIRSTORDERSPECIALFORCESPILOT",
+    id: "FIRSTORDERSPECIALFORCESPILOT",
     pk: 246,
     url: "http://swgoh.gg/characters/first-order-sf-tie-pilot/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorder_pilot.png",
@@ -6342,7 +6342,7 @@ module.exports = [
   },
   {
     name: "First Order Stormtrooper",
-    base_id: "FIRSTORDERTROOPER",
+    id: "FIRSTORDERTROOPER",
     pk: 150,
     url: "http://swgoh.gg/characters/first-order-stormtrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstordertrooper.png",
@@ -6429,7 +6429,7 @@ module.exports = [
   },
   {
     name: "First Order TIE Pilot",
-    base_id: "FIRSTORDERTIEPILOT",
+    id: "FIRSTORDERTIEPILOT",
     pk: 199,
     url: "http://swgoh.gg/characters/first-order-tie-pilot/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstordertiepilot.png",
@@ -6514,7 +6514,7 @@ module.exports = [
   },
   {
     name: "Gamorrean Guard",
-    base_id: "GAMORREANGUARD",
+    id: "GAMORREANGUARD",
     pk: 207,
     url: "http://swgoh.gg/characters/gamorrean-guard/",
     image: "https://game-assets.swgoh.gg/tex.charui_gamorreanguard.png",
@@ -6593,7 +6593,7 @@ module.exports = [
   },
   {
     name: "Gar Saxon",
-    base_id: "GARSAXON",
+    id: "GARSAXON",
     pk: 234,
     url: "http://swgoh.gg/characters/gar-saxon/",
     image: "https://game-assets.swgoh.gg/tex.charui_gar_saxon.png",
@@ -6672,7 +6672,7 @@ module.exports = [
   },
   {
     name: 'Garazeb "Zeb" Orrelios',
-    base_id: "ZEBS3",
+    id: "ZEBS3",
     pk: 229,
     url: "http://swgoh.gg/characters/garazeb-zeb-orrelios/",
     image: "https://game-assets.swgoh.gg/tex.charui_zeb_s3.png",
@@ -6753,7 +6753,7 @@ module.exports = [
   },
   {
     name: "General Grievous",
-    base_id: "GRIEVOUS",
+    id: "GRIEVOUS",
     pk: 1,
     url: "http://swgoh.gg/characters/general-grievous/",
     image: "https://game-assets.swgoh.gg/tex.charui_grievous.png",
@@ -6842,7 +6842,7 @@ module.exports = [
   },
   {
     name: "General Hux",
-    base_id: "GENERALHUX",
+    id: "GENERALHUX",
     pk: 408,
     url: "http://swgoh.gg/characters/general-hux/",
     image: "https://game-assets.swgoh.gg/tex.charui_generalhux.png",
@@ -6922,7 +6922,7 @@ module.exports = [
   },
   {
     name: "General Kenobi",
-    base_id: "GENERALKENOBI",
+    id: "GENERALKENOBI",
     pk: 213,
     url: "http://swgoh.gg/characters/general-kenobi/",
     image: "https://game-assets.swgoh.gg/tex.charui_obiwangeneral.png",
@@ -7021,7 +7021,7 @@ module.exports = [
   },
   {
     name: "General Skywalker",
-    base_id: "GENERALSKYWALKER",
+    id: "GENERALSKYWALKER",
     pk: 385,
     url: "http://swgoh.gg/characters/general-skywalker/",
     image: "https://game-assets.swgoh.gg/tex.charui_generalanakin.png",
@@ -7112,7 +7112,7 @@ module.exports = [
   },
   {
     name: "General Veers",
-    base_id: "VEERS",
+    id: "VEERS",
     pk: 132,
     url: "http://swgoh.gg/characters/general-veers/",
     image: "https://game-assets.swgoh.gg/tex.charui_veers.png",
@@ -7192,7 +7192,7 @@ module.exports = [
   },
   {
     name: "Geonosian Brood Alpha",
-    base_id: "GEONOSIANBROODALPHA",
+    id: "GEONOSIANBROODALPHA",
     pk: 363,
     url: "http://swgoh.gg/characters/geonosian-brood-alpha/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_broodalpha.png",
@@ -7285,7 +7285,7 @@ module.exports = [
   },
   {
     name: "Geonosian Soldier",
-    base_id: "GEONOSIANSOLDIER",
+    id: "GEONOSIANSOLDIER",
     pk: 57,
     url: "http://swgoh.gg/characters/geonosian-soldier/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_soldier.png",
@@ -7364,7 +7364,7 @@ module.exports = [
   },
   {
     name: "Geonosian Spy",
-    base_id: "GEONOSIANSPY",
+    id: "GEONOSIANSPY",
     pk: 88,
     url: "http://swgoh.gg/characters/geonosian-spy/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_spy.png",
@@ -7446,7 +7446,7 @@ module.exports = [
   },
   {
     name: "Grand Admiral Thrawn",
-    base_id: "GRANDADMIRALTHRAWN",
+    id: "GRANDADMIRALTHRAWN",
     pk: 237,
     url: "http://swgoh.gg/characters/grand-admiral-thrawn/",
     image: "https://game-assets.swgoh.gg/tex.charui_thrawn.png",
@@ -7535,7 +7535,7 @@ module.exports = [
   },
   {
     name: "Grand Master Yoda",
-    base_id: "GRANDMASTERYODA",
+    id: "GRANDMASTERYODA",
     pk: 144,
     url: "http://swgoh.gg/characters/grand-master-yoda/",
     image: "https://game-assets.swgoh.gg/tex.charui_yodagrandmaster.png",
@@ -7631,7 +7631,7 @@ module.exports = [
   },
   {
     name: "Grand Moff Tarkin",
-    base_id: "GRANDMOFFTARKIN",
+    id: "GRANDMOFFTARKIN",
     pk: 138,
     url: "http://swgoh.gg/characters/grand-moff-tarkin/",
     image: "https://game-assets.swgoh.gg/tex.charui_tarkinadmiral.png",
@@ -7720,7 +7720,7 @@ module.exports = [
   },
   {
     name: "Greedo",
-    base_id: "GREEDO",
+    id: "GREEDO",
     pk: 190,
     url: "http://swgoh.gg/characters/greedo/",
     image: "https://game-assets.swgoh.gg/tex.charui_greedo.png",
@@ -7802,7 +7802,7 @@ module.exports = [
   },
   {
     name: "Greef Karga",
-    base_id: "GREEFKARGA",
+    id: "GREEFKARGA",
     pk: 446,
     url: "http://swgoh.gg/characters/greef-karga/",
     image: "https://game-assets.swgoh.gg/tex.charui_greefkarga.png",
@@ -7888,7 +7888,7 @@ module.exports = [
   },
   {
     name: "Han Solo",
-    base_id: "HANSOLO",
+    id: "HANSOLO",
     pk: 41,
     url: "http://swgoh.gg/characters/han-solo/",
     image: "https://game-assets.swgoh.gg/tex.charui_han.png",
@@ -7969,7 +7969,7 @@ module.exports = [
   },
   {
     name: "Hera Syndulla",
-    base_id: "HERASYNDULLAS3",
+    id: "HERASYNDULLAS3",
     pk: 227,
     url: "http://swgoh.gg/characters/hera-syndulla/",
     image: "https://game-assets.swgoh.gg/tex.charui_hera_s3.png",
@@ -8058,7 +8058,7 @@ module.exports = [
   },
   {
     name: "Hermit Yoda",
-    base_id: "HERMITYODA",
+    id: "HERMITYODA",
     pk: 74,
     url: "http://swgoh.gg/characters/hermit-yoda/",
     image: "https://game-assets.swgoh.gg/tex.charui_yodahermit.png",
@@ -8140,7 +8140,7 @@ module.exports = [
   },
   {
     name: "HK-47",
-    base_id: "HK47",
+    id: "HK47",
     pk: 172,
     url: "http://swgoh.gg/characters/hk-47/",
     image: "https://game-assets.swgoh.gg/tex.charui_hk47.png",
@@ -8222,7 +8222,7 @@ module.exports = [
   },
   {
     name: "Hoth Rebel Scout",
-    base_id: "HOTHREBELSCOUT",
+    id: "HOTHREBELSCOUT",
     pk: 157,
     url: "http://swgoh.gg/characters/hoth-rebel-scout/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebelhothscout.png",
@@ -8301,7 +8301,7 @@ module.exports = [
   },
   {
     name: "Hoth Rebel Soldier",
-    base_id: "HOTHREBELSOLDIER",
+    id: "HOTHREBELSOLDIER",
     pk: 54,
     url: "http://swgoh.gg/characters/hoth-rebel-soldier/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebelhoth.png",
@@ -8380,7 +8380,7 @@ module.exports = [
   },
   {
     name: "Hunter",
-    base_id: "BADBATCHHUNTER",
+    id: "BADBATCHHUNTER",
     pk: 975,
     url: "http://swgoh.gg/characters/hunter/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb_hunter.png",
@@ -8483,7 +8483,7 @@ module.exports = [
   },
   {
     name: "Iden Versio",
-    base_id: "IDENVERSIOEMPIRE",
+    id: "IDENVERSIOEMPIRE",
     pk: 2598,
     url: "http://swgoh.gg/characters/iden-versio/",
     image: "https://game-assets.swgoh.gg/tex.charui_idenversioempire.png",
@@ -8577,7 +8577,7 @@ module.exports = [
   },
   {
     name: "IG-100 MagnaGuard",
-    base_id: "MAGNAGUARD",
+    id: "MAGNAGUARD",
     pk: 17,
     url: "http://swgoh.gg/characters/ig-100-magnaguard/",
     image: "https://game-assets.swgoh.gg/tex.charui_magnaguard.png",
@@ -8659,7 +8659,7 @@ module.exports = [
   },
   {
     name: "IG-11",
-    base_id: "IG11",
+    id: "IG11",
     pk: 638,
     url: "http://swgoh.gg/characters/ig-11/",
     image: "https://game-assets.swgoh.gg/tex.charui_ig11_nurse.png",
@@ -8739,7 +8739,7 @@ module.exports = [
   },
   {
     name: "IG-86 Sentinel Droid",
-    base_id: "IG86SENTINELDROID",
+    id: "IG86SENTINELDROID",
     pk: 167,
     url: "http://swgoh.gg/characters/ig-86-sentinel-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_ig86.png",
@@ -8818,7 +8818,7 @@ module.exports = [
   },
   {
     name: "IG-88",
-    base_id: "IG88",
+    id: "IG88",
     pk: 143,
     url: "http://swgoh.gg/characters/ig-88/",
     image: "https://game-assets.swgoh.gg/tex.charui_ig88.png",
@@ -8898,7 +8898,7 @@ module.exports = [
   },
   {
     name: "Ima-Gun Di",
-    base_id: "IMAGUNDI",
+    id: "IMAGUNDI",
     pk: 147,
     url: "http://swgoh.gg/characters/ima-gun-di/",
     image: "https://game-assets.swgoh.gg/tex.charui_imagundi.png",
@@ -8975,7 +8975,7 @@ module.exports = [
   },
   {
     name: "Imperial Probe Droid",
-    base_id: "IMPERIALPROBEDROID",
+    id: "IMPERIALPROBEDROID",
     pk: 248,
     url: "http://swgoh.gg/characters/imperial-probe-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_probedroid.png",
@@ -9065,7 +9065,7 @@ module.exports = [
   },
   {
     name: "Imperial Super Commando",
-    base_id: "IMPERIALSUPERCOMMANDO",
+    id: "IMPERIALSUPERCOMMANDO",
     pk: 233,
     url: "http://swgoh.gg/characters/imperial-super-commando/",
     image:
@@ -9152,7 +9152,7 @@ module.exports = [
   },
   {
     name: "Jango Fett",
-    base_id: "JANGOFETT",
+    id: "JANGOFETT",
     pk: 298,
     url: "http://swgoh.gg/characters/jango-fett/",
     image: "https://game-assets.swgoh.gg/tex.charui_jangofett.png",
@@ -9244,7 +9244,7 @@ module.exports = [
   },
   {
     name: "Jawa",
-    base_id: "JAWA",
+    id: "JAWA",
     pk: 123,
     url: "http://swgoh.gg/characters/jawa/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_jawa.png",
@@ -9316,7 +9316,7 @@ module.exports = [
   },
   {
     name: "Jawa Engineer",
-    base_id: "JAWAENGINEER",
+    id: "JAWAENGINEER",
     pk: 87,
     url: "http://swgoh.gg/characters/jawa-engineer/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_engineer.png",
@@ -9394,7 +9394,7 @@ module.exports = [
   },
   {
     name: "Jawa Scavenger",
-    base_id: "JAWASCAVENGER",
+    id: "JAWASCAVENGER",
     pk: 209,
     url: "http://swgoh.gg/characters/jawa-scavenger/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_scavenger.png",
@@ -9482,7 +9482,7 @@ module.exports = [
   },
   {
     name: "Jedi Consular",
-    base_id: "JEDIKNIGHTCONSULAR",
+    id: "JEDIKNIGHTCONSULAR",
     pk: 100,
     url: "http://swgoh.gg/characters/jedi-consular/",
     image: "https://game-assets.swgoh.gg/tex.charui_jedi_consular_03.png",
@@ -9560,7 +9560,7 @@ module.exports = [
   },
   {
     name: "Jedi Knight Anakin",
-    base_id: "ANAKINKNIGHT",
+    id: "ANAKINKNIGHT",
     pk: 112,
     url: "http://swgoh.gg/characters/jedi-knight-anakin/",
     image: "https://game-assets.swgoh.gg/tex.charui_anakinknight.png",
@@ -9642,7 +9642,7 @@ module.exports = [
   },
   {
     name: "Jedi Knight Guardian",
-    base_id: "JEDIKNIGHTGUARDIAN",
+    id: "JEDIKNIGHTGUARDIAN",
     pk: 107,
     url: "http://swgoh.gg/characters/jedi-knight-guardian/",
     image: "https://game-assets.swgoh.gg/tex.charui_jedi_guardian_01.png",
@@ -9721,7 +9721,7 @@ module.exports = [
   },
   {
     name: "Jedi Knight Luke Skywalker",
-    base_id: "JEDIKNIGHTLUKE",
+    id: "JEDIKNIGHTLUKE",
     pk: 487,
     url: "http://swgoh.gg/characters/jedi-knight-luke-skywalker/",
     image: "https://game-assets.swgoh.gg/tex.charui_luke_jediknight.png",
@@ -9812,7 +9812,7 @@ module.exports = [
   },
   {
     name: "Jedi Knight Revan",
-    base_id: "JEDIKNIGHTREVAN",
+    id: "JEDIKNIGHTREVAN",
     pk: 302,
     url: "http://swgoh.gg/characters/jedi-knight-revan/",
     image: "https://game-assets.swgoh.gg/tex.charui_jedirevan.png",
@@ -9910,7 +9910,7 @@ module.exports = [
   },
   {
     name: "Jedi Master Kenobi",
-    base_id: "JEDIMASTERKENOBI",
+    id: "JEDIMASTERKENOBI",
     pk: 1264,
     url: "http://swgoh.gg/characters/jedi-master-kenobi/",
     image: "https://game-assets.swgoh.gg/tex.charui_globiwan.png",
@@ -10017,7 +10017,7 @@ module.exports = [
   },
   {
     name: "Jedi Master Luke Skywalker",
-    base_id: "GRANDMASTERLUKE",
+    id: "GRANDMASTERLUKE",
     pk: 600,
     url: "http://swgoh.gg/characters/jedi-master-luke-skywalker/",
     image: "https://game-assets.swgoh.gg/tex.charui_luke_jml.png",
@@ -10121,7 +10121,7 @@ module.exports = [
   },
   {
     name: "Jolee Bindo",
-    base_id: "JOLEEBINDO",
+    id: "JOLEEBINDO",
     pk: 283,
     url: "http://swgoh.gg/characters/jolee-bindo/",
     image: "https://game-assets.swgoh.gg/tex.charui_joleebindo.png",
@@ -10199,7 +10199,7 @@ module.exports = [
   },
   {
     name: "Juhani",
-    base_id: "JUHANI",
+    id: "JUHANI",
     pk: 308,
     url: "http://swgoh.gg/characters/juhani/",
     image: "https://game-assets.swgoh.gg/tex.charui_juhani.png",
@@ -10280,7 +10280,7 @@ module.exports = [
   },
   {
     name: "Jyn Erso",
-    base_id: "JYNERSO",
+    id: "JYNERSO",
     pk: 217,
     url: "http://swgoh.gg/characters/jyn-erso/",
     image: "https://game-assets.swgoh.gg/tex.charui_jyn.png",
@@ -10360,7 +10360,7 @@ module.exports = [
   },
   {
     name: "K-2SO",
-    base_id: "K2SO",
+    id: "K2SO",
     pk: 218,
     url: "http://swgoh.gg/characters/k-2so/",
     image: "https://game-assets.swgoh.gg/tex.charui_k2so.png",
@@ -10438,7 +10438,7 @@ module.exports = [
   },
   {
     name: "Kanan Jarrus",
-    base_id: "KANANJARRUSS3",
+    id: "KANANJARRUSS3",
     pk: 226,
     url: "http://swgoh.gg/characters/kanan-jarrus/",
     image: "https://game-assets.swgoh.gg/tex.charui_kanan_s3.png",
@@ -10526,7 +10526,7 @@ module.exports = [
   },
   {
     name: "Ki-Adi-Mundi",
-    base_id: "KIADIMUNDI",
+    id: "KIADIMUNDI",
     pk: 397,
     url: "http://swgoh.gg/characters/ki-adi-mundi/",
     image: "https://game-assets.swgoh.gg/tex.charui_kiadimundi.png",
@@ -10608,7 +10608,7 @@ module.exports = [
   },
   {
     name: "Kit Fisto",
-    base_id: "KITFISTO",
+    id: "KITFISTO",
     pk: 187,
     url: "http://swgoh.gg/characters/kit-fisto/",
     image: "https://game-assets.swgoh.gg/tex.charui_kitfisto.png",
@@ -10688,7 +10688,7 @@ module.exports = [
   },
   {
     name: "Kuiil",
-    base_id: "KUIIL",
+    id: "KUIIL",
     pk: 609,
     url: "http://swgoh.gg/characters/kuiil/",
     image: "https://game-assets.swgoh.gg/tex.charui_kuiil.png",
@@ -10766,7 +10766,7 @@ module.exports = [
   },
   {
     name: "Kyle Katarn",
-    base_id: "KYLEKATARN",
+    id: "KYLEKATARN",
     pk: 2243,
     url: "http://swgoh.gg/characters/kyle-katarn/",
     image: "https://game-assets.swgoh.gg/tex.charui_kylekatarn.png",
@@ -10849,7 +10849,7 @@ module.exports = [
   },
   {
     name: "Kylo Ren",
-    base_id: "KYLOREN",
+    id: "KYLOREN",
     pk: 141,
     url: "http://swgoh.gg/characters/kylo-ren/",
     image: "https://game-assets.swgoh.gg/tex.charui_kyloren.png",
@@ -10930,7 +10930,7 @@ module.exports = [
   },
   {
     name: "Kylo Ren (Unmasked)",
-    base_id: "KYLORENUNMASKED",
+    id: "KYLORENUNMASKED",
     pk: 245,
     url: "http://swgoh.gg/characters/kylo-ren-unmasked/",
     image: "https://game-assets.swgoh.gg/tex.charui_kylo_unmasked.png",
@@ -11017,7 +11017,7 @@ module.exports = [
   },
   {
     name: "L3-37",
-    base_id: "L3_37",
+    id: "L3_37",
     pk: 279,
     url: "http://swgoh.gg/characters/l3-37/",
     image: "https://game-assets.swgoh.gg/tex.charui_l337.png",
@@ -11096,7 +11096,7 @@ module.exports = [
   },
   {
     name: "Lando Calrissian",
-    base_id: "ADMINISTRATORLANDO",
+    id: "ADMINISTRATORLANDO",
     pk: 4,
     url: "http://swgoh.gg/characters/lando-calrissian/",
     image: "https://game-assets.swgoh.gg/tex.charui_landobespin.png",
@@ -11180,7 +11180,7 @@ module.exports = [
   },
   {
     name: "Lobot",
-    base_id: "LOBOT",
+    id: "LOBOT",
     pk: 84,
     url: "http://swgoh.gg/characters/lobot/",
     image: "https://game-assets.swgoh.gg/tex.charui_lobot.png",
@@ -11259,7 +11259,7 @@ module.exports = [
   },
   {
     name: "Logray",
-    base_id: "LOGRAY",
+    id: "LOGRAY",
     pk: 170,
     url: "http://swgoh.gg/characters/logray/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_logray.png",
@@ -11342,7 +11342,7 @@ module.exports = [
   },
   {
     name: "Lord Vader",
-    base_id: "LORDVADER",
+    id: "LORDVADER",
     pk: 1712,
     url: "http://swgoh.gg/characters/lord-vader/",
     image: "https://game-assets.swgoh.gg/tex.charui_lordvader.png",
@@ -11433,7 +11433,7 @@ module.exports = [
   },
   {
     name: "Luke Skywalker (Farmboy)",
-    base_id: "LUKESKYWALKER",
+    id: "LUKESKYWALKER",
     pk: 24,
     url: "http://swgoh.gg/characters/luke-skywalker-farmboy/",
     image: "https://game-assets.swgoh.gg/tex.charui_luke_ep4.png",
@@ -11522,7 +11522,7 @@ module.exports = [
   },
   {
     name: "Luminara Unduli",
-    base_id: "LUMINARAUNDULI",
+    id: "LUMINARAUNDULI",
     pk: 158,
     url: "http://swgoh.gg/characters/luminara-unduli/",
     image: "https://game-assets.swgoh.gg/tex.charui_luminara.png",
@@ -11608,7 +11608,7 @@ module.exports = [
   },
   {
     name: "Mace Windu",
-    base_id: "MACEWINDU",
+    id: "MACEWINDU",
     pk: 70,
     url: "http://swgoh.gg/characters/mace-windu/",
     image: "https://game-assets.swgoh.gg/tex.charui_macewindu.png",
@@ -11692,7 +11692,7 @@ module.exports = [
   },
   {
     name: "Magmatrooper",
-    base_id: "MAGMATROOPER",
+    id: "MAGMATROOPER",
     pk: 47,
     url: "http://swgoh.gg/characters/magmatrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperstorm_magma.png",
@@ -11764,7 +11764,7 @@ module.exports = [
   },
   {
     name: "Mara Jade, The Emperor's Hand",
-    base_id: "MARAJADE",
+    id: "MARAJADE",
     pk: 2494,
     url: "http://swgoh.gg/characters/mara-jade-the-emperors-hand/",
     image: "https://game-assets.swgoh.gg/tex.charui_marajade.png",
@@ -11850,7 +11850,7 @@ module.exports = [
   },
   {
     name: "Maul",
-    base_id: "MAULS7",
+    id: "MAULS7",
     pk: 1575,
     url: "http://swgoh.gg/characters/maul/",
     image: "https://game-assets.swgoh.gg/tex.charui_maul_cyborg.png",
@@ -11936,7 +11936,7 @@ module.exports = [
   },
   {
     name: "Mission Vao",
-    base_id: "MISSIONVAO",
+    id: "MISSIONVAO",
     pk: 287,
     url: "http://swgoh.gg/characters/mission-vao/",
     image: "https://game-assets.swgoh.gg/tex.charui_mission.png",
@@ -12016,7 +12016,7 @@ module.exports = [
   },
   {
     name: "Mob Enforcer",
-    base_id: "HUMANTHUG",
+    id: "HUMANTHUG",
     pk: 2,
     url: "http://swgoh.gg/characters/mob-enforcer/",
     image: "https://game-assets.swgoh.gg/tex.charui_thug_female_01.png",
@@ -12093,7 +12093,7 @@ module.exports = [
   },
   {
     name: "Moff Gideon",
-    base_id: "MOFFGIDEONS1",
+    id: "MOFFGIDEONS1",
     pk: 691,
     url: "http://swgoh.gg/characters/moff-gideon/",
     image: "https://game-assets.swgoh.gg/tex.charui_moffgideon.png",
@@ -12183,7 +12183,7 @@ module.exports = [
   },
   {
     name: "Mon Mothma",
-    base_id: "MONMOTHMA",
+    id: "MONMOTHMA",
     pk: 543,
     url: "http://swgoh.gg/characters/mon-mothma/",
     image: "https://game-assets.swgoh.gg/tex.charui_monmothma.png",
@@ -12263,7 +12263,7 @@ module.exports = [
   },
   {
     name: "Mother Talzin",
-    base_id: "MOTHERTALZIN",
+    id: "MOTHERTALZIN",
     pk: 75,
     url: "http://swgoh.gg/characters/mother-talzin/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsisters_talzin.png",
@@ -12344,7 +12344,7 @@ module.exports = [
   },
   {
     name: "Nightsister Acolyte",
-    base_id: "NIGHTSISTERACOLYTE",
+    id: "NIGHTSISTERACOLYTE",
     pk: 108,
     url: "http://swgoh.gg/characters/nightsister-acolyte/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsister_acolyte.png",
@@ -12423,7 +12423,7 @@ module.exports = [
   },
   {
     name: "Nightsister Initiate",
-    base_id: "NIGHTSISTERINITIATE",
+    id: "NIGHTSISTERINITIATE",
     pk: 129,
     url: "http://swgoh.gg/characters/nightsister-initiate/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsister_initiate.png",
@@ -12502,7 +12502,7 @@ module.exports = [
   },
   {
     name: "Nightsister Spirit",
-    base_id: "NIGHTSISTERSPIRIT",
+    id: "NIGHTSISTERSPIRIT",
     pk: 244,
     url: "http://swgoh.gg/characters/nightsister-spirit/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsisters_wraith.png",
@@ -12589,7 +12589,7 @@ module.exports = [
   },
   {
     name: "Nightsister Zombie",
-    base_id: "NIGHTSISTERZOMBIE",
+    id: "NIGHTSISTERZOMBIE",
     pk: 243,
     url: "http://swgoh.gg/characters/nightsister-zombie/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsisters_zombie.png",
@@ -12668,7 +12668,7 @@ module.exports = [
   },
   {
     name: "Nute Gunray",
-    base_id: "NUTEGUNRAY",
+    id: "NUTEGUNRAY",
     pk: 177,
     url: "http://swgoh.gg/characters/nute-gunray/",
     image: "https://game-assets.swgoh.gg/tex.charui_nutegunray.png",
@@ -12749,7 +12749,7 @@ module.exports = [
   },
   {
     name: "Obi-Wan Kenobi (Old Ben)",
-    base_id: "OLDBENKENOBI",
+    id: "OLDBENKENOBI",
     pk: 154,
     url: "http://swgoh.gg/characters/obi-wan-kenobi-old-ben/",
     image: "https://game-assets.swgoh.gg/tex.charui_obiwanep4.png",
@@ -12834,7 +12834,7 @@ module.exports = [
   },
   {
     name: "Old Daka",
-    base_id: "DAKA",
+    id: "DAKA",
     pk: 25,
     url: "http://swgoh.gg/characters/old-daka/",
     image: "https://game-assets.swgoh.gg/tex.charui_daka.png",
@@ -12914,7 +12914,7 @@ module.exports = [
   },
   {
     name: "Omega",
-    base_id: "BADBATCHOMEGA",
+    id: "BADBATCHOMEGA",
     pk: 1417,
     url: "http://swgoh.gg/characters/omega/",
     image: "https://game-assets.swgoh.gg/tex.charui_badbatchomega.png",
@@ -13010,7 +13010,7 @@ module.exports = [
   },
   {
     name: "Padmé Amidala",
-    base_id: "PADMEAMIDALA",
+    id: "PADMEAMIDALA",
     pk: 346,
     url: "http://swgoh.gg/characters/padme-amidala/",
     image: "https://game-assets.swgoh.gg/tex.charui_padme_geonosis.png",
@@ -13090,7 +13090,7 @@ module.exports = [
   },
   {
     name: "Pao",
-    base_id: "PAO",
+    id: "PAO",
     pk: 228,
     url: "http://swgoh.gg/characters/pao/",
     image: "https://game-assets.swgoh.gg/tex.charui_pao.png",
@@ -13167,7 +13167,7 @@ module.exports = [
   },
   {
     name: "Paploo",
-    base_id: "PAPLOO",
+    id: "PAPLOO",
     pk: 185,
     url: "http://swgoh.gg/characters/paploo/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_paploo.png",
@@ -13246,7 +13246,7 @@ module.exports = [
   },
   {
     name: "Plo Koon",
-    base_id: "PLOKOON",
+    id: "PLOKOON",
     pk: 7,
     url: "http://swgoh.gg/characters/plo-koon/",
     image: "https://game-assets.swgoh.gg/tex.charui_plokoon.png",
@@ -13326,7 +13326,7 @@ module.exports = [
   },
   {
     name: "Poe Dameron",
-    base_id: "POE",
+    id: "POE",
     pk: 179,
     url: "http://swgoh.gg/characters/poe-dameron/",
     image: "https://game-assets.swgoh.gg/tex.charui_poe.png",
@@ -13404,7 +13404,7 @@ module.exports = [
   },
   {
     name: "Poggle the Lesser",
-    base_id: "POGGLETHELESSER",
+    id: "POGGLETHELESSER",
     pk: 81,
     url: "http://swgoh.gg/characters/poggle-the-lesser/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_poggle.png",
@@ -13491,7 +13491,7 @@ module.exports = [
   },
   {
     name: "Princess Leia",
-    base_id: "PRINCESSLEIA",
+    id: "PRINCESSLEIA",
     pk: 122,
     url: "http://swgoh.gg/characters/princess-leia/",
     image: "https://game-assets.swgoh.gg/tex.charui_leia_princess.png",
@@ -13574,7 +13574,7 @@ module.exports = [
   },
   {
     name: "Qi'ra",
-    base_id: "QIRA",
+    id: "QIRA",
     pk: 272,
     url: "http://swgoh.gg/characters/qira/",
     image: "https://game-assets.swgoh.gg/tex.charui_qira.png",
@@ -13660,7 +13660,7 @@ module.exports = [
   },
   {
     name: "Qui-Gon Jinn",
-    base_id: "QUIGONJINN",
+    id: "QUIGONJINN",
     pk: 44,
     url: "http://swgoh.gg/characters/qui-gon-jinn/",
     image: "https://game-assets.swgoh.gg/tex.charui_quigon.png",
@@ -13745,7 +13745,7 @@ module.exports = [
   },
   {
     name: "R2-D2",
-    base_id: "R2D2_LEGENDARY",
+    id: "R2D2_LEGENDARY",
     pk: 235,
     url: "http://swgoh.gg/characters/r2-d2/",
     image: "https://game-assets.swgoh.gg/tex.charui_astromech_r2d2.png",
@@ -13839,7 +13839,7 @@ module.exports = [
   },
   {
     name: "Range Trooper",
-    base_id: "RANGETROOPER",
+    id: "RANGETROOPER",
     pk: 280,
     url: "http://swgoh.gg/characters/range-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperranger.png",
@@ -13911,7 +13911,7 @@ module.exports = [
   },
   {
     name: "Rebel Officer Leia Organa",
-    base_id: "HOTHLEIA",
+    id: "HOTHLEIA",
     pk: 92,
     url: "http://swgoh.gg/characters/rebel-officer-leia-organa/",
     image: "https://game-assets.swgoh.gg/tex.charui_leiahoth.png",
@@ -13993,7 +13993,7 @@ module.exports = [
   },
   {
     name: "Resistance Hero Finn",
-    base_id: "EPIXFINN",
+    id: "EPIXFINN",
     pk: 417,
     url: "http://swgoh.gg/characters/resistance-hero-finn/",
     image: "https://game-assets.swgoh.gg/tex.charui_finn.png",
@@ -14072,7 +14072,7 @@ module.exports = [
   },
   {
     name: "Resistance Hero Poe",
-    base_id: "EPIXPOE",
+    id: "EPIXPOE",
     pk: 420,
     url: "http://swgoh.gg/characters/resistance-hero-poe/",
     image: "https://game-assets.swgoh.gg/tex.charui_poe_tros.png",
@@ -14152,7 +14152,7 @@ module.exports = [
   },
   {
     name: "Resistance Pilot",
-    base_id: "RESISTANCEPILOT",
+    id: "RESISTANCEPILOT",
     pk: 38,
     url: "http://swgoh.gg/characters/resistance-pilot/",
     image: "https://game-assets.swgoh.gg/tex.charui_resistancepilot.png",
@@ -14231,7 +14231,7 @@ module.exports = [
   },
   {
     name: "Resistance Trooper",
-    base_id: "RESISTANCETROOPER",
+    id: "RESISTANCETROOPER",
     pk: 133,
     url: "http://swgoh.gg/characters/resistance-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_resistancetrooper.png",
@@ -14310,7 +14310,7 @@ module.exports = [
   },
   {
     name: "Rey",
-    base_id: "GLREY",
+    id: "GLREY",
     pk: 434,
     url: "http://swgoh.gg/characters/rey/",
     image: "https://game-assets.swgoh.gg/tex.charui_rey_tros.png",
@@ -14398,7 +14398,7 @@ module.exports = [
   },
   {
     name: "Rey (Jedi Training)",
-    base_id: "REYJEDITRAINING",
+    id: "REYJEDITRAINING",
     pk: 250,
     url: "http://swgoh.gg/characters/rey-jedi-training/",
     image: "https://game-assets.swgoh.gg/tex.charui_rey_tlj.png",
@@ -14494,7 +14494,7 @@ module.exports = [
   },
   {
     name: "Rey (Scavenger)",
-    base_id: "REY",
+    id: "REY",
     pk: 116,
     url: "http://swgoh.gg/characters/rey-scavenger/",
     image: "https://game-assets.swgoh.gg/tex.charui_reyjakku.png",
@@ -14566,7 +14566,7 @@ module.exports = [
   },
   {
     name: "Rose Tico",
-    base_id: "ROSETICO",
+    id: "ROSETICO",
     pk: 255,
     url: "http://swgoh.gg/characters/rose-tico/",
     image: "https://game-assets.swgoh.gg/tex.charui_rose.png",
@@ -14647,7 +14647,7 @@ module.exports = [
   },
   {
     name: "Royal Guard",
-    base_id: "ROYALGUARD",
+    id: "ROYALGUARD",
     pk: 18,
     url: "http://swgoh.gg/characters/royal-guard/",
     image: "https://game-assets.swgoh.gg/tex.charui_royalguard.png",
@@ -14719,7 +14719,7 @@ module.exports = [
   },
   {
     name: "Sabine Wren",
-    base_id: "SABINEWRENS3",
+    id: "SABINEWRENS3",
     pk: 231,
     url: "http://swgoh.gg/characters/sabine-wren/",
     image: "https://game-assets.swgoh.gg/tex.charui_sabine_s3.png",
@@ -14800,7 +14800,7 @@ module.exports = [
   },
   {
     name: "Savage Opress",
-    base_id: "SAVAGEOPRESS",
+    id: "SAVAGEOPRESS",
     pk: 137,
     url: "http://swgoh.gg/characters/savage-opress/",
     image: "https://game-assets.swgoh.gg/tex.charui_savageopress.png",
@@ -14882,7 +14882,7 @@ module.exports = [
   },
   {
     name: "Scarif Rebel Pathfinder",
-    base_id: "SCARIFREBEL",
+    id: "SCARIFREBEL",
     pk: 210,
     url: "http://swgoh.gg/characters/scarif-rebel-pathfinder/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebel_scarif.png",
@@ -14961,7 +14961,7 @@ module.exports = [
   },
   {
     name: "Second Sister",
-    base_id: "SECONDSISTER",
+    id: "SECONDSISTER",
     pk: 2700,
     url: "http://swgoh.gg/characters/second-sister/",
     image: "https://game-assets.swgoh.gg/tex.charui_secondsister.png",
@@ -15047,7 +15047,7 @@ module.exports = [
   },
   {
     name: "Shaak Ti",
-    base_id: "SHAAKTI",
+    id: "SHAAKTI",
     pk: 351,
     url: "http://swgoh.gg/characters/shaak-ti/",
     image: "https://game-assets.swgoh.gg/tex.charui_shaakti.png",
@@ -15132,7 +15132,7 @@ module.exports = [
   },
   {
     name: "Shoretrooper",
-    base_id: "SHORETROOPER",
+    id: "SHORETROOPER",
     pk: 212,
     url: "http://swgoh.gg/characters/shoretrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_troopershore.png",
@@ -15210,7 +15210,7 @@ module.exports = [
   },
   {
     name: "Sith Assassin",
-    base_id: "SITHASSASSIN",
+    id: "SITHASSASSIN",
     pk: 224,
     url: "http://swgoh.gg/characters/sith-assassin/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithassassin.png",
@@ -15291,7 +15291,7 @@ module.exports = [
   },
   {
     name: "Sith Empire Trooper",
-    base_id: "SITHTROOPER",
+    id: "SITHTROOPER",
     pk: 223,
     url: "http://swgoh.gg/characters/sith-empire-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithtrooper.png",
@@ -15370,7 +15370,7 @@ module.exports = [
   },
   {
     name: "Sith Eternal Emperor",
-    base_id: "SITHPALPATINE",
+    id: "SITHPALPATINE",
     pk: 596,
     url: "http://swgoh.gg/characters/sith-eternal-emperor/",
     image: "https://game-assets.swgoh.gg/tex.charui_espalpatine_pre.png",
@@ -15463,7 +15463,7 @@ module.exports = [
   },
   {
     name: "Sith Marauder",
-    base_id: "SITHMARAUDER",
+    id: "SITHMARAUDER",
     pk: 256,
     url: "http://swgoh.gg/characters/sith-marauder/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithmarauder.png",
@@ -15540,7 +15540,7 @@ module.exports = [
   },
   {
     name: "Sith Trooper",
-    base_id: "FOSITHTROOPER",
+    id: "FOSITHTROOPER",
     pk: 405,
     url: "http://swgoh.gg/characters/sith-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorder_sithtrooper.png",
@@ -15626,7 +15626,7 @@ module.exports = [
   },
   {
     name: "Snowtrooper",
-    base_id: "SNOWTROOPER",
+    id: "SNOWTROOPER",
     pk: 162,
     url: "http://swgoh.gg/characters/snowtrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_troopersnow.png",
@@ -15703,7 +15703,7 @@ module.exports = [
   },
   {
     name: "Starkiller",
-    base_id: "STARKILLER",
+    id: "STARKILLER",
     pk: 2476,
     url: "http://swgoh.gg/characters/starkiller/",
     image: "https://game-assets.swgoh.gg/tex.charui_starkiller.png",
@@ -15791,7 +15791,7 @@ module.exports = [
   },
   {
     name: "Stormtrooper",
-    base_id: "STORMTROOPER",
+    id: "STORMTROOPER",
     pk: 55,
     url: "http://swgoh.gg/characters/stormtrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperstorm.png",
@@ -15863,7 +15863,7 @@ module.exports = [
   },
   {
     name: "Stormtrooper Han",
-    base_id: "STORMTROOPERHAN",
+    id: "STORMTROOPERHAN",
     pk: 202,
     url: "http://swgoh.gg/characters/stormtrooper-han/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperstorm_han.png",
@@ -15947,7 +15947,7 @@ module.exports = [
   },
   {
     name: "Sun Fac",
-    base_id: "SUNFAC",
+    id: "SUNFAC",
     pk: 192,
     url: "http://swgoh.gg/characters/sun-fac/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_sunfac.png",
@@ -16030,7 +16030,7 @@ module.exports = [
   },
   {
     name: "Supreme Leader Kylo Ren",
-    base_id: "SUPREMELEADERKYLOREN",
+    id: "SUPREMELEADERKYLOREN",
     pk: 441,
     url: "http://swgoh.gg/characters/supreme-leader-kylo-ren/",
     image: "https://game-assets.swgoh.gg/tex.charui_kyloren_tros.png",
@@ -16129,7 +16129,7 @@ module.exports = [
   },
   {
     name: "T3-M4",
-    base_id: "T3_M4",
+    id: "T3_M4",
     pk: 286,
     url: "http://swgoh.gg/characters/t3-m4/",
     image: "https://game-assets.swgoh.gg/tex.charui_t3m4.png",
@@ -16211,7 +16211,7 @@ module.exports = [
   },
   {
     name: "Talia",
-    base_id: "TALIA",
+    id: "TALIA",
     pk: 197,
     url: "http://swgoh.gg/characters/talia/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsister_talia.png",
@@ -16290,7 +16290,7 @@ module.exports = [
   },
   {
     name: "Tech",
-    base_id: "BADBATCHTECH",
+    id: "BADBATCHTECH",
     pk: 1003,
     url: "http://swgoh.gg/characters/tech/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb_tech.png",
@@ -16375,7 +16375,7 @@ module.exports = [
   },
   {
     name: "Teebo",
-    base_id: "TEEBO",
+    id: "TEEBO",
     pk: 168,
     url: "http://swgoh.gg/characters/teebo/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_teebo.png",
@@ -16452,7 +16452,7 @@ module.exports = [
   },
   {
     name: "The Armorer",
-    base_id: "ARMORER",
+    id: "ARMORER",
     pk: 798,
     url: "http://swgoh.gg/characters/the-armorer/",
     image: "https://game-assets.swgoh.gg/tex.charui_armorer.png",
@@ -16531,7 +16531,7 @@ module.exports = [
   },
   {
     name: "The Mandalorian",
-    base_id: "THEMANDALORIAN",
+    id: "THEMANDALORIAN",
     pk: 447,
     url: "http://swgoh.gg/characters/the-mandalorian/",
     image: "https://game-assets.swgoh.gg/tex.charui_mandalorian.png",
@@ -16626,7 +16626,7 @@ module.exports = [
   },
   {
     name: "The Mandalorian (Beskar Armor)",
-    base_id: "THEMANDALORIANBESKARARMOR",
+    id: "THEMANDALORIANBESKARARMOR",
     pk: 724,
     url: "http://swgoh.gg/characters/the-mandalorian-beskar-armor/",
     image: "https://game-assets.swgoh.gg/tex.charui_mandobeskar.png",
@@ -16720,7 +16720,7 @@ module.exports = [
   },
   {
     name: "Threepio & Chewie",
-    base_id: "C3POCHEWBACCA",
+    id: "C3POCHEWBACCA",
     pk: 509,
     url: "http://swgoh.gg/characters/threepio-chewie/",
     image: "https://game-assets.swgoh.gg/tex.charui_chewbacca_c3po.png",
@@ -16809,7 +16809,7 @@ module.exports = [
   },
   {
     name: "TIE Fighter Pilot",
-    base_id: "TIEFIGHTERPILOT",
+    id: "TIEFIGHTERPILOT",
     pk: 124,
     url: "http://swgoh.gg/characters/tie-fighter-pilot/",
     image: "https://game-assets.swgoh.gg/tex.charui_tiepilot.png",
@@ -16895,7 +16895,7 @@ module.exports = [
   },
   {
     name: "Tusken Raider",
-    base_id: "TUSKENRAIDER",
+    id: "TUSKENRAIDER",
     pk: 43,
     url: "http://swgoh.gg/characters/tusken-raider/",
     image: "https://game-assets.swgoh.gg/tex.charui_tuskenraider.png",
@@ -16967,7 +16967,7 @@ module.exports = [
   },
   {
     name: "Tusken Shaman",
-    base_id: "TUSKENSHAMAN",
+    id: "TUSKENSHAMAN",
     pk: 39,
     url: "http://swgoh.gg/characters/tusken-shaman/",
     image: "https://game-assets.swgoh.gg/tex.charui_tuskenshaman.png",
@@ -17039,7 +17039,7 @@ module.exports = [
   },
   {
     name: "Ugnaught",
-    base_id: "UGNAUGHT",
+    id: "UGNAUGHT",
     pk: 58,
     url: "http://swgoh.gg/characters/ugnaught/",
     image: "https://game-assets.swgoh.gg/tex.charui_ugnaught.png",
@@ -17111,7 +17111,7 @@ module.exports = [
   },
   {
     name: "URoRRuR'R'R",
-    base_id: "URORRURRR",
+    id: "URORRURRR",
     pk: 125,
     url: "http://swgoh.gg/characters/urorrurrr/",
     image: "https://game-assets.swgoh.gg/tex.charui_urorrurrr.png",
@@ -17189,7 +17189,7 @@ module.exports = [
   },
   {
     name: "Vandor Chewbacca",
-    base_id: "YOUNGCHEWBACCA",
+    id: "YOUNGCHEWBACCA",
     pk: 266,
     url: "http://swgoh.gg/characters/vandor-chewbacca/",
     image: "https://game-assets.swgoh.gg/tex.charui_chewbacca_vandor.png",
@@ -17268,7 +17268,7 @@ module.exports = [
   },
   {
     name: "Veteran Smuggler Chewbacca",
-    base_id: "SMUGGLERCHEWBACCA",
+    id: "SMUGGLERCHEWBACCA",
     pk: 240,
     url: "http://swgoh.gg/characters/veteran-smuggler-chewbacca/",
     image: "https://game-assets.swgoh.gg/tex.charui_tfa_chewbacca.png",
@@ -17355,7 +17355,7 @@ module.exports = [
   },
   {
     name: "Veteran Smuggler Han Solo",
-    base_id: "SMUGGLERHAN",
+    id: "SMUGGLERHAN",
     pk: 241,
     url: "http://swgoh.gg/characters/veteran-smuggler-han-solo/",
     image: "https://game-assets.swgoh.gg/tex.charui_tfa_han.png",
@@ -17436,7 +17436,7 @@ module.exports = [
   },
   {
     name: "Visas Marr",
-    base_id: "VISASMARR",
+    id: "VISASMARR",
     pk: 257,
     url: "http://swgoh.gg/characters/visas-marr/",
     image: "https://game-assets.swgoh.gg/tex.charui_visas.png",
@@ -17514,7 +17514,7 @@ module.exports = [
   },
   {
     name: "Wampa",
-    base_id: "WAMPA",
+    id: "WAMPA",
     pk: 249,
     url: "http://swgoh.gg/characters/wampa/",
     image: "https://game-assets.swgoh.gg/tex.charui_wampa.png",
@@ -17598,7 +17598,7 @@ module.exports = [
   },
   {
     name: "Wat Tambor",
-    base_id: "WATTAMBOR",
+    id: "WATTAMBOR",
     pk: 360,
     url: "http://swgoh.gg/characters/wat-tambor/",
     image: "https://game-assets.swgoh.gg/tex.charui_wattambor.png",
@@ -17678,7 +17678,7 @@ module.exports = [
   },
   {
     name: "Wedge Antilles",
-    base_id: "WEDGEANTILLES",
+    id: "WEDGEANTILLES",
     pk: 191,
     url: "http://swgoh.gg/characters/wedge-antilles/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebelpilot_wedge.png",
@@ -17756,7 +17756,7 @@ module.exports = [
   },
   {
     name: "Wicket",
-    base_id: "WICKET",
+    id: "WICKET",
     pk: 105,
     url: "http://swgoh.gg/characters/wicket/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_wicket.png",
@@ -17835,7 +17835,7 @@ module.exports = [
   },
   {
     name: "Wrecker",
-    base_id: "BADBATCHWRECKER",
+    id: "BADBATCHWRECKER",
     pk: 1031,
     url: "http://swgoh.gg/characters/wrecker/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb_wrecker.png",
@@ -17926,7 +17926,7 @@ module.exports = [
   },
   {
     name: "Young Han Solo",
-    base_id: "YOUNGHAN",
+    id: "YOUNGHAN",
     pk: 267,
     url: "http://swgoh.gg/characters/young-han-solo/",
     image: "https://game-assets.swgoh.gg/tex.charui_han_young.png",
@@ -18003,7 +18003,7 @@ module.exports = [
   },
   {
     name: "Young Lando Calrissian",
-    base_id: "YOUNGLANDO",
+    id: "YOUNGLANDO",
     pk: 277,
     url: "http://swgoh.gg/characters/young-lando-calrissian/",
     image: "https://game-assets.swgoh.gg/tex.charui_younglando.png",
@@ -18084,7 +18084,7 @@ module.exports = [
   },
   {
     name: "Zaalbar",
-    base_id: "ZAALBAR",
+    id: "ZAALBAR",
     pk: 288,
     url: "http://swgoh.gg/characters/zaalbar/",
     image: "https://game-assets.swgoh.gg/tex.charui_zaalbar.png",
@@ -18156,7 +18156,7 @@ module.exports = [
   },
   {
     name: "Zam Wesell",
-    base_id: "ZAMWESELL",
+    id: "ZAMWESELL",
     pk: 208,
     url: "http://swgoh.gg/characters/zam-wesell/",
     image: "https://game-assets.swgoh.gg/tex.charui_zamwesell.png",
