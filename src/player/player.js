@@ -27,10 +27,8 @@ class Player {
       const match = ggPlayer.units.find((x) => x.data.base_id === defId);
       if (match) {
         try {
-          const { thumbnailName, unitTierList } = await unit.fetchUnit(defId);
+          const { base_id: id, ...unitData } = await unit.fetchUnit(defId);
           const {
-            name,
-            base_id: id,
             gear_level,
             level,
             power,
@@ -43,7 +41,6 @@ class Player {
           } = match.data;
 
           unitList.push({
-            name,
             id,
             gear_level,
             level,
@@ -53,12 +50,11 @@ class Player {
             ability_data,
             relic_tier: relic_tier - 2,
             has_ultimate,
-            xp,
+            // xp,
             mods,
             crew,
             stars,
-            thumbnailName,
-            unitTierList,
+            ...unitData,
           });
         } catch (err) {
           console.error("error getting unit", defId);

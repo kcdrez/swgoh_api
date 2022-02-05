@@ -17,7 +17,7 @@ routes.get("/player/:allyCode", async (req, res) => {
   }
 });
 
-routes.get("/gear", async (req, res) => {
+routes.get("/gear", async (_req, res) => {
   try {
     const response = await apiClient.fetchGear();
     res.status(200).json(response);
@@ -28,7 +28,7 @@ routes.get("/gear", async (req, res) => {
   }
 });
 
-routes.get("/units", async (req, res) => {
+routes.get("/units", async (_req, res) => {
   try {
     const response = await apiClient.fetchUnits();
     res.status(200).json(response);

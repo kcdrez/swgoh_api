@@ -17,7 +17,7 @@ routes.get("/refresh/:unitId", async (req, res) => {
   }
 });
 
-routes.get("/seedData", async (req, res) => {
+routes.get("/seedData", async (_req, res) => {
   try {
     const response = await unit.fetchAllUnits();
     res.status(200).json(response);
@@ -28,9 +28,20 @@ routes.get("/seedData", async (req, res) => {
   }
 });
 
-routes.get("/unitList", async (req, res) => {
+routes.get("/unitList", async (_req, res) => {
   try {
     const response = await unit.getAllUnits();
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+    });
+  }
+});
+
+routes.get("/speedAbilities", async (_req, res) => {
+  try {
+    const response = await unit.getSpeedData();
     res.status(200).json(response);
   } catch (error) {
     res.status(500).json({

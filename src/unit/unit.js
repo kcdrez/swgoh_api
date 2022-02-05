@@ -1,7 +1,9 @@
 const moment = require("moment");
 
 const helpApi = require("../api/swgoh.help");
-const unitsList = require("./seedData");
+const ggApi = require("../api/swgoh.gg");
+const unitsList = require("../gg/unitData");
+const speedData = require("./speedData");
 
 class Unit {
   constructor() {}
@@ -9,37 +11,50 @@ class Unit {
   async fetchUnit(unitId) {
     unitId = unitId.toUpperCase();
 
-    const match = unitsList.find((x) => x.baseId === unitId);
+    const match = unitsList.find((x) => x.base_id === unitId);
     if (match) {
       console.info("Using unit cache", unitId);
-      return mapUnit(match);
+      return match;
     } else {
-      console.info("Fetching unit data from help API", unitId);
-      const unit = await helpApi.fetchUnit(unitId);
-      return mapUnit(unit);
+      console.error("Unit not in the cache list", unitId);
+      throw Error("Unit not in the cache list", unitId);
     }
   }
 
-  async refresh(unitId) {
-    return this.fetchUnit(unitId);
-  }
-
   getAllUnits() {
-    return unitsList.map(mapUnit);
+    return unitsList;
   }
 
   async fetchAllUnits() {
-    return await helpApi.fetchAllUnits();
-  }
-}
+    //very slow and might error out
+    const [helpUnits, ggUnits] = await Promise.all([
+      helpApi.fetchAllUnits(),
+      ggApi.fetchUnits(),
+    ]);
 
-function mapUnit({ thumbnailName, baseId: id, nameKey: name, unitTierList }) {
-  return {
-    thumbnailName,
-    id,
-    name,
-    unitTierList,
-  };
+    return helpUnits.map((unit) => {
+      const match = ggUnits.find((x) => x.base_id === unit.baseId);
+      if (match) {
+        return {
+          thumbnailName: unit.thumbnailName,
+          unitTierList: unit.unitTierList,
+          name: match.name,
+          id: match.base_id,
+          alignment: match.alignment,
+          categories: match.categories,
+          ability_classes: match.ability_classes,
+          role: match.role,
+        };
+      } else {
+        console.info("No match from ggUnits", unit.id, unit.nameKey);
+        return unit;
+      }
+    });
+  }
+
+  getSpeedData() {
+    return speedData;
+  }
 }
 
 module.exports = new Unit();
