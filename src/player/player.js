@@ -64,7 +64,7 @@ class Player {
     const player = {
       units: unitList,
       name,
-      updated,
+      updated: ggPlayer.data.last_updated,
     };
 
     if (result) {
