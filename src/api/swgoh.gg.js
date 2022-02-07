@@ -19,6 +19,11 @@ class apiClient {
     const response = await axios.get(baseUrl + "/characters");
     return response.data;
   }
+
+  async fetchShips() {
+    const response = await axios.get(baseUrl + "/ships");
+    return response.data;
+  }
 }
 
 module.exports = new apiClient();

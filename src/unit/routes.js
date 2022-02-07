@@ -50,6 +50,17 @@ routes.get("/speedAbilities", async (_req, res) => {
   }
 });
 
+routes.get("/shardFarming", async (_req, res) => {
+  try {
+    const response = await unit.getShardFarming();
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+    });
+  }
+});
+
 routes.get("/:unitId", async (req, res) => {
   try {
     const response = await unit.fetchUnit(req.params.unitId);

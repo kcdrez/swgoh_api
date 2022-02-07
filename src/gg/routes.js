@@ -39,6 +39,17 @@ routes.get("/units", async (_req, res) => {
   }
 });
 
+routes.get("/ships", async (_req, res) => {
+  try {
+    const response = await apiClient.fetchShips();
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+    });
+  }
+});
+
 module.exports = {
   routes,
 };

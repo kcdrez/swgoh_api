@@ -105,6 +105,16 @@ class apiClient {
       collection: "equipmentList",
     });
   }
+
+  async battles() {
+    return await this.fetch(this.baseUrl + "/swgoh/battles");
+  }
+
+  async data(collection) {
+    return await this.fetch(this.baseUrl + "/swgoh/data", {
+      collection,
+    });
+  }
 }
 
 module.exports = new apiClient();

@@ -50,6 +50,28 @@ routes.get("/unit/:unitId", async (req, res) => {
   }
 });
 
+routes.get("/battles", async (_req, res) => {
+  try {
+    const response = await apiClient.battles();
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+    });
+  }
+});
+
+routes.get("/data/:collection", async (req, res) => {
+  try {
+    const response = await apiClient.data(req.params.collection);
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+    });
+  }
+});
+
 module.exports = {
   routes,
 };

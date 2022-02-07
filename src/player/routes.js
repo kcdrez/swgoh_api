@@ -92,6 +92,22 @@ routes.patch("/teams/:userId", async (req, res) => {
   }
 });
 
+routes.patch("/shards/:userId", async (req, res) => {
+  const { shards } = req.body;
+  if (!shards) {
+    res.status(500).json({ error: "Missing required field: shards" });
+  } else {
+    try {
+      await player.updateOwnedShards(req.params.userId, { shards });
+      res.status(200).json({ success: true });
+    } catch (err) {
+      res.status(500).json({
+        error: err.message,
+      });
+    }
+  }
+});
+
 module.exports = {
   routes,
 };

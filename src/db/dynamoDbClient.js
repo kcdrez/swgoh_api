@@ -53,7 +53,7 @@ class DbClient {
     return await db.scan(params).promise();
   }
 
-  async updateUser(id, { gear, relic, planner, energyData, teams }) {
+  async updateUser(id, { gear, relic, planner, energyData, teams, shards }) {
     const expressions = [];
     const values = {};
     if (gear) {
@@ -75,6 +75,10 @@ class DbClient {
     if (teams) {
       expressions.push("teams = :teams");
       values[":teams"] = teams;
+    }
+    if (shards) {
+      expressions.push("shards = :shards");
+      values[":shards"] = shards;
     }
 
     if (expressions.length > 0) {

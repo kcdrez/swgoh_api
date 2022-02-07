@@ -73,6 +73,7 @@ class Player {
       player.planner = result.planner || {};
       player.energyData = result.energyData || {};
       player.teams = result.teams || [];
+      player.shards = result.shards || {};
       player.id = result.id;
     }
 
@@ -98,6 +99,10 @@ class Player {
 
   async updateTeams(id, teams) {
     await dbClient.updateUser(id, teams);
+  }
+
+  async updateOwnedShards(id, shards) {
+    await dbClient.updateUser(id, shards);
   }
 }
 
