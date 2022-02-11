@@ -91,6 +91,57 @@ class DbClient {
       await db.update(params).promise();
     }
   }
+
+  async updateOpponentTeams(id, { teams, opponentAllyCode, matches }) {
+    const expressions = [];
+    const values = {};
+
+    if (opponentAllyCode) {
+      expressions.push("opponentAllyCode = :opponentAllyCode");
+      values[":opponentAllyCode"] = opponentAllyCode;
+    }
+
+    if (teams) {
+      expressions.push("teams = :teams");
+      values[":teams"] = teams;
+    }
+
+    if (matches) {
+      expressions.push("matches = :matches");
+      values[":matches"] = matches;
+    }
+
+    if (expressions.length > 0) {
+      const params = {
+        TableName: "opponentsTable",
+        Key: { id },
+        UpdateExpression: `SET ${expressions.join(", ")}`,
+        ExpressionAttributeValues: values,
+      };
+      await db.update(params).promise();
+    }
+  }
+
+  async getOpponents(id) {
+    const params = {
+      TableName: "opponentsTable",
+      Key: {
+        id,
+      },
+    };
+    const result = await db.get(params).promise();
+    return result.Item;
+  }
+
+  async deleteOpponent(id) {
+    const params = {
+      TableName: "opponentsTable",
+      Key: {
+        id,
+      },
+    };
+    await db.delete(params).promise();
+  }
 }
 
 module.exports = new DbClient();

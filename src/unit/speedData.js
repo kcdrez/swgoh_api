@@ -387,6 +387,7 @@ module.exports = {
           tags: ["Bounty Hunter", "!Self"],
           mode: "Grand Arena",
           scalesBy: ["Self"],
+          scaleSource: "unique",
         },
       },
     ],

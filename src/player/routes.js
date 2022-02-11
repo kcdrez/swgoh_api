@@ -20,17 +20,6 @@ routes.post("/:allyCode", async (req, res) => {
   }
 });
 
-routes.get("/debug", async (req, res) => {
-  try {
-    const response = await player.debug();
-    res.status(200).json(response);
-  } catch (error) {
-    res.status(500).json({
-      error: error.message,
-    });
-  }
-});
-
 routes.get("/:allyCode", async (req, res) => {
   try {
     const response = await player.fetchPlayer(req.params.allyCode);

@@ -104,6 +104,10 @@ class Player {
   async updateOwnedShards(id, shards) {
     await dbClient.updateUser(id, shards);
   }
+
+  async updateOpponentTeams(id, teams) {
+    await dbClient.updateOpponentTeams(id, teams);
+  }
 }
 
 module.exports = new Player();
