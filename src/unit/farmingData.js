@@ -298,7 +298,7 @@ const nodeList = [
     difficulty: Hard,
     map: 6,
     mission: "D",
-    characters: ["FIRSTORDERTIEPILOT"],
+    characters: ["MARAJADE"],
     gear: [],
   },
   {
@@ -1684,6 +1684,957 @@ const nodeList = [
   },
 ];
 
+const conquest = {
+  id: "conquest",
+  table: "Conquest",
+  characters: [
+    { id: "RAZORCREST" },
+    { id: "COMMANDERAHSOKA" },
+    { id: "BOBAFETTSCION" },
+    { id: "TIEINTERCEPTOR" },
+  ],
+};
+
+const legendary = {
+  id: "legendary",
+  table: "Legendary Events",
+  characters: [
+    {
+      id: "EMPERORPALPATINE",
+      prerequisites: [
+        {
+          tags: ["REBEL"],
+          recommended: "11800+ Power",
+          requirement: "7 Star",
+        },
+      ],
+    },
+    {
+      id: "GRANDMASTERYODA",
+      prerequisites: [
+        {
+          tags: ["Jedi"],
+          recommended: "11700+ Power",
+          requirement: "7 Star",
+        },
+      ],
+    },
+    {
+      id: "GRANDADMIRALTHRAWN",
+      prerequisites: [
+        {
+          tags: ["Phoenix"],
+          recommended: "13900+ Power",
+          requirement: "7 Star",
+        },
+      ],
+    },
+    {
+      id: "R2D2_LEGENDARY",
+      prerequisites: [
+        {
+          tags: ["Empire"],
+          recommended: "13400+ Power",
+          requirement: "7 Star",
+        },
+      ],
+    },
+    {
+      id: "BB8",
+      prerequisites: [
+        {
+          tags: ["First Order"],
+          recommended: "13200+ Power",
+          requirement: "7 Star",
+        },
+      ],
+    },
+    {
+      id: "PADMEAMIDALA",
+      prerequisites: [
+        {
+          tags: ["Separatist"],
+          recommended: "16600+ Power",
+          requirement: "7 Star",
+        },
+      ],
+    },
+    {
+      id: "COMMANDERLUKESKYWALKER",
+      prerequisites: [
+        {
+          id: "R2D2_LEGENDARY",
+          recommended: "13000+ Power",
+          requirement: "7 Star",
+        },
+        {
+          id: "PRINCESSLEIA",
+          recommended: "13000+ Power",
+          requirement: "7 Star",
+        },
+        {
+          id: "STORMTROOPERHAN",
+          recommended: "13000+ Power",
+          requirement: "7 Star",
+        },
+        {
+          id: "LUKESKYWALKER",
+          recommended: "13000+ Power",
+          requirement: "7 Star",
+        },
+        {
+          id: "OLDBENKENOBI",
+          recommended: "12000+ Power",
+          requirement: "7 Star",
+        },
+      ],
+    },
+    {
+      id: "REYJEDITRAINING",
+      prerequisites: [
+        {
+          id: "REY",
+          recommended: "14000+ Power",
+          requirement: "7 Star",
+        },
+        {
+          id: "FINN",
+          recommended: "14000+ Power",
+          requirement: "7 Star",
+        },
+        {
+          id: "SMUGGLERCHEWBACCA",
+          recommended: "14000+ Power",
+          requirement: "7 Star",
+        },
+        {
+          id: "SMUGGLERHAN",
+          recommended: "11900+ Power",
+          requirement: "7 Star",
+        },
+        {
+          id: "BB8",
+          recommended: "11800+ Power",
+          requirement: "7 Star",
+        },
+      ],
+    },
+    {
+      id: "THEMANDALORIANBESKARARMOR",
+      prerequisites: [
+        {
+          id: "THEMANDALORIAN",
+          recommended: "15700+ Power",
+          requirement: "7 Star",
+        },
+        {
+          id: "GREEFKARGA",
+          recommended: "15700+ Power",
+          requirement: "7 Star",
+        },
+        {
+          id: "CARADUNE",
+          recommended: "15700+ Power",
+          requirement: "7 Star",
+        },
+        {
+          id: "IG11",
+          recommended: "15700+ Power",
+          requirement: "7 Star",
+        },
+        {
+          id: "KUIIL",
+          recommended: "14000+ Power",
+          requirement: "7 Star",
+        },
+      ],
+    },
+    {
+      id: "CAPITALCHIMAERA",
+      prerequisites: [
+        {
+          id: "GHOST",
+          recommended: "28000+ Power",
+          requirement: "7 Star",
+        },
+        {
+          id: "PHANTOM2",
+          recommended: "28000+ Power",
+          requirement: "7 Star",
+        },
+        {
+          tags: ["Rebel"],
+          recommended: "28000+ Power",
+          requirement: "7 Star",
+        },
+      ],
+    },
+    {
+      id: "STARKILLER",
+      prerequisites: [
+        {
+          id: "DASHRENDAR",
+          requirement: "Relic 5",
+        },
+        {
+          id: "KYLEKATARN",
+          requirement: "Relic 5",
+        },
+        {
+          id: "DARTHTALON",
+          requirement: "Relic 5",
+        },
+        {
+          id: "MARAJADE",
+          requirement: "Relic 5",
+        },
+      ],
+    },
+    {
+      id: "JEDIKNIGHTREVAN",
+      prerequisites: [
+        {
+          id: "BASTILASHAN",
+          recommended: "13400+ Power",
+        },
+        {
+          id: "JOLEEBINDO",
+          recommended: "13400+ Power",
+        },
+        {
+          id: "MISSIONVAO",
+          recommended: "13400+ Power",
+        },
+        {
+          id: "ZAALBAR",
+          recommended: "13400+ Power",
+        },
+        {
+          id: "T3_M4",
+          recommended: "13400+ Power",
+        },
+      ],
+    },
+    {
+      id: "DARTHREVAN",
+      prerequisites: [
+        {
+          id: "BASTILASHANDARK",
+          recommended: "18800+ Power",
+        },
+        {
+          id: "CANDEROUSORDO",
+          recommended: "18800+ Power",
+        },
+        {
+          id: "HK47",
+          recommended: "18800+ Power",
+        },
+        {
+          id: "JUHANI",
+          recommended: "18000+ Power",
+        },
+        {
+          id: "CARTHONASI",
+          recommended: "16200+ Power",
+        },
+      ],
+    },
+    {
+      id: "CHEWBACCALEGENDARY",
+      prerequisites: [
+        {
+          tags: ["Bounty Hunter"],
+          recommended: "18100+ Power",
+        },
+      ],
+    },
+    {
+      id: "C3POLEGENDARY",
+      prerequisites: [
+        {
+          tags: ["Ewok"],
+          recommended: "16500+ Power",
+        },
+      ],
+    },
+    {
+      id: "MILLENNIUMFALCON",
+      prerequisites: [
+        {
+          tags: ["Capital Ship"],
+          recommended: "46600+ Power",
+        },
+        {
+          tags: ["Bounty Hunter"],
+          recommended: "46600+ Power",
+        },
+      ],
+    },
+    {
+      id: "DARTHMALAK",
+      prerequisites: [
+        {
+          id: "JEDIKNIGHTREVAN",
+          recommended: "21500+ Power",
+        },
+        {
+          id: "BASTILASHAN",
+          recommended: "21500+ Power",
+        },
+        {
+          id: "JOLEEBINDO",
+          recommended: "21500+ Power",
+        },
+        {
+          id: "MISSIONVAO",
+          recommended: "21500+ Power",
+        },
+        {
+          id: "ZAALBAR",
+          recommended: "21500+ Power",
+        },
+        {
+          id: "T3_M4",
+          recommended: "21500+ Power",
+        },
+        {
+          id: "DARTHREVAN",
+          recommended: "20500+ Power",
+        },
+        {
+          id: "BASTILASHANDARK",
+          recommended: "18800+ Power",
+        },
+        {
+          id: "CANDEROUSORDO",
+          recommended: "20500+ Power",
+        },
+        {
+          id: "HK47",
+          recommended: "20500+ Power",
+        },
+        {
+          id: "JUHANI",
+          recommended: "20500+ Power",
+        },
+        {
+          id: "CARTHONASI",
+          recommended: "20500+ Power",
+        },
+      ],
+    },
+    {
+      id: "GENERALSKYWALKER",
+      prerequisites: [
+        {
+          tags: ["Capital Ship", "Galactic Republic"],
+          recommended: "21500+ Power",
+          requirement: "40000 Power",
+        },
+        {
+          id: "JEDISTARFIGHTERANAKIN",
+          recommended: "52000+ Power",
+          requirement: "40000 Power",
+        },
+        {
+          tags: ["Galactic Republic", "is_ship"],
+          recommended: "52000+ Power",
+          requirement: "40000 Power",
+        },
+        {
+          id: "PADMEAMIDALA",
+          recommended: "24500+ Power",
+          requirement: "17700 Power",
+        },
+        {
+          id: "C3POLEGENDARY",
+          recommended: "24500+ Power",
+          requirement: "17700 Power",
+        },
+        {
+          id: "GENERALKENOBI",
+          recommended: "24500+ Power",
+          requirement: "17700 Power",
+        },
+        {
+          id: "AHSOKATANO",
+          recommended: "24500+ Power",
+          requirement: "17700 Power",
+        },
+        {
+          id: "SHAAKTI",
+          recommended: "24500+ Power",
+          requirement: "17700 Power",
+        },
+        {
+          id: "ASAJVENTRESS",
+          recommended: "22300+ Power",
+          requirement: "17700 Power",
+        },
+        {
+          id: "B1BATTLEDROIDV2",
+          recommended: "22300+ Power",
+          requirement: "17700 Power",
+        },
+        {
+          id: "B2SUPERBATTLEDROID",
+          recommended: "22300+ Power",
+          requirement: "17700 Power",
+        },
+        {
+          id: "DROIDEKA",
+          recommended: "22300+ Power",
+          requirement: "17700 Power",
+        },
+        {
+          id: "MAGNAGUARD",
+          recommended: "22300+ Power",
+          requirement: "17700 Power",
+        },
+      ],
+    },
+    {
+      id: "JEDIKNIGHTLUKE",
+      prerequisites: [
+        {
+          id: "VADER",
+          recommended: "33000 Power",
+          requirement: "Relic 3",
+        },
+        {
+          id: "COMMANDERLUKESKYWALKER",
+          recommended: "33000+ Power",
+          requirement: "Relic 3",
+        },
+        {
+          id: "CHEWBACCALEGENDARY",
+          recommended: "25700+ Power",
+          requirement: "Relic 3",
+        },
+        {
+          id: "C3POLEGENDARY",
+          recommended: "25700+ Power",
+          requirement: "Relic 3",
+        },
+        {
+          id: "ADMINISTRATORLANDO",
+          recommended: "25700+ Power",
+          requirement: "Relic 3",
+        },
+        {
+          id: "HOTHLEIA",
+          recommended: "25700+ Power",
+          requirement: "Relic 3",
+        },
+        {
+          id: "HERMITYODA",
+          recommended: "29000+ Power",
+          requirement: "Relic 3",
+        },
+        {
+          id: "HOTHHAN",
+          recommended: "25400+ Power",
+          requirement: "Relic 3",
+        },
+        {
+          id: "WAMPA",
+          recommended: "24000+ Power",
+          requirement: "Relic 3",
+        },
+        {
+          id: "XWINGRED2",
+          recommended: "74500+ Power",
+        },
+        {
+          id: "MILLENNIUMFALCON",
+          recommended: "74500+ Power",
+        },
+        {
+          tags: ["Capital Ship"],
+          recommended: "74500+ Power",
+        },
+      ],
+    },
+    {
+      id: "CAPITALEXECUTOR",
+      prerequisites: [
+        {
+          id: "VADER",
+          requirement: "Relic 7",
+        },
+        {
+          id: "ADMIRALPIETT",
+          requirement: "Relic 8",
+        },
+        {
+          id: "BOBAFETT",
+          requirement: "Relic 8",
+        },
+        {
+          id: "DENGAR",
+          requirement: "Relic 5",
+        },
+        {
+          id: "IG88",
+          requirement: "Relic 5",
+        },
+        {
+          id: "BOSSK",
+          requirement: "Relic 5",
+        },
+        {
+          id: "TIEFIGHTERPILOT",
+          requirement: "Relic 5",
+        },
+        {
+          id: "TIEADVANCED",
+          requirement: "4 Stars",
+          recommended: "67000+ Power",
+        },
+        {
+          id: "TIEBOMBERIMPERIAL",
+          requirement: "4 Stars",
+          recommended: "67000+ Power",
+        },
+        {
+          id: "HOUNDSTOOTH",
+          requirement: "4 Stars",
+          recommended: "67000+ Power",
+        },
+        {
+          id: "SLAVE1",
+          requirement: "4 Stars",
+          recommended: "67000+ Power",
+        },
+        {
+          id: "IG2000",
+          requirement: "4 Stars",
+          recommended: "67000+ Power",
+        },
+        {
+          id: "TIEFIGHTERIMPERIAL",
+          requirement: "4 Stars",
+          recommended: "67000+ Power",
+        },
+        {
+          id: "RAZORCREST",
+          recommended: "67000+ Power",
+        },
+        {
+          tags: ["Capital Ship"],
+          recommended: "67000+ Power",
+        },
+      ],
+    },
+  ],
+};
+
+const galacticLegends = {
+  id: "galactic_legends",
+  table: "Galactic Legend Events",
+  characters: [
+    {
+      id: "",
+      prerequisites: [
+        {
+          id: "",
+          requirement: "",
+        },
+      ],
+    },
+  ],
+};
+
+const raids = [
+  {
+    id: "the_pit",
+    table: "Raids",
+    mission: "The Pit (Rancor)",
+    characters: [{ id: "HANSOLO" }],
+  },
+  {
+    id: "tank_takedown",
+    table: "Raids",
+    mission: "The Pit (Rancor)",
+    characters: [{ id: "GENERALKENOBI" }],
+  },
+  {
+    id: "sith_triumvirate",
+    table: "Raids",
+    mission: "Sith Triumvirate (STR)",
+    characters: [{ id: "DARTHTRAYA" }],
+  },
+];
+
+const territoryBattles = {
+  id: "territory_battles",
+  table: "Territory Battles",
+  characters: [
+    { id: "HOTHLEIA" },
+    { id: "IMPERIALPROBEDROID" },
+    { id: "WATTAMBOR" },
+    { id: "KIADIMUNDI" },
+  ],
+};
+
+const stores = [
+  {
+    id: "cantina_battles_store",
+    table: "Cantina Battles Store",
+    characters: [
+      { id: "UWINGROGUEONE", dropRate: 1, shardCount: 5, cost: 400 },
+      { id: "STORMTROOPERHAN", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "CHOPPERS3", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "PAO", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "BISTAN", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "JAWASCAVENGER", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "AHSOKATANO", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "JEDIKNIGHTGUARDIAN", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "CT5555", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "HOTHREBELSCOUT", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "BOBAFETT", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "HUMANTHUG", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "STORMTROOPER", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "DAKA", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "FIRSTORDEROFFICERMALE", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "QUIGONJINN", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "POE", dropRate: 1, shardCount: 10, cost: 400 },
+    ],
+  },
+  {
+    id: "guild_store",
+    table: "Guild Store",
+    characters: [
+      { id: "YOUNGHAN", dropRate: 1, shardCount: 10, cost: 450 },
+      { id: "COLONELSTARCK", dropRate: 1, shardCount: 10, cost: 450 },
+      {
+        id: "FIRSTORDERSPECIALFORCESPILOT",
+        dropRate: 0.5,
+        shardCount: 10,
+        cost: 450,
+      },
+      { id: "TIEFIGHTERFOSF", dropRate: 0.5, shardCount: 4, cost: 450 },
+      { id: "JAWAENGINEER", dropRate: 0.33, shardCount: 10, cost: 450 },
+      { id: "GAMORREANGUARD", dropRate: 0.33, shardCount: 10, cost: 450 },
+      { id: "DENGAR", dropRate: 0.33, shardCount: 10, cost: 450 },
+      { id: "REY", dropRate: 0.2, shardCount: 10, cost: 450 },
+      { id: "SNOWTROOPER", dropRate: 0.2, shardCount: 10, cost: 450 },
+      { id: "RESISTANCETROOPER", dropRate: 0.2, shardCount: 10, cost: 450 },
+      { id: "PAPLOO", dropRate: 0.2, shardCount: 10, cost: 450 },
+      { id: "EWOKELDER", dropRate: 0.2, shardCount: 10, cost: 450 },
+      { id: "LUKESKYWALKER", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "NIGHTSISTERACOLYTE", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "MAUL", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "TUSKENSHAMAN", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "SUNFAC", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "ZAMWESELL", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "LOGRAY", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "OLDBENKENOBI", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "CC2224", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "CT210408", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "CT7567", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "KYLOREN", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "AAYLASECURA", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "BARRISSOFFEE", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "FINN", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "JYNERSO", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "KITFISTO", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "TALIA", dropRate: 0.1667, shardCount: 10, cost: 450 },
+      { id: "B2SUPERBATTLEDROID", dropRate: 0.2, shardCount: 10, cost: 450 },
+      { id: "IMAGUNDI", dropRate: 0.2, shardCount: 10, cost: 450 },
+      { id: "SITHASSASSIN", dropRate: 0.2, shardCount: 10, cost: 450 },
+      { id: "MAGNAGUARD", dropRate: 0.2, shardCount: 10, cost: 450 },
+      { id: "CLONESERGEANTPHASEI", dropRate: 0.2, shardCount: 10, cost: 450 },
+    ],
+  },
+  {
+    id: "squad_arena_store",
+    table: "Squad Arena Store",
+    characters: [
+      { id: "KANANJARRUSS3", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "CASSIANANDOR", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "MACEWINDU", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "CHIEFNEBIT", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "PRINCESSLEIA", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "GRANDMOFFTARKIN", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "UGNAUGHT", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "GREEDO", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "ASAJVENTRESS", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "SAVAGEOPRESS", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "HK47", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "ADMIRALACKBAR", dropRate: 1, shardCount: 10, cost: 400 },
+      {
+        id: "CORUSCANTUNDERWORLDPOLICE",
+        dropRate: 1,
+        shardCount: 10,
+        cost: 400,
+      },
+      { id: "IG88", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "EETHKOTH", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "DARTHSIDIOUS", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "NUTEGUNRAY", dropRate: 1, shardCount: 10, cost: 400 },
+    ],
+  },
+  {
+    id: "galactic_war_store",
+    table: "Galactic War Store",
+    characters: [
+      {
+        id: "JEDISTARFIGHTERAHSOKATANO",
+        dropRate: 0.4307, //two slots, .2 and .2307
+        shardCount: 4,
+        cost: 400,
+      },
+      {
+        id: "JEDISTARFIGHTERCONSULAR",
+        dropRate: 0.4307, //two slots, .2 and .2307
+        shardCount: 4,
+        cost: 400,
+      },
+      {
+        id: "GEONOSIANSTARFIGHTER2",
+        dropRate: 0.3538, //two slots, .2 and .1538
+        shardCount: 4,
+        cost: 400,
+      },
+      {
+        id: "GEONOSIANSTARFIGHTER3",
+        dropRate: 0.3538, //two slots, .2 and .1538
+        shardCount: 4,
+        cost: 400,
+      },
+      { id: "ARC170CLONESERGEANT", dropRate: 0.0769, shardCount: 4, cost: 400 },
+      { id: "TIEFIGHTERIMPERIAL", dropRate: 0.0769, shardCount: 4, cost: 400 },
+      { id: "XWINGRESISTANCE", dropRate: 0.0769, shardCount: 4, cost: 400 },
+      { id: "GEONOSIANSTARFIGHTER1", dropRate: 0.2, shardCount: 4, cost: 400 },
+      { id: "XWINGRED3", dropRate: 0.25, shardCount: 4, cost: 400 },
+      { id: "XWINGRED2", dropRate: 0.25, shardCount: 4, cost: 400 },
+      {
+        id: "TIEFIGHTERFIRSTORDER",
+        dropRate: 0.1667,
+        shardCount: 4,
+        cost: 400,
+      },
+      { id: "BLADEOFDORIN", dropRate: 0.1667, shardCount: 4, cost: 400 },
+      { id: "UMBARANSTARFIGHTER", dropRate: 0.1667, shardCount: 4, cost: 400 },
+      { id: "ZEBS3", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "BODHIROOK", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "K2SO", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "CADBANE", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "LUMINARAUNDULI", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "NIGHTSISTERINITIATE", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "TEEBO", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "BIGGSDARKLIGHTER", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "DATHCHA", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "POGGLETHELESSER", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "IG86SENTINELDROID", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "TUSKENRAIDER", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "RESISTANCEPILOT", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "PHASMA", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "MAGMATROOPER", dropRate: 1, shardCount: 10, cost: 400 },
+    ],
+  },
+  {
+    id: "galactic_war_table",
+    table: "Galactic War Table",
+    characters: [],
+  },
+  {
+    id: "fleet_arena_store",
+    table: "Fleet Arena Store",
+    characters: [
+      { id: "UWINGSCARIF", dropRate: 0.2, shardCount: 4, cost: 400 },
+      { id: "XWINGBLACKONE", dropRate: 0.2, shardCount: 4, cost: 400 },
+      { id: "XWINGRESISTANCE", dropRate: 0.6, shardCount: 4, cost: 400 },
+      { id: "TIEFIGHTERIMPERIAL", dropRate: 0.4286, shardCount: 4, cost: 400 },
+      { id: "SITHINFILTRATOR", dropRate: 0.2857, shardCount: 4, cost: 400 },
+      { id: "SLAVE1", dropRate: 0.1429, shardCount: 4, cost: 400 },
+      { id: "TIEADVANCED", dropRate: 0.1429, shardCount: 4, cost: 400 },
+      { id: "ARC170CLONESERGEANT", dropRate: 0.75, shardCount: 4, cost: 400 },
+      { id: "ARC170REX", dropRate: 0.25, shardCount: 4, cost: 400 },
+      {
+        id: "JEDISTARFIGHTERCONSULAR",
+        dropRate: 0.333,
+        shardCount: 4,
+        cost: 400,
+      },
+      {
+        id: "JEDISTARFIGHTERAHSOKATANO",
+        dropRate: 0.333,
+        shardCount: 4,
+        cost: 400,
+      },
+      { id: "GHOST", dropRate: 0.333, shardCount: 4, cost: 400 },
+      { id: "GEONOSIANSTARFIGHTER3", dropRate: 0.4, shardCount: 4, cost: 400 },
+      { id: "GAUNTLETSTARFIGHTER", dropRate: 0.2, shardCount: 4, cost: 400 },
+      { id: "XWINGRED3", dropRate: 0.333, shardCount: 4, cost: 400 },
+      { id: "XWINGRED2", dropRate: 0.333, shardCount: 4, cost: 400 },
+      { id: "PHANTOM2", dropRate: 0.333, shardCount: 4, cost: 400 },
+      { id: "BLADEOFDORIN", dropRate: 0.75, shardCount: 4, cost: 400 },
+      { id: "UMBARANSTARFIGHTER", dropRate: 0.25, shardCount: 4, cost: 400 },
+      { id: "TIEFIGHTERFIRSTORDER", dropRate: 0.75, shardCount: 4, cost: 400 },
+      { id: "GEONOSIANSTARFIGHTER1", dropRate: 0.25, shardCount: 4, cost: 400 },
+      { id: "CC2224", dropRate: 0.2, shardCount: 10, cost: 400 },
+      { id: "CHIRRUTIMWE", dropRate: 0.2, shardCount: 10, cost: 400 },
+      { id: "CT210408", dropRate: 0.2, shardCount: 10, cost: 400 },
+      { id: "ZAMWESELL", dropRate: 0.2, shardCount: 10, cost: 400 },
+      { id: "TUSKENSHAMAN", dropRate: 0.2, shardCount: 10, cost: 400 },
+      { id: "ADMIRALACKBAR", dropRate: 0.2, shardCount: 10, cost: 400 },
+      { id: "VADER", dropRate: 0.2, shardCount: 5, cost: 400 },
+      { id: "GRIEVOUS", dropRate: 0.2, shardCount: 5, cost: 400 },
+      { id: "GRANDMOFFTARKIN", dropRate: 0.2, shardCount: 10, cost: 400 },
+      { id: "MACEWINDU", dropRate: 0.2, shardCount: 10, cost: 400 },
+      { id: "BISTAN", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "CT7567", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "EZRABRIDGERS3", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "SCARIFREBEL", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "BOBAFETT", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "MAUL", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "POE", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "SUNFAC", dropRate: 0.583, shardCount: 10, cost: 400 }, //two slots, .25 and .333
+      { id: "WEDGEANTILLES", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "BIGGSDARKLIGHTER", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "FULCRUMAHSOKA", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "RESISTANCEPILOT", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "AHSOKATANO", dropRate: 0.333, shardCount: 10, cost: 400 },
+      { id: "PLOKOON", dropRate: 0.333, shardCount: 10, cost: 400 },
+      { id: "JEDIKNIGHTCONSULAR", dropRate: 0.333, shardCount: 10, cost: 400 },
+      { id: "GEONOSIANSOLDIER", dropRate: 0.333, shardCount: 10, cost: 400 },
+      { id: "GEONOSIANSPY", dropRate: 0.333, shardCount: 10, cost: 400 },
+      { id: "CLONESERGEANTPHASEI", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "CT5555", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "FIRSTORDERTIEPILOT", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "TIEFIGHTERPILOT", dropRate: 0.25, shardCount: 10, cost: 400 },
+    ],
+  },
+  {
+    id: "guild_events_store1",
+    table: "Guild Events Store (Mk 1)",
+    characters: [
+      { id: "GENERALSKYWALKER", dropRate: 0.333, shardCount: 5, cost: 1900 },
+      { id: "GENERALSKYWALKER", dropRate: 0.333, shardCount: 10, cost: 3800 },
+      { id: "GENERALSKYWALKER", dropRate: 0.333, shardCount: 15, cost: 5700 },
+      { id: "DARTHMALAK", dropRate: 0.333, shardCount: 5, cost: 1900 },
+      { id: "DARTHMALAK", dropRate: 0.333, shardCount: 10, cost: 3800 },
+      { id: "DARTHMALAK", dropRate: 0.333, shardCount: 15, cost: 5700 },
+      { id: "HERMITYODA", dropRate: 0.333, shardCount: 5, cost: 1350 },
+      { id: "HERMITYODA", dropRate: 0.333, shardCount: 10, cost: 2700 },
+      { id: "HERMITYODA", dropRate: 0.333, shardCount: 15, cost: 4050 },
+      { id: "WAMPA", dropRate: 0.333, shardCount: 5, cost: 1350 },
+      { id: "WAMPA", dropRate: 0.333, shardCount: 10, cost: 2700 },
+      { id: "WAMPA", dropRate: 0.333, shardCount: 15, cost: 4050 },
+      { id: "HOTHREBELSCOUT", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "HOTHREBELSOLDIER", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "ADMIRALACKBAR", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "CASSIANANDOR", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "ADMINISTRATORLANDO", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "PRINCESSLEIA", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "K2SO", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "BISTAN", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "SCARIFREBEL", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "LUKESKYWALKER", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "BIGGSDARKLIGHTER", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "STORMTROOPERHAN", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "CHOPPERS3", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "ZEBS3", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "STORMTROOPER", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "EZRABRIDGERS3", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "HERASYNDULLAS3", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "KANANJARRUSS3", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "SNOWTROOPER", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "ROYALGUARD", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "TIEFIGHTERPILOT", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "GRANDMOFFTARKIN", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "VEERS", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "DIRECTORKRENNIC", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      {
+        id: "IMPERIALSUPERCOMMANDO",
+        dropRate: 0.1667,
+        shardCount: 10,
+        cost: 400,
+      },
+      {
+        id: "IMPERIALSUPERCOMMANDO",
+        dropRate: 0.1667,
+        shardCount: 10,
+        cost: 400,
+      },
+      { id: "MAGMATROOPER", dropRate: 0.1667, shardCount: 10, cost: 400 },
+      { id: "UMBARANSTARFIGHTER", dropRate: 0.1667, shardCount: 4, cost: 400 },
+      { id: "XWINGRED2", dropRate: 0.1667, shardCount: 4, cost: 400 },
+      { id: "XWINGRESISTANCE", dropRate: 0.1667, shardCount: 4, cost: 400 },
+      { id: "UWINGSCARIF", dropRate: 0.1667, shardCount: 4, cost: 400 },
+      { id: "ARC170CLONESERGEANT", dropRate: 0.1667, shardCount: 4, cost: 400 },
+      {
+        id: "JEDISTARFIGHTERAHSOKATANO",
+        dropRate: 0.1667,
+        shardCount: 4,
+        cost: 400,
+      },
+      { id: "BLADEOFDORIN", dropRate: 0.1667, shardCount: 4, cost: 400 },
+      { id: "XWINGBLACKONE", dropRate: 0.1667, shardCount: 4, cost: 400 },
+      { id: "ARC170REX", dropRate: 0.1667, shardCount: 4, cost: 400 },
+      { id: "GHOST", dropRate: 0.25, shardCount: 4, cost: 400 },
+      { id: "PHANTOM2", dropRate: 0.25, shardCount: 4, cost: 400 },
+      { id: "UWINGROGUEONE", dropRate: 0.25, shardCount: 4, cost: 400 },
+      {
+        id: "JEDISTARFIGHTERCONSULAR",
+        dropRate: 0.25,
+        shardCount: 4,
+        cost: 400,
+      },
+      {
+        id: "GEONOSIANSTARFIGHTER2",
+        dropRate: 0.333,
+        shardCount: 4,
+        cost: 400,
+      },
+      {
+        id: "GEONOSIANSTARFIGHTER3",
+        dropRate: 0.333,
+        shardCount: 4,
+        cost: 400,
+      },
+      {
+        id: "GEONOSIANSTARFIGHTER1",
+        dropRate: 0.333,
+        shardCount: 4,
+        cost: 400,
+      },
+      { id: "SITHINFILTRATOR", dropRate: 0.25, shardCount: 4, cost: 400 },
+      { id: "TIEFIGHTERFIRSTORDER", dropRate: 0.25, shardCount: 4, cost: 400 },
+      { id: "TIEFIGHTERIMPERIAL", dropRate: 0.25, shardCount: 4, cost: 400 },
+      { id: "GAUNTLETSTARFIGHTER", dropRate: 0.25, shardCount: 4, cost: 400 },
+    ],
+  },
+  {
+    id: "guild_events_store2",
+    table: "Guild Events Store (Mk 2)",
+    characters: [
+      { id: "CAPITALMALEVOLENCE", dropRate: 0.333, shardCount: 5, cost: 1350 },
+      { id: "CAPITALMALEVOLENCE", dropRate: 0.333, shardCount: 10, cost: 2700 },
+      { id: "CAPITALMALEVOLENCE", dropRate: 0.333, shardCount: 15, cost: 4050 },
+      { id: "CAPITALNEGOTIATOR", dropRate: 0.333, shardCount: 5, cost: 1350 },
+      { id: "CAPITALNEGOTIATOR", dropRate: 0.333, shardCount: 10, cost: 2700 },
+      { id: "CAPITALNEGOTIATOR", dropRate: 0.333, shardCount: 15, cost: 4050 },
+      { id: "HOTHLEIA", dropRate: 0.25, shardCount: 5, cost: 900 },
+      { id: "HOTHLEIA", dropRate: 0.25, shardCount: 10, cost: 1800 },
+      { id: "IMPERIALPROBEDROID", dropRate: 0.25, shardCount: 5, cost: 900 },
+      { id: "IMPERIALPROBEDROID", dropRate: 0.25, shardCount: 5, cost: 1800 },
+    ],
+  },
+  {
+    id: "shard_store",
+    table: "Shard Store",
+    characters: [
+      { id: "GRIEVOUS", dropRate: 0.333, shardCount: 5, cost: 2250 },
+      { id: "GRIEVOUS", dropRate: 0.333, shardCount: 10, cost: 4500 },
+      { id: "GRIEVOUS", dropRate: 0.333, shardCount: 30, cost: 13500 },
+    ],
+  },
+];
+
 const notAccelerated = [
   "DARKTROOPER",
   "VULTUREDROID",
@@ -1730,9 +2681,11 @@ const notAccelerated = [
   "BLADEOFDORIN",
   "DARTHTALON",
   "EBONHAWK",
+  "TIEINTERCEPTOR",
+  "MARAJADE",
 ];
 
-module.exports = nodeList.map(({ characters, ...node }) => {
+const farmNodeList = nodeList.map(({ characters, ...node }) => {
   return {
     characters: characters.map((id) => {
       const exists = notAccelerated.some((c) => c === id);
@@ -1744,3 +2697,13 @@ module.exports = nodeList.map(({ characters, ...node }) => {
     ...node,
   };
 });
+
+module.exports = [
+  ...farmNodeList,
+  conquest,
+  legendary,
+  ...raids,
+  territoryBattles,
+  galacticLegends,
+  ...stores,
+];
