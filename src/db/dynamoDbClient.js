@@ -142,6 +142,48 @@ class DbClient {
     };
     await db.delete(params).promise();
   }
+
+  async createGuild(guildId) {
+    const params = {
+      TableName: "guildTable",
+      Item: {
+        id: guildId,
+      },
+    };
+    await db.put(params).promise();
+    return params.Item;
+  }
+
+  async fetchGuild(id) {
+    const params = {
+      TableName: "guildTable",
+      Key: {
+        id,
+      },
+    };
+    const result = await db.get(params).promise();
+    return result.Item;
+  }
+
+  async updateGuild(id, { territoryWar }) {
+    const expressions = [];
+    const values = {};
+
+    if (territoryWar) {
+      expressions.push("territoryWar = :territoryWar");
+      values[":territoryWar"] = territoryWar;
+    }
+
+    if (expressions.length > 0) {
+      const params = {
+        TableName: "guildTable",
+        Key: { id },
+        UpdateExpression: `SET ${expressions.join(", ")}`,
+        ExpressionAttributeValues: values,
+      };
+      await db.update(params).promise();
+    }
+  }
 }
 
 module.exports = new DbClient();

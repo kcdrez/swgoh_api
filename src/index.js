@@ -11,6 +11,7 @@ const { routes: ggRoutes } = require("./gg/routes");
 const { routes: helpRoutes } = require("./help/routes");
 const { routes: userRoutes } = require("./user/routes");
 const { routes: opponentRoutes } = require("./opponent/routes");
+const { routes: guildRoutes } = require("./guild/routes");
 
 const app = express();
 
@@ -25,5 +26,6 @@ app.use("/gg", ggRoutes);
 app.use("/help", helpRoutes);
 app.use("/user", userRoutes);
 app.use("/opponent", opponentRoutes);
+app.use("/guild", guildRoutes);
 
 module.exports = app;

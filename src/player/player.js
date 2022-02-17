@@ -65,6 +65,7 @@ class Player {
       units: unitList,
       name,
       updated: ggPlayer.data.last_updated,
+      guild_id: ggPlayer.data.guild_id,
     };
 
     if (result) {
