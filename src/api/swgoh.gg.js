@@ -26,15 +26,15 @@ class apiClient {
   }
 
   async fetchAccess(guildId, allyCode) {
-    if (allyCode === "843518525") {
+    if (allyCode == "843518525") {
       return { role: 4 };
     }
 
     const response = await axios.get(baseUrl + "/guild-profile/" + guildId);
     const member = response.data.data.members.find((x) => {
-      return x.allyCode === allyCode;
+      return x.ally_code == allyCode;
     });
-    const role = 0;
+    let role = 0;
     if (member) {
       role = member.member_level;
     }
