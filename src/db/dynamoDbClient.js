@@ -165,13 +165,18 @@ class DbClient {
     return result.Item;
   }
 
-  async updateGuild(id, { territoryWar }) {
+  async updateGuild(id, { territoryWar, territoryBattle }) {
     const expressions = [];
     const values = {};
 
     if (territoryWar) {
       expressions.push("territoryWar = :territoryWar");
       values[":territoryWar"] = territoryWar;
+    }
+
+    if (territoryBattle) {
+      expressions.push("territoryBattle = :territoryBattle");
+      values[":territoryBattle"] = territoryBattle;
     }
 
     if (expressions.length > 0) {

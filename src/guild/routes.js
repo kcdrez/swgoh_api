@@ -49,13 +49,31 @@ routes.patch("/:guildId/territoryWar", async (req, res) => {
     res
       .status(500)
       .json({ error: "Missing required field: territoryWarEvents" });
-  } else if (!guildId) {
-    res.status(500).json({ error: "Missing required field: guildId" });
   } else {
     try {
       const result = await guild.updateTerritoryWar(
         guildId,
         territoryWarEvents
+      );
+      res.status(201).json(result);
+    } catch (err) {
+      res.status(500).json({ error: err.message });
+    }
+  }
+});
+
+routes.patch("/:guildId/territoryBattle", async (req, res) => {
+  const { territoryBattleEvents } = req.body;
+  const { guildId } = req.params;
+  if (!territoryBattleEvents) {
+    res
+      .status(500)
+      .json({ error: "Missing required field: territoryBattleEvents" });
+  } else {
+    try {
+      const result = await guild.updateTerritoryBattle(
+        guildId,
+        territoryBattleEvents
       );
       res.status(201).json(result);
     } catch (err) {
