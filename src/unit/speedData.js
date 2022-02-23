@@ -69,6 +69,13 @@ module.exports = {
     leader: {
       value: 10,
       tags: ["Scoundrel & Support", "Scoundrel & Healer"],
+      special: {
+        value: 20,
+        tags: [
+          "Light Side & Scoundrel & Support",
+          "Light Side & Scoundrel & Healer",
+        ],
+      },
     },
   },
   VEERS: {
