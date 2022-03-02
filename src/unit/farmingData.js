@@ -2013,7 +2013,6 @@ const conquest = {
   id: "conquest",
   table: "Conquest",
   characters: [
-    { id: "RAZORCREST" },
     { id: "COMMANDERAHSOKA" },
     { id: "BOBAFETTSCION" },
     { id: "TIEINTERCEPTOR" },
@@ -2831,6 +2830,7 @@ const stores = [
       { id: "CT5555", dropRate: 0.25, shardCount: 10, cost: 400 },
       { id: "FIRSTORDERTIEPILOT", dropRate: 0.25, shardCount: 10, cost: 400 },
       { id: "TIEFIGHTERPILOT", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "RAZORCREST", dropRate: 0.25, shardCount: 4, cost: 400 },
     ],
   },
   {
@@ -2961,7 +2961,6 @@ const stores = [
 ];
 
 const notAccelerated = [
-  "DARKTROOPER",
   "VULTUREDROID",
   "BADBATCHHUNTER",
   "BADBATCHTECH",

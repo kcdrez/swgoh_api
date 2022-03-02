@@ -103,7 +103,23 @@ routes.patch("/wallet/:userId", async (req, res) => {
     res.status(500).json({ error: "Missing required field: wallet" });
   } else {
     try {
-      await player.updateWallet(req.params.userId, { wallet });
+      await player.updateWallet(req.params.userId, wallet);
+      res.status(200).json({ success: true });
+    } catch (err) {
+      res.status(500).json({
+        error: err.message,
+      });
+    }
+  }
+});
+
+routes.patch("/dailyCurrency/:userId", async (req, res) => {
+  const { currency } = req.body;
+  if (!currency) {
+    res.status(500).json({ error: "Missing required field: currency" });
+  } else {
+    try {
+      await player.updateCurrency(req.params.userId, currency);
       res.status(200).json({ success: true });
     } catch (err) {
       res.status(500).json({
