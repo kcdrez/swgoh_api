@@ -6,7 +6,7 @@ const unit = require("../unit/unit");
 const dbClient = require("../db/dynamoDbClient");
 
 class Player {
-  constructor() {}
+  constructor() { }
 
   async fetchPlayer(allyCode) {
     const result = await dbClient.getUserByAllyCode(allyCode);
@@ -32,6 +32,8 @@ class Player {
             gear,
             stats,
             ability_data,
+            zeta_abilities,
+            omicron_abilities,
             relic_tier,
             has_ultimate,
             rarity: stars,
@@ -45,6 +47,8 @@ class Player {
             gear,
             stats,
             ability_data,
+            zeta_abilities,
+            omicron_abilities,
             relic_tier: relic_tier - 2,
             has_ultimate,
             // xp,
@@ -76,6 +80,7 @@ class Player {
       player.teams = result.teams || [];
       player.shards = result.shards || {};
       player.id = result.id;
+      player.wallet = result.wallet || {}
     }
 
     return {
@@ -108,6 +113,10 @@ class Player {
 
   async updateOpponentTeams(id, teams) {
     await dbClient.updateOpponentTeams(id, teams);
+  }
+
+  async updateWallet(id, wallet) {
+    await dbClient.updateUser(id, { wallet });
   }
 }
 

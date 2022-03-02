@@ -97,6 +97,22 @@ routes.patch("/shards/:userId", async (req, res) => {
   }
 });
 
+routes.patch("/wallet/:userId", async (req, res) => {
+  const { wallet } = req.body;
+  if (!wallet) {
+    res.status(500).json({ error: "Missing required field: wallet" });
+  } else {
+    try {
+      await player.updateWallet(req.params.userId, { wallet });
+      res.status(200).json({ success: true });
+    } catch (err) {
+      res.status(500).json({
+        error: err.message,
+      });
+    }
+  }
+});
+
 module.exports = {
   routes,
 };
