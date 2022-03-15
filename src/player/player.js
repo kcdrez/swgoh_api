@@ -6,7 +6,7 @@ const unit = require("../unit/unit");
 const dbClient = require("../db/dynamoDbClient");
 
 class Player {
-  constructor() { }
+  constructor() {}
 
   async fetchPlayer(allyCode) {
     const result = await dbClient.getUserByAllyCode(allyCode);
@@ -80,7 +80,8 @@ class Player {
       player.teams = result.teams || [];
       player.shards = result.shards || {};
       player.id = result.id;
-      player.wallet = result.wallet || {}
+      player.wallet = result.wallet || {};
+      player.dailyCurrency = result.currency || {};
     }
 
     return {
@@ -117,6 +118,10 @@ class Player {
 
   async updateWallet(id, wallet) {
     await dbClient.updateUser(id, { wallet });
+  }
+
+  async updateCurrency(id, currency) {
+    await dbClient.updateUser(id, { currency });
   }
 }
 

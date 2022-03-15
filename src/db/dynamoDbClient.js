@@ -6,7 +6,7 @@ const sha512 = require("js-sha512");
 const db = new AWS.DynamoDB.DocumentClient();
 
 class DbClient {
-  constructor() { }
+  constructor() {}
 
   async getUserById(id) {
     const params = {
@@ -53,7 +53,10 @@ class DbClient {
     return await db.scan(params).promise();
   }
 
-  async updateUser(id, { gear, relic, planner, energyData, teams, shards, wallet }) {
+  async updateUser(
+    id,
+    { gear, relic, planner, energyData, teams, shards, wallet, currency }
+  ) {
     const expressions = [];
     const values = {};
     if (gear) {
@@ -83,6 +86,10 @@ class DbClient {
     if (wallet) {
       expressions.push("wallet = :wallet");
       values[":wallet"] = wallet;
+    }
+    if (currency) {
+      expressions.push("currency = :currency");
+      values[":currency"] = currency;
     }
 
     if (expressions.length > 0) {

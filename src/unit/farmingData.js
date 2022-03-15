@@ -19,8 +19,22 @@ const nodeList = [
     difficulty: Hard,
     map: 1,
     mission: "A",
+    energy: 12,
     characters: ["REY"],
-    gear: [],
+    gear: [
+      {
+        id: "002",
+        dropRate: 1,
+      },
+      {
+        id: "004",
+        dropRate: 1,
+      },
+      {
+        id: "005",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_1b`,
@@ -28,8 +42,22 @@ const nodeList = [
     difficulty: Hard,
     map: 1,
     mission: "B",
+    energy: 12,
     characters: ["AHSOKATANO"],
-    gear: [],
+    gear: [
+      {
+        id: "002",
+        dropRate: 1,
+      },
+      {
+        id: "007",
+        dropRate: 1,
+      },
+      {
+        id: "011",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_1c`,
@@ -37,8 +65,22 @@ const nodeList = [
     difficulty: Hard,
     map: 1,
     mission: "C",
+    energy: 12,
     characters: ["DARKTROOPER"],
-    gear: [],
+    gear: [
+      {
+        id: "012",
+        dropRate: 1,
+      },
+      {
+        id: "009",
+        dropRate: 1,
+      },
+      {
+        id: "001",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_1d`,
@@ -46,8 +88,22 @@ const nodeList = [
     difficulty: Hard,
     map: 1,
     mission: "D",
+    energy: 12,
     characters: ["KYLORENUNMASKED"],
-    gear: [],
+    gear: [
+      {
+        id: "002",
+        dropRate: 1,
+      },
+      {
+        id: "003",
+        dropRate: 1,
+      },
+      {
+        id: "008",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_2a`,
@@ -55,8 +111,22 @@ const nodeList = [
     difficulty: Hard,
     map: 2,
     mission: "A",
+    energy: 12,
     characters: ["EWOKSCOUT"],
-    gear: [],
+    gear: [
+      {
+        id: "006",
+        dropRate: 1,
+      },
+      {
+        id: "014Prototype",
+        dropRate: 1,
+      },
+      {
+        id: "010",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_2b`,
@@ -64,8 +134,22 @@ const nodeList = [
     difficulty: Hard,
     map: 2,
     mission: "B",
+    energy: 12,
     characters: ["FIRSTORDERTROOPER"],
-    gear: [],
+    gear: [
+      {
+        id: "019",
+        dropRate: 1,
+      },
+      {
+        id: "002",
+        dropRate: 1,
+      },
+      {
+        id: "017Prototype",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_2c`,
@@ -74,7 +158,20 @@ const nodeList = [
     map: 2,
     mission: "C",
     characters: ["EWOKELDER"],
-    gear: [],
+    gear: [
+      {
+        id: "007",
+        dropRate: 1,
+      },
+      {
+        id: "008",
+        dropRate: 1,
+      },
+      {
+        id: "001",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_2d`,
@@ -83,7 +180,20 @@ const nodeList = [
     map: 2,
     mission: "D",
     characters: ["MOFFGIDEONS1"],
-    gear: [],
+    gear: [
+      {
+        id: "033",
+        dropRate: 1,
+      },
+      {
+        id: "004",
+        dropRate: 1,
+      },
+      {
+        id: "021",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_2e`,
@@ -92,7 +202,20 @@ const nodeList = [
     map: 2,
     mission: "E",
     characters: ["MACEWINDU"],
-    gear: [],
+    gear: [
+      {
+        id: "020",
+        dropRate: 1,
+      },
+      {
+        id: "009",
+        dropRate: 1,
+      },
+      {
+        id: "001",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_2f`,
@@ -101,7 +224,20 @@ const nodeList = [
     map: 2,
     mission: "F",
     characters: ["TALIA"],
-    gear: [],
+    gear: [
+      {
+        id: "035",
+        dropRate: 1,
+      },
+      {
+        id: "003",
+        dropRate: 1,
+      },
+      {
+        id: "015Prototype",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_3a`,
@@ -110,7 +246,20 @@ const nodeList = [
     map: 3,
     mission: "A",
     characters: ["RESISTANCETROOPER"],
-    gear: [],
+    gear: [
+      {
+        id: "050Salvage",
+        dropRate: 1,
+      },
+      {
+        id: "016",
+        dropRate: 1,
+      },
+      {
+        id: "001",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_3b`,
@@ -119,7 +268,20 @@ const nodeList = [
     map: 3,
     mission: "B",
     characters: ["IG11"],
-    gear: [],
+    gear: [
+      {
+        id: "034",
+        dropRate: 1,
+      },
+      {
+        id: "030",
+        dropRate: 1,
+      },
+      {
+        id: "006",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_3c`,
@@ -128,7 +290,20 @@ const nodeList = [
     map: 3,
     mission: "C",
     characters: ["STORMTROOPER"],
-    gear: [],
+    gear: [
+      {
+        id: "025",
+        dropRate: 1,
+      },
+      {
+        id: "004",
+        dropRate: 1,
+      },
+      {
+        id: "013",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_3d`,
@@ -137,7 +312,20 @@ const nodeList = [
     map: 3,
     mission: "D",
     characters: ["LUMINARAUNDULI"],
-    gear: [],
+    gear: [
+      {
+        id: "036",
+        dropRate: 1,
+      },
+      {
+        id: "031Prototype",
+        dropRate: 1,
+      },
+      {
+        id: "013",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_3e`,
@@ -146,7 +334,20 @@ const nodeList = [
     map: 3,
     mission: "E",
     characters: ["GREEFKARGA"],
-    gear: [],
+    gear: [
+      {
+        id: "057Salvage",
+        dropRate: 1,
+      },
+      {
+        id: "015",
+        dropRate: 1,
+      },
+      {
+        id: "009",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_3f`,
@@ -155,7 +356,24 @@ const nodeList = [
     map: 3,
     mission: "F",
     characters: ["DATHCHA"],
-    gear: [],
+    gear: [
+      {
+        id: "028Prototype",
+        dropRate: 1,
+      },
+      {
+        id: "012",
+        dropRate: 1,
+      },
+      {
+        id: "005",
+        dropRate: 1,
+      },
+      {
+        id: "010",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_4a`,
@@ -164,7 +382,24 @@ const nodeList = [
     map: 4,
     mission: "A",
     characters: ["TEEBO"],
-    gear: [],
+    gear: [
+      {
+        id: "078Prototype",
+        dropRate: 1,
+      },
+      {
+        id: "069Prototype",
+        dropRate: 1,
+      },
+      {
+        id: "015Prototype",
+        dropRate: 1,
+      },
+      {
+        id: "010",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_4b`,
@@ -173,7 +408,24 @@ const nodeList = [
     map: 4,
     mission: "B",
     characters: ["LOBOT"],
-    gear: [],
+    gear: [
+      {
+        id: "055Prototype",
+        dropRate: 1,
+      },
+      {
+        id: "052Salvage",
+        dropRate: 1,
+      },
+      {
+        id: "007",
+        dropRate: 1,
+      },
+      {
+        id: "017Prototype",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_4c`,
@@ -182,7 +434,24 @@ const nodeList = [
     map: 4,
     mission: "C",
     characters: ["VEERS"],
-    gear: [],
+    gear: [
+      {
+        id: "055PrototypeSalvage",
+        dropRate: 1,
+      },
+      {
+        id: "040Prototype",
+        dropRate: 1,
+      },
+      {
+        id: "013",
+        dropRate: 1,
+      },
+      {
+        id: "007",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_4d`,
@@ -191,7 +460,24 @@ const nodeList = [
     map: 4,
     mission: "D",
     characters: ["IG86SENTINELDROID", "VULTUREDROID"],
-    gear: [],
+    gear: [
+      {
+        id: "051Salvage",
+        dropRate: 1,
+      },
+      {
+        id: "044Prototype",
+        dropRate: 1,
+      },
+      {
+        id: "009",
+        dropRate: 1,
+      },
+      {
+        id: "021Prototype",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_4e`,
@@ -200,7 +486,24 @@ const nodeList = [
     map: 4,
     mission: "E",
     characters: ["POGGLETHELESSER"],
-    gear: [],
+    gear: [
+      {
+        id: "062Salvage",
+        dropRate: 1,
+      },
+      {
+        id: "049Prototype",
+        dropRate: 1,
+      },
+      {
+        id: "003",
+        dropRate: 1,
+      },
+      {
+        id: "008",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_4f`,
@@ -209,7 +512,24 @@ const nodeList = [
     map: 4,
     mission: "F",
     characters: ["ROSETICO"],
-    gear: [],
+    gear: [
+      {
+        id: "053Salvage",
+        dropRate: 1,
+      },
+      {
+        id: "035",
+        dropRate: 1,
+      },
+      {
+        id: "036",
+        dropRate: 1,
+      },
+      {
+        id: "001",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${light}_${hard}_5a`,
@@ -629,7 +949,12 @@ const nodeList = [
     mission: "F",
     energy: 12,
     characters: ["JAWA"],
-    gear: [],
+    gear: [
+      {
+        id: "006",
+        dropRate: 1,
+      },
+    ],
   },
   {
     id: `${dark}_${hard}_5a`,
@@ -1688,7 +2013,6 @@ const conquest = {
   id: "conquest",
   table: "Conquest",
   characters: [
-    { id: "RAZORCREST" },
     { id: "COMMANDERAHSOKA" },
     { id: "BOBAFETTSCION" },
     { id: "TIEINTERCEPTOR" },
@@ -2506,6 +2830,7 @@ const stores = [
       { id: "CT5555", dropRate: 0.25, shardCount: 10, cost: 400 },
       { id: "FIRSTORDERTIEPILOT", dropRate: 0.25, shardCount: 10, cost: 400 },
       { id: "TIEFIGHTERPILOT", dropRate: 0.25, shardCount: 10, cost: 400 },
+      { id: "RAZORCREST", dropRate: 0.25, shardCount: 4, cost: 400 },
     ],
   },
   {
@@ -2628,7 +2953,6 @@ const stores = [
 ];
 
 const notAccelerated = [
-  "DARKTROOPER",
   "VULTUREDROID",
   "BADBATCHHUNTER",
   "BADBATCHTECH",
