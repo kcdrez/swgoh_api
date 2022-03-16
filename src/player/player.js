@@ -75,7 +75,7 @@ class Player {
     if (result) {
       player.gear = result.gear || {};
       player.relic = result.relic || {};
-      player.planner = result.planner || {};
+      player.planner = result.planner || [];
       player.energyData = result.energyData || {};
       player.teams = result.teams || [];
       player.shards = result.shards || {};
