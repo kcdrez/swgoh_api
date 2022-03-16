@@ -3017,14 +3017,630 @@ const legendary = {
 
 const galacticLegends = {
   id: "galactic_legends",
-  table: "Galactic Legend Events",
+  table: "Galactic Legends",
   characters: [
     {
-      id: "",
+      id: "GLREY",
       prerequisites: [
         {
-          id: "",
-          requirement: "",
+          id: "REYJEDITRAINING",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "FINN",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "RESISTANCETROOPER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "REY",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "RESISTANCEPILOT",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "POE",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "EPIXPOE",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "AMILYNHOLDO",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "ROSETICO",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "EPIXFINN",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "BB8",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "SMUGGLERCHEWBACCA",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "CAPITALRADDUS",
+          requirement: {
+            value: 5,
+            type: "Stars",
+          },
+        },
+      ],
+    },
+    {
+      id: "GRANDMASTERLUKE",
+      prerequisites: [
+        {
+          id: "REYJEDITRAINING",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "MONMOTHMA",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "C3POCHEWBACCA",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "OLDBENKENOBI",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "C3POLEGENDARY",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "R2D2_LEGENDARY",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "JEDIKNIGHTLUKE",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "YWINGREBEL",
+          requirement: {
+            value: 6,
+            type: "Stars",
+          },
+        },
+        {
+          id: "WEDGEANTILLES",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "BIGGSDARKLIGHTER",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "PRINCESSLEIA",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "ADMINISTRATORLANDO",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "HERMITYODA",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+      ],
+    },
+    {
+      id: "SUPREMELEADERKYLOREN",
+      prerequisites: [
+        {
+          id: "KYLORENUNMASKED",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "FIRSTORDERTROOPER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "FIRSTORDEROFFICERMALE",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "KYLOREN",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "PHASMA",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "FIRSTORDEREXECUTIONER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "SMUGGLERHAN",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "FOSITHTROOPER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "TIEFIGHTERFOSF",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "GENERALHUX",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "FIRSTORDERTIEPILOT",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "EMPERORPALPATINE",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "CAPITALFINALIZER",
+          requirement: {
+            value: 5,
+            type: "Stars",
+          },
+        },
+      ],
+    },
+    {
+      id: "SITHPALPATINE",
+      prerequisites: [
+        {
+          id: "EMPERORPALPATINE",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "VADER",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "ADMIRALPIETT",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "DIRECTORKRENNIC",
+          requirement: {
+            value: 4,
+            type: "Relic",
+          },
+        },
+        {
+          id: "DARTHSIDIOUS",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "ROYALGUARD",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "SITHMARAUDER",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "COUNTDOOKU",
+          requirement: {
+            value: 6,
+            type: "Relic",
+          },
+        },
+        {
+          id: "MAUL",
+          requirement: {
+            value: 4,
+            type: "Relic",
+          },
+        },
+        {
+          id: "TIEBOMBERIMPERIAL",
+          requirement: {
+            value: 6,
+            type: "Stars",
+          },
+        },
+        {
+          id: "ANAKINKNIGHT",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "GRANDADMIRALTHRAWN",
+          requirement: {
+            value: 6,
+            type: "Relic",
+          },
+        },
+        {
+          id: "GRANDMOFFTARKIN",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "COLONELSTARCK",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "VEERS",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+      ],
+    },
+    {
+      id: "JEDIMASTERKENOBI",
+      prerequisites: [
+        {
+          id: "GENERALKENOBI",
+          requirement: {
+            value: 8,
+            type: "Relic",
+          },
+        },
+        {
+          id: "CAPITALNEGOTIATOR",
+          requirement: {
+            value: 6,
+            type: "Stars",
+          },
+        },
+        {
+          id: "MACEWINDU",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "AAYLASECURA",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "BOKATAN",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "QUIGONJINN",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "MAGNAGUARD",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "CLONESERGEANTPHASEI",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "WATTAMBOR",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "GRIEVOUS",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "CADBANE",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "CC2224",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "JANGOFETT",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "SHAAKTI",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "GRANDMASTERYODA",
+          requirement: {
+            value: 8,
+            type: "Relic",
+          },
+        },
+      ],
+    },
+    {
+      id: "LORDVADER",
+      prerequisites: [
+        {
+          id: "BADBATCHHUNTER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "BADBATCHTECH",
+          requirement: {
+            value: 5,
+            type: "Stars",
+          },
+        },
+        {
+          id: "BADBATCHWRECKER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "TUSKENRAIDER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "BOKATAN",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "PADMEAMIDALA",
+          requirement: {
+            value: 8,
+            type: "Relic",
+          },
+        },
+        {
+          id: "GENERALSKYWALKER",
+          requirement: {
+            value: 8,
+            type: "Relic",
+          },
+        },
+        {
+          id: "EMBO",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "CT210408",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "BADBATCHECHO",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "COUNTDOOKU",
+          requirement: {
+            value: 8,
+            type: "Relic",
+          },
+        },
+        {
+          id: "ZAMWESELL",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "YWINGCLONEWARS",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          id: "GRANDMOFFTARKIN",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "ARCTROOPER501ST",
+          requirement: {
+            value: 8,
+            type: "Relic",
+          },
+        },
+        {
+          id: "NUTEGUNRAY",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
         },
       ],
     },
