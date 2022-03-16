@@ -2830,7 +2830,7 @@ const stores = [
       { id: "CT5555", dropRate: 0.25, shardCount: 10, cost: 400 },
       { id: "FIRSTORDERTIEPILOT", dropRate: 0.25, shardCount: 10, cost: 400 },
       { id: "TIEFIGHTERPILOT", dropRate: 0.25, shardCount: 10, cost: 400 },
-      { id: "RAZORCREST", dropRate: 0.25, shardCount: 4, cost: 400 },
+      { id: "RAZORCREST", dropRate: 0.05, shardCount: 4, cost: 400 }, //drop rate?
     ],
   },
   {
