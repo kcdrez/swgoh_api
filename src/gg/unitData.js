@@ -19384,8 +19384,10 @@ const ships = [
 ];
 
 module.exports = [
-  ...units,
-  ...ships.map((x) => {
+  ...units.map(({ power, ...x }) => {
+    return { ...x };
+  }),
+  ...ships.map(({ power, ...x }) => {
     return { ...x, is_ship: true };
   }),
 ];

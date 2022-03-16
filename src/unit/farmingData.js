@@ -459,7 +459,7 @@ const nodeList = [
     difficulty: Hard,
     map: 4,
     mission: "D",
-    characters: ["IG86SENTINELDROID", "VULTUREDROID"],
+    characters: ["IDENVERSIOEMPIRE", "VULTUREDROID"],
     gear: [
       {
         id: "051Salvage",
@@ -2027,9 +2027,16 @@ const legendary = {
       id: "EMPERORPALPATINE",
       prerequisites: [
         {
-          tags: ["REBEL"],
-          recommended: "11800+ Power",
-          requirement: "7 Star",
+          tags: ["REBEL", "!is_ship"],
+          count: 5,
+          recommended: {
+            value: 11800,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
       ],
     },
@@ -2037,9 +2044,16 @@ const legendary = {
       id: "GRANDMASTERYODA",
       prerequisites: [
         {
-          tags: ["Jedi"],
-          recommended: "11700+ Power",
-          requirement: "7 Star",
+          tags: ["Jedi", "!is_ship"],
+          count: 5,
+          recommended: {
+            value: 11700,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
       ],
     },
@@ -2047,9 +2061,16 @@ const legendary = {
       id: "GRANDADMIRALTHRAWN",
       prerequisites: [
         {
-          tags: ["Phoenix"],
-          recommended: "13900+ Power",
-          requirement: "7 Star",
+          tags: ["Phoenix", "!is_ship"],
+          count: 5,
+          recommended: {
+            value: 13900,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
       ],
     },
@@ -2057,9 +2078,16 @@ const legendary = {
       id: "R2D2_LEGENDARY",
       prerequisites: [
         {
-          tags: ["Empire"],
-          recommended: "13400+ Power",
-          requirement: "7 Star",
+          tags: ["Empire", "!is_ship"],
+          count: 5,
+          recommended: {
+            value: 13400,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
       ],
     },
@@ -2067,9 +2095,16 @@ const legendary = {
       id: "BB8",
       prerequisites: [
         {
-          tags: ["First Order"],
-          recommended: "13200+ Power",
-          requirement: "7 Star",
+          tags: ["First Order", "!is_ship"],
+          count: 5,
+          recommended: {
+            value: 13200,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
       ],
     },
@@ -2077,9 +2112,16 @@ const legendary = {
       id: "PADMEAMIDALA",
       prerequisites: [
         {
-          tags: ["Separatist"],
-          recommended: "16600+ Power",
-          requirement: "7 Star",
+          tags: ["Separatist", "!is_ship"],
+          count: 5,
+          recommended: {
+            value: 16600,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
       ],
     },
@@ -2088,28 +2130,58 @@ const legendary = {
       prerequisites: [
         {
           id: "R2D2_LEGENDARY",
-          recommended: "13000+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 13000,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
         {
           id: "PRINCESSLEIA",
-          recommended: "13000+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 13000,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
         {
           id: "STORMTROOPERHAN",
-          recommended: "13000+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 13000,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
         {
           id: "LUKESKYWALKER",
-          recommended: "13000+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 13000,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
         {
           id: "OLDBENKENOBI",
-          recommended: "12000+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 12000,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
       ],
     },
@@ -2118,28 +2190,58 @@ const legendary = {
       prerequisites: [
         {
           id: "REY",
-          recommended: "14000+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 14000,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
         {
           id: "FINN",
-          recommended: "14000+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 14000,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
         {
           id: "SMUGGLERCHEWBACCA",
-          recommended: "14000+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 14000,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
         {
           id: "SMUGGLERHAN",
-          recommended: "11900+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 11900,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
         {
           id: "BB8",
-          recommended: "11800+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 11800,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
       ],
     },
@@ -2148,28 +2250,58 @@ const legendary = {
       prerequisites: [
         {
           id: "THEMANDALORIAN",
-          recommended: "15700+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 15700,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
         {
           id: "GREEFKARGA",
-          recommended: "15700+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 15700,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
         {
           id: "CARADUNE",
-          recommended: "15700+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 15700,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
         {
           id: "IG11",
-          recommended: "15700+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 15700,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
         {
           id: "KUIIL",
-          recommended: "14000+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 14000,
+            type: "Power",
+          },
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
         },
       ],
     },
@@ -2178,18 +2310,37 @@ const legendary = {
       prerequisites: [
         {
           id: "GHOST",
-          recommended: "28000+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 28000,
+            type: "Power",
+          },
+          requirement: {
+            value: 5,
+            type: "Stars",
+          },
         },
         {
           id: "PHANTOM2",
-          recommended: "28000+ Power",
-          requirement: "7 Star",
+          recommended: {
+            value: 28000,
+            type: "Power",
+          },
+          requirement: {
+            value: 5,
+            type: "Stars",
+          },
         },
         {
-          tags: ["Rebel"],
-          recommended: "28000+ Power",
-          requirement: "7 Star",
+          tags: ["Rebel", "is_ship"],
+          count: 6,
+          recommended: {
+            value: 28000,
+            type: "Power",
+          },
+          requirement: {
+            value: 5,
+            type: "Stars",
+          },
         },
       ],
     },
@@ -2198,19 +2349,31 @@ const legendary = {
       prerequisites: [
         {
           id: "DASHRENDAR",
-          requirement: "Relic 5",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
         },
         {
           id: "KYLEKATARN",
-          requirement: "Relic 5",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
         },
         {
           id: "DARTHTALON",
-          requirement: "Relic 5",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
         },
         {
           id: "MARAJADE",
-          requirement: "Relic 5",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
         },
       ],
     },
@@ -2219,23 +2382,38 @@ const legendary = {
       prerequisites: [
         {
           id: "BASTILASHAN",
-          recommended: "13400+ Power",
+          recommended: {
+            value: 13400,
+            type: "Power",
+          },
         },
         {
           id: "JOLEEBINDO",
-          recommended: "13400+ Power",
+          recommended: {
+            value: 13400,
+            type: "Power",
+          },
         },
         {
           id: "MISSIONVAO",
-          recommended: "13400+ Power",
+          recommended: {
+            value: 13400,
+            type: "Power",
+          },
         },
         {
           id: "ZAALBAR",
-          recommended: "13400+ Power",
+          recommended: {
+            value: 13400,
+            type: "Power",
+          },
         },
         {
           id: "T3_M4",
-          recommended: "13400+ Power",
+          recommended: {
+            value: 13400,
+            type: "Power",
+          },
         },
       ],
     },
@@ -2244,23 +2422,38 @@ const legendary = {
       prerequisites: [
         {
           id: "BASTILASHANDARK",
-          recommended: "18800+ Power",
+          recommended: {
+            value: 18800,
+            type: "Power",
+          },
         },
         {
           id: "CANDEROUSORDO",
-          recommended: "18800+ Power",
+          recommended: {
+            value: 18800,
+            type: "Power",
+          },
         },
         {
           id: "HK47",
-          recommended: "18800+ Power",
+          recommended: {
+            value: 18800,
+            type: "Power",
+          },
         },
         {
           id: "JUHANI",
-          recommended: "18000+ Power",
+          recommended: {
+            value: 18000,
+            type: "Power",
+          },
         },
         {
           id: "CARTHONASI",
-          recommended: "16200+ Power",
+          recommended: {
+            value: 16200,
+            type: "Power",
+          },
         },
       ],
     },
@@ -2268,8 +2461,12 @@ const legendary = {
       id: "CHEWBACCALEGENDARY",
       prerequisites: [
         {
-          tags: ["Bounty Hunter"],
-          recommended: "18100+ Power",
+          tags: ["Bounty Hunter", "!is_ship"],
+          count: 5,
+          recommended: {
+            value: 18100,
+            type: "Power",
+          },
         },
       ],
     },
@@ -2277,8 +2474,12 @@ const legendary = {
       id: "C3POLEGENDARY",
       prerequisites: [
         {
-          tags: ["Ewok"],
-          recommended: "16500+ Power",
+          tags: ["Ewok", "!is_ship"],
+          count: 5,
+          recommended: {
+            value: 16500,
+            type: "Power",
+          },
         },
       ],
     },
@@ -2287,11 +2488,19 @@ const legendary = {
       prerequisites: [
         {
           tags: ["Capital Ship"],
-          recommended: "46600+ Power",
+          count: 1,
+          recommended: {
+            value: 46600,
+            type: "Power",
+          },
         },
         {
-          tags: ["Bounty Hunter"],
-          recommended: "46600+ Power",
+          tags: ["Bounty Hunter", "is_ship"],
+          count: 7,
+          recommended: {
+            value: 46600,
+            type: "Power",
+          },
         },
       ],
     },
@@ -2300,51 +2509,87 @@ const legendary = {
       prerequisites: [
         {
           id: "JEDIKNIGHTREVAN",
-          recommended: "21500+ Power",
+          recommended: {
+            value: 21500,
+            type: "Power",
+          },
         },
         {
           id: "BASTILASHAN",
-          recommended: "21500+ Power",
+          recommended: {
+            value: 21500,
+            type: "Power",
+          },
         },
         {
           id: "JOLEEBINDO",
-          recommended: "21500+ Power",
+          recommended: {
+            value: 21500,
+            type: "Power",
+          },
         },
         {
           id: "MISSIONVAO",
-          recommended: "21500+ Power",
+          recommended: {
+            value: 21500,
+            type: "Power",
+          },
         },
         {
           id: "ZAALBAR",
-          recommended: "21500+ Power",
+          recommended: {
+            value: 21500,
+            type: "Power",
+          },
         },
         {
           id: "T3_M4",
-          recommended: "21500+ Power",
+          recommended: {
+            value: 21500,
+            type: "Power",
+          },
         },
         {
           id: "DARTHREVAN",
-          recommended: "20500+ Power",
+          recommended: {
+            value: 21500,
+            type: "Power",
+          },
         },
         {
           id: "BASTILASHANDARK",
-          recommended: "18800+ Power",
+          recommended: {
+            value: 18800,
+            type: "Power",
+          },
         },
         {
           id: "CANDEROUSORDO",
-          recommended: "20500+ Power",
+          recommended: {
+            value: 20500,
+            type: "Power",
+          },
         },
         {
           id: "HK47",
-          recommended: "20500+ Power",
+          recommended: {
+            value: 20500,
+            type: "Power",
+          },
         },
         {
           id: "JUHANI",
-          recommended: "20500+ Power",
+          recommended: {
+            value: 20500,
+            type: "Power",
+          },
         },
         {
           id: "CARTHONASI",
-          recommended: "20500+ Power",
+          recommended: {
+            value: 20500,
+            type: "Power",
+          },
         },
       ],
     },
@@ -2353,68 +2598,148 @@ const legendary = {
       prerequisites: [
         {
           tags: ["Capital Ship", "Galactic Republic"],
-          recommended: "21500+ Power",
-          requirement: "40000 Power",
+          count: 1,
+          recommended: {
+            value: 40000,
+            type: "Power",
+          },
+          requirement: {
+            value: 21500,
+            type: "Power",
+          },
         },
         {
           id: "JEDISTARFIGHTERANAKIN",
-          recommended: "52000+ Power",
-          requirement: "40000 Power",
+          recommended: {
+            value: 52000,
+            type: "Power",
+          },
+          requirement: {
+            value: 40000,
+            type: "Power",
+          },
         },
         {
-          tags: ["Galactic Republic", "is_ship"],
-          recommended: "52000+ Power",
-          requirement: "40000 Power",
+          tags: ["Galactic Republic", "is_ship", "!Capital Ship"],
+          count: 6,
+          recommended: {
+            value: 52000,
+            type: "Power",
+          },
+          requirement: {
+            value: 40000,
+            type: "Power",
+          },
         },
         {
           id: "PADMEAMIDALA",
-          recommended: "24500+ Power",
-          requirement: "17700 Power",
+          recommended: {
+            value: 24500,
+            type: "Power",
+          },
+          requirement: {
+            value: 17700,
+            type: "Power",
+          },
         },
         {
           id: "C3POLEGENDARY",
-          recommended: "24500+ Power",
-          requirement: "17700 Power",
+          recommended: {
+            value: 24500,
+            type: "Power",
+          },
+          requirement: {
+            value: 17700,
+            type: "Power",
+          },
         },
         {
           id: "GENERALKENOBI",
-          recommended: "24500+ Power",
-          requirement: "17700 Power",
+          recommended: {
+            value: 24500,
+            type: "Power",
+          },
+          requirement: {
+            value: 17700,
+            type: "Power",
+          },
         },
         {
           id: "AHSOKATANO",
-          recommended: "24500+ Power",
-          requirement: "17700 Power",
+          recommended: {
+            value: 24500,
+            type: "Power",
+          },
+          requirement: {
+            value: 17700,
+            type: "Power",
+          },
         },
         {
           id: "SHAAKTI",
-          recommended: "24500+ Power",
-          requirement: "17700 Power",
+          recommended: {
+            value: 24500,
+            type: "Power",
+          },
+          requirement: {
+            value: 17700,
+            type: "Power",
+          },
         },
         {
           id: "ASAJVENTRESS",
-          recommended: "22300+ Power",
-          requirement: "17700 Power",
+          recommended: {
+            value: 22300,
+            type: "Power",
+          },
+          requirement: {
+            value: 17700,
+            type: "Power",
+          },
         },
         {
           id: "B1BATTLEDROIDV2",
-          recommended: "22300+ Power",
-          requirement: "17700 Power",
+          recommended: {
+            value: 22300,
+            type: "Power",
+          },
+          requirement: {
+            value: 17700,
+            type: "Power",
+          },
         },
         {
           id: "B2SUPERBATTLEDROID",
-          recommended: "22300+ Power",
-          requirement: "17700 Power",
+          recommended: {
+            value: 22300,
+            type: "Power",
+          },
+          requirement: {
+            value: 17700,
+            type: "Power",
+          },
         },
         {
           id: "DROIDEKA",
-          recommended: "22300+ Power",
-          requirement: "17700 Power",
+          recommended: {
+            value: 22300,
+            type: "Power",
+          },
+          requirement: {
+            value: 17700,
+            type: "Power",
+          },
         },
         {
           id: "MAGNAGUARD",
-          recommended: "22300+ Power",
-          requirement: "17700 Power",
+          recommended: {
+            value: 22300,
+            type: "Power",
+          },
+          requirement: {
+            value: 17700,
+            type: "Power",
+          },
         },
       ],
     },
@@ -2423,60 +2748,124 @@ const legendary = {
       prerequisites: [
         {
           id: "VADER",
-          recommended: "33000 Power",
-          requirement: "Relic 3",
+          recommended: {
+            value: 33000,
+            type: "Power",
+          },
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
         },
         {
           id: "COMMANDERLUKESKYWALKER",
-          recommended: "33000+ Power",
-          requirement: "Relic 3",
+          recommended: {
+            value: 33000,
+            type: "Power",
+          },
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
         },
         {
           id: "CHEWBACCALEGENDARY",
-          recommended: "25700+ Power",
-          requirement: "Relic 3",
+          recommended: {
+            value: 25700,
+            type: "Power",
+          },
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
         },
         {
           id: "C3POLEGENDARY",
-          recommended: "25700+ Power",
-          requirement: "Relic 3",
+          recommended: {
+            value: 25700,
+            type: "Power",
+          },
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
         },
         {
           id: "ADMINISTRATORLANDO",
-          recommended: "25700+ Power",
-          requirement: "Relic 3",
+          recommended: {
+            value: 25700,
+            type: "Power",
+          },
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
         },
         {
           id: "HOTHLEIA",
-          recommended: "25700+ Power",
-          requirement: "Relic 3",
+          recommended: {
+            value: 25700,
+            type: "Power",
+          },
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
         },
         {
           id: "HERMITYODA",
-          recommended: "29000+ Power",
-          requirement: "Relic 3",
+          recommended: {
+            value: 29000,
+            type: "Power",
+          },
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
         },
         {
           id: "HOTHHAN",
-          recommended: "25400+ Power",
-          requirement: "Relic 3",
+          recommended: {
+            value: 25400,
+            type: "Power",
+          },
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
         },
         {
           id: "WAMPA",
-          recommended: "24000+ Power",
-          requirement: "Relic 3",
+          recommended: {
+            value: 24000,
+            type: "Power",
+          },
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
         },
         {
           id: "XWINGRED2",
-          recommended: "74500+ Power",
+          recommended: {
+            value: 74500,
+            type: "Power",
+          },
         },
         {
           id: "MILLENNIUMFALCON",
-          recommended: "74500+ Power",
+          recommended: {
+            value: 74500,
+            type: "Power",
+          },
         },
         {
           tags: ["Capital Ship"],
-          recommended: "74500+ Power",
+          count: 1,
+          recommended: {
+            value: 74500,
+            type: "Power",
+          },
         },
       ],
     },
@@ -2485,69 +2874,141 @@ const legendary = {
       prerequisites: [
         {
           id: "VADER",
-          requirement: "Relic 7",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
         },
         {
           id: "ADMIRALPIETT",
-          requirement: "Relic 8",
+          requirement: {
+            value: 8,
+            type: "Relic",
+          },
         },
         {
           id: "BOBAFETT",
-          requirement: "Relic 8",
+          requirement: {
+            value: 8,
+            type: "Relic",
+          },
         },
         {
           id: "DENGAR",
-          requirement: "Relic 5",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
         },
         {
           id: "IG88",
-          requirement: "Relic 5",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
         },
         {
           id: "BOSSK",
-          requirement: "Relic 5",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
         },
         {
           id: "TIEFIGHTERPILOT",
-          requirement: "Relic 5",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
         },
         {
           id: "TIEADVANCED",
-          requirement: "4 Stars",
-          recommended: "67000+ Power",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+          recommended: {
+            value: 67000,
+            type: "Power",
+          },
         },
         {
           id: "TIEBOMBERIMPERIAL",
-          requirement: "4 Stars",
-          recommended: "67000+ Power",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+          recommended: {
+            value: 67000,
+            type: "Power",
+          },
         },
         {
           id: "HOUNDSTOOTH",
-          requirement: "4 Stars",
-          recommended: "67000+ Power",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+          recommended: {
+            value: 67000,
+            type: "Power",
+          },
         },
         {
           id: "SLAVE1",
-          requirement: "4 Stars",
-          recommended: "67000+ Power",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+          recommended: {
+            value: 67000,
+            type: "Power",
+          },
         },
         {
           id: "IG2000",
-          requirement: "4 Stars",
-          recommended: "67000+ Power",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+          recommended: {
+            value: 67000,
+            type: "Power",
+          },
         },
         {
           id: "TIEFIGHTERIMPERIAL",
-          requirement: "4 Stars",
-          recommended: "67000+ Power",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+          recommended: {
+            value: 67000,
+            type: "Power",
+          },
         },
         {
           id: "RAZORCREST",
-          recommended: "67000+ Power",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+          recommended: {
+            value: 67000,
+            type: "Power",
+          },
         },
         {
           tags: ["Capital Ship"],
-          recommended: "67000+ Power",
+          count: 1,
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+          recommended: {
+            value: 67000,
+            type: "Power",
+          },
         },
       ],
     },
@@ -2830,7 +3291,7 @@ const stores = [
       { id: "CT5555", dropRate: 0.25, shardCount: 10, cost: 400 },
       { id: "FIRSTORDERTIEPILOT", dropRate: 0.25, shardCount: 10, cost: 400 },
       { id: "TIEFIGHTERPILOT", dropRate: 0.25, shardCount: 10, cost: 400 },
-      { id: "RAZORCREST", dropRate: 0.05, shardCount: 4, cost: 400 }, //drop rate?
+      { id: "RAZORCREST", dropRate: 0.05, shardCount: 4, cost: 400 },
     ],
   },
   {
@@ -2946,9 +3407,7 @@ const stores = [
   {
     id: "shard_store",
     table: "Shard Store",
-    characters: [
-      { id: "GRIEVOUS", dropRate: 1, shardCount: 15, cost: 6750 },
-    ],
+    characters: [{ id: "GRIEVOUS", dropRate: 1, shardCount: 15, cost: 6750 }],
   },
 ];
 
@@ -2969,7 +3428,6 @@ const notAccelerated = [
   "GEONOSIANSTARFIGHTER2",
   "TIEBOMBERIMPERIAL",
   "MILLENNIUMFALCONEP7",
-  "BOKATAN",
   "EMPERORSSHUTTLE",
   "HYENABOMBER",
   "JEDISTARFIGHTERCONSULAR",
