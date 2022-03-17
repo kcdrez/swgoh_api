@@ -5,7 +5,6 @@ const units = [
     pk: 80,
     url: "http://swgoh.gg/characters/aayla-secura/",
     image: "https://game-assets.swgoh.gg/tex.charui_aaylasecura.png",
-    power: 32121,
     description:
       "Versatile attacker with high survivability through Dodge, Hitpoints, and self healing.",
     combat_type: 1,
@@ -83,7 +82,6 @@ const units = [
     pk: 169,
     url: "http://swgoh.gg/characters/admiral-ackbar/",
     image: "https://game-assets.swgoh.gg/tex.charui_ackbaradmiral.png",
-    power: 32121,
     description:
       "Rebel Support that can Dispel debuffs and grant allies extra turns",
     combat_type: 1,
@@ -173,7 +171,6 @@ const units = [
     pk: 562,
     url: "http://swgoh.gg/characters/admiral-piett/",
     image: "https://game-assets.swgoh.gg/tex.charui_piett.png",
-    power: 37507,
     description:
       "An ambitious Imperial Officer who supports his allies while plotting their demise",
     combat_type: 1,
@@ -265,7 +262,6 @@ const units = [
     pk: 64,
     url: "http://swgoh.gg/characters/ahsoka-tano/",
     image: "https://game-assets.swgoh.gg/tex.charui_ahsoka.png",
-    power: 34527,
     description:
       "Versatile Attacker who constantly assists while healing and dispelling",
     combat_type: 1,
@@ -346,7 +342,6 @@ const units = [
     pk: 236,
     url: "http://swgoh.gg/characters/ahsoka-tano-fulcrum/",
     image: "https://game-assets.swgoh.gg/tex.charui_ahsokaadult.png",
-    power: 34527,
     description:
       "Enduring Rebel Attacker who shrugs off debuffs and consumes buffs to deal extra damage",
     combat_type: 1,
@@ -433,7 +428,6 @@ const units = [
     pk: 254,
     url: "http://swgoh.gg/characters/amilyn-holdo/",
     image: "https://game-assets.swgoh.gg/tex.charui_holdo.png",
-    power: 34527,
     description:
       "Seasoned Resistance Tank with powerful ally support and enemy debuffs",
     combat_type: 1,
@@ -513,7 +507,6 @@ const units = [
     pk: 394,
     url: "http://swgoh.gg/characters/arc-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_arc.png",
-    power: 33742,
     description:
       "Powerful Clone Attacker that can command a Blaster Turret on the battlefield",
     combat_type: 1,
@@ -592,7 +585,6 @@ const units = [
     pk: 23,
     url: "http://swgoh.gg/characters/asajj-ventress/",
     image: "https://game-assets.swgoh.gg/tex.charui_ventress.png",
-    power: 37507,
     description:
       "Nightsister controller with healing who generates attack power as characters are defeated",
     combat_type: 1,
@@ -680,7 +672,6 @@ const units = [
     pk: 294,
     url: "http://swgoh.gg/characters/aurra-sing/",
     image: "https://game-assets.swgoh.gg/tex.charui_aurrasing.png",
-    power: 38292,
     description:
       "Deadly Bounty Hunter that has increased damage while Stealthed",
     combat_type: 1,
@@ -760,7 +751,6 @@ const units = [
     pk: 324,
     url: "http://swgoh.gg/characters/b1-battle-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_b1.png",
-    power: 34527,
     description:
       "Fragile Separatist Attacker that overwhelms their enemies with numbers",
     combat_type: 1,
@@ -847,7 +837,6 @@ const units = [
     pk: 195,
     url: "http://swgoh.gg/characters/b2-super-battle-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_b2.png",
-    power: 34527,
     description:
       "Droid Tank that relentlessly punishes enemies that evade attacks or damage allies",
     combat_type: 1,
@@ -935,7 +924,6 @@ const units = [
     pk: 61,
     url: "http://swgoh.gg/characters/barriss-offee/",
     image: "https://game-assets.swgoh.gg/tex.charui_barriss_light.png",
-    power: 34527,
     description:
       "Jedi Healer that can balance party Health and Dispel allied Jedi frequently",
     combat_type: 1,
@@ -1016,7 +1004,6 @@ const units = [
     pk: 284,
     url: "http://swgoh.gg/characters/bastila-shan/",
     image: "https://game-assets.swgoh.gg/tex.charui_bastilashan.png",
-    power: 36096,
     description:
       "Strong Jedi Support that grants allies an overwhelming first turn with her Leader ability",
     combat_type: 1,
@@ -1102,7 +1089,6 @@ const units = [
     pk: 305,
     url: "http://swgoh.gg/characters/bastila-shan-fallen/",
     image: "https://game-assets.swgoh.gg/tex.charui_bastilashan_dark.png",
-    power: 36096,
     description:
       "Strong Sith Support who inflicts a large number of debuffs including Shock, Fear, and Corrupted Battle Meditation",
     combat_type: 1,
@@ -1197,7 +1183,6 @@ const units = [
     pk: 216,
     url: "http://swgoh.gg/characters/baze-malbus/",
     image: "https://game-assets.swgoh.gg/tex.charui_bazemalbus.png",
-    power: 32695,
     description:
       "Fearsome Rebel Tank who Taunts, dispels buffs, and inflicts debuffs",
     combat_type: 1,
@@ -1278,7 +1263,6 @@ const units = [
     pk: 242,
     url: "http://swgoh.gg/characters/bb-8/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb8.png",
-    power: 37507,
     description:
       "Persistent Resistance Droid who empowers allies by circulating Secret Intel",
     combat_type: 1,
@@ -1366,7 +1350,6 @@ const units = [
     pk: 152,
     url: "http://swgoh.gg/characters/biggs-darklighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebelpilot_biggs.png",
-    power: 31546,
     description: "Rebel Support with Critical Hit synergies who calls Assists",
     combat_type: 1,
     gear_levels: [
@@ -1450,7 +1433,6 @@ const units = [
     pk: 214,
     url: "http://swgoh.gg/characters/bistan/",
     image: "https://game-assets.swgoh.gg/tex.charui_bistan.png",
-    power: 32121,
     description:
       "Wild Rebel Attacker who gains Frenzy, debuffs enemies, and removes Turn Meter",
     combat_type: 1,
@@ -1522,7 +1504,6 @@ const units = [
     pk: 938,
     url: "http://swgoh.gg/characters/bo-katan-kryze/",
     image: "https://game-assets.swgoh.gg/tex.charui_bokatan.png",
-    power: 34527,
     description:
       "A Mandalorian leader that unites fellow Mandalorians and rallies them to assist.",
     combat_type: 1,
@@ -1608,7 +1589,6 @@ const units = [
     pk: 164,
     url: "http://swgoh.gg/characters/boba-fett/",
     image: "https://game-assets.swgoh.gg/tex.charui_bobafett.png",
-    power: 36096,
     description:
       "Ruthless Bounty Hunter Attacker who ignores Taunts, Ability Blocks and self-revives",
     combat_type: 1,
@@ -1697,7 +1677,6 @@ const units = [
     pk: 1942,
     url: "http://swgoh.gg/characters/boba-fett-scion-of-jango/",
     image: "https://game-assets.swgoh.gg/tex.charui_bobafettold.png",
-    power: 35676,
     description:
       "Infamous Bounty Hunter Attacker with a variety of debuffs and synergy with both Bounty Hunters and Scoundrels",
     combat_type: 1,
@@ -1793,7 +1772,6 @@ const units = [
     pk: 232,
     url: "http://swgoh.gg/characters/bodhi-rook/",
     image: "https://game-assets.swgoh.gg/tex.charui_bodhi.png",
-    power: 34527,
     description: "Clever Rebel Support who spots enemy units for his allies",
     combat_type: 1,
     gear_levels: [
@@ -1872,7 +1850,6 @@ const units = [
     pk: 264,
     url: "http://swgoh.gg/characters/bossk/",
     image: "https://game-assets.swgoh.gg/tex.charui_bossk.png",
-    power: 38292,
     description:
       "Bounty Hunter Tank that constantly regenerates Health and Protection",
     combat_type: 1,
@@ -1955,7 +1932,6 @@ const units = [
     pk: 312,
     url: "http://swgoh.gg/characters/c-3po/",
     image: "https://game-assets.swgoh.gg/tex.charui_c3p0.png",
-    power: 39076,
     description:
       "Evasive support character that Confuses foes and strengthens mixed-faction interplay with Translation.",
     combat_type: 1,
@@ -2052,7 +2028,6 @@ const units = [
     pk: 121,
     url: "http://swgoh.gg/characters/cad-bane/",
     image: "https://game-assets.swgoh.gg/tex.charui_cadbane.png",
-    power: 33115,
     description:
       "Bounty Hunter Support with a powerful Stun and bonuses against Jedi characters",
     combat_type: 1,
@@ -2135,7 +2110,6 @@ const units = [
     pk: 307,
     url: "http://swgoh.gg/characters/canderous-ordo/",
     image: "https://game-assets.swgoh.gg/tex.charui_canderous.png",
-    power: 34527,
     description: "Powerful attacker who can make short work of enemy Tanks",
     combat_type: 1,
     gear_levels: [
@@ -2224,7 +2198,6 @@ const units = [
     pk: 239,
     url: "http://swgoh.gg/characters/captain-han-solo/",
     image: "https://game-assets.swgoh.gg/tex.charui_hoth_han.png",
-    power: 34527,
     description:
       "Daring Rebel Support that risks himself to Revive allies and Daze enemies",
     combat_type: 1,
@@ -2296,7 +2269,6 @@ const units = [
     pk: 67,
     url: "http://swgoh.gg/characters/captain-phasma/",
     image: "https://game-assets.swgoh.gg/tex.charui_phasma.png",
-    power: 34527,
     description:
       "High-damage First Order support that can grant allies many extra attacks",
     combat_type: 1,
@@ -2378,7 +2350,6 @@ const units = [
     pk: 444,
     url: "http://swgoh.gg/characters/cara-dune/",
     image: "https://game-assets.swgoh.gg/tex.charui_caradune.png",
-    power: 34527,
     description:
       "A Scoundrel/Rebel Tank who gains benefits when being led by either.",
     combat_type: 1,
@@ -2459,7 +2430,6 @@ const units = [
     pk: 310,
     url: "http://swgoh.gg/characters/carth-onasi/",
     image: "https://game-assets.swgoh.gg/tex.charui_carth.png",
-    power: 34527,
     description:
       "Old Republic soldier that excels at clearing waves of enemies",
     combat_type: 1,
@@ -2543,7 +2513,6 @@ const units = [
     pk: 219,
     url: "http://swgoh.gg/characters/cassian-andor/",
     image: "https://game-assets.swgoh.gg/tex.charui_cassian.png",
-    power: 34527,
     description:
       "Rebel Support who buffs allies at the start of battle and debuffs enemies during battle",
     combat_type: 1,
@@ -2630,7 +2599,6 @@ const units = [
     pk: 26,
     url: "http://swgoh.gg/characters/cc-2224-cody/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_cody.png",
-    power: 34527,
     description: "Clone Attacker that Stuns and calls tons of Assists",
     combat_type: 1,
     gear_levels: [
@@ -2707,7 +2675,6 @@ const units = [
     pk: 300,
     url: "http://swgoh.gg/characters/chewbacca/",
     image: "https://game-assets.swgoh.gg/tex.charui_chewbacca_ot.png",
-    power: 37507,
     description: "Mighty Rebel Attacker who Guards the weakest ally",
     combat_type: 1,
     gear_levels: [
@@ -2797,7 +2764,6 @@ const units = [
     pk: 72,
     url: "http://swgoh.gg/characters/chief-chirpa/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_chirpa.png",
-    power: 34527,
     description: "Ewok Leader that greatly improves ally Basic abilities",
     combat_type: 1,
     gear_levels: [
@@ -2876,7 +2842,6 @@ const units = [
     pk: 93,
     url: "http://swgoh.gg/characters/chief-nebit/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_nebit.png",
-    power: 32121,
     description:
       "Cunning Jawa Tank with Stealth synergies who can reduce cooldowns",
     combat_type: 1,
@@ -2958,7 +2923,6 @@ const units = [
     pk: 215,
     url: "http://swgoh.gg/characters/chirrut-imwe/",
     image: "https://game-assets.swgoh.gg/tex.charui_chirrut.png",
-    power: 32695,
     description:
       "Balanced Rebel Attacker who dispels debuffs, heals allies, and grants Tenacity Up",
     combat_type: 1,
@@ -3030,7 +2994,6 @@ const units = [
     pk: 225,
     url: "http://swgoh.gg/characters/chopper/",
     image: "https://game-assets.swgoh.gg/tex.charui_chopper.png",
-    power: 32331,
     description:
       "Surly Phoenix Support who Taunts and Dispels, and can recover Phoenix cooldowns",
     combat_type: 1,
@@ -3113,7 +3076,6 @@ const units = [
     pk: 186,
     url: "http://swgoh.gg/characters/clone-sergeant-phase-i/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclonegreen.png",
-    power: 31546,
     description: "Clone Attacker with AoE damage and Turn Meter Reduction",
     combat_type: 1,
     gear_levels: [
@@ -3196,7 +3158,6 @@ const units = [
     pk: 62,
     url: "http://swgoh.gg/characters/clone-wars-chewbacca/",
     image: "https://game-assets.swgoh.gg/tex.charui_chewbacca.png",
-    power: 34527,
     description: "Durable Tank with both Taunt and self-Healing",
     combat_type: 1,
     gear_levels: [
@@ -3281,7 +3242,6 @@ const units = [
     pk: 247,
     url: "http://swgoh.gg/characters/colonel-starck/",
     image: "https://game-assets.swgoh.gg/tex.charui_colonel_stark.png",
-    power: 34527,
     description:
       "Offensive Support who provides critical buffs and removes enemy Turn Meter",
     combat_type: 1,
@@ -3369,7 +3329,6 @@ const units = [
     pk: 1084,
     url: "http://swgoh.gg/characters/commander-ahsoka-tano/",
     image: "https://game-assets.swgoh.gg/tex.charui_commanderahsokatano.png",
-    power: 38919,
     description:
       "Legendary Master of Jar'Kai and Shien form Attacker, who deals high damage to a single target.",
     combat_type: 1,
@@ -3462,7 +3421,6 @@ const units = [
     pk: 238,
     url: "http://swgoh.gg/characters/commander-luke-skywalker/",
     image: "https://game-assets.swgoh.gg/tex.charui_lukebespin.png",
-    power: 40488,
     description:
       "Determined Rebel hero who can ignore debuffs or ignore Taunts",
     combat_type: 1,
@@ -3553,7 +3511,6 @@ const units = [
     pk: 78,
     url: "http://swgoh.gg/characters/coruscant-underworld-police/",
     image: "https://game-assets.swgoh.gg/tex.charui_coruscantpolice.png",
-    power: 31546,
     description: "Support that shuts down enemies with Stuns and Offense Down",
     combat_type: 1,
     gear_levels: [
@@ -3631,7 +3588,6 @@ const units = [
     pk: 91,
     url: "http://swgoh.gg/characters/count-dooku/",
     image: "https://game-assets.swgoh.gg/tex.charui_dooku.png",
-    power: 35311,
     description:
       "Disciplined Separatist Attacker with high damage, counter attacks, and debuff capabilities",
     combat_type: 1,
@@ -3715,7 +3671,6 @@ const units = [
     pk: 149,
     url: "http://swgoh.gg/characters/ct-21-0408-echo/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_echo.png",
-    power: 34527,
     description:
       "Clone Trooper Support that automatically assists allies and can dispel all enemy buffs",
     combat_type: 1,
@@ -3795,7 +3750,6 @@ const units = [
     pk: 189,
     url: "http://swgoh.gg/characters/ct-5555-fives/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_fives.png",
-    power: 37507,
     description:
       "Tank with high Defense, enemy Speed reduction, and team-wide stat bonuses",
     combat_type: 1,
@@ -3882,7 +3836,6 @@ const units = [
     pk: 16,
     url: "http://swgoh.gg/characters/ct-7567-rex/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_rex.png",
-    power: 35311,
     description:
       "Clone Leader who fiercely supports and protects his 501st and Clone Trooper allies",
     combat_type: 1,
@@ -3969,7 +3922,6 @@ const units = [
     pk: 907,
     url: "http://swgoh.gg/characters/dark-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_darktrooper.png",
-    power: 34527,
     description:
       "An Imperial Remnant attacker whose abilities are modified by the amount in Dark Trooper Squad",
     combat_type: 1,
@@ -4054,7 +4006,6 @@ const units = [
     pk: 342,
     url: "http://swgoh.gg/characters/darth-malak/",
     image: "https://game-assets.swgoh.gg/tex.charui_darthmalak.png",
-    power: 37507,
     description:
       "Brutal Sith Tank who terrorizes and drains enemies to stay alive",
     combat_type: 1,
@@ -4136,7 +4087,6 @@ const units = [
     pk: 82,
     url: "http://swgoh.gg/characters/darth-maul/",
     image: "https://game-assets.swgoh.gg/tex.charui_maul.png",
-    power: 34527,
     description:
       "Deadly Attacker that gains power and extra turns as enemies are defeated",
     combat_type: 1,
@@ -4218,7 +4168,6 @@ const units = [
     pk: 222,
     url: "http://swgoh.gg/characters/darth-nihilus/",
     image: "https://game-assets.swgoh.gg/tex.charui_nihilus.png",
-    power: 37507,
     description:
       "Sith Support that can instantly defeat enemies by draining cooldowns",
     combat_type: 1,
@@ -4299,7 +4248,6 @@ const units = [
     pk: 336,
     url: "http://swgoh.gg/characters/darth-revan/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithrevan.png",
-    power: 40488,
     description:
       "Ruthless Sith Lord that is extremely effective at taking down the enemy leader",
     combat_type: 1,
@@ -4385,7 +4333,6 @@ const units = [
     pk: 73,
     url: "http://swgoh.gg/characters/darth-sidious/",
     image: "https://game-assets.swgoh.gg/tex.charui_sidious.png",
-    power: 34527,
     description:
       "Brutal Attacker effective against Healers and Jedi while boosting allied Criticals as a Leader",
     combat_type: 1,
@@ -4465,7 +4412,6 @@ const units = [
     pk: 259,
     url: "http://swgoh.gg/characters/darth-sion/",
     image: "https://game-assets.swgoh.gg/tex.charui_sion.png",
-    power: 35311,
     description: "Aggressive Sith tank that becomes stronger with Hatred",
     combat_type: 1,
     gear_levels: [
@@ -4536,7 +4482,6 @@ const units = [
     pk: 2296,
     url: "http://swgoh.gg/characters/darth-talon/",
     image: "https://game-assets.swgoh.gg/tex.charui_darthtalon.png",
-    power: 35101,
     description:
       "Nimble Sith attacker whose loyalty and lethality is without question",
     combat_type: 1,
@@ -4618,7 +4563,6 @@ const units = [
     pk: 258,
     url: "http://swgoh.gg/characters/darth-traya/",
     image: "https://game-assets.swgoh.gg/tex.charui_traya.png",
-    power: 37507,
     description: "Sith support who punishes enemies for relying on others",
     combat_type: 1,
     gear_levels: [
@@ -4700,7 +4644,6 @@ const units = [
     pk: 200,
     url: "http://swgoh.gg/characters/darth-vader/",
     image: "https://game-assets.swgoh.gg/tex.charui_vader.png",
-    power: 40488,
     description:
       "Fearsome Attacker that applies AoE Damage Over Time, and crushes debuffed targets for extra turns",
     combat_type: 1,
@@ -4785,7 +4728,6 @@ const units = [
     pk: 2063,
     url: "http://swgoh.gg/characters/dash-rendar/",
     image: "https://game-assets.swgoh.gg/tex.charui_dashrendar.png",
-    power: 35311,
     description:
       "Charismatic Scoundrel Leader who gives Scoundrel allies Prepared",
     combat_type: 1,
@@ -4871,7 +4813,6 @@ const units = [
     pk: 142,
     url: "http://swgoh.gg/characters/dathcha/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_dathcha.png",
-    power: 32121,
     description:
       "Versatile Support able to Ability Block and Stealth, effective against Droids or with Jawas",
     combat_type: 1,
@@ -4951,7 +4892,6 @@ const units = [
     pk: 221,
     url: "http://swgoh.gg/characters/death-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperdeath.png",
-    power: 34527,
     description:
       "Terrifying Empire Attacker who inflicts debilitating debuffs and prevents revives",
     combat_type: 1,
@@ -5034,7 +4974,6 @@ const units = [
     pk: 115,
     url: "http://swgoh.gg/characters/dengar/",
     image: "https://game-assets.swgoh.gg/tex.charui_dengar.png",
-    power: 36096,
     description:
       "Adaptable Scoundrel attacker that Stuns and inflicts Tenacity Down.",
     combat_type: 1,
@@ -5118,7 +5057,6 @@ const units = [
     pk: 220,
     url: "http://swgoh.gg/characters/director-krennic/",
     image: "https://game-assets.swgoh.gg/tex.charui_krennic.png",
-    power: 35101,
     description:
       "Intimidating Empire Support who inflicts devastating debuffs and slows enemies",
     combat_type: 1,
@@ -5208,7 +5146,6 @@ const units = [
     pk: 325,
     url: "http://swgoh.gg/characters/droideka/",
     image: "https://game-assets.swgoh.gg/tex.charui_droideka.png",
-    power: 34527,
     description:
       "Destructive Droid attacker that punishes fast enemies from behind its deflector shield",
     combat_type: 1,
@@ -5287,7 +5224,6 @@ const units = [
     pk: 1051,
     url: "http://swgoh.gg/characters/echo/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb_echo.png",
-    power: 34527,
     description: "Loyal Clone Trooper who supports his allies in battle",
     combat_type: 1,
     gear_levels: [
@@ -5370,7 +5306,6 @@ const units = [
     pk: 203,
     url: "http://swgoh.gg/characters/eeth-koth/",
     image: "https://game-assets.swgoh.gg/tex.charui_eethkoth.png",
-    power: 32121,
     description: "Stunning Jedi Support extremely effective against Droids",
     combat_type: 1,
     gear_levels: [
@@ -5447,7 +5382,6 @@ const units = [
     pk: 290,
     url: "http://swgoh.gg/characters/embo/",
     image: "https://game-assets.swgoh.gg/tex.charui_embo.png",
-    power: 37507,
     description:
       "Deadly Bounty Hunter Attacker that consumes his Protection to boost his damage",
     combat_type: 1,
@@ -5519,7 +5453,6 @@ const units = [
     pk: 180,
     url: "http://swgoh.gg/characters/emperor-palpatine/",
     image: "https://game-assets.swgoh.gg/tex.charui_palpatineemperor.png",
-    power: 37507,
     description:
       "Overwhelming Sith Support who inflicts Shock and can Stun targets for multiple turns",
     combat_type: 1,
@@ -5607,7 +5540,6 @@ const units = [
     pk: 274,
     url: "http://swgoh.gg/characters/enfys-nest/",
     image: "https://game-assets.swgoh.gg/tex.charui_enfys.png",
-    power: 34527,
     description:
       "Powerhouse attacker that stacks Protection when attacked, then dismantles enemy defenses with Dispels and Turn Meter manipulation",
     combat_type: 1,
@@ -5694,7 +5626,6 @@ const units = [
     pk: 21,
     url: "http://swgoh.gg/characters/ewok-elder/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_chief.png",
-    power: 31546,
     description: "Ewok Healer that specializes in Revives",
     combat_type: 1,
     gear_levels: [
@@ -5765,7 +5696,6 @@ const units = [
     pk: 71,
     url: "http://swgoh.gg/characters/ewok-scout/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_scout.png",
-    power: 31546,
     description:
       "Powerful single-target Attacker that becomes evasive with Ewok allies",
     combat_type: 1,
@@ -5837,7 +5767,6 @@ const units = [
     pk: 230,
     url: "http://swgoh.gg/characters/ezra-bridger/",
     image: "https://game-assets.swgoh.gg/tex.charui_ezra_s3.png",
-    power: 34527,
     description:
       "Versatile Phoenix Attacker that can perform a variety of effects based on the Roles of allies",
     combat_type: 1,
@@ -5924,7 +5853,6 @@ const units = [
     pk: 1926,
     url: "http://swgoh.gg/characters/fennec-shand/",
     image: "https://game-assets.swgoh.gg/tex.charui_fennec.png",
-    power: 35311,
     description:
       "Lethal Bounty Hunter capable of taking on the most dangerous foes",
     combat_type: 1,
@@ -6006,7 +5934,6 @@ const units = [
     pk: 66,
     url: "http://swgoh.gg/characters/finn/",
     image: "https://game-assets.swgoh.gg/tex.charui_finnjakku.png",
-    power: 34527,
     description:
       "Resistance tank that keeps the pressure up with a balance between offense and defense",
     combat_type: 1,
@@ -6089,7 +6016,6 @@ const units = [
     pk: 253,
     url: "http://swgoh.gg/characters/first-order-executioner/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorder_executioner.png",
-    power: 31546,
     description: "Merciless First Order Attacker who executes powerful attacks",
     combat_type: 1,
     gear_levels: [
@@ -6174,7 +6100,6 @@ const units = [
     pk: 166,
     url: "http://swgoh.gg/characters/first-order-officer/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorderofficer.png",
-    power: 31546,
     description:
       "First Order support that grants Advantage and can manipulate both ally and enemy Turn Meters",
     combat_type: 1,
@@ -6260,7 +6185,6 @@ const units = [
     pk: 246,
     url: "http://swgoh.gg/characters/first-order-sf-tie-pilot/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorder_pilot.png",
-    power: 31546,
     description:
       "Subversive First Order Attacker who buffs allies and disrupts enemies",
     combat_type: 1,
@@ -6346,7 +6270,6 @@ const units = [
     pk: 150,
     url: "http://swgoh.gg/characters/first-order-stormtrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstordertrooper.png",
-    power: 33742,
     description: "First Order tank that uses Advantage to disrupt enemies",
     combat_type: 1,
     gear_levels: [
@@ -6433,7 +6356,6 @@ const units = [
     pk: 199,
     url: "http://swgoh.gg/characters/first-order-tie-pilot/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstordertiepilot.png",
-    power: 33742,
     description:
       "First Order attacker that can deal extreme damage in a single turn with Advantage",
     combat_type: 1,
@@ -6518,7 +6440,6 @@ const units = [
     pk: 207,
     url: "http://swgoh.gg/characters/gamorrean-guard/",
     image: "https://game-assets.swgoh.gg/tex.charui_gamorreanguard.png",
-    power: 31546,
     description:
       "Aggressive tank that Taunts and Counters with multiple Damage Over Time effects",
     combat_type: 1,
@@ -6597,7 +6518,6 @@ const units = [
     pk: 234,
     url: "http://swgoh.gg/characters/gar-saxon/",
     image: "https://game-assets.swgoh.gg/tex.charui_gar_saxon.png",
-    power: 34527,
     description:
       "Leader who grants Empire allies Counter Chance and Assists them when they Counter Attack",
     combat_type: 1,
@@ -6676,7 +6596,6 @@ const units = [
     pk: 229,
     url: "http://swgoh.gg/characters/garazeb-zeb-orrelios/",
     image: "https://game-assets.swgoh.gg/tex.charui_zeb_s3.png",
-    power: 34527,
     description:
       "Versatile Phoenix Tank with wide variety of effects for allies or enemies with or without debuffs",
     combat_type: 1,
@@ -6757,7 +6676,6 @@ const units = [
     pk: 1,
     url: "http://swgoh.gg/characters/general-grievous/",
     image: "https://game-assets.swgoh.gg/tex.charui_grievous.png",
-    power: 37507,
     description:
       "Aggressive Attacker that grows increasingly stronger as the Droids around him fall. Although he hates being called a droid, he counts as one in combat.",
     combat_type: 1,
@@ -6846,7 +6764,6 @@ const units = [
     pk: 408,
     url: "http://swgoh.gg/characters/general-hux/",
     image: "https://game-assets.swgoh.gg/tex.charui_generalhux.png",
-    power: 35311,
     description:
       "Ruthless First Order Support that can prevent enemies from counterattacking.",
     combat_type: 1,
@@ -6926,7 +6843,6 @@ const units = [
     pk: 213,
     url: "http://swgoh.gg/characters/general-kenobi/",
     image: "https://game-assets.swgoh.gg/tex.charui_obiwangeneral.png",
-    power: 35101,
     description:
       "Vigorous Jedi Tank who gains Foresight, dispels debuffs to grant buffs, and calls buffed allies to Assist",
     combat_type: 1,
@@ -7025,7 +6941,6 @@ const units = [
     pk: 385,
     url: "http://swgoh.gg/characters/general-skywalker/",
     image: "https://game-assets.swgoh.gg/tex.charui_generalanakin.png",
-    power: 42684,
     description: "Fierce Jedi Attacker who protects his battalion at all costs",
     combat_type: 1,
     gear_levels: [
@@ -7116,7 +7031,6 @@ const units = [
     pk: 132,
     url: "http://swgoh.gg/characters/general-veers/",
     image: "https://game-assets.swgoh.gg/tex.charui_veers.png",
-    power: 34527,
     description:
       "Aggressive Empire Support that becomes stronger as enemies are defeated",
     combat_type: 1,
@@ -7196,7 +7110,6 @@ const units = [
     pk: 363,
     url: "http://swgoh.gg/characters/geonosian-brood-alpha/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_broodalpha.png",
-    power: 38292,
     description:
       "Geonosian Support that swarms enemies with summoned allies and Hive Mind",
     combat_type: 1,
@@ -7289,7 +7202,6 @@ const units = [
     pk: 57,
     url: "http://swgoh.gg/characters/geonosian-soldier/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_soldier.png",
-    power: 31546,
     description:
       "Aggressive Attacker who calls assists and grants powerful offensive bonuses to Geonosian allies",
     combat_type: 1,
@@ -7368,7 +7280,6 @@ const units = [
     pk: 88,
     url: "http://swgoh.gg/characters/geonosian-spy/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_spy.png",
-    power: 32331,
     description:
       "Stealthy Geonosian Attacker who Exposes enemies and has high damage potential",
     combat_type: 1,
@@ -7450,7 +7361,6 @@ const units = [
     pk: 237,
     url: "http://swgoh.gg/characters/grand-admiral-thrawn/",
     image: "https://game-assets.swgoh.gg/tex.charui_thrawn.png",
-    power: 37507,
     description:
       "Calculating Empire Leader who can halt enemies in their tracks, and grants Empire allies a new Special ability",
     combat_type: 1,
@@ -7539,7 +7449,6 @@ const units = [
     pk: 144,
     url: "http://swgoh.gg/characters/grand-master-yoda/",
     image: "https://game-assets.swgoh.gg/tex.charui_yodagrandmaster.png",
-    power: 37507,
     description:
       "Masterful Jedi support that can replicate enemy buffs and share them with allies",
     combat_type: 1,
@@ -7635,7 +7544,6 @@ const units = [
     pk: 138,
     url: "http://swgoh.gg/characters/grand-moff-tarkin/",
     image: "https://game-assets.swgoh.gg/tex.charui_tarkinadmiral.png",
-    power: 37507,
     description: "Offensive Empire Support with crushing AoE debuffs",
     combat_type: 1,
     gear_levels: [
@@ -7724,7 +7632,6 @@ const units = [
     pk: 190,
     url: "http://swgoh.gg/characters/greedo/",
     image: "https://game-assets.swgoh.gg/tex.charui_greedo.png",
-    power: 35886,
     description: "Deadly Attacker that gains extra attacks from Critical Hits",
     combat_type: 1,
     gear_levels: [
@@ -7806,7 +7713,6 @@ const units = [
     pk: 446,
     url: "http://swgoh.gg/characters/greef-karga/",
     image: "https://game-assets.swgoh.gg/tex.charui_greefkarga.png",
-    power: 38292,
     description:
       "Bounty Hunter Support that provides recovery and assist calls",
     combat_type: 1,
@@ -7892,7 +7798,6 @@ const units = [
     pk: 41,
     url: "http://swgoh.gg/characters/han-solo/",
     image: "https://game-assets.swgoh.gg/tex.charui_han.png",
-    power: 34527,
     description:
       "Daring Attacker that stacks Criticals in his favor and always shoots first",
     combat_type: 1,
@@ -7973,7 +7878,6 @@ const units = [
     pk: 227,
     url: "http://swgoh.gg/characters/hera-syndulla/",
     image: "https://game-assets.swgoh.gg/tex.charui_hera_s3.png",
-    power: 34527,
     description:
       "Cunning Phoenix Support that allows Phoenix allies to share their Unique abilities with each other",
     combat_type: 1,
@@ -8062,7 +7966,6 @@ const units = [
     pk: 74,
     url: "http://swgoh.gg/characters/hermit-yoda/",
     image: "https://game-assets.swgoh.gg/tex.charui_yodahermit.png",
-    power: 37507,
     description:
       "Jedi recluse who imparts sage wisdom in the ways of the Force",
     combat_type: 1,
@@ -8144,7 +8047,6 @@ const units = [
     pk: 172,
     url: "http://swgoh.gg/characters/hk-47/",
     image: "https://game-assets.swgoh.gg/tex.charui_hk47.png",
-    power: 38292,
     description: "Offensive Attacker with powerful Darth Revan synergy",
     combat_type: 1,
     gear_levels: [
@@ -8226,7 +8128,6 @@ const units = [
     pk: 157,
     url: "http://swgoh.gg/characters/hoth-rebel-scout/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebelhothscout.png",
-    power: 31546,
     description:
       "Single target attacker with crit synergies and speed building abilities.",
     combat_type: 1,
@@ -8305,7 +8206,6 @@ const units = [
     pk: 54,
     url: "http://swgoh.gg/characters/hoth-rebel-soldier/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebelhoth.png",
-    power: 31546,
     description:
       "Support character that debuffs, taunts, and defensively buffs, with Rebel and anti-Empire synergies.",
     combat_type: 1,
@@ -8384,7 +8284,6 @@ const units = [
     pk: 975,
     url: "http://swgoh.gg/characters/hunter/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb_hunter.png",
-    power: 34527,
     description:
       "Tactical leader of the Bad Batch who subtly destroys his enemies.",
     combat_type: 1,
@@ -8487,7 +8386,6 @@ const units = [
     pk: 2598,
     url: "http://swgoh.gg/characters/iden-versio/",
     image: "https://game-assets.swgoh.gg/tex.charui_idenversioempire.png",
-    power: 35101,
     description:
       "Tenacious Empire Attacker who expertly takes out foes while supporting her squad",
     combat_type: 1,
@@ -8581,7 +8479,6 @@ const units = [
     pk: 17,
     url: "http://swgoh.gg/characters/ig-100-magnaguard/",
     image: "https://game-assets.swgoh.gg/tex.charui_magnaguard.png",
-    power: 34527,
     description:
       "Disruptive Droid Tank that Taunts and takes an extra turn before it is defeated",
     combat_type: 1,
@@ -8663,7 +8560,6 @@ const units = [
     pk: 638,
     url: "http://swgoh.gg/characters/ig-11/",
     image: "https://game-assets.swgoh.gg/tex.charui_ig11_nurse.png",
-    power: 34527,
     description: "Versatile Healer with strong Scoundrel and Droid synergies",
     combat_type: 1,
     gear_levels: [
@@ -8743,7 +8639,6 @@ const units = [
     pk: 167,
     url: "http://swgoh.gg/characters/ig-86-sentinel-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_ig86.png",
-    power: 31546,
     description:
       "Droid Attacker with a powerful Droid Assist and devastating Criticals",
     combat_type: 1,
@@ -8822,7 +8717,6 @@ const units = [
     pk: 143,
     url: "http://swgoh.gg/characters/ig-88/",
     image: "https://game-assets.swgoh.gg/tex.charui_ig88.png",
-    power: 35311,
     description:
       "Droid Attacker with debuffs and a damage bonus against debuffed enemies",
     combat_type: 1,
@@ -8902,7 +8796,6 @@ const units = [
     pk: 147,
     url: "http://swgoh.gg/characters/ima-gun-di/",
     image: "https://game-assets.swgoh.gg/tex.charui_imagundi.png",
-    power: 32121,
     description:
       "Supportive Tank that boost ally defense and grants Jedi allies Counter Chance",
     combat_type: 1,
@@ -8979,7 +8872,6 @@ const units = [
     pk: 248,
     url: "http://swgoh.gg/characters/imperial-probe-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_probedroid.png",
-    power: 34527,
     description:
       "Imperial Droid who reveals and tracks enemies with Target Lock",
     combat_type: 1,
@@ -9070,7 +8962,6 @@ const units = [
     url: "http://swgoh.gg/characters/imperial-super-commando/",
     image:
       "https://game-assets.swgoh.gg/tex.charui_imperial_super_commando.png",
-    power: 31546,
     description:
       "An Empire Attacker with counter mechanics who dispels buffs and applies buff immunity",
     combat_type: 1,
@@ -9156,7 +9047,6 @@ const units = [
     pk: 298,
     url: "http://swgoh.gg/characters/jango-fett/",
     image: "https://game-assets.swgoh.gg/tex.charui_jangofett.png",
-    power: 38292,
     description:
       "Notorious Bounty Hunter that exploits debuffed foes and inflicts Burning",
     combat_type: 1,
@@ -9248,7 +9138,6 @@ const units = [
     pk: 123,
     url: "http://swgoh.gg/characters/jawa/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_jawa.png",
-    power: 31546,
     description:
       "Attacker effective against debuffed enemies as well as Droids",
     combat_type: 1,
@@ -9320,7 +9209,6 @@ const units = [
     pk: 87,
     url: "http://swgoh.gg/characters/jawa-engineer/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_engineer.png",
-    power: 32121,
     description:
       "High-speed Jawa Healer with a Critical Chance buff and both Jawa and Droid synergy",
     combat_type: 1,
@@ -9398,7 +9286,6 @@ const units = [
     pk: 209,
     url: "http://swgoh.gg/characters/jawa-scavenger/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_scavenger.png",
-    power: 32121,
     description:
       "Versatile Jawa Support who can detonate Thermal Detonators to inflict a large variety of status effects",
     combat_type: 1,
@@ -9486,7 +9373,6 @@ const units = [
     pk: 100,
     url: "http://swgoh.gg/characters/jedi-consular/",
     image: "https://game-assets.swgoh.gg/tex.charui_jedi_consular_03.png",
-    power: 31546,
     description: "Well-rounded Jedi Healer with a mix of offense and defense",
     combat_type: 1,
     gear_levels: [
@@ -9564,7 +9450,6 @@ const units = [
     pk: 112,
     url: "http://swgoh.gg/characters/jedi-knight-anakin/",
     image: "https://game-assets.swgoh.gg/tex.charui_anakinknight.png",
-    power: 34527,
     description:
       "High-pressure Jedi attacker that punishes enemies for wounding his allies",
     combat_type: 1,
@@ -9646,7 +9531,6 @@ const units = [
     pk: 107,
     url: "http://swgoh.gg/characters/jedi-knight-guardian/",
     image: "https://game-assets.swgoh.gg/tex.charui_jedi_guardian_01.png",
-    power: 31546,
     description:
       "Tenacious Jedi tank with crippling debuffs and natural recovery at low Health",
     combat_type: 1,
@@ -9725,7 +9609,6 @@ const units = [
     pk: 487,
     url: "http://swgoh.gg/characters/jedi-knight-luke-skywalker/",
     image: "https://game-assets.swgoh.gg/tex.charui_luke_jediknight.png",
-    power: 37507,
     description:
       "Stalwart Jedi hero of legend who ascends to victorious heights alongside his Jedi allies through the will of the Force",
     combat_type: 1,
@@ -9816,7 +9699,6 @@ const units = [
     pk: 302,
     url: "http://swgoh.gg/characters/jedi-knight-revan/",
     image: "https://game-assets.swgoh.gg/tex.charui_jedirevan.png",
-    power: 40488,
     description:
       "Fabled Jedi leader who controls the battle with a wide mix of powerful abilities",
     combat_type: 1,
@@ -9914,7 +9796,6 @@ const units = [
     pk: 1264,
     url: "http://swgoh.gg/characters/jedi-master-kenobi/",
     image: "https://game-assets.swgoh.gg/tex.charui_globiwan.png",
-    power: 47076,
     description:
       "Renowned Jedi Master that provides damage and support through a diverse set of abilities",
     combat_type: 1,
@@ -10021,7 +9902,6 @@ const units = [
     pk: 600,
     url: "http://swgoh.gg/characters/jedi-master-luke-skywalker/",
     image: "https://game-assets.swgoh.gg/tex.charui_luke_jml.png",
-    power: 47076,
     description:
       "The wizened Jedi master of legend who empowers his Jedi allies with the knowledge and skills he has obtained",
     combat_type: 1,
@@ -10125,7 +10005,6 @@ const units = [
     pk: 283,
     url: "http://swgoh.gg/characters/jolee-bindo/",
     image: "https://game-assets.swgoh.gg/tex.charui_joleebindo.png",
-    power: 35311,
     description:
       "Potent Jedi Healer with high durability and resistance to disruption",
     combat_type: 1,
@@ -10203,7 +10082,6 @@ const units = [
     pk: 308,
     url: "http://swgoh.gg/characters/juhani/",
     image: "https://game-assets.swgoh.gg/tex.charui_juhani.png",
-    power: 34527,
     description:
       "Unique Jedi Tank who dispels debuffs from Old Republic allies and becomes more dangerous below full Health",
     combat_type: 1,
@@ -10284,7 +10162,6 @@ const units = [
     pk: 217,
     url: "http://swgoh.gg/characters/jyn-erso/",
     image: "https://game-assets.swgoh.gg/tex.charui_jyn.png",
-    power: 37507,
     description:
       "Offensive Rebel Leader who gains Advantage, Stuns enemies, revives Rebel allies and grants them Potency Up",
     combat_type: 1,
@@ -10364,7 +10241,6 @@ const units = [
     pk: 218,
     url: "http://swgoh.gg/characters/k-2so/",
     image: "https://game-assets.swgoh.gg/tex.charui_k2so.png",
-    power: 34527,
     description: "Rebel Tank who Taunts and Counter Attacks",
     combat_type: 1,
     gear_levels: [
@@ -10442,7 +10318,6 @@ const units = [
     pk: 226,
     url: "http://swgoh.gg/characters/kanan-jarrus/",
     image: "https://game-assets.swgoh.gg/tex.charui_kanan_s3.png",
-    power: 34527,
     description:
       "Durable Phoenix Tank that keeps enemy Offense crippled and allies healthy",
     combat_type: 1,
@@ -10530,7 +10405,6 @@ const units = [
     pk: 397,
     url: "http://swgoh.gg/characters/ki-adi-mundi/",
     image: "https://game-assets.swgoh.gg/tex.charui_kiadimundi.png",
-    power: 35311,
     description:
       "Formidable Jedi Master who shifts between Ataru and Makashi lightsaber forms",
     combat_type: 1,
@@ -10612,7 +10486,6 @@ const units = [
     pk: 187,
     url: "http://swgoh.gg/characters/kit-fisto/",
     image: "https://game-assets.swgoh.gg/tex.charui_kitfisto.png",
-    power: 32121,
     description:
       "Versatile Jedi Attacker with multi-attack, Counter Chance, and a variety of ally buffs",
     combat_type: 1,
@@ -10692,7 +10565,6 @@ const units = [
     pk: 609,
     url: "http://swgoh.gg/characters/kuiil/",
     image: "https://game-assets.swgoh.gg/tex.charui_kuiil.png",
-    power: 34527,
     description: "A supportive mechanic who aids Droids and Scoundrels.",
     combat_type: 1,
     gear_levels: [
@@ -10770,7 +10642,6 @@ const units = [
     pk: 2243,
     url: "http://swgoh.gg/characters/kyle-katarn/",
     image: "https://game-assets.swgoh.gg/tex.charui_kylekatarn.png",
-    power: 34317,
     description: "A Force-sensitive Rebel operative and Jedi Knight",
     combat_type: 1,
     gear_levels: [
@@ -10853,7 +10724,6 @@ const units = [
     pk: 141,
     url: "http://swgoh.gg/characters/kylo-ren/",
     image: "https://game-assets.swgoh.gg/tex.charui_kyloren.png",
-    power: 34527,
     description:
       "Versatile First Order attacker that can reuse special attacks when damaged",
     combat_type: 1,
@@ -10934,7 +10804,6 @@ const units = [
     pk: 245,
     url: "http://swgoh.gg/characters/kylo-ren-unmasked/",
     image: "https://game-assets.swgoh.gg/tex.charui_kylo_unmasked.png",
-    power: 37507,
     description: "Tough First Order Tank with a powerful Stun",
     combat_type: 1,
     gear_levels: [
@@ -11021,7 +10890,6 @@ const units = [
     pk: 279,
     url: "http://swgoh.gg/characters/l3-37/",
     image: "https://game-assets.swgoh.gg/tex.charui_l337.png",
-    power: 34527,
     description:
       "Droid Tank that can dispel allies and has multiple ways to increase her stats permanently",
     combat_type: 1,
@@ -11100,7 +10968,6 @@ const units = [
     pk: 4,
     url: "http://swgoh.gg/characters/lando-calrissian/",
     image: "https://game-assets.swgoh.gg/tex.charui_landobespin.png",
-    power: 31911,
     description:
       "Scoundrel leader with high offense and excellent Critical Hit synergy",
     combat_type: 1,
@@ -11184,7 +11051,6 @@ const units = [
     pk: 84,
     url: "http://swgoh.gg/characters/lobot/",
     image: "https://game-assets.swgoh.gg/tex.charui_lobot.png",
-    power: 32121,
     description:
       "Rebel Support that can reliably inflict Defense Down, clear allied debuffs, and speed up allied Droids",
     combat_type: 1,
@@ -11263,7 +11129,6 @@ const units = [
     pk: 170,
     url: "http://swgoh.gg/characters/logray/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_logray.png",
-    power: 34527,
     description:
       "Sage Ewok Support who can Daze enemies and grant Ewok allies many buffs",
     combat_type: 1,
@@ -11346,7 +11211,6 @@ const units = [
     pk: 1712,
     url: "http://swgoh.gg/characters/lord-vader/",
     image: "https://game-assets.swgoh.gg/tex.charui_lordvader.png",
-    power: 47076,
     description:
       "Legendary Sith Lord who utilizes the actions of others to empower his own potential and is not to be underestimated",
     combat_type: 1,
@@ -11437,7 +11301,6 @@ const units = [
     pk: 24,
     url: "http://swgoh.gg/characters/luke-skywalker-farmboy/",
     image: "https://game-assets.swgoh.gg/tex.charui_luke_ep4.png",
-    power: 36723,
     description:
       "Attacker that can boost his own Critical Rate, then disable enemies with Critical Hits",
     combat_type: 1,
@@ -11526,7 +11389,6 @@ const units = [
     pk: 158,
     url: "http://swgoh.gg/characters/luminara-unduli/",
     image: "https://game-assets.swgoh.gg/tex.charui_luminara.png",
-    power: 34527,
     description:
       "Versatile attacker with ability block and powerful party heal.",
     combat_type: 1,
@@ -11612,7 +11474,6 @@ const units = [
     pk: 70,
     url: "http://swgoh.gg/characters/mace-windu/",
     image: "https://game-assets.swgoh.gg/tex.charui_macewindu.png",
-    power: 32121,
     description:
       "Aggressive Jedi tank with devastating damage if left unchecked",
     combat_type: 1,
@@ -11696,7 +11557,6 @@ const units = [
     pk: 47,
     url: "http://swgoh.gg/characters/magmatrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperstorm_magma.png",
-    power: 31546,
     description:
       "Resilient Attacker that recovers quickly from debuffs and deals potent AoE damage",
     combat_type: 1,
@@ -11768,7 +11628,6 @@ const units = [
     pk: 2494,
     url: "http://swgoh.gg/characters/mara-jade-the-emperors-hand/",
     image: "https://game-assets.swgoh.gg/tex.charui_marajade.png",
-    power: 36513,
     description:
       "Dark Side force user Attacker who uses her allies to boost her own power and supports Emperor Palpatine",
     combat_type: 1,
@@ -11854,7 +11713,6 @@ const units = [
     pk: 1575,
     url: "http://swgoh.gg/characters/maul/",
     image: "https://game-assets.swgoh.gg/tex.charui_maul_cyborg.png",
-    power: 39703,
     description: "Unrelenting attacker that uses his anguish to crush his foes",
     combat_type: 1,
     gear_levels: [
@@ -11940,7 +11798,6 @@ const units = [
     pk: 287,
     url: "http://swgoh.gg/characters/mission-vao/",
     image: "https://game-assets.swgoh.gg/tex.charui_mission.png",
-    power: 34527,
     description: "Slippery Scoundrel Attacker who blinds her enemies",
     combat_type: 1,
     gear_levels: [
@@ -12020,7 +11877,6 @@ const units = [
     pk: 2,
     url: "http://swgoh.gg/characters/mob-enforcer/",
     image: "https://game-assets.swgoh.gg/tex.charui_thug_female_01.png",
-    power: 31546,
     description:
       "Scoundrel Tank with enemy debuff ability and a thermal detonator.",
     combat_type: 1,
@@ -12097,7 +11953,6 @@ const units = [
     pk: 691,
     url: "http://swgoh.gg/characters/moff-gideon/",
     image: "https://game-assets.swgoh.gg/tex.charui_moffgideon.png",
-    power: 37507,
     description:
       "Empire Leader that can lead a fireteam into battle and punish enemies with the Leader tag",
     combat_type: 1,
@@ -12187,7 +12042,6 @@ const units = [
     pk: 543,
     url: "http://swgoh.gg/characters/mon-mothma/",
     image: "https://game-assets.swgoh.gg/tex.charui_monmothma.png",
-    power: 37507,
     description: "Rebel Leader who supports and rallies her allies",
     combat_type: 1,
     gear_levels: [
@@ -12267,7 +12121,6 @@ const units = [
     pk: 75,
     url: "http://swgoh.gg/characters/mother-talzin/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsisters_talzin.png",
-    power: 37507,
     description:
       "Vicious Nightsister Leader who inflicts Plague, preventing enemies from Dispelling debuffs",
     combat_type: 1,
@@ -12348,7 +12201,6 @@ const units = [
     pk: 108,
     url: "http://swgoh.gg/characters/nightsister-acolyte/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsister_acolyte.png",
-    power: 31546,
     description:
       "Stealth attacker with some enemy debuffing and self healing ability.",
     combat_type: 1,
@@ -12427,7 +12279,6 @@ const units = [
     pk: 129,
     url: "http://swgoh.gg/characters/nightsister-initiate/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsister_initiate.png",
-    power: 34527,
     description:
       "Critical-focused Attacker that can render enemies immune to buffs",
     combat_type: 1,
@@ -12506,7 +12357,6 @@ const units = [
     pk: 244,
     url: "http://swgoh.gg/characters/nightsister-spirit/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsisters_wraith.png",
-    power: 31546,
     description:
       "Veiled Nightsister Attacker who Dispels, Stuns, and gains Foresight",
     combat_type: 1,
@@ -12593,7 +12443,6 @@ const units = [
     pk: 243,
     url: "http://swgoh.gg/characters/nightsister-zombie/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsisters_zombie.png",
-    power: 32331,
     description:
       "Vile Nightsister Tank who inflicts Tenacity Down and can't be stopped from reviving endlessly",
     combat_type: 1,
@@ -12672,7 +12521,6 @@ const units = [
     pk: 177,
     url: "http://swgoh.gg/characters/nute-gunray/",
     image: "https://game-assets.swgoh.gg/tex.charui_nutegunray.png",
-    power: 35311,
     description:
       "Separatist Support who specializes in sabotaging enemy strategies",
     combat_type: 1,
@@ -12753,7 +12601,6 @@ const units = [
     pk: 154,
     url: "http://swgoh.gg/characters/obi-wan-kenobi-old-ben/",
     image: "https://game-assets.swgoh.gg/tex.charui_obiwanep4.png",
-    power: 37507,
     description:
       "Durable Jedi Tank able to shut down enemy offense with multiple debuffs",
     combat_type: 1,
@@ -12838,7 +12685,6 @@ const units = [
     pk: 25,
     url: "http://swgoh.gg/characters/old-daka/",
     image: "https://game-assets.swgoh.gg/tex.charui_daka.png",
-    power: 34527,
     description: "Defensive Nightsister Healer who Stuns and Revives",
     combat_type: 1,
     gear_levels: [
@@ -12918,7 +12764,6 @@ const units = [
     pk: 1417,
     url: "http://swgoh.gg/characters/omega/",
     image: "https://game-assets.swgoh.gg/tex.charui_badbatchomega.png",
-    power: 36723,
     description:
       "Clever and empathetic attacker who utilizes buffs, debuffs, and the presence of her Bad Batch allies to take out her foes.",
     combat_type: 1,
@@ -13014,7 +12859,6 @@ const units = [
     pk: 346,
     url: "http://swgoh.gg/characters/padme-amidala/",
     image: "https://game-assets.swgoh.gg/tex.charui_padme_geonosis.png",
-    power: 37507,
     description:
       "Courageous leader who continuously helps her allies and adapts to any circumstance",
     combat_type: 1,
@@ -13094,7 +12938,6 @@ const units = [
     pk: 228,
     url: "http://swgoh.gg/characters/pao/",
     image: "https://game-assets.swgoh.gg/tex.charui_pao.png",
-    power: 34527,
     description: "Unrelenting Rebel Attacker with a mighty battle cry",
     combat_type: 1,
     gear_levels: [
@@ -13171,7 +13014,6 @@ const units = [
     pk: 185,
     url: "http://swgoh.gg/characters/paploo/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_paploo.png",
-    power: 34527,
     description: "Resourceful Ewok Tank with assist and buff synergies",
     combat_type: 1,
     gear_levels: [
@@ -13250,7 +13092,6 @@ const units = [
     pk: 7,
     url: "http://swgoh.gg/characters/plo-koon/",
     image: "https://game-assets.swgoh.gg/tex.charui_plokoon.png",
-    power: 32121,
     description:
       "Jedi Tank with Clone synergy, reliable enemy Dispel and anti-Stealth",
     combat_type: 1,
@@ -13330,7 +13171,6 @@ const units = [
     pk: 179,
     url: "http://swgoh.gg/characters/poe-dameron/",
     image: "https://game-assets.swgoh.gg/tex.charui_poe.png",
-    power: 32121,
     description:
       "Resistance Tank with a Taunt that inflicts Expose for big reversals",
     combat_type: 1,
@@ -13408,7 +13248,6 @@ const units = [
     pk: 81,
     url: "http://swgoh.gg/characters/poggle-the-lesser/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_poggle.png",
-    power: 32331,
     description:
       "Support for Geonosian and Separatist allies, with strong offensive synergies",
     combat_type: 1,
@@ -13495,7 +13334,6 @@ const units = [
     pk: 122,
     url: "http://swgoh.gg/characters/princess-leia/",
     image: "https://game-assets.swgoh.gg/tex.charui_leia_princess.png",
-    power: 34527,
     description:
       "Well-rounded Rebel Attacker with extra attacks, Stealth, and team Critical bonuses.",
     combat_type: 1,
@@ -13578,7 +13416,6 @@ const units = [
     pk: 272,
     url: "http://swgoh.gg/characters/qira/",
     image: "https://game-assets.swgoh.gg/tex.charui_qira.png",
-    power: 35311,
     description:
       "High-utility Support that uses Prepared, debuffs, and an adaptable Leader ability to overwhelm enemies",
     combat_type: 1,
@@ -13664,7 +13501,6 @@ const units = [
     pk: 44,
     url: "http://swgoh.gg/characters/qui-gon-jinn/",
     image: "https://game-assets.swgoh.gg/tex.charui_quigon.png",
-    power: 34527,
     description: "Versatile attacker focused on generating extra attacks.",
     combat_type: 1,
     gear_levels: [
@@ -13749,7 +13585,6 @@ const units = [
     pk: 235,
     url: "http://swgoh.gg/characters/r2-d2/",
     image: "https://game-assets.swgoh.gg/tex.charui_astromech_r2d2.png",
-    power: 37507,
     description:
       "Versatile Support Droid that inflicts Burning and grants allies Stealth",
     combat_type: 1,
@@ -13843,7 +13678,6 @@ const units = [
     pk: 280,
     url: "http://swgoh.gg/characters/range-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperranger.png",
-    power: 31546,
     description:
       "Aggressive Empire Support that provides other Imperial Trooper allies with Assist chance",
     combat_type: 1,
@@ -13915,7 +13749,6 @@ const units = [
     pk: 92,
     url: "http://swgoh.gg/characters/rebel-officer-leia-organa/",
     image: "https://game-assets.swgoh.gg/tex.charui_leiahoth.png",
-    power: 34527,
     description:
       "Tenacious Rebel Attacker that counters debuffs and is more effective against healthy targets",
     combat_type: 1,
@@ -13997,7 +13830,6 @@ const units = [
     pk: 417,
     url: "http://swgoh.gg/characters/resistance-hero-finn/",
     image: "https://game-assets.swgoh.gg/tex.charui_finn.png",
-    power: 34527,
     description:
       "Supportive Attacker whose inspiration empowers his allies on the battlefield",
     combat_type: 1,
@@ -14076,7 +13908,6 @@ const units = [
     pk: 420,
     url: "http://swgoh.gg/characters/resistance-hero-poe/",
     image: "https://game-assets.swgoh.gg/tex.charui_poe_tros.png",
-    power: 34527,
     description:
       "Offensive Attacker who overpowers his enemies with debilitating effects",
     combat_type: 1,
@@ -14156,7 +13987,6 @@ const units = [
     pk: 38,
     url: "http://swgoh.gg/characters/resistance-pilot/",
     image: "https://game-assets.swgoh.gg/tex.charui_resistancepilot.png",
-    power: 31336,
     description:
       "Resistance attacker that can use Expose, Foresight, and Turn Meter gains to surprise enemies",
     combat_type: 1,
@@ -14235,7 +14065,6 @@ const units = [
     pk: 133,
     url: "http://swgoh.gg/characters/resistance-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_resistancetrooper.png",
-    power: 31336,
     description:
       "Opportunistic Resistance attacker that can deal heavy damage to debuffed enemies",
     combat_type: 1,
@@ -14314,7 +14143,6 @@ const units = [
     pk: 434,
     url: "http://swgoh.gg/characters/rey/",
     image: "https://game-assets.swgoh.gg/tex.charui_rey_tros.png",
-    power: 47076,
     description:
       "Resistance Leader who safeguards her allies by providing powerful shields and delivering high damage",
     combat_type: 1,
@@ -14402,7 +14230,6 @@ const units = [
     pk: 250,
     url: "http://swgoh.gg/characters/rey-jedi-training/",
     image: "https://game-assets.swgoh.gg/tex.charui_rey_tlj.png",
-    power: 40488,
     description:
       "Resilient Resistance Tank who avenges debuffed allies and controls the battlefield",
     combat_type: 1,
@@ -14498,7 +14325,6 @@ const units = [
     pk: 116,
     url: "http://swgoh.gg/characters/rey-scavenger/",
     image: "https://game-assets.swgoh.gg/tex.charui_reyjakku.png",
-    power: 34527,
     description:
       "Risky Attacker that has high damage and evasion, but is vulnerable to debuffs",
     combat_type: 1,
@@ -14570,7 +14396,6 @@ const units = [
     pk: 255,
     url: "http://swgoh.gg/characters/rose-tico/",
     image: "https://game-assets.swgoh.gg/tex.charui_rose.png",
-    power: 34527,
     description:
       "A brave Resistance Attacker who can Stun and grant allies buffs.",
     combat_type: 1,
@@ -14651,7 +14476,6 @@ const units = [
     pk: 18,
     url: "http://swgoh.gg/characters/royal-guard/",
     image: "https://game-assets.swgoh.gg/tex.charui_royalguard.png",
-    power: 33742,
     description:
       "Versatile Empire Tank that punishes enemies for attacking other allies",
     combat_type: 1,
@@ -14723,7 +14547,6 @@ const units = [
     pk: 231,
     url: "http://swgoh.gg/characters/sabine-wren/",
     image: "https://game-assets.swgoh.gg/tex.charui_sabine_s3.png",
-    power: 34527,
     description:
       "Aggressive Phoenix Attacker that permanently strips Defense and punishes slower enemies",
     combat_type: 1,
@@ -14804,7 +14627,6 @@ const units = [
     pk: 137,
     url: "http://swgoh.gg/characters/savage-opress/",
     image: "https://game-assets.swgoh.gg/tex.charui_savageopress.png",
-    power: 34527,
     description:
       "Durable Attacker that crushes low-health units and becomes stronger when attacked",
     combat_type: 1,
@@ -14886,7 +14708,6 @@ const units = [
     pk: 210,
     url: "http://swgoh.gg/characters/scarif-rebel-pathfinder/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebel_scarif.png",
-    power: 31546,
     description: "Steadfast Rebel Tank who debuffs, Taunts, and self-revives",
     combat_type: 1,
     gear_levels: [
@@ -14965,7 +14786,6 @@ const units = [
     pk: 2700,
     url: "http://swgoh.gg/characters/second-sister/",
     image: "https://game-assets.swgoh.gg/tex.charui_secondsister.png",
-    power: 35101,
     description:
       "Ruthless Inquisitor Attacker that specializes in eliminating Jedi",
     combat_type: 1,
@@ -15051,7 +14871,6 @@ const units = [
     pk: 351,
     url: "http://swgoh.gg/characters/shaak-ti/",
     image: "https://game-assets.swgoh.gg/tex.charui_shaakti.png",
-    power: 37507,
     description: "Inspiring Jedi Leader with heightened reflexes",
     combat_type: 1,
     gear_levels: [
@@ -15136,7 +14955,6 @@ const units = [
     pk: 212,
     url: "http://swgoh.gg/characters/shoretrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_troopershore.png",
-    power: 31546,
     description:
       "Empire Tank who enters battle with Taunt, heals allies, and grants them Critical Hit Immunity",
     combat_type: 1,
@@ -15214,7 +15032,6 @@ const units = [
     pk: 224,
     url: "http://swgoh.gg/characters/sith-assassin/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithassassin.png",
-    power: 31546,
     description: "Elusive Sith Attacker with Stealth synergy",
     combat_type: 1,
     gear_levels: [
@@ -15295,7 +15112,6 @@ const units = [
     pk: 223,
     url: "http://swgoh.gg/characters/sith-empire-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithtrooper.png",
-    power: 31546,
     description: "Sith Tank who Taunts and ignores enemy Protection",
     combat_type: 1,
     gear_levels: [
@@ -15374,7 +15190,6 @@ const units = [
     pk: 596,
     url: "http://swgoh.gg/characters/sith-eternal-emperor/",
     image: "https://game-assets.swgoh.gg/tex.charui_espalpatine_pre.png",
-    power: 47076,
     description:
       "Cunning Emperor of the Sith that eliminates his enemies with the overwhelming power of the dark side",
     combat_type: 1,
@@ -15467,7 +15282,6 @@ const units = [
     pk: 256,
     url: "http://swgoh.gg/characters/sith-marauder/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithmarauder.png",
-    power: 31546,
     description:
       "Destructive Sith Attacker that takes advantage of all buffs and debuffs in battle",
     combat_type: 1,
@@ -15544,7 +15358,6 @@ const units = [
     pk: 405,
     url: "http://swgoh.gg/characters/sith-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorder_sithtrooper.png",
-    power: 34527,
     description:
       "Elite trooper with powerful First Order and Sith synergy and high damage potential.",
     combat_type: 1,
@@ -15630,7 +15443,6 @@ const units = [
     pk: 162,
     url: "http://swgoh.gg/characters/snowtrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_troopersnow.png",
-    power: 31546,
     description:
       "Empire Attacker that becomes faster and stronger as enemies are defeated",
     combat_type: 1,
@@ -15707,7 +15519,6 @@ const units = [
     pk: 2476,
     url: "http://swgoh.gg/characters/starkiller/",
     image: "https://game-assets.swgoh.gg/tex.charui_starkiller.png",
-    power: 36877,
     description:
       "A powerful Dark Side Force User whose inner conflict lifts up other Force Users",
     combat_type: 1,
@@ -15795,7 +15606,6 @@ const units = [
     pk: 55,
     url: "http://swgoh.gg/characters/stormtrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperstorm.png",
-    power: 33742,
     description:
       "Empire Tank that can Taunt and surprise enemies with unpredictable damage",
     combat_type: 1,
@@ -15867,7 +15677,6 @@ const units = [
     pk: 202,
     url: "http://swgoh.gg/characters/stormtrooper-han/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperstorm_han.png",
-    power: 34317,
     description:
       "Versatile tank able to surprise enemies with sudden Turn Meter changes and Offense boosts",
     combat_type: 1,
@@ -15951,7 +15760,6 @@ const units = [
     pk: 192,
     url: "http://swgoh.gg/characters/sun-fac/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_sunfac.png",
-    power: 32331,
     description:
       "Geonosian Tank who punishes attackers with a variety of negative effects",
     combat_type: 1,
@@ -16034,7 +15842,6 @@ const units = [
     pk: 441,
     url: "http://swgoh.gg/characters/supreme-leader-kylo-ren/",
     image: "https://game-assets.swgoh.gg/tex.charui_kyloren_tros.png",
-    power: 47076,
     description:
       "Destructive Leader of the First Order who overpowers his enemies with brutal attacks",
     combat_type: 1,
@@ -16133,7 +15940,6 @@ const units = [
     pk: 286,
     url: "http://swgoh.gg/characters/t3-m4/",
     image: "https://game-assets.swgoh.gg/tex.charui_t3m4.png",
-    power: 37507,
     description:
       "Offensive Droid who supports a Droid team with extra stats and debuffs the enemy team",
     combat_type: 1,
@@ -16215,7 +16021,6 @@ const units = [
     pk: 197,
     url: "http://swgoh.gg/characters/talia/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsister_talia.png",
-    power: 32121,
     description:
       "Aggressive Healer that sacrifices Health so allies can recover Health and Turn Meter",
     combat_type: 1,
@@ -16294,7 +16099,6 @@ const units = [
     pk: 1003,
     url: "http://swgoh.gg/characters/tech/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb_tech.png",
-    power: 34527,
     description:
       "Stealthy support character that gives Translation to other Clone Troopers and applies Target Lock to enemies.",
     combat_type: 1,
@@ -16379,7 +16183,6 @@ const units = [
     pk: 168,
     url: "http://swgoh.gg/characters/teebo/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_teebo.png",
-    power: 32331,
     description:
       "Ewok stealth character with stealth synergies and some control ability.",
     combat_type: 1,
@@ -16456,7 +16259,6 @@ const units = [
     pk: 798,
     url: "http://swgoh.gg/characters/the-armorer/",
     image: "https://game-assets.swgoh.gg/tex.charui_armorer.png",
-    power: 35311,
     description:
       "A Mandalorian leader and support unit that collects beskar to buff her team and rally them.",
     combat_type: 1,
@@ -16535,7 +16337,6 @@ const units = [
     pk: 447,
     url: "http://swgoh.gg/characters/the-mandalorian/",
     image: "https://game-assets.swgoh.gg/tex.charui_mandalorian.png",
-    power: 37507,
     description:
       "Powerful Mandalorian bounty hunter who relies on critical hits to overwhelm his enemies",
     combat_type: 1,
@@ -16630,7 +16431,6 @@ const units = [
     pk: 724,
     url: "http://swgoh.gg/characters/the-mandalorian-beskar-armor/",
     image: "https://game-assets.swgoh.gg/tex.charui_mandobeskar.png",
-    power: 37507,
     description:
       "Fearless Scoundrel leader who hunts down enemies to protect his allies",
     combat_type: 1,
@@ -16724,7 +16524,6 @@ const units = [
     pk: 509,
     url: "http://swgoh.gg/characters/threepio-chewie/",
     image: "https://game-assets.swgoh.gg/tex.charui_chewbacca_c3po.png",
-    power: 34527,
     description:
       "Rebel Attacker duo that can distract their enemies with Blind and deal significant damage to all enemies in multi-encounter battles",
     combat_type: 1,
@@ -16813,7 +16612,6 @@ const units = [
     pk: 124,
     url: "http://swgoh.gg/characters/tie-fighter-pilot/",
     image: "https://game-assets.swgoh.gg/tex.charui_tiepilot.png",
-    power: 31546,
     description:
       "Empire Attacker who inflicts Buff Immunity and gains Foresight",
     combat_type: 1,
@@ -16899,7 +16697,6 @@ const units = [
     pk: 43,
     url: "http://swgoh.gg/characters/tusken-raider/",
     image: "https://game-assets.swgoh.gg/tex.charui_tuskenraider.png",
-    power: 31546,
     description:
       "Durable Attacker with Tusken Synergy and a strong Assist attack",
     combat_type: 1,
@@ -16971,7 +16768,6 @@ const units = [
     pk: 39,
     url: "http://swgoh.gg/characters/tusken-shaman/",
     image: "https://game-assets.swgoh.gg/tex.charui_tuskenshaman.png",
-    power: 31546,
     description:
       "Offensive Healer that can also boost Offense and rapidly stack Damage Over Time effects",
     combat_type: 1,
@@ -17043,7 +16839,6 @@ const units = [
     pk: 58,
     url: "http://swgoh.gg/characters/ugnaught/",
     image: "https://game-assets.swgoh.gg/tex.charui_ugnaught.png",
-    power: 31336,
     description:
       "Anti-Droid Support with AoE damage and high Evasion against Droids",
     combat_type: 1,
@@ -17115,7 +16910,6 @@ const units = [
     pk: 125,
     url: "http://swgoh.gg/characters/urorrurrr/",
     image: "https://game-assets.swgoh.gg/tex.charui_urorrurrr.png",
-    power: 32121,
     description:
       "Tusken Support that can Stun frequently and speed up Tuskens for surprise attacks",
     combat_type: 1,
@@ -17193,7 +16987,6 @@ const units = [
     pk: 266,
     url: "http://swgoh.gg/characters/vandor-chewbacca/",
     image: "https://game-assets.swgoh.gg/tex.charui_chewbacca_vandor.png",
-    power: 34527,
     description:
       "Aggressive Scoundrel Tank that provides Protection Recovery for his allies when they are attacked",
     combat_type: 1,
@@ -17272,7 +17065,6 @@ const units = [
     pk: 240,
     url: "http://swgoh.gg/characters/veteran-smuggler-chewbacca/",
     image: "https://game-assets.swgoh.gg/tex.charui_tfa_chewbacca.png",
-    power: 34527,
     description:
       "Lumbering attacker who accumulates Offensive capabilities as enemies take actions",
     combat_type: 1,
@@ -17359,7 +17151,6 @@ const units = [
     pk: 241,
     url: "http://swgoh.gg/characters/veteran-smuggler-han-solo/",
     image: "https://game-assets.swgoh.gg/tex.charui_tfa_han.png",
-    power: 34527,
     description:
       "Scoundrel Attacker with multi-attack and multiple devastating debuffs",
     combat_type: 1,
@@ -17440,7 +17231,6 @@ const units = [
     pk: 257,
     url: "http://swgoh.gg/characters/visas-marr/",
     image: "https://game-assets.swgoh.gg/tex.charui_visas.png",
-    power: 34527,
     description: "Offensive Healer with strong anti-Sith synergy",
     combat_type: 1,
     gear_levels: [
@@ -17518,7 +17308,6 @@ const units = [
     pk: 249,
     url: "http://swgoh.gg/characters/wampa/",
     image: "https://game-assets.swgoh.gg/tex.charui_wampa.png",
-    power: 37507,
     description:
       "Fearsome predator from Hoth that attacks constantly with increasing strength",
     combat_type: 1,
@@ -17602,7 +17391,6 @@ const units = [
     pk: 360,
     url: "http://swgoh.gg/characters/wat-tambor/",
     image: "https://game-assets.swgoh.gg/tex.charui_wattambor.png",
-    power: 34527,
     description:
       "Separatist Support who distributes powerful Tech to his allies",
     combat_type: 1,
@@ -17682,7 +17470,6 @@ const units = [
     pk: 191,
     url: "http://swgoh.gg/characters/wedge-antilles/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebelpilot_wedge.png",
-    power: 32121,
     description: "Rebel Attacker with a strong offensive opening",
     combat_type: 1,
     gear_levels: [
@@ -17760,7 +17547,6 @@ const units = [
     pk: 105,
     url: "http://swgoh.gg/characters/wicket/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_wicket.png",
-    power: 34527,
     description:
       "Jittery Ewok Attacker with Critical Hit and Stealth synergies",
     combat_type: 1,
@@ -17839,7 +17625,6 @@ const units = [
     pk: 1031,
     url: "http://swgoh.gg/characters/wrecker/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb_wrecker.png",
-    power: 34527,
     description:
       "Resilient Clone Trooper who protects his allies and gets empowered when taking damage",
     combat_type: 1,
@@ -17930,7 +17715,6 @@ const units = [
     pk: 267,
     url: "http://swgoh.gg/characters/young-han-solo/",
     image: "https://game-assets.swgoh.gg/tex.charui_han_young.png",
-    power: 34527,
     description: "Scoundrel Attacker who becomes more deadly over time",
     combat_type: 1,
     gear_levels: [
@@ -18007,7 +17791,6 @@ const units = [
     pk: 277,
     url: "http://swgoh.gg/characters/young-lando-calrissian/",
     image: "https://game-assets.swgoh.gg/tex.charui_younglando.png",
-    power: 34527,
     description:
       "Scoundrel Attacker that takes advantage of debuffed enemies and deals ever-increasing damage",
     combat_type: 1,
@@ -18088,7 +17871,6 @@ const units = [
     pk: 288,
     url: "http://swgoh.gg/characters/zaalbar/",
     image: "https://game-assets.swgoh.gg/tex.charui_zaalbar.png",
-    power: 34527,
     description:
       "Versatile Scoundrel Tank with a powerful AoE attack and reactive Taunt",
     combat_type: 1,
@@ -18160,7 +17942,6 @@ const units = [
     pk: 208,
     url: "http://swgoh.gg/characters/zam-wesell/",
     image: "https://game-assets.swgoh.gg/tex.charui_zamwesell.png",
-    power: 36096,
     description:
       "Lightning fast Scoundrel attacker that inflicts Evasion Down and detonates bombs.",
     combat_type: 1,
@@ -18241,7 +18022,6 @@ const units = [
     pk: 2818,
     url: "http://swgoh.gg/characters/ninth-sister/",
     image: "https://game-assets.swgoh.gg/tex.charui_ninthsister.png",
-    power: 37507,
     description:
       "A ruthless member of the feared Inquisitorius who will stop at nothing in her hunt for the Jedi",
     combat_type: 1,
@@ -18328,6 +18108,106 @@ const units = [
     ship_slot: null,
     activate_shard_count: 25,
   },
+  {
+    name: "Seventh Sister",
+    base_id: "SEVENTHSISTER",
+    pk: 3048,
+    url: "http://swgoh.gg/characters/seventh-sister/",
+    image: "https://game-assets.swgoh.gg/tex.charui_seventhsister.png",
+    description: "Inquisitorius Healer that helps her squad eliminate the Jedi",
+    combat_type: 1,
+    gear_levels: [
+      {
+        tier: 1,
+        gear: ["001", "006", "003", "004", "008", "005"],
+      },
+      {
+        tier: 2,
+        gear: ["025", "012", "015", "028", "029", "034"],
+      },
+      {
+        tier: 3,
+        gear: ["069", "060", "053", "043", "069", "049"],
+      },
+      {
+        tier: 4,
+        gear: ["042", "041", "019", "043", "048", "074"],
+      },
+      {
+        tier: 5,
+        gear: ["093", "043", "042", "041", "079", "093"],
+      },
+      {
+        tier: 6,
+        gear: ["079", "043", "047", "092", "093", "097"],
+      },
+      {
+        tier: 7,
+        gear: ["025", "092", "106", "034", "107", "029"],
+      },
+      {
+        tier: 8,
+        gear: ["117", "069", "079", "108", "112", "118"],
+      },
+      {
+        tier: 9,
+        gear: ["112", "110", "079", "172", "106", "118"],
+      },
+      {
+        tier: 10,
+        gear: ["113", "119", "117", "079", "172", "144"],
+      },
+      {
+        tier: 11,
+        gear: ["173", "117", "112", "141", "153", "144"],
+      },
+      {
+        tier: 12,
+        gear: [
+          "162",
+          "160",
+          "165",
+          "167",
+          "171",
+          "G12Finisher_SEVENTHSISTER_B",
+        ],
+      },
+      {
+        tier: 13,
+        gear: ["9999", "9999", "9999", "9999", "9999", "9999"],
+      },
+    ],
+    alignment: "Dark Side",
+    categories: [
+      "Empire",
+      "Healer",
+      "Inquisitorius",
+      "Leader",
+      "Unaligned Force User",
+    ],
+    ability_classes: [
+      "Ability Block",
+      "Advantage",
+      "Assist",
+      "Counter",
+      "Daze",
+      "Dispel",
+      "Evasion Up",
+      "Foresight",
+      "Heal",
+      "Healing Immunity",
+      "Leader: +Evasion",
+      "Leader: Foresight",
+      "Offense Down",
+      "Offense Up",
+      "Remove Turn Meter",
+      "Speed Down",
+    ],
+    role: "Leader",
+    ship: "",
+    ship_slot: null,
+    activate_shard_count: 25,
+  },
 ];
 
 const ships = [
@@ -18336,7 +18216,6 @@ const ships = [
     id: "JEDISTARFIGHTERAHSOKATANO",
     url: "http://swgoh.gg/ships/ahsoka-tanos-jedi-starfighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_jedi_fighter_ahsoka.png",
-    power: 84995,
     description:
       "Versatile Jedi Attacker that uses dispels and buffs to adapt to the battle",
     combat_type: 2,
@@ -18357,7 +18236,6 @@ const ships = [
     id: "JEDISTARFIGHTERANAKIN",
     url: "http://swgoh.gg/ships/anakins-eta-2-starfighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_jedi_fighter_anakin.png",
-    power: 84995,
     description:
       "Aggressive Jedi Attacker that bolsters Offense and retaliates when allies are in trouble",
     combat_type: 2,
@@ -18380,7 +18258,6 @@ const ships = [
     url: "http://swgoh.gg/ships/b-28-extinction-class-bomber/",
     image:
       "https://game-assets.swgoh.gg/tex.charui_b28extinctionclassbomber.png",
-    power: 78288,
     description:
       "Aggressive Sith Tank with a passive Taunt and self-preservation tactics",
     combat_type: 2,
@@ -18396,7 +18273,6 @@ const ships = [
     id: "XWINGRED3",
     url: "http://swgoh.gg/ships/biggs-darklighters-x-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_xwing_red3.png",
-    power: 78288,
     description:
       "Heroic Rebel Tank that can exploit Target Lock for Taunts and Assists",
     combat_type: 2,
@@ -18412,7 +18288,6 @@ const ships = [
     id: "UWINGSCARIF",
     url: "http://swgoh.gg/ships/bistans-u-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_uwing.png",
-    power: 94044,
     description:
       "Elusive Rebel Support that boosts ally Turn Meter while using Stealth and Target Lock",
     combat_type: 2,
@@ -18428,7 +18303,6 @@ const ships = [
     id: "YWINGCLONEWARS",
     url: "http://swgoh.gg/ships/btl-b-y-wing-starfighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_ywing_btlb.png",
-    power: 45142,
     description:
       "Galactic Republic Tank that can withstand significant damage and Taunts when its allies are in need",
     combat_type: 2,
@@ -18444,7 +18318,6 @@ const ships = [
     id: "UWINGROGUEONE",
     url: "http://swgoh.gg/ships/cassians-u-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_uwing_hero.png",
-    power: 104783,
     description:
       "Evasive Rebel Support ship that turns the tide of battle with Stealth and Turn Meter manipulation",
     combat_type: 2,
@@ -18467,7 +18340,6 @@ const ships = [
     id: "CAPITALCHIMAERA",
     url: "http://swgoh.gg/ships/chimaera/",
     image: "https://game-assets.swgoh.gg/tex.charui_chimaera.png",
-    power: 90288,
     description:
       "Tactical Empire Capital Ship that shuts down enemy Capital Ships and manipulates the flow of battle",
     combat_type: 2,
@@ -18495,7 +18367,6 @@ const ships = [
     id: "ARC170CLONESERGEANT",
     url: "http://swgoh.gg/ships/clone-sergeants-arc-170/",
     image: "https://game-assets.swgoh.gg/tex.charui_arc170.png",
-    power: 78288,
     description:
       "Reliable Clone Tank that both inflicts and exploits Target Lock",
     combat_type: 2,
@@ -18511,7 +18382,6 @@ const ships = [
     id: "EBONHAWK",
     url: "http://swgoh.gg/ships/ebon-hawk/",
     image: "https://game-assets.swgoh.gg/tex.charui_ebonhawk.png",
-    power: 105339,
     description:
       "Durable Old Republic Support that dispels enemies and prevents Target Lock",
     combat_type: 2,
@@ -18534,7 +18404,6 @@ const ships = [
     id: "EMPERORSSHUTTLE",
     url: "http://swgoh.gg/ships/emperors-shuttle/",
     image: "https://game-assets.swgoh.gg/tex.charui_imperialshuttle.png",
-    power: 104280,
     description:
       "Versatile Support that boosts Empire and Sith survivability while debuffing enemies",
     combat_type: 2,
@@ -18550,7 +18419,6 @@ const ships = [
     id: "CAPITALJEDICRUISER",
     url: "http://swgoh.gg/ships/endurance/",
     image: "https://game-assets.swgoh.gg/tex.charui_venator.png",
-    power: 78170,
     description:
       "Defensive Jedi Capital Ship that uses Valor to gain a huge Speed advantage",
     combat_type: 2,
@@ -18566,7 +18434,6 @@ const ships = [
     id: "CAPITALEXECUTOR",
     url: "http://swgoh.gg/ships/executor/",
     image: "https://game-assets.swgoh.gg/tex.charui_executor.png",
-    power: 90288,
     description: "Empire Capital Ship with strong Bounty Hunter synergy.",
     combat_type: 2,
     alignment: "Dark Side",
@@ -18591,7 +18458,6 @@ const ships = [
     id: "CAPITALSTARDESTROYER",
     url: "http://swgoh.gg/ships/executrix/",
     image: "https://game-assets.swgoh.gg/tex.charui_stardestroyer.png",
-    power: 90288,
     description: "Aggressive Empire Capital Ship that crushes debuffed enemies",
     combat_type: 2,
     alignment: "Dark Side",
@@ -18614,7 +18480,6 @@ const ships = [
     id: "CAPITALFINALIZER",
     url: "http://swgoh.gg/ships/finalizer/",
     image: "https://game-assets.swgoh.gg/tex.charui_finalizer.png",
-    power: 85347,
     description:
       "First Order Capital Ship that enables the First Order fleet to have an early game advantage and relentlessly pursue enemies",
     combat_type: 2,
@@ -18637,7 +18502,6 @@ const ships = [
     id: "TIEFIGHTERFOSF",
     url: "http://swgoh.gg/ships/first-order-sf-tie-fighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_fosf_tie_fighter.png",
-    power: 78288,
     description:
       "Superior First Order Attacker that has multiple offensive capabilities and inflicts multiple debuffs",
     combat_type: 2,
@@ -18653,7 +18517,6 @@ const ships = [
     id: "TIEFIGHTERFIRSTORDER",
     url: "http://swgoh.gg/ships/first-order-tie-fighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorder_tiefighter.png",
-    power: 83229,
     description:
       "Aggressive First Order Attacker with reliable Target Lock and rapid-fire Special ability",
     combat_type: 2,
@@ -18669,7 +18532,6 @@ const ships = [
     id: "GAUNTLETSTARFIGHTER",
     url: "http://swgoh.gg/ships/gauntlet-starfighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_gauntlet.png",
-    power: 97292,
     description:
       "Reliable Empire Support that dispels ally debuffs and prevents enemy buffs",
     combat_type: 2,
@@ -18686,7 +18548,6 @@ const ships = [
     url: "http://swgoh.gg/ships/geonosian-soldiers-starfighter/",
     image:
       "https://game-assets.swgoh.gg/tex.charui_geonosis_fighter_soldier.png",
-    power: 78288,
     description:
       "Aggressive Separatist Attacker that can Assist allies automatically",
     combat_type: 2,
@@ -18707,7 +18568,6 @@ const ships = [
     id: "GEONOSIANSTARFIGHTER3",
     url: "http://swgoh.gg/ships/geonosian-spys-starfighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosis_fighter_spy.png",
-    power: 80054,
     description:
       "Elusive Separatist Attacker that uses Stealth for both offense and defense",
     combat_type: 2,
@@ -18723,7 +18583,6 @@ const ships = [
     id: "GHOST",
     url: "http://swgoh.gg/ships/ghost/",
     image: "https://game-assets.swgoh.gg/tex.charui_ghost.png",
-    power: 102101,
     description:
       "Elusive Rebel attacker that reduces enemy Potency and wreaks havok with Rebel allies",
     combat_type: 2,
@@ -18739,7 +18598,6 @@ const ships = [
     id: "MILLENNIUMFALCON",
     url: "http://swgoh.gg/ships/hans-millennium-falcon/",
     image: "https://game-assets.swgoh.gg/tex.charui_mfalcon.png",
-    power: 105339,
     description:
       "Highly-modified Rebel Attacker that specializes in assists and shows up at just the right time",
     combat_type: 2,
@@ -18756,7 +18614,6 @@ const ships = [
     url: "http://swgoh.gg/ships/home-one/",
     image:
       "https://game-assets.swgoh.gg/tex.charui_moncalamarilibertycruiser.png",
-    power: 78170,
     description:
       "Versatile Rebel Capital Ship that uses Advantage and bonus attacks to turn the tide",
     combat_type: 2,
@@ -18779,7 +18636,6 @@ const ships = [
     id: "HOUNDSTOOTH",
     url: "http://swgoh.gg/ships/hounds-tooth/",
     image: "https://game-assets.swgoh.gg/tex.charui_houndstooth.png",
-    power: 93466,
     description: "Sustainable Bounty Hunter Tank that debilitates enemies",
     combat_type: 2,
     alignment: "Dark Side",
@@ -18794,7 +18650,6 @@ const ships = [
     id: "HYENABOMBER",
     url: "http://swgoh.gg/ships/hyena-bomber/",
     image: "https://game-assets.swgoh.gg/tex.charui_hyenabomber.png",
-    power: 45142,
     description:
       "Robust Separatist Tank that inflicts Buzz Droids and protects allies",
     combat_type: 2,
@@ -18810,7 +18665,6 @@ const ships = [
     id: "IG2000",
     url: "http://swgoh.gg/ships/ig-2000/",
     image: "https://game-assets.swgoh.gg/tex.charui_ig2000.png",
-    power: 86759,
     description:
       "Aggressive Bounty Hunter Attacker that deals massive damage to Breached enemies",
     combat_type: 2,
@@ -18826,7 +18680,6 @@ const ships = [
     id: "TIEBOMBERIMPERIAL",
     url: "http://swgoh.gg/ships/imperial-tie-bomber/",
     image: "https://game-assets.swgoh.gg/tex.charui_tiebomber.png",
-    power: 45142,
     description:
       "Debilitating Empire Tank that inflicts Burning, cripples enemies' Offense, and provides heavy defensive capability.",
     combat_type: 2,
@@ -18842,7 +18695,6 @@ const ships = [
     id: "TIEFIGHTERIMPERIAL",
     url: "http://swgoh.gg/ships/imperial-tie-fighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_tiefighter.png",
-    power: 78288,
     description:
       "Evasive Empire Attacker that both inflicts and exploits Target Lock",
     combat_type: 2,
@@ -18858,7 +18710,6 @@ const ships = [
     id: "JEDISTARFIGHTERCONSULAR",
     url: "http://swgoh.gg/ships/jedi-consulars-starfighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_jedi_fighter.png",
-    power: 78288,
     description:
       "Defensive Jedi Support that can rapidly restore ally Protection",
     combat_type: 2,
@@ -18874,7 +18725,6 @@ const ships = [
     id: "COMMANDSHUTTLE",
     url: "http://swgoh.gg/ships/kylo-rens-command-shuttle/",
     image: "https://game-assets.swgoh.gg/tex.charui_upsilon_shuttle_kylo.png",
-    power: 101394,
     description:
       "Durable First Order Support with unparalleled ability to manipulate allied Turn Meter",
     combat_type: 2,
@@ -18896,7 +18746,6 @@ const ships = [
     id: "MILLENNIUMFALCONPRISTINE",
     url: "http://swgoh.gg/ships/landos-millennium-falcon/",
     image: "https://game-assets.swgoh.gg/tex.charui_mil_fal_pristine.png",
-    power: 98433,
     description:
       "Devastating Scoundrel attacker that becomes more threatening after each ally reinforcement",
     combat_type: 2,
@@ -18912,7 +18761,6 @@ const ships = [
     id: "CAPITALMALEVOLENCE",
     url: "http://swgoh.gg/ships/malevolence/",
     image: "https://game-assets.swgoh.gg/tex.charui_malevolence.png",
-    power: 90288,
     description:
       "Separatist Capital Ship that powers up both Separatists and Droids and has the means to shut down entire enemy fleets.",
     combat_type: 2,
@@ -18936,7 +18784,6 @@ const ships = [
     id: "CAPITALNEGOTIATOR",
     url: "http://swgoh.gg/ships/negotiator/",
     image: "https://game-assets.swgoh.gg/tex.charui_negotiator.png",
-    power: 84875,
     description:
       "Offensive Jedi Capital Ship that uses Valor to bolster ally attacks and increase its Speed",
     combat_type: 2,
@@ -18961,7 +18808,6 @@ const ships = [
     id: "PHANTOM2",
     url: "http://swgoh.gg/ships/phantom-ii/",
     image: "https://game-assets.swgoh.gg/tex.charui_phantom2.png",
-    power: 100125,
     description:
       "Evasive Rebel attacker that provides as a decoy for the Ghost while applying buffs to allies",
     combat_type: 2,
@@ -18985,7 +18831,6 @@ const ships = [
     url: "http://swgoh.gg/ships/plo-koons-jedi-starfighter/",
     image:
       "https://game-assets.swgoh.gg/tex.charui_jedi_fighter_bladeofdorin.png",
-    power: 79581,
     description:
       "Versatile Jedi Support with powerful Republic buffs and a targeted ally Taunt",
     combat_type: 2,
@@ -19001,7 +18846,6 @@ const ships = [
     id: "XWINGBLACKONE",
     url: "http://swgoh.gg/ships/poe-damerons-x-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_xwing_blackone.png",
-    power: 79581,
     description:
       "Heroic Resistance Attacker that can exploit Turn Meter and punish enemies without Protection",
     combat_type: 2,
@@ -19023,7 +18867,6 @@ const ships = [
     id: "CAPITALRADDUS",
     url: "http://swgoh.gg/ships/raddus/",
     image: "https://game-assets.swgoh.gg/tex.charui_raddus.png",
-    power: 83583,
     description:
       "Supportive Resistance Capital Ship that will do whatever is necessary to protect the fleet",
     combat_type: 2,
@@ -19049,7 +18892,6 @@ const ships = [
     id: "RAZORCREST",
     url: "http://swgoh.gg/ships/razor-crest/",
     image: "https://game-assets.swgoh.gg/tex.charui_razorcrest.png",
-    power: 92484,
     description: "Tenacious Bounty Hunter attacker with Breach synergy.",
     combat_type: 2,
     alignment: "Light Side",
@@ -19071,7 +18913,6 @@ const ships = [
     id: "YWINGREBEL",
     url: "http://swgoh.gg/ships/rebel-y-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_ywing.png",
-    power: 45142,
     description: "Sturdy Rebel Tank that can disable enemy Protection",
     combat_type: 2,
     alignment: "Light Side",
@@ -19086,7 +18927,6 @@ const ships = [
     id: "XWINGRESISTANCE",
     url: "http://swgoh.gg/ships/resistance-x-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_xwing_resistance.png",
-    power: 77815,
     description:
       "Aggressive Resistance Support that shuts down enemies with Expose, Target Lock, and Daze",
     combat_type: 2,
@@ -19108,7 +18948,6 @@ const ships = [
     id: "ARC170REX",
     url: "http://swgoh.gg/ships/rexs-arc-170/",
     image: "https://game-assets.swgoh.gg/tex.charui_arc170_02.png",
-    power: 86759,
     description:
       "Defensive Clone Tank that can inflict Target Lock and boost ally Protection and Tenacity",
     combat_type: 2,
@@ -19124,7 +18963,6 @@ const ships = [
     id: "MILLENNIUMFALCONEP7",
     url: "http://swgoh.gg/ships/reys-millennium-falcon/",
     image: "https://game-assets.swgoh.gg/tex.charui_mfalcon_ep7.png",
-    power: 101316,
     description:
       "Daring Resistance freighter that can turn the tide by sacrificing buffs",
     combat_type: 2,
@@ -19140,7 +18978,6 @@ const ships = [
     id: "SITHINFILTRATOR",
     url: "http://swgoh.gg/ships/scimitar/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithinfiltrator.png",
-    power: 84995,
     description:
       "Deadly Sith Support that can Stealth allies to set up devastating attacks",
     combat_type: 2,
@@ -19156,7 +18993,6 @@ const ships = [
     id: "SITHFIGHTER",
     url: "http://swgoh.gg/ships/sith-fighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithfighter.png",
-    power: 75405,
     description: "Agile Sith Attacker that bypasses enemy defenses",
     combat_type: 2,
     alignment: "Dark Side",
@@ -19171,7 +19007,6 @@ const ships = [
     id: "SLAVE1",
     url: "http://swgoh.gg/ships/slave-i/",
     image: "https://game-assets.swgoh.gg/tex.charui_slave1.png",
-    power: 89310,
     description:
       "Deadly Bounty Hunter Attacker that inflicts and exploits Target Lock for high area-of-effect damage",
     combat_type: 2,
@@ -19196,7 +19031,6 @@ const ships = [
     url: "http://swgoh.gg/ships/sun-facs-geonosian-starfighter/",
     image:
       "https://game-assets.swgoh.gg/tex.charui_geonosis_fighter_sunfac.png",
-    power: 80054,
     description:
       "Punishing Separatist Tank that automatically Taunts against buffed enemies",
     combat_type: 2,
@@ -19212,7 +19046,6 @@ const ships = [
     id: "TIEADVANCED",
     url: "http://swgoh.gg/ships/tie-advanced-x1/",
     image: "https://game-assets.swgoh.gg/tex.charui_tieadvanced.png",
-    power: 98407,
     description:
       "Fearsome Empire Attacker that shuts enemies down with stacking debuffs and permanent Target Locks",
     combat_type: 2,
@@ -19228,7 +19061,6 @@ const ships = [
     id: "TIEREAPER",
     url: "http://swgoh.gg/ships/tie-reaper/",
     image: "https://game-assets.swgoh.gg/tex.charui_tiereaper.png",
-    power: 97292,
     description:
       "Defensive Empire Support that Dispels, delays cooldowns, and removes Turn Meter from the enemy Capital Ship",
     combat_type: 2,
@@ -19250,7 +19082,6 @@ const ships = [
     id: "TIESILENCER",
     url: "http://swgoh.gg/ships/tie-silencer/",
     image: "https://game-assets.swgoh.gg/tex.charui_tie_silencer.png",
-    power: 91700,
     description:
       "Superior First Order Attacker that gains unlimited speed and deals massive damage",
     combat_type: 2,
@@ -19274,7 +19105,6 @@ const ships = [
     url: "http://swgoh.gg/ships/tiein-interceptor-prototype/",
     image:
       "https://game-assets.swgoh.gg/tex.charui_tie_interceptor_prototype.png",
-    power: 87071,
     description:
       "Imperial fast-attack craft that is as nimble as it is deadly. Second Sister's force powers allow her to perform maneuvers many would consider unnatural.",
     combat_type: 2,
@@ -19296,7 +19126,6 @@ const ships = [
     id: "UMBARANSTARFIGHTER",
     url: "http://swgoh.gg/ships/umbaran-starfighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_umbaran_star_fighter.png",
-    power: 91700,
     description:
       "Risky Clone Tank that inflicts great damage and debuffs, but grants Turn Meter to enemies",
     combat_type: 2,
@@ -19320,7 +19149,6 @@ const ships = [
     id: "VULTUREDROID",
     url: "http://swgoh.gg/ships/vulture-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_vulturedroid.png",
-    power: 45142,
     description:
       "Persistent Separatist Attacker that inflicts Buzz Droids and is replaced when defeated",
     combat_type: 2,
@@ -19343,7 +19171,6 @@ const ships = [
     id: "XWINGRED2",
     url: "http://swgoh.gg/ships/wedge-antilless-x-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_xwing_red2.png",
-    power: 79581,
     description:
       "Aggressive Rebel Attacker that overwhelms enemies with debuffs",
     combat_type: 2,
@@ -19364,7 +19191,6 @@ const ships = [
     id: "XANADUBLOOD",
     url: "http://swgoh.gg/ships/xanadu-blood/",
     image: "https://game-assets.swgoh.gg/tex.charui_xanadublood.png",
-    power: 81818,
     description:
       "Debilitating Bounty Hunter Support that shuts down enemy offenses",
     combat_type: 2,
@@ -19384,9 +19210,7 @@ const ships = [
 ];
 
 module.exports = [
-  ...units.map(({ power, ...x }) => {
-    return { ...x };
-  }),
+  ...units,
   ...ships.map(({ power, ...x }) => {
     return { ...x, is_ship: true };
   }),
