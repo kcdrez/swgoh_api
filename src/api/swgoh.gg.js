@@ -3,7 +3,7 @@ const axios = require("axios");
 const baseUrl = "https://swgoh.gg/api";
 
 class apiClient {
-  constructor() {}
+  constructor() { }
 
   async fetchPlayer(allyCode) {
     const response = await axios.get(baseUrl + "/player/" + allyCode);
@@ -39,6 +39,11 @@ class apiClient {
       role = member.member_level;
     }
     return { role };
+  }
+
+  async fetchGuild(guildId) {
+    const response = await axios.get(baseUrl + "/guild/" + guildId);
+    return response.data
   }
 }
 
