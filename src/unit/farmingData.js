@@ -3559,13 +3559,6 @@ const galacticLegends = {
           },
         },
         {
-          id: "BOKATAN",
-          requirement: {
-            value: 5,
-            type: "Relic",
-          },
-        },
-        {
           id: "PADMEAMIDALA",
           requirement: {
             value: 8,
