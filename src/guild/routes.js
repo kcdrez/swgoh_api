@@ -95,11 +95,14 @@ routes.get("/:guildId/:unitId", async (req, res) => {
       unowned: []
     }
 
+    const unitList = []
+
     guildData.players.forEach(player => {
       const unitMatch = player.units.find(unitEl => {
         return unitEl.data.base_id === req.params.unitId
       })
       if (unitMatch) {
+        unitList.push(unitMatch.data)
         const equipped = unitMatch.data.gear.filter(x => x.is_obtained).length;
         const gearLevel = unitMatch.data.gear_level + (equipped / 10);
         const relicLevel = unitMatch.data.relic_tier - 2;
@@ -145,7 +148,8 @@ routes.get("/:guildId/:unitId", async (req, res) => {
       average: speedArr.reduce((total, x) => total + x) / speedArr.length
     }
 
-    res.status(200).json(unitMapping);
+
+    res.status(200).json(guildData);
   } catch (error) {
     res.status(500).json({
       error: error.message,
