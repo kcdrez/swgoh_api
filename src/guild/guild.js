@@ -3,6 +3,7 @@ const { v4: uuidv4 } = require("uuid");
 const dbClient = require("../db/dynamoDbClient");
 const apiClient = require("../api/swgoh.gg");
 const { tbMapping, tbNameMapping } = require("./tbMapping");
+const player = require("../player/player");
 
 class Guild {
   constructor() {}
@@ -79,6 +80,17 @@ class Guild {
     });
     await dbClient.updateGuild(guildId, { territoryBattle });
     return await this.fetchGuild(guildId);
+  }
+
+  async fetchGuildUnits(allyCodes, unitId) {
+    const players = await player.fetchPlayers(allyCodes, unitId);
+    return players.map(({ units, ...player }) => {
+      const unit = units[0];
+      return {
+        unit,
+        ...player,
+      };
+    });
   }
 }
 

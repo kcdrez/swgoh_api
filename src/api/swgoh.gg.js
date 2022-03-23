@@ -3,11 +3,15 @@ const axios = require("axios");
 const baseUrl = "https://swgoh.gg/api";
 
 class apiClient {
-  constructor() { }
+  constructor() {}
 
   async fetchPlayer(allyCode) {
     const response = await axios.get(baseUrl + "/player/" + allyCode);
     return response.data;
+  }
+
+  async fetchPlayers(allyCodes) {
+    return await Promise.all(allyCodes.map((code) => this.fetchPlayer(code)));
   }
 
   async fetchGear() {
@@ -41,9 +45,10 @@ class apiClient {
     return { role };
   }
 
-  async fetchGuild(guildId) {
+  async allyCodes(guildId) {
     const response = await axios.get(baseUrl + "/guild/" + guildId);
-    return response.data
+
+    return response.data.players.map((player) => player.data.ally_code);
   }
 }
 

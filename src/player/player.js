@@ -18,9 +18,62 @@ class Player {
       ggApi.fetchPlayer(allyCode),
     ]);
 
+    const player = await this.mapPlayer(name, allyCode, roster, ggPlayer);
+
+    if (result) {
+      player.gear = result.gear || {};
+      player.relic = result.relic || {};
+      player.planner = result.planner || [];
+      player.energyData = result.energyData || {};
+      player.teams = result.teams || [];
+      player.shards = result.shards || {};
+      player.id = result.id;
+      player.wallet = result.wallet || {};
+      player.dailyCurrency = result.currency || {};
+    }
+
+    return player;
+  }
+
+  async fetchPlayers(allyCodes, unitId) {
+    const [helpPlayers, ggPlayers] = await Promise.all([
+      helpApi.fetchPlayers(allyCodes),
+      ggApi.fetchPlayers(allyCodes),
+    ]);
+    const players = [];
+
+    for (let i = 0; i <= helpPlayers.length - 1; i++) {
+      const player = helpPlayers[i];
+      const ggMatch = ggPlayers.find(
+        (p) => p.data.ally_code === player.allyCode
+      );
+      if (player.roster && player.allyCode) {
+        players.push(
+          await this.mapPlayer(
+            player.name,
+            player.allyCode,
+            player.roster,
+            ggMatch,
+            unitId
+          )
+        );
+      } else {
+        console.warn("no player roster", player.name);
+      }
+    }
+
+    return players;
+  }
+
+  async mapPlayer(name, allyCode, roster, ggPlayer, unitId) {
     const unitList = [];
     for (let i = 0; i < roster.length; i++) {
-      const { xp, mods, crew, defId } = roster[i];
+      const { mods, crew, defId } = roster[i];
+
+      if (unitId && defId !== unitId) {
+        continue;
+      }
+
       const match = ggPlayer.units.find((x) => x.data.base_id === defId);
       if (match) {
         try {
@@ -38,7 +91,6 @@ class Player {
             has_ultimate,
             rarity: stars,
           } = match.data;
-
           unitList.push({
             id,
             gear_level,
@@ -65,28 +117,12 @@ class Player {
       }
     }
 
-    const player = {
+    return {
       units: unitList,
       name,
       updated: ggPlayer.data.last_updated,
       guild_id: ggPlayer.data.guild_id,
-    };
-
-    if (result) {
-      player.gear = result.gear || {};
-      player.relic = result.relic || {};
-      player.planner = result.planner || [];
-      player.energyData = result.energyData || {};
-      player.teams = result.teams || [];
-      player.shards = result.shards || {};
-      player.id = result.id;
-      player.wallet = result.wallet || {};
-      player.dailyCurrency = result.currency || {};
-    }
-
-    return {
       allyCode,
-      ...player,
     };
   }
 

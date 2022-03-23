@@ -34,16 +34,8 @@ routes.get("/:guildId", async (req, res) => {
 
 routes.get("/:guildId/:unitId", async (req, res) => {
   try {
-    const guildData = await apiClient.fetchGuild(req.params.guildId);
-    guildData.players = guildData.players.map(({ units, data }) => {
-      const match = units.find((unit) => {
-        return unit.data.base_id === req.params.unitId;
-      });
-      return {
-        unit: match ? match.data : null,
-        data,
-      };
-    });
+    const allyCodes = await apiClient.allyCodes(req.params.guildId);
+    const guildData = await guild.fetchGuildUnits(allyCodes, req.params.unitId);
     res.status(200).json(guildData);
   } catch (error) {
     res.status(500).json({

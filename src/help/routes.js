@@ -72,6 +72,17 @@ routes.get("/data/:collection", async (req, res) => {
   }
 });
 
+routes.get("/guild/:allyCode", async (req, res) => {
+  try {
+    const response = await apiClient.fetchGuild(req.params.allyCode);
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+    });
+  }
+});
+
 module.exports = {
   routes,
 };

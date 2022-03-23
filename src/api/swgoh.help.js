@@ -44,10 +44,13 @@ class apiClient {
   }
 
   async fetchPlayer(allyCode) {
-    const players = await this.fetch(this.baseUrl + "/swgoh/players", {
-      allycodes: [allyCode],
+    const response = await this.fetchPlayers([allyCode]);
+    return response[0];
+  }
+  async fetchPlayers(allycodes) {
+    return await this.fetch(this.baseUrl + "/swgoh/players", {
+      allycodes,
     });
-    return players[0];
   }
 
   async fetchUnit(id) {
@@ -113,6 +116,12 @@ class apiClient {
   async data(collection) {
     return await this.fetch(this.baseUrl + "/swgoh/data", {
       collection,
+    });
+  }
+
+  async fetchGuild(allyCode) {
+    return await this.fetch(this.baseUrl + "/swgoh/guilds", {
+      allycodes: [allyCode],
     });
   }
 }
