@@ -1,6 +1,7 @@
 const units = [
   {
     name: "Aayla Secura",
+    aliases: ["AS"],
     id: "AAYLASECURA",
     pk: 80,
     url: "http://swgoh.gg/characters/aayla-secura/",
@@ -78,6 +79,7 @@ const units = [
   },
   {
     name: "Admiral Ackbar",
+    aliases: ["AA", "Fish"],
     id: "ADMIRALACKBAR",
     pk: 169,
     url: "http://swgoh.gg/characters/admiral-ackbar/",
@@ -167,6 +169,7 @@ const units = [
   },
   {
     name: "Admiral Piett",
+    aliases: ["AP"],
     id: "ADMIRALPIETT",
     pk: 562,
     url: "http://swgoh.gg/characters/admiral-piett/",
@@ -258,6 +261,7 @@ const units = [
   },
   {
     name: "Ahsoka Tano",
+    aliases: ["AT", "Asoka"],
     id: "AHSOKATANO",
     pk: 64,
     url: "http://swgoh.gg/characters/ahsoka-tano/",
@@ -338,6 +342,7 @@ const units = [
   },
   {
     name: "Ahsoka Tano (Fulcrum)",
+    aliases: ["AT", "Asoka"],
     id: "FULCRUMAHSOKA",
     pk: 236,
     url: "http://swgoh.gg/characters/ahsoka-tano-fulcrum/",
@@ -424,6 +429,7 @@ const units = [
   },
   {
     name: "Amilyn Holdo",
+    aliases: ["AH"],
     id: "AMILYNHOLDO",
     pk: 254,
     url: "http://swgoh.gg/characters/amilyn-holdo/",
@@ -503,6 +509,7 @@ const units = [
   },
   {
     name: "ARC Trooper",
+    aliases: ["AT"],
     id: "ARCTROOPER501ST",
     pk: 394,
     url: "http://swgoh.gg/characters/arc-trooper/",
@@ -581,6 +588,7 @@ const units = [
   },
   {
     name: "Asajj Ventress",
+    aliases: ["AV"],
     id: "ASAJVENTRESS",
     pk: 23,
     url: "http://swgoh.gg/characters/asajj-ventress/",
@@ -668,6 +676,7 @@ const units = [
   },
   {
     name: "Aurra Sing",
+    aliases: ["AS"],
     id: "AURRA_SING",
     pk: 294,
     url: "http://swgoh.gg/characters/aurra-sing/",
@@ -747,6 +756,7 @@ const units = [
   },
   {
     name: "B1 Battle Droid",
+    aliases: ["Roger"],
     id: "B1BATTLEDROIDV2",
     pk: 324,
     url: "http://swgoh.gg/characters/b1-battle-droid/",
@@ -920,6 +930,7 @@ const units = [
   },
   {
     name: "Barriss Offee",
+    aliases: ["BO"],
     id: "BARRISSOFFEE",
     pk: 61,
     url: "http://swgoh.gg/characters/barriss-offee/",
@@ -1000,6 +1011,7 @@ const units = [
   },
   {
     name: "Bastila Shan",
+    aliases: ["BS"],
     id: "BASTILASHAN",
     pk: 284,
     url: "http://swgoh.gg/characters/bastila-shan/",
@@ -1085,6 +1097,7 @@ const units = [
   },
   {
     name: "Bastila Shan (Fallen)",
+    aliases: ["BSF"],
     id: "BASTILASHANDARK",
     pk: 305,
     url: "http://swgoh.gg/characters/bastila-shan-fallen/",
@@ -1179,6 +1192,7 @@ const units = [
   },
   {
     name: "Baze Malbus",
+    aliases: ["Chaze"],
     id: "BAZEMALBUS",
     pk: 216,
     url: "http://swgoh.gg/characters/baze-malbus/",
@@ -1259,6 +1273,7 @@ const units = [
   },
   {
     name: "BB-8",
+    aliases: ["BB8"],
     id: "BB8",
     pk: 242,
     url: "http://swgoh.gg/characters/bb-8/",
@@ -1346,6 +1361,7 @@ const units = [
   },
   {
     name: "Biggs Darklighter",
+    aliases: ["BD"],
     id: "BIGGSDARKLIGHTER",
     pk: 152,
     url: "http://swgoh.gg/characters/biggs-darklighter/",
@@ -1500,6 +1516,7 @@ const units = [
   },
   {
     name: "Bo-Katan Kryze",
+    aliases: ["Bo Katan", "BoKatan"],
     id: "BOKATAN",
     pk: 938,
     url: "http://swgoh.gg/characters/bo-katan-kryze/",
@@ -1585,6 +1602,7 @@ const units = [
   },
   {
     name: "Boba Fett",
+    aliases: ["BF"],
     id: "BOBAFETT",
     pk: 164,
     url: "http://swgoh.gg/characters/boba-fett/",
@@ -1673,6 +1691,7 @@ const units = [
   },
   {
     name: "Boba Fett, Scion of Jango",
+    aliases: ["DBB", "SoJ", "BF", "BFSOJ"],
     id: "BOBAFETTSCION",
     pk: 1942,
     url: "http://swgoh.gg/characters/boba-fett-scion-of-jango/",
@@ -1768,6 +1787,7 @@ const units = [
   },
   {
     name: "Bodhi Rook",
+    aliases: ["BR"],
     id: "BODHIROOK",
     pk: 232,
     url: "http://swgoh.gg/characters/bodhi-rook/",
@@ -1928,6 +1948,7 @@ const units = [
   },
   {
     name: "C-3PO",
+    aliases: ["C3PO", "C3P0"],
     id: "C3POLEGENDARY",
     pk: 312,
     url: "http://swgoh.gg/characters/c-3po/",
@@ -2024,6 +2045,7 @@ const units = [
   },
   {
     name: "Cad Bane",
+    aliases: ["CB"],
     id: "CADBANE",
     pk: 121,
     url: "http://swgoh.gg/characters/cad-bane/",
@@ -2106,6 +2128,7 @@ const units = [
   },
   {
     name: "Canderous Ordo",
+    aliases: ["Candy", "CO"],
     id: "CANDEROUSORDO",
     pk: 307,
     url: "http://swgoh.gg/characters/canderous-ordo/",
@@ -2194,6 +2217,7 @@ const units = [
   },
   {
     name: "Captain Han Solo",
+    aliases: ["Hoth Han", "CHOLO"],
     id: "HOTHHAN",
     pk: 239,
     url: "http://swgoh.gg/characters/captain-han-solo/",
@@ -2265,6 +2289,7 @@ const units = [
   },
   {
     name: "Captain Phasma",
+    aliases: ["CP"],
     id: "PHASMA",
     pk: 67,
     url: "http://swgoh.gg/characters/captain-phasma/",
@@ -2346,6 +2371,7 @@ const units = [
   },
   {
     name: "Cara Dune",
+    aliases: ["CD"],
     id: "CARADUNE",
     pk: 444,
     url: "http://swgoh.gg/characters/cara-dune/",
@@ -2426,6 +2452,7 @@ const units = [
   },
   {
     name: "Carth Onasi",
+    aliases: ["CO"],
     id: "CARTHONASI",
     pk: 310,
     url: "http://swgoh.gg/characters/carth-onasi/",
@@ -2509,6 +2536,7 @@ const units = [
   },
   {
     name: "Cassian Andor",
+    aliases: ["CA"],
     id: "CASSIANANDOR",
     pk: 219,
     url: "http://swgoh.gg/characters/cassian-andor/",
@@ -2595,6 +2623,7 @@ const units = [
   },
   {
     name: 'CC-2224 "Cody"',
+    aliases: ["CC2224"],
     id: "CC2224",
     pk: 26,
     url: "http://swgoh.gg/characters/cc-2224-cody/",
@@ -2671,6 +2700,7 @@ const units = [
   },
   {
     name: "Chewbacca",
+    aliases: ["Chewy"],
     id: "CHEWBACCALEGENDARY",
     pk: 300,
     url: "http://swgoh.gg/characters/chewbacca/",
@@ -2760,6 +2790,7 @@ const units = [
   },
   {
     name: "Chief Chirpa",
+    aliases: ["CC"],
     id: "CHIEFCHIRPA",
     pk: 72,
     url: "http://swgoh.gg/characters/chief-chirpa/",
@@ -2838,6 +2869,7 @@ const units = [
   },
   {
     name: "Chief Nebit",
+    aliases: ["CN"],
     id: "CHIEFNEBIT",
     pk: 93,
     url: "http://swgoh.gg/characters/chief-nebit/",
@@ -2919,6 +2951,7 @@ const units = [
   },
   {
     name: "Chirrut Îmwe",
+    aliases: ["Chaze"],
     id: "CHIRRUTIMWE",
     pk: 215,
     url: "http://swgoh.gg/characters/chirrut-imwe/",
@@ -3072,6 +3105,7 @@ const units = [
   },
   {
     name: "Clone Sergeant - Phase I",
+    aliases: ["CS", "CS1", "CSP", "CSP1"],
     id: "CLONESERGEANTPHASEI",
     pk: 186,
     url: "http://swgoh.gg/characters/clone-sergeant-phase-i/",
@@ -3154,6 +3188,7 @@ const units = [
   },
   {
     name: "Clone Wars Chewbacca",
+    aliases: ["Chewy", "CW Chewy"],
     id: "CLONEWARSCHEWBACCA",
     pk: 62,
     url: "http://swgoh.gg/characters/clone-wars-chewbacca/",
@@ -3238,6 +3273,7 @@ const units = [
   },
   {
     name: "Colonel Starck",
+    aliases: ["CS"],
     id: "COLONELSTARCK",
     pk: 247,
     url: "http://swgoh.gg/characters/colonel-starck/",
@@ -3325,6 +3361,7 @@ const units = [
   },
   {
     name: "Commander Ahsoka Tano",
+    aliases: ["CAT"],
     id: "COMMANDERAHSOKA",
     pk: 1084,
     url: "http://swgoh.gg/characters/commander-ahsoka-tano/",
@@ -3417,6 +3454,7 @@ const units = [
   },
   {
     name: "Commander Luke Skywalker",
+    aliases: ["CLS", "Rebel Luke"],
     id: "COMMANDERLUKESKYWALKER",
     pk: 238,
     url: "http://swgoh.gg/characters/commander-luke-skywalker/",
@@ -3507,6 +3545,7 @@ const units = [
   },
   {
     name: "Coruscant Underworld Police",
+    aliases: ["CUP"],
     id: "CORUSCANTUNDERWORLDPOLICE",
     pk: 78,
     url: "http://swgoh.gg/characters/coruscant-underworld-police/",
@@ -3584,6 +3623,7 @@ const units = [
   },
   {
     name: "Count Dooku",
+    aliases: ["CS", "Saruman"],
     id: "COUNTDOOKU",
     pk: 91,
     url: "http://swgoh.gg/characters/count-dooku/",
@@ -3667,6 +3707,7 @@ const units = [
   },
   {
     name: 'CT-21-0408 "Echo"',
+    aliases: ["CT210408"],
     id: "CT210408",
     pk: 149,
     url: "http://swgoh.gg/characters/ct-21-0408-echo/",
@@ -3746,6 +3787,7 @@ const units = [
   },
   {
     name: 'CT-5555 "Fives"',
+    aliases: ["CT5555"],
     id: "CT5555",
     pk: 189,
     url: "http://swgoh.gg/characters/ct-5555-fives/",
@@ -3832,6 +3874,7 @@ const units = [
   },
   {
     name: 'CT-7567 "Rex"',
+    aliases: ["CT7567"],
     id: "CT7567",
     pk: 16,
     url: "http://swgoh.gg/characters/ct-7567-rex/",
@@ -3918,6 +3961,7 @@ const units = [
   },
   {
     name: "Dark Trooper",
+    aliases: ["DT"],
     id: "DARKTROOPER",
     pk: 907,
     url: "http://swgoh.gg/characters/dark-trooper/",
@@ -4002,6 +4046,7 @@ const units = [
   },
   {
     name: "Darth Malak",
+    aliases: ["DM"],
     id: "DARTHMALAK",
     pk: 342,
     url: "http://swgoh.gg/characters/darth-malak/",
@@ -4083,6 +4128,7 @@ const units = [
   },
   {
     name: "Darth Maul",
+    aliases: ["DM"],
     id: "MAUL",
     pk: 82,
     url: "http://swgoh.gg/characters/darth-maul/",
@@ -4164,6 +4210,7 @@ const units = [
   },
   {
     name: "Darth Nihilus",
+    aliases: ["DN", "Sith Raid", "Triumvirate"],
     id: "DARTHNIHILUS",
     pk: 222,
     url: "http://swgoh.gg/characters/darth-nihilus/",
@@ -4244,6 +4291,7 @@ const units = [
   },
   {
     name: "Darth Revan",
+    aliases: ["DRevan", "DR", "Revan Dark"],
     id: "DARTHREVAN",
     pk: 336,
     url: "http://swgoh.gg/characters/darth-revan/",
@@ -4329,6 +4377,7 @@ const units = [
   },
   {
     name: "Darth Sidious",
+    aliases: ["DS", "Palpatine"],
     id: "DARTHSIDIOUS",
     pk: 73,
     url: "http://swgoh.gg/characters/darth-sidious/",
@@ -4408,6 +4457,7 @@ const units = [
   },
   {
     name: "Darth Sion",
+    aliases: ["DS", "Sith Raid", "Triumvirate"],
     id: "DARTHSION",
     pk: 259,
     url: "http://swgoh.gg/characters/darth-sion/",
@@ -4478,6 +4528,7 @@ const units = [
   },
   {
     name: "Darth Talon",
+    aliases: ["DT"],
     id: "DARTHTALON",
     pk: 2296,
     url: "http://swgoh.gg/characters/darth-talon/",
@@ -4559,6 +4610,7 @@ const units = [
   },
   {
     name: "Darth Traya",
+    aliases: ["DT", "Sith Raid", "Triumvirate"],
     id: "DARTHTRAYA",
     pk: 258,
     url: "http://swgoh.gg/characters/darth-traya/",
@@ -4640,6 +4692,7 @@ const units = [
   },
   {
     name: "Darth Vader",
+    aliases: ["DV"],
     id: "VADER",
     pk: 200,
     url: "http://swgoh.gg/characters/darth-vader/",
@@ -4724,6 +4777,7 @@ const units = [
   },
   {
     name: "Dash Rendar",
+    aliases: ["DR"],
     id: "DASHRENDAR",
     pk: 2063,
     url: "http://swgoh.gg/characters/dash-rendar/",
@@ -4888,6 +4942,7 @@ const units = [
   },
   {
     name: "Death Trooper",
+    aliases: ["DT"],
     id: "DEATHTROOPER",
     pk: 221,
     url: "http://swgoh.gg/characters/death-trooper/",
@@ -5053,6 +5108,7 @@ const units = [
   },
   {
     name: "Director Krennic",
+    aliases: ["DK"],
     id: "DIRECTORKRENNIC",
     pk: 220,
     url: "http://swgoh.gg/characters/director-krennic/",
@@ -5142,6 +5198,7 @@ const units = [
   },
   {
     name: "Droideka",
+    aliases: ["DDK"],
     id: "DROIDEKA",
     pk: 325,
     url: "http://swgoh.gg/characters/droideka/",
@@ -5220,6 +5277,7 @@ const units = [
   },
   {
     name: "Echo",
+    aliases: ["Bad Batch Echo"],
     id: "BADBATCHECHO",
     pk: 1051,
     url: "http://swgoh.gg/characters/echo/",
@@ -5302,6 +5360,7 @@ const units = [
   },
   {
     name: "Eeth Koth",
+    aliases: ["EK"],
     id: "EETHKOTH",
     pk: 203,
     url: "http://swgoh.gg/characters/eeth-koth/",
@@ -5449,6 +5508,7 @@ const units = [
   },
   {
     name: "Emperor Palpatine",
+    aliases: ["EP"],
     id: "EMPERORPALPATINE",
     pk: 180,
     url: "http://swgoh.gg/characters/emperor-palpatine/",
@@ -5536,6 +5596,7 @@ const units = [
   },
   {
     name: "Enfys Nest",
+    aliases: ["EN"],
     id: "ENFYSNEST",
     pk: 274,
     url: "http://swgoh.gg/characters/enfys-nest/",
@@ -5622,6 +5683,7 @@ const units = [
   },
   {
     name: "Ewok Elder",
+    aliases: ["EE"],
     id: "EWOKELDER",
     pk: 21,
     url: "http://swgoh.gg/characters/ewok-elder/",
@@ -5692,6 +5754,7 @@ const units = [
   },
   {
     name: "Ewok Scout",
+    aliases: ["ES"],
     id: "EWOKSCOUT",
     pk: 71,
     url: "http://swgoh.gg/characters/ewok-scout/",
@@ -5763,6 +5826,7 @@ const units = [
   },
   {
     name: "Ezra Bridger",
+    aliases: ["EB"],
     id: "EZRABRIDGERS3",
     pk: 230,
     url: "http://swgoh.gg/characters/ezra-bridger/",
@@ -5849,6 +5913,7 @@ const units = [
   },
   {
     name: "Fennec Shand",
+    aliases: ["FS"],
     id: "FENNECSHAND",
     pk: 1926,
     url: "http://swgoh.gg/characters/fennec-shand/",
@@ -6012,6 +6077,7 @@ const units = [
   },
   {
     name: "First Order Executioner",
+    aliases: ["FOE"],
     id: "FIRSTORDEREXECUTIONER",
     pk: 253,
     url: "http://swgoh.gg/characters/first-order-executioner/",
@@ -6096,6 +6162,7 @@ const units = [
   },
   {
     name: "First Order Officer",
+    aliases: ["FOO"],
     id: "FIRSTORDEROFFICERMALE",
     pk: 166,
     url: "http://swgoh.gg/characters/first-order-officer/",
@@ -6181,6 +6248,7 @@ const units = [
   },
   {
     name: "First Order SF TIE Pilot",
+    aliases: ["FOSF", "FOTP"],
     id: "FIRSTORDERSPECIALFORCESPILOT",
     pk: 246,
     url: "http://swgoh.gg/characters/first-order-sf-tie-pilot/",
@@ -6266,6 +6334,7 @@ const units = [
   },
   {
     name: "First Order Stormtrooper",
+    aliases: ["FOS"],
     id: "FIRSTORDERTROOPER",
     pk: 150,
     url: "http://swgoh.gg/characters/first-order-stormtrooper/",
@@ -6352,6 +6421,7 @@ const units = [
   },
   {
     name: "First Order TIE Pilot",
+    aliases: ["FOTP"],
     id: "FIRSTORDERTIEPILOT",
     pk: 199,
     url: "http://swgoh.gg/characters/first-order-tie-pilot/",
@@ -6436,6 +6506,7 @@ const units = [
   },
   {
     name: "Gamorrean Guard",
+    aliases: ["GG"],
     id: "GAMORREANGUARD",
     pk: 207,
     url: "http://swgoh.gg/characters/gamorrean-guard/",
@@ -6514,6 +6585,7 @@ const units = [
   },
   {
     name: "Gar Saxon",
+    aliases: ["GS"],
     id: "GARSAXON",
     pk: 234,
     url: "http://swgoh.gg/characters/gar-saxon/",
@@ -6672,6 +6744,7 @@ const units = [
   },
   {
     name: "General Grievous",
+    aliases: ["GG"],
     id: "GRIEVOUS",
     pk: 1,
     url: "http://swgoh.gg/characters/general-grievous/",
@@ -6760,6 +6833,7 @@ const units = [
   },
   {
     name: "General Hux",
+    aliases: ["GH"],
     id: "GENERALHUX",
     pk: 408,
     url: "http://swgoh.gg/characters/general-hux/",
@@ -6839,6 +6913,7 @@ const units = [
   },
   {
     name: "General Kenobi",
+    aliases: ["GK", "ObiWan", "Obi Wan"],
     id: "GENERALKENOBI",
     pk: 213,
     url: "http://swgoh.gg/characters/general-kenobi/",
@@ -6937,6 +7012,7 @@ const units = [
   },
   {
     name: "General Skywalker",
+    aliases: ["GAS", "Anakin"],
     id: "GENERALSKYWALKER",
     pk: 385,
     url: "http://swgoh.gg/characters/general-skywalker/",
@@ -7027,6 +7103,7 @@ const units = [
   },
   {
     name: "General Veers",
+    aliases: ["GV"],
     id: "VEERS",
     pk: 132,
     url: "http://swgoh.gg/characters/general-veers/",
@@ -7106,6 +7183,7 @@ const units = [
   },
   {
     name: "Geonosian Brood Alpha",
+    aliases: ["GBA"],
     id: "GEONOSIANBROODALPHA",
     pk: 363,
     url: "http://swgoh.gg/characters/geonosian-brood-alpha/",
@@ -7198,6 +7276,7 @@ const units = [
   },
   {
     name: "Geonosian Soldier",
+    aliases: ["GS"],
     id: "GEONOSIANSOLDIER",
     pk: 57,
     url: "http://swgoh.gg/characters/geonosian-soldier/",
@@ -7276,6 +7355,7 @@ const units = [
   },
   {
     name: "Geonosian Spy",
+    aliases: ["GS"],
     id: "GEONOSIANSPY",
     pk: 88,
     url: "http://swgoh.gg/characters/geonosian-spy/",
@@ -7357,6 +7437,7 @@ const units = [
   },
   {
     name: "Grand Admiral Thrawn",
+    aliases: ["GAT"],
     id: "GRANDADMIRALTHRAWN",
     pk: 237,
     url: "http://swgoh.gg/characters/grand-admiral-thrawn/",
@@ -7445,6 +7526,7 @@ const units = [
   },
   {
     name: "Grand Master Yoda",
+    aliases: ["GMY"],
     id: "GRANDMASTERYODA",
     pk: 144,
     url: "http://swgoh.gg/characters/grand-master-yoda/",
@@ -7540,6 +7622,7 @@ const units = [
   },
   {
     name: "Grand Moff Tarkin",
+    aliases: ["GMT"],
     id: "GRANDMOFFTARKIN",
     pk: 138,
     url: "http://swgoh.gg/characters/grand-moff-tarkin/",
@@ -7709,6 +7792,7 @@ const units = [
   },
   {
     name: "Greef Karga",
+    aliases: ["GK"],
     id: "GREEFKARGA",
     pk: 446,
     url: "http://swgoh.gg/characters/greef-karga/",
@@ -7962,6 +8046,7 @@ const units = [
   },
   {
     name: "Hermit Yoda",
+    aliases: ["HODA"],
     id: "HERMITYODA",
     pk: 74,
     url: "http://swgoh.gg/characters/hermit-yoda/",
@@ -8043,6 +8128,7 @@ const units = [
   },
   {
     name: "HK-47",
+    aliases: ["HK47"],
     id: "HK47",
     pk: 172,
     url: "http://swgoh.gg/characters/hk-47/",
@@ -8124,6 +8210,7 @@ const units = [
   },
   {
     name: "Hoth Rebel Scout",
+    aliases: ["HRS"],
     id: "HOTHREBELSCOUT",
     pk: 157,
     url: "http://swgoh.gg/characters/hoth-rebel-scout/",
@@ -8202,6 +8289,7 @@ const units = [
   },
   {
     name: "Hoth Rebel Soldier",
+    aliases: ["HRS"],
     id: "HOTHREBELSOLDIER",
     pk: 54,
     url: "http://swgoh.gg/characters/hoth-rebel-soldier/",
@@ -8280,6 +8368,7 @@ const units = [
   },
   {
     name: "Hunter",
+    aliases: ["Bad Batch Hunter", "BBH"],
     id: "BADBATCHHUNTER",
     pk: 975,
     url: "http://swgoh.gg/characters/hunter/",
@@ -8382,6 +8471,7 @@ const units = [
   },
   {
     name: "Iden Versio",
+    aliases: ["IV"],
     id: "IDENVERSIOEMPIRE",
     pk: 2598,
     url: "http://swgoh.gg/characters/iden-versio/",
@@ -8475,6 +8565,7 @@ const units = [
   },
   {
     name: "IG-100 MagnaGuard",
+    aliases: ["Maggy", "Maggie"],
     id: "MAGNAGUARD",
     pk: 17,
     url: "http://swgoh.gg/characters/ig-100-magnaguard/",
@@ -8556,6 +8647,7 @@ const units = [
   },
   {
     name: "IG-11",
+    aliases: ["IG11", "Nanny"],
     id: "IG11",
     pk: 638,
     url: "http://swgoh.gg/characters/ig-11/",
@@ -8635,6 +8727,7 @@ const units = [
   },
   {
     name: "IG-86 Sentinel Droid",
+    aliases: ["IG86"],
     id: "IG86SENTINELDROID",
     pk: 167,
     url: "http://swgoh.gg/characters/ig-86-sentinel-droid/",
@@ -8713,6 +8806,7 @@ const units = [
   },
   {
     name: "IG-88",
+    aliases: ["IG88"],
     id: "IG88",
     pk: 143,
     url: "http://swgoh.gg/characters/ig-88/",
@@ -8792,6 +8886,7 @@ const units = [
   },
   {
     name: "Ima-Gun Di",
+    aliases: ["IGD", "Gundy"],
     id: "IMAGUNDI",
     pk: 147,
     url: "http://swgoh.gg/characters/ima-gun-di/",
@@ -8868,6 +8963,7 @@ const units = [
   },
   {
     name: "Imperial Probe Droid",
+    aliases: ["IPD"],
     id: "IMPERIALPROBEDROID",
     pk: 248,
     url: "http://swgoh.gg/characters/imperial-probe-droid/",
@@ -8957,6 +9053,7 @@ const units = [
   },
   {
     name: "Imperial Super Commando",
+    aliases: ["ISC"],
     id: "IMPERIALSUPERCOMMANDO",
     pk: 233,
     url: "http://swgoh.gg/characters/imperial-super-commando/",
@@ -9043,6 +9140,7 @@ const units = [
   },
   {
     name: "Jango Fett",
+    aliases: ["JF"],
     id: "JANGOFETT",
     pk: 298,
     url: "http://swgoh.gg/characters/jango-fett/",
@@ -9205,6 +9303,7 @@ const units = [
   },
   {
     name: "Jawa Engineer",
+    aliases: ["JE"],
     id: "JAWAENGINEER",
     pk: 87,
     url: "http://swgoh.gg/characters/jawa-engineer/",
@@ -9282,6 +9381,7 @@ const units = [
   },
   {
     name: "Jawa Scavenger",
+    aliases: ["JS"],
     id: "JAWASCAVENGER",
     pk: 209,
     url: "http://swgoh.gg/characters/jawa-scavenger/",
@@ -9369,6 +9469,7 @@ const units = [
   },
   {
     name: "Jedi Consular",
+    aliases: ["JC"],
     id: "JEDIKNIGHTCONSULAR",
     pk: 100,
     url: "http://swgoh.gg/characters/jedi-consular/",
@@ -9446,6 +9547,7 @@ const units = [
   },
   {
     name: "Jedi Knight Anakin",
+    aliases: ["JKA", "Jedi Anakin"],
     id: "ANAKINKNIGHT",
     pk: 112,
     url: "http://swgoh.gg/characters/jedi-knight-anakin/",
@@ -9527,6 +9629,7 @@ const units = [
   },
   {
     name: "Jedi Knight Guardian",
+    aliases: ["JKG"],
     id: "JEDIKNIGHTGUARDIAN",
     pk: 107,
     url: "http://swgoh.gg/characters/jedi-knight-guardian/",
@@ -9605,6 +9708,7 @@ const units = [
   },
   {
     name: "Jedi Knight Luke Skywalker",
+    aliases: ["JKL", "Jedi Luke"],
     id: "JEDIKNIGHTLUKE",
     pk: 487,
     url: "http://swgoh.gg/characters/jedi-knight-luke-skywalker/",
@@ -9695,6 +9799,7 @@ const units = [
   },
   {
     name: "Jedi Knight Revan",
+    aliases: ["JKR", "Jedi Revan", "Revan Light"],
     id: "JEDIKNIGHTREVAN",
     pk: 302,
     url: "http://swgoh.gg/characters/jedi-knight-revan/",
@@ -9792,6 +9897,7 @@ const units = [
   },
   {
     name: "Jedi Master Kenobi",
+    aliases: ["JMK", "GL Kenobi", "Obi Wan", "Obiwan"],
     id: "JEDIMASTERKENOBI",
     pk: 1264,
     url: "http://swgoh.gg/characters/jedi-master-kenobi/",
@@ -9898,6 +10004,7 @@ const units = [
   },
   {
     name: "Jedi Master Luke Skywalker",
+    aliases: ["JML", "Master Luke", "GL Luke"],
     id: "GRANDMASTERLUKE",
     pk: 600,
     url: "http://swgoh.gg/characters/jedi-master-luke-skywalker/",
@@ -10001,6 +10108,7 @@ const units = [
   },
   {
     name: "Jolee Bindo",
+    aliases: ["JB"],
     id: "JOLEEBINDO",
     pk: 283,
     url: "http://swgoh.gg/characters/jolee-bindo/",
@@ -10158,6 +10266,7 @@ const units = [
   },
   {
     name: "Jyn Erso",
+    aliases: ["JE"],
     id: "JYNERSO",
     pk: 217,
     url: "http://swgoh.gg/characters/jyn-erso/",
@@ -10237,6 +10346,7 @@ const units = [
   },
   {
     name: "K-2SO",
+    aliases: ["K2S0", "K2SO"],
     id: "K2SO",
     pk: 218,
     url: "http://swgoh.gg/characters/k-2so/",
@@ -10314,6 +10424,7 @@ const units = [
   },
   {
     name: "Kanan Jarrus",
+    aliases: ["KJ"],
     id: "KANANJARRUSS3",
     pk: 226,
     url: "http://swgoh.gg/characters/kanan-jarrus/",
@@ -10401,6 +10512,7 @@ const units = [
   },
   {
     name: "Ki-Adi-Mundi",
+    aliases: ["KAM"],
     id: "KIADIMUNDI",
     pk: 397,
     url: "http://swgoh.gg/characters/ki-adi-mundi/",
@@ -10482,6 +10594,7 @@ const units = [
   },
   {
     name: "Kit Fisto",
+    aliases: ["KF"],
     id: "KITFISTO",
     pk: 187,
     url: "http://swgoh.gg/characters/kit-fisto/",
@@ -10638,6 +10751,7 @@ const units = [
   },
   {
     name: "Kyle Katarn",
+    aliases: ["KK"],
     id: "KYLEKATARN",
     pk: 2243,
     url: "http://swgoh.gg/characters/kyle-katarn/",
@@ -10720,6 +10834,7 @@ const units = [
   },
   {
     name: "Kylo Ren",
+    aliases: ["OG Kylo"],
     id: "KYLOREN",
     pk: 141,
     url: "http://swgoh.gg/characters/kylo-ren/",
@@ -10800,6 +10915,7 @@ const units = [
   },
   {
     name: "Kylo Ren (Unmasked)",
+    aliases: ["KRU"],
     id: "KYLORENUNMASKED",
     pk: 245,
     url: "http://swgoh.gg/characters/kylo-ren-unmasked/",
@@ -10886,6 +11002,7 @@ const units = [
   },
   {
     name: "L3-37",
+    aliases: ["L337"],
     id: "L3_37",
     pk: 279,
     url: "http://swgoh.gg/characters/l3-37/",
@@ -10964,6 +11081,7 @@ const units = [
   },
   {
     name: "Lando Calrissian",
+    aliases: ["LC"],
     id: "ADMINISTRATORLANDO",
     pk: 4,
     url: "http://swgoh.gg/characters/lando-calrissian/",
@@ -11207,6 +11325,7 @@ const units = [
   },
   {
     name: "Lord Vader",
+    aliases: ["LV", "GL Vader", "GL Anakin"],
     id: "LORDVADER",
     pk: 1712,
     url: "http://swgoh.gg/characters/lord-vader/",
@@ -11297,6 +11416,7 @@ const units = [
   },
   {
     name: "Luke Skywalker (Farmboy)",
+    aliases: ["Farmer Luke", "LSF"],
     id: "LUKESKYWALKER",
     pk: 24,
     url: "http://swgoh.gg/characters/luke-skywalker-farmboy/",
@@ -11385,6 +11505,7 @@ const units = [
   },
   {
     name: "Luminara Unduli",
+    aliases: ["Lumi", "LU"],
     id: "LUMINARAUNDULI",
     pk: 158,
     url: "http://swgoh.gg/characters/luminara-unduli/",
@@ -11470,6 +11591,7 @@ const units = [
   },
   {
     name: "Mace Windu",
+    aliases: ["Samuel", "Sam", "MW"],
     id: "MACEWINDU",
     pk: 70,
     url: "http://swgoh.gg/characters/mace-windu/",
@@ -11553,6 +11675,7 @@ const units = [
   },
   {
     name: "Magmatrooper",
+    aliases: ["MT"],
     id: "MAGMATROOPER",
     pk: 47,
     url: "http://swgoh.gg/characters/magmatrooper/",
@@ -11624,6 +11747,7 @@ const units = [
   },
   {
     name: "Mara Jade, The Emperor's Hand",
+    aliases: ["MJ", "Lukes Wife", "MJTEH"],
     id: "MARAJADE",
     pk: 2494,
     url: "http://swgoh.gg/characters/mara-jade-the-emperors-hand/",
@@ -11794,6 +11918,7 @@ const units = [
   },
   {
     name: "Mission Vao",
+    aliases: ["MV"],
     id: "MISSIONVAO",
     pk: 287,
     url: "http://swgoh.gg/characters/mission-vao/",
@@ -11873,6 +11998,7 @@ const units = [
   },
   {
     name: "Mob Enforcer",
+    aliases: ["ME"],
     id: "HUMANTHUG",
     pk: 2,
     url: "http://swgoh.gg/characters/mob-enforcer/",
@@ -11949,6 +12075,7 @@ const units = [
   },
   {
     name: "Moff Gideon",
+    aliases: ["MG"],
     id: "MOFFGIDEONS1",
     pk: 691,
     url: "http://swgoh.gg/characters/moff-gideon/",
@@ -12038,6 +12165,7 @@ const units = [
   },
   {
     name: "Mon Mothma",
+    aliases: ["MM"],
     id: "MONMOTHMA",
     pk: 543,
     url: "http://swgoh.gg/characters/mon-mothma/",
@@ -12117,6 +12245,7 @@ const units = [
   },
   {
     name: "Mother Talzin",
+    aliases: ["MT"],
     id: "MOTHERTALZIN",
     pk: 75,
     url: "http://swgoh.gg/characters/mother-talzin/",
@@ -12197,6 +12326,7 @@ const units = [
   },
   {
     name: "Nightsister Acolyte",
+    aliases: ["NA"],
     id: "NIGHTSISTERACOLYTE",
     pk: 108,
     url: "http://swgoh.gg/characters/nightsister-acolyte/",
@@ -12275,6 +12405,7 @@ const units = [
   },
   {
     name: "Nightsister Initiate",
+    aliases: ["NI"],
     id: "NIGHTSISTERINITIATE",
     pk: 129,
     url: "http://swgoh.gg/characters/nightsister-initiate/",
@@ -12353,6 +12484,7 @@ const units = [
   },
   {
     name: "Nightsister Spirit",
+    aliases: ["NS"],
     id: "NIGHTSISTERSPIRIT",
     pk: 244,
     url: "http://swgoh.gg/characters/nightsister-spirit/",
@@ -12439,6 +12571,7 @@ const units = [
   },
   {
     name: "Nightsister Zombie",
+    aliases: ["NZ"],
     id: "NIGHTSISTERZOMBIE",
     pk: 243,
     url: "http://swgoh.gg/characters/nightsister-zombie/",
@@ -12517,6 +12650,7 @@ const units = [
   },
   {
     name: "Nute Gunray",
+    aliases: ["NG"],
     id: "NUTEGUNRAY",
     pk: 177,
     url: "http://swgoh.gg/characters/nute-gunray/",
@@ -12597,6 +12731,7 @@ const units = [
   },
   {
     name: "Obi-Wan Kenobi (Old Ben)",
+    aliases: ["Obiwan", "Obi Wan"],
     id: "OLDBENKENOBI",
     pk: 154,
     url: "http://swgoh.gg/characters/obi-wan-kenobi-old-ben/",
@@ -12681,6 +12816,7 @@ const units = [
   },
   {
     name: "Old Daka",
+    aliases: ["OD"],
     id: "DAKA",
     pk: 25,
     url: "http://swgoh.gg/characters/old-daka/",
@@ -12760,6 +12896,7 @@ const units = [
   },
   {
     name: "Omega",
+    aliases: ["Bad Batch Omega"],
     id: "BADBATCHOMEGA",
     pk: 1417,
     url: "http://swgoh.gg/characters/omega/",
@@ -12855,6 +12992,7 @@ const units = [
   },
   {
     name: "Padmé Amidala",
+    aliases: ["Padme", "PA"],
     id: "PADMEAMIDALA",
     pk: 346,
     url: "http://swgoh.gg/characters/padme-amidala/",
@@ -13088,6 +13226,7 @@ const units = [
   },
   {
     name: "Plo Koon",
+    aliases: ["PK"],
     id: "PLOKOON",
     pk: 7,
     url: "http://swgoh.gg/characters/plo-koon/",
@@ -13167,6 +13306,7 @@ const units = [
   },
   {
     name: "Poe Dameron",
+    aliases: ["PD"],
     id: "POE",
     pk: 179,
     url: "http://swgoh.gg/characters/poe-dameron/",
@@ -13244,6 +13384,7 @@ const units = [
   },
   {
     name: "Poggle the Lesser",
+    aliases: ["PL", "PTL"],
     id: "POGGLETHELESSER",
     pk: 81,
     url: "http://swgoh.gg/characters/poggle-the-lesser/",
@@ -13330,6 +13471,7 @@ const units = [
   },
   {
     name: "Princess Leia",
+    aliases: ["PL"],
     id: "PRINCESSLEIA",
     pk: 122,
     url: "http://swgoh.gg/characters/princess-leia/",
@@ -13412,6 +13554,7 @@ const units = [
   },
   {
     name: "Qi'ra",
+    aliases: ["Qira", "Qi Ra"],
     id: "QIRA",
     pk: 272,
     url: "http://swgoh.gg/characters/qira/",
@@ -13497,6 +13640,7 @@ const units = [
   },
   {
     name: "Qui-Gon Jinn",
+    aliases: ["Quigon", "Qui Gon", "QGJ", "Liam"],
     id: "QUIGONJINN",
     pk: 44,
     url: "http://swgoh.gg/characters/qui-gon-jinn/",
@@ -13581,6 +13725,7 @@ const units = [
   },
   {
     name: "R2-D2",
+    aliases: ["R2D2"],
     id: "R2D2_LEGENDARY",
     pk: 235,
     url: "http://swgoh.gg/characters/r2-d2/",
@@ -13674,6 +13819,7 @@ const units = [
   },
   {
     name: "Range Trooper",
+    aliases: ["RT"],
     id: "RANGETROOPER",
     pk: 280,
     url: "http://swgoh.gg/characters/range-trooper/",
@@ -13745,6 +13891,7 @@ const units = [
   },
   {
     name: "Rebel Officer Leia Organa",
+    aliases: ["ROLO"],
     id: "HOTHLEIA",
     pk: 92,
     url: "http://swgoh.gg/characters/rebel-officer-leia-organa/",
@@ -13826,6 +13973,7 @@ const units = [
   },
   {
     name: "Resistance Hero Finn",
+    aliases: ["Hero Finn", "RHF", "Bromance"],
     id: "EPIXFINN",
     pk: 417,
     url: "http://swgoh.gg/characters/resistance-hero-finn/",
@@ -13904,6 +14052,7 @@ const units = [
   },
   {
     name: "Resistance Hero Poe",
+    aliases: ["Hero Poe", "RHP", "Bromance"],
     id: "EPIXPOE",
     pk: 420,
     url: "http://swgoh.gg/characters/resistance-hero-poe/",
@@ -13983,6 +14132,7 @@ const units = [
   },
   {
     name: "Resistance Pilot",
+    aliases: ["RP"],
     id: "RESISTANCEPILOT",
     pk: 38,
     url: "http://swgoh.gg/characters/resistance-pilot/",
@@ -14061,6 +14211,7 @@ const units = [
   },
   {
     name: "Resistance Trooper",
+    aliases: ["RT"],
     id: "RESISTANCETROOPER",
     pk: 133,
     url: "http://swgoh.gg/characters/resistance-trooper/",
@@ -14139,6 +14290,7 @@ const units = [
   },
   {
     name: "Rey",
+    aliases: ["GL Rey"],
     id: "GLREY",
     pk: 434,
     url: "http://swgoh.gg/characters/rey/",
@@ -14226,6 +14378,7 @@ const units = [
   },
   {
     name: "Rey (Jedi Training)",
+    aliases: ["RJT", "JTR"],
     id: "REYJEDITRAINING",
     pk: 250,
     url: "http://swgoh.gg/characters/rey-jedi-training/",
@@ -14321,6 +14474,7 @@ const units = [
   },
   {
     name: "Rey (Scavenger)",
+    aliases: ["RS", "Rey Scavenger"],
     id: "REY",
     pk: 116,
     url: "http://swgoh.gg/characters/rey-scavenger/",
@@ -14392,6 +14546,7 @@ const units = [
   },
   {
     name: "Rose Tico",
+    aliases: ["RT"],
     id: "ROSETICO",
     pk: 255,
     url: "http://swgoh.gg/characters/rose-tico/",
@@ -14472,6 +14627,7 @@ const units = [
   },
   {
     name: "Royal Guard",
+    aliases: ["RG", "Red Coat"],
     id: "ROYALGUARD",
     pk: 18,
     url: "http://swgoh.gg/characters/royal-guard/",
@@ -14543,6 +14699,7 @@ const units = [
   },
   {
     name: "Sabine Wren",
+    aliases: ["SW", "SR"],
     id: "SABINEWRENS3",
     pk: 231,
     url: "http://swgoh.gg/characters/sabine-wren/",
@@ -14623,6 +14780,7 @@ const units = [
   },
   {
     name: "Savage Opress",
+    aliases: ["SO"],
     id: "SAVAGEOPRESS",
     pk: 137,
     url: "http://swgoh.gg/characters/savage-opress/",
@@ -14704,6 +14862,7 @@ const units = [
   },
   {
     name: "Scarif Rebel Pathfinder",
+    aliases: ["SRP"],
     id: "SCARIFREBEL",
     pk: 210,
     url: "http://swgoh.gg/characters/scarif-rebel-pathfinder/",
@@ -14782,6 +14941,7 @@ const units = [
   },
   {
     name: "Second Sister",
+    aliases: ["SS", "2nd Sister"],
     id: "SECONDSISTER",
     pk: 2700,
     url: "http://swgoh.gg/characters/second-sister/",
@@ -14867,6 +15027,7 @@ const units = [
   },
   {
     name: "Shaak Ti",
+    aliases: ["ST"],
     id: "SHAAKTI",
     pk: 351,
     url: "http://swgoh.gg/characters/shaak-ti/",
@@ -14951,6 +15112,7 @@ const units = [
   },
   {
     name: "Shoretrooper",
+    aliases: ["ST"],
     id: "SHORETROOPER",
     pk: 212,
     url: "http://swgoh.gg/characters/shoretrooper/",
@@ -15028,6 +15190,7 @@ const units = [
   },
   {
     name: "Sith Assassin",
+    aliases: ["SA"],
     id: "SITHASSASSIN",
     pk: 224,
     url: "http://swgoh.gg/characters/sith-assassin/",
@@ -15108,6 +15271,7 @@ const units = [
   },
   {
     name: "Sith Empire Trooper",
+    aliases: ["SET"],
     id: "SITHTROOPER",
     pk: 223,
     url: "http://swgoh.gg/characters/sith-empire-trooper/",
@@ -15186,6 +15350,13 @@ const units = [
   },
   {
     name: "Sith Eternal Emperor",
+    aliases: [
+      "SEE",
+      "GL Emperor",
+      "GL Palpatine",
+      "Sith Emperor",
+      "Sith Palpatine",
+    ],
     id: "SITHPALPATINE",
     pk: 596,
     url: "http://swgoh.gg/characters/sith-eternal-emperor/",
@@ -15278,6 +15449,7 @@ const units = [
   },
   {
     name: "Sith Marauder",
+    aliases: ["SM"],
     id: "SITHMARAUDER",
     pk: 256,
     url: "http://swgoh.gg/characters/sith-marauder/",
@@ -15354,6 +15526,7 @@ const units = [
   },
   {
     name: "Sith Trooper",
+    aliases: ["ST"],
     id: "FOSITHTROOPER",
     pk: 405,
     url: "http://swgoh.gg/characters/sith-trooper/",
@@ -15439,6 +15612,7 @@ const units = [
   },
   {
     name: "Snowtrooper",
+    aliases: ["ST"],
     id: "SNOWTROOPER",
     pk: 162,
     url: "http://swgoh.gg/characters/snowtrooper/",
@@ -15515,6 +15689,7 @@ const units = [
   },
   {
     name: "Starkiller",
+    aliases: ["SK"],
     id: "STARKILLER",
     pk: 2476,
     url: "http://swgoh.gg/characters/starkiller/",
@@ -15602,6 +15777,7 @@ const units = [
   },
   {
     name: "Stormtrooper",
+    aliases: ["ST", "Gary"],
     id: "STORMTROOPER",
     pk: 55,
     url: "http://swgoh.gg/characters/stormtrooper/",
@@ -15673,6 +15849,7 @@ const units = [
   },
   {
     name: "Stormtrooper Han",
+    aliases: ["STH"],
     id: "STORMTROOPERHAN",
     pk: 202,
     url: "http://swgoh.gg/characters/stormtrooper-han/",
@@ -15756,6 +15933,7 @@ const units = [
   },
   {
     name: "Sun Fac",
+    aliases: ["SF"],
     id: "SUNFAC",
     pk: 192,
     url: "http://swgoh.gg/characters/sun-fac/",
@@ -15838,6 +16016,7 @@ const units = [
   },
   {
     name: "Supreme Leader Kylo Ren",
+    aliases: ["SLKR", "GL Kylo"],
     id: "SUPREMELEADERKYLOREN",
     pk: 441,
     url: "http://swgoh.gg/characters/supreme-leader-kylo-ren/",
@@ -15936,6 +16115,7 @@ const units = [
   },
   {
     name: "T3-M4",
+    aliases: ["T3M4"],
     id: "T3_M4",
     pk: 286,
     url: "http://swgoh.gg/characters/t3-m4/",
@@ -16095,6 +16275,7 @@ const units = [
   },
   {
     name: "Tech",
+    aliases: ["Bad Batch Tech"],
     id: "BADBATCHTECH",
     pk: 1003,
     url: "http://swgoh.gg/characters/tech/",
@@ -16255,6 +16436,7 @@ const units = [
   },
   {
     name: "The Armorer",
+    aliases: ["TA"],
     id: "ARMORER",
     pk: 798,
     url: "http://swgoh.gg/characters/the-armorer/",
@@ -16333,6 +16515,7 @@ const units = [
   },
   {
     name: "The Mandalorian",
+    aliases: ["Mando", "TM"],
     id: "THEMANDALORIAN",
     pk: 447,
     url: "http://swgoh.gg/characters/the-mandalorian/",
@@ -16427,6 +16610,7 @@ const units = [
   },
   {
     name: "The Mandalorian (Beskar Armor)",
+    aliases: ["Mando", "BAM"],
     id: "THEMANDALORIANBESKARARMOR",
     pk: 724,
     url: "http://swgoh.gg/characters/the-mandalorian-beskar-armor/",
@@ -16520,6 +16704,7 @@ const units = [
   },
   {
     name: "Threepio & Chewie",
+    aliases: ["C3P0", "C3PO", "Chewy", "Chewbacca", "Chewpio", "3Pacca"],
     id: "C3POCHEWBACCA",
     pk: 509,
     url: "http://swgoh.gg/characters/threepio-chewie/",
@@ -16608,6 +16793,7 @@ const units = [
   },
   {
     name: "TIE Fighter Pilot",
+    aliases: ["TFP"],
     id: "TIEFIGHTERPILOT",
     pk: 124,
     url: "http://swgoh.gg/characters/tie-fighter-pilot/",
@@ -16693,6 +16879,7 @@ const units = [
   },
   {
     name: "Tusken Raider",
+    aliases: ["TR"],
     id: "TUSKENRAIDER",
     pk: 43,
     url: "http://swgoh.gg/characters/tusken-raider/",
@@ -16764,6 +16951,7 @@ const units = [
   },
   {
     name: "Tusken Shaman",
+    aliases: ["TS"],
     id: "TUSKENSHAMAN",
     pk: 39,
     url: "http://swgoh.gg/characters/tusken-shaman/",
@@ -16906,6 +17094,7 @@ const units = [
   },
   {
     name: "URoRRuR'R'R",
+    aliases: ["Urorora"],
     id: "URORRURRR",
     pk: 125,
     url: "http://swgoh.gg/characters/urorrurrr/",
@@ -16983,6 +17172,7 @@ const units = [
   },
   {
     name: "Vandor Chewbacca",
+    aliases: ["Young Chewy", "Young Chewbacca", "Chewie", "Chewy", "VC"],
     id: "YOUNGCHEWBACCA",
     pk: 266,
     url: "http://swgoh.gg/characters/vandor-chewbacca/",
@@ -17061,6 +17251,7 @@ const units = [
   },
   {
     name: "Veteran Smuggler Chewbacca",
+    aliases: ["VSC", "Old Chewie", "Old Chewbacca", "Chewie", "Chewy"],
     id: "SMUGGLERCHEWBACCA",
     pk: 240,
     url: "http://swgoh.gg/characters/veteran-smuggler-chewbacca/",
@@ -17147,6 +17338,7 @@ const units = [
   },
   {
     name: "Veteran Smuggler Han Solo",
+    aliases: ["Vet Han", "VS Han"],
     id: "SMUGGLERHAN",
     pk: 241,
     url: "http://swgoh.gg/characters/veteran-smuggler-han-solo/",
@@ -17227,6 +17419,7 @@ const units = [
   },
   {
     name: "Visas Marr",
+    aliases: ["VM"],
     id: "VISASMARR",
     pk: 257,
     url: "http://swgoh.gg/characters/visas-marr/",
@@ -17387,6 +17580,7 @@ const units = [
   },
   {
     name: "Wat Tambor",
+    aliases: ["WT"],
     id: "WATTAMBOR",
     pk: 360,
     url: "http://swgoh.gg/characters/wat-tambor/",
@@ -17466,6 +17660,7 @@ const units = [
   },
   {
     name: "Wedge Antilles",
+    aliases: ["Wiggs"],
     id: "WEDGEANTILLES",
     pk: 191,
     url: "http://swgoh.gg/characters/wedge-antilles/",
@@ -17621,6 +17816,7 @@ const units = [
   },
   {
     name: "Wrecker",
+    aliases: ["Bad Batch Wrecker"],
     id: "BADBATCHWRECKER",
     pk: 1031,
     url: "http://swgoh.gg/characters/wrecker/",
@@ -17711,6 +17907,7 @@ const units = [
   },
   {
     name: "Young Han Solo",
+    aliases: ["YHS"],
     id: "YOUNGHAN",
     pk: 267,
     url: "http://swgoh.gg/characters/young-han-solo/",
@@ -17787,6 +17984,7 @@ const units = [
   },
   {
     name: "Young Lando Calrissian",
+    aliases: ["YLC"],
     id: "YOUNGLANDO",
     pk: 277,
     url: "http://swgoh.gg/characters/young-lando-calrissian/",
@@ -17938,6 +18136,7 @@ const units = [
   },
   {
     name: "Zam Wesell",
+    aliases: ["ZW"],
     id: "ZAMWESELL",
     pk: 208,
     url: "http://swgoh.gg/characters/zam-wesell/",
@@ -18018,6 +18217,7 @@ const units = [
   },
   {
     name: "Ninth Sister",
+    aliases: ["9th Sister", "NS"],
     base_id: "NINTHSISTER",
     pk: 2818,
     url: "http://swgoh.gg/characters/ninth-sister/",
@@ -18110,6 +18310,7 @@ const units = [
   },
   {
     name: "Seventh Sister",
+    aliases: ["7th Sister", "SS"],
     base_id: "SEVENTHSISTER",
     pk: 3048,
     url: "http://swgoh.gg/characters/seventh-sister/",
