@@ -918,7 +918,7 @@ const nodeList = [
     map: 4,
     mission: "C",
     energy: 12,
-    characters: ["JEDIKNIGHTCONSULAR"],
+    characters: ["SECONDSISTER"],
     gear: [],
   },
   {
@@ -4066,6 +4066,7 @@ const notAccelerated = [
   "EBONHAWK",
   "TIEINTERCEPTOR",
   "MARAJADE",
+  "SECONDSISTER",
 ];
 
 const farmNodeList = nodeList.map(({ characters, ...node }) => {
