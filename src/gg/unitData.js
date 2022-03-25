@@ -13891,7 +13891,7 @@ const units = [
   },
   {
     name: "Rebel Officer Leia Organa",
-    aliases: ["ROLO"],
+    aliases: ["ROLO", "Hoth Leia"],
     id: "HOTHLEIA",
     pk: 92,
     url: "http://swgoh.gg/characters/rebel-officer-leia-organa/",
@@ -18218,7 +18218,7 @@ const units = [
   {
     name: "Ninth Sister",
     aliases: ["9th Sister", "NS"],
-    base_id: "NINTHSISTER",
+    id: "NINTHSISTER",
     pk: 2818,
     url: "http://swgoh.gg/characters/ninth-sister/",
     image: "https://game-assets.swgoh.gg/tex.charui_ninthsister.png",
@@ -18311,7 +18311,7 @@ const units = [
   {
     name: "Seventh Sister",
     aliases: ["7th Sister", "SS"],
-    base_id: "SEVENTHSISTER",
+    id: "SEVENTHSISTER",
     pk: 3048,
     url: "http://swgoh.gg/characters/seventh-sister/",
     image: "https://game-assets.swgoh.gg/tex.charui_seventhsister.png",
@@ -18412,7 +18412,7 @@ const units = [
   {
     name: "Eighth Brother",
     aliases: ["EB", "8th Brother"],
-    base_id: "EIGHTHBROTHER",
+    id: "EIGHTHBROTHER",
     pk: 3117,
     url: "http://swgoh.gg/characters/eighth-brother/",
     image: "https://game-assets.swgoh.gg/tex.charui_eighthbrother.png",
@@ -19512,7 +19512,7 @@ const ships = [
   },
   {
     name: "MG-100 StarFortress SF-17",
-    base_id: "MG100STARFORTRESSSF17",
+    id: "MG100STARFORTRESSSF17",
     url: "http://swgoh.gg/ships/mg-100-starfortress-sf-17/",
     image: "https://game-assets.swgoh.gg/tex.charui_mg100.png",
     description:
@@ -19534,7 +19534,7 @@ const ships = [
   },
   {
     name: "TIE Echelon",
-    base_id: "FIRSTORDERTIEECHELON",
+    id: "FIRSTORDERTIEECHELON",
     url: "http://swgoh.gg/ships/tie-echelon/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstordertieechelon.png",
     description:
