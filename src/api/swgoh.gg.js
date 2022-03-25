@@ -11,7 +11,9 @@ class apiClient {
   }
 
   async fetchPlayers(allyCodes) {
-    return await Promise.all(allyCodes.map((code) => this.fetchPlayer(code)));
+    return await Promise.all(
+      allyCodes.map((allyCode) => this.fetchPlayer(allyCode))
+    );
   }
 
   async fetchGear() {
@@ -49,6 +51,11 @@ class apiClient {
     const response = await axios.get(baseUrl + "/guild/" + guildId);
 
     return response.data.players.map((player) => player.data.ally_code);
+  }
+
+  async fetchGuild(guildId) {
+    const response = await axios.get(baseUrl + "/guild/" + guildId);
+    return response.data;
   }
 }
 

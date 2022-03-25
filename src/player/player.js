@@ -35,31 +35,25 @@ class Player {
     return player;
   }
 
-  async fetchPlayers(allyCodes, unitId) {
-    const [helpPlayers, ggPlayers] = await Promise.all([
-      helpApi.fetchPlayers(allyCodes),
-      ggApi.fetchPlayers(allyCodes),
-    ]);
+  async fetchPlayers(unitId, ggPlayers) {
     const players = [];
 
-    for (let i = 0; i <= helpPlayers.length - 1; i++) {
-      const player = helpPlayers[i];
-      const ggMatch = ggPlayers.find(
-        (p) => p.data.ally_code === player.allyCode
-      );
-      if (player.roster && player.allyCode) {
-        players.push(
-          await this.mapPlayer(
-            player.name,
-            player.allyCode,
-            player.roster,
-            ggMatch,
-            unitId
-          )
-        );
-      } else {
-        console.warn("no player roster", player.name);
-      }
+    for (let i = 0; i <= ggPlayers.length - 1; i++) {
+      const player = ggPlayers[i];
+      players.push({
+        units: player.units
+          .map((x) => {
+            const { relic_level, ...restUnit } = x.data;
+            return {
+              relic_level: relic_level - 2,
+              ...restUnit,
+            };
+          })
+          .filter((x) => x.base_id === unitId),
+        name: player.data.name,
+        updated: player.data.last_updated,
+        allyCode: player.data.ally_code,
+      });
     }
 
     return players;

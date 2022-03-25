@@ -82,8 +82,8 @@ class Guild {
     return await this.fetchGuild(guildId);
   }
 
-  async fetchGuildUnits(allyCodes, unitId) {
-    const players = await player.fetchPlayers(allyCodes, unitId);
+  async fetchGuildUnits(unitId, ggPlayers) {
+    const players = await player.fetchPlayers(unitId, ggPlayers);
     return players.map(({ units, ...player }) => {
       const unit = units[0];
       return {
@@ -91,6 +91,7 @@ class Guild {
         ...player,
       };
     });
+    // .filter((p) => !!p.unit);
   }
 }
 
