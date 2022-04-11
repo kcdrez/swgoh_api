@@ -19554,6 +19554,30 @@ const ships = [
     capital_ship: false,
     activate_shard_count: 25,
   },
+  {
+    name: "Outrider",
+    id: "OUTRIDER",
+    url: "http://swgoh.gg/ships/outrider/",
+    image: "https://game-assets.swgoh.gg/tex.charui_outrider.png",
+    description:
+      "A daring Rebel Support that increases the Download of allied ships",
+    combat_type: 2,
+    alignment: "Light Side",
+    categories: ["Cargo Ship", "Rebel", "Scoundrel", "Smuggler", "Support"],
+    ability_classes: [
+      "AoE",
+      "Counter",
+      "Defense Down",
+      "Dispel",
+      "Gain Turn Meter",
+      "Remove Turn Meter",
+      "Stealth",
+      "Taunt",
+    ],
+    role: "Support",
+    capital_ship: false,
+    activate_shard_count: 80,
+  },
 ];
 
 module.exports = [
