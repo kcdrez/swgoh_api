@@ -1,3 +1,5 @@
+const gearList = require("../gear/seedData");
+
 const Light = "Light Side";
 const light = Light.toLowerCase().replace(" ", "");
 const Dark = "Dark Side";
@@ -12,7 +14,7 @@ const normal = Normal.toLowerCase();
 const Hard = "Hard";
 const hard = Hard.toLowerCase();
 
-const nodeList = [
+const nodeListHard = [
   {
     id: `${light}_${hard}_1a`,
     table: Light,
@@ -2159,4426 +2161,1824 @@ const nodeList = [
   },
 ];
 
-const gearList = [
-  {
-    id: "dark_normal_1d",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "036",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_1b",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "005",
-      },
-      {
-        id: "023",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_6g",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "065Salvage",
-      },
-      {
-        id: "108Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_1c",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "002",
-      },
-      {
-        id: "003",
-      },
-      {
-        id: "004",
-      },
-      {
-        id: "005",
-      },
-    ],
-  },
-  {
-    id: "light_normal_1e",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "002",
-      },
-      {
-        id: "003",
-      },
-      {
-        id: "005",
-      },
-      {
-        id: "006",
-      },
-    ],
-  },
-  {
-    id: "light_hard_1e",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "009",
-      },
-      {
-        id: "012",
-      },
-    ],
-  },
-  {
-    id: "light_normal_2f",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "007",
-      },
-    ],
-  },
-  {
-    id: "light_hard_2e",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "007",
-      },
-      {
-        id: "008",
-      },
-    ],
-  },
-  {
-    id: "light_hard_2h",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "009",
-      },
-      {
-        id: "020",
-      },
-    ],
-  },
-  {
-    id: "light_normal_3b",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "034",
-      },
-    ],
-  },
-  {
-    id: "light_hard_3b",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "016",
-      },
-      {
-        id: "050Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_4l",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "053Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_4l",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "035",
-      },
-      {
-        id: "036",
-      },
-      {
-        id: "053Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_2b",
-    gear: [
-      {
-        id: "001",
-      },
-      {
-        id: "053Salvage",
-      },
-      {
-        id: "092Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_2c",
-    gear: [
-      {
-        id: "002",
-      },
-      {
-        id: "040Prototype",
-      },
-      {
-        id: "050Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_5c",
-    gear: [
-      {
-        id: "002",
-      },
-      {
-        id: "049Prototype",
-      },
-      {
-        id: "073PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_1d",
-    gear: [
-      {
-        id: "002",
-      },
-      {
-        id: "006",
-      },
-      {
-        id: "007",
-      },
-      {
-        id: "011",
-      },
-    ],
-  },
-  {
-    id: "light_hard_1b",
-    gear: [
-      {
-        id: "002",
-      },
-      {
-        id: "004",
-      },
-      {
-        id: "005",
-      },
-    ],
-  },
-  {
-    id: "light_hard_1c",
-    gear: [
-      {
-        id: "002",
-      },
-      {
-        id: "007",
-      },
-      {
-        id: "011",
-      },
-    ],
-  },
-  {
-    id: "light_hard_1f",
-    gear: [
-      {
-        id: "002",
-      },
-      {
-        id: "003",
-      },
-      {
-        id: "008",
-      },
-    ],
-  },
-  {
-    id: "light_normal_2d",
-    gear: [
-      {
-        id: "002",
-      },
-      {
-        id: "008",
-      },
-    ],
-  },
-  {
-    id: "light_hard_2c",
-    gear: [
-      {
-        id: "002",
-      },
-      {
-        id: "019",
-      },
-      {
-        id: "017Prototype",
-      },
-    ],
-  },
-  {
-    id: "light_normal_4g",
-    gear: [
-      {
-        id: "002",
-      },
-      {
-        id: "021Prototype",
-      },
-      {
-        id: "051Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_8e",
-    gear: [
-      {
-        id: "002",
-      },
-      {
-        id: "028Prototype",
-      },
-      {
-        id: "113Salvage",
-      },
-      {
-        id: "175Ingredient_Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_1a",
-    gear: [
-      {
-        id: "002",
-      },
-      {
-        id: "027",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_2c",
-    gear: [
-      {
-        id: "003",
-      },
-      {
-        id: "049Prototype",
-      },
-      {
-        id: "065Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_4k",
-    gear: [
-      {
-        id: "003",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_4l",
-    gear: [
-      {
-        id: "003",
-      },
-      {
-        id: "006",
-      },
-      {
-        id: "075PrototypeSalvage",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_1f",
-    gear: [
-      {
-        id: "003",
-      },
-      {
-        id: "004",
-      },
-      {
-        id: "007",
-      },
-      {
-        id: "009",
-      },
-      {
-        id: "012",
-      },
-    ],
-  },
-  {
-    id: "light_normal_2a",
-    gear: [
-      {
-        id: "003",
-      },
-      {
-        id: "008",
-      },
-    ],
-  },
-  {
-    id: "light_normal_2h",
-    gear: [
-      {
-        id: "003",
-      },
-      {
-        id: "033",
-      },
-    ],
-  },
-  {
-    id: "light_hard_2i",
-    gear: [
-      {
-        id: "003",
-      },
-      {
-        id: "035",
-      },
-      {
-        id: "015Prototype",
-      },
-    ],
-  },
-  {
-    id: "light_normal_4i",
-    gear: [
-      {
-        id: "003",
-      },
-      {
-        id: "062Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_4k",
-    gear: [
-      {
-        id: "003",
-      },
-      {
-        id: "008",
-      },
-      {
-        id: "049Prototype",
-      },
-      {
-        id: "062Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_4f",
-    gear: [
-      {
-        id: "004",
-      },
-      {
-        id: "085PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_4g",
-    gear: [
-      {
-        id: "004",
-      },
-      {
-        id: "044Prototype",
-      },
-      {
-        id: "073PrototypeSalvage",
-      },
-      {
-        id: "085PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_2f",
-    gear: [
-      {
-        id: "004",
-      },
-      {
-        id: "033",
-      },
-      {
-        id: "021Prototype",
-      },
-    ],
-  },
-  {
-    id: "light_normal_3c",
-    gear: [
-      {
-        id: "004",
-      },
-      {
-        id: "025",
-      },
-    ],
-  },
-  {
-    id: "light_hard_3e",
-    gear: [
-      {
-        id: "004",
-      },
-      {
-        id: "008",
-      },
-      {
-        id: "025",
-      },
-    ],
-  },
-  {
-    id: "light_normal_5l",
-    gear: [
-      {
-        id: "004",
-      },
-      {
-        id: "052Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_5l",
-    gear: [
-      {
-        id: "004",
-      },
-      {
-        id: "066",
-      },
-      {
-        id: "052Salvage",
-      },
-      {
-        id: "101Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_6i",
-    gear: [
-      {
-        id: "004",
-      },
-      {
-        id: "051Salvage",
-      },
-      {
-        id: "101Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_1b",
-    gear: [
-      {
-        id: "005",
-      },
-      {
-        id: "029",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_5g",
-    gear: [
-      {
-        id: "005",
-      },
-      {
-        id: "016",
-      },
-      {
-        id: "063PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_3i",
-    gear: [
-      {
-        id: "005",
-      },
-      {
-        id: "028Prototype",
-      },
-    ],
-  },
-  {
-    id: "light_hard_3i",
-    gear: [
-      {
-        id: "005",
-      },
-      {
-        id: "010",
-      },
-      {
-        id: "012",
-      },
-      {
-        id: "028Prototype",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_4l",
-    gear: [
-      {
-        id: "006",
-      },
-      {
-        id: "075PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_6b",
-    gear: [
-      {
-        id: "006",
-      },
-      {
-        id: "029",
-      },
-      {
-        id: "075PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_2c",
-    gear: [
-      {
-        id: "006",
-      },
-      {
-        id: "014Prototype",
-      },
-    ],
-  },
-  {
-    id: "light_hard_2b",
-    gear: [
-      {
-        id: "006",
-      },
-      {
-        id: "010",
-      },
-      {
-        id: "014Prototype",
-      },
-    ],
-  },
-  {
-    id: "light_normal_3h",
-    gear: [
-      {
-        id: "006",
-      },
-      {
-        id: "030",
-      },
-    ],
-  },
-  {
-    id: "light_hard_3c",
-    gear: [
-      {
-        id: "006",
-      },
-      {
-        id: "030",
-      },
-      {
-        id: "034",
-      },
-    ],
-  },
-  {
-    id: "light_normal_8h",
-    gear: [
-      {
-        id: "006",
-      },
-      {
-        id: "091Salvage",
-      },
-      {
-        id: "133Salvage",
-      },
-      {
-        id: "174Ingredient_Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_4j",
-    gear: [
-      {
-        id: "007",
-      },
-      {
-        id: "085PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_4k",
-    gear: [
-      {
-        id: "007",
-      },
-      {
-        id: "024",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "085PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_6c",
-    gear: [
-      {
-        id: "007",
-      },
-      {
-        id: "086PrototypeSalvage",
-      },
-      {
-        id: "091Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_4c",
-    gear: [
-      {
-        id: "007",
-      },
-      {
-        id: "052Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_4f",
-    gear: [
-      {
-        id: "007",
-      },
-      {
-        id: "054Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_4d",
-    gear: [
-      {
-        id: "007",
-      },
-      {
-        id: "017Prototype",
-      },
-      {
-        id: "055Prototype",
-      },
-      {
-        id: "052Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_4g",
-    gear: [
-      {
-        id: "007",
-      },
-      {
-        id: "013",
-      },
-      {
-        id: "037Prototype",
-      },
-      {
-        id: "054Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_2d",
-    gear: [
-      {
-        id: "008",
-      },
-      {
-        id: "069Prototype",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_2b",
-    gear: [
-      {
-        id: "008",
-      },
-      {
-        id: "023",
-      },
-      {
-        id: "069Prototype",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_6f",
-    gear: [
-      {
-        id: "008",
-      },
-      {
-        id: "026",
-      },
-      {
-        id: "095Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_3d",
-    gear: [
-      {
-        id: "008",
-      },
-      {
-        id: "031Prototype",
-      },
-    ],
-  },
-  {
-    id: "light_normal_4j",
-    gear: [
-      {
-        id: "008",
-      },
-      {
-        id: "049Prototype",
-      },
-    ],
-  },
-  {
-    id: "light_normal_2g",
-    gear: [
-      {
-        id: "009",
-      },
-      {
-        id: "020",
-      },
-    ],
-  },
-  {
-    id: "light_normal_3g",
-    gear: [
-      {
-        id: "009",
-      },
-      {
-        id: "012",
-      },
-      {
-        id: "027",
-      },
-    ],
-  },
-  {
-    id: "light_hard_3h",
-    gear: [
-      {
-        id: "009",
-      },
-      {
-        id: "027",
-      },
-      {
-        id: "057Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_4h",
-    gear: [
-      {
-        id: "009",
-      },
-      {
-        id: "044Prototype",
-      },
-    ],
-  },
-  {
-    id: "light_hard_4h",
-    gear: [
-      {
-        id: "009",
-      },
-      {
-        id: "021Prototype",
-      },
-      {
-        id: "044Prototype",
-      },
-      {
-        id: "051Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_2i",
-    gear: [
-      {
-        id: "010",
-      },
-      {
-        id: "058Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_2b",
-    gear: [
-      {
-        id: "010",
-      },
-      {
-        id: "021Prototype",
-      },
-    ],
-  },
-  {
-    id: "light_normal_3e",
-    gear: [
-      {
-        id: "010",
-      },
-      {
-        id: "013",
-      },
-    ],
-  },
-  {
-    id: "light_normal_4a",
-    gear: [
-      {
-        id: "010",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_4c",
-    gear: [
-      {
-        id: "010",
-      },
-      {
-        id: "015Prototype",
-      },
-      {
-        id: "069Prototype",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_6h",
-    gear: [
-      {
-        id: "010",
-      },
-      {
-        id: "062Salvage",
-      },
-      {
-        id: "092Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_6j",
-    gear: [
-      {
-        id: "010",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "091Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_4g",
-    gear: [
-      {
-        id: "011",
-      },
-      {
-        id: "064PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_4h",
-    gear: [
-      {
-        id: "011",
-      },
-      {
-        id: "012",
-      },
-      {
-        id: "064PrototypeSalvage",
-      },
-      {
-        id: "072PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_6d",
-    gear: [
-      {
-        id: "011",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "103PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_2c",
-    gear: [
-      {
-        id: "011",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "094PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_2a",
-    gear: [
-      {
-        id: "011",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "103PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_4h",
-    gear: [
-      {
-        id: "012",
-      },
-      {
-        id: "072PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_6a",
-    gear: [
-      {
-        id: "012",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "087PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_6h",
-    gear: [
-      {
-        id: "012",
-      },
-      {
-        id: "035",
-      },
-      {
-        id: "072PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_8g",
-    gear: [
-      {
-        id: "012",
-      },
-      {
-        id: "073PrototypeSalvage",
-      },
-      {
-        id: "112Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_1f",
-    gear: [
-      {
-        id: "013",
-      },
-      {
-        id: "032Prototype",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_1c",
-    gear: [
-      {
-        id: "013",
-      },
-      {
-        id: "016",
-      },
-      {
-        id: "029",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_2b",
-    gear: [
-      {
-        id: "013",
-      },
-      {
-        id: "049Prototype",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_2e",
-    gear: [
-      {
-        id: "013",
-      },
-      {
-        id: "040Prototype",
-      },
-      {
-        id: "050Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_3c",
-    gear: [
-      {
-        id: "013",
-      },
-      {
-        id: "032Prototype",
-      },
-      {
-        id: "076Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_4c",
-    gear: [
-      {
-        id: "013",
-      },
-      {
-        id: "075PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_4d",
-    gear: [
-      {
-        id: "013",
-      },
-      {
-        id: "015Prototype",
-      },
-      {
-        id: "075PrototypeSalvage",
-      },
-      {
-        id: "076Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_6e",
-    gear: [
-      {
-        id: "013",
-      },
-      {
-        id: "076Salvage",
-      },
-      {
-        id: "080PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_8d",
-    gear: [
-      {
-        id: "013",
-      },
-      {
-        id: "050Salvage",
-      },
-      {
-        id: "116PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_3f",
-    gear: [
-      {
-        id: "013",
-      },
-      {
-        id: "036",
-      },
-      {
-        id: "031Prototype",
-      },
-    ],
-  },
-  {
-    id: "light_normal_4e",
-    gear: [
-      {
-        id: "013",
-      },
-      {
-        id: "037Prototype",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_1e",
-    gear: [
-      {
-        id: "013",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-      {
-        id: "090PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_2d",
-    gear: [
-      {
-        id: "013",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-      {
-        id: "097PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_1a",
-    gear: [
-      {
-        id: "016",
-      },
-      {
-        id: "023",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_3g",
-    gear: [
-      {
-        id: "016",
-      },
-      {
-        id: "063PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_3h",
-    gear: [
-      {
-        id: "016",
-      },
-      {
-        id: "050Salvage",
-      },
-      {
-        id: "063PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_5h",
-    gear: [
-      {
-        id: "016",
-      },
-      {
-        id: "023",
-      },
-      {
-        id: "063PrototypeSalvage",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_5k",
-    gear: [
-      {
-        id: "016",
-      },
-      {
-        id: "037Prototype",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "080PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_3a",
-    gear: [
-      {
-        id: "016",
-      },
-      {
-        id: "050Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_7g",
-    gear: [
-      {
-        id: "016",
-      },
-      {
-        id: "068PrototypeSalvage",
-      },
-      {
-        id: "108Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_1c",
-    gear: [
-      {
-        id: "019",
-      },
-      {
-        id: "056Prototype",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_1e",
-    gear: [
-      {
-        id: "019",
-      },
-      {
-        id: "036",
-      },
-      {
-        id: "056Prototype",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_5i",
-    gear: [
-      {
-        id: "019",
-      },
-      {
-        id: "080PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_8e",
-    gear: [
-      {
-        id: "019",
-      },
-      {
-        id: "053Salvage",
-      },
-      {
-        id: "119PrototypeSalvage",
-      },
-      {
-        id: "176Ingredient_Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_2e",
-    gear: [
-      {
-        id: "019",
-      },
-      {
-        id: "017Prototype",
-      },
-    ],
-  },
-  {
-    id: "light_normal_7d",
-    gear: [
-      {
-        id: "019",
-      },
-      {
-        id: "064PrototypeSalvage",
-      },
-      {
-        id: "112Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_8b",
-    gear: [
-      {
-        id: "019",
-      },
-      {
-        id: "086PrototypeSalvage",
-      },
-      {
-        id: "096PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_3c",
-    gear: [
-      {
-        id: "019",
-      },
-      {
-        id: "064PrototypeSalvage",
-      },
-      {
-        id: "113Salvage",
-      },
-      {
-        id: "170PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_3b",
-    gear: [
-      {
-        id: "019",
-      },
-      {
-        id: "064PrototypeSalvage",
-      },
-      {
-        id: "112Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_3a",
-    gear: [
-      {
-        id: "020",
-      },
-      {
-        id: "072PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_3b",
-    gear: [
-      {
-        id: "020",
-      },
-      {
-        id: "014Prototype",
-      },
-      {
-        id: "072PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_5d",
-    gear: [
-      {
-        id: "020",
-      },
-      {
-        id: "096PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_7h",
-    gear: [
-      {
-        id: "020",
-      },
-      {
-        id: "058Salvage",
-      },
-      {
-        id: "104PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_2a",
-    gear: [
-      {
-        id: "023",
-      },
-      {
-        id: "065Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_3f",
-    gear: [
-      {
-        id: "023",
-      },
-      {
-        id: "050Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_3f",
-    gear: [
-      {
-        id: "023",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "093PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_5h",
-    gear: [
-      {
-        id: "023",
-      },
-      {
-        id: "053Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_8g",
-    gear: [
-      {
-        id: "023",
-      },
-      {
-        id: "063PrototypeSalvage",
-      },
-      {
-        id: "090PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_2h",
-    gear: [
-      {
-        id: "024",
-      },
-      {
-        id: "037Prototype",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_2i",
-    gear: [
-      {
-        id: "024",
-      },
-      {
-        id: "035",
-      },
-      {
-        id: "017Prototype",
-      },
-      {
-        id: "058Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_4i",
-    gear: [
-      {
-        id: "024",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_7f",
-    gear: [
-      {
-        id: "024",
-      },
-      {
-        id: "073PrototypeSalvage",
-      },
-      {
-        id: "120PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_9h",
-    gear: [
-      {
-        id: "024",
-      },
-      {
-        id: "063PrototypeSalvage",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "138Salvage",
-      },
-      {
-        id: "154Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_3g",
-    gear: [
-      {
-        id: "024",
-      },
-      {
-        id: "073PrototypeSalvage",
-      },
-      {
-        id: "120PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_4a",
-    gear: [
-      {
-        id: "024",
-      },
-      {
-        id: "073PrototypeSalvage",
-      },
-      {
-        id: "120PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_5g",
-    gear: [
-      {
-        id: "025",
-      },
-      {
-        id: "054Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_5h",
-    gear: [
-      {
-        id: "025",
-      },
-      {
-        id: "027",
-      },
-      {
-        id: "054Salvage",
-      },
-      {
-        id: "097PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_7h",
-    gear: [
-      {
-        id: "025",
-      },
-      {
-        id: "054Salvage",
-      },
-      {
-        id: "092Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_8f",
-    gear: [
-      {
-        id: "025",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "108Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_1e",
-    gear: [
-      {
-        id: "026",
-      },
-      {
-        id: "031Prototype",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_1f",
-    gear: [
-      {
-        id: "026",
-      },
-      {
-        id: "031Prototype",
-      },
-      {
-        id: "032Prototype",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_3e",
-    gear: [
-      {
-        id: "026",
-      },
-      {
-        id: "033",
-      },
-      {
-        id: "064PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_5a",
-    gear: [
-      {
-        id: "026",
-      },
-      {
-        id: "087PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_6h",
-    gear: [
-      {
-        id: "026",
-      },
-      {
-        id: "076Salvage",
-      },
-      {
-        id: "080PrototypeSalvage",
-      },
-      {
-        id: "095Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_7c",
-    gear: [
-      {
-        id: "026",
-      },
-      {
-        id: "080PrototypeSalvage",
-      },
-      {
-        id: "119PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_3e",
-    gear: [
-      {
-        id: "026",
-      },
-      {
-        id: "171PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_3d",
-    gear: [
-      {
-        id: "026",
-      },
-      {
-        id: "080PrototypeSalvage",
-      },
-      {
-        id: "117PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_5b",
-    gear: [
-      {
-        id: "027",
-      },
-      {
-        id: "051Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_5h",
-    gear: [
-      {
-        id: "027",
-      },
-      {
-        id: "097PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_5c",
-    gear: [
-      {
-        id: "027",
-      },
-      {
-        id: "051Salvage",
-      },
-      {
-        id: "062Salvage",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_1g",
-    gear: [
-      {
-        id: "027",
-      },
-      {
-        id: "102Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_1c",
-    gear: [
-      {
-        id: "027",
-      },
-      {
-        id: "097PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_3i",
-    gear: [
-      {
-        id: "029",
-      },
-      {
-        id: "068PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_3i",
-    gear: [
-      {
-        id: "029",
-      },
-      {
-        id: "021Prototype",
-      },
-      {
-        id: "068PrototypeSalvage",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_6d",
-    gear: [
-      {
-        id: "029",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "075PrototypeSalvage",
-      },
-      {
-        id: "087PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_7b",
-    gear: [
-      {
-        id: "029",
-      },
-      {
-        id: "063PrototypeSalvage",
-      },
-      {
-        id: "116PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_3f",
-    gear: [
-      {
-        id: "029",
-      },
-      {
-        id: "063PrototypeSalvage",
-      },
-      {
-        id: "119PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_3e",
-    gear: [
-      {
-        id: "029",
-      },
-      {
-        id: "063PrototypeSalvage",
-      },
-      {
-        id: "116PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_5e",
-    gear: [
-      {
-        id: "030",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_5g",
-    gear: [
-      {
-        id: "030",
-      },
-      {
-        id: "033",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "091Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_6f",
-    gear: [
-      {
-        id: "030",
-      },
-      {
-        id: "050Salvage",
-      },
-      {
-        id: "104PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_2e",
-    gear: [
-      {
-        id: "030",
-      },
-      {
-        id: "050Salvage",
-      },
-      {
-        id: "087PrototypeSalvage",
-      },
-      {
-        id: "168PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_2b",
-    gear: [
-      {
-        id: "030",
-      },
-      {
-        id: "050Salvage",
-      },
-      {
-        id: "104PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_3e",
-    gear: [
-      {
-        id: "033",
-      },
-      {
-        id: "093PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_8c",
-    gear: [
-      {
-        id: "033",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "112Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_5f",
-    gear: [
-      {
-        id: "033",
-      },
-      {
-        id: "091Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_8c",
-    gear: [
-      {
-        id: "033",
-      },
-      {
-        id: "064PrototypeSalvage",
-      },
-      {
-        id: "100PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_9a",
-    gear: [
-      {
-        id: "033",
-      },
-      {
-        id: "075PrototypeSalvage",
-      },
-      {
-        id: "076Salvage",
-      },
-      {
-        id: "131Salvage",
-      },
-      {
-        id: "159PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_1e",
-    gear: [
-      {
-        id: "033",
-      },
-      {
-        id: "072PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_1a",
-    gear: [
-      {
-        id: "033",
-      },
-      {
-        id: "091Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_5a",
-    gear: [
-      {
-        id: "034",
-      },
-      {
-        id: "062Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_5i",
-    gear: [
-      {
-        id: "034",
-      },
-      {
-        id: "085PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_5k",
-    gear: [
-      {
-        id: "034",
-      },
-      {
-        id: "031Prototype",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "085PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_4b",
-    gear: [
-      {
-        id: "035",
-      },
-      {
-        id: "054Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_4c",
-    gear: [
-      {
-        id: "035",
-      },
-      {
-        id: "036",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "080PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_6i",
-    gear: [
-      {
-        id: "035",
-      },
-      {
-        id: "065Salvage",
-      },
-      {
-        id: "072PrototypeSalvage",
-      },
-      {
-        id: "108Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_2i",
-    gear: [
-      {
-        id: "035",
-      },
-      {
-        id: "015Prototype",
-      },
-    ],
-  },
-  {
-    id: "light_normal_4k",
-    gear: [
-      {
-        id: "035",
-      },
-      {
-        id: "036",
-      },
-    ],
-  },
-  {
-    id: "light_normal_7c",
-    gear: [
-      {
-        id: "035",
-      },
-      {
-        id: "052Salvage",
-      },
-      {
-        id: "114PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_9f",
-    gear: [
-      {
-        id: "035",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-      {
-        id: "102Salvage",
-      },
-      {
-        id: "129Salvage",
-      },
-      {
-        id: "160PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_1b",
-    gear: [
-      {
-        id: "035",
-      },
-      {
-        id: "053Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_3b",
-    gear: [
-      {
-        id: "035",
-      },
-      {
-        id: "052Salvage",
-      },
-      {
-        id: "106PrototypeSalvage",
-      },
-      {
-        id: "167PrototypeSalvage_V2",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_3a",
-    gear: [
-      {
-        id: "035",
-      },
-      {
-        id: "052Salvage",
-      },
-      {
-        id: "114PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_2f",
-    gear: [
-      {
-        id: "036",
-      },
-      {
-        id: "055Prototype",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_2f",
-    gear: [
-      {
-        id: "036",
-      },
-      {
-        id: "055Prototype",
-      },
-      {
-        id: "054Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_4a",
-    gear: [
-      {
-        id: "036",
-      },
-      {
-        id: "080PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_8f",
-    gear: [
-      {
-        id: "036",
-      },
-      {
-        id: "054Salvage",
-      },
-      {
-        id: "120PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_9e",
-    gear: [
-      {
-        id: "036",
-      },
-      {
-        id: "076Salvage",
-      },
-      {
-        id: "085PrototypeSalvage",
-      },
-      {
-        id: "157Salvage",
-      },
-      {
-        id: "129Component",
-      },
-    ],
-  },
-  {
-    id: "light_normal_3f",
-    gear: [
-      {
-        id: "036",
-      },
-      {
-        id: "057Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_6g",
-    gear: [
-      {
-        id: "036",
-      },
-      {
-        id: "086PrototypeSalvage",
-      },
-      {
-        id: "094PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_9e",
-    gear: [
-      {
-        id: "036",
-      },
-      {
-        id: "073PrototypeSalvage",
-      },
-      {
-        id: "091Salvage",
-      },
-      {
-        id: "138Component",
-      },
-      {
-        id: "162PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_1c",
-    gear: [
-      {
-        id: "036",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_5k",
-    gear: [
-      {
-        id: "066",
-      },
-      {
-        id: "101Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_6c",
-    gear: [
-      {
-        id: "066",
-      },
-      {
-        id: "057Salvage",
-      },
-      {
-        id: "090PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_7b",
-    gear: [
-      {
-        id: "066",
-      },
-      {
-        id: "085PrototypeSalvage",
-      },
-      {
-        id: "101Salvage",
-      },
-      {
-        id: "172Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_8a",
-    gear: [
-      {
-        id: "066",
-      },
-      {
-        id: "057Salvage",
-      },
-      {
-        id: "097PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_9b",
-    gear: [
-      {
-        id: "066",
-      },
-      {
-        id: "068PrototypeSalvage",
-      },
-      {
-        id: "093PrototypeSalvage",
-      },
-      {
-        id: "133Component",
-      },
-      {
-        id: "161PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_1d",
-    gear: [
-      {
-        id: "066",
-      },
-      {
-        id: "080PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_3c",
-    gear: [
-      {
-        id: "014Prototype",
-      },
-      {
-        id: "064PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_6e",
-    gear: [
-      {
-        id: "014Prototype",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-      {
-        id: "095Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_4d",
-    gear: [
-      {
-        id: "015Prototype",
-      },
-      {
-        id: "076Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_6i",
-    gear: [
-      {
-        id: "015Prototype",
-      },
-      {
-        id: "058Salvage",
-      },
-      {
-        id: "087PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_4b",
-    gear: [
-      {
-        id: "015Prototype",
-      },
-      {
-        id: "069Prototype",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_2g",
-    gear: [
-      {
-        id: "017Prototype",
-      },
-      {
-        id: "053Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_6d",
-    gear: [
-      {
-        id: "017Prototype",
-      },
-      {
-        id: "032Prototype",
-      },
-      {
-        id: "103PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_4d",
-    gear: [
-      {
-        id: "017Prototype",
-      },
-      {
-        id: "055Prototype",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_3h",
-    gear: [
-      {
-        id: "021Prototype",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_6j",
-    gear: [
-      {
-        id: "021Prototype",
-      },
-      {
-        id: "040Prototype",
-      },
-      {
-        id: "106PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_1d",
-    gear: [
-      {
-        id: "021Prototype",
-      },
-      {
-        id: "040Prototype",
-      },
-      {
-        id: "102Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_2a",
-    gear: [
-      {
-        id: "021Prototype",
-      },
-      {
-        id: "040Prototype",
-      },
-      {
-        id: "091Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_5c",
-    gear: [
-      {
-        id: "028Prototype",
-      },
-      {
-        id: "095Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_5d",
-    gear: [
-      {
-        id: "028Prototype",
-      },
-      {
-        id: "061Prototype",
-      },
-      {
-        id: "086PrototypeSalvage",
-      },
-      {
-        id: "095Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_7a",
-    gear: [
-      {
-        id: "028Prototype",
-      },
-      {
-        id: "093PrototypeSalvage",
-      },
-      {
-        id: "102Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_1f",
-    gear: [
-      {
-        id: "028Prototype",
-      },
-      {
-        id: "053Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_1b",
-    gear: [
-      {
-        id: "028Prototype",
-      },
-      {
-        id: "097PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_4a",
-    gear: [
-      {
-        id: "028Prototype",
-      },
-      {
-        id: "086PrototypeSalvage",
-      },
-      {
-        id: "131Salvage",
-      },
-      {
-        id: "171PrototypeSalvage_V2",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_4b",
-    gear: [
-      {
-        id: "028Prototype",
-      },
-      {
-        id: "086PrototypeSalvage",
-      },
-      {
-        id: "158Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_8a",
-    gear: [
-      {
-        id: "031Prototype",
-      },
-      {
-        id: "065Salvage",
-      },
-      {
-        id: "106PrototypeSalvage",
-      },
-      {
-        id: "173Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_5j",
-    gear: [
-      {
-        id: "031Prototype",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_3b",
-    gear: [
-      {
-        id: "032Prototype",
-      },
-      {
-        id: "076Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_7e",
-    gear: [
-      {
-        id: "032Prototype",
-      },
-      {
-        id: "068PrototypeSalvage",
-      },
-      {
-        id: "117PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_3d",
-    gear: [
-      {
-        id: "032Prototype",
-      },
-      {
-        id: "068PrototypeSalvage",
-      },
-      {
-        id: "114PrototypeSalvage",
-      },
-      {
-        id: "170PrototypeSalvage_V2",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_3c",
-    gear: [
-      {
-        id: "032Prototype",
-      },
-      {
-        id: "068PrototypeSalvage",
-      },
-      {
-        id: "119PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_2h",
-    gear: [
-      {
-        id: "037Prototype",
-      },
-      {
-        id: "044Prototype",
-      },
-      {
-        id: "053Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_5j",
-    gear: [
-      {
-        id: "037Prototype",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_7g",
-    gear: [
-      {
-        id: "037Prototype",
-      },
-      {
-        id: "050Salvage",
-      },
-      {
-        id: "092Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_9a",
-    gear: [
-      {
-        id: "037Prototype",
-      },
-      {
-        id: "050Salvage",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "133Salvage",
-      },
-      {
-        id: "163PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_9b",
-    gear: [
-      {
-        id: "037Prototype",
-      },
-      {
-        id: "053Salvage",
-      },
-      {
-        id: "063PrototypeSalvage",
-      },
-      {
-        id: "123Component",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_5f",
-    gear: [
-      {
-        id: "040Prototype",
-      },
-      {
-        id: "090PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_6j",
-    gear: [
-      {
-        id: "040Prototype",
-      },
-      {
-        id: "058Salvage",
-      },
-      {
-        id: "087PrototypeSalvage",
-      },
-      {
-        id: "106PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_8b",
-    gear: [
-      {
-        id: "040Prototype",
-      },
-      {
-        id: "085PrototypeSalvage",
-      },
-      {
-        id: "117PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_9d",
-    gear: [
-      {
-        id: "040Prototype",
-      },
-      {
-        id: "058Salvage",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-      {
-        id: "138Salvage",
-      },
-      {
-        id: "153Salvage",
-      },
-      {
-        id: "158PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_2e",
-    gear: [
-      {
-        id: "044Prototype",
-      },
-      {
-        id: "054Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_4e",
-    gear: [
-      {
-        id: "044Prototype",
-      },
-      {
-        id: "073PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_8h",
-    gear: [
-      {
-        id: "044Prototype",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "102Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_9c",
-    gear: [
-      {
-        id: "044Prototype",
-      },
-      {
-        id: "065Salvage",
-      },
-      {
-        id: "073PrototypeSalvage",
-      },
-      {
-        id: "150Salvage",
-      },
-      {
-        id: "161Salvage",
-      },
-      {
-        id: "164PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_6b",
-    gear: [
-      {
-        id: "044Prototype",
-      },
-      {
-        id: "093PrototypeSalvage",
-      },
-      {
-        id: "100PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_8d",
-    gear: [
-      {
-        id: "044Prototype",
-      },
-      {
-        id: "052Salvage",
-      },
-      {
-        id: "103PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_9d",
-    gear: [
-      {
-        id: "044Prototype",
-      },
-      {
-        id: "072PrototypeSalvage",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "123Salvage",
-      },
-      {
-        id: "149Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_5d",
-    gear: [
-      {
-        id: "049Prototype",
-      },
-      {
-        id: "053Salvage",
-      },
-      {
-        id: "073PrototypeSalvage",
-      },
-      {
-        id: "096PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_7a",
-    gear: [
-      {
-        id: "049Prototype",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-      {
-        id: "114PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_9f",
-    gear: [
-      {
-        id: "049Prototype",
-      },
-      {
-        id: "068PrototypeSalvage",
-      },
-      {
-        id: "080PrototypeSalvage",
-      },
-      {
-        id: "130Component",
-      },
-      {
-        id: "155Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_3d",
-    gear: [
-      {
-        id: "055Prototype",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_5b",
-    gear: [
-      {
-        id: "055Prototype",
-      },
-      {
-        id: "068PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_5c",
-    gear: [
-      {
-        id: "055Prototype",
-      },
-      {
-        id: "050Salvage",
-      },
-      {
-        id: "068PrototypeSalvage",
-      },
-      {
-        id: "087PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_7f",
-    gear: [
-      {
-        id: "055Prototype",
-      },
-      {
-        id: "072PrototypeSalvage",
-      },
-      {
-        id: "097PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_9h",
-    gear: [
-      {
-        id: "055Prototype",
-      },
-      {
-        id: "064PrototypeSalvage",
-      },
-      {
-        id: "092Salvage",
-      },
-      {
-        id: "129Salvage",
-      },
-      {
-        id: "148Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_5k",
-    gear: [
-      {
-        id: "056Prototype",
-      },
-      {
-        id: "092Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_5l",
-    gear: [
-      {
-        id: "056Prototype",
-      },
-      {
-        id: "069Prototype",
-      },
-      {
-        id: "092Salvage",
-      },
-      {
-        id: "094PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_7d",
-    gear: [
-      {
-        id: "056Prototype",
-      },
-      {
-        id: "053Salvage",
-      },
-      {
-        id: "096PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_9g",
-    gear: [
-      {
-        id: "056Prototype",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "086PrototypeSalvage",
-      },
-      {
-        id: "156Salvage",
-      },
-      {
-        id: "161Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_2g",
-    gear: [
-      {
-        id: "056Prototype",
-      },
-      {
-        id: "065Salvage",
-      },
-      {
-        id: "103PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_2d",
-    gear: [
-      {
-        id: "056Prototype",
-      },
-      {
-        id: "065Salvage",
-      },
-      {
-        id: "113Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_5e",
-    gear: [
-      {
-        id: "061Prototype",
-      },
-      {
-        id: "072PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_5g",
-    gear: [
-      {
-        id: "061Prototype",
-      },
-      {
-        id: "054Salvage",
-      },
-      {
-        id: "072PrototypeSalvage",
-      },
-      {
-        id: "090PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_5d",
-    gear: [
-      {
-        id: "061Prototype",
-      },
-      {
-        id: "086PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_6a",
-    gear: [
-      {
-        id: "061Prototype",
-      },
-      {
-        id: "076Salvage",
-      },
-      {
-        id: "102Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_9g",
-    gear: [
-      {
-        id: "061Prototype",
-      },
-      {
-        id: "064PrototypeSalvage",
-      },
-      {
-        id: "101Salvage",
-      },
-      {
-        id: "130Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_2f",
-    gear: [
-      {
-        id: "061Prototype",
-      },
-      {
-        id: "076Salvage",
-      },
-      {
-        id: "100PrototypeSalvage",
-      },
-      {
-        id: "168PrototypeSalvage_V2",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_2c",
-    gear: [
-      {
-        id: "061Prototype",
-      },
-      {
-        id: "076Salvage",
-      },
-      {
-        id: "106PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_normal_5l",
-    gear: [
-      {
-        id: "069Prototype",
-      },
-      {
-        id: "094PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_7e",
-    gear: [
-      {
-        id: "069Prototype",
-      },
-      {
-        id: "075PrototypeSalvage",
-      },
-      {
-        id: "113Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_normal_9c",
-    gear: [
-      {
-        id: "069Prototype",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "086PrototypeSalvage",
-      },
-      {
-        id: "158Salvage",
-      },
-      {
-        id: "165PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_2e",
-    gear: [
-      {
-        id: "069Prototype",
-      },
-      {
-        id: "075PrototypeSalvage",
-      },
-      {
-        id: "108Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_3a",
-    gear: [
-      {
-        id: "069Prototype",
-      },
-      {
-        id: "075PrototypeSalvage",
-      },
-      {
-        id: "104PrototypeSalvage",
-      },
-      {
-        id: "167PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_7h",
-    gear: [
-      {
-        id: "050Salvage",
-      },
-      {
-        id: "058Salvage",
-      },
-      {
-        id: "092Salvage",
-      },
-      {
-        id: "104PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_8d",
-    gear: [
-      {
-        id: "050Salvage",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "112Salvage",
-      },
-      {
-        id: "116PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_6h",
-    gear: [
-      {
-        id: "050Salvage",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-      {
-        id: "095Salvage",
-      },
-      {
-        id: "104PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_6j",
-    gear: [
-      {
-        id: "051Salvage",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "091Salvage",
-      },
-      {
-        id: "101Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_7d",
-    gear: [
-      {
-        id: "052Salvage",
-      },
-      {
-        id: "064PrototypeSalvage",
-      },
-      {
-        id: "112Salvage",
-      },
-      {
-        id: "114PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_8d",
-    gear: [
-      {
-        id: "052Salvage",
-      },
-      {
-        id: "064PrototypeSalvage",
-      },
-      {
-        id: "100PrototypeSalvage",
-      },
-      {
-        id: "103PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_7d",
-    gear: [
-      {
-        id: "053Salvage",
-      },
-      {
-        id: "080PrototypeSalvage",
-      },
-      {
-        id: "096PrototypeSalvage",
-      },
-      {
-        id: "119PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_8g",
-    gear: [
-      {
-        id: "053Salvage",
-      },
-      {
-        id: "054Salvage",
-      },
-      {
-        id: "119PrototypeSalvage",
-      },
-      {
-        id: "120PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_7h",
-    gear: [
-      {
-        id: "054Salvage",
-      },
-      {
-        id: "068PrototypeSalvage",
-      },
-      {
-        id: "092Salvage",
-      },
-      {
-        id: "108Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_4d",
-    gear: [
-      {
-        id: "054Salvage",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "159Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_4e",
-    gear: [
-      {
-        id: "054Salvage",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "123Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_6e",
-    gear: [
-      {
-        id: "057Salvage",
-      },
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "090PrototypeSalvage",
-      },
-      {
-        id: "103PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_8c",
-    gear: [
-      {
-        id: "057Salvage",
-      },
-      {
-        id: "086PrototypeSalvage",
-      },
-      {
-        id: "096PrototypeSalvage",
-      },
-      {
-        id: "097PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_4f",
-    gear: [
-      {
-        id: "058Salvage",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-      {
-        id: "138Component",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_5b",
-    gear: [
-      {
-        id: "058Salvage",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-      {
-        id: "138Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_6i",
-    gear: [
-      {
-        id: "062Salvage",
-      },
-      {
-        id: "086PrototypeSalvage",
-      },
-      {
-        id: "092Salvage",
-      },
-      {
-        id: "094PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_7c",
-    gear: [
-      {
-        id: "063PrototypeSalvage",
-      },
-      {
-        id: "078PrototypeSalvage",
-      },
-      {
-        id: "114PrototypeSalvage",
-      },
-      {
-        id: "116PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_8h",
-    gear: [
-      {
-        id: "063PrototypeSalvage",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "090PrototypeSalvage",
-      },
-      {
-        id: "102Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_9b",
-    gear: [
-      {
-        id: "064PrototypeSalvage",
-      },
-      {
-        id: "097PrototypeSalvage",
-      },
-      {
-        id: "123Salvage",
-      },
-      {
-        id: "158Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_5e",
-    gear: [
-      {
-        id: "064PrototypeSalvage",
-      },
-      {
-        id: "095Salvage",
-      },
-      {
-        id: "130Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_8c",
-    gear: [
-      {
-        id: "065Salvage",
-      },
-      {
-        id: "085PrototypeSalvage",
-      },
-      {
-        id: "106PrototypeSalvage",
-      },
-      {
-        id: "117PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_7g",
-    gear: [
-      {
-        id: "068PrototypeSalvage",
-      },
-      {
-        id: "073PrototypeSalvage",
-      },
-      {
-        id: "117PrototypeSalvage",
-      },
-      {
-        id: "120PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_5g",
-    gear: [
-      {
-        id: "068PrototypeSalvage",
-      },
-      {
-        id: "151Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_5d",
-    gear: [
-      {
-        id: "068PrototypeSalvage",
-      },
-      {
-        id: "093PrototypeSalvage",
-      },
-      {
-        id: "161Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_8g",
-    gear: [
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "108Salvage",
-      },
-      {
-        id: "113Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_4c",
-    gear: [
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "093PrototypeSalvage",
-      },
-      {
-        id: "116PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_4d",
-    gear: [
-      {
-        id: "071PrototypeSalvage",
-      },
-      {
-        id: "093PrototypeSalvage",
-      },
-      {
-        id: "133Component",
-      },
-    ],
-  },
-  {
-    id: "light_hard_7g",
-    gear: [
-      {
-        id: "072PrototypeSalvage",
-      },
-      {
-        id: "075PrototypeSalvage",
-      },
-      {
-        id: "097PrototypeSalvage",
-      },
-      {
-        id: "113Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_8h",
-    gear: [
-      {
-        id: "073PrototypeSalvage",
-      },
-      {
-        id: "091Salvage",
-      },
-      {
-        id: "112Salvage",
-      },
-      {
-        id: "133Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_9a",
-    gear: [
-      {
-        id: "073PrototypeSalvage",
-      },
-      {
-        id: "091Salvage",
-      },
-      {
-        id: "131Salvage",
-      },
-      {
-        id: "133Component",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_9b",
-    gear: [
-      {
-        id: "075PrototypeSalvage",
-      },
-      {
-        id: "087PrototypeSalvage",
-      },
-      {
-        id: "138Salvage",
-      },
-      {
-        id: "161Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_4b",
-    gear: [
-      {
-        id: "075PrototypeSalvage",
-      },
-      {
-        id: "076Salvage",
-      },
-      {
-        id: "158Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_4c",
-    gear: [
-      {
-        id: "075PrototypeSalvage",
-      },
-      {
-        id: "076Salvage",
-      },
-      {
-        id: "131Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_5h",
-    gear: [
-      {
-        id: "075PrototypeSalvage",
-      },
-      {
-        id: "152Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_6d",
-    gear: [
-      {
-        id: "076Salvage",
-      },
-      {
-        id: "093PrototypeSalvage",
-      },
-      {
-        id: "100PrototypeSalvage",
-      },
-      {
-        id: "102Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_4g",
-    gear: [
-      {
-        id: "076Salvage",
-      },
-      {
-        id: "085PrototypeSalvage",
-      },
-      {
-        id: "166PrototypeSalvage_V2",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_5c",
-    gear: [
-      {
-        id: "076Salvage",
-      },
-      {
-        id: "085PrototypeSalvage",
-      },
-      {
-        id: "129Component",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_4e",
-    gear: [
-      {
-        id: "078PrototypeSalvage",
-      },
-      {
-        id: "080PrototypeSalvage",
-      },
-      {
-        id: "166PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_5a",
-    gear: [
-      {
-        id: "078PrototypeSalvage",
-      },
-      {
-        id: "080PrototypeSalvage",
-      },
-      {
-        id: "159Salvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_9c",
-    gear: [
-      {
-        id: "080PrototypeSalvage",
-      },
-      {
-        id: "096PrototypeSalvage",
-      },
-      {
-        id: "129Component",
-      },
-      {
-        id: "130Component",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_6e",
-    gear: [
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "086PrototypeSalvage",
-      },
-      {
-        id: "091Salvage",
-      },
-      {
-        id: "103PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_9d",
-    gear: [
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "090PrototypeSalvage",
-      },
-      {
-        id: "138Salvage",
-      },
-      {
-        id: "161Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_9d",
-    gear: [
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "103PrototypeSalvage",
-      },
-      {
-        id: "120PrototypeSalvage",
-      },
-      {
-        id: "130Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_5d",
-    gear: [
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "149Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_hard_5f",
-    gear: [
-      {
-        id: "084PrototypeSalvage",
-      },
-      {
-        id: "103PrototypeSalvage",
-      },
-      {
-        id: "138Component",
-      },
-    ],
-  },
-  {
-    id: "dark_hard_9a",
-    gear: [
-      {
-        id: "085PrototypeSalvage",
-      },
-      {
-        id: "092Salvage",
-      },
-      {
-        id: "133Salvage",
-      },
-      {
-        id: "123Component",
-      },
-    ],
-  },
-  {
-    id: "light_hard_7c",
-    gear: [
-      {
-        id: "085PrototypeSalvage",
-      },
-      {
-        id: "093PrototypeSalvage",
-      },
-      {
-        id: "101Salvage",
-      },
-      {
-        id: "102Salvage",
-      },
-    ],
-  },
-  {
-    id: "light_hard_9c",
-    gear: [
-      {
-        id: "086PrototypeSalvage",
-      },
-      {
-        id: "100PrototypeSalvage",
-      },
-      {
-        id: "129Salvage",
-      },
-      {
-        id: "138Component",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_5e",
-    gear: [
-      {
-        id: "086PrototypeSalvage",
-      },
-      {
-        id: "169PrototypeSalvage_V2",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_5a",
-    gear: [
-      {
-        id: "093PrototypeSalvage",
-      },
-      {
-        id: "169PrototypeSalvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_5c",
-    gear: [
-      {
-        id: "103PrototypeSalvage",
-      },
-      {
-        id: "150Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_5b",
-    gear: [
-      {
-        id: "106PrototypeSalvage",
-      },
-      {
-        id: "153Salvage",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_5f",
-    gear: [
-      {
-        id: "114PrototypeSalvage",
-      },
-      {
-        id: "147Salvage",
-      },
-    ],
+const nodeListNormal = [
+  {
+    id: `${light}_${normal}_1a`,
+    table: Light,
+    difficulty: Normal,
+    map: 1,
+    mission: "A",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_1b`,
+    table: Light,
+    difficulty: Normal,
+    map: 1,
+    mission: "B",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_1c`,
+    table: Light,
+    difficulty: Normal,
+    map: 1,
+    mission: "C",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_1d`,
+    table: Light,
+    difficulty: Normal,
+    map: 1,
+    mission: "D",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_1e`,
+    table: Light,
+    difficulty: Normal,
+    map: 1,
+    mission: "E",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_1f`,
+    table: Light,
+    difficulty: Normal,
+    map: 1,
+    mission: "F",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_2a`,
+    table: Light,
+    difficulty: Normal,
+    map: 2,
+    mission: "A",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_2b`,
+    table: Light,
+    difficulty: Normal,
+    map: 2,
+    mission: "B",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_2c`,
+    table: Light,
+    difficulty: Normal,
+    map: 2,
+    mission: "C",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_2d`,
+    table: Light,
+    difficulty: Normal,
+    map: 2,
+    mission: "D",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_2e`,
+    table: Light,
+    difficulty: Normal,
+    map: 2,
+    mission: "E",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_2f`,
+    table: Light,
+    difficulty: Normal,
+    map: 2,
+    mission: "F",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_2g`,
+    table: Light,
+    difficulty: Normal,
+    map: 2,
+    mission: "G",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_2h`,
+    table: Light,
+    difficulty: Normal,
+    map: 2,
+    mission: "H",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_2i`,
+    table: Light,
+    difficulty: Normal,
+    map: 2,
+    mission: "I",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_3a`,
+    table: Light,
+    difficulty: Normal,
+    map: 3,
+    mission: "A",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_3b`,
+    table: Light,
+    difficulty: Normal,
+    map: 3,
+    mission: "B",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_3c`,
+    table: Light,
+    difficulty: Normal,
+    map: 3,
+    mission: "C",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_3d`,
+    table: Light,
+    difficulty: Normal,
+    map: 3,
+    mission: "D",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_3e`,
+    table: Light,
+    difficulty: Normal,
+    map: 3,
+    mission: "E",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_3f`,
+    table: Light,
+    difficulty: Normal,
+    map: 3,
+    mission: "F",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_3g`,
+    table: Light,
+    difficulty: Normal,
+    map: 3,
+    mission: "G",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_3h`,
+    table: Light,
+    difficulty: Normal,
+    map: 3,
+    mission: "H",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_3i`,
+    table: Light,
+    difficulty: Normal,
+    map: 3,
+    mission: "I",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_4a`,
+    table: Light,
+    difficulty: Normal,
+    map: 4,
+    mission: "A",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_4b`,
+    table: Light,
+    difficulty: Normal,
+    map: 4,
+    mission: "B",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_4c`,
+    table: Light,
+    difficulty: Normal,
+    map: 4,
+    mission: "C",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_4d`,
+    table: Light,
+    difficulty: Normal,
+    map: 4,
+    mission: "D",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_4e`,
+    table: Light,
+    difficulty: Normal,
+    map: 4,
+    mission: "E",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_4f`,
+    table: Light,
+    difficulty: Normal,
+    map: 4,
+    mission: "F",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_4g`,
+    table: Light,
+    difficulty: Normal,
+    map: 4,
+    mission: "G",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_4h`,
+    table: Light,
+    difficulty: Normal,
+    map: 4,
+    mission: "H",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_4i`,
+    table: Light,
+    difficulty: Normal,
+    map: 4,
+    mission: "I",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_4j`,
+    table: Light,
+    difficulty: Normal,
+    map: 4,
+    mission: "J",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_4k`,
+    table: Light,
+    difficulty: Normal,
+    map: 4,
+    mission: "K",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_4l`,
+    table: Light,
+    difficulty: Normal,
+    map: 4,
+    mission: "L",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_5a`,
+    table: Light,
+    difficulty: Normal,
+    map: 5,
+    mission: "A",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_5a`,
+    table: Light,
+    difficulty: Normal,
+    map: 5,
+    mission: "A",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_5b`,
+    table: Light,
+    difficulty: Normal,
+    map: 5,
+    mission: "B",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_5c`,
+    table: Light,
+    difficulty: Normal,
+    map: 5,
+    mission: "C",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_5d`,
+    table: Light,
+    difficulty: Normal,
+    map: 5,
+    mission: "D",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_5e`,
+    table: Light,
+    difficulty: Normal,
+    map: 5,
+    mission: "E",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_5f`,
+    table: Light,
+    difficulty: Normal,
+    map: 5,
+    mission: "F",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_5g`,
+    table: Light,
+    difficulty: Normal,
+    map: 5,
+    mission: "G",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_5h`,
+    table: Light,
+    difficulty: Normal,
+    map: 5,
+    mission: "H",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_5i`,
+    table: Light,
+    difficulty: Normal,
+    map: 5,
+    mission: "I",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_5j`,
+    table: Light,
+    difficulty: Normal,
+    map: 5,
+    mission: "J",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_5k`,
+    table: Light,
+    difficulty: Normal,
+    map: 5,
+    mission: "K",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_5l`,
+    table: Light,
+    difficulty: Normal,
+    map: 5,
+    mission: "L",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_6a`,
+    table: Light,
+    difficulty: Normal,
+    map: 6,
+    mission: "A",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_6b`,
+    table: Light,
+    difficulty: Normal,
+    map: 6,
+    mission: "B",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_6c`,
+    table: Light,
+    difficulty: Normal,
+    map: 6,
+    mission: "C",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_6d`,
+    table: Light,
+    difficulty: Normal,
+    map: 6,
+    mission: "D",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_6e`,
+    table: Light,
+    difficulty: Normal,
+    map: 6,
+    mission: "E",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_6f`,
+    table: Light,
+    difficulty: Normal,
+    map: 6,
+    mission: "F",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_6g`,
+    table: Light,
+    difficulty: Normal,
+    map: 6,
+    mission: "G",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_6h`,
+    table: Light,
+    difficulty: Normal,
+    map: 6,
+    mission: "H",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_6i`,
+    table: Light,
+    difficulty: Normal,
+    map: 6,
+    mission: "I",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_6j`,
+    table: Light,
+    difficulty: Normal,
+    map: 6,
+    mission: "J",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_7a`,
+    table: Light,
+    difficulty: Normal,
+    map: 7,
+    mission: "A",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_7b`,
+    table: Light,
+    difficulty: Normal,
+    map: 7,
+    mission: "B",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_7c`,
+    table: Light,
+    difficulty: Normal,
+    map: 7,
+    mission: "C",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_7d`,
+    table: Light,
+    difficulty: Normal,
+    map: 7,
+    mission: "D",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_7e`,
+    table: Light,
+    difficulty: Normal,
+    map: 7,
+    mission: "E",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_7f`,
+    table: Light,
+    difficulty: Normal,
+    map: 7,
+    mission: "F",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_7g`,
+    table: Light,
+    difficulty: Normal,
+    map: 7,
+    mission: "G",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_7h`,
+    table: Light,
+    difficulty: Normal,
+    map: 7,
+    mission: "H",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_8a`,
+    table: Light,
+    difficulty: Normal,
+    map: 8,
+    mission: "A",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_8b`,
+    table: Light,
+    difficulty: Normal,
+    map: 8,
+    mission: "B",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_8c`,
+    table: Light,
+    difficulty: Normal,
+    map: 8,
+    mission: "C",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_8d`,
+    table: Light,
+    difficulty: Normal,
+    map: 8,
+    mission: "D",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_8e`,
+    table: Light,
+    difficulty: Normal,
+    map: 8,
+    mission: "E",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_8f`,
+    table: Light,
+    difficulty: Normal,
+    map: 8,
+    mission: "F",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_8g`,
+    table: Light,
+    difficulty: Normal,
+    map: 8,
+    mission: "G",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_8h`,
+    table: Light,
+    difficulty: Normal,
+    map: 8,
+    mission: "H",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_9a`,
+    table: Light,
+    difficulty: Normal,
+    map: 9,
+    mission: "A",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_9b`,
+    table: Light,
+    difficulty: Normal,
+    map: 9,
+    mission: "B",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_9c`,
+    table: Light,
+    difficulty: Normal,
+    map: 9,
+    mission: "C",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_9d`,
+    table: Light,
+    difficulty: Normal,
+    map: 9,
+    mission: "D",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_9e`,
+    table: Light,
+    difficulty: Normal,
+    map: 9,
+    mission: "E",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_9f`,
+    table: Light,
+    difficulty: Normal,
+    map: 9,
+    mission: "F",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_9g`,
+    table: Light,
+    difficulty: Normal,
+    map: 9,
+    mission: "G",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${light}_${normal}_9h`,
+    table: Light,
+    difficulty: Normal,
+    map: 9,
+    mission: "H",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_1a`,
+    table: Dark,
+    difficulty: Normal,
+    map: 1,
+    mission: "A",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_1b`,
+    table: Dark,
+    difficulty: Normal,
+    map: 1,
+    mission: "B",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_1c`,
+    table: Dark,
+    difficulty: Normal,
+    map: 1,
+    mission: "C",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_1d`,
+    table: Dark,
+    difficulty: Normal,
+    map: 1,
+    mission: "D",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_1e`,
+    table: Dark,
+    difficulty: Normal,
+    map: 1,
+    mission: "E",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_1f`,
+    table: Dark,
+    difficulty: Normal,
+    map: 1,
+    mission: "F",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_2a`,
+    table: Dark,
+    difficulty: Normal,
+    map: 2,
+    mission: "A",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_2b`,
+    table: Dark,
+    difficulty: Normal,
+    map: 2,
+    mission: "B",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_2c`,
+    table: Dark,
+    difficulty: Normal,
+    map: 2,
+    mission: "C",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_2d`,
+    table: Dark,
+    difficulty: Normal,
+    map: 2,
+    mission: "D",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_2e`,
+    table: Dark,
+    difficulty: Normal,
+    map: 2,
+    mission: "E",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_2f`,
+    table: Dark,
+    difficulty: Normal,
+    map: 2,
+    mission: "F",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_2g`,
+    table: Dark,
+    difficulty: Normal,
+    map: 2,
+    mission: "G",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_2h`,
+    table: Dark,
+    difficulty: Normal,
+    map: 2,
+    mission: "H",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_2i`,
+    table: Dark,
+    difficulty: Normal,
+    map: 2,
+    mission: "I",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_3a`,
+    table: Dark,
+    difficulty: Normal,
+    map: 3,
+    mission: "A",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_3b`,
+    table: Dark,
+    difficulty: Normal,
+    map: 3,
+    mission: "B",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_3c`,
+    table: Dark,
+    difficulty: Normal,
+    map: 3,
+    mission: "C",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_3d`,
+    table: Dark,
+    difficulty: Normal,
+    map: 3,
+    mission: "D",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_3e`,
+    table: Dark,
+    difficulty: Normal,
+    map: 3,
+    mission: "E",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_3f`,
+    table: Dark,
+    difficulty: Normal,
+    map: 3,
+    mission: "F",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_3g`,
+    table: Dark,
+    difficulty: Normal,
+    map: 3,
+    mission: "G",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_3h`,
+    table: Dark,
+    difficulty: Normal,
+    map: 3,
+    mission: "H",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_3i`,
+    table: Dark,
+    difficulty: Normal,
+    map: 3,
+    mission: "I",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_4a`,
+    table: Dark,
+    difficulty: Normal,
+    map: 4,
+    mission: "A",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_4b`,
+    table: Dark,
+    difficulty: Normal,
+    map: 4,
+    mission: "B",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_4c`,
+    table: Dark,
+    difficulty: Normal,
+    map: 4,
+    mission: "C",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_4d`,
+    table: Dark,
+    difficulty: Normal,
+    map: 4,
+    mission: "D",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_4e`,
+    table: Dark,
+    difficulty: Normal,
+    map: 4,
+    mission: "E",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_4f`,
+    table: Dark,
+    difficulty: Normal,
+    map: 4,
+    mission: "F",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_4g`,
+    table: Dark,
+    difficulty: Normal,
+    map: 4,
+    mission: "G",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_4h`,
+    table: Dark,
+    difficulty: Normal,
+    map: 4,
+    mission: "H",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_4i`,
+    table: Dark,
+    difficulty: Normal,
+    map: 4,
+    mission: "I",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_4j`,
+    table: Dark,
+    difficulty: Normal,
+    map: 4,
+    mission: "J",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_4k`,
+    table: Dark,
+    difficulty: Normal,
+    map: 4,
+    mission: "K",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_4l`,
+    table: Dark,
+    difficulty: Normal,
+    map: 4,
+    mission: "L",
+    energy: 6,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_5a`,
+    table: Dark,
+    difficulty: Normal,
+    map: 5,
+    mission: "A",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_5a`,
+    table: Dark,
+    difficulty: Normal,
+    map: 5,
+    mission: "A",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_5b`,
+    table: Dark,
+    difficulty: Normal,
+    map: 5,
+    mission: "B",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_5c`,
+    table: Dark,
+    difficulty: Normal,
+    map: 5,
+    mission: "C",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_5d`,
+    table: Dark,
+    difficulty: Normal,
+    map: 5,
+    mission: "D",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_5e`,
+    table: Dark,
+    difficulty: Normal,
+    map: 5,
+    mission: "E",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_5f`,
+    table: Dark,
+    difficulty: Normal,
+    map: 5,
+    mission: "F",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_5g`,
+    table: Dark,
+    difficulty: Normal,
+    map: 5,
+    mission: "G",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_5h`,
+    table: Dark,
+    difficulty: Normal,
+    map: 5,
+    mission: "H",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_5i`,
+    table: Dark,
+    difficulty: Normal,
+    map: 5,
+    mission: "I",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_5j`,
+    table: Dark,
+    difficulty: Normal,
+    map: 5,
+    mission: "J",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_5k`,
+    table: Dark,
+    difficulty: Normal,
+    map: 5,
+    mission: "K",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_5l`,
+    table: Dark,
+    difficulty: Normal,
+    map: 5,
+    mission: "L",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_6a`,
+    table: Dark,
+    difficulty: Normal,
+    map: 6,
+    mission: "A",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_6b`,
+    table: Dark,
+    difficulty: Normal,
+    map: 6,
+    mission: "B",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_6c`,
+    table: Dark,
+    difficulty: Normal,
+    map: 6,
+    mission: "C",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_6d`,
+    table: Dark,
+    difficulty: Normal,
+    map: 6,
+    mission: "D",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_6e`,
+    table: Dark,
+    difficulty: Normal,
+    map: 6,
+    mission: "E",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_6f`,
+    table: Dark,
+    difficulty: Normal,
+    map: 6,
+    mission: "F",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_6g`,
+    table: Dark,
+    difficulty: Normal,
+    map: 6,
+    mission: "G",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_6h`,
+    table: Dark,
+    difficulty: Normal,
+    map: 6,
+    mission: "H",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_6i`,
+    table: Dark,
+    difficulty: Normal,
+    map: 6,
+    mission: "I",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_6j`,
+    table: Dark,
+    difficulty: Normal,
+    map: 6,
+    mission: "J",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_7a`,
+    table: Dark,
+    difficulty: Normal,
+    map: 7,
+    mission: "A",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_7b`,
+    table: Dark,
+    difficulty: Normal,
+    map: 7,
+    mission: "B",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_7c`,
+    table: Dark,
+    difficulty: Normal,
+    map: 7,
+    mission: "C",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_7d`,
+    table: Dark,
+    difficulty: Normal,
+    map: 7,
+    mission: "D",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_7e`,
+    table: Dark,
+    difficulty: Normal,
+    map: 7,
+    mission: "E",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_7f`,
+    table: Dark,
+    difficulty: Normal,
+    map: 7,
+    mission: "F",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_7g`,
+    table: Dark,
+    difficulty: Normal,
+    map: 7,
+    mission: "G",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_7h`,
+    table: Dark,
+    difficulty: Normal,
+    map: 7,
+    mission: "H",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_8a`,
+    table: Dark,
+    difficulty: Normal,
+    map: 8,
+    mission: "A",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_8b`,
+    table: Dark,
+    difficulty: Normal,
+    map: 8,
+    mission: "B",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_8c`,
+    table: Dark,
+    difficulty: Normal,
+    map: 8,
+    mission: "C",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_8d`,
+    table: Dark,
+    difficulty: Normal,
+    map: 8,
+    mission: "D",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_8e`,
+    table: Dark,
+    difficulty: Normal,
+    map: 8,
+    mission: "E",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_8f`,
+    table: Dark,
+    difficulty: Normal,
+    map: 8,
+    mission: "F",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_8g`,
+    table: Dark,
+    difficulty: Normal,
+    map: 8,
+    mission: "G",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_8h`,
+    table: Dark,
+    difficulty: Normal,
+    map: 8,
+    mission: "H",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_9a`,
+    table: Dark,
+    difficulty: Normal,
+    map: 9,
+    mission: "A",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_9b`,
+    table: Dark,
+    difficulty: Normal,
+    map: 9,
+    mission: "B",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_9c`,
+    table: Dark,
+    difficulty: Normal,
+    map: 9,
+    mission: "C",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_9d`,
+    table: Dark,
+    difficulty: Normal,
+    map: 9,
+    mission: "D",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_9e`,
+    table: Dark,
+    difficulty: Normal,
+    map: 9,
+    mission: "E",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_9f`,
+    table: Dark,
+    difficulty: Normal,
+    map: 9,
+    mission: "F",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_9g`,
+    table: Dark,
+    difficulty: Normal,
+    map: 9,
+    mission: "G",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${dark}_${normal}_9h`,
+    table: Dark,
+    difficulty: Normal,
+    map: 9,
+    mission: "H",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_1a`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 1,
+    mission: "A",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_1b`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 1,
+    mission: "B",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_1c`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 1,
+    mission: "C",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_1d`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 1,
+    mission: "D",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_1e`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 1,
+    mission: "E",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_1f`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 1,
+    mission: "F",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_1g`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 1,
+    mission: "G",
+    energy: 8,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_2a`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 2,
+    mission: "A",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_2b`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 2,
+    mission: "B",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_2c`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 2,
+    mission: "C",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_2d`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 2,
+    mission: "D",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_2e`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 2,
+    mission: "E",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_2f`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 2,
+    mission: "F",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_2g`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 2,
+    mission: "G",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_3a`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 3,
+    mission: "a",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_3b`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 3,
+    mission: "B",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_3c`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 3,
+    mission: "C",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_3d`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 3,
+    mission: "D",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_3e`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 3,
+    mission: "E",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_3f`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 3,
+    mission: "F",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_3g`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 3,
+    mission: "G",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_4a`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 4,
+    mission: "A",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_4b`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 4,
+    mission: "B",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_4c`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 4,
+    mission: "C",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_4d`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 4,
+    mission: "D",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_4e`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 4,
+    mission: "E",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_4f`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 4,
+    mission: "F",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_4g`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 4,
+    mission: "G",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_5a`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 5,
+    mission: "A",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_5b`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 5,
+    mission: "B",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_5c`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 5,
+    mission: "C",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_5d`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 5,
+    mission: "D",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_5e`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 5,
+    mission: "E",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_5f`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 5,
+    mission: "F",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_5g`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 5,
+    mission: "G",
+    energy: 10,
+    characters: [],
+  },
+  {
+    id: `${fleet}_${normal}_5h`,
+    table: Fleet,
+    difficulty: Normal,
+    map: 5,
+    mission: "H",
+    energy: 10,
+    characters: [],
   },
 ];
 
@@ -8591,6 +5991,44 @@ const stores = [
     table: "Shard Store",
     characters: [{ id: "GRIEVOUS", dropRate: 1, shardCount: 15, cost: 6750 }],
   },
+  {
+    id: "championship_store",
+    table: "Championship (GAC) Store",
+    characters: [],
+  },
+  {
+    id: "conquest_store",
+    table: "Conquest Store",
+    characters: [
+      {
+        id: "RAZORCREST",
+        dropRate: 1,
+        shardCount: 5,
+        cost: 400,
+      },
+      {
+        id: "COMMANDERAHSOKA",
+        dropRate: 1,
+        shardCount: 5,
+        cost: 475,
+      },
+    ],
+  },
+];
+
+const dailyChallenges = [
+  {
+    id: "challenges_agi",
+    table: "Daily Challenges (Sun, Tues, Fri)",
+  },
+  {
+    id: "challenges_tac",
+    table: "Daily Challenges (Sun, Wed, Sat)",
+  },
+  {
+    id: "challenges_str",
+    table: "Daily Challenges (Sun, Mon, Thurs)",
+  },
 ];
 
 const notAccelerated = [
@@ -8647,18 +6085,28 @@ const notAccelerated = [
   "OUTRIDER",
 ];
 
-const farmNodeList = nodeList.map(({ characters, ...node }) => {
-  return {
-    characters: characters.map((id) => {
-      const exists = notAccelerated.some((c) => c === id);
-      return {
-        id,
-        dropRate: exists ? 1 : 2,
-      };
-    }),
-    ...node,
-  };
-});
+const farmNodeList = [...nodeListHard, ...nodeListNormal].map(
+  ({ characters, ...node }) => {
+    const gear = gearList.reduce((acc, gear) => {
+      const match = gear.locations.find((location) => location.id === node.id);
+      if (match) {
+        acc.push({ id: gear.id });
+      }
+      return acc;
+    }, []);
+    return {
+      characters: characters.map((id) => {
+        const exists = notAccelerated.some((c) => c === id);
+        return {
+          id,
+          dropRate: exists ? 1 : 2,
+        };
+      }),
+      ...node,
+      gear,
+    };
+  }
+);
 
 module.exports = [
   ...farmNodeList,
@@ -8668,4 +6116,5 @@ module.exports = [
   territoryBattles,
   galacticLegends,
   ...stores,
+  ...dailyChallenges,
 ];
