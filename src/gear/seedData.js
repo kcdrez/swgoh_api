@@ -36339,7 +36339,7 @@ const gearList = [
         id: "darkside_normal_6f",
       },
       {
-        id: "darkside_hard_6f",
+        id: "darkside_hard_6d",
       },
       {
         id: "darkside_normal_7c",
@@ -36537,7 +36537,7 @@ const gearList = [
         id: "darkside_normal_6h",
       },
       {
-        id: "darkside_hard_6f",
+        id: "darkside_hard_6d",
       },
       {
         id: "lightside_normal_2i",
@@ -38631,7 +38631,7 @@ const gearList = [
         id: "darkside_normal_6j",
       },
       {
-        id: "darkside_hard_6h",
+        id: "darkside_hard_6e",
       },
       {
         id: "darkside_normal_8b",
@@ -39056,7 +39056,7 @@ const gearList = [
         id: "darkside_normal_7g",
       },
       {
-        id: "darkside_hard_7f",
+        id: "darkside_hard_7d",
       },
       {
         id: "darkside_normal_8d",
@@ -39077,7 +39077,7 @@ const gearList = [
         id: "lightside_normal_6f",
       },
       {
-        id: "lightside_hard_6f",
+        id: "lightside_hard_6c",
       },
       {
         id: "fleet_normal_2e",
@@ -39108,7 +39108,7 @@ const gearList = [
         id: "lightside_normal_6i",
       },
       {
-        id: "lightside_hard_6h",
+        id: "lightside_hard_6e",
       },
       { id: "challenges_agi" },
     ],
@@ -39175,7 +39175,7 @@ const gearList = [
         id: "darkside_normal_8e",
       },
       {
-        id: "darkside_hard_8e",
+        id: "darkside_hard_8c",
       },
       {
         id: "darkside_normal_9b",
@@ -39224,7 +39224,7 @@ const gearList = [
         id: "darkside_normal_8f",
       },
       {
-        id: "darkside_hard_8e",
+        id: "darkside_hard_8c",
       },
       {
         id: "lightside_normal_4f",
@@ -39242,7 +39242,7 @@ const gearList = [
         id: "lightside_normal_7h",
       },
       {
-        id: "lightside_hard_7f",
+        id: "lightside_hard_7d",
       },
       {
         id: "fleet_normal_4d",
@@ -39302,13 +39302,13 @@ const gearList = [
         id: "darkside_normal_6i",
       },
       {
-        id: "darkside_hard_6h",
+        id: "darkside_hard_6e",
       },
       {
         id: "darkside_normal_7h",
       },
       {
-        id: "darkside_hard_7f",
+        id: "darkside_hard_7d",
       },
       {
         id: "darkside_normal_9d",
@@ -39346,7 +39346,7 @@ const gearList = [
         id: "lightside_normal_6h",
       },
       {
-        id: "lightside_hard_6f",
+        id: "lightside_hard_6d",
       },
     ],
   },
@@ -39376,7 +39376,7 @@ const gearList = [
         id: "darkside_normal_8g",
       },
       {
-        id: "darkside_hard_8f",
+        id: "darkside_hard_8d",
       },
       {
         id: "darkside_normal_9b",
@@ -39460,7 +39460,7 @@ const gearList = [
         id: "darkside_normal_6g",
       },
       {
-        id: "darkside_hard_6f",
+        id: "darkside_hard_6d",
       },
       {
         id: "darkside_normal_8a",
@@ -39505,7 +39505,7 @@ const gearList = [
         id: "darkside_normal_7e",
       },
       {
-        id: "darkside_hard_7e",
+        id: "darkside_hard_7c",
       },
       {
         id: "darkside_normal_9f",
@@ -39514,7 +39514,7 @@ const gearList = [
         id: "lightside_normal_7g",
       },
       {
-        id: "lightside_hard_7f",
+        id: "lightside_hard_7d",
       },
       {
         id: "lightside_normal_9b",
@@ -39597,7 +39597,7 @@ const gearList = [
         id: "lightside_hard_6c",
       },
       {
-        id: "lightside_hard_8e",
+        id: "lightside_hard_8c",
       },
       {
         id: "lightside_normal_9c",
@@ -39642,13 +39642,13 @@ const gearList = [
         id: "darkside_normal_6h",
       },
       {
-        id: "darkside_hard_6f",
+        id: "darkside_hard_6d",
       },
       {
         id: "lightside_normal_7f",
       },
       {
-        id: "lightside_hard_7e",
+        id: "lightside_hard_7c",
       },
       {
         id: "lightside_normal_9d",
@@ -39690,7 +39690,7 @@ const gearList = [
         id: "darkside_normal_7f",
       },
       {
-        id: "darkside_hard_7e",
+        id: "darkside_hard_7c",
       },
       {
         id: "darkside_normal_9c",
@@ -39744,7 +39744,7 @@ const gearList = [
         id: "lightside_normal_7e",
       },
       {
-        id: "lightside_hard_7e",
+        id: "lightside_hard_7c",
       },
       {
         id: "lightside_normal_9a",
@@ -39774,7 +39774,7 @@ const gearList = [
         id: "darkside_normal_3b",
       },
       {
-        id: "darkside_hard_3a",
+        id: "darkside_hard_3b",
       },
       {
         id: "darkside_normal_4d",
@@ -39786,7 +39786,7 @@ const gearList = [
         id: "darkside_normal_6e",
       },
       {
-        id: "darkside_hard_6f",
+        id: "darkside_hard_6c",
       },
       {
         id: "darkside_normal_9e",
@@ -39795,7 +39795,7 @@ const gearList = [
         id: "lightside_normal_6a",
       },
       {
-        id: "lightside_hard_6b",
+        id: "lightside_hard_6a",
       },
       {
         id: "lightside_normal_9a",
@@ -39813,10 +39813,10 @@ const gearList = [
         id: "fleet_normal_4g",
       },
       {
-        id: "fleet_hard_4a",
+        id: "fleet_hard_4b",
       },
       {
-        id: "fleet_hard_5a",
+        id: "fleet_hard_5c",
       },
     ],
   },
@@ -39849,7 +39849,7 @@ const gearList = [
         id: "lightside_normal_6e",
       },
       {
-        id: "lightside_hard_6f",
+        id: "lightside_hard_6c",
       },
       {
         id: "lightside_normal_9f",
@@ -39897,7 +39897,7 @@ const gearList = [
         id: "darkside_normal_6e",
       },
       {
-        id: "darkside_hard_6f",
+        id: "darkside_hard_6c",
       },
       {
         id: "darkside_normal_7c",
@@ -39957,7 +39957,7 @@ const gearList = [
         id: "darkside_normal_8h",
       },
       {
-        id: "darkside_hard_8f",
+        id: "darkside_hard_8d",
       },
       {
         id: "darkside_normal_9h",
@@ -39975,13 +39975,13 @@ const gearList = [
         id: "lightside_normal_6j",
       },
       {
-        id: "lightside_hard_6h",
+        id: "lightside_hard_6e",
       },
       {
         id: "lightside_normal_8f",
       },
       {
-        id: "lightside_hard_8e",
+        id: "lightside_hard_8c",
       },
       {
         id: "lightside_normal_9d",
@@ -40071,7 +40071,7 @@ const gearList = [
         id: "lightside_normal_6g",
       },
       {
-        id: "lightside_hard_6f",
+        id: "lightside_hard_6d",
       },
       {
         id: "lightside_normal_8b",
@@ -40122,7 +40122,7 @@ const gearList = [
         id: "darkside_hard_6b",
       },
       {
-        id: "darkside_hard_6h",
+        id: "darkside_hard_6e",
       },
       {
         id: "darkside_hard_9b",
@@ -40152,7 +40152,7 @@ const gearList = [
         id: "darkside_normal_8g",
       },
       {
-        id: "darkside_hard_8f",
+        id: "darkside_hard_8d",
       },
       {
         id: "darkside_hard_9b",
@@ -40206,7 +40206,7 @@ const gearList = [
         id: "lightside_normal_6j",
       },
       {
-        id: "lightside_hard_6h",
+        id: "lightside_hard_6e",
       },
       {
         id: "lightside_normal_8h",
@@ -40261,7 +40261,7 @@ const gearList = [
         id: "darkside_normal_7g",
       },
       {
-        id: "darkside_hard_7f",
+        id: "darkside_hard_7d",
       },
       {
         id: "darkside_hard_9a",
@@ -40270,13 +40270,13 @@ const gearList = [
         id: "lightside_normal_6h",
       },
       {
-        id: "lightside_hard_6f",
+        id: "lightside_hard_6d",
       },
       {
         id: "lightside_normal_7h",
       },
       {
-        id: "lightside_hard_7f",
+        id: "lightside_hard_7d",
       },
       {
         id: "lightside_normal_9h",
@@ -40370,7 +40370,7 @@ const gearList = [
         id: "lightside_normal_6g",
       },
       {
-        id: "lightside_hard_6f",
+        id: "lightside_hard_6d",
       },
       {
         id: "fleet_normal_2c",
@@ -40397,7 +40397,7 @@ const gearList = [
         id: "darkside_normal_6f",
       },
       {
-        id: "darkside_hard_6f",
+        id: "darkside_hard_6c",
       },
       {
         id: "lightside_normal_5c",
@@ -40409,7 +40409,7 @@ const gearList = [
         id: "lightside_normal_6e",
       },
       {
-        id: "lightside_hard_6f",
+        id: "lightside_hard_6c",
       },
       {
         id: "fleet_hard_5c",
@@ -40482,7 +40482,7 @@ const gearList = [
         id: "lightside_normal_7f",
       },
       {
-        id: "lightside_hard_7e",
+        id: "lightside_hard_7c",
       },
       {
         id: "lightside_normal_8a",
@@ -40572,7 +40572,7 @@ const gearList = [
         id: "lightside_normal_6i",
       },
       {
-        id: "lightside_hard_6h",
+        id: "lightside_hard_6e",
       },
       {
         id: "lightside_normal_7b",
@@ -40606,7 +40606,7 @@ const gearList = [
         id: "darkside_normal_8h",
       },
       {
-        id: "darkside_hard_8f",
+        id: "darkside_hard_8d",
       },
       {
         id: "lightside_normal_6a",
@@ -40702,13 +40702,13 @@ const gearList = [
         id: "darkside_normal_7h",
       },
       {
-        id: "darkside_hard_7f",
+        id: "darkside_hard_7d",
       },
       {
         id: "lightside_normal_6f",
       },
       {
-        id: "lightside_hard_6f",
+        id: "lightside_hard_6c",
       },
       {
         id: "fleet_hard_2b",
@@ -40744,7 +40744,7 @@ const gearList = [
         id: "darkside_normal_6j",
       },
       {
-        id: "darkside_hard_6h",
+        id: "darkside_hard_6e",
       },
       {
         id: "darkside_normal_8a",
@@ -40783,19 +40783,19 @@ const gearList = [
         id: "darkside_normal_6g",
       },
       {
-        id: "darkside_hard_6f",
+        id: "darkside_hard_6d",
       },
       {
         id: "lightside_normal_7g",
       },
       {
-        id: "lightside_hard_7f",
+        id: "lightside_hard_7d",
       },
       {
         id: "lightside_normal_8f",
       },
       {
-        id: "lightside_hard_8e",
+        id: "lightside_hard_8c",
       },
       {
         id: "fleet_hard_2c",
@@ -40881,13 +40881,13 @@ const gearList = [
         id: "lightside_normal_7e",
       },
       {
-        id: "lightside_hard_7e",
+        id: "lightside_hard_7c",
       },
       {
         id: "lightside_normal_8e",
       },
       {
-        id: "lightside_hard_8e",
+        id: "lightside_hard_8c",
       },
       {
         id: "fleet_hard_2b",
@@ -40981,7 +40981,7 @@ const gearList = [
         id: "darkside_normal_7e",
       },
       {
-        id: "darkside_hard_7e",
+        id: "darkside_hard_7c",
       },
       {
         id: "darkside_normal_8b",
@@ -41027,7 +41027,7 @@ const gearList = [
         id: "darkside_normal_8e",
       },
       {
-        id: "darkside_hard_8e",
+        id: "darkside_hard_8c",
       },
       {
         id: "fleet_normal_3f",
@@ -41051,13 +41051,13 @@ const gearList = [
         id: "darkside_normal_7f",
       },
       {
-        id: "darkside_hard_7e",
+        id: "darkside_hard_7c",
       },
       {
         id: "darkside_normal_8f",
       },
       {
-        id: "darkside_hard_8e",
+        id: "darkside_hard_8c",
       },
       {
         id: "lightside_hard_9b",
