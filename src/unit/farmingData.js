@@ -864,7 +864,7 @@ const nodeListHard = [
     gear: [],
   },
   {
-    id: `${light}_${hard}_9a`,
+    id: `${light}_${hard}_9b`,
     table: Light,
     difficulty: Hard,
     map: 9,

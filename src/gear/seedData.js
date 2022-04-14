@@ -35652,6 +35652,12 @@ const gearList = [
         id: "fleet_normal_2b",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "002",
@@ -35703,6 +35709,12 @@ const gearList = [
         count: 10,
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "003",
@@ -35745,6 +35757,12 @@ const gearList = [
         id: "lightside_hard_4e",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "004",
@@ -35784,6 +35802,12 @@ const gearList = [
         id: "lightside_normal_6i",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "005",
@@ -35812,6 +35836,12 @@ const gearList = [
       },
       {
         id: "lightside_hard_3f",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
       },
     ],
   },
@@ -35848,6 +35878,12 @@ const gearList = [
       },
       {
         id: "lightside_normal_8h",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
       },
     ],
   },
@@ -35892,6 +35928,12 @@ const gearList = [
         id: "lightside_hard_4e",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "008",
@@ -35931,6 +35973,12 @@ const gearList = [
         id: "lightside_hard_4e",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "009",
@@ -35959,6 +36007,12 @@ const gearList = [
       },
       {
         id: "lightside_hard_4f",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
       },
     ],
   },
@@ -35994,6 +36048,12 @@ const gearList = [
         id: "lightside_normal_6j",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "011",
@@ -36019,6 +36079,12 @@ const gearList = [
       },
       {
         id: "fleet_hard_2a",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
       },
     ],
   },
@@ -36052,6 +36118,12 @@ const gearList = [
       },
       {
         id: "lightside_normal_8g",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
       },
     ],
   },
@@ -36105,16 +36177,34 @@ const gearList = [
         id: "fleet_normal_2d",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "014",
     name: "Mk 2 BAW Armor Mod",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "015",
     name: "Mk 2 Neuro-Saav Electrobinoculars",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "016",
@@ -36151,16 +36241,34 @@ const gearList = [
         id: "lightside_normal_7g",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "017",
     name: "Mk 2 Nubian Security Scanner",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "018",
     name: "Mk 2 Loronar Power Cell",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "019",
@@ -36197,6 +36305,12 @@ const gearList = [
         id: "fleet_hard_3b",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "020",
@@ -36221,16 +36335,34 @@ const gearList = [
         id: "lightside_hard_2f",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "021",
     name: "Mk 1 Chiewab Hypo Syringe",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "022",
     name: "Mk 2 BioTech Implant",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "023",
@@ -36264,6 +36396,12 @@ const gearList = [
         id: "darkside_normal_8g",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "024",
@@ -36294,6 +36432,12 @@ const gearList = [
         id: "fleet_hard_4a",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "025",
@@ -36316,6 +36460,12 @@ const gearList = [
       },
       {
         id: "lightside_normal_8f",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
       },
     ],
   },
@@ -36351,6 +36501,12 @@ const gearList = [
         id: "fleet_hard_3b",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "027",
@@ -36384,11 +36540,23 @@ const gearList = [
         id: "fleet_hard_1a",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "028",
     name: "Mk 3 TaggeCo Holo Lens",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "029",
@@ -36422,6 +36590,12 @@ const gearList = [
         id: "fleet_hard_3c",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "030",
@@ -36449,16 +36623,34 @@ const gearList = [
         id: "fleet_hard_2b",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "031",
     name: "Mk 1 Nubian Design Tech",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "032",
     name: "Mk 2 SoroSuub Keypad",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "033",
@@ -36498,6 +36690,12 @@ const gearList = [
         id: "fleet_hard_1a",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "034",
@@ -36517,6 +36715,12 @@ const gearList = [
       },
       {
         id: "lightside_hard_5e",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
       },
     ],
   },
@@ -36565,6 +36769,12 @@ const gearList = [
       },
       {
         id: "fleet_hard_3a",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
       },
     ],
   },
@@ -36624,36 +36834,78 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "037",
     name: "Mk 4 BlasTech Weapon Mod",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "038",
     name: "Mk 4 Neuro-Saav Electrobinoculars",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "039",
     name: "Mk 3 Nubian Security Scanner",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "040",
     name: "Mk 4 Loronar Power Cell",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "041",
     name: "Mk 3 Fabritech Data Pad",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "042",
     name: "Mk 2 Nubian Design Tech",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "043",
@@ -36666,31 +36918,67 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "044",
     name: "Mk 4 BioTech Implant",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "045",
     name: "Mk 2 A/KT Stun Gun",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "046",
     name: "Mk 3 CEC Fusion Furnace",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "047",
     name: "Mk 3 Merr-Sonn Shield Generator",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "048",
     name: "Mk 1 Merr-Sonn Thermal Detonator",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "049",
@@ -36703,16 +36991,34 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "050",
     name: "Mk 4 BAW Armor Mod",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "051",
     name: "Mk 5 Neuro-Saav Electrobinoculars",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "052",
@@ -36725,11 +37031,23 @@ const gearList = [
         count: 1,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "053",
     name: "Mk 3 Arakyd Droid Caller",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "054",
@@ -36742,11 +37060,23 @@ const gearList = [
         count: 1,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "055",
     name: "Mk 4 Fabritech Data Pad",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "056",
@@ -36757,6 +37087,12 @@ const gearList = [
         dropRate: 0.2,
         slot: 13,
         count: 5,
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
       },
     ],
   },
@@ -36771,16 +37107,34 @@ const gearList = [
         count: 1,
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "058",
     name: "Mk 1 Chedak Comlink",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "059",
     name: "Mk 3 A/KT Stun Gun",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "060",
@@ -36793,11 +37147,23 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "061",
     name: "Mk 6 BlasTech Weapon Mod",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "062",
@@ -36810,11 +37176,23 @@ const gearList = [
         count: 1,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "063",
     name: "Mk 5 TaggeCo Holo Lens",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "064",
@@ -36827,6 +37205,12 @@ const gearList = [
         count: 1,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "065",
@@ -36837,6 +37221,12 @@ const gearList = [
         dropRate: 0.125,
         slot: 14,
         count: 1,
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
       },
     ],
   },
@@ -36872,6 +37262,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "067",
@@ -36884,26 +37280,56 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "068",
     name: "Mk 3 Chiewab Hypo Syringe",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "069",
     name: "Mk 2 Chedak Comlink",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "070",
     name: "Mk 4 Merr-Sonn Shield Generator",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "071",
     name: "Mk 1 Carbanti Sensor Array",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "072",
@@ -36914,6 +37340,12 @@ const gearList = [
         dropRate: 0.1667,
         slot: 14,
         count: 5,
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
       },
     ],
   },
@@ -36928,21 +37360,45 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "074",
     name: "Mk 6 BAW Armor Mod",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "075",
     name: "Mk 6 TaggeCo Holo Lens",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "076",
     name: "Mk 6 Fabritech Data Pad",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "077",
@@ -36953,6 +37409,12 @@ const gearList = [
         dropRate: 0.2,
         slot: 12,
         count: 5,
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
       },
     ],
   },
@@ -36967,31 +37429,67 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "079",
     name: "Mk 2 Czerka Stun Cuffs",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "080",
     name: "Mk 1 Zaltin Bacta Gel",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "081",
     name: "Mk 2 Athakam Medpac",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "082",
     name: "Mk 5 Merr-Sonn Shield Generator",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "083",
     name: "Mk 2 Carbanti Sensor Array",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "084",
@@ -37004,261 +37502,597 @@ const gearList = [
         count: 1,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "085",
     name: "Mk 7 BAW Armor Mod",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "086",
     name: "Mk 6 Neuro-Saav Electrobinoculars",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "087",
     name: "Mk 5 Nubian Security Scanner",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "088",
     name: "Mk 7 Loronar Power Cell",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "089",
     name: "Mk 7 Fabritech Data Pad",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "090",
     name: "Mk 5 Nubian Design Tech",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "091",
     name: "Mk 4 SoroSuub Keypad",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "092",
     name: "Mk 4 Arakyd Droid Caller",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "093",
     name: "Mk 4 Chiewab Hypo Syringe",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "094",
     name: "Mk 6 BioTech Implant",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "095",
     name: "Mk 4 A/KT Stun Gun",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "096",
     name: "Mk 4 CEC Fusion Furnace",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "097",
     name: "Mk 8 BlasTech Weapon Mod",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "098",
     name: "Mk 7 Neuro-Saav Electrobinoculars",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "099",
     name: "Mk 7 TaggeCo Holo Lens",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "100",
     name: "Mk 6 Nubian Security Scanner",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "101",
     name: "Mk 5 SoroSuub Keypad",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "102",
     name: "Mk 3 Sienar Holo Projector",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 500,
+      },
+    ],
   },
   {
     id: "103",
     name: "Mk 2 Zaltin Bacta Gel",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "104",
     name: "Mk 5 Chiewab Hypo Syringe",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "105",
     name: "Mk 3 Athakam Medpac",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "106",
     name: "Mk 3 Chedak Comlink",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "107",
     name: "Mk 6 Merr-Sonn Shield Generator",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "108",
     name: "Mk 3 Carbanti Sensor Array",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 500,
+      },
+    ],
   },
   {
     id: "109",
     name: "Mk 8 TaggeCo Holo Lens",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "110",
     name: "Mk 8 Fabritech Data Pad",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "111",
     name: "Mk 5 Arakyd Droid Caller",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "112",
     name: "Mk 3 Czerka Stun Cuffs",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 500,
+      },
+    ],
   },
   {
     id: "113",
     name: "Mk 6 Chiewab Hypo Syringe",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "114",
     name: "Mk 7 BioTech Implant",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "115",
     name: "Mk 4 Athakam Medpac",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "116",
     name: "Mk 4 Chedak Comlink",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "117",
     name: "Mk 5 A/KT Stun Gun",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 500,
+      },
+    ],
   },
   {
     id: "118",
     name: "Mk 5 CEC Fusion Furnace",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "119",
     name: "Mk 4 Carbanti Sensor Array",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "120",
     name: "Mk 5 Merr-Sonn Thermal Detonator",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "121",
     name: "Mk 9 BlasTech Weapon Mod",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "122",
     name: "Mk 8 BAW Armor Mod",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "123",
     name: "MK 8 Neuro-Saav Electrobinoculars",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "124",
     name: "Mk 9 TaggeCo Holo Lens",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "125",
     name: "Mk 7 Nubian Security Scanner",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "126",
     name: "Mk 6 Nubian Design Tech",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "127",
     name: "Mk 6 SoroSuub Keypad",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "128",
     name: "Mk 4 Czerka Stun Cuffs",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "129",
     name: "Mk 8 BioTech Implant",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 500,
+      },
+    ],
   },
   {
     id: "130",
     name: "Mk 5 Athakam Medpac",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "131",
     name: "Mk 7 Merr-Sonn Shield Generator",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 500,
+      },
+    ],
   },
   {
     id: "132",
     name: "Mk 5 Carbanti Sensor Array",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "133",
     name: "Mk 10 BlasTech Weapon Mod",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "134",
     name: "Mk 9 BAW Armor Mod",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "135",
     name: "Mk 9 Neuro-Saav Electrobinoculars",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "136",
@@ -37269,51 +38103,111 @@ const gearList = [
     id: "137",
     name: "Mk 8 Loronar Power Cell",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "138",
     name: "Mk 9 Fabritech Data Pad",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "139",
     name: "Mk 4 Sienar Holo Projector",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "140",
     name: "Mk 3 Zaltin Bacta Gel",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "141",
     name: "Mk 5 Chedak Comlink",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "142",
     name: "Mk 6 A/KT Stun Gun",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "143",
     name: "Mk 6 CEC Fusion Furnace",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "144",
     name: "Mk 6 Merr-Sonn Thermal Detonator",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "145",
     name: "Mk 11 BlasTech Weapon Mod",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "146",
     name: "Mk 10 Neuro-Saav Electrobinoculars",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "147",
@@ -37329,11 +38223,23 @@ const gearList = [
     id: "149",
     name: "Mk 6 Arakyd Droid Caller",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "150",
     name: "Mk 4 Zaltin Bacta Gel",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 20,
+      },
+    ],
   },
   {
     id: "151",
@@ -37349,6 +38255,12 @@ const gearList = [
     id: "153",
     name: "Mk 9 BioTech Implant",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+    ],
   },
   {
     id: "154",
@@ -37379,6 +38291,12 @@ const gearList = [
     id: "159",
     name: "Mk 12 ArmaTek Armor Plating",
     locations: [],
+    scavenger: [
+      {
+        id: "electrium_conductor",
+        count: 1050,
+      },
+    ],
   },
   {
     id: "160",
@@ -37394,16 +38312,34 @@ const gearList = [
     id: "162",
     name: "Mk 12 ArmaTek Visor",
     locations: [],
+    scavenger: [
+      {
+        id: "electrium_conductor",
+        count: 1050,
+      },
+    ],
   },
   {
     id: "163",
     name: "Mk 12 ArmaTek Wrist Band",
     locations: [],
+    scavenger: [
+      {
+        id: "electrium_conductor",
+        count: 1050,
+      },
+    ],
   },
   {
     id: "164",
     name: "Mk 12 ArmaTek Cybernetics",
     locations: [],
+    scavenger: [
+      {
+        id: "electrium_conductor",
+        count: 1050,
+      },
+    ],
   },
   {
     id: "165",
@@ -37444,11 +38380,31 @@ const gearList = [
     id: "172",
     name: "Mk 7 Kyrotech Shock Prod",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 500,
+      },
+    ],
   },
   {
     id: "173",
     name: "Mk 9 Kyrotech Battle Computer",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 300,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 500,
+      },
+    ],
   },
   {
     id: "G12Finisher_DUMMY_LOC_A",
@@ -38400,6 +39356,12 @@ const gearList = [
         id: "lightside_normal_6e",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "015Prototype",
@@ -38427,6 +39389,12 @@ const gearList = [
         id: "lightside_hard_4a",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "017Prototype",
@@ -38452,6 +39420,12 @@ const gearList = [
       },
       {
         id: "lightside_hard_4b",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
       },
     ],
   },
@@ -38485,6 +39459,12 @@ const gearList = [
       },
       {
         id: "fleet_normal_2a",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
       },
     ],
   },
@@ -38523,6 +39503,12 @@ const gearList = [
         id: "fleet_hard_4b",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "031Prototype",
@@ -38548,6 +39534,12 @@ const gearList = [
       },
       {
         id: "lightside_hard_5e",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
       },
     ],
   },
@@ -38578,6 +39570,12 @@ const gearList = [
       },
       {
         id: "fleet_hard_3a",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
       },
     ],
   },
@@ -38613,6 +39611,12 @@ const gearList = [
         id: "lightside_hard_4e",
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "040Prototype",
@@ -38644,6 +39648,12 @@ const gearList = [
       },
       {
         id: "fleet_normal_2a",
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
       },
     ],
   },
@@ -38691,6 +39701,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "049Prototype",
@@ -38719,6 +39735,12 @@ const gearList = [
       },
       {
         id: "lightside_hard_4e",
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
       },
     ],
   },
@@ -38760,6 +39782,12 @@ const gearList = [
         count: 10,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "056Prototype",
@@ -38788,6 +39816,12 @@ const gearList = [
       },
       {
         id: "fleet_hard_2b",
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
       },
     ],
   },
@@ -38826,21 +39860,45 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "063Prototype",
     name: "Mk 5 TaggeCo Holo Lens Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "064Prototype",
     name: "Mk 4 Nubian Security Scanner Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "068Prototype",
     name: "Mk 3 Chiewab Hypo Syringe Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "069Prototype",
@@ -38877,6 +39935,12 @@ const gearList = [
         id: "fleet_normal_3a",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "071Prototype",
@@ -38889,11 +39953,23 @@ const gearList = [
         count: 1,
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "072Prototype",
     name: "Mk 3 Merr-Sonn Thermal Detonator Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "073Prototype",
@@ -38904,6 +39980,12 @@ const gearList = [
         dropRate: 0.125,
         slot: 15,
         count: 1,
+      },
+    ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 30,
       },
     ],
   },
@@ -38918,6 +40000,12 @@ const gearList = [
         count: 1,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "078Prototype",
@@ -38930,21 +40018,45 @@ const gearList = [
         count: 1,
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "080Prototype",
     name: "Mk 1 Zaltin Bacta Gel Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "084Prototype",
     name: "Mk 4 Merr-Sonn Thermal Detonator Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "085Prototype",
     name: "Mk 7 BAW Armor Mod Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 30,
+      },
+    ],
   },
   {
     id: "086Prototype",
@@ -38957,81 +40069,177 @@ const gearList = [
         count: 1,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "087Prototype",
     name: "Mk 5 Nubian Security Scanner Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "090Prototype",
     name: "Mk 5 Nubian Design Tech Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "093Prototype",
     name: "Mk 4 Chiewab Hypo Syringe Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "094Prototype",
     name: "Mk 6 BioTech Implant Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "096Prototype",
     name: "Mk 4 CEC Fusion Furnace Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "097Prototype",
     name: "Mk 8 BlasTech Weapon Mod Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 30,
+      },
+    ],
   },
   {
     id: "100Prototype",
     name: "Mk 6 Nubian Security Scanner Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "103Prototype",
     name: "Mk 2 Zaltin Bacta Gel Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "104Prototype",
     name: "Mk 5 Chiewab Hypo Syringe Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "106Prototype",
     name: "Mk 3 Chedak Comlink Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 6,
+      },
+    ],
   },
   {
     id: "114Prototype",
     name: "Mk 7 BioTech Implant Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 30,
+      },
+    ],
   },
   {
     id: "116Prototype",
     name: "Mk 4 Chedak Comlink Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "117Prototype",
     name: "Mk 5 A/KT Stun Gun Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "119Prototype",
     name: "Mk 4 Carbanti Sensor Array Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "120Prototype",
     name: "Mk 5 Merr-Sonn Thermal Detonator Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+    ],
   },
   {
     id: "050Salvage",
@@ -39087,6 +40295,12 @@ const gearList = [
       },
       { id: "challenges_str" },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "051Salvage",
@@ -39111,6 +40325,12 @@ const gearList = [
         id: "lightside_hard_6e",
       },
       { id: "challenges_agi" },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
     ],
   },
   {
@@ -39146,6 +40366,12 @@ const gearList = [
       },
       {
         id: "fleet_hard_3a",
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -39203,6 +40429,12 @@ const gearList = [
       },
       { id: "challenges_agi" },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
+      },
+    ],
   },
   {
     id: "054Salvage",
@@ -39252,11 +40484,23 @@ const gearList = [
       },
       { id: "challenges_tac" },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "055PrototypeSalvage",
     name: "Mk 4 Fabritech Data Pad Prototype Salvage",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "056PrototypeSalvage",
@@ -39286,6 +40530,12 @@ const gearList = [
         id: "lightside_hard_8a",
       },
       { id: "challenges_tac" },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
+      },
     ],
   },
   {
@@ -39320,6 +40570,12 @@ const gearList = [
         id: "fleet_hard_5b",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
+      },
+    ],
   },
   {
     id: "061PrototypeSalvage",
@@ -39347,6 +40603,12 @@ const gearList = [
       },
       {
         id: "lightside_hard_6d",
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -39389,6 +40651,12 @@ const gearList = [
       },
       {
         id: "fleet_hard_3c",
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -39445,6 +40713,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "065Salvage",
@@ -39482,6 +40756,12 @@ const gearList = [
         dropRate: 0.25,
         slot: 21,
         count: 10,
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -39530,6 +40810,12 @@ const gearList = [
       },
       {
         id: "fleet_hard_5b",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
       },
     ],
   },
@@ -39615,6 +40901,12 @@ const gearList = [
         id: "fleet_hard_4b",
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
+      },
+    ],
   },
   {
     id: "072PrototypeSalvage",
@@ -39669,6 +40961,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
+      },
+    ],
   },
   {
     id: "073PrototypeSalvage",
@@ -39712,6 +41010,12 @@ const gearList = [
       },
       {
         id: "fleet_hard_4a",
+      },
+    ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
       },
     ],
   },
@@ -39763,6 +41067,12 @@ const gearList = [
       },
       {
         id: "fleet_normal_5h",
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -39817,6 +41127,12 @@ const gearList = [
       },
       {
         id: "fleet_hard_5c",
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -39874,6 +41190,12 @@ const gearList = [
       },
       {
         id: "fleet_hard_5b",
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
       },
     ],
   },
@@ -39936,6 +41258,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
+      },
+    ],
   },
   {
     id: "084PrototypeSalvage",
@@ -39987,7 +41315,7 @@ const gearList = [
         id: "lightside_normal_9d",
       },
       {
-        id: "lightside_hard_9b",
+        id: "lightside_hard_9d",
       },
       {
         id: "fleet_normal_4d",
@@ -40000,6 +41328,12 @@ const gearList = [
       },
       {
         id: "fleet_hard_5d",
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -40045,6 +41379,12 @@ const gearList = [
       },
       {
         id: "fleet_hard_5a",
+      },
+    ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
       },
     ],
   },
@@ -40101,6 +41441,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "087PrototypeSalvage",
@@ -40135,6 +41481,12 @@ const gearList = [
         dropRate: 0.1667,
         slot: 13,
         count: 6,
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -40183,6 +41535,12 @@ const gearList = [
         dropRate: 0.1667,
         slot: 13,
         count: 6,
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -40246,6 +41604,12 @@ const gearList = [
       },
       { id: "challenges_str" },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "092Salvage",
@@ -40304,6 +41668,12 @@ const gearList = [
       },
       { id: "challenges_str" },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "093PrototypeSalvage",
@@ -40355,6 +41725,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "094PrototypeSalvage",
@@ -40386,6 +41762,12 @@ const gearList = [
         dropRate: 0.2,
         slot: 18,
         count: 5,
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -40434,6 +41816,12 @@ const gearList = [
       },
       { id: "challenges_tac" },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "096PrototypeSalvage",
@@ -40465,6 +41853,12 @@ const gearList = [
         dropRate: 0.1667,
         slot: 13,
         count: 6,
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -40521,6 +41915,12 @@ const gearList = [
         count: 6,
       },
     ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
+    ],
   },
   {
     id: "100PrototypeSalvage",
@@ -40555,6 +41955,12 @@ const gearList = [
         dropRate: 0.1667,
         slot: 13,
         count: 6,
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -40596,6 +42002,12 @@ const gearList = [
         count: 6,
       },
       { id: "challenges_agi" },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
     ],
   },
   {
@@ -40642,6 +42054,16 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 10,
+      },
+    ],
   },
   {
     id: "103PrototypeSalvage",
@@ -40666,7 +42088,7 @@ const gearList = [
         id: "lightside_hard_8b",
       },
       {
-        id: "lightside_hard_9b",
+        id: "lightside_hard_9d",
       },
       {
         id: "fleet_normal_2g",
@@ -40691,6 +42113,12 @@ const gearList = [
         dropRate: 0.1667,
         slot: 13,
         count: 6,
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
       },
     ],
   },
@@ -40735,6 +42163,12 @@ const gearList = [
         count: 6,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "106PrototypeSalvage",
@@ -40772,6 +42206,12 @@ const gearList = [
         dropRate: 0.1667,
         slot: 12,
         count: 6,
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
       },
     ],
   },
@@ -40819,6 +42259,16 @@ const gearList = [
         count: 6,
       },
       { id: "challenges_str" },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 10,
+      },
     ],
   },
   {
@@ -40872,6 +42322,16 @@ const gearList = [
       },
       { id: "challenges_agi" },
     ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 10,
+      },
+    ],
   },
   {
     id: "113Salvage",
@@ -40909,6 +42369,12 @@ const gearList = [
       },
       { id: "challenges_agi" },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "114PrototypeSalvage",
@@ -40934,6 +42400,12 @@ const gearList = [
       },
       {
         id: "fleet_normal_5f",
+      },
+    ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
       },
     ],
   },
@@ -40970,6 +42442,12 @@ const gearList = [
         dropRate: 0.125,
         slot: 7,
         count: 5,
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -41012,6 +42490,16 @@ const gearList = [
       },
       { id: "challenges_tac" },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 10,
+      },
+    ],
   },
   {
     id: "119PrototypeSalvage",
@@ -41042,6 +42530,12 @@ const gearList = [
         count: 6,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "120PrototypeSalvage",
@@ -41060,7 +42554,7 @@ const gearList = [
         id: "darkside_hard_8c",
       },
       {
-        id: "lightside_hard_9b",
+        id: "lightside_hard_9d",
       },
       {
         id: "fleet_normal_3g",
@@ -41079,6 +42573,12 @@ const gearList = [
         dropRate: 0.125,
         slot: 10,
         count: 5,
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -41102,6 +42602,12 @@ const gearList = [
         count: 5,
       },
       { id: "challenges_tac" },
+    ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
     ],
   },
   {
@@ -41131,6 +42637,12 @@ const gearList = [
       },
       { id: "challenges_str" },
     ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
+    ],
   },
   {
     id: "130Salvage",
@@ -41140,7 +42652,7 @@ const gearList = [
         id: "lightside_normal_9g",
       },
       {
-        id: "lightside_hard_9b",
+        id: "lightside_hard_9d",
       },
       {
         id: "fleet_hard_5c",
@@ -41158,6 +42670,12 @@ const gearList = [
         count: 5,
       },
       { id: "challenges_tac" },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
     ],
   },
   {
@@ -41181,6 +42699,12 @@ const gearList = [
         dropRate: 0.2,
         slot: 6,
         count: 5,
+      },
+    ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
       },
     ],
   },
@@ -41214,6 +42738,16 @@ const gearList = [
       },
       { id: "challenges_str" },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 10,
+      },
+    ],
   },
   {
     id: "136Salvage",
@@ -41244,6 +42778,12 @@ const gearList = [
         count: 3,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "138Salvage",
@@ -41271,6 +42811,12 @@ const gearList = [
         id: "challenges_agi",
       },
     ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
+    ],
   },
   {
     id: "145Salvage",
@@ -41293,6 +42839,12 @@ const gearList = [
         dropRate: 14.285714285714286,
         slot: 11,
         count: 3,
+      },
+    ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
       },
     ],
   },
@@ -41325,6 +42877,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "149Salvage",
@@ -41353,6 +42911,12 @@ const gearList = [
         dropRate: 0.2,
         slot: 10,
         count: 5,
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -41385,6 +42949,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "153Salvage",
@@ -41409,6 +42979,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
+    ],
   },
   {
     id: "156Salvage",
@@ -41428,6 +43004,12 @@ const gearList = [
         dropRate: 0.2,
         slot: 7,
         count: 4,
+      },
+    ],
+    scavenger: [
+      {
+        id: "aurodium_heatsink",
+        count: 10,
       },
     ],
   },
@@ -41481,6 +43063,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
+    ],
   },
   {
     id: "159Salvage",
@@ -41511,6 +43099,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
+    ],
   },
   {
     id: "160Salvage",
@@ -41533,6 +43127,12 @@ const gearList = [
         dropRate: 0.2,
         slot: 10,
         count: 5,
+      },
+    ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
       },
     ],
   },
@@ -41563,6 +43163,12 @@ const gearList = [
         dropRate: 14.285714285714286,
         slot: 11,
         count: 5,
+      },
+    ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
       },
     ],
   },
@@ -41601,11 +43207,23 @@ const gearList = [
         count: 4,
       },
     ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
+    ],
   },
   {
     id: "133Prototype",
     name: "Mk 10 BlasTech Weapon Mod Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 30,
+      },
+    ],
   },
   {
     id: "133Component",
@@ -41627,11 +43245,23 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
+    ],
   },
   {
     id: "123Prototype",
     name: "MK 8 Neuro-Saav Electrobinoculars Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 30,
+      },
+    ],
   },
   {
     id: "123Component",
@@ -41650,11 +43280,27 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
+    ],
   },
   {
     id: "129Prototype",
     name: "Mk 8 BioTech Implant Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 30,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 500,
+      },
+    ],
   },
   {
     id: "129Component",
@@ -41689,11 +43335,31 @@ const gearList = [
       },
       { id: "challenges_tac" },
     ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 10,
+      },
+    ],
   },
   {
     id: "130Prototype",
     name: "Mk 5 Athakam Medpac Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 12,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 500,
+      },
+    ],
   },
   {
     id: "130Component",
@@ -41724,11 +43390,27 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 10,
+      },
+    ],
   },
   {
     id: "138Prototype",
     name: "Mk 9 Fabritech Data Pad Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 30,
+      },
+    ],
   },
   {
     id: "138Component",
@@ -41765,6 +43447,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
+    ],
   },
   {
     id: "139Salvage",
@@ -41783,6 +43471,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "140Salvage",
@@ -41793,6 +43487,12 @@ const gearList = [
         dropRate: 0.25,
         slot: 4,
         count: 5,
+      },
+    ],
+    scavenger: [
+      {
+        id: "carbonite_circuit_board",
+        count: 2,
       },
     ],
   },
@@ -41813,6 +43513,12 @@ const gearList = [
         count: 5,
       },
     ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
+      },
+    ],
   },
   {
     id: "144Salvage",
@@ -41829,6 +43535,12 @@ const gearList = [
         dropRate: 0.1111,
         slot: 10,
         count: 3,
+      },
+    ],
+    scavenger: [
+      {
+        id: "bronzium_wiring",
+        count: 4,
       },
     ],
   },
@@ -41962,6 +43674,12 @@ const gearList = [
     id: "158Prototype",
     name: "Mk 12 ArmaTek Multi-tool Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "impulse_detector",
+        count: 360,
+      },
+    ],
   },
   {
     id: "158PrototypeSalvage",
@@ -41983,11 +43701,23 @@ const gearList = [
         count: 4,
       },
     ],
+    scavenger: [
+      {
+        id: "impulse_detector",
+        count: 12,
+      },
+    ],
   },
   {
     id: "159Prototype",
     name: "Mk 12 ArmaTek Armor Plating Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "electrium_conductor",
+        count: 450,
+      },
+    ],
   },
   {
     id: "159PrototypeSalvage",
@@ -42009,11 +43739,23 @@ const gearList = [
         count: 4,
       },
     ],
+    scavenger: [
+      {
+        id: "electrium_conductor",
+        count: 15,
+      },
+    ],
   },
   {
     id: "160Prototype",
     name: "Mk 12 ArmaTek Bayonet Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "impulse_detector",
+        count: 360,
+      },
+    ],
   },
   {
     id: "160PrototypeSalvage",
@@ -42033,6 +43775,12 @@ const gearList = [
         dropRate: 0.125,
         slot: 6,
         count: 4,
+      },
+    ],
+    scavenger: [
+      {
+        id: "impulse_detector",
+        count: 12,
       },
     ],
   },
@@ -42066,6 +43814,12 @@ const gearList = [
     id: "162Prototype",
     name: "Mk 12 ArmaTek Visor Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "electrium_conductor",
+        count: 450,
+      },
+    ],
   },
   {
     id: "162PrototypeSalvage",
@@ -42087,11 +43841,23 @@ const gearList = [
         count: 4,
       },
     ],
+    scavenger: [
+      {
+        id: "electrium_conductor",
+        count: 15,
+      },
+    ],
   },
   {
     id: "163Prototype",
     name: "Mk 12 ArmaTek Wrist Band Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "electrium_conductor",
+        count: 450,
+      },
+    ],
   },
   {
     id: "163PrototypeSalvage",
@@ -42113,11 +43879,23 @@ const gearList = [
         count: 4,
       },
     ],
+    scavenger: [
+      {
+        id: "electrium_conductor",
+        count: 15,
+      },
+    ],
   },
   {
     id: "164Prototype",
     name: "Mk 12 ArmaTek Cybernetics Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "electrium_conductor",
+        count: 450,
+      },
+    ],
   },
   {
     id: "164PrototypeSalvage",
@@ -42139,11 +43917,23 @@ const gearList = [
         count: 4,
       },
     ],
+    scavenger: [
+      {
+        id: "electrium_conductor",
+        count: 15,
+      },
+    ],
   },
   {
     id: "165Prototype",
     name: "Mk 12 ArmaTek Medpac Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "impulse_detector",
+        count: 360,
+      },
+    ],
   },
   {
     id: "165PrototypeSalvage",
@@ -42165,11 +43955,23 @@ const gearList = [
         count: 4,
       },
     ],
+    scavenger: [
+      {
+        id: "impulse_detector",
+        count: 12,
+      },
+    ],
   },
   {
     id: "166Prototype",
     name: "Mk 12 ArmaTek Thermal Detonator Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "zinbiddle_card",
+        count: 900,
+      },
+    ],
   },
   {
     id: "166PrototypeSalvage",
@@ -42197,6 +43999,12 @@ const gearList = [
         count: 4,
       },
     ],
+    scavenger: [
+      {
+        id: "zinbiddle_card",
+        count: 18,
+      },
+    ],
   },
   {
     id: "166Component",
@@ -42207,6 +44015,12 @@ const gearList = [
     id: "167Prototype",
     name: "Mk 12 ArmaTek Key Pad Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "zinbiddle_card",
+        count: 900,
+      },
+    ],
   },
   {
     id: "167PrototypeSalvage",
@@ -42234,6 +44048,12 @@ const gearList = [
         count: 4,
       },
     ],
+    scavenger: [
+      {
+        id: "zinbiddle_card",
+        count: 18,
+      },
+    ],
   },
   {
     id: "167Component",
@@ -42244,6 +44064,12 @@ const gearList = [
     id: "168Prototype",
     name: "Mk 12 ArmaTek Fusion Furnace Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "gyrda_keypad",
+        count: 500,
+      },
+    ],
   },
   {
     id: "168PrototypeSalvage",
@@ -42271,6 +44097,12 @@ const gearList = [
         count: 4,
       },
     ],
+    scavenger: [
+      {
+        id: "gyrda_keypad",
+        count: 10,
+      },
+    ],
   },
   {
     id: "168Component",
@@ -42281,6 +44113,12 @@ const gearList = [
     id: "169Prototype",
     name: "Mk 12 ArmaTek Data Pad Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "gyrda_keypad",
+        count: 500,
+      },
+    ],
   },
   {
     id: "169PrototypeSalvage",
@@ -42308,6 +44146,12 @@ const gearList = [
         count: 4,
       },
     ],
+    scavenger: [
+      {
+        id: "gyrda_keypad",
+        count: 10,
+      },
+    ],
   },
   {
     id: "169Component",
@@ -42318,6 +44162,12 @@ const gearList = [
     id: "170Prototype",
     name: "Mk 12 ArmaTek Holo Lens Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "zinbiddle_card",
+        count: 900,
+      },
+    ],
   },
   {
     id: "170PrototypeSalvage",
@@ -42345,6 +44195,12 @@ const gearList = [
         count: 4,
       },
     ],
+    scavenger: [
+      {
+        id: "zinbiddle_card",
+        count: 18,
+      },
+    ],
   },
   {
     id: "170Component",
@@ -42355,6 +44211,12 @@ const gearList = [
     id: "171Prototype",
     name: "Mk 12 ArmaTek Stun Gun Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "gyrda_keypad",
+        count: 500,
+      },
+    ],
   },
   {
     id: "171PrototypeSalvage",
@@ -42380,6 +44242,12 @@ const gearList = [
         dropRate: 0.333,
         slot: 2,
         count: 4,
+      },
+    ],
+    scavenger: [
+      {
+        id: "gyrda_keypad",
+        count: 10,
       },
     ],
   },
@@ -42584,6 +44452,16 @@ const gearList = [
     id: "172Prototype",
     name: "Mk 7 Kyrotech Shock Prod Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 30,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 500,
+      },
+    ],
   },
   {
     id: "172Salvage",
@@ -42605,11 +44483,31 @@ const gearList = [
         count: 4,
       },
     ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 10,
+      },
+    ],
   },
   {
     id: "173Prototype",
     name: "Mk 9 Kyrotech Battle Computer Prototype",
     locations: [],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 30,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 500,
+      },
+    ],
   },
   {
     id: "173Salvage",
@@ -42629,6 +44527,16 @@ const gearList = [
         dropRate: 0.25,
         slot: 6,
         count: 4,
+      },
+    ],
+    scavenger: [
+      {
+        id: "chromium_transistor",
+        count: 6,
+      },
+      {
+        id: "aurodium_heatsink",
+        count: 10,
       },
     ],
   },
