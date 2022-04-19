@@ -44822,6 +44822,7 @@ module.exports = originalList.map(
       image,
       ingredients,
       locations: match.locations,
+      scavenger: match.scavenger,
     };
   }
 );
