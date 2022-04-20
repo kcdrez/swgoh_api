@@ -1425,7 +1425,7 @@ const nodeListHard = [
     map: 2,
     mission: "D",
     energy: 20,
-    characters: ["BASTILASHAN"],
+    characters: ["MG100STARFORTRESSSF17"],
     gear: [],
   },
   {
@@ -6033,7 +6033,6 @@ const dailyChallenges = [
 
 const notAccelerated = [
   "VULTUREDROID",
-  "BADBATCHTECH",
   "FENNECSHAND",
   "SITHBOMBER",
   "IG2000",
