@@ -5244,7 +5244,7 @@ const galacticLegends = {
           },
         },
         {
-          id: "TIEFIGHTERFOSF",
+          id: "FIRSTORDERSPECIALFORCESPILOT",
           requirement: {
             value: 3,
             type: "Relic",
