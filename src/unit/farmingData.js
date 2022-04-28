@@ -1519,7 +1519,7 @@ const nodeListHard = [
     gear: [],
   },
   {
-    id: `${fleet}_${hard}_4e`,
+    id: `${fleet}_${hard}_4d`,
     table: Fleet,
     difficulty: Hard,
     map: 4,
@@ -1535,7 +1535,7 @@ const nodeListHard = [
     map: 4,
     mission: "E",
     energy: 20,
-    characters: ["JOLEEBINDO"],
+    characters: ["FIRSTORDERTIEECHELON"],
     gear: [],
   },
   {
@@ -6036,7 +6036,6 @@ const notAccelerated = [
   "FENNECSHAND",
   "SITHBOMBER",
   "IG2000",
-  "BADBATCHWRECKER",
   "YWINGCLONEWARS",
   "BADBATCHECHO",
   "XANADUBLOOD",
