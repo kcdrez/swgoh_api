@@ -18217,7 +18217,7 @@ const units = [
   },
   {
     name: "Ninth Sister",
-    aliases: ["9th Sister", "NS"],
+    aliases: ["9th Sister", "NS", "9Sister"],
     id: "NINTHSISTER",
     pk: 2818,
     url: "http://swgoh.gg/characters/ninth-sister/",
@@ -18310,7 +18310,7 @@ const units = [
   },
   {
     name: "Seventh Sister",
-    aliases: ["7th Sister", "SS"],
+    aliases: ["7th Sister", "SS", "7Sister"],
     id: "SEVENTHSISTER",
     pk: 3048,
     url: "http://swgoh.gg/characters/seventh-sister/",
@@ -18411,7 +18411,7 @@ const units = [
   },
   {
     name: "Eighth Brother",
-    aliases: ["EB", "8th Brother"],
+    aliases: ["EB", "8th Brother", "8Brother"],
     id: "EIGHTHBROTHER",
     pk: 3117,
     url: "http://swgoh.gg/characters/eighth-brother/",
