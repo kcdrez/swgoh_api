@@ -3787,7 +3787,7 @@ const nodeListNormal = [
     table: Fleet,
     difficulty: Normal,
     map: 3,
-    mission: "a",
+    mission: "A",
     energy: 10,
     characters: [],
   },

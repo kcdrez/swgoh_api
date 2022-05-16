@@ -35656,6 +35656,9 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 1,
+        notes: "Recommended to save 150-300 in reserves.",
+        nodes: ["lightside_normal_1c"],
       },
     ],
   },
@@ -35713,6 +35716,9 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 1,
+        notes: "Recommended to save 300-600 in reserves.",
+        nodes: ["lightside_normal_1c"],
       },
     ],
   },
@@ -35761,6 +35767,8 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 1,
+        nodes: ["lightside_normal_1c"],
       },
     ],
   },
@@ -35806,6 +35814,8 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 1,
+        nodes: ["lightside_normal_1c"],
       },
     ],
   },
@@ -35842,6 +35852,8 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 1,
+        nodes: ["lightside_normal_1c"],
       },
     ],
   },
@@ -35884,6 +35896,8 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 3,
+        nodes: ["lightside_normal_8h"],
       },
     ],
   },
@@ -36309,6 +36323,8 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 2,
+        nodes: ["darkside_normal_8e"],
       },
     ],
   },
@@ -36694,6 +36710,8 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 2,
+        nodes: ["lightside_normal_9a"],
       },
     ],
   },
@@ -37266,6 +37284,8 @@ const gearList = [
       {
         id: "bronzium_wiring",
         count: 20,
+        priority: 1,
+        nodes: ["lightside_normal_7b", "lightside_normal_9b"],
       },
     ],
   },
@@ -37364,6 +37384,13 @@ const gearList = [
       {
         id: "chromium_transistor",
         count: 300,
+        priority: 1,
+        nodes: [
+          "lightside_normal_9e",
+          "lightside_normal_5g",
+          "lightside_normal_2a",
+          "guild_store",
+        ],
       },
     ],
   },
@@ -37517,6 +37544,12 @@ const gearList = [
       {
         id: "chromium_transistor",
         count: 300,
+        priority: 2,
+        nodes: [
+          "lightside_normal_7b",
+          "lightside_normal_6f",
+          "darkside_normal_3a",
+        ],
       },
     ],
   },
@@ -37550,6 +37583,15 @@ const gearList = [
       {
         id: "chromium_transistor",
         count: 300,
+        priority: 3,
+        nodes: [
+          "lightside_normal_9e",
+          "lightside_normal_5g",
+          "darkside_normal_3g",
+          "darkside_normal_5i",
+          "guild_store > 077",
+          "guild_store > 060",
+        ],
       },
     ],
   },
@@ -37561,6 +37603,9 @@ const gearList = [
       {
         id: "chromium_transistor",
         count: 300,
+        priority: 6,
+        nodes: ["guild_store > 049"],
+        notes: "Recommended to save 2-5 in reserves.",
       },
     ],
   },
@@ -37660,6 +37705,16 @@ const gearList = [
       {
         id: "chromium_transistor",
         count: 300,
+        priority: 5,
+        nodes: [
+          "challenges_tac > 054Salvage",
+          "lightside_normal_1f > 009",
+          "lightside_normal_1f > 003",
+          "lightside_normal_6e > 014Prototype",
+          "darkside_normal_3a > 072PrototypeSalvage",
+          "squad_arena_store > 072PrototypeSalvage",
+        ],
+        notes: "Recommended to save 10-20 in reserves.",
       },
     ],
   },
@@ -37708,6 +37763,10 @@ const gearList = [
       {
         id: "aurodium_heatsink",
         count: 500,
+        priority: 1,
+        nodes: ["guild_store > 102Salvage", "lightside_normal_9f > 102Salvage"],
+        notes:
+          "Best source by far, but also used frequently in gearing characters. ALWAYS construct this piece, never scavenge the base salvage.",
       },
     ],
   },
@@ -37800,6 +37859,13 @@ const gearList = [
       {
         id: "chromium_transistor",
         count: 300,
+        priority: 4,
+        nodes: [
+          "challenges_agi > 053Salvage",
+          "darkside_normal_3a > 020",
+          "lightside_normal_9f > 078PrototypeSalvage",
+          "guild_store > 078",
+        ],
       },
     ],
   },
@@ -39507,6 +39573,8 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 3,
+        nodes: ["lightside_normal_8e"],
       },
     ],
   },
@@ -39540,6 +39608,8 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 4,
+        nodes: ["darkside_normal_8a"],
       },
     ],
   },
@@ -39615,6 +39685,8 @@ const gearList = [
       {
         id: "bronzium_wiring",
         count: 12,
+        priority: 2,
+        nodes: ["darkside_normal_9a"],
       },
     ],
   },
@@ -39654,6 +39726,8 @@ const gearList = [
       {
         id: "bronzium_wiring",
         count: 12,
+        priority: 3,
+        nodes: ["darkside_normal_9d", "darkside_normal_8b"],
       },
     ],
   },
@@ -39705,6 +39779,8 @@ const gearList = [
       {
         id: "bronzium_wiring",
         count: 12,
+        priority: 2,
+        nodes: ["darkside_normal_9c"],
       },
     ],
   },
@@ -39939,6 +40015,8 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 2,
+        nodes: ["fleet_normal_3a", "lightside_normal_9c"],
       },
     ],
   },
@@ -40299,6 +40377,9 @@ const gearList = [
       {
         id: "bronzium_wiring",
         count: 4,
+        priority: 9,
+        nodes: ["challenges_str"],
+        notes: "Recommended to save 150-200 in reserves.",
       },
     ],
   },
@@ -40330,6 +40411,9 @@ const gearList = [
       {
         id: "bronzium_wiring",
         count: 4,
+        priority: 9,
+        nodes: ["challenges_agi"],
+        notes: "Recommended to save 150-200 in reserves.",
       },
     ],
   },
@@ -40535,6 +40619,8 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 2,
+        priority: 5,
+        nodes: ["challenges_tac"],
       },
     ],
   },
@@ -42498,6 +42584,9 @@ const gearList = [
       {
         id: "aurodium_heatsink",
         count: 10,
+        priority: 3,
+        nodes: ["challenges_tac"],
+        notes: "Recommended to save 200-300 in reserves.",
       },
     ],
   },
@@ -42607,6 +42696,9 @@ const gearList = [
       {
         id: "chromium_transistor",
         count: 6,
+        priority: 7,
+        nodes: ["challenges_tac"],
+        notes: "Recommended to save 200-300 in reserves.",
       },
     ],
   },
@@ -42746,6 +42838,9 @@ const gearList = [
       {
         id: "aurodium_heatsink",
         count: 10,
+        priority: 2,
+        nodes: ["challenges_str"],
+        notes: "Recommended to save 200-300 in reserves.",
       },
     ],
   },
@@ -42815,6 +42910,9 @@ const gearList = [
       {
         id: "chromium_transistor",
         count: 6,
+        priority: 8,
+        nodes: ["challenges_agi"],
+        notes: "Recommended to save 200-300 in reserves.",
       },
     ],
   },
@@ -43212,6 +43310,13 @@ const gearList = [
         id: "chromium_transistor",
         count: 6,
       },
+      {
+        id: "aurodium_heatsink",
+        count: 10,
+        priority: 5,
+        nodes: ["lightside_hard_9a"],
+        notes: "Recommended to save 200-300 in reserves.",
+      },
     ],
   },
   {
@@ -43249,6 +43354,9 @@ const gearList = [
       {
         id: "chromium_transistor",
         count: 6,
+        priority: 8,
+        nodes: ["lightside_normal_9b"],
+        notes: "Recommended to save 200-300 in reserves.",
       },
     ],
   },
@@ -43398,6 +43506,9 @@ const gearList = [
       {
         id: "aurodium_heatsink",
         count: 10,
+        priority: 4,
+        nodes: ["darkside_normal_9f"],
+        notes: "Recommended to save 200-300 in reserves.",
       },
     ],
   },
@@ -43705,6 +43816,9 @@ const gearList = [
       {
         id: "impulse_detector",
         count: 12,
+        priority: 3,
+        nodes: ["darkside_normal_9d"],
+        notes: "Recommended to save 60-90 in reserves.",
       },
     ],
   },
@@ -43781,6 +43895,9 @@ const gearList = [
       {
         id: "impulse_detector",
         count: 12,
+        priority: 1,
+        nodes: ["lightside_normal_9f"],
+        notes: "Recommended to save 90-90 in reserves.",
       },
     ],
   },
@@ -43845,6 +43962,9 @@ const gearList = [
       {
         id: "electrium_conductor",
         count: 15,
+        priority: 3,
+        nodes: ["lightside_normal_9e"],
+        notes: "Recommended to save 90-90 in reserves.",
       },
     ],
   },
@@ -43883,6 +44003,9 @@ const gearList = [
       {
         id: "electrium_conductor",
         count: 15,
+        priority: 2,
+        nodes: ["darkside_normal_9a"],
+        notes: "Recommended to save 90-120 in reserves.",
       },
     ],
   },
@@ -43921,6 +44044,9 @@ const gearList = [
       {
         id: "electrium_conductor",
         count: 15,
+        priority: 1,
+        nodes: ["darkside_normal_9c"],
+        notes: "Recommended to save 60-90 in reserves.",
       },
     ],
   },
@@ -43959,6 +44085,9 @@ const gearList = [
       {
         id: "impulse_detector",
         count: 12,
+        priority: 2,
+        nodes: ["lightside_normal_9c"],
+        notes: "Recommended to save 60-90 in reserves.",
       },
     ],
   },
@@ -44003,6 +44132,9 @@ const gearList = [
       {
         id: "zinbiddle_card",
         count: 18,
+        priority: 2,
+        nodes: ["fleet_normal_4e"],
+        notes: "Recommended to save 50-100 in reserves.",
       },
     ],
   },
@@ -44052,6 +44184,9 @@ const gearList = [
       {
         id: "zinbiddle_card",
         count: 18,
+        priority: 1,
+        nodes: ["fleet_normal_3a"],
+        notes: "Recommended to save 50-100 in reserves.",
       },
     ],
   },
@@ -44101,6 +44236,9 @@ const gearList = [
       {
         id: "gyrda_keypad",
         count: 10,
+        priority: 2,
+        nodes: ["fleet_normal_2e"],
+        notes: "Recommended to save 100-150 in reserves.",
       },
     ],
   },
@@ -44150,6 +44288,9 @@ const gearList = [
       {
         id: "gyrda_keypad",
         count: 10,
+        priority: 2,
+        nodes: ["fleet_normal_5a"],
+        notes: "Recommended to save 50-100 in reserves.",
       },
     ],
   },
@@ -44248,6 +44389,9 @@ const gearList = [
       {
         id: "gyrda_keypad",
         count: 10,
+        priority: 1,
+        nodes: ["fleet_normal_3e"],
+        notes: "Recommended to save 50-100 in reserves.",
       },
     ],
   },

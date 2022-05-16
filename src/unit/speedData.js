@@ -445,4 +445,16 @@ module.exports = {
       },
     ],
   },
+  "50RT": {
+    leader: [
+      {
+        value: 40,
+        tags: ["Self"],
+        conditions: {
+          allAllies: true,
+          tags: ["Droid"],
+        },
+      },
+    ],
+  },
 };
