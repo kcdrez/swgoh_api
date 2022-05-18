@@ -470,6 +470,7 @@ module.exports = {
           value: 30,
           tags: ["Sith Empire"],
           mode: "Grand Arena",
+          abilityId: "leaderskill_DARTHMALGUS",
         },
       },
     ],
