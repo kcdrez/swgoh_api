@@ -457,4 +457,21 @@ module.exports = {
       },
     ],
   },
+  DARTHMALGUS: {
+    leader: [
+      {
+        value: 10,
+        tags: ["Sith Empire"],
+        scalesBy: ["Sith Empire"],
+        abilityId: "leaderskill_DARTHMALGUS",
+      },
+      {
+        omicron: {
+          value: 30,
+          tags: ["Sith Empire"],
+          mode: "Grand Arena",
+        },
+      },
+    ],
+  },
 };
