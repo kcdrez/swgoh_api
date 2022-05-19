@@ -18576,7 +18576,6 @@ const units = [
     name: "Darth Malgus",
     aliases: ["DM"],
     id: "DARTHMALGUS",
-    pk: 3389,
     url: "http://swgoh.gg/characters/darth-malgus/",
     image: "https://game-assets.swgoh.gg/tex.charui_darthmalgus.png",
     description:
