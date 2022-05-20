@@ -43,9 +43,10 @@ class Player {
       players.push({
         units: player.units
           .map((x) => {
-            const { relic_level, ...restUnit } = x.data;
+            const { relic_tier, rarity, ...restUnit } = x.data;
             return {
-              relic_level: relic_level - 2,
+              relic_tier: relic_tier - 2,
+              stars: rarity,
               ...restUnit,
             };
           })

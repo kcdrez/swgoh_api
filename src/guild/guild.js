@@ -91,7 +91,6 @@ class Guild {
         ...player,
       };
     });
-    // .filter((p) => !!p.unit);
   }
 }
 
