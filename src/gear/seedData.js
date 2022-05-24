@@ -40559,7 +40559,8 @@ const gearList = [
         count: 4,
         priority: 9,
         nodes: ["challenges_str"],
-        notes: "Recommended to save 150-200 in reserves.",
+        notes:
+          "Recommended to save 150-200 in reserves. Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump and extras you have into Bronzium Wiring.",
       },
     ],
   },
@@ -40593,7 +40594,8 @@ const gearList = [
         count: 4,
         priority: 9,
         nodes: ["challenges_agi"],
-        notes: "Recommended to save 150-200 in reserves.",
+        notes:
+          "Recommended to save 150-200 in reserves. Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump and extras you have into Carbonite Circuit Boards.",
       },
     ],
   },
@@ -40801,6 +40803,8 @@ const gearList = [
         count: 2,
         priority: 5,
         nodes: ["challenges_tac"],
+        notes:
+          "Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump and extras you have into Carbonite Circuit Boards.",
       },
     ],
   },
@@ -42766,7 +42770,8 @@ const gearList = [
         count: 10,
         priority: 3,
         nodes: ["challenges_tac"],
-        notes: "Recommended to save 200-300 in reserves.",
+        notes:
+          "Recommended to save 200-300 in reserves. You may get an abundance from Daily Challenges, so any extras can be dumped into Aurodium Heatsinks.",
       },
     ],
   },
@@ -42878,7 +42883,8 @@ const gearList = [
         count: 6,
         priority: 7,
         nodes: ["challenges_tac"],
-        notes: "Recommended to save 200-300 in reserves.",
+        notes:
+          "Recommended to save 200-300 in reserves. Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump and extras you have into Chromium Transistors.",
       },
     ],
   },
@@ -43020,7 +43026,8 @@ const gearList = [
         count: 10,
         priority: 2,
         nodes: ["challenges_str"],
-        notes: "Recommended to save 200-300 in reserves.",
+        notes:
+          "Recommended to save 200-300 in reserves. You may get an abundance from Daily Challenges, so any extras can be dumped into Aurodium Heatsinks.",
       },
     ],
   },
@@ -43092,7 +43099,8 @@ const gearList = [
         count: 6,
         priority: 8,
         nodes: ["challenges_agi"],
-        notes: "Recommended to save 200-300 in reserves.",
+        notes:
+          "Recommended to save 200-300 in reserves. Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump and extras you have into Chromium Transistors.",
       },
     ],
   },
@@ -45161,372 +45169,6 @@ const gearList = [
     id: "G12Finisher_50RT_A",
     name: "Power Cell Injector (Plasma) - 50R-T",
     locations: [],
-  },
-];
-
-const scavengerFarming = [
-  {
-    id: "fleet_normal_3e",
-    gear: [
-      {
-        id: "171PrototypeSalvage",
-        scavenger: "gyrda_keypad",
-      },
-      {
-        id: "026",
-        scavenger: "carbonite_circuit_board",
-        notes: "Recommended to save 20-30 in reserves.",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_2e",
-    gear: [
-      {
-        id: "168PrototypeSalvage",
-        scavenger: "gyrda_keypad",
-      },
-      {
-        id: "087PrototypeSalvage",
-        scavenger: "bronzium_wiring",
-      },
-      {
-        id: "050Salvage",
-        scavenger: "bronzium_wiring",
-        notes: "Recommended to save 25-300 in reserves.",
-      },
-      {
-        id: "030",
-        scavenger: "chromium_transistor",
-        notes:
-          "Can also be used in Carbonite Circuit Boards or Bronzium Wirings, but it's recommended use these for fully crafted pieces for Chromium Transistors.",
-      },
-    ],
-  },
-  {
-    id: "lightside_normal_9f",
-    gear: [
-      {
-        id: "160PrototypeSalvage",
-        scavenger: "impulse_detector",
-      },
-      {
-        id: "129Salvage",
-        scavenger: "chromium_transistor",
-        notes: "Recommended to save 1800-2000 in reserves.",
-      },
-      {
-        id: "102Salvage",
-        scavenger: "aurodium_heatsink",
-        notes:
-          "Best source by far, but also used frequently in gearing characters. ALWAYS craft this piece, never scavenge the base salvage.",
-      },
-      {
-        id: "078PrototypeSalvage",
-        scavenger: "chromium_transistor",
-        notes: "Used to craft Mk 8 Fabritech Data Pad.",
-      },
-      {
-        id: "035",
-        scavenger: "carbonite_circuit_board",
-        notes: "Recommended to save 100-120 in reserves.",
-      },
-    ],
-  },
-  {
-    id: "fleet_normal_3a",
-    gear: [
-      {
-        id: "167PrototypeSalvage",
-        scavenger: "zinbiddle_card",
-      },
-      {
-        id: "104PrototypeSalvage",
-        scavenger: "bronzium_wiring",
-        notes: "Recommended to save 40-100 in reserves.",
-      },
-      {
-        id: "075PrototypeSalvage",
-        scavenger: "bronzium_wiring",
-        notes: "Recommended to save 20-50 in reserves.",
-      },
-      {
-        id: "069Prototype",
-        scavenger: "carbonite_circuit_board",
-      },
-    ],
-  },
-  {
-    id: "darkside_normal_9a",
-    gear: [
-      {
-        id: "163PrototypeSalvage",
-        scavenger: "electrium_conductor",
-      },
-      {
-        id: "133Salvage",
-        scavenger: "chromium_transistor",
-        notes: "Recommended to save 150-300 in reserves.",
-      },
-      {
-        id: "071",
-        scavenger: "carbonite_circuit_board",
-      },
-      {
-        id: "050Salvage",
-        scavenger: "bronzium_wiring",
-        notes: "Recommended to save 300-500 in reserves.",
-      },
-      {
-        id: "037Prototype",
-        scavenger: "bronzium_wiring",
-      },
-    ],
-  },
-  {
-    id: "lightside_normal_9e",
-    gear: [
-      {
-        id: "162PrototypeSalvage",
-        scavenger: "electrium_conductor",
-      },
-      {
-        id: "138Component",
-        scavenger: "chromium_transistor",
-        notes: "Recommended to save 500-800 in reserves.",
-      },
-      {
-        id: "091Salvage",
-        scavenger: "bronzium_wiring",
-        notes: "Recommended to save 800-1200 in reserves.",
-      },
-      {
-        id: "073PrototypeSalvage",
-        scavenger: "chromium_transistor",
-        notes:
-          "Used to craft Mk 7 BlasTech Weapon Mod for Chromium Transistors.",
-      },
-      {
-        id: "036",
-        scavenger: "carbonite_circuit_board",
-        notes: "Recommended to save 100-200 in reserves.",
-      },
-    ],
-  },
-  {
-    id: "darkside_normal_9c",
-    gear: [
-      {
-        id: "164PrototypeSalvage",
-        scavenger: "electrium_conductor",
-      },
-      {
-        id: "161Salvage",
-        scavenger: "chromium_transistor",
-        notes: "Recommended to save 300-400 in reserves.",
-      },
-      {
-        id: "150Salvage",
-        notes: "Do not scrap; Save for gearing characters.",
-      },
-      {
-        id: "097PrototypeSalvage",
-        scavenger: "chromium_transistor",
-        notes:
-          "Used to craft Mk 7 BlasTech Weapon Mod for Chromium Transistors.",
-      },
-      {
-        id: "065Salvage",
-        scavenger: "bronzium_wiring",
-        notes: "Recommended to save 30-60 in reserves.",
-      },
-      {
-        id: "044Prototype",
-        scavenger: "bronzium_wiring",
-      },
-    ],
-  },
-  {
-    id: "lightside_normal_9a",
-    gear: [
-      {
-        id: "159PrototypeSalvage",
-        scavenger: "electrium_conductor",
-      },
-      {
-        id: "131Salvage",
-        scavenger: "aurodium_heatsink",
-        notes: "Recommended to save 300-600 in reserves.",
-      },
-      {
-        id: "076Salvage",
-        scavenger: "bronzium_wiring",
-        notes: "Recommended to save 40-50 in reserves.",
-      },
-      {
-        id: "075PrototypeSalvage",
-        scavenger: "bronzium_wiring",
-        notes: "Recommended to save 20-50 in reserves.",
-      },
-      {
-        id: "033",
-        scavenger: "carbonite_circuit_board",
-      },
-    ],
-  },
-  {
-    id: "lightside_normal_7b",
-    gear: [
-      {
-        id: "172Salvage",
-        notes: "Do not scrap; Save for gearing characters.",
-      },
-      {
-        id: "085PrototypeSalvage",
-        scavenger: "chromium_transistor",
-        notes: "Used to craft Mk 7 BAW Armor Mod for Chromium Transistors.",
-      },
-      {
-        id: "101Salvage",
-        scavenger: "bronzium_wiring",
-        notes: "Recommended to save 500-800 in reserves.",
-      },
-      {
-        id: "066",
-        scavenger: "bronzium_wiring",
-      },
-    ],
-  },
-  {
-    id: "darkside_normal_8b",
-    gear: [
-      {
-        id: "117PrototypeSalvage",
-        scavenger: "aurodium_heatsink",
-        notes: "Recommended to save 200-300 in reserves.",
-      },
-      {
-        id: "085PrototypeSalvage",
-        scavenger: "chromium_transistor",
-        notes: "Used to craft Mk 7 BAW Armor Mod for Chromium Transistors.",
-      },
-      {
-        id: "040Prototype",
-        scavenger: "bronzium_wiring",
-      },
-    ],
-  },
-  {
-    id: "lightside_normal_1c",
-    gear: [
-      {
-        id: "003",
-        scavenger: "carbonite_circuit_board",
-        notes: "Recommended to save 150-300 in reserves.",
-      },
-      {
-        id: "002",
-        scavenger: "carbonite_circuit_board",
-        notes: "Recommended to save 300-600 in reserves.",
-      },
-      {
-        id: "001",
-        scavenger: "carbonite_circuit_board",
-      },
-      {
-        id: "005",
-        scavenger: "carbonite_circuit_board",
-      },
-      {
-        id: "004",
-        scavenger: "carbonite_circuit_board",
-      },
-    ],
-  },
-  {
-    id: "guild_store",
-    gear: [
-      {
-        id: "073",
-        scavenger: "chromium_transistor",
-      },
-      {
-        id: "078",
-        scavenger: "chromium_transistor",
-        notes:
-          "Used to craft Mk 8 Fabritech Data Pad for Chromium Transistors.",
-      },
-      {
-        id: "049",
-        scavenger: "chromium_transistor",
-        notes:
-          "Used to craft Mk 7 Fabritech Data Pad for Chromium Transistors.",
-      },
-      {
-        id: "077",
-        scavenger: "chromium_transistor",
-        notes:
-          "Used to craft Mk 7 Loronar Power Cell (in combination with Mk 2 Merr-Sonn Thermal Detonator) for Chromium Transistors.",
-      },
-      {
-        id: "060",
-        scavenger: "chromium_transistor",
-        notes:
-          "Used to craft Mk 7 Loronar Power Cell (in combination with Mk 4 Nubian Design Tech) for Chromium Transistors.",
-      },
-    ],
-  },
-  {
-    id: "squad_arena_store",
-    gear: [
-      {
-        id: "055Prototype",
-        scavenger: "bronzium_wiring",
-        notes:
-          "Best conversion rate for Bronzium Wirings in the Squad Arena Store.",
-      },
-      {
-        id: "025",
-        scavenger: "carbonite_circuit_board",
-        notes: "Recommended to save 100-150 in reserves.",
-      },
-      // {
-      //   id: "065Salvage",
-      //   scavenger: "bronzium_wiring",
-      //   notes: "Not a recommended purchase as there are better ratios.",
-      // },
-      // {
-      //   id: "072PrototypeSalvage",
-      //   scavenger: "carbonite_circuit_board",
-      //   notes: "Not a recommended purchase as there are better ratios.",
-      // },
-      {
-        id: "002",
-        scavenger: "carbonite_circuit_board",
-        notes: "Recommended to save 300-600 in reserves.",
-      },
-      // {
-      //   id: "093PrototypeSalvage",
-      //   scavenger: "bronzium_wiring",
-      //   notes: "Not a recommended purchase as there are better ratios.",
-      // },
-      // {
-      //   id: "104PrototypeSalvage",
-      //   scavenger: "bronzium_wiring",
-      //   notes: "Not a recommended purchase as there are better ratios.",
-      // },
-      // {
-      //   id: "094PrototypeSalvage",
-      //   scavenger: "bronzium_wiring",
-      //   notes: "Not a recommended purchase as there are better ratios.",
-      // },
-      {
-        id: "097PrototypeSalvage",
-        scavenger: "chromium_transistor",
-        notes:
-          "Not a great source for Chromium Transistors, but one of the best ones from Squad Arena Store.",
-      },
-    ],
   },
 ];
 
