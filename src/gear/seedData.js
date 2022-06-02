@@ -40560,7 +40560,7 @@ const gearList = [
         priority: 9,
         nodes: ["challenges_str"],
         notes:
-          "Recommended to save 150-200 in reserves. Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump and extras you have into Bronzium Wiring.",
+          "Recommended to save 150-200 in reserves. Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump any extras you have into Bronzium Wiring.",
       },
     ],
   },
@@ -40595,7 +40595,7 @@ const gearList = [
         priority: 9,
         nodes: ["challenges_agi"],
         notes:
-          "Recommended to save 150-200 in reserves. Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump and extras you have into Carbonite Circuit Boards.",
+          "Recommended to save 150-200 in reserves. Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump any extras you have into Bronzium Wiring.",
       },
     ],
   },
@@ -40804,7 +40804,7 @@ const gearList = [
         priority: 5,
         nodes: ["challenges_tac"],
         notes:
-          "Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump and extras you have into Carbonite Circuit Boards.",
+          "Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump any extras you have into Carbonite Circuit Boards.",
       },
     ],
   },
@@ -42884,7 +42884,7 @@ const gearList = [
         priority: 7,
         nodes: ["challenges_tac"],
         notes:
-          "Recommended to save 200-300 in reserves. Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump and extras you have into Chromium Transistors.",
+          "Recommended to save 200-300 in reserves. Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump any extras you have into Chromium Transistors.",
       },
     ],
   },
@@ -43100,7 +43100,7 @@ const gearList = [
         priority: 8,
         nodes: ["challenges_agi"],
         notes:
-          "Recommended to save 200-300 in reserves. Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump and extras you have into Chromium Transistors.",
+          "Recommended to save 200-300 in reserves. Not a great trade ratio, but you get a ton of these from Daily Challenges so you can just dump any extras you have into Chromium Transistors.",
       },
     ],
   },
