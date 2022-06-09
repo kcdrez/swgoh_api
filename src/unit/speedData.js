@@ -475,4 +475,31 @@ module.exports = {
       },
     ],
   },
+  ADMIRALRADDUS: {
+    leader: [
+      {
+        value: 8,
+        tags: ["Rogue One"],
+        scalesBy: ["Rogue One"],
+        abilityId: "leaderskill_ADMIRALRADDUS",
+      },
+      {
+        omicron: {
+          value: 30,
+          tags: ["Rogue One"],
+          mode: "Grand Arena",
+          abilityId: "leaderskill_ADMIRALRADDUS",
+          sourceId: "sparkOfRebellionBuff",
+        },
+      },
+    ],
+    unique: [
+      {
+        value: 30,
+        tags: ["JYNERSO"],
+        abilityId: "uniqueskill_ADMIRALRADDUS01",
+        sourceId: "sparkOfRebellionBuff",
+      },
+    ],
+  },
 };

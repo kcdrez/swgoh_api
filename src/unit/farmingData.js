@@ -779,7 +779,7 @@ const nodeListHard = [
     difficulty: Hard,
     map: 6,
     mission: "E",
-    characters: ["POGGLETHELESSER", "IG2000"],
+    characters: ["EIGHTHBROTHER", "IG2000"],
     gear: [],
   },
   {
@@ -1465,7 +1465,7 @@ const nodeListHard = [
     map: 3,
     mission: "C",
     energy: 20,
-    characters: ["ZAALBAR"],
+    characters: ["OUTRIDER"],
     gear: [],
   },
   {
@@ -1816,7 +1816,7 @@ const nodeListHard = [
     map: 4,
     mission: "A",
     energy: 10,
-    characters: ["MACEWINDU"],
+    characters: ["FIFTHBROTHER"],
     gear: [],
   },
   {
@@ -6422,10 +6422,13 @@ const notAccelerated = [
   "NINTHSISTER",
   "SEVENTHSISTER",
   "EIGHTHBROTHER",
+  "FIFTHBROTHER",
   "FIRSTORDERTIEECHELON",
   "MG100STARFORTRESSSF17",
   "OUTRIDER",
   "IDENVERSIOEMPIRE",
+  "50R-T",
+  "ADMIRALRADDUS",
 ];
 
 const farmNodeList = [...nodeListHard, ...nodeListNormal].map(

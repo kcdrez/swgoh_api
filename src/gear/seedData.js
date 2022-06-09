@@ -35782,6 +35782,36 @@ const originalList = [
     ],
     name: "Power Cell Injector (Plasma) - 50R-T",
   },
+  {
+    base_id: "G12Finisher_ADMIRALRADDUS_B",
+    recipes: [
+      {
+        base_id: "recipeG12Finisher_ADMIRALRADDUS_B",
+        result_id: "G12Finisher_ADMIRALRADDUS_B",
+        cost: 124000,
+        ingredients: [
+          { amount: 1, gear: "175Ingredient" },
+          { amount: 1, gear: "169Prototype" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "173Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 3200, 4: 150, 5: 8, 7: 900, 8: 45, 18: 0.2, 27: 0.2 },
+    mark: " ",
+    cost: 124000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_ADMIRALRADDUS_B/power-cell-injector-fusion-admiral-raddus/",
+    ingredients: [
+      { gear: "175Ingredient_Salvage", amount: 50 },
+      { gear: "169PrototypeSalvage", amount: 50 },
+      { gear: "173Salvage", amount: 100 },
+      { gear: "135Salvage", amount: 50 },
+    ],
+    name: "Power Cell Injector (Fusion) - Admiral Raddus",
+  },
 ];
 
 const gearList = [
@@ -35898,7 +35928,7 @@ const gearList = [
         count: 6,
         priority: 1,
         notes: "Recommended to save 300-600 in reserves.",
-        nodes: ["lightside_normal_1c"],
+        nodes: ["lightside_normal_1c", "squad_arena_store"],
       },
     ],
   },
@@ -36657,11 +36687,17 @@ const gearList = [
       {
         id: "lightside_normal_8f",
       },
+      {
+        id: "squad_arena_store",
+      },
     ],
     scavenger: [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 1,
+        nodes: ["squad_arena_store"],
+        notes: "Recommended to save 100-150 in reserves.",
       },
     ],
   },
@@ -36968,11 +37004,17 @@ const gearList = [
       {
         id: "fleet_hard_3a",
       },
+      {
+        id: "squad_arena_store",
+      },
     ],
     scavenger: [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 1,
+        nodes: ["squad_arena_store"],
+        notes: "Recommended to save 20-40 in reserves.",
       },
     ],
   },
@@ -37036,6 +37078,8 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 1,
+        nodes: ["guild_store"],
       },
     ],
   },
@@ -37120,17 +37164,28 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 2,
+        nodes: ["guild_events_store1"],
       },
     ],
   },
   {
     id: "044",
     name: "Mk 4 BioTech Implant",
-    locations: [],
+    locations: [
+      {
+        id: "guild_store",
+        dropRate: 0.2,
+        slot: 13, //todo: verify
+        count: 5,
+      },
+    ],
     scavenger: [
       {
         id: "bronzium_wiring",
         count: 20,
+        priority: 1,
+        nodes: ["guild_store"],
       },
     ],
   },
@@ -37193,6 +37248,18 @@ const gearList = [
       {
         id: "bronzium_wiring",
         count: 20,
+        priority: 1,
+        nodes: ["guild_store"],
+        notes:
+          "Recommended to save 100-200 in reserves. Can also be used to craft Mk 7 Fabritech Data Pad for Chromium Transistors.",
+      },
+      {
+        id: "chromium_transistor",
+        count: 300 / 2,
+        priority: 1,
+        nodes: ["guild_store"],
+        notes:
+          "Recommended to save 100-200 in reserves. Used to craft Mk 7 Fabritech Data Pad for Chromium Transistors. Can also be used for Bronzium Wirings.",
       },
     ],
   },
@@ -37244,6 +37311,8 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 1,
+        nodes: ["guild_store"],
       },
     ],
   },
@@ -37291,6 +37360,8 @@ const gearList = [
       {
         id: "bronzium_wiring",
         count: 20,
+        priority: 1,
+        nodes: ["guild_store"],
       },
     ],
   },
@@ -37349,17 +37420,28 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        priority: 1,
+        nodes: ["guild_store"],
       },
     ],
   },
   {
     id: "061",
     name: "Mk 6 BlasTech Weapon Mod",
-    locations: [],
+    locations: [
+      {
+        id: "guild_store",
+        dropRate: 0.1667, //todo: verify
+        slot: 14,
+        count: 5,
+      },
+    ],
     scavenger: [
       {
         id: "bronzium_wiring",
         count: 20,
+        priority: 1,
+        nodes: ["guild_store"],
       },
     ],
   },
@@ -37402,11 +37484,19 @@ const gearList = [
         slot: 14,
         count: 1,
       },
+      {
+        id: "guild_store",
+        dropRate: 0.125, //todo: verify
+        slot: 14,
+        count: 5,
+      },
     ],
     scavenger: [
       {
         id: "bronzium_wiring",
         count: 20,
+        priority: 1,
+        nodes: ["guild_store"],
       },
     ],
   },
@@ -37465,7 +37555,11 @@ const gearList = [
         id: "bronzium_wiring",
         count: 20,
         priority: 1,
-        nodes: ["lightside_normal_7b", "lightside_normal_9b"],
+        nodes: [
+          "lightside_normal_7b",
+          "lightside_normal_9b",
+          "guild_events_store1",
+        ],
       },
     ],
   },
@@ -37565,12 +37659,7 @@ const gearList = [
         id: "chromium_transistor",
         count: 300,
         priority: 1,
-        nodes: [
-          "lightside_normal_9e",
-          "lightside_normal_5g",
-          "lightside_normal_2a",
-          "guild_store",
-        ],
+        nodes: ["guild_store"],
       },
     ],
   },
@@ -37640,6 +37729,15 @@ const gearList = [
       {
         id: "carbonite_circuit_board",
         count: 6,
+        nodes: ["guild_store"],
+      },
+      {
+        id: "chromium_transistor",
+        count: 300 / 2,
+        priority: 1,
+        nodes: ["guild_store"],
+        notes:
+          "Recommended to save 20-30 in reserves. Used to craft Mk 8 Fabritech Data Pad for Chromium Transistors.",
       },
     ],
   },
@@ -37943,10 +38041,10 @@ const gearList = [
       {
         id: "aurodium_heatsink",
         count: 500,
-        priority: 1,
-        nodes: ["guild_store > 102Salvage", "lightside_normal_9f > 102Salvage"],
-        notes:
-          "Best source by far, but also used frequently in gearing characters. ALWAYS craft this piece, never scavenge the base salvage.",
+        // priority: 1,
+        // nodes: ["guild_store > 102Salvage", "lightside_normal_9f > 102Salvage"],
+        // notes:
+        //   "Best source by far, but also used frequently in gearing characters. ALWAYS craft this piece, never scavenge the base salvage.",
       },
     ],
   },
@@ -39992,11 +40090,16 @@ const gearList = [
       {
         id: "lightside_hard_4e",
       },
+      {
+        id: "squad_arena_store",
+      },
     ],
     scavenger: [
       {
         id: "bronzium_wiring",
         count: 12,
+        priority: 1,
+        nodes: ["squad_arena_store"],
       },
     ],
   },
@@ -40042,6 +40145,8 @@ const gearList = [
       {
         id: "bronzium_wiring",
         count: 12,
+        priority: 1,
+        nodes: ["squad_arena_store"],
       },
     ],
   },
@@ -42189,6 +42294,10 @@ const gearList = [
       {
         id: "chromium_transistor",
         count: 6,
+        priority: 1,
+        nodes: ["squad_arena_store"],
+        notes:
+          "Can be used at a slightly better ratio combined with other gear to craft Mk 8 BlasTech Weapon Mod.",
       },
     ],
   },
@@ -42331,7 +42440,11 @@ const gearList = [
       },
       {
         id: "aurodium_heatsink",
-        count: 10,
+        count: 500,
+        priority: 1,
+        nodes: ["guild_store", "lightside_normal_9f"],
+        notes:
+          "Best source by far, but also used frequently in gearing characters. Recommended to save 60-100 in reserves. ALWAYS craft this piece, never scavenge the base salvage.",
       },
     ],
   },
@@ -44005,8 +44118,8 @@ const gearList = [
         id: "impulse_detector",
         count: 12,
         priority: 3,
-        nodes: ["darkside_normal_9d"],
-        notes: "Recommended to save 60-90 in reserves.",
+        nodes: ["darkside_normal_9d", "guild_events_store1"],
+        notes: "Recommended to save 120-150 in reserves.",
       },
     ],
   },
@@ -44045,6 +44158,9 @@ const gearList = [
       {
         id: "electrium_conductor",
         count: 15,
+        priority: 2,
+        nodes: ["lightside_normal_9a", "guild_events_store1"],
+        notes: "Recommended to save 60-90 in reserves.",
       },
     ],
   },
@@ -44084,7 +44200,7 @@ const gearList = [
         id: "impulse_detector",
         count: 12,
         priority: 1,
-        nodes: ["lightside_normal_9f"],
+        nodes: ["lightside_normal_9f", "guild_events_store1"],
         notes: "Recommended to save 90-90 in reserves.",
       },
     ],
@@ -44192,7 +44308,7 @@ const gearList = [
         id: "electrium_conductor",
         count: 15,
         priority: 2,
-        nodes: ["darkside_normal_9a"],
+        nodes: ["darkside_normal_9a", "guild_events_store1"],
         notes: "Recommended to save 90-120 in reserves.",
       },
     ],
@@ -44233,7 +44349,7 @@ const gearList = [
         id: "electrium_conductor",
         count: 15,
         priority: 1,
-        nodes: ["darkside_normal_9c"],
+        nodes: ["darkside_normal_9c", "guild_events_store1"],
         notes: "Recommended to save 60-90 in reserves.",
       },
     ],
@@ -44274,7 +44390,7 @@ const gearList = [
         id: "impulse_detector",
         count: 12,
         priority: 2,
-        nodes: ["lightside_normal_9c"],
+        nodes: ["lightside_normal_9c", "guild_events_store1"],
         notes: "Recommended to save 60-90 in reserves.",
       },
     ],
@@ -44321,8 +44437,8 @@ const gearList = [
         id: "zinbiddle_card",
         count: 18,
         priority: 2,
-        nodes: ["fleet_normal_4e"],
-        notes: "Recommended to save 50-100 in reserves.",
+        nodes: ["fleet_normal_4e", "guild_events_store2"],
+        notes: "Recommended to save 100-150 in reserves.",
       },
     ],
   },
@@ -44373,8 +44489,8 @@ const gearList = [
         id: "zinbiddle_card",
         count: 18,
         priority: 1,
-        nodes: ["fleet_normal_3a"],
-        notes: "Recommended to save 50-100 in reserves.",
+        nodes: ["fleet_normal_3a", "guild_events_store2"],
+        notes: "Recommended to save 150-200 in reserves.",
       },
     ],
   },
@@ -44425,8 +44541,8 @@ const gearList = [
         id: "gyrda_keypad",
         count: 10,
         priority: 2,
-        nodes: ["fleet_normal_2e"],
-        notes: "Recommended to save 100-150 in reserves.",
+        nodes: ["fleet_normal_2e", "guild_events_store2"],
+        notes: "Recommended to save 150-200 in reserves.",
       },
     ],
   },
@@ -44477,8 +44593,8 @@ const gearList = [
         id: "gyrda_keypad",
         count: 10,
         priority: 2,
-        nodes: ["fleet_normal_5a"],
-        notes: "Recommended to save 50-100 in reserves.",
+        nodes: ["fleet_normal_5a", "guild_events_store2"],
+        notes: "Recommended to save 150-200 in reserves.",
       },
     ],
   },
@@ -44528,6 +44644,9 @@ const gearList = [
       {
         id: "zinbiddle_card",
         count: 18,
+        priority: 1,
+        nodes: ["guild_events_store2"],
+        notes: "Recommended to save 150-200 in reserves.",
       },
     ],
   },
@@ -44578,7 +44697,7 @@ const gearList = [
         id: "gyrda_keypad",
         count: 10,
         priority: 1,
-        nodes: ["fleet_normal_3e"],
+        nodes: ["fleet_normal_3e", "guild_events_store2"],
         notes: "Recommended to save 50-100 in reserves.",
       },
     ],
