@@ -35783,7 +35783,7 @@ const originalList = [
     name: "Power Cell Injector (Plasma) - 50R-T",
   },
   {
-    base_id: "G12Finisher_ADMIRALRADDUS_B",
+    id: "G12Finisher_ADMIRALRADDUS_B",
     recipes: [
       {
         base_id: "recipeG12Finisher_ADMIRALRADDUS_B",
@@ -45289,6 +45289,11 @@ const gearList = [
     name: "Power Cell Injector (Plasma) - 50R-T",
     locations: [],
   },
+  {
+    id: "G12Finisher_ADMIRALRADDUS_B",
+    name: "Power Cell Injector (Fusion) - Admiral Raddus",
+    locations: [],
+  },
 ];
 
 module.exports = originalList.map(
@@ -45302,8 +45307,8 @@ module.exports = originalList.map(
       recipes,
       image,
       ingredients,
-      locations: match.locations,
-      scavenger: match.scavenger,
+      locations: match.locations || [],
+      scavenger: match.scavenger || [],
     };
   }
 );
