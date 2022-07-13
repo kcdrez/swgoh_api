@@ -175,11 +175,11 @@ module.exports = {
         type: "heatlh",
         tags: ["Jedi"],
         abilityId: "leaderskill_BARRISSOFFEE",
-        special: {
-          value: 0.1,
-          type: "health",
-          tags: ["!Jedi"],
-        },
+      },
+      {
+        value: 0.1,
+        type: "health",
+        tags: ["!Jedi"],
       },
     ],
   },
@@ -625,16 +625,6 @@ module.exports = {
           allAllies: true,
           tags: ["Sith"],
         },
-      },
-    ],
-  },
-  DARTHMAUL: {
-    unique: [
-      {
-        value: 0.2,
-        type: "health",
-        abilityId: "uniquekill_DARTHMAUL01",
-        tags: ["Self"],
       },
     ],
   },
@@ -1708,6 +1698,14 @@ module.exports = {
         type: "health",
         tags: ["Mandolorian"],
         scalesBy: ["Mandalorian"],
+      },
+    ],
+    unique: [
+      {
+        value: 0.2,
+        type: "health",
+        abilityId: "uniquekill_DARTHMAUL01",
+        tags: ["Self"],
       },
     ],
   },
