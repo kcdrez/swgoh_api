@@ -81,3 +81,12 @@ To run locally, run the command
 `serverless offline`
 
 which will run the services on localhost:3000 by default.
+
+### Adding New Characters
+
+Go to https://vkpnob5w55.execute-api.us-east-1.amazonaws.com/dev/gg/units
+Find the new unit
+Add to /gg/unitData.js
+Go to https://vkpnob5w55.execute-api.us-east-1.amazonaws.com/dev/gg/gear
+Find the new gear
+Add to /gear/seedData.js in both locations

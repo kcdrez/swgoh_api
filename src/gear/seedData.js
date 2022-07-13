@@ -35812,6 +35812,36 @@ const originalList = [
     ],
     name: "Power Cell Injector (Fusion) - Admiral Raddus",
   },
+  {
+    id: "G12Finisher_GRANDINQUISITOR_C",
+    recipes: [
+      {
+        base_id: "recipeG12Finisher_GRANDINQUISITOR_C",
+        result_id: "G12Finisher_GRANDINQUISITOR_C",
+        cost: 138000,
+        ingredients: [
+          { amount: 1, gear: "176Ingredient" },
+          { amount: 1, gear: "170Prototype" },
+          { amount: 1, gear: "123Prototype" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 2: 75, 5: 8, 6: 400, 8: 50, 9: 40, 10: 55, 14: 100, 27: 0.1 },
+    mark: " ",
+    cost: 138000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_GRANDINQUISITOR_C/power-cell-injector-ionic-grand-inquisitor/",
+    ingredients: [
+      { gear: "176Ingredient_Salvage", amount: 50 },
+      { gear: "170PrototypeSalvage", amount: 50 },
+      { gear: "123Component", amount: 50 },
+      { gear: "172Salvage", amount: 100 },
+    ],
+    name: "Power Cell Injector (Ionic) - Grand Inquisitor",
+  },
 ];
 
 const gearList = [
@@ -45292,6 +45322,11 @@ const gearList = [
   {
     id: "G12Finisher_ADMIRALRADDUS_B",
     name: "Power Cell Injector (Fusion) - Admiral Raddus",
+    locations: [],
+  },
+  {
+    id: "G12Finisher_GRANDINQUISITOR_C",
+    name: "Power Cell Injector (Ionic) - Grand Inquisitor",
     locations: [],
   },
 ];

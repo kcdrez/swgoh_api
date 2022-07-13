@@ -9,6 +9,7 @@ class Player {
   constructor() {}
 
   async fetchPlayer(allyCode) {
+    console.log(allyCode);
     const result = await dbClient.getUserByAllyCode(allyCode);
 
     console.info("Fetching player data from both APIs", allyCode);

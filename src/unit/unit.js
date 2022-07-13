@@ -3,7 +3,7 @@ const moment = require("moment");
 const helpApi = require("../api/swgoh.help");
 const ggApi = require("../api/swgoh.gg");
 const unitsList = require("../gg/unitData");
-const speedData = require("./speedData");
+const abilityStats = require("./abilityStats");
 const shardFarmingData = require("./farmingData");
 
 class Unit {
@@ -53,8 +53,8 @@ class Unit {
     });
   }
 
-  getSpeedData() {
-    return speedData;
+  getAbilityStats() {
+    return abilityStats;
   }
 
   getShardFarming() {

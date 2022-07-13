@@ -39,9 +39,9 @@ routes.get("/unitList", async (_req, res) => {
   }
 });
 
-routes.get("/speedAbilities", async (_req, res) => {
+routes.get("/abilityStats", async (_req, res) => {
   try {
-    const response = await unit.getSpeedData();
+    const response = await unit.getAbilityStats();
     res.status(200).json(response);
   } catch (error) {
     res.status(500).json({
