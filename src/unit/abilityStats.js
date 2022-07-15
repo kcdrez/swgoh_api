@@ -628,7 +628,7 @@ module.exports = {
       },
     ],
   },
-  DARTHSIDEOUS: {
+  DARTHSIDIOUS: {
     unique: [
       {
         omicron: {
