@@ -2,7 +2,7 @@ const moment = require("moment");
 
 const helpApi = require("../api/swgoh.help");
 const ggApi = require("../api/swgoh.gg");
-const unitsList = require("../gg/unit");
+const unitsList = require("../gg/units");
 const abilityStats = require("./abilityStats");
 const shardFarmingData = require("./farming");
 

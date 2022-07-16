@@ -3,7 +3,7 @@ const normalNodes = require("./normal");
 const legendary = require("./legendary");
 const stores = require("./stores");
 const other = require("./other");
-const gearList = require("../gear/seedData");
+const gearList = require("../../gear/seedData");
 
 const notAccelerated = [
   "VULTUREDROID",

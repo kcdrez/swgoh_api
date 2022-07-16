@@ -1,4 +1,4 @@
-module.exports = [
+const ships = [
   {
     name: "Ahsoka Tano's Jedi Starfighter",
     id: "JEDISTARFIGHTERAHSOKATANO",
@@ -1091,3 +1091,7 @@ module.exports = [
     activate_shard_count: 80,
   },
 ];
+
+module.exports = ships.map((x) => {
+  return { ...x, is_ship: true };
+});

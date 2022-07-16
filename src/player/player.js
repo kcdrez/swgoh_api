@@ -73,6 +73,7 @@ class Player {
       if (match) {
         try {
           const { base_id: id, ...unitData } = await unit.fetchUnit(defId);
+
           const {
             gear_level,
             level,
