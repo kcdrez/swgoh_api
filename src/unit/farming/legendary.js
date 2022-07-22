@@ -2075,6 +2075,46 @@ const galacticLegends = {
         },
       ],
     },
+    {
+      id: "JABBATHEHUTT",
+      prerequisites: [
+        {
+          id: "KRRSANTAN",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "HANSOLO",
+          requirement: {
+            value: 8,
+            type: "Stars",
+          },
+        },
+        {
+          id: "GAMORREANGUARD",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "GREEDO",
+          requirement: {
+            value: 6,
+            type: "Relic",
+          },
+        },
+        {
+          id: "OUTRIDER",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+      ],
+    },
   ],
 };
 
