@@ -1335,6 +1335,121 @@ const legendary = {
         },
       ],
     },
+    {
+      id: "CAPITALPROFUNDITY",
+      prerequisites: [
+        {
+          id: "ADMIRALRADDUS",
+          requirement: {
+            value: 9,
+            type: "Relic",
+          },
+        },
+        {
+          id: "CASSIANANDOR",
+          requirement: {
+            value: 8,
+            type: "Relic",
+          },
+        },
+        {
+          id: "DASHRENDAR",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "MONMOTHMA",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "BISTAN",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "JYNERSO",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "HERASYNDULLAS3",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "OUTRIDER",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          id: "UWINGROGUEONE",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          id: "UWINGSCARIF",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          id: "XWINGRED2",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          id: "XWINGRED3",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          id: "YWINGREBEL",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          id: "GHOST",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          tags: ["Capital Ship"],
+          count: 1,
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+          recommended: {
+            value: 67000,
+            type: "Power",
+          },
+        },
+      ],
+    },
   ],
 };
 
