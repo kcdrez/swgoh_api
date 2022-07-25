@@ -2547,4 +2547,107 @@ module.exports = {
       },
     ],
   },
+  FULCRUMAHSOKA: {
+    unique: [
+      {
+        omicron: {
+          value: 0.25,
+          type: "defense",
+          mode: "Territory Wars",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          value: 0.25,
+          type: "health",
+          mode: "Territory Wars",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          value: 0.25,
+          type: "protection",
+          mode: "Territory Wars",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          value: 35,
+          type: "speed",
+          mode: "Territory Wars",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          value: 0.75,
+          type: "defense",
+          mode: "Territory Wars",
+          tags: ["Self"],
+          conditions: {
+            solo: true,
+          },
+        },
+      },
+      {
+        omicron: {
+          value: 0.75,
+          type: "health",
+          mode: "Territory Wars",
+          tags: ["Self"],
+          conditions: {
+            solo: true,
+          },
+        },
+      },
+      {
+        omicron: {
+          value: 0.75,
+          type: "protection",
+          mode: "Territory Wars",
+          tags: ["Self"],
+          conditions: {
+            solo: true,
+          },
+        },
+      },
+    ],
+  },
+  KRRSANTAN: {
+    leader: [
+      {
+        value: 0.3,
+        type: "health",
+        tags: ["Scoundrel"],
+      },
+      {
+        value: 0.3,
+        type: "protection",
+        tags: ["Scoundrel"],
+      },
+    ],
+    unique: [
+      {
+        value: 0.3,
+        type: "defense",
+        tags: ["Self"],
+      },
+      {
+        value: 0.3,
+        type: "health",
+        tags: ["Self"],
+      },
+      {
+        omicron: {
+          value: 0.4,
+          type: "protection",
+          tags: ["Self"],
+          mode: "Grand Arena",
+        },
+      },
+    ],
+  },
 };
