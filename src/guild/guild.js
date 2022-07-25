@@ -19,7 +19,7 @@ class Guild {
       response.territoryBattle = response.territoryBattle.map(
         ({ id, stars, nameId, date, characterShards }) => {
           const mappingData = tbMapping[nameId];
-          const starData = mappingData[stars];
+          const starData = mappingData[stars] ?? mappingData["1"];
           const characterShardsData = { count: characterShards };
 
           if (nameId === "separatistMight") {

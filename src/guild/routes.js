@@ -34,14 +34,11 @@ routes.get("/:guildId", async (req, res) => {
 
 routes.get("/:guildId/:unitId", async (req, res) => {
   try {
-    const start = new Date();
     const guildResponse = await apiClient.fetchGuild(req.params.guildId);
-    console.log(`guild took ${new Date() - start}ms`);
     const guildData = await guild.fetchGuildUnits(
       req.params.unitId,
       guildResponse.players
     );
-    console.log(`guild data took ${new Date() - start}ms`);
     res.status(200).json(guildData);
   } catch (error) {
     res.status(500).json({

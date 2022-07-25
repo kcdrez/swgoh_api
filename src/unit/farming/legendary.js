@@ -1336,6 +1336,46 @@ const legendary = {
       ],
     },
     {
+      id: "GRANDINQUISITOR",
+      prerequisites: [
+        {
+          id: "SECONDSISTER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "SEVENTHSISTER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "NINTHSISTER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "EIGHTHBROTHER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "FIFTHBROTHER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+      ],
+    },
+    {
       id: "CAPITALPROFUNDITY",
       prerequisites: [
         {
