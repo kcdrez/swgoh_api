@@ -18828,10 +18828,8 @@ module.exports = [
   {
     name: "Krrsantan",
     id: "KRRSANTAN",
-    pk: 3436,
     url: "http://swgoh.gg/characters/krrsantan/",
     image: "https://game-assets.swgoh.gg/tex.charui_krrsantan.png",
-    power: 36096,
     description:
       "Infamous Bounty Hunter Tank with an intimidating presence and unstoppable raw strength",
     combat_type: 1,
@@ -18880,4 +18878,6 @@ module.exports = [
     ship_slot: null,
     activate_shard_count: 25,
   },
+  {"name":"Ben Solo","id":"BENSOLO","url":"http://swgoh.gg/characters/ben-solo/","image":"https://game-assets.swgoh.gg/tex.charui_bensolo.png","description":"A powerful Force user whose internal struggles have long placed him on the edge of light and dark","combat_type":1,"gear_levels":[{"tier":1,"gear":["001","002","003","003","004","009"]},{"tier":2,"gear":["025","014","015","028","028","032"]},{"tier":3,"gear":["069","014","054","041","069","049"]},{"tier":4,"gear":["068","033","071","028","054","077"]},{"tier":5,"gear":["049","041","072","070","070","080"]},{"tier":6,"gear":["070","085","072","069","068","097"]},{"tier":7,"gear":["108","038","105","113","100","107"]},{"tier":8,"gear":["095","114","111","114","111","125"]},{"tier":9,"gear":["174","174","105","100","098","111"]},{"tier":10,"gear":["174","121","132","111","140","144"]},{"tier":11,"gear":["109","132","137","124","144","137"]},{"tier":12,"gear":["158","161","163","169","168","G12Finisher_BENSOLO_B"]},{"tier":13,"gear":["9999","9999","9999","9999","9999","9999"]}],"alignment":"Light Side","categories":["Attacker","Unaligned Force User"],"ability_classes":["AoE","Armor Shred","Blind","Counter","Defense Down","Dispel","Dispel - All Enemies","Gain Turn Meter","Healing Immunity","Offense Down","Offense Up","Potency Down","Reduce Cooldowns","Remove Turn Meter","Revive","Speed Down","Taunt"],"role":"Attacker","ship":"","ship_slot":null,"activate_shard_count":330},
+  {"name":"Skiff Guard (Lando Calrissian)","id":"UNDERCOVERLANDO","url":"http://swgoh.gg/characters/skiff-guard-lando-calrissian/","image":"https://game-assets.swgoh.gg/tex.charui_undercoverlando.png","description":"Cunning Scoundrel Attacker who assists his allies and gains ramping damage the longer he stays undercover","combat_type":1,"gear_levels":[{"tier":1,"gear":["001","002","003","005","005","005"]},{"tier":2,"gear":["025","021","015","028","028","034"]},{"tier":3,"gear":["062","076","050","041","069","049"]},{"tier":4,"gear":["055","058","024","055","060","074"]},{"tier":5,"gear":["093","043","086","051","084","079"]},{"tier":6,"gear":["075","055","092","092","093","097"]},{"tier":7,"gear":["037","079","106","021","100","099"]},{"tier":8,"gear":["108","042","099","112","118","117"]},{"tier":9,"gear":["104","172","104","101","106","125"]},{"tier":10,"gear":["121","116","172","125","116","172"]},{"tier":11,"gear":["120","120","100","134","144","134"]},{"tier":12,"gear":["159","159","160","166","166","G12Finisher_UNDERCOVERLANDO_C"]},{"tier":13,"gear":["9999","9999","9999","9999","9999","9999"]}],"alignment":"Light Side","categories":["Attacker","Hutt Cartel","Scoundrel","Smuggler"],"ability_classes":["Armor Shred","Assist","Bonus Attack","Counter","Defense Up","Dispel","DoT","Potency Up","Speed Up","Stealth"],"role":"Attacker","ship":"","ship_slot":null,"activate_shard_count":25}
 ];

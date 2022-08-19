@@ -35872,6 +35872,66 @@ const originalList = [
     ],
     name: "Power Cell Injector (Plasma) - Krrsantan",
   },
+  {
+    id: "G12Finisher_BENSOLO_B",
+    recipes: [
+      {
+        base_id: "recipeG12Finisher_BENSOLO_B",
+        result_id: "G12Finisher_BENSOLO_B",
+        cost: 124000,
+        ingredients: [
+          { amount: 1, gear: "175Ingredient" },
+          { amount: 1, gear: "169Prototype" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "173Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 1000, 4: 200, 5: 8, 7: 950, 17: 0.15, 27: 0.1 },
+    mark: " ",
+    cost: 124000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_BENSOLO_B/power-cell-injector-fusion-ben-solo/",
+    ingredients: [
+      { gear: "175Ingredient_Salvage", amount: 50 },
+      { gear: "169PrototypeSalvage", amount: 50 },
+      { gear: "173Salvage", amount: 100 },
+      { gear: "135Salvage", amount: 50 },
+    ],
+    name: "Power Cell Injector (Fusion) - Ben Solo",
+  },
+  {
+    IDBRequest: "G12Finisher_UNDERCOVERLANDO_C",
+    recipes: [
+      {
+        base_id: "recipeG12Finisher_UNDERCOVERLANDO_C",
+        result_id: "G12Finisher_UNDERCOVERLANDO_C",
+        cost: 138000,
+        ingredients: [
+          { amount: 1, gear: "176Ingredient" },
+          { amount: 1, gear: "170Prototype" },
+          { amount: 1, gear: "123Prototype" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 1000, 2: 500, 5: 8, 6: 150, 17: 0.12, 18: 0.12 },
+    mark: " ",
+    cost: 138000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_UNDERCOVERLANDO_C/power-cell-injector-ionic-skiff-guard-lando-calrissian/",
+    ingredients: [
+      { gear: "176Ingredient_Salvage", amount: 50 },
+      { gear: "170PrototypeSalvage", amount: 50 },
+      { gear: "123Component", amount: 50 },
+      { gear: "172Salvage", amount: 100 },
+    ],
+    name: "Power Cell Injector (Ionic) - Skiff Guard (Lando Calrissian)",
+  },
 ];
 
 const gearList = [
@@ -45362,6 +45422,16 @@ const gearList = [
   {
     id: "G12Finisher_KRRSANTAN_A",
     name: "Power Cell Injector (Plasma) - Krrsantan",
+    locations: [],
+  },
+  {
+    id: "G12Finisher_BENSOLO_B",
+    name: "Power Cell Injector (Fusion) - Ben Solo",
+    locations: [],
+  },
+  {
+    id: "G12Finisher_UNDERCOVERLANDO_C",
+    name: "Power Cell Injector (Ionic) - Skiff Guard (Lando Calrissian)",
     locations: [],
   },
 ];
