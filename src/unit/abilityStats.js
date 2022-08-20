@@ -4,10 +4,12 @@ module.exports = {
       {
         value: 40,
         tags: ["Self"],
-        conditions: {
-          allAllies: true,
-          tags: ["Droid"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Droid"],
+          },
+        ],
         type: "speed",
       },
       {
@@ -106,16 +108,20 @@ module.exports = {
         value: 25,
         tags: ["Self"],
         abilityId: "uniqueskill_AHSOKATANO01",
-        conditions: {
-          tags: ["!ANAKINKNIGHT"],
-        },
+        conditions: [
+          {
+            tags: ["!ANAKINKNIGHT"],
+          },
+        ],
         type: "speed",
       },
       {
         value: 50,
-        conditions: {
-          tags: ["ANAKINKNIGHT"],
-        },
+        conditions: [
+          {
+            tags: ["ANAKINKNIGHT"],
+          },
+        ],
         tags: ["Self"],
         note: "Granted due to Jedi Knight Anakin being present, thus granting Ahsoka Crit Avoidance and in turn the speed boost.",
         type: "speed",
@@ -125,18 +131,22 @@ module.exports = {
         type: "health",
         tags: ["Self"],
         abilityId: "uniqueskill_AHSOKATANO01",
-        conditions: {
-          tags: ["!ANAKINKNIGHT"],
-        },
+        conditions: [
+          {
+            tags: ["!ANAKINKNIGHT"],
+          },
+        ],
       },
       {
         value: 0.8,
         type: "health",
         tags: ["Self"],
         abilityId: "uniqueskill_AHSOKATANO01",
-        conditions: {
-          tags: ["ANAKINKNIGHT"],
-        },
+        conditions: [
+          {
+            tags: ["ANAKINKNIGHT"],
+          },
+        ],
       },
     ],
   },
@@ -403,26 +413,30 @@ module.exports = {
       {
         value: 0.5,
         type: "health",
-        conditions: {
-          tags: [
-            "Light Side & Unaligned Force User",
-            "Galactic Republic",
-            "Scoundrel",
-          ],
-        },
+        conditions: [
+          {
+            tags: [
+              "Light Side & Unaligned Force User",
+              "Galactic Republic",
+              "Scoundrel",
+            ],
+          },
+        ],
         tags: ["Light Side"],
         abilityId: "uniqueskill_COMMANDERAHSOKA01",
       },
       {
         value: 0.5,
         type: "defense",
-        conditions: {
-          tags: [
-            "Light Side & Unaligned Force User",
-            "Galactic Republic",
-            "Scoundrel",
-          ],
-        },
+        conditions: [
+          {
+            tags: [
+              "Light Side & Unaligned Force User",
+              "Galactic Republic",
+              "Scoundrel",
+            ],
+          },
+        ],
         tags: ["Light Side"],
         abilityId: "uniqueskill_COMMANDERAHSOKA01",
       },
@@ -565,10 +579,12 @@ module.exports = {
           value: 0.5,
           type: "health",
           tags: ["Self"],
-          conditions: {
-            allAllies: true,
-            tags: ["Sith"],
-          },
+          conditions: [
+            {
+              allAllies: true,
+              tags: ["Sith"],
+            },
+          ],
           abilityId: "leaderskill_DARTHMALGUS",
           mode: "Grand Arena",
         },
@@ -578,10 +594,12 @@ module.exports = {
           value: 0.5,
           type: "protection",
           tags: ["Self"],
-          conditions: {
-            allAllies: true,
-            tags: ["Sith"],
-          },
+          conditions: [
+            {
+              allAllies: true,
+              tags: ["Sith"],
+            },
+          ],
           abilityId: "leaderskill_DARTHMALGUS",
           mode: "Grand Arena",
         },
@@ -621,10 +639,12 @@ module.exports = {
         type: "defense",
         tags: ["Self"],
         abilityId: "uniquekill_DARTHMALGUS01",
-        conditions: {
-          allAllies: true,
-          tags: ["Sith"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Sith"],
+          },
+        ],
       },
     ],
   },
@@ -724,19 +744,23 @@ module.exports = {
     unique: [
       {
         value: 0.2,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
         tags: ["Self"],
         type: "health",
       },
       {
         value: 0.2,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
         tags: ["Self"],
         type: "protection",
       },
@@ -792,25 +816,31 @@ module.exports = {
         value: 1,
         type: "protection",
         tags: ["Self"],
-        conditions: {
-          solo: true,
-        },
+        conditions: [
+          {
+            solo: true,
+          },
+        ],
       },
       {
         value: 1,
         type: "health",
         tags: ["Self"],
-        conditions: {
-          solo: true,
-        },
+        conditions: [
+          {
+            solo: true,
+          },
+        ],
       },
       {
         value: 1,
         type: "defense",
         tags: ["Self"],
-        conditions: {
-          solo: true,
-        },
+        conditions: [
+          {
+            solo: true,
+          },
+        ],
       },
     ],
   },
@@ -840,19 +870,23 @@ module.exports = {
     unique: [
       {
         value: 0.2,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
         tags: ["Self"],
         type: "health",
       },
       {
         value: 0.2,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
         tags: ["Self"],
         type: "protection",
       },
@@ -876,10 +910,12 @@ module.exports = {
           tags: ["Resistance"],
           type: "protection",
           mode: "Territory Battle",
-          conditions: {
-            allAllies: true,
-            tags: ["!Galactic Legend"],
-          },
+          conditions: [
+            {
+              allAllies: true,
+              tags: ["!Galactic Legend"],
+            },
+          ],
         },
       },
       {
@@ -888,10 +924,12 @@ module.exports = {
           tags: ["Resistance"],
           type: "health",
           mode: "Territory Battle",
-          conditions: {
-            allAllies: true,
-            tags: ["!Galactic Legend"],
-          },
+          conditions: [
+            {
+              allAllies: true,
+              tags: ["!Galactic Legend"],
+            },
+          ],
         },
       },
       {
@@ -900,10 +938,12 @@ module.exports = {
           tags: ["!Resistance"],
           type: "protection up",
           mode: "Territory Battle",
-          conditions: {
-            allAllies: true,
-            tags: ["!Galactic Legend"],
-          },
+          conditions: [
+            {
+              allAllies: true,
+              tags: ["!Galactic Legend"],
+            },
+          ],
         },
       },
     ],
@@ -939,9 +979,11 @@ module.exports = {
       },
       {
         tags: ["!Self", "Phoenix"],
-        conditions: {
-          leader: ["HERASYNDULLAS3"],
-        },
+        conditions: [
+          {
+            leader: ["HERASYNDULLAS3"],
+          },
+        ],
         type: "protection",
         value: 0.4,
         valueScale: "health",
@@ -1012,10 +1054,12 @@ module.exports = {
         value: 15,
         type: "speed",
         tags: ["Inquisitorious"],
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
       },
       {
         tags: ["Empire"],
@@ -1031,37 +1075,45 @@ module.exports = {
         tags: ["Inquisitorious"],
         type: "health",
         value: 0.46,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
       },
       {
         tags: ["Inquisitorious"],
         type: "protection",
         value: 0.46,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
       },
     ],
     unique: [
       {
         value: 0.2,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
         tags: ["Self"],
         type: "health",
       },
       {
         value: 0.2,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
         tags: ["Self"],
         type: "protection",
       },
@@ -1162,10 +1214,12 @@ module.exports = {
           value: 0.35,
           type: "health",
           tags: ["Imperial Trooper"],
-          conditions: {
-            allAllies: true,
-            tags: ["!Leader & !Self"],
-          },
+          conditions: [
+            {
+              allAllies: true,
+              tags: ["!Leader & !Self"],
+            },
+          ],
           abilityId: "leaderskill_IDENVERSIOEMPIRE",
           mode: "Grand Arena",
         },
@@ -1175,10 +1229,12 @@ module.exports = {
           value: 0.35,
           type: "protection",
           tags: ["Imperial Trooper"],
-          conditions: {
-            allAllies: true,
-            tags: ["!Leader & !Self"],
-          },
+          conditions: [
+            {
+              allAllies: true,
+              tags: ["!Leader & !Self"],
+            },
+          ],
           abilityId: "leaderskill_IDENVERSIOEMPIRE",
           mode: "Grand Arena",
         },
@@ -1192,18 +1248,22 @@ module.exports = {
         type: "protection",
         valueScale: "health",
         tags: ["Self"],
-        conditions: {
-          tags: ["!KUIIL"],
-        },
+        conditions: [
+          {
+            tags: ["!KUIIL"],
+          },
+        ],
       },
       {
         value: 0.4,
         type: "protection",
         valueScale: "health",
         tags: ["Self"],
-        conditions: {
-          tags: ["KUIIL"],
-        },
+        conditions: [
+          {
+            tags: ["KUIIL"],
+          },
+        ],
       },
     ],
   },
@@ -1266,97 +1326,121 @@ module.exports = {
       {
         value: 0.1,
         tags: ["Self"],
-        conditions: {
-          leader: ["!JEDIKNIGHTREVAN"],
-        },
+        conditions: [
+          {
+            leader: ["!JEDIKNIGHTREVAN"],
+          },
+        ],
         type: "protection",
       },
       {
         value: 0.1,
         tags: ["Self"],
-        conditions: {
-          leader: ["!JEDIKNIGHTREVAN"],
-        },
+        conditions: [
+          {
+            leader: ["!JEDIKNIGHTREVAN"],
+          },
+        ],
         type: "health",
       },
       {
         value: 0.1,
         tags: ["Self"],
-        conditions: {
-          leader: ["!JEDIKNIGHTREVAN"],
-        },
+        conditions: [
+          {
+            leader: ["!JEDIKNIGHTREVAN"],
+          },
+        ],
         type: "defense",
       },
       {
         value: 0.05,
         tags: ["!Self", "Light Side"],
-        conditions: {
-          leader: ["!JEDIKNIGHTREVAN"],
-        },
+        conditions: [
+          {
+            leader: ["!JEDIKNIGHTREVAN"],
+          },
+        ],
         type: "protection",
       },
       {
         value: 0.05,
         tags: ["!Self", "Light Side"],
-        conditions: {
-          leader: ["!JEDIKNIGHTREVAN"],
-        },
+        conditions: [
+          {
+            leader: ["!JEDIKNIGHTREVAN"],
+          },
+        ],
         type: "health",
       },
       {
         value: 0.05,
         tags: ["!Self", "Light Side"],
-        conditions: {
-          leader: ["!JEDIKNIGHTREVAN"],
-        },
+        conditions: [
+          {
+            leader: ["!JEDIKNIGHTREVAN"],
+          },
+        ],
         type: "defense",
       },
       {
         value: 0.2,
         tags: ["Self"],
-        conditions: {
-          leader: ["JEDIKNIGHTREVAN"],
-        },
+        conditions: [
+          {
+            leader: ["JEDIKNIGHTREVAN"],
+          },
+        ],
         type: "protection",
       },
       {
         value: 0.2,
         tags: ["Self"],
-        conditions: {
-          leader: ["JEDIKNIGHTREVAN"],
-        },
+        conditions: [
+          {
+            leader: ["JEDIKNIGHTREVAN"],
+          },
+        ],
         type: "health",
       },
       {
         value: 0.2,
         tags: ["Self"],
-        conditions: {
-          leader: ["JEDIKNIGHTREVAN"],
-        },
+        conditions: [
+          {
+            leader: ["JEDIKNIGHTREVAN"],
+          },
+        ],
         type: "defense",
       },
       {
         value: 0.1,
         tags: ["!Self", "Light Side"],
-        conditions: {
-          leader: ["JEDIKNIGHTREVAN"],
-        },
+        conditions: [
+          {
+            leader: ["JEDIKNIGHTREVAN"],
+          },
+        ],
         type: "protection",
       },
       {
         value: 0.1,
         tags: ["!Self", "Light Side"],
-        conditions: {
-          leader: ["JEDIKNIGHTREVAN"],
-        },
+        conditions: [
+          {
+            leader: ["JEDIKNIGHTREVAN"],
+          },
+        ],
         type: "health",
       },
       {
         value: 0.1,
         tags: ["!Self", "Light Side"],
-        conditions: {
-          leader: ["JEDIKNIGHTREVAN"],
-        },
+        conditions: [
+          {
+            leader: ["JEDIKNIGHTREVAN"],
+          },
+        ],
         type: "defense",
       },
     ],
@@ -1480,10 +1564,12 @@ module.exports = {
       {
         value: 30,
         tags: ["Galactic Republic & Jedi"],
-        conditions: {
-          allAllies: true,
-          tags: ["Galactic Republic & Jedi"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Galactic Republic & Jedi"],
+          },
+        ],
         type: "speed",
       },
       {
@@ -1496,10 +1582,12 @@ module.exports = {
         value: 0.4,
         type: "health",
         tags: ["Jedi & Galactic Republic"],
-        conditions: {
-          allAllies: true,
-          tags: ["Jedi & Galactic Republic"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Jedi & Galactic Republic"],
+          },
+        ],
       },
     ],
   },
@@ -1564,17 +1652,21 @@ module.exports = {
         value: 0.5,
         type: "defense",
         tags: ["Rebel Fighter"],
-        conditions: {
-          enemyLeader: ["Sith"],
-        },
+        conditions: [
+          {
+            enemyLeader: ["Sith"],
+          },
+        ],
       },
       {
         value: 0.25,
         type: "health",
         tags: ["Rebel Fighter"],
-        conditions: {
-          enemyLeader: ["Sith"],
-        },
+        conditions: [
+          {
+            enemyLeader: ["Sith"],
+          },
+        ],
       },
       {
         omicron: {
@@ -1819,19 +1911,23 @@ module.exports = {
       },
       {
         value: 0.2,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
         tags: ["Self"],
         type: "health",
       },
       {
         value: 0.2,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
         tags: ["Self"],
         type: "protection",
       },
@@ -2025,19 +2121,23 @@ module.exports = {
     unique: [
       {
         value: 0.2,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
         tags: ["Self"],
         type: "health",
       },
       {
         value: 0.2,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
         tags: ["Self"],
         type: "protection",
       },
@@ -2047,19 +2147,23 @@ module.exports = {
     unique: [
       {
         value: 0.2,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
         tags: ["Self"],
         type: "health",
       },
       {
         value: 0.2,
-        conditions: {
-          allAllies: true,
-          tags: ["Inquisitorious"],
-        },
+        conditions: [
+          {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        ],
         tags: ["Self"],
         type: "protection",
       },
@@ -2293,54 +2397,66 @@ module.exports = {
         value: 0.4,
         type: "protection",
         tags: ["Self"],
-        conditions: {
-          leader: ["Rebel"],
-        },
+        conditions: [
+          {
+            leader: ["Rebel"],
+          },
+        ],
         source: "leader",
       },
       {
         value: 0.4,
         type: "health",
         tags: ["Self"],
-        conditions: {
-          leader: ["Rebel"],
-        },
+        conditions: [
+          {
+            leader: ["Rebel"],
+          },
+        ],
         source: "leader",
       },
       {
         value: 0.4,
         type: "defense",
         tags: ["Self"],
-        conditions: {
-          leader: ["Rebel"],
-        },
+        conditions: [
+          {
+            leader: ["Rebel"],
+          },
+        ],
         source: "leader",
       },
       {
         value: 0.2,
         type: "protection",
         tags: ["!Self", "Rebel"],
-        conditions: {
-          leader: ["Rebel"],
-        },
+        conditions: [
+          {
+            leader: ["Rebel"],
+          },
+        ],
         source: "leader",
       },
       {
         value: 0.2,
         type: "health",
         tags: ["!Self", "Rebel"],
-        conditions: {
-          leader: ["Rebel"],
-        },
+        conditions: [
+          {
+            leader: ["Rebel"],
+          },
+        ],
         source: "leader",
       },
       {
         value: 0.2,
         type: "defense",
         tags: ["!Self", "Rebel"],
-        conditions: {
-          leader: ["Rebel"],
-        },
+        conditions: [
+          {
+            leader: ["Rebel"],
+          },
+        ],
         source: "leader",
       },
     ],
@@ -2382,9 +2498,11 @@ module.exports = {
           value: 0.75,
           type: "defense",
           tags: ["Self"],
-          conditions: {
-            solo: true,
-          },
+          conditions: [
+            {
+              solo: true,
+            },
+          ],
         },
       },
       {
@@ -2393,9 +2511,11 @@ module.exports = {
           value: 0.75,
           type: "health",
           tags: ["Self"],
-          conditions: {
-            solo: true,
-          },
+          conditions: [
+            {
+              solo: true,
+            },
+          ],
         },
       },
       {
@@ -2404,9 +2524,11 @@ module.exports = {
           value: 0.75,
           type: "protection",
           tags: ["Self"],
-          conditions: {
-            solo: true,
-          },
+          conditions: [
+            {
+              solo: true,
+            },
+          ],
         },
       },
     ],
@@ -2587,9 +2709,11 @@ module.exports = {
           type: "defense",
           mode: "Territory Wars",
           tags: ["Self"],
-          conditions: {
-            solo: true,
-          },
+          conditions: [
+            {
+              solo: true,
+            },
+          ],
         },
       },
       {
@@ -2598,9 +2722,11 @@ module.exports = {
           type: "health",
           mode: "Territory Wars",
           tags: ["Self"],
-          conditions: {
-            solo: true,
-          },
+          conditions: [
+            {
+              solo: true,
+            },
+          ],
         },
       },
       {
@@ -2609,9 +2735,11 @@ module.exports = {
           type: "protection",
           mode: "Territory Wars",
           tags: ["Self"],
-          conditions: {
-            solo: true,
-          },
+          conditions: [
+            {
+              solo: true,
+            },
+          ],
         },
       },
     ],
@@ -2653,25 +2781,50 @@ module.exports = {
   BENSOLO: {
     unique: [
       {
-        value: 0.15,
-        type: "health",
-        tags: ["Self"],
-        conditions: {
-          allAllies: true,
-          tags: ["Light Side"],
-          //todo: add condition if any rey is in the leader slot
-        },
-      },
-      {
         value: 10,
         type: "speed",
-        tags: ["Self"],
-        conditions: {
-          allAllies: true,
-          tags: ["Light Side"],
-          //todo: add condition if any rey is in the leader slot
-        },
         scalesBy: ["Light Side"],
+        conditions: [
+          {
+            leader: ["REY", "REYJEDITRAINING", "GLREY"],
+          },
+          {
+            allAllies: true,
+            tags: ["Light Side"],
+          },
+        ],
+      },
+      {
+        value: 0.15,
+        type: "health",
+        scalesBy: ["Light Side"],
+        conditions: [
+          {
+            leader: ["REY", "REYJEDITRAINING", "GLREY"],
+          },
+          {
+            allAllies: true,
+            tags: ["Light Side"],
+          },
+        ],
+      },
+    ],
+  },
+  UNDERCOVERLANDO: {
+    unique: [
+      {
+        omicron: {
+          tags: ["Self"],
+          value: 20,
+          type: "speed",
+          mode: "Territory Wars",
+          conditions: [
+            {
+              allAllies: true,
+              tags: ["Hutt Cartel"],
+            },
+          ],
+        },
       },
     ],
   },

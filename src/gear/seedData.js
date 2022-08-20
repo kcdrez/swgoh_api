@@ -35903,6 +35903,7 @@ const originalList = [
     name: "Power Cell Injector (Fusion) - Ben Solo",
   },
   {
+<<<<<<< HEAD
     id: "174",
     recipes: [
       {
@@ -35927,6 +35928,36 @@ const originalList = [
       { gear: "172Salvage", amount: 50 },
     ],
     name: "Mk 7 Kyrotech Power Converter",
+=======
+    IDBRequest: "G12Finisher_UNDERCOVERLANDO_C",
+    recipes: [
+      {
+        base_id: "recipeG12Finisher_UNDERCOVERLANDO_C",
+        result_id: "G12Finisher_UNDERCOVERLANDO_C",
+        cost: 138000,
+        ingredients: [
+          { amount: 1, gear: "176Ingredient" },
+          { amount: 1, gear: "170Prototype" },
+          { amount: 1, gear: "123Prototype" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 1000, 2: 500, 5: 8, 6: 150, 17: 0.12, 18: 0.12 },
+    mark: " ",
+    cost: 138000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_UNDERCOVERLANDO_C/power-cell-injector-ionic-skiff-guard-lando-calrissian/",
+    ingredients: [
+      { gear: "176Ingredient_Salvage", amount: 50 },
+      { gear: "170PrototypeSalvage", amount: 50 },
+      { gear: "123Component", amount: 50 },
+      { gear: "172Salvage", amount: 100 },
+    ],
+    name: "Power Cell Injector (Ionic) - Skiff Guard (Lando Calrissian)",
+>>>>>>> 2c377cfbd2d63b7d4a57319290dae94fb39c2677
   },
 ];
 
@@ -45430,6 +45461,11 @@ const gearList = [
   {
     id: "174",
     name: "Mk 7 Kyrotech Power Converter",
+    locations: [],
+  },
+  {
+    id: "G12Finisher_UNDERCOVERLANDO_C",
+    name: "Power Cell Injector (Ionic) - Skiff Guard (Lando Calrissian)",
     locations: [],
   },
 ];
