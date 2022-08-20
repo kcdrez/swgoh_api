@@ -35903,7 +35903,6 @@ const originalList = [
     name: "Power Cell Injector (Fusion) - Ben Solo",
   },
   {
-<<<<<<< HEAD
     id: "174",
     recipes: [
       {
@@ -35928,8 +35927,9 @@ const originalList = [
       { gear: "172Salvage", amount: 50 },
     ],
     name: "Mk 7 Kyrotech Power Converter",
-=======
-    IDBRequest: "G12Finisher_UNDERCOVERLANDO_C",
+  },
+  {
+    id: "G12Finisher_UNDERCOVERLANDO_C",
     recipes: [
       {
         base_id: "recipeG12Finisher_UNDERCOVERLANDO_C",
@@ -35957,7 +35957,6 @@ const originalList = [
       { gear: "172Salvage", amount: 100 },
     ],
     name: "Power Cell Injector (Ionic) - Skiff Guard (Lando Calrissian)",
->>>>>>> 2c377cfbd2d63b7d4a57319290dae94fb39c2677
   },
 ];
 
