@@ -35872,6 +35872,62 @@ const originalList = [
     ],
     name: "Power Cell Injector (Plasma) - Krrsantan",
   },
+  {
+    id: "G12Finisher_BENSOLO_B",
+    recipes: [
+      {
+        base_id: "recipeG12Finisher_BENSOLO_B",
+        result_id: "G12Finisher_BENSOLO_B",
+        cost: 124000,
+        ingredients: [
+          { amount: 1, gear: "175Ingredient" },
+          { amount: 1, gear: "169Prototype" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "173Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 1000, 4: 200, 5: 8, 7: 950, 17: 0.15, 27: 0.1 },
+    mark: " ",
+    cost: 124000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_BENSOLO_B/power-cell-injector-fusion-ben-solo/",
+    ingredients: [
+      { gear: "175Ingredient_Salvage", amount: 50 },
+      { gear: "169PrototypeSalvage", amount: 50 },
+      { gear: "173Salvage", amount: 100 },
+      { gear: "135Salvage", amount: 50 },
+    ],
+    name: "Power Cell Injector (Fusion) - Ben Solo",
+  },
+  {
+    id: "174",
+    recipes: [
+      {
+        base_id: "recipe174",
+        result_id: "174",
+        cost: 10000,
+        ingredients: [
+          { amount: 1, gear: "172Prototype" },
+          { amount: 1, gear: "173Prototype" },
+        ],
+      },
+    ],
+    tier: 7,
+    required_level: 67,
+    stats: { 4: 24, 17: 0.05, 18: 0.05 },
+    mark: "Mk VII",
+    cost: 10000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powerconvertor.png",
+    url: "//swgoh.gg/db/gear/174/mk-7-kyrotech-power-converter/",
+    ingredients: [
+      { gear: "173Salvage", amount: 50 },
+      { gear: "172Salvage", amount: 50 },
+    ],
+    name: "Mk 7 Kyrotech Power Converter",
+  },
 ];
 
 const gearList = [
@@ -44980,6 +45036,7 @@ const gearList = [
     locations: [
       {
         id: "lightside_normal_7b",
+        dropRate: 0.2,
       },
       {
         id: "guild_events_store2",
@@ -45026,6 +45083,7 @@ const gearList = [
     locations: [
       {
         id: "darkside_normal_8a",
+        dropRate: 0.2,
       },
       {
         id: "guild_events_store2",
@@ -45362,6 +45420,16 @@ const gearList = [
   {
     id: "G12Finisher_KRRSANTAN_A",
     name: "Power Cell Injector (Plasma) - Krrsantan",
+    locations: [],
+  },
+  {
+    id: "G12Finisher_BENSOLO_B",
+    name: "Power Cell Injector (Fusion) - Ben Solo",
+    locations: [],
+  },
+  {
+    id: "174",
+    name: "Mk 7 Kyrotech Power Converter",
     locations: [],
   },
 ];

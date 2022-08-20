@@ -2650,4 +2650,29 @@ module.exports = {
       },
     ],
   },
+  BENSOLO: {
+    unique: [
+      {
+        value: 0.15,
+        type: "health",
+        tags: ["Self"],
+        conditions: {
+          allAllies: true,
+          tags: ["Light Side"],
+          //todo: add condition if any rey is in the leader slot
+        },
+      },
+      {
+        value: 10,
+        type: "speed",
+        tags: ["Self"],
+        conditions: {
+          allAllies: true,
+          tags: ["Light Side"],
+          //todo: add condition if any rey is in the leader slot
+        },
+        scalesBy: ["Light Side"],
+      },
+    ],
+  },
 };
