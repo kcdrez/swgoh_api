@@ -96,6 +96,7 @@ const galacticBounties = [
     id: "galactic_bounties_1",
     table: "Galactic Bounties I",
     characters: [
+      //todo: implement exclusive events
       {
         id: "Paploo",
         shardCount: 20,
@@ -113,6 +114,10 @@ const galacticBounties = [
         shardCount: 20,
       },
     ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
   },
   {
     id: "galactic_bounties_2",
@@ -135,6 +140,10 @@ const galacticBounties = [
         shardCount: 20,
       },
     ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
   },
 ];
 
