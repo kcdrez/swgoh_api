@@ -18414,7 +18414,6 @@ module.exports = [
     id: "FIFTHBROTHER",
     url: "http://swgoh.gg/characters/fifth-brother/",
     image: "https://game-assets.swgoh.gg/tex.charui_fifthbrother.png",
-    power: 37507,
     description:
       "A powerful Inquisitor that specializes in supporting the purge of all Jedi by applying devastating debuffs.",
     combat_type: 1,
@@ -18828,6 +18827,7 @@ module.exports = [
   {
     name: "Krrsantan",
     id: "KRRSANTAN",
+    pk: 3436,
     url: "http://swgoh.gg/characters/krrsantan/",
     image: "https://game-assets.swgoh.gg/tex.charui_krrsantan.png",
     description:

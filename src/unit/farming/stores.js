@@ -352,19 +352,6 @@ module.exports = [
   {
     id: "conquest_store",
     table: "Conquest Store",
-    characters: [
-      {
-        id: "RAZORCREST",
-        dropRate: 1,
-        shardCount: 5,
-        cost: 400,
-      },
-      {
-        id: "COMMANDERAHSOKA",
-        dropRate: 1,
-        shardCount: 5,
-        cost: 475,
-      },
-    ],
+    characters: [],
   },
 ];
