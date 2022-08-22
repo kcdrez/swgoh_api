@@ -28,12 +28,10 @@ const conquest = {
   id: "conquest",
   table: "Conquest",
   characters: [
-    // { id: "RAZORCREST" },
-    // { id: "COMMANDERAHSOKA" },
-    { id: "MAUL" },
     { id: "BOBAFETTSCION" },
     { id: "TIEINTERCEPTOR" },
     { id: "DARTHMALGUS" },
+    { id: "BENSOLO" },
   ],
 };
 
@@ -85,6 +83,11 @@ const provingGrounds = {
     },
     {
       id: "RAZORCREST",
+      shardCount: 20,
+      dropRate: 1,
+    },
+    {
+      id: "MAULS7",
       shardCount: 20,
       dropRate: 1,
     },
