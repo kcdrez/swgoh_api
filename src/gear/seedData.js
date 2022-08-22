@@ -45447,8 +45447,8 @@ module.exports = originalList.map(
       recipes,
       image,
       ingredients,
-      locations: match.locations || [],
-      scavenger: match.scavenger || [],
+      locations: match?.locations || [],
+      scavenger: match?.scavenger || [],
     };
   }
 );

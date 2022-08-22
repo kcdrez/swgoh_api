@@ -2153,6 +2153,41 @@ const galacticLegends = {
             type: "Stars",
           },
         },
+        {
+          id: "UNDERCOVERLANDO",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "JEDIKNIGHTLUKE",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "JAWA",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "URORRURRR",
+          requirement: {
+            value: 4,
+            type: "Relic",
+          },
+        },
+        {
+          id: "C3POLEGENDARY",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
       ],
     },
   ],
