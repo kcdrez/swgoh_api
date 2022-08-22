@@ -43,32 +43,50 @@ const raids = [
     table: "Raids",
     mission: "The Pit (Rancor)",
     characters: [{ id: "HANSOLO" }],
+    frequency: {
+      type: "day",
+      amount: 25 / 60,
+    },
   },
   {
     id: "tank_takedown",
     table: "Raids",
     mission: "The Pit (Rancor)",
     characters: [{ id: "GENERALKENOBI" }],
+    frequency: {
+      type: "day",
+      amount: 25 / 80,
+    },
   },
   {
     id: "sith_triumvirate",
     table: "Raids",
     mission: "Sith Triumvirate (STR)",
     characters: [{ id: "DARTHTRAYA" }],
+    frequency: {
+      type: "day",
+      amount: 25 / 110,
+    },
   },
 ];
 
 const provingGrounds = {
   id: "proving_grounds",
   table: "Proving Grounds",
+  frequency: {
+    type: "month",
+    amount: 1,
+  },
   characters: [
     {
       id: "COMMANDERAHSOKA",
       shardCount: 20,
+      dropRate: 1,
     },
     {
       id: "RAZORCREST",
       shardCount: 20,
+      dropRate: 1,
     },
   ],
 };
@@ -78,6 +96,7 @@ const galacticBounties = [
     id: "galactic_bounties_1",
     table: "Galactic Bounties I",
     characters: [
+      //todo: implement exclusive events
       {
         id: "Paploo",
         shardCount: 20,
@@ -95,6 +114,10 @@ const galacticBounties = [
         shardCount: 20,
       },
     ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
   },
   {
     id: "galactic_bounties_2",
@@ -117,6 +140,10 @@ const galacticBounties = [
         shardCount: 20,
       },
     ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
   },
 ];
 
@@ -156,6 +183,10 @@ const assaultBattles = [
         shardCount: (8 + 10 + 10) / 3,
       },
     ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
   },
   {
     id: "ground_war_ab",
@@ -212,6 +243,10 @@ const assaultBattles = [
         shardCount: 10,
       },
     ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
   },
   {
     id: "military_might_ab",
@@ -298,6 +333,10 @@ const assaultBattles = [
         shardCount: 8,
       },
     ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
   },
   {
     id: "places_of_power_ab",
@@ -364,6 +403,10 @@ const assaultBattles = [
         shardCount: 10,
       },
     ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
   },
   {
     id: "rebel_roundup_ab",
@@ -520,6 +563,10 @@ const assaultBattles = [
         shardCount: 10,
       },
     ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
   },
   {
     id: "secrets_shadows_ab",
@@ -566,6 +613,10 @@ const assaultBattles = [
         shardCount: 10,
       },
     ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
   },
 ];
 
@@ -576,4 +627,5 @@ module.exports = [
   ...dailyChallenges,
   provingGrounds,
   ...galacticBounties,
+  ...assaultBattles,
 ];

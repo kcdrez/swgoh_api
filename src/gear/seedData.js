@@ -35903,7 +35903,33 @@ const originalList = [
     name: "Power Cell Injector (Fusion) - Ben Solo",
   },
   {
-    IDBRequest: "G12Finisher_UNDERCOVERLANDO_C",
+    id: "174",
+    recipes: [
+      {
+        base_id: "recipe174",
+        result_id: "174",
+        cost: 10000,
+        ingredients: [
+          { amount: 1, gear: "172Prototype" },
+          { amount: 1, gear: "173Prototype" },
+        ],
+      },
+    ],
+    tier: 7,
+    required_level: 67,
+    stats: { 4: 24, 17: 0.05, 18: 0.05 },
+    mark: "Mk VII",
+    cost: 10000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powerconvertor.png",
+    url: "//swgoh.gg/db/gear/174/mk-7-kyrotech-power-converter/",
+    ingredients: [
+      { gear: "173Salvage", amount: 50 },
+      { gear: "172Salvage", amount: 50 },
+    ],
+    name: "Mk 7 Kyrotech Power Converter",
+  },
+  {
+    id: "G12Finisher_UNDERCOVERLANDO_C",
     recipes: [
       {
         base_id: "recipeG12Finisher_UNDERCOVERLANDO_C",
@@ -45040,6 +45066,7 @@ const gearList = [
     locations: [
       {
         id: "lightside_normal_7b",
+        dropRate: 0.2,
       },
       {
         id: "guild_events_store2",
@@ -45086,6 +45113,7 @@ const gearList = [
     locations: [
       {
         id: "darkside_normal_8a",
+        dropRate: 0.2,
       },
       {
         id: "guild_events_store2",
@@ -45427,6 +45455,11 @@ const gearList = [
   {
     id: "G12Finisher_BENSOLO_B",
     name: "Power Cell Injector (Fusion) - Ben Solo",
+    locations: [],
+  },
+  {
+    id: "174",
+    name: "Mk 7 Kyrotech Power Converter",
     locations: [],
   },
   {
