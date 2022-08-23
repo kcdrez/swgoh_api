@@ -127,6 +127,10 @@ const galacticBounties = [
     table: "Galactic Bounties II",
     characters: [
       {
+        id: "QIRA",
+        shardCount: 20,
+      },
+      {
         id: "VISASMARR",
         shardCount: 20,
       },
