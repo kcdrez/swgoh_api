@@ -1008,6 +1008,17 @@ const legendary = {
           },
         },
       ],
+      softRequirements: [
+        {
+          id: "VISASMARR",
+        },
+        {
+          id: "JUHANI",
+        },
+        {
+          id: "EMPERORPALPATINE",
+        },
+      ],
     },
     {
       id: "JEDIKNIGHTREVAN",
@@ -1487,6 +1498,28 @@ const legendary = {
             value: 67000,
             type: "Power",
           },
+        },
+      ],
+      softRequirements: [
+        {
+          id: "MILLENNIUMFALCON",
+          type: "Stars",
+          value: 7,
+        },
+        {
+          id: "YWINGREBEL",
+          type: "Stars",
+          value: 7,
+        },
+        {
+          id: "GHOST",
+          type: "Stars",
+          value: 7,
+        },
+        {
+          id: "PHANTOM2",
+          type: "Stars",
+          value: 7,
         },
       ],
     },

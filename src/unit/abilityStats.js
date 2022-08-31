@@ -2116,6 +2116,32 @@ module.exports = {
         tags: ["!Sith"],
       },
     ],
+    unique: [
+      {
+        omicron: {
+          value: 0.5,
+          type: "defense",
+          mode: "Grand Arena",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          value: 0.5,
+          type: "health",
+          mode: "Grand Arena",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          value: 30,
+          type: "speed",
+          mode: "Grand Arena",
+          tags: ["Self"],
+        },
+      },
+    ],
   },
   SECONDSISTER: {
     unique: [

@@ -102,19 +102,19 @@ const galacticBounties = [
       //todo: implement exclusive events
       {
         id: "Paploo",
-        shardCount: 20,
+        shardCount: 40,
       },
       {
         id: "HANSOLO",
-        shardCount: 20,
+        shardCount: 40,
       },
       {
         id: "HOTHLEIA",
-        shardCount: 20,
+        shardCount: 40,
       },
       {
         id: "IMPERIALPROBEDROID",
-        shardCount: 20,
+        shardCount: 40,
       },
     ],
     frequency: {
@@ -128,23 +128,23 @@ const galacticBounties = [
     characters: [
       {
         id: "QIRA",
-        shardCount: 20,
+        shardCount: 40,
       },
       {
         id: "VISASMARR",
-        shardCount: 20,
+        shardCount: 40,
       },
       {
         id: "AMILYNHOLDO",
-        shardCount: 20,
+        shardCount: 40,
       },
       {
         id: "FULCRUMAHSOKA",
-        shardCount: 20,
+        shardCount: 40,
       },
       {
         id: "ENFYSNEST",
-        shardCount: 20,
+        shardCount: 40,
       },
     ],
     frequency: {

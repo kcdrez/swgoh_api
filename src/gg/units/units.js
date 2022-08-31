@@ -18747,8 +18747,8 @@ module.exports = [
       "Taunt",
     ],
     role: "Support",
-    ship: "",
-    ship_slot: null,
+    ship: "CAPITALPROFUNDITY",
+    ship_slot: 0,
     activate_shard_count: 25,
   },
   {

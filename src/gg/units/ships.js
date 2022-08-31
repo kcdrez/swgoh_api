@@ -1112,6 +1112,41 @@ const ships = [
     capital_ship: false,
     activate_shard_count: 80,
   },
+  {
+    name: "Profundity",
+    id: "CAPITALPROFUNDITY",
+    url: "http://swgoh.gg/ships/profundity/",
+    image: "https://game-assets.swgoh.gg/tex.charui_profundity.png",
+    description:
+      "Rebel Capital Ship that uses tactical synergy to acquire stolen plans",
+    combat_type: 2,
+    alignment: "Light Side",
+    categories: ["Capital Ship", "Rebel"],
+    ability_classes: [
+      "Ability Block",
+      "Advantage",
+      "AoE",
+      "Assist",
+      "Breach",
+      "Buff Immunity",
+      "Counter",
+      "Damage Immunity",
+      "Daze",
+      "Dispel",
+      "Offense Up",
+      "Protection Up",
+      "Speed Down",
+      "Stealth",
+      "Stun",
+      "Taunt",
+      "Tenacity Down",
+      "Tenacity Up",
+      "Vulnerable",
+    ],
+    role: "Capital Ship",
+    capital_ship: true,
+    activate_shard_count: 80,
+  },
 ];
 
 const shipsStats = [
@@ -2288,7 +2323,29 @@ const shipsStats = [
     basePotency: 0.4097,
     baseTenacity: 0.5597,
   },
+  {
+    name: "Profundity",
+    baseSpeed: 98,
+    baseHealth: 0,
+    baseProtection: 0,
+    baseDamage: 2126,
+    baseCrit: 0.2446,
+    baseSpecialDamage: 3645,
+    baseSpecialCrit: 0.1,
+    basePotency: 0,
+    baseTenacity: 0.15,
+    speed: 0.00299401,
+    health: 0,
+    protection: 0,
+    physicalDamage: 0.206859,
+    critRating: 0,
+    specialDamage: 1.0587915,
+    specialCritRating: 0,
+    potency: 0.00002268,
+    tenacity: 0.00002268,
+  },
 ];
+
 module.exports = ships.map((x) => {
   const match = shipsStats.find((stats) => stats.name === x.name);
   if (!match) {
