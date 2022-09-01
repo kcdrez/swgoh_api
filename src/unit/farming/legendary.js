@@ -1264,7 +1264,7 @@ const legendary = {
             type: "Stars",
           },
           recommended: {
-            value: 67000,
+            value: 45000,
             type: "Power",
           },
         },
@@ -1297,7 +1297,7 @@ const legendary = {
             type: "Stars",
           },
           recommended: {
-            value: 67000,
+            value: 60000,
             type: "Power",
           },
         },
@@ -1308,7 +1308,7 @@ const legendary = {
             type: "Stars",
           },
           recommended: {
-            value: 67000,
+            value: 57000,
             type: "Power",
           },
         },
@@ -1319,7 +1319,7 @@ const legendary = {
             type: "Stars",
           },
           recommended: {
-            value: 67000,
+            value: 60000,
             type: "Power",
           },
           prerequisites: [
@@ -1451,6 +1451,15 @@ const legendary = {
             value: 7,
             type: "Stars",
           },
+          prerequisites: [
+            {
+              id: "K2SO",
+              requirement: {
+                value: 7,
+                type: "Stars",
+              },
+            },
+          ],
         },
         {
           id: "UWINGSCARIF",
@@ -1458,6 +1467,15 @@ const legendary = {
             value: 7,
             type: "Stars",
           },
+          prerequisites: [
+            {
+              id: "SCARIFREBEL",
+              requirement: {
+                value: 7,
+                type: "Stars",
+              },
+            },
+          ],
         },
         {
           id: "XWINGRED2",
@@ -1465,6 +1483,15 @@ const legendary = {
             value: 7,
             type: "Stars",
           },
+          prerequisites: [
+            {
+              id: "WEDGEANTILLES",
+              requirement: {
+                value: 7,
+                type: "Stars",
+              },
+            },
+          ],
         },
         {
           id: "XWINGRED3",
@@ -1472,6 +1499,15 @@ const legendary = {
             value: 7,
             type: "Stars",
           },
+          prerequisites: [
+            {
+              id: "BIGGSDARKLIGHTER",
+              requirement: {
+                value: 7,
+                type: "Stars",
+              },
+            },
+          ],
         },
         {
           id: "YWINGREBEL",
@@ -1486,6 +1522,22 @@ const legendary = {
             value: 7,
             type: "Stars",
           },
+          prerequisites: [
+            {
+              id: "ZEBS3",
+              requirement: {
+                value: 7,
+                type: "Stars",
+              },
+            },
+            {
+              id: "KANANJARRUSS3",
+              requirement: {
+                value: 7,
+                type: "Stars",
+              },
+            },
+          ],
         },
         {
           tags: ["Capital Ship"],

@@ -43,6 +43,7 @@ const ships = [
   {
     name: "B-28 Extinction-class Bomber",
     id: "SITHBOMBER",
+    aliases: ["Sith Marauder"],
     url: "http://swgoh.gg/ships/b-28-extinction-class-bomber/",
     image:
       "https://game-assets.swgoh.gg/tex.charui_b28extinctionclassbomber.png",
@@ -59,6 +60,7 @@ const ships = [
   {
     name: "Biggs Darklighter's X-wing",
     id: "XWINGRED3",
+    aliases: ["xwing", "rebel xwing", "rebel x-wing"],
     url: "http://swgoh.gg/ships/biggs-darklighters-x-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_xwing_red3.png",
     description:
@@ -74,6 +76,7 @@ const ships = [
   {
     name: "Bistan's U-wing",
     id: "UWINGSCARIF",
+    aliases: ["uwing", "rebel uwing", "rebel u-wing"],
     url: "http://swgoh.gg/ships/bistans-u-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_uwing.png",
     description:
@@ -89,6 +92,15 @@ const ships = [
   {
     name: "BTL-B Y-wing Starfighter",
     id: "YWINGCLONEWARS",
+    aliases: [
+      "ywing",
+      "crewless",
+      "republic ywing",
+      "republic y-wing",
+      "gr ywing",
+      "gr y-wing",
+      "why wing",
+    ],
     url: "http://swgoh.gg/ships/btl-b-y-wing-starfighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_ywing_btlb.png",
     description:
@@ -104,6 +116,13 @@ const ships = [
   {
     name: "Cassian's U-wing",
     id: "UWINGROGUEONE",
+    aliases: [
+      "uwing",
+      "rebel uwing",
+      "rebel u-wing",
+      "cassian uwing",
+      "cassian's uwing",
+    ],
     url: "http://swgoh.gg/ships/cassians-u-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_uwing_hero.png",
     description:
@@ -126,6 +145,7 @@ const ships = [
   {
     name: "Chimaera",
     id: "CAPITALCHIMAERA",
+    aliases: ["thrawn"],
     url: "http://swgoh.gg/ships/chimaera/",
     image: "https://game-assets.swgoh.gg/tex.charui_chimaera.png",
     description:
@@ -179,6 +199,7 @@ const ships = [
   {
     name: "Ebon Hawk",
     id: "EBONHAWK",
+    aliases: ["T3M4", "carth"],
     url: "http://swgoh.gg/ships/ebon-hawk/",
     image: "https://game-assets.swgoh.gg/tex.charui_ebonhawk.png",
     description:
@@ -201,6 +222,7 @@ const ships = [
   {
     name: "Emperor's Shuttle",
     id: "EMPERORSSHUTTLE",
+    aliases: ["royal guard"],
     url: "http://swgoh.gg/ships/emperors-shuttle/",
     image: "https://game-assets.swgoh.gg/tex.charui_imperialshuttle.png",
     description:
@@ -216,6 +238,7 @@ const ships = [
   {
     name: "Endurance",
     id: "CAPITALJEDICRUISER",
+    aliases: ["mace"],
     url: "http://swgoh.gg/ships/endurance/",
     image: "https://game-assets.swgoh.gg/tex.charui_venator.png",
     description:
@@ -242,6 +265,7 @@ const ships = [
   {
     name: "Executor",
     id: "CAPITALEXECUTOR",
+    aliases: ["piett", "bh capital"],
     url: "http://swgoh.gg/ships/executor/",
     image: "https://game-assets.swgoh.gg/tex.charui_executor.png",
     description: "Empire Capital Ship with strong Bounty Hunter synergy.",
@@ -266,6 +290,7 @@ const ships = [
   {
     name: "Executrix",
     id: "CAPITALSTARDESTROYER",
+    aliases: ["tarkin"],
     url: "http://swgoh.gg/ships/executrix/",
     image: "https://game-assets.swgoh.gg/tex.charui_stardestroyer.png",
     description: "Aggressive Empire Capital Ship that crushes debuffed enemies",
@@ -288,6 +313,7 @@ const ships = [
   {
     name: "Finalizer",
     id: "CAPITALFINALIZER",
+    aliases: ["hux"],
     url: "http://swgoh.gg/ships/finalizer/",
     image: "https://game-assets.swgoh.gg/tex.charui_finalizer.png",
     description:
@@ -310,6 +336,7 @@ const ships = [
   {
     name: "First Order SF TIE Fighter",
     id: "TIEFIGHTERFOSF",
+    aliases: ["fo sf tie", "fosf tie"],
     url: "http://swgoh.gg/ships/first-order-sf-tie-fighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_fosf_tie_fighter.png",
     description:
@@ -325,6 +352,7 @@ const ships = [
   {
     name: "First Order TIE Fighter",
     id: "TIEFIGHTERFIRSTORDER",
+    aliases: ["fo tie fighter"],
     url: "http://swgoh.gg/ships/first-order-tie-fighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorder_tiefighter.png",
     description:
@@ -340,6 +368,13 @@ const ships = [
   {
     name: "Gauntlet Starfighter",
     id: "GAUNTLETSTARFIGHTER",
+    aliases: [
+      "GARSAXON",
+      "gar saxon",
+      "IMPERIALSUPERCOMMANDO",
+      "imperial",
+      "empire",
+    ],
     url: "http://swgoh.gg/ships/gauntlet-starfighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_gauntlet.png",
     description:
@@ -355,6 +390,7 @@ const ships = [
   {
     name: "Geonosian Soldier's Starfighter",
     id: "GEONOSIANSTARFIGHTER2",
+    aliases: ["geo ship", "geo soldier"],
     url: "http://swgoh.gg/ships/geonosian-soldiers-starfighter/",
     image:
       "https://game-assets.swgoh.gg/tex.charui_geonosis_fighter_soldier.png",
@@ -376,6 +412,7 @@ const ships = [
   {
     name: "Geonosian Spy's Starfighter",
     id: "GEONOSIANSTARFIGHTER3",
+    aliases: ["geo ship", "geo spy"],
     url: "http://swgoh.gg/ships/geonosian-spys-starfighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosis_fighter_spy.png",
     description:
@@ -391,6 +428,7 @@ const ships = [
   {
     name: "Ghost",
     id: "GHOST",
+    aliases: ["kanan", "hera", "zeb"],
     url: "http://swgoh.gg/ships/ghost/",
     image: "https://game-assets.swgoh.gg/tex.charui_ghost.png",
     description:
@@ -406,6 +444,7 @@ const ships = [
   {
     name: "Han's Millennium Falcon",
     id: "MILLENNIUMFALCON",
+    aliases: ["milf", "chewy", "chewbacca"],
     url: "http://swgoh.gg/ships/hans-millennium-falcon/",
     image: "https://game-assets.swgoh.gg/tex.charui_mfalcon.png",
     description:
@@ -421,6 +460,7 @@ const ships = [
   {
     name: "Home One",
     id: "CAPITALMONCALAMARICRUISER",
+    aliases: ["ackbar", "h1", "home1", "homeone"],
     url: "http://swgoh.gg/ships/home-one/",
     image:
       "https://game-assets.swgoh.gg/tex.charui_moncalamarilibertycruiser.png",
@@ -444,6 +484,7 @@ const ships = [
   {
     name: "Hound's Tooth",
     id: "HOUNDSTOOTH",
+    aliases: ["ht", "bossk"],
     url: "http://swgoh.gg/ships/hounds-tooth/",
     image: "https://game-assets.swgoh.gg/tex.charui_houndstooth.png",
     description: "Sustainable Bounty Hunter Tank that debilitates enemies",
@@ -458,6 +499,7 @@ const ships = [
   {
     name: "Hyena Bomber",
     id: "HYENABOMBER",
+    aliases: ["crewless"],
     url: "http://swgoh.gg/ships/hyena-bomber/",
     image: "https://game-assets.swgoh.gg/tex.charui_hyenabomber.png",
     description:
@@ -473,6 +515,7 @@ const ships = [
   {
     name: "IG-2000",
     id: "IG2000",
+    aliases: ["ig88", "ig-88"],
     url: "http://swgoh.gg/ships/ig-2000/",
     image: "https://game-assets.swgoh.gg/tex.charui_ig2000.png",
     description:
@@ -488,6 +531,7 @@ const ships = [
   {
     name: "Imperial TIE Bomber",
     id: "TIEBOMBERIMPERIAL",
+    aliases: ["crewless"],
     url: "http://swgoh.gg/ships/imperial-tie-bomber/",
     image: "https://game-assets.swgoh.gg/tex.charui_tiebomber.png",
     description:
@@ -503,6 +547,7 @@ const ships = [
   {
     name: "Imperial TIE Fighter",
     id: "TIEFIGHTERIMPERIAL",
+    aliases: ["empire tie"],
     url: "http://swgoh.gg/ships/imperial-tie-fighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_tiefighter.png",
     description:
@@ -533,6 +578,7 @@ const ships = [
   {
     name: "Kylo Ren's Command Shuttle",
     id: "COMMANDSHUTTLE",
+    aliases: ["kylo", "phasma"],
     url: "http://swgoh.gg/ships/kylo-rens-command-shuttle/",
     image: "https://game-assets.swgoh.gg/tex.charui_upsilon_shuttle_kylo.png",
     description:
@@ -569,6 +615,7 @@ const ships = [
   {
     name: "Malevolence",
     id: "CAPITALMALEVOLENCE",
+    aliases: ["grievous", "gg"],
     url: "http://swgoh.gg/ships/malevolence/",
     image: "https://game-assets.swgoh.gg/tex.charui_malevolence.png",
     description:
@@ -592,6 +639,7 @@ const ships = [
   {
     name: "Negotiator",
     id: "CAPITALNEGOTIATOR",
+    aliases: ["gk", "kenobi", "general kenobi"],
     url: "http://swgoh.gg/ships/negotiator/",
     image: "https://game-assets.swgoh.gg/tex.charui_negotiator.png",
     description:
@@ -616,6 +664,7 @@ const ships = [
   {
     name: "Phantom II",
     id: "PHANTOM2",
+    aliases: ["sabine", "ezra", "chopper"],
     url: "http://swgoh.gg/ships/phantom-ii/",
     image: "https://game-assets.swgoh.gg/tex.charui_phantom2.png",
     description:
@@ -654,6 +703,14 @@ const ships = [
   {
     name: "Poe Dameron's X-wing",
     id: "XWINGBLACKONE",
+    aliases: [
+      "x wing",
+      "poe's xwing",
+      "poes xwing",
+      "poe's x-wing",
+      "resistance xwing",
+      "resistance x wing",
+    ],
     url: "http://swgoh.gg/ships/poe-damerons-x-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_xwing_blackone.png",
     description:
@@ -675,6 +732,7 @@ const ships = [
   {
     name: "Raddus",
     id: "CAPITALRADDUS",
+    aliases: ["raddus ship", "holdo"],
     url: "http://swgoh.gg/ships/raddus/",
     image: "https://game-assets.swgoh.gg/tex.charui_raddus.png",
     description:
@@ -700,6 +758,7 @@ const ships = [
   {
     name: "Razor Crest",
     id: "RAZORCREST",
+    aliases: ["rc", "bam", "mando", "mandalorian"],
     url: "http://swgoh.gg/ships/razor-crest/",
     image: "https://game-assets.swgoh.gg/tex.charui_razorcrest.png",
     description: "Tenacious Bounty Hunter attacker with Breach synergy.",
@@ -721,6 +780,7 @@ const ships = [
   {
     name: "Rebel Y-wing",
     id: "YWINGREBEL",
+    aliases: ["y wing", "crewless", "rebel ywing"],
     url: "http://swgoh.gg/ships/rebel-y-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_ywing.png",
     description: "Sturdy Rebel Tank that can disable enemy Protection",
@@ -735,6 +795,7 @@ const ships = [
   {
     name: "Resistance X-wing",
     id: "XWINGRESISTANCE",
+    aliases: ["resistance xwing", "xwing", "x wing"],
     url: "http://swgoh.gg/ships/resistance-x-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_xwing_resistance.png",
     description:
@@ -785,6 +846,7 @@ const ships = [
   },
   {
     name: "Scimitar",
+    aliases: ["maul", "maul's ship"],
     id: "SITHINFILTRATOR",
     url: "http://swgoh.gg/ships/scimitar/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithinfiltrator.png",
@@ -801,6 +863,7 @@ const ships = [
   {
     name: "Sith Fighter",
     id: "SITHFIGHTER",
+    aliases: ["SITHASSASSIN", "assassin"],
     url: "http://swgoh.gg/ships/sith-fighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithfighter.png",
     description: "Agile Sith Attacker that bypasses enemy defenses",
@@ -815,6 +878,7 @@ const ships = [
   {
     name: "Slave I",
     id: "SLAVE1",
+    aliases: ["boba", "fett", "boba's ship"],
     url: "http://swgoh.gg/ships/slave-i/",
     image: "https://game-assets.swgoh.gg/tex.charui_slave1.png",
     description:
@@ -838,6 +902,7 @@ const ships = [
   {
     name: "Sun Fac's Geonosian Starfighter",
     id: "GEONOSIANSTARFIGHTER1",
+    aliases: ["geo ship", "sunfac"],
     url: "http://swgoh.gg/ships/sun-facs-geonosian-starfighter/",
     image:
       "https://game-assets.swgoh.gg/tex.charui_geonosis_fighter_sunfac.png",
@@ -854,6 +919,7 @@ const ships = [
   {
     name: "TIE Advanced x1",
     id: "TIEADVANCED",
+    aliases: ["vader", "vader's ship", "empire tie"],
     url: "http://swgoh.gg/ships/tie-advanced-x1/",
     image: "https://game-assets.swgoh.gg/tex.charui_tieadvanced.png",
     description:
@@ -869,6 +935,13 @@ const ships = [
   {
     name: "TIE Reaper",
     id: "TIEREAPER",
+    aliases: [
+      "DEATHTROOPER",
+      "death trooper",
+      "shoretrooper",
+      "shore trooper",
+      "empire tie",
+    ],
     url: "http://swgoh.gg/ships/tie-reaper/",
     image: "https://game-assets.swgoh.gg/tex.charui_tiereaper.png",
     description:
@@ -890,6 +963,14 @@ const ships = [
   {
     name: "TIE Silencer",
     id: "TIESILENCER",
+    alias: [
+      "kru",
+      "kylo",
+      "first order tie",
+      "fo tie",
+      "fo silencer",
+      "first order silencer",
+    ],
     url: "http://swgoh.gg/ships/tie-silencer/",
     image: "https://game-assets.swgoh.gg/tex.charui_tie_silencer.png",
     description:
@@ -912,6 +993,7 @@ const ships = [
   {
     name: "TIE/IN Interceptor Prototype",
     id: "TIEINTERCEPTOR",
+    aliases: ["SECONDSISTER", "2nd sister", "2sister", "empire tie"],
     url: "http://swgoh.gg/ships/tiein-interceptor-prototype/",
     image:
       "https://game-assets.swgoh.gg/tex.charui_tie_interceptor_prototype.png",
@@ -934,6 +1016,7 @@ const ships = [
   {
     name: "Umbaran Starfighter",
     id: "UMBARANSTARFIGHTER",
+    aliases: ["fives", "clone ship"],
     url: "http://swgoh.gg/ships/umbaran-starfighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_umbaran_star_fighter.png",
     description:
@@ -957,6 +1040,7 @@ const ships = [
   {
     name: "Vulture Droid",
     id: "VULTUREDROID",
+    aliases: ["crewless"],
     url: "http://swgoh.gg/ships/vulture-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_vulturedroid.png",
     description:
@@ -979,6 +1063,7 @@ const ships = [
   {
     name: "Wedge Antilles's X-wing",
     id: "XWINGRED2",
+    aliases: ["xwing", "x wing", "rebel xwing", "rebel x wing"],
     url: "http://swgoh.gg/ships/wedge-antilless-x-wing/",
     image: "https://game-assets.swgoh.gg/tex.charui_xwing_red2.png",
     description:
@@ -999,6 +1084,7 @@ const ships = [
   {
     name: "Xanadu Blood",
     id: "XANADUBLOOD",
+    aliases: ["cad bane", "xb"],
     url: "http://swgoh.gg/ships/xanadu-blood/",
     image: "https://game-assets.swgoh.gg/tex.charui_xanadublood.png",
     description:
@@ -1020,6 +1106,7 @@ const ships = [
   {
     name: "MG-100 StarFortress SF-17",
     id: "MG100STARFORTRESSSF17",
+    aliases: ["rose", "reistance trooper"],
     url: "http://swgoh.gg/ships/mg-100-starfortress-sf-17/",
     image: "https://game-assets.swgoh.gg/tex.charui_mg100.png",
     description:
@@ -1042,6 +1129,13 @@ const ships = [
   {
     name: "TIE Echelon",
     id: "FIRSTORDERTIEECHELON",
+    aliases: [
+      "fo echelon",
+      "first order echelon",
+      "FIRSTORDEROFFICERMALE",
+      "fo officer",
+      "foo",
+    ],
     url: "http://swgoh.gg/ships/tie-echelon/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstordertieechelon.png",
     description:
@@ -1064,6 +1158,7 @@ const ships = [
   {
     name: "Outrider",
     id: "OUTRIDER",
+    alieases: ["or", "dash"],
     url: "http://swgoh.gg/ships/outrider/",
     image: "https://game-assets.swgoh.gg/tex.charui_outrider.png",
     description:
@@ -1088,6 +1183,7 @@ const ships = [
   {
     name: "Raven's Claw",
     id: "RAVENSCLAW",
+    aliases: ["kk", "kyle katarn"],
     url: "http://swgoh.gg/ships/ravens-claw/",
     image: "https://game-assets.swgoh.gg/tex.charui_ravensclaw.png",
     description:
@@ -1115,6 +1211,7 @@ const ships = [
   {
     name: "Profundity",
     id: "CAPITALPROFUNDITY",
+    aliases: ["raddus", "admiral raddus"],
     url: "http://swgoh.gg/ships/profundity/",
     image: "https://game-assets.swgoh.gg/tex.charui_profundity.png",
     description:

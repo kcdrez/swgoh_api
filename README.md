@@ -85,6 +85,7 @@ Go to https://vkpnob5w55.execute-api.us-east-1.amazonaws.com/dev/gg/units (or /s
 Find the new unit
 Add to /gg/unit/units.js or /gg/unit/ships.js (make sure to update crew in /units.js)
 Add to abilityStats.js if applicable
+Add ship stats (https://docs.google.com/spreadsheets/d/1Xh-bfiA1TUfKL29y41o3KjHTPTQgiY0J-Lnsx2yGtjo/edit#gid=265143010)
 
 Go to https://vkpnob5w55.execute-api.us-east-1.amazonaws.com/dev/gg/gear
 Find the new gear
