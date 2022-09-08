@@ -35958,6 +35958,36 @@ const originalList = [
     ],
     name: "Power Cell Injector (Ionic) - Skiff Guard (Lando Calrissian)",
   },
+  {
+    id: "G12Finisher_BOUSHH_A",
+    recipes: [
+      {
+        base_id: "recipeG12Finisher_BOUSHH_A",
+        result_id: "G12Finisher_BOUSHH_A",
+        cost: 124000,
+        ingredients: [
+          { amount: 1, gear: "174Ingredient" },
+          { amount: 1, gear: "168Prototype" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 4250, 4: 100, 5: 8, 7: 1000, 8: 25, 9: 25, 17: 0.25 },
+    mark: " ",
+    cost: 124000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_BOUSHH_A/power-cell-injector-plasma-boushh-leia-organa/",
+    ingredients: [
+      { gear: "174Ingredient_Salvage", amount: 50 },
+      { gear: "168PrototypeSalvage", amount: 50 },
+      { gear: "135Salvage", amount: 50 },
+      { gear: "172Salvage", amount: 100 },
+    ],
+    name: "Power Cell Injector (Plasma) - Boushh (Leia Organa)",
+  },
 ];
 
 const gearList = [
@@ -45465,6 +45495,11 @@ const gearList = [
   {
     id: "G12Finisher_UNDERCOVERLANDO_C",
     name: "Power Cell Injector (Ionic) - Skiff Guard (Lando Calrissian)",
+    locations: [],
+  },
+  {
+    id: "G12Finisher_BOUSHH_A",
+    name: "Power Cell Injector (Plasma) - Boushh (Leia Organa)",
     locations: [],
   },
 ];

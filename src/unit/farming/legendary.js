@@ -2214,7 +2214,7 @@ const galacticLegends = {
           id: "HANSOLO",
           requirement: {
             value: 8,
-            type: "Stars",
+            type: "Relic",
           },
         },
         {
@@ -2270,6 +2270,41 @@ const galacticLegends = {
           id: "C3POLEGENDARY",
           requirement: {
             value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "BOUSHH",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "AURRA_SING",
+          requirement: {
+            value: 6,
+            type: "Relic",
+          },
+        },
+        {
+          id: "FENNECSHAND",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "BOBAFETT",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "HUMANTHUG",
+          requirement: {
+            value: 3,
             type: "Relic",
           },
         },

@@ -1433,7 +1433,7 @@ module.exports = [
     map: 2,
     mission: "E",
     energy: 20,
-    characters: ["CARTHONASI"],
+    characters: ["RAVENSCLAW"],
     gear: [],
   },
   {
@@ -2134,7 +2134,7 @@ module.exports = [
     map: 8,
     mission: "E",
     energy: 16,
-    characters: ["EBONHAWK"],
+    characters: ["EBONHAWK", "CARTHONASI"],
     gear: [],
   },
   {

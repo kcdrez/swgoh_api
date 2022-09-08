@@ -1804,10 +1804,22 @@ module.exports = {
   HUMANTHUG: {
     unique: [
       {
-        value: 0.15,
+        value: 0.25,
         type: "health",
         tags: ["Self"],
         scalesBy: ["Scoundrel"],
+      },
+      {
+        value: 0.25,
+        type: "protection",
+        tags: ["Self"],
+        scalesBy: ["Bounty Hunter"],
+      },
+      {
+        value: 10,
+        type: "speed",
+        tags: ["Self"],
+        scalesBy: ["Hutt Cartel"],
       },
     ],
   },
@@ -2851,6 +2863,37 @@ module.exports = {
             },
           ],
         },
+      },
+    ],
+  },
+  BOUSHH: {
+    unique: [
+      {
+        tags: ["Self"],
+        value: 0.1,
+        type: "health",
+      },
+      {
+        tags: ["Self"],
+        value: 0.1,
+        type: "defense",
+      },
+      {
+        tags: ["Self", "Light Side & Smuggler"],
+        value: 10,
+        type: "speed",
+      },
+    ],
+    leader: [
+      {
+        tags: ["Bounty Hunter"],
+        value: 0.25,
+        type: "health",
+      },
+      {
+        tags: ["Bounty Hunter"],
+        value: 0.25,
+        type: "protection",
       },
     ],
   },
