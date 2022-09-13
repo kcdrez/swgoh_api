@@ -129,6 +129,22 @@ routes.patch("/dailyCurrency/:userId", async (req, res) => {
   }
 });
 
+routes.patch("/goalList/:userId", async (req, res) => {
+  const { goalList } = req.body;
+  if (!goalList) {
+    res.status(500).json({ error: "Missing required field: goalList" });
+  } else {
+    try {
+      await player.updateGoalList(req.params.userId, goalList);
+      res.status(200).json({ success: true });
+    } catch (err) {
+      res.status(500).json({
+        error: err.message,
+      });
+    }
+  }
+});
+
 module.exports = {
   routes,
 };

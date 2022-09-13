@@ -55,7 +55,17 @@ class DbClient {
 
   async updateUser(
     id,
-    { gear, relic, planner, energyData, teams, shards, wallet, currency }
+    {
+      gear,
+      relic,
+      planner,
+      energyData,
+      teams,
+      shards,
+      wallet,
+      currency,
+      goalList,
+    }
   ) {
     const expressions = [];
     const values = {};
@@ -90,6 +100,10 @@ class DbClient {
     if (currency) {
       expressions.push("currency = :currency");
       values[":currency"] = currency;
+    }
+    if (goalList) {
+      expressions.push("goalList = :goalList");
+      values[":goalList"] = goalList;
     }
 
     if (expressions.length > 0) {

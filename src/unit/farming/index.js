@@ -5,9 +5,9 @@ const stores = require("./stores");
 const other = require("./other");
 const gearList = require("../../gear/seedData");
 
-const notAccelerated = [
+const ships = [
+  "EBONHAWK",
   "VULTUREDROID",
-  "FENNECSHAND",
   "SITHBOMBER",
   "IG2000",
   "YWINGCLONEWARS",
@@ -39,25 +39,34 @@ const notAccelerated = [
   "TIEADVANCED",
   "YWINGREBEL",
   "TIESILENCER",
+  "BLADEOFDORIN",
+  "TIEINTERCEPTOR",
+  "FIRSTORDERTIEECHELON",
+  "MG100STARFORTRESSSF17",
+  "OUTRIDER",
+  "RAVENSCLAW",
+];
+
+const notAcceleratedUnits = [
+  "FENNECSHAND",
   "KYLEKATARN",
   "DASHRENDAR",
-  "BLADEOFDORIN",
   "DARTHTALON",
-  "EBONHAWK",
-  "TIEINTERCEPTOR",
   "MARAJADE",
   "SECONDSISTER",
   "NINTHSISTER",
   "SEVENTHSISTER",
   "EIGHTHBROTHER",
   "FIFTHBROTHER",
-  "FIRSTORDERTIEECHELON",
-  "MG100STARFORTRESSSF17",
-  "OUTRIDER",
   "IDENVERSIOEMPIRE",
   "50R-T",
   "ADMIRALRADDUS",
+  "KRRSANTAN",
+  "UNDERCOVERLANDO",
+  "BOUSHH",
 ];
+
+const notAccelerated = [...ships, ...notAcceleratedUnits];
 
 const farmNodeList = [...hardNodes, ...normalNodes].map(
   ({ characters, ...node }) => {

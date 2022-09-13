@@ -106,15 +106,15 @@ const galacticBounties = [
       },
       {
         id: "HANSOLO",
-        shardCount: 40,
+        shardCount: 20,
       },
       {
         id: "HOTHLEIA",
-        shardCount: 40,
+        shardCount: 20,
       },
       {
         id: "IMPERIALPROBEDROID",
-        shardCount: 40,
+        shardCount: 20,
       },
     ],
     frequency: {
