@@ -627,6 +627,99 @@ const assaultBattles = [
   },
 ];
 
+const capitalShipEvents = [
+  {
+    id: "HomeOneEvent",
+    table: "Capital Ship Events",
+    characters: [
+      {
+        id: "CAPITALMONCALAMARICRUISER",
+        dropRate: 1,
+        shardCount: 15,
+      },
+    ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
+  },
+  {
+    id: "FinalizerEvent",
+    table: "Capital Ship Events",
+    characters: [
+      {
+        id: "CAPITALFINALIZER",
+        dropRate: 1,
+        shardCount: 10, //todo
+      },
+    ],
+    frequency: {
+      type: "month",
+      amount: 2,
+    },
+  },
+  {
+    id: "RaddusEvent",
+    table: "Capital Ship Events",
+    characters: [
+      {
+        id: "CAPITALRADDUS",
+        dropRate: 1,
+        shardCount: 10, //todo
+      },
+    ],
+    frequency: {
+      type: "month",
+      amount: 2,
+    },
+  },
+  {
+    id: "ExecutorEvent",
+    table: "Capital Ship Events",
+    characters: [
+      {
+        id: "CAPITALEXECUTOR",
+        dropRate: 1,
+        shardCount: 10,
+      },
+    ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
+  },
+  {
+    id: "ExecutrixEvent",
+    table: "Capital Ship Events",
+    characters: [
+      {
+        id: "CAPITALEXECUTRIX",
+        dropRate: 1,
+        shardCount: 15,
+      },
+    ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
+  },
+  {
+    id: "EnduranceEvent",
+    table: "Capital Ship Events",
+    characters: [
+      {
+        id: "CAPITALENDURANCE",
+        dropRate: 1,
+        shardCount: 15,
+      },
+    ],
+    frequency: {
+      type: "month",
+      amount: 1,
+    },
+  },
+];
+
 module.exports = [
   ...raids,
   conquest,
@@ -635,4 +728,5 @@ module.exports = [
   provingGrounds,
   ...galacticBounties,
   ...assaultBattles,
+  ...capitalShipEvents,
 ];

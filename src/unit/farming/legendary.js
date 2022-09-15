@@ -1332,18 +1332,6 @@ const legendary = {
             },
           ],
         },
-        {
-          tags: ["Capital Ship"],
-          count: 1,
-          requirement: {
-            value: 7,
-            type: "Stars",
-          },
-          recommended: {
-            value: 67000,
-            type: "Power",
-          },
-        },
       ],
     },
     {
@@ -1538,18 +1526,6 @@ const legendary = {
               },
             },
           ],
-        },
-        {
-          tags: ["Capital Ship"],
-          count: 1,
-          requirement: {
-            value: 7,
-            type: "Stars",
-          },
-          recommended: {
-            value: 67000,
-            type: "Power",
-          },
         },
       ],
       softRequirements: [
