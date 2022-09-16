@@ -1,8 +1,10 @@
 const { v4: uuidv4 } = require("uuid");
+const moment = require("moment");
 
 const dbClient = require("../db/dynamoDbClient");
 const apiClient = require("../api/swgoh.gg");
 const { tbMapping, tbNameMapping } = require("./tbMapping");
+const { twMapping } = require("./twMapping");
 const player = require("../player/player");
 
 class Guild {
@@ -50,6 +52,54 @@ class Guild {
         }
       );
     }
+    if (response.territoryWar) {
+      response.territoryWar = response.territoryWar.map((war) => {
+        const rewardsMap = twMapping.find((rewards) => {
+          return moment(war.date).isBetween(
+            rewards.dates.start,
+            rewards.dates.end
+          );
+        });
+        if (rewardsMap && war.guildGP) {
+          const rewards =
+            rewardsMap.rewards[war.guildGP][war.win ? "win" : "loss"];
+          if (rewards) {
+            return {
+              ...war,
+              ...rewards,
+            };
+          }
+        }
+
+        return {
+          date: war.date,
+          id: war.id,
+          win: war.win,
+          guildGP: -1,
+          currencies: {
+            get2: war.get2,
+            get1: war.get1,
+            guildStore: -1,
+            credits: -1,
+          },
+          abilityMats: {
+            zetas: war.zetas,
+            omegas: -1,
+            purple: -1,
+          },
+          relicMats: {
+            aeros: -1,
+            droidBrains: -1,
+          },
+          datacronMats: {
+            mk3: -1,
+            mk2: -1,
+            mk1: -1,
+            dataCache: -1,
+          },
+        };
+      });
+    }
     return response;
   }
 
@@ -57,8 +107,20 @@ class Guild {
     return await apiClient.fetchAccess(guildId, allyCode);
   }
 
-  async updateTerritoryWar(guildId, territoryWar) {
+  async updateTerritoryWar(guildId, territoryWarEvents) {
+    const territoryWar = territoryWarEvents.map((event) => {
+      if (!event.id) {
+        event.id = uuidv4();
+      }
+      delete event.currencies;
+      delete event.abilityMats;
+      delete event.relicMats;
+      delete event.datacronMats;
+
+      return event;
+    });
     await dbClient.updateGuild(guildId, { territoryWar });
+    return await this.fetchGuild(guildId);
   }
 
   async updateTerritoryBattle(guildId, territoryBattleEvents) {
