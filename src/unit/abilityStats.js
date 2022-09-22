@@ -2897,4 +2897,38 @@ module.exports = {
       },
     ],
   },
+  GAMORREANGUARD: {
+    unique: [
+      {
+        tags: ["Self"],
+        value: 0.1,
+        type: "health",
+        scalesBy: ["Hutt Cartel"],
+      },
+      {
+        omicron: {
+          tags: ["Self"],
+          value: 0.5,
+          type: "defense",
+          mode: "Territory Battle",
+        },
+      },
+      {
+        omicron: {
+          tags: ["Hutt Cartel & !Self"],
+          value: 0.5,
+          type: "health",
+          mode: "Territory Battle",
+        },
+      },
+      {
+        omicron: {
+          tags: ["Hutt Cartel & !Self"],
+          value: 0.5,
+          type: "protection",
+          mode: "Territory Battle",
+        },
+      },
+    ],
+  },
 };

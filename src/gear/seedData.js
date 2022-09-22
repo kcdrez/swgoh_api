@@ -35988,6 +35988,36 @@ const originalList = [
     ],
     name: "Power Cell Injector (Plasma) - Boushh (Leia Organa)",
   },
+  {
+    id: "G12Finisher_JABBATHEHUTT_B",
+    recipes: [
+      {
+        base_id: "recipeG12Finisher_JABBATHEHUTT_B",
+        result_id: "G12Finisher_JABBATHEHUTT_B",
+        cost: 124000,
+        ingredients: [
+          { amount: 1, gear: "175Ingredient" },
+          { amount: 1, gear: "169Prototype" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "173Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 3200, 4: 400, 5: 8, 8: 140, 9: 140, 17: 0.15 },
+    mark: " ",
+    cost: 124000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_JABBATHEHUTT_B/power-cell-injector-fusion-jabba-the-hutt/",
+    ingredients: [
+      { gear: "175Ingredient_Salvage", amount: 50 },
+      { gear: "169PrototypeSalvage", amount: 50 },
+      { gear: "173Salvage", amount: 100 },
+      { gear: "135Salvage", amount: 50 },
+    ],
+    name: "Power Cell Injector (Fusion) - Jabba the Hutt",
+  },
 ];
 
 const gearList = [
@@ -45500,6 +45530,11 @@ const gearList = [
   {
     id: "G12Finisher_BOUSHH_A",
     name: "Power Cell Injector (Plasma) - Boushh (Leia Organa)",
+    locations: [],
+  },
+  {
+    id: "G12Finisher_JABBATHEHUTT_B",
+    name: "Power Cell Injector (Fusion) - Jabba the Hutt",
     locations: [],
   },
 ];
