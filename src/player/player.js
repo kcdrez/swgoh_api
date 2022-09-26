@@ -13,7 +13,7 @@ class Player {
 
     console.info("Fetching player data from both APIs", allyCode);
 
-    const [{ roster, name, updated }, ggPlayer] = await Promise.all([
+    const [{ roster, name }, ggPlayer] = await Promise.all([
       helpApi.fetchPlayer(allyCode),
       ggApi.fetchPlayer(allyCode),
     ]);

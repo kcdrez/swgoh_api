@@ -28,7 +28,12 @@ class DbClient {
       },
     };
     const result = await db.scan(params).promise();
-    return result.Items[0];
+
+    if (result.Items.length > 0) {
+      return result.Items[0];
+    } else {
+      return null;
+    }
   }
 
   async createUser(allyCode, { name }) {

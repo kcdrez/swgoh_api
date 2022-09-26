@@ -14,7 +14,6 @@ class Unit {
 
     const match = unitsList.find((x) => x.id === unitId);
     if (match) {
-      console.info("Using unit cache", unitId);
       return match;
     } else {
       console.error("Unit not in the cache list", unitId);
