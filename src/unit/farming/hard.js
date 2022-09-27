@@ -1323,7 +1323,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_1a`,
+    id: `fleet_hard_1a`,
     table: "Fleet",
     difficulty: "Hard",
     map: 1,
@@ -1333,7 +1333,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_1b`,
+    id: `fleet_hard_1b`,
     table: "Fleet",
     difficulty: "Hard",
     map: 1,
@@ -1343,7 +1343,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_1c`,
+    id: `fleet_hard_1c`,
     table: "Fleet",
     difficulty: "Hard",
     map: 1,
@@ -1353,7 +1353,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_1d`,
+    id: `fleet_hard_1d`,
     table: "Fleet",
     difficulty: "Hard",
     map: 1,
@@ -1363,7 +1363,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_1d`,
+    id: `fleet_hard_1d`,
     table: "Fleet",
     difficulty: "Hard",
     map: 1,
@@ -1373,7 +1373,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_2a`,
+    id: `fleet_hard_2a`,
     table: "Fleet",
     difficulty: "Hard",
     map: 2,
@@ -1383,7 +1383,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_2b`,
+    id: `fleet_hard_2b`,
     table: "Fleet",
     difficulty: "Hard",
     map: 2,
@@ -1393,7 +1393,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_2c`,
+    id: `fleet_hard_2c`,
     table: "Fleet",
     difficulty: "Hard",
     map: 2,
@@ -1403,7 +1403,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_2d`,
+    id: `fleet_hard_2d`,
     table: "Fleet",
     difficulty: "Hard",
     map: 2,
@@ -1413,7 +1413,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_2e`,
+    id: `fleet_hard_2e`,
     table: "Fleet",
     difficulty: "Hard",
     map: 2,
@@ -1423,7 +1423,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_3a`,
+    id: `fleet_hard_3a`,
     table: "Fleet",
     difficulty: "Hard",
     map: 3,
@@ -1433,7 +1433,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_3b`,
+    id: `fleet_hard_3b`,
     table: "Fleet",
     difficulty: "Hard",
     map: 3,
@@ -1443,7 +1443,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_3c`,
+    id: `fleet_hard_3c`,
     table: "Fleet",
     difficulty: "Hard",
     map: 3,
@@ -1453,7 +1453,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_3d`,
+    id: `fleet_hard_3d`,
     table: "Fleet",
     difficulty: "Hard",
     map: 3,
@@ -1463,7 +1463,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_3e`,
+    id: `fleet_hard_3e`,
     table: "Fleet",
     difficulty: "Hard",
     map: 3,
@@ -1473,7 +1473,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_4a`,
+    id: `fleet_hard_4a`,
     table: "Fleet",
     difficulty: "Hard",
     map: 4,
@@ -1483,7 +1483,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_4b`,
+    id: `fleet_hard_4b`,
     table: "Fleet",
     difficulty: "Hard",
     map: 4,
@@ -1493,7 +1493,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_4c`,
+    id: `fleet_hard_4c`,
     table: "Fleet",
     difficulty: "Hard",
     map: 4,
@@ -1503,7 +1503,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_4d`,
+    id: `fleet_hard_4d`,
     table: "Fleet",
     difficulty: "Hard",
     map: 4,
@@ -1513,7 +1513,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_4e`,
+    id: `fleet_hard_4e`,
     table: "Fleet",
     difficulty: "Hard",
     map: 4,
@@ -1523,7 +1523,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_5a`,
+    id: `fleet_hard_5a`,
     table: "Fleet",
     difficulty: "Hard",
     map: 5,
@@ -1533,7 +1533,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_5b`,
+    id: `fleet_hard_5b`,
     table: "Fleet",
     difficulty: "Hard",
     map: 5,
@@ -1543,7 +1543,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_5c`,
+    id: `fleet_hard_5c`,
     table: "Fleet",
     difficulty: "Hard",
     map: 5,
@@ -1554,7 +1554,7 @@ module.exports = [
   },
 
   {
-    id: `fleet_${hard}_5d`,
+    id: `fleet_hard_5d`,
     table: "Fleet",
     difficulty: "Hard",
     map: 5,
@@ -1564,7 +1564,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_5e`,
+    id: `fleet_hard_5e`,
     table: "Fleet",
     difficulty: "Hard",
     map: 5,
@@ -1574,7 +1574,7 @@ module.exports = [
     gear: [],
   },
   {
-    id: `fleet_${hard}_5f`,
+    id: `fleet_hard_5f`,
     table: "Fleet",
     difficulty: "Hard",
     map: 5,
