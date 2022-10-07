@@ -48,7 +48,6 @@ const ships = [
 ];
 
 const notAcceleratedUnits = [
-  "FENNECSHAND",
   "KYLEKATARN",
   "DASHRENDAR",
   "DARTHTALON",

@@ -2224,7 +2224,7 @@ const galacticLegends = {
         {
           id: "JEDIKNIGHTLUKE",
           requirement: {
-            value: 5,
+            value: 7,
             type: "Relic",
           },
         },

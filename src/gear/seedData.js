@@ -36018,6 +36018,36 @@ const originalList = [
     ],
     name: "Power Cell Injector (Fusion) - Jabba the Hutt",
   },
+  {
+    id: "G12Finisher_HONDO_C",
+    recipes: [
+      {
+        base_id: "recipeG12Finisher_HONDO_C",
+        result_id: "G12Finisher_HONDO_C",
+        cost: 138000,
+        ingredients: [
+          { amount: 1, gear: "176Ingredient" },
+          { amount: 1, gear: "170Prototype" },
+          { amount: 1, gear: "123Prototype" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 1000, 4: 100, 5: 8, 7: 1000, 8: 60, 9: 60, 27: 0.2 },
+    mark: " ",
+    cost: 138000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_HONDO_C/power-cell-injector-ionic-hondo-ohnaka/",
+    ingredients: [
+      { gear: "176Ingredient_Salvage", amount: 50 },
+      { gear: "170PrototypeSalvage", amount: 50 },
+      { gear: "123Component", amount: 50 },
+      { gear: "172Salvage", amount: 100 },
+    ],
+    name: "Power Cell Injector (Ionic) - Hondo Ohnaka",
+  },
 ];
 
 const gearList = [
@@ -45535,6 +45565,11 @@ const gearList = [
   {
     id: "G12Finisher_JABBATHEHUTT_B",
     name: "Power Cell Injector (Fusion) - Jabba the Hutt",
+    locations: [],
+  },
+  {
+    id: "G12Finisher_HONDO_C",
+    name: "Power Cell Injector (Ionic) - Hondo Ohnaka",
     locations: [],
   },
 ];
