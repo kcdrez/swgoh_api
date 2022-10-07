@@ -19071,7 +19071,7 @@ module.exports = [
   },
   {
     name: "Hondo Ohnaka",
-    base_id: "HONDO",
+    id: "HONDO",
     url: "http://swgoh.gg/characters/hondo-ohnaka/",
     image: "https://game-assets.swgoh.gg/tex.charui_hondoohnaka.png",
     description:
