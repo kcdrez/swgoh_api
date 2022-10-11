@@ -48,14 +48,14 @@ class apiClient {
   }
 
   async allyCodes(guildId) {
-    const response = await axios.get(baseUrl + "/guild/" + guildId);
+    const response = await axios.get(baseUrl + "/guild-profile/" + guildId);
 
     return response.data.players.map((player) => player.data.ally_code);
   }
 
   async fetchGuild(guildId) {
-    const response = await axios.get(baseUrl + "/guild/" + guildId);
-    return response.data;
+    const response = await axios.get(baseUrl + "/guild-profile/" + guildId);
+    return response.data.data;
   }
 }
 

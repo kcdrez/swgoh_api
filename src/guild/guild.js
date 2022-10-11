@@ -146,13 +146,17 @@ class Guild {
 
   async fetchGuildUnits(unitId, ggPlayers) {
     const players = await player.fetchPlayers(unitId, ggPlayers);
-    return players.map(({ units, ...player }) => {
-      const unit = units[0];
-      return {
-        unit,
-        ...player,
-      };
-    });
+    if (Array.isArray(unitId)) {
+      return players;
+    } else {
+      return players.map(({ units, ...player }) => {
+        const unit = units[0];
+        return {
+          unit,
+          ...player,
+        };
+      });
+    }
   }
 }
 

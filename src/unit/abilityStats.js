@@ -765,6 +765,13 @@ module.exports = {
         type: "protection",
       },
     ],
+    leader: [
+      {
+        omicron: {
+          mode: "Territory Wars",
+        },
+      },
+    ],
   },
   EMBO: {
     leader: [
@@ -865,6 +872,11 @@ module.exports = {
         value: 0.3,
         tags: ["Inquisitorious"],
         type: "defense",
+      },
+      {
+        omicron: {
+          mode: "Territory Wars",
+        },
       },
     ],
     unique: [
@@ -1093,6 +1105,11 @@ module.exports = {
           },
         ],
       },
+      {
+        omicron: {
+          mode: "Territory Wars",
+        },
+      },
     ],
     unique: [
       {
@@ -1152,7 +1169,7 @@ module.exports = {
         omicron: {
           value: 30,
           tags: ["Phoenix"],
-          mode: "Territory War",
+          mode: "Territory Wars",
           abilityId: "leaderskill_HERASYNDULLAS3",
           type: "speed",
         },
@@ -1781,6 +1798,11 @@ module.exports = {
         type: "health",
         tags: ["Self"],
       },
+      {
+        omicron: {
+          mode: "Territory Wars",
+        },
+      },
     ],
   },
   MAUL: {
@@ -2156,6 +2178,13 @@ module.exports = {
     ],
   },
   SECONDSISTER: {
+    leader: [
+      {
+        omicron: {
+          mode: "Territory Wars",
+        },
+      },
+    ],
     unique: [
       {
         value: 0.2,
@@ -2182,6 +2211,13 @@ module.exports = {
     ],
   },
   SEVENTHSISTER: {
+    leader: [
+      {
+        omicron: {
+          mode: "Territory Wars",
+        },
+      },
+    ],
     unique: [
       {
         value: 0.2,
@@ -2376,13 +2412,15 @@ module.exports = {
     ],
   },
   T3_M4: {
-    unique: {
-      omicron: {
-        mode: "Territory Wars",
-        value: 0.3,
-        type: "health",
+    unique: [
+      {
+        omicron: {
+          mode: "Territory Wars",
+          value: 0.3,
+          type: "health",
+        },
       },
-    },
+    ],
   },
   ARMORER: {
     leader: [
@@ -2927,6 +2965,24 @@ module.exports = {
           value: 0.5,
           type: "protection",
           mode: "Territory Battle",
+        },
+      },
+    ],
+  },
+  CHIEFNEBIT: {
+    unique: [
+      {
+        omicron: {
+          mode: "Territory Wars",
+        },
+      },
+    ],
+  },
+  MARAJADE: {
+    unique: [
+      {
+        omicron: {
+          mode: "Territory Wars",
         },
       },
     ],

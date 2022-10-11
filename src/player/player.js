@@ -41,8 +41,9 @@ class Player {
 
     for (let i = 0; i <= ggPlayers.length - 1; i++) {
       const player = ggPlayers[i];
+      const unitList = (await ggApi.fetchPlayer(player.ally_code)).units;
       players.push({
-        units: player.units
+        units: unitList
           .map((x) => {
             const { relic_tier, rarity, ...restUnit } = x.data;
             return {
@@ -51,10 +52,16 @@ class Player {
               ...restUnit,
             };
           })
-          .filter((x) => x.base_id === unitId),
-        name: player.data.name,
-        updated: player.data.last_updated,
-        allyCode: player.data.ally_code,
+          .filter((x) => {
+            if (Array.isArray(unitId)) {
+              return unitId.includes(x.base_id);
+            } else {
+              return x.base_id === unitId;
+            }
+          }),
+        name: player.player_name,
+        allyCode: player.ally_code,
+        totalGP: player.galactic_power,
       });
     }
 
