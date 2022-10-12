@@ -966,7 +966,7 @@ module.exports = {
         omicron: {
           tags: ["Light Side", "!Light Side"],
           type: "health",
-          mode: "Territory Wars",
+          mode: "Grand Arena",
           value: 0.5,
         },
       },
