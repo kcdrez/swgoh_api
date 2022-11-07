@@ -39,6 +39,11 @@ module.exports = {
         tags: ["Rebel"],
         abilityId: "leaderskill_ADMIRALACKBAR",
       },
+      {
+        omicron: {
+          mode: "Grand Arena",
+        },
+      },
     ],
   },
   ADMIRALPIETT: {
@@ -668,6 +673,9 @@ module.exports = {
         tags: ["Sith"],
         abilityId: "uniqueskill_DARTHTALON02",
         type: "speed",
+        omicron: {
+          mode: "Grand Arena",
+        },
       },
       {
         tags: ["Sith"],
@@ -707,6 +715,11 @@ module.exports = {
         type: "health",
         tags: ["Scoundrel & Tank & !Light Side"],
         abilityId: "leaderskill_DASHRENDAR",
+      },
+      {
+        omicron: {
+          mode: "Grand Arena",
+        },
       },
     ],
     unique: [
@@ -1300,6 +1313,11 @@ module.exports = {
         type: "health",
         value: 0.5,
         tags: ["Self"],
+      },
+      {
+        omicron: {
+          mode: "Territory Battle",
+        },
       },
     ],
   },
@@ -1974,6 +1992,9 @@ module.exports = {
         tags: ["Jedi"],
         abilityId: "leaderskill_QUIGONJINN",
         type: "speed",
+        omicron: {
+          mode: "Grand Arena",
+        },
       },
     ],
   },
@@ -2019,6 +2040,15 @@ module.exports = {
         scalesBy: ["Droid", "Jawa"],
         abilityId: "uniqueskill_JAWAENGINEER01",
         type: "speed",
+      },
+    ],
+  },
+  ROSETICO: {
+    unique: [
+      {
+        omicron: {
+          mode: "Grand Arena",
+        },
       },
     ],
   },
@@ -2299,9 +2329,18 @@ module.exports = {
         omicron: {
           value: 0.35,
           tags: ["Rebel"],
-          mode: "Territory Battles",
+          mode: "Territory Battle",
           abilityId: "leaderskill_HOTHLEIA",
           type: "speed",
+        },
+      },
+    ],
+  },
+  PRINCESSLEIA: {
+    unique: [
+      {
+        omicron: {
+          mode: "Grand Arena",
         },
       },
     ],
@@ -2408,6 +2447,11 @@ module.exports = {
         value: 0.3,
         tags: ["Self"],
         type: "defense",
+      },
+      {
+        omicron: {
+          mode: "Grand Arena",
+        },
       },
     ],
   },
@@ -2884,6 +2928,11 @@ module.exports = {
           },
         ],
       },
+      {
+        omicron: {
+          mode: "Grand Arena",
+        },
+      },
     ],
   },
   UNDERCOVERLANDO: {
@@ -2983,6 +3032,29 @@ module.exports = {
       {
         omicron: {
           mode: "Territory Wars",
+        },
+      },
+    ],
+  },
+  BT1: {
+    unique: [
+      {
+        value: 5,
+        type: "speed",
+        scalesBy: ["Scoundrel"],
+      },
+      {
+        omicron: {
+          mode: "Grand Arena",
+        },
+      },
+    ],
+  },
+  TRIPLEZERO: {
+    unique: [
+      {
+        omicron: {
+          mode: "Grand Arena",
         },
       },
     ],

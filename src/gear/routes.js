@@ -1,6 +1,7 @@
 const express = require("express");
 
 const Gear = require("./gear");
+const gearList = require("./seedData");
 
 const routes = express.Router({
   mergeParams: true,
@@ -41,6 +42,16 @@ routes.patch("/:userId", async (req, res) => {
         error: err.message,
       });
     }
+  }
+});
+
+routes.get("/debug", async (req, res) => {
+  try {
+    res.status(200).json(gearList);
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+    });
   }
 });
 

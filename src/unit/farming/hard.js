@@ -253,7 +253,7 @@ module.exports = [
     difficulty: "Hard",
     map: 3,
     mission: "B",
-    characters: ["IG11"],
+    characters: ["UNDERCOVERLANDO"],
     gear: [
       {
         id: "034",
@@ -319,7 +319,7 @@ module.exports = [
     difficulty: "Hard",
     map: 3,
     mission: "E",
-    characters: ["GREEFKARGA"],
+    characters: ["GREEFKARGA", "IG11"],
     gear: [
       {
         id: "057Salvage",
