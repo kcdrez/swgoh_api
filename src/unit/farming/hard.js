@@ -934,7 +934,7 @@ module.exports = [
     difficulty: "Hard",
     map: 2,
     mission: "C",
-    characters: ["OLDBENKENOBI"],
+    characters: ["BOUSHH"],
     gear: [],
   },
   {

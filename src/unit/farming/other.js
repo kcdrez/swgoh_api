@@ -91,6 +91,11 @@ const provingGrounds = {
       shardCount: 20,
       dropRate: 1,
     },
+    {
+      id: "BOBAFETTSCION",
+      shardCount: 20,
+      dropRate: 1,
+    },
   ],
 };
 
