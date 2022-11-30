@@ -1244,6 +1244,29 @@ const ships = [
     capital_ship: true,
     activate_shard_count: 80,
   },
+  {
+    name: "Scythe",
+    id: "SCYTHE",
+    url: "http://swgoh.gg/ships/scythe/",
+    image: "https://game-assets.swgoh.gg/tex.charui_scythe.png",
+    description:
+      "Support shuttle that boosts Empire ships by providing potent buffs and summoning TIE fighters",
+    combat_type: 2,
+    alignment: "Dark Side",
+    categories: ["Empire", "Inquisitorius", "Support", "Unaligned Force User"],
+    ability_classes: [
+      "AoE",
+      "Defense Down",
+      "Dispel",
+      "Foresight",
+      "Gain Turn Meter",
+      "Remove Turn Meter",
+      "Speed Down",
+    ],
+    role: "Support",
+    capital_ship: false,
+    activate_shard_count: 330,
+  },
 ];
 
 const shipsStats = [

@@ -1551,6 +1551,39 @@ const legendary = {
         },
       ],
     },
+    {
+      id: "DOCTORAPHRA",
+      prerequisites: [
+        {
+          id: "HONDO",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "TRIPLEZERO",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "BT1",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "SANASTARROS",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+      ],
+    },
   ],
 };
 

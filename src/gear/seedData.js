@@ -15005,4 +15005,36 @@ module.exports = [
     locations: [],
     scavenger: [],
   },
+  {
+    id: "G12Finisher_SANASTARROS_C",
+    recipes: [
+      {
+        id: "recipeG12Finisher_SANASTARROS_C",
+        result_id: "G12Finisher_SANASTARROS_C",
+        cost: 138000,
+        ingredients: [
+          { amount: 1, gear: "176Ingredient" },
+          { amount: 1, gear: "170Prototype" },
+          { amount: 1, gear: "123Prototype" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 3000, 3: 200, 5: 8, 8: 100, 15: 150, 27: 0.15 },
+    mark: " ",
+    cost: 138000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_SANASTARROS_C/power-cell-injector-ionic-sana-starros/",
+    ingredients: [
+      { gear: "176Ingredient_Salvage", amount: 50 },
+      { gear: "170PrototypeSalvage", amount: 50 },
+      { gear: "123Component", amount: 50 },
+      { gear: "172Salvage", amount: 100 },
+    ],
+    name: "Power Cell Injector (Ionic) - Sana Starros",
+    locations: [],
+    scavenger: [],
+  },
 ];

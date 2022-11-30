@@ -1399,7 +1399,7 @@ module.exports = [
     map: 2,
     mission: "C",
     energy: 20,
-    characters: ["UWINGSCARIF"],
+    characters: ["UWINGSCARIF", "SCARIFREBEL"],
     gear: [],
   },
   {
@@ -1620,7 +1620,7 @@ module.exports = [
     map: 1,
     mission: "D",
     energy: 8,
-    characters: ["SCARIFREBEL"],
+    characters: ["HONDO"],
     gear: [],
   },
   {

@@ -3059,4 +3059,23 @@ module.exports = {
       },
     ],
   },
+  SANASTARROS: {
+    leader: [
+      {
+        value: 0.3,
+        type: "defense",
+        tags: ["Rebel & Scoundrel & Tank"],
+      },
+      {
+        value: 0.3,
+        type: "health",
+        tags: ["Rebel & Scoundrel & Tank"],
+      },
+      {
+        value: 0.3,
+        type: "protection",
+        tags: ["Rebel & Scoundrel & Tank"],
+      },
+    ],
+  },
 };
