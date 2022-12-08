@@ -19269,6 +19269,7 @@ module.exports = [
   {
     name: "Third Sister",
     id: "THIRDSISTER",
+    aliases: ["Reva", "3rd Sister"],
     url: "http://swgoh.gg/characters/third-sister/",
     image: "https://game-assets.swgoh.gg/tex.charui_thirdsister.png",
     description:
