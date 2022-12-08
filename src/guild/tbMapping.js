@@ -4,7 +4,7 @@ const tbMapping = {
     rewards: [
       {
         dates: {
-          start: "01-01-2022",
+          start: "01-01-2021",
           end: "12-07-2022",
         },
         tiers: {
@@ -215,7 +215,7 @@ const tbMapping = {
     rewards: [
       {
         dates: {
-          start: "01-01-2022",
+          start: "01-01-2021",
           end: "12-07-2022",
         },
         tiers: {
@@ -444,7 +444,7 @@ const tbMapping = {
     rewards: [
       {
         dates: {
-          start: "01-01-2022",
+          start: "01-01-2021",
           end: "12-07-2022",
         },
         tiers: {
@@ -727,7 +727,7 @@ const tbMapping = {
     rewards: [
       {
         dates: {
-          start: "01-01-2022",
+          start: "01-01-2021",
           end: "12-07-2022",
         },
         tiers: {

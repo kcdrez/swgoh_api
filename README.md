@@ -75,7 +75,8 @@ Which should result in response similar to the following:
 
 To run locally, run the command
 
-`serverless offline`
+Default port (3000): `sls offline`
+Custom port: `sls offline --httpPort 3001`
 
 which will run the services on localhost:3000 by default.
 
