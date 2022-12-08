@@ -53,7 +53,9 @@ class Player {
             };
           })
           .filter((x) => {
-            if (Array.isArray(unitId)) {
+            if (unitId === undefined) {
+              return true;
+            } else if (Array.isArray(unitId)) {
               return unitId.includes(x.base_id);
             } else {
               return x.base_id === unitId;

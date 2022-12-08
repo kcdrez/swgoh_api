@@ -165,7 +165,7 @@ class Guild {
 
   async fetchGuildUnits(unitId, ggPlayers) {
     const players = await player.fetchPlayers(unitId, ggPlayers);
-    if (Array.isArray(unitId)) {
+    if (Array.isArray(unitId) || unitId === undefined) {
       return players;
     } else {
       return players.map(({ units, ...player }) => {

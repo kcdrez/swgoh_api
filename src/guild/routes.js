@@ -50,16 +50,16 @@ routes.get("/:guildId/:unitId", async (req, res) => {
 routes.post("/:guildId/units", async (req, res) => {
   try {
     const { unitIds } = req.body;
-    if (!unitIds) {
-      res.status(500).json({ error: "Missing required field: unitIds" });
-    } else {
-      const guildResponse = await apiClient.fetchGuild(req.params.guildId);
-      const guildData = await guild.fetchGuildUnits(
-        unitIds,
-        guildResponse.members
-      );
-      res.status(200).json(guildData);
-    }
+    // if (!unitIds) {
+    //   res.status(500).json({ error: "Missing required field: unitIds" });
+    // } else {
+    // }
+    const guildResponse = await apiClient.fetchGuild(req.params.guildId);
+    const guildData = await guild.fetchGuildUnits(
+      unitIds,
+      guildResponse.members
+    );
+    res.status(200).json(guildData);
   } catch (error) {
     res.status(500).json({
       error: error.message,
