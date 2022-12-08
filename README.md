@@ -89,6 +89,6 @@ Add ship stats (https://docs.google.com/spreadsheets/d/1Xh-bfiA1TUfKL29y41o3KjHT
 
 Go to https://vkpnob5w55.execute-api.us-east-1.amazonaws.com/dev/gg/gear
 Find the new gear
-Add to /gear/seedData.js in both locations
+Add to /gear/seedData.js, include emepty array for `locations` and `scavenger`
 
 Change all references of 'base_id' to 'id'

@@ -21,7 +21,13 @@ class Guild {
       response.territoryBattle = response.territoryBattle.map(
         ({ id, stars, nameId, date, characterShards }) => {
           const mappingData = tbMapping[nameId];
-          const starData = mappingData[stars] || mappingData["1"];
+          const rewards = mappingData.rewards.find((rewardData) => {
+            return moment(date).isBetween(
+              rewardData.dates.start,
+              rewardData.dates.end
+            );
+          });
+          const starData = rewards.tiers[stars] || rewards.tiers["1"];
           const characterShardsData = { count: characterShards };
 
           if (nameId === "separatistMight") {
@@ -32,18 +38,31 @@ class Guild {
             characterShardsData.id = "HOTHLEIA";
           } else if (nameId === "republicOffensive") {
             characterShardsData.id = "KIADIMUNDI";
+          } else if (nameId === "riseOfTheEmpire") {
+            characterShardsData.id = "THIRDSISTER";
+          }
+
+          let type = "-";
+          if (
+            nameId === "separatistMight" ||
+            nameId === "imperialRetaliation"
+          ) {
+            type = "Dark";
+          } else if (
+            nameId === "republicOffensive" ||
+            nameId === "rebelAssault"
+          ) {
+            type = "Light";
           }
 
           return {
             id,
             date,
-            type:
-              nameId === "separatistMight" || nameId === "imperialRetaliation"
-                ? "Dark"
-                : "Light",
+            type,
             name: mappingData.name,
             get1: starData.get1,
             get2: starData.get2,
+            get3: starData.get3 || 0,
             stars,
             gear: starData.gear,
             crystals: starData.crystals,

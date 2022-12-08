@@ -3078,4 +3078,54 @@ module.exports = {
       },
     ],
   },
+  THIRDSISTER: {
+    leader: [
+      {
+        type: "health",
+        value: 0.4,
+        tags: ["Inquisitorious"],
+      },
+      {
+        type: "speed",
+        value: 30,
+        tags: ["Inquisitorious"],
+      },
+    ],
+    unique: [
+      {
+        type: "speed",
+        value: 30,
+        tags: ["Self"],
+      },
+      {
+        type: "health",
+        value: 0.3,
+        tags: ["Self"],
+      },
+      {
+        omicron: {
+          type: "health",
+          value: 0.3,
+          tags: ["Self"],
+          mode: "Grand Arena",
+          conditions: {
+            allAllies: true,
+            tags: ["Inquisitorious"],
+          },
+        },
+      },
+    ],
+  },
+  DARTHTRAYA: {
+    unique: [
+      {
+        omicron: {
+          mode: "Grand Arena",
+          type: "health",
+          value: ".4",
+          tags: ["Sith"],
+        },
+      },
+    ],
+  },
 };
