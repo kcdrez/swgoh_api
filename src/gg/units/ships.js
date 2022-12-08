@@ -2469,7 +2469,7 @@ const shipsStats = [
 module.exports = ships.map((x) => {
   const match = shipsStats.find((stats) => stats.name === x.name);
   if (!match) {
-    console.error(`No match for ${x.name}`);
+    console.error(`No ship stats match for ${x.name}`);
   }
   return { ...x, is_ship: true, statMultipliers: { ...match } };
 });
