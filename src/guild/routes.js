@@ -94,6 +94,14 @@ routes.post("/:guildId/stats", async (req, res) => {
           } else {
             console.log("no match", unit.id);
           }
+          if (unit.relic_tier > 1) {
+            acc.units.push({
+              owner: player.name,
+              relicLevel: unit.relic_tier + 2,
+              id: unit.base_id,
+              name: unit.name,
+            });
+          }
         });
         return acc;
       },
@@ -109,6 +117,7 @@ routes.post("/:guildId/stats", async (req, res) => {
           neutral: 0,
         },
         total: guildResponse.galactic_power,
+        units: [],
       }
     );
     res.status(200).json(data);
