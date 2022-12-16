@@ -3128,4 +3128,40 @@ module.exports = {
       },
     ],
   },
+  DOCTORAPHRA: {
+    unique: [
+      {
+        type: "speed",
+        value: 20,
+        tags: ["BT1", "TRIPLEZERO"],
+      },
+    ],
+    leader: [
+      {
+        type: "health",
+        value: 0.3,
+        scalesBy: "potency",
+        tags: ["Self"],
+      },
+      {
+        type: "protection",
+        value: 0.3,
+        scalesBy: "potency",
+        tags: ["Self"],
+      },
+      {
+        type: "health",
+        value: 0.2,
+        tags: ["Dark Side & Droid", "DARTHVADER", "KRRSANTAN"],
+      },
+      {
+        omicron: {
+          mode: "Grand Arena",
+          type: "speed",
+          value: 20,
+          tags: ["Dark Side & Droid", "Dark Side & Scoundrel"],
+        },
+      },
+    ],
+  },
 };
