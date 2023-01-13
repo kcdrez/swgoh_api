@@ -100,6 +100,7 @@ routes.post("/:guildId/stats", async (req, res) => {
               relicLevel: unit.relic_tier + 2,
               id: unit.base_id,
               name: unit.name,
+              alignment: unit.alignment,
             });
           }
         });

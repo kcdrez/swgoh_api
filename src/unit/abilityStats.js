@@ -3164,4 +3164,17 @@ module.exports = {
       },
     ],
   },
+  ZORIIBLISS_V2: {
+    unique: [
+      //   {
+      //   type: 'speed',
+      //   value: 35,
+      //   tags: ["Resistance"],
+      //   conditions: [{
+      //     alliesCount: //todo
+      // Resistance allies have +100% Potency while they have more allies than enemies and have +35 Speed while they have equal or fewer allies than enemies
+      //   }]
+      // }
+    ],
+  },
 };
