@@ -346,7 +346,7 @@ module.exports = [
       { id: "WATTAMBOR", dropRate: 0.5, shardCount: 5, cost: 2125 }, //todo drop rates
       { id: "KIADIMUNDI", dropRate: 0.5, shardCount: 5, cost: 2125 },
       { id: "COMMANDERAHSOKA", dropRate: 0.5, shardCount: 5, cost: 1750 },
-      // { id: "MAULS7", dropRate: 0.5, shardCount: 5, cost: 1750 }, //todo: verify who this is
+      { id: "RAZORCREST", dropRate: 0.5, shardCount: 5, cost: 1750 },
     ],
   },
   {
