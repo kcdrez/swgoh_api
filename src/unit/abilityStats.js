@@ -3177,4 +3177,47 @@ module.exports = {
       // }
     ],
   },
+  DOCTORAPHRA: {
+    unique: [
+      {
+        type: "protection",
+        value: 0.5,
+        tags: ["Self"],
+        scaleSource: "health",
+      },
+      {
+        type: "health",
+        value: -0.5,
+        tags: ["Self"],
+      },
+    ],
+    leader: [
+      {
+        type: "health",
+        value: 0.3,
+        tags: ["Separatist"],
+      },
+      {
+        type: "protection",
+        value: 0.3,
+        tags: ["Separatist"],
+      },
+      {
+        omicron: {
+          mode: "Territory Wars",
+          type: "health",
+          value: 0.75,
+          tags: ["!Droid & Separatist"],
+        },
+      },
+      {
+        omicron: {
+          mode: "Territory Wars",
+          type: "protection",
+          value: 0.75,
+          tags: ["!Droid & Separatist"],
+        },
+      },
+    ],
+  },
 };

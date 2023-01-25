@@ -48,7 +48,6 @@ const ships = [
 ];
 
 const notAcceleratedUnits = [
-  "SECONDSISTER",
   "NINTHSISTER",
   "SEVENTHSISTER",
   "EIGHTHBROTHER",

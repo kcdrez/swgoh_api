@@ -1479,7 +1479,7 @@ module.exports = [
     map: 4,
     mission: "A",
     energy: 20,
-    characters: ["GAUNTLETSTARFIGHTER"],
+    characters: ["GAUNTLETSTARFIGHTER", "IMPERIALSUPERCOMMANDO"],
     gear: [],
   },
   {
@@ -1680,7 +1680,7 @@ module.exports = [
     map: 2,
     mission: "C",
     energy: 8,
-    characters: ["IMPERIALSUPERCOMMANDO"],
+    characters: ["SANASTARROS"],
     gear: [],
   },
   {

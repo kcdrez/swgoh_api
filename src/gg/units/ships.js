@@ -1267,6 +1267,21 @@ const ships = [
     capital_ship: false,
     activate_shard_count: 330,
   },
+  {
+    name: "TIE Defender",
+    id: "TIEDEFENDER",
+    url: "http://swgoh.gg/ships/tie-defender/",
+    image: "https://game-assets.swgoh.gg/tex.charui_tiedefender.png",
+    description:
+      "Powerful reinforcement Empire Attacker capable of stunning enemies and boosting allies, specifically TIE fighters",
+    combat_type: 2,
+    alignment: "Dark Side",
+    categories: ["Attacker", "Empire"],
+    ability_classes: ["Dispel", "Foresight", "Gain Turn Meter"],
+    role: "Attacker",
+    capital_ship: false,
+    activate_shard_count: 80,
+  },
 ];
 
 const shipsStats = [
@@ -2484,6 +2499,27 @@ const shipsStats = [
     specialCritRating: 0,
     potency: 0.00000793,
     tenacity: 0.00000793,
+  },
+  {
+    name: "TIE Defender",
+    baseSpeed: 133,
+    baseHealth: 14544,
+    baseProtection: 0,
+    baseDamage: 2275,
+    baseCrit: 0.3709,
+    baseSpecialDamage: 1939,
+    baseSpecialCrit: 0.1,
+    basePotency: 0,
+    baseTenacity: 0.15,
+    speed: 0.00361416,
+    health: 4.20346153,
+    protection: 0.80769597,
+    physicalDamage: 0.50544566,
+    critRating: 0.00292063,
+    specialDamage: 0,
+    specialCritRating: 0,
+    potency: 0.00002442,
+    tenacity: 0.00002442,
   },
 ];
 

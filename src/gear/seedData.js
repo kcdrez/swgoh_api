@@ -26,7 +26,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 1,
         notes: "Recommended to save 150-300 in reserves.",
         nodes: ["lightside_normal_1c"],
@@ -60,7 +60,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 1,
         notes: "Recommended to save 300-600 in reserves.",
         nodes: ["lightside_normal_1c", "squad_arena_store"],
@@ -92,7 +92,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 1,
         nodes: ["lightside_normal_1c"],
       },
@@ -122,7 +122,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 1,
         nodes: ["lightside_normal_1c"],
       },
@@ -149,7 +149,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 1,
         nodes: ["lightside_normal_1c"],
       },
@@ -178,7 +178,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 3,
         nodes: ["lightside_normal_8h"],
       },
@@ -206,7 +206,7 @@ module.exports = [
       { id: "lightside_hard_4b" },
       { id: "lightside_hard_4e" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "008",
@@ -229,7 +229,7 @@ module.exports = [
       { id: "lightside_normal_4j" },
       { id: "lightside_hard_4e" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "009",
@@ -249,7 +249,7 @@ module.exports = [
       { id: "lightside_normal_4h" },
       { id: "lightside_hard_4f" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "010",
@@ -270,7 +270,7 @@ module.exports = [
       { id: "lightside_normal_6h" },
       { id: "lightside_normal_6j" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "011",
@@ -289,7 +289,7 @@ module.exports = [
       { id: "fleet_normal_2c" },
       { id: "fleet_hard_2a" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "012",
@@ -310,7 +310,7 @@ module.exports = [
       { id: "lightside_hard_3f" },
       { id: "lightside_normal_8g" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "013",
@@ -337,7 +337,7 @@ module.exports = [
       { id: "fleet_hard_1c" },
       { id: "fleet_normal_2d" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "014",
@@ -363,7 +363,7 @@ module.exports = [
       { gear: "003", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "015",
@@ -389,7 +389,7 @@ module.exports = [
       { gear: "002", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "016",
@@ -411,7 +411,7 @@ module.exports = [
       { id: "lightside_hard_3b" },
       { id: "lightside_normal_7g" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "017",
@@ -437,7 +437,7 @@ module.exports = [
       { gear: "003", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "018",
@@ -461,7 +461,7 @@ module.exports = [
       { gear: "008", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "019",
@@ -486,7 +486,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 2,
         nodes: ["darkside_normal_8e"],
       },
@@ -508,7 +508,7 @@ module.exports = [
       { id: "lightside_normal_2g" },
       { id: "lightside_hard_2f" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "021",
@@ -534,7 +534,7 @@ module.exports = [
       { gear: "003", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "022",
@@ -558,7 +558,7 @@ module.exports = [
       { gear: "006", amount: 2 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "023",
@@ -579,7 +579,7 @@ module.exports = [
       { id: "darkside_hard_5f" },
       { id: "darkside_normal_8g" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "024",
@@ -599,7 +599,7 @@ module.exports = [
       { id: "fleet_normal_3g" },
       { id: "fleet_hard_4a" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "025",
@@ -621,7 +621,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 1,
         nodes: ["squad_arena_store"],
         notes: "Recommended to save 100-150 in reserves.",
@@ -647,7 +647,7 @@ module.exports = [
       { id: "fleet_normal_3e" },
       { id: "fleet_hard_3b" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "027",
@@ -668,7 +668,7 @@ module.exports = [
       { id: "fleet_normal_1g" },
       { id: "fleet_hard_1a" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "028",
@@ -694,7 +694,7 @@ module.exports = [
       { gear: "002", amount: 2 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "029",
@@ -715,7 +715,7 @@ module.exports = [
       { id: "fleet_normal_3f" },
       { id: "fleet_hard_3c" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "030",
@@ -734,7 +734,7 @@ module.exports = [
       { id: "fleet_normal_2e" },
       { id: "fleet_hard_2b" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "031",
@@ -760,7 +760,7 @@ module.exports = [
       { gear: "008", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "032",
@@ -786,7 +786,7 @@ module.exports = [
       { gear: "002", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "033",
@@ -812,7 +812,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 2,
         nodes: ["lightside_normal_9a"],
       },
@@ -833,7 +833,7 @@ module.exports = [
       { id: "lightside_normal_5i" },
       { id: "lightside_hard_5e" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "035",
@@ -863,7 +863,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 1,
         nodes: ["squad_arena_store"],
         notes: "Recommended to save 20-40 in reserves.",
@@ -899,7 +899,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 1,
         nodes: ["guild_store"],
       },
@@ -929,7 +929,7 @@ module.exports = [
       { gear: "005", amount: 2 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "038",
@@ -955,7 +955,7 @@ module.exports = [
       { gear: "011", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "039",
@@ -981,7 +981,7 @@ module.exports = [
       { gear: "008", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "040",
@@ -1009,7 +1009,7 @@ module.exports = [
       { gear: "003", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "041",
@@ -1036,7 +1036,7 @@ module.exports = [
       { gear: "008", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "042",
@@ -1060,7 +1060,7 @@ module.exports = [
       { gear: "013", amount: 2 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "043",
@@ -1089,7 +1089,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 2,
         nodes: ["guild_events_store1"],
       },
@@ -1118,7 +1118,7 @@ module.exports = [
     ],
     locations: [{ id: "guild_store", dropRate: 0.2, slot: 13, count: 5 }],
     scavenger: [
-      { id: "bronzium_wiring", count: 20, priority: 1, nodes: ["guild_store"] },
+      { id: "bronzium_wiring", count: 10, priority: 1, nodes: ["guild_store"] },
     ],
   },
   {
@@ -1145,7 +1145,7 @@ module.exports = [
       { gear: "012", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "046",
@@ -1171,7 +1171,7 @@ module.exports = [
       { gear: "012", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "047",
@@ -1197,7 +1197,7 @@ module.exports = [
       { gear: "011", amount: 2 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "048",
@@ -1223,7 +1223,7 @@ module.exports = [
       { gear: "007", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "049",
@@ -1255,7 +1255,7 @@ module.exports = [
     scavenger: [
       {
         id: "bronzium_wiring",
-        count: 20,
+        count: 10,
         priority: 1,
         nodes: ["guild_store"],
         notes:
@@ -1287,7 +1287,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_armormod.png",
     ingredients: [{ gear: "050Salvage", amount: 5 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "051",
@@ -1305,7 +1305,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_electrobinoculars.png",
     ingredients: [{ gear: "051Salvage", amount: 5 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "052",
@@ -1323,7 +1323,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens.png",
     ingredients: [{ gear: "052Salvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 14, count: 1 }],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "053",
@@ -1344,7 +1344,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 1,
         nodes: ["guild_store"],
       },
@@ -1366,7 +1366,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_energycell.png",
     ingredients: [{ gear: "054Salvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "055",
@@ -1392,7 +1392,7 @@ module.exports = [
       { gear: "016", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "056",
@@ -1419,7 +1419,7 @@ module.exports = [
     ],
     locations: [{ id: "guild_store", dropRate: 0.2, slot: 13, count: 5 }],
     scavenger: [
-      { id: "bronzium_wiring", count: 20, priority: 1, nodes: ["guild_store"] },
+      { id: "bronzium_wiring", count: 10, priority: 1, nodes: ["guild_store"] },
     ],
   },
   {
@@ -1438,7 +1438,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_medpack.png",
     ingredients: [{ gear: "057Salvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "058",
@@ -1456,7 +1456,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_comlink.png",
     ingredients: [{ gear: "058Salvage", amount: 5 }],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "059",
@@ -1480,7 +1480,7 @@ module.exports = [
       { gear: "012", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "060",
@@ -1507,7 +1507,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 1,
         nodes: ["guild_store"],
       },
@@ -1541,7 +1541,7 @@ module.exports = [
     ],
     locations: [{ id: "guild_store", dropRate: 0.1667, slot: 14, count: 5 }],
     scavenger: [
-      { id: "bronzium_wiring", count: 20, priority: 1, nodes: ["guild_store"] },
+      { id: "bronzium_wiring", count: 10, priority: 1, nodes: ["guild_store"] },
     ],
   },
   {
@@ -1560,7 +1560,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_armormod.png",
     ingredients: [{ gear: "062Salvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 14, count: 1 }],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "063",
@@ -1588,7 +1588,7 @@ module.exports = [
       { gear: "013", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "064",
@@ -1618,7 +1618,7 @@ module.exports = [
       { id: "guild_store", dropRate: 0.125, slot: 14, count: 5 },
     ],
     scavenger: [
-      { id: "bronzium_wiring", count: 20, priority: 1, nodes: ["guild_store"] },
+      { id: "bronzium_wiring", count: 10, priority: 1, nodes: ["guild_store"] },
     ],
   },
   {
@@ -1637,7 +1637,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_energycell.png",
     ingredients: [{ gear: "065Salvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 14, count: 1 }],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "066",
@@ -1660,7 +1660,7 @@ module.exports = [
     scavenger: [
       {
         id: "bronzium_wiring",
-        count: 20,
+        count: 10,
         priority: 1,
         nodes: [
           "lightside_normal_7b",
@@ -1694,7 +1694,7 @@ module.exports = [
       { gear: "020", amount: 1 },
     ],
     locations: [{ id: "guild_store", dropRate: 0.1667, slot: 14, count: 5 }],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "068",
@@ -1720,7 +1720,7 @@ module.exports = [
       { gear: "011", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "069",
@@ -1746,7 +1746,7 @@ module.exports = [
       { gear: "008", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "070",
@@ -1772,7 +1772,7 @@ module.exports = [
       { gear: "012", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "071",
@@ -1796,7 +1796,7 @@ module.exports = [
       { gear: "012", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "072",
@@ -1824,7 +1824,7 @@ module.exports = [
       { gear: "003", amount: 1 },
     ],
     locations: [{ id: "guild_store", dropRate: 0.1667, slot: 14, count: 5 }],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "073",
@@ -1855,7 +1855,7 @@ module.exports = [
     scavenger: [
       {
         id: "chromium_transistor",
-        count: 300,
+        count: 150,
         priority: 1,
         nodes: ["guild_store"],
       },
@@ -1883,7 +1883,7 @@ module.exports = [
       { gear: "076Salvage", amount: 5 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "075",
@@ -1909,7 +1909,7 @@ module.exports = [
       { gear: "051Salvage", amount: 5 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "076",
@@ -1927,7 +1927,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_datapad.png",
     ingredients: [{ gear: "076Salvage", amount: 5 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "077",
@@ -1953,7 +1953,7 @@ module.exports = [
       { gear: "027", amount: 1 },
     ],
     locations: [{ id: "guild_store", dropRate: 0.2, slot: 12, count: 5 }],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "078",
@@ -1980,7 +1980,7 @@ module.exports = [
     ],
     locations: [{ id: "guild_store", dropRate: 0.2, slot: 12, count: 5 }],
     scavenger: [
-      { id: "carbonite_circuit_board", count: 6, nodes: ["guild_store"] },
+      { id: "carbonite_circuit_board", count: 3, nodes: ["guild_store"] },
       {
         id: "chromium_transistor",
         count: 150,
@@ -2018,7 +2018,7 @@ module.exports = [
       { gear: "002", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "080",
@@ -2044,7 +2044,7 @@ module.exports = [
       { gear: "016", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "081",
@@ -2072,7 +2072,7 @@ module.exports = [
       { gear: "019", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "082",
@@ -2100,7 +2100,7 @@ module.exports = [
       { gear: "027", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "083",
@@ -2124,7 +2124,7 @@ module.exports = [
       { gear: "027", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "084",
@@ -2150,7 +2150,7 @@ module.exports = [
       { gear: "016", amount: 1 },
     ],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "085",
@@ -2179,7 +2179,7 @@ module.exports = [
     scavenger: [
       {
         id: "chromium_transistor",
-        count: 300,
+        count: 150,
         priority: 2,
         nodes: [
           "lightside_normal_7b",
@@ -2211,7 +2211,7 @@ module.exports = [
       { gear: "051Salvage", amount: 10 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "087",
@@ -2239,7 +2239,7 @@ module.exports = [
       { gear: "035", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "088",
@@ -2268,7 +2268,7 @@ module.exports = [
     scavenger: [
       {
         id: "chromium_transistor",
-        count: 300,
+        count: 150,
         priority: 3,
         nodes: [
           "lightside_normal_9e",
@@ -2307,7 +2307,7 @@ module.exports = [
     scavenger: [
       {
         id: "chromium_transistor",
-        count: 300,
+        count: 150,
         priority: 6,
         nodes: ["guild_store > 049"],
         notes: "Recommended to save 2-5 in reserves.",
@@ -2340,7 +2340,7 @@ module.exports = [
       { gear: "025", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "091",
@@ -2358,7 +2358,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_keypad.png",
     ingredients: [{ gear: "091Salvage", amount: 20 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "092",
@@ -2376,7 +2376,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_droidcaller.png",
     ingredients: [{ gear: "092Salvage", amount: 20 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "093",
@@ -2402,7 +2402,7 @@ module.exports = [
       { gear: "023", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "094",
@@ -2431,7 +2431,7 @@ module.exports = [
       { gear: "011", amount: 3 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "095",
@@ -2449,7 +2449,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_stungun.png",
     ingredients: [{ gear: "095Salvage", amount: 20 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "096",
@@ -2475,7 +2475,7 @@ module.exports = [
       { gear: "008", amount: 2 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "097",
@@ -2503,7 +2503,7 @@ module.exports = [
       { gear: "019", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "098",
@@ -2530,7 +2530,7 @@ module.exports = [
     scavenger: [
       {
         id: "chromium_transistor",
-        count: 300,
+        count: 150,
         priority: 5,
         nodes: [
           "challenges_tac > 054Salvage",
@@ -2568,7 +2568,7 @@ module.exports = [
       { gear: "016", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "100",
@@ -2595,7 +2595,7 @@ module.exports = [
       { gear: "025", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "101",
@@ -2613,7 +2613,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_keypad.png",
     ingredients: [{ gear: "101Salvage", amount: 20 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "102",
@@ -2632,8 +2632,8 @@ module.exports = [
     ingredients: [{ gear: "102Salvage", amount: 20 }],
     locations: [],
     scavenger: [
-      { id: "carbonite_circuit_board", count: 6 },
-      { id: "aurodium_heatsink", count: 500 },
+      { id: "carbonite_circuit_board", count: 3 },
+      { id: "aurodium_heatsink", count: 250 },
     ],
   },
   {
@@ -2663,7 +2663,7 @@ module.exports = [
       { gear: "008", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "104",
@@ -2691,7 +2691,7 @@ module.exports = [
       { gear: "023", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "105",
@@ -2713,7 +2713,7 @@ module.exports = [
       { gear: "016", amount: 2 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "106",
@@ -2739,7 +2739,7 @@ module.exports = [
       { gear: "058Salvage", amount: 10 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "107",
@@ -2765,7 +2765,7 @@ module.exports = [
       { gear: "066", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "108",
@@ -2784,8 +2784,8 @@ module.exports = [
     ingredients: [{ gear: "108Salvage", amount: 50 }],
     locations: [],
     scavenger: [
-      { id: "carbonite_circuit_board", count: 6 },
-      { id: "aurodium_heatsink", count: 500 },
+      { id: "carbonite_circuit_board", count: 3 },
+      { id: "aurodium_heatsink", count: 250 },
     ],
   },
   {
@@ -2811,7 +2811,7 @@ module.exports = [
       { gear: "002", amount: 8 },
     ],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "110",
@@ -2836,7 +2836,7 @@ module.exports = [
     scavenger: [
       {
         id: "chromium_transistor",
-        count: 300,
+        count: 150,
         priority: 4,
         nodes: [
           "challenges_agi > 053Salvage",
@@ -2871,7 +2871,7 @@ module.exports = [
       { gear: "016", amount: 4 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "112",
@@ -2890,8 +2890,8 @@ module.exports = [
     ingredients: [{ gear: "112Salvage", amount: 50 }],
     locations: [],
     scavenger: [
-      { id: "carbonite_circuit_board", count: 6 },
-      { id: "aurodium_heatsink", count: 500 },
+      { id: "carbonite_circuit_board", count: 3 },
+      { id: "aurodium_heatsink", count: 250 },
     ],
   },
   {
@@ -2910,7 +2910,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe.png",
     ingredients: [{ gear: "113Salvage", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "114",
@@ -2936,7 +2936,7 @@ module.exports = [
       { gear: "065Salvage", amount: 5 },
     ],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "115",
@@ -2960,7 +2960,7 @@ module.exports = [
       { gear: "052Salvage", amount: 5 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "116",
@@ -2984,7 +2984,7 @@ module.exports = [
       { gear: "112Salvage", amount: 50 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "117",
@@ -3011,8 +3011,8 @@ module.exports = [
     ],
     locations: [],
     scavenger: [
-      { id: "bronzium_wiring", count: 20 },
-      { id: "aurodium_heatsink", count: 500 },
+      { id: "bronzium_wiring", count: 10 },
+      { id: "aurodium_heatsink", count: 250 },
     ],
   },
   {
@@ -3041,7 +3041,7 @@ module.exports = [
       { gear: "029", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "119",
@@ -3069,7 +3069,7 @@ module.exports = [
       { gear: "013", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "120",
@@ -3096,7 +3096,7 @@ module.exports = [
       { gear: "030", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "121",
@@ -3122,7 +3122,7 @@ module.exports = [
       { gear: "016", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "122",
@@ -3146,7 +3146,7 @@ module.exports = [
       { gear: "003", amount: 4 },
     ],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "123",
@@ -3170,7 +3170,7 @@ module.exports = [
       { gear: "123Component", amount: 50 },
     ],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "124",
@@ -3202,7 +3202,7 @@ module.exports = [
       { gear: "008", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "125",
@@ -3231,7 +3231,7 @@ module.exports = [
       { gear: "002", amount: 16 },
     ],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "126",
@@ -3257,7 +3257,7 @@ module.exports = [
       { gear: "020", amount: 4 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "127",
@@ -3292,7 +3292,7 @@ module.exports = [
       { gear: "002", amount: 16 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "128",
@@ -3320,7 +3320,7 @@ module.exports = [
       { gear: "034", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "129",
@@ -3345,8 +3345,8 @@ module.exports = [
     ],
     locations: [],
     scavenger: [
-      { id: "chromium_transistor", count: 300 },
-      { id: "aurodium_heatsink", count: 500 },
+      { id: "chromium_transistor", count: 150 },
+      { id: "aurodium_heatsink", count: 250 },
     ],
   },
   {
@@ -3371,7 +3371,7 @@ module.exports = [
       { gear: "130Salvage", amount: 60 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "131",
@@ -3400,8 +3400,8 @@ module.exports = [
     ],
     locations: [],
     scavenger: [
-      { id: "chromium_transistor", count: 300 },
-      { id: "aurodium_heatsink", count: 500 },
+      { id: "chromium_transistor", count: 150 },
+      { id: "aurodium_heatsink", count: 250 },
     ],
   },
   {
@@ -3426,7 +3426,7 @@ module.exports = [
       { gear: "003", amount: 8 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "133",
@@ -3450,7 +3450,7 @@ module.exports = [
       { gear: "133Component", amount: 50 },
     ],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "134",
@@ -3480,7 +3480,7 @@ module.exports = [
       { gear: "030", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "135",
@@ -3498,7 +3498,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_electrobinoculars.png",
     ingredients: [{ gear: "158Salvage", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "136",
@@ -3546,7 +3546,7 @@ module.exports = [
       { gear: "030", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "138",
@@ -3570,7 +3570,7 @@ module.exports = [
       { gear: "138Salvage", amount: 60 },
     ],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "139",
@@ -3601,7 +3601,7 @@ module.exports = [
       { gear: "013", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "140",
@@ -3637,7 +3637,7 @@ module.exports = [
       { gear: "003", amount: 8 },
     ],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "141",
@@ -3665,7 +3665,7 @@ module.exports = [
       { gear: "150Salvage", amount: 50 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "142",
@@ -3694,7 +3694,7 @@ module.exports = [
       { gear: "034", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "143",
@@ -3719,7 +3719,7 @@ module.exports = [
       { gear: "143Salvage", amount: 50 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "144",
@@ -3744,7 +3744,7 @@ module.exports = [
       { gear: "025", amount: 1 },
     ],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "145",
@@ -3762,7 +3762,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_weaponmod.png",
     ingredients: [{ gear: "160Salvage", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "146",
@@ -3780,7 +3780,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_electrobinoculars.png",
     ingredients: [{ gear: "161Salvage", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "147",
@@ -3834,7 +3834,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_droidcaller.png",
     ingredients: [{ gear: "149Salvage", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "150",
@@ -3852,7 +3852,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_bactagel.png",
     ingredients: [{ gear: "150Salvage", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 20 }],
+    scavenger: [{ id: "bronzium_wiring", count: 10 }],
   },
   {
     id: "151",
@@ -3906,7 +3906,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_implant.png",
     ingredients: [{ gear: "153Salvage", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 300 }],
+    scavenger: [{ id: "chromium_transistor", count: 150 }],
   },
   {
     id: "154",
@@ -4357,8 +4357,8 @@ module.exports = [
     ],
     locations: [],
     scavenger: [
-      { id: "chromium_transistor", count: 300 },
-      { id: "aurodium_heatsink", count: 500 },
+      { id: "chromium_transistor", count: 150 },
+      { id: "aurodium_heatsink", count: 250 },
     ],
   },
   {
@@ -4384,8 +4384,8 @@ module.exports = [
     ],
     locations: [],
     scavenger: [
-      { id: "chromium_transistor", count: 300 },
-      { id: "aurodium_heatsink", count: 500 },
+      { id: "chromium_transistor", count: 150 },
+      { id: "aurodium_heatsink", count: 250 },
     ],
   },
   {
@@ -9611,7 +9611,7 @@ module.exports = [
       { id: "lightside_hard_2b" },
       { id: "lightside_normal_6e" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "015Prototype",
@@ -9631,7 +9631,7 @@ module.exports = [
       { id: "lightside_normal_4b" },
       { id: "lightside_hard_4a" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "017Prototype",
@@ -9650,7 +9650,7 @@ module.exports = [
       { id: "lightside_normal_4d" },
       { id: "lightside_hard_4b" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "021Prototype",
@@ -9671,7 +9671,7 @@ module.exports = [
       { id: "fleet_hard_1b" },
       { id: "fleet_normal_2a" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "028Prototype",
@@ -9697,7 +9697,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 3,
         nodes: ["lightside_normal_8e"],
       },
@@ -9723,7 +9723,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 4,
         nodes: ["darkside_normal_8a"],
       },
@@ -9747,7 +9747,7 @@ module.exports = [
       { id: "fleet_normal_3d" },
       { id: "fleet_hard_3a" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "037Prototype",
@@ -9771,7 +9771,7 @@ module.exports = [
     scavenger: [
       {
         id: "bronzium_wiring",
-        count: 12,
+        count: 6,
         priority: 2,
         nodes: ["darkside_normal_9a"],
       },
@@ -9799,7 +9799,7 @@ module.exports = [
     scavenger: [
       {
         id: "bronzium_wiring",
-        count: 12,
+        count: 6,
         priority: 3,
         nodes: ["darkside_normal_9d", "darkside_normal_8b"],
       },
@@ -9830,7 +9830,7 @@ module.exports = [
     scavenger: [
       {
         id: "bronzium_wiring",
-        count: 12,
+        count: 6,
         priority: 2,
         nodes: ["darkside_normal_9c"],
       },
@@ -9858,7 +9858,7 @@ module.exports = [
     scavenger: [
       {
         id: "bronzium_wiring",
-        count: 12,
+        count: 6,
         priority: 1,
         nodes: ["squad_arena_store"],
       },
@@ -9887,7 +9887,7 @@ module.exports = [
     scavenger: [
       {
         id: "bronzium_wiring",
-        count: 12,
+        count: 6,
         priority: 1,
         nodes: ["squad_arena_store"],
       },
@@ -9911,7 +9911,7 @@ module.exports = [
       { id: "fleet_normal_2g" },
       { id: "fleet_hard_2b" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "061Prototype",
@@ -9932,7 +9932,7 @@ module.exports = [
       { id: "fleet_hard_2a" },
       { id: "guild_store", dropRate: 0.1667, slot: 14, count: 5 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "063Prototype",
@@ -9951,7 +9951,7 @@ module.exports = [
       "https://game-assets.swgoh.gg/tex.equip_holotargetlens_prototype.png",
     ingredients: [{ gear: "063PrototypeSalvage", amount: 5 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "064Prototype",
@@ -9969,7 +9969,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_securityscan_prototype.png",
     ingredients: [{ gear: "064PrototypeSalvage", amount: 5 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "068Prototype",
@@ -9987,7 +9987,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_prototype.png",
     ingredients: [{ gear: "068PrototypeSalvage", amount: 5 }],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "069Prototype",
@@ -10012,7 +10012,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 6,
+        count: 3,
         priority: 2,
         nodes: ["fleet_normal_3a", "lightside_normal_9c"],
       },
@@ -10034,7 +10034,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_sensorarray_prototype.png",
     ingredients: [{ gear: "071PrototypeSalvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "072Prototype",
@@ -10053,7 +10053,7 @@ module.exports = [
       "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_prototype.png",
     ingredients: [{ gear: "072PrototypeSalvage", amount: 5 }],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "073Prototype",
@@ -10071,7 +10071,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_prototype.png",
     ingredients: [{ gear: "073PrototypeSalvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
-    scavenger: [{ id: "chromium_transistor", count: 30 }],
+    scavenger: [{ id: "chromium_transistor", count: 15 }],
   },
   {
     id: "075Prototype",
@@ -10090,7 +10090,7 @@ module.exports = [
       "https://game-assets.swgoh.gg/tex.equip_holotargetlens_prototype.png",
     ingredients: [{ gear: "075PrototypeSalvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "078Prototype",
@@ -10108,7 +10108,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_holoprojector_prototype.png",
     ingredients: [{ gear: "078PrototypeSalvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "080Prototype",
@@ -10126,7 +10126,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_bactagel_prototype.png",
     ingredients: [{ gear: "080PrototypeSalvage", amount: 5 }],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "084Prototype",
@@ -10145,7 +10145,7 @@ module.exports = [
       "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_prototype.png",
     ingredients: [{ gear: "084PrototypeSalvage", amount: 5 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "085Prototype",
@@ -10163,7 +10163,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_armormod_prototype.png",
     ingredients: [{ gear: "085PrototypeSalvage", amount: 5 }],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 30 }],
+    scavenger: [{ id: "chromium_transistor", count: 15 }],
   },
   {
     id: "086Prototype",
@@ -10182,7 +10182,7 @@ module.exports = [
       "https://game-assets.swgoh.gg/tex.equip_electrobinoculars_prototype.png",
     ingredients: [{ gear: "086PrototypeSalvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "087Prototype",
@@ -10200,7 +10200,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_securityscan_prototype.png",
     ingredients: [{ gear: "087PrototypeSalvage", amount: 5 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "090Prototype",
@@ -10218,7 +10218,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_tech_prototype.png",
     ingredients: [{ gear: "090PrototypeSalvage", amount: 20 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "093Prototype",
@@ -10236,7 +10236,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_prototype.png",
     ingredients: [{ gear: "093PrototypeSalvage", amount: 20 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "094Prototype",
@@ -10254,7 +10254,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_implant_prototype.png",
     ingredients: [{ gear: "094PrototypeSalvage", amount: 20 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "096Prototype",
@@ -10272,7 +10272,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace_prototype.png",
     ingredients: [{ gear: "096PrototypeSalvage", amount: 20 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "097Prototype",
@@ -10290,7 +10290,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_prototype.png",
     ingredients: [{ gear: "097PrototypeSalvage", amount: 20 }],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 30 }],
+    scavenger: [{ id: "chromium_transistor", count: 15 }],
   },
   {
     id: "100Prototype",
@@ -10308,7 +10308,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_securityscan_prototype.png",
     ingredients: [{ gear: "100PrototypeSalvage", amount: 20 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "103Prototype",
@@ -10326,7 +10326,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_bactagel_prototype.png",
     ingredients: [{ gear: "103PrototypeSalvage", amount: 20 }],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "104Prototype",
@@ -10344,7 +10344,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_prototype.png",
     ingredients: [{ gear: "104PrototypeSalvage", amount: 20 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "106Prototype",
@@ -10362,7 +10362,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_comlink_prototype.png",
     ingredients: [{ gear: "106PrototypeSalvage", amount: 20 }],
     locations: [],
-    scavenger: [{ id: "carbonite_circuit_board", count: 6 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
   },
   {
     id: "114Prototype",
@@ -10380,7 +10380,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_implant_prototype.png",
     ingredients: [{ gear: "114PrototypeSalvage", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 30 }],
+    scavenger: [{ id: "chromium_transistor", count: 15 }],
   },
   {
     id: "116Prototype",
@@ -10398,7 +10398,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_comlink_prototype.png",
     ingredients: [{ gear: "116PrototypeSalvage", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "117Prototype",
@@ -10416,7 +10416,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_stungun_prototype.png",
     ingredients: [{ gear: "117PrototypeSalvage", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "119Prototype",
@@ -10434,7 +10434,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_sensorarray_prototype.png",
     ingredients: [{ gear: "119PrototypeSalvage", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "120Prototype",
@@ -10453,7 +10453,7 @@ module.exports = [
       "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_prototype.png",
     ingredients: [{ gear: "120PrototypeSalvage", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 12 }],
+    scavenger: [{ id: "bronzium_wiring", count: 6 }],
   },
   {
     id: "050Salvage",
@@ -10485,7 +10485,7 @@ module.exports = [
     scavenger: [
       {
         id: "bronzium_wiring",
-        count: 4,
+        count: 2,
         priority: 9,
         nodes: ["challenges_str"],
         notes:
@@ -10514,7 +10514,7 @@ module.exports = [
     scavenger: [
       {
         id: "bronzium_wiring",
-        count: 4,
+        count: 2,
         priority: 9,
         nodes: ["challenges_agi"],
         notes:
@@ -10542,7 +10542,7 @@ module.exports = [
       { id: "fleet_normal_3b" },
       { id: "fleet_hard_3a" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "053Salvage",
@@ -10570,7 +10570,7 @@ module.exports = [
       { id: "guild_store", dropRate: 0.1667, slot: 14, count: 5 },
       { id: "challenges_agi" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 2 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 1 }],
   },
   {
     id: "054Salvage",
@@ -10597,7 +10597,7 @@ module.exports = [
       { id: "fleet_hard_4c" },
       { id: "challenges_tac" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "055PrototypeSalvage",
@@ -10608,7 +10608,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_datapad_salvage.png",
     ingredients: [],
     locations: [],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "056PrototypeSalvage",
@@ -10641,7 +10641,7 @@ module.exports = [
     scavenger: [
       {
         id: "carbonite_circuit_board",
-        count: 2,
+        count: 1,
         priority: 5,
         nodes: ["challenges_tac"],
         notes:
@@ -10668,7 +10668,7 @@ module.exports = [
       { id: "fleet_normal_4f" },
       { id: "fleet_hard_5b" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 2 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 1 }],
   },
   {
     id: "061PrototypeSalvage",
@@ -10697,7 +10697,7 @@ module.exports = [
       { id: "lightside_normal_6h" },
       { id: "lightside_hard_6d" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "063PrototypeSalvage",
@@ -10721,7 +10721,7 @@ module.exports = [
       { id: "fleet_normal_3f" },
       { id: "fleet_hard_3c" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "064PrototypeSalvage",
@@ -10748,7 +10748,7 @@ module.exports = [
       { id: "fleet_hard_5c" },
       { id: "guild_store", dropRate: 0.1667, slot: 14, count: 5 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "065Salvage",
@@ -10770,7 +10770,7 @@ module.exports = [
       { id: "fleet_hard_2b" },
       { id: "squad_arena_store", dropRate: 0.25, slot: 21, count: 10 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "068PrototypeSalvage",
@@ -10796,7 +10796,7 @@ module.exports = [
       { id: "fleet_normal_5g" },
       { id: "fleet_hard_5b" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 2 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 1 }],
   },
   {
     id: "069PrototypeSalvage",
@@ -10843,7 +10843,7 @@ module.exports = [
       { id: "fleet_normal_4c" },
       { id: "fleet_hard_4b" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 2 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 1 }],
   },
   {
     id: "072PrototypeSalvage",
@@ -10870,7 +10870,7 @@ module.exports = [
       { id: "squad_arena_store", dropRate: 0.25, slot: 21, count: 10 },
       { id: "guild_events_store1", dropRate: 0.2, slot: 20, count: 5 },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 2 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 1 }],
   },
   {
     id: "073PrototypeSalvage",
@@ -10895,7 +10895,7 @@ module.exports = [
       { id: "fleet_normal_3g" },
       { id: "fleet_hard_4a" },
     ],
-    scavenger: [{ id: "chromium_transistor", count: 6 }],
+    scavenger: [{ id: "chromium_transistor", count: 3 }],
   },
   {
     id: "075PrototypeSalvage",
@@ -10922,7 +10922,7 @@ module.exports = [
       { id: "fleet_hard_4a" },
       { id: "fleet_normal_5h" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "076Salvage",
@@ -10950,7 +10950,7 @@ module.exports = [
       { id: "fleet_hard_4b" },
       { id: "fleet_hard_5c" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "078PrototypeSalvage",
@@ -10979,7 +10979,7 @@ module.exports = [
       { id: "fleet_hard_5a" },
       { id: "fleet_hard_5b" },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 2 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 1 }],
   },
   {
     id: "080PrototypeSalvage",
@@ -11007,7 +11007,7 @@ module.exports = [
       { id: "guild_store", dropRate: 0.2, slot: 12, count: 5 },
       { id: "guild_events_store1", dropRate: 0.2, slot: 20, count: 5 },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 2 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 1 }],
   },
   {
     id: "084PrototypeSalvage",
@@ -11040,7 +11040,7 @@ module.exports = [
       { id: "fleet_normal_5d" },
       { id: "fleet_hard_5d" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "085PrototypeSalvage",
@@ -11065,7 +11065,7 @@ module.exports = [
       { id: "fleet_normal_4g" },
       { id: "fleet_hard_5a" },
     ],
-    scavenger: [{ id: "chromium_transistor", count: 6 }],
+    scavenger: [{ id: "chromium_transistor", count: 3 }],
   },
   {
     id: "086PrototypeSalvage",
@@ -11093,7 +11093,7 @@ module.exports = [
       { id: "fleet_normal_5e" },
       { id: "guild_events_store1", dropRate: 0.2, slot: 20, count: 5 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "087PrototypeSalvage",
@@ -11114,7 +11114,7 @@ module.exports = [
       { id: "fleet_normal_2e" },
       { id: "shard_store", dropRate: 0.1667, slot: 13, count: 6 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "090PrototypeSalvage",
@@ -11137,7 +11137,7 @@ module.exports = [
       { id: "guild_events_store1", dropRate: 0.2, slot: 18, count: 5 },
       { id: "shard_store", dropRate: 0.1667, slot: 13, count: 6 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "091Salvage",
@@ -11165,7 +11165,7 @@ module.exports = [
       { id: "shard_store", dropRate: 0.125, slot: 14, count: 6 },
       { id: "challenges_str" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "092Salvage",
@@ -11192,7 +11192,7 @@ module.exports = [
       { id: "shard_store", dropRate: 0.125, slot: 14, count: 6 },
       { id: "challenges_str" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "093PrototypeSalvage",
@@ -11217,7 +11217,7 @@ module.exports = [
       { id: "squad_arena_store", dropRate: 0.3, slot: 22, count: 5 },
       { id: "guild_events_store1", dropRate: 0.25, slot: 19, count: 5 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "094PrototypeSalvage",
@@ -11236,7 +11236,7 @@ module.exports = [
       { id: "squad_arena_store", dropRate: 0.25, slot: 23, count: 5 },
       { id: "guild_events_store1", dropRate: 0.2, slot: 18, count: 5 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "095Salvage",
@@ -11264,7 +11264,7 @@ module.exports = [
       },
       { id: "challenges_tac" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "096PrototypeSalvage",
@@ -11284,7 +11284,7 @@ module.exports = [
       { id: "lightside_hard_8a" },
       { id: "shard_store", dropRate: 0.1667, slot: 13, count: 6 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "097PrototypeSalvage",
@@ -11312,7 +11312,7 @@ module.exports = [
     scavenger: [
       {
         id: "chromium_transistor",
-        count: 6,
+        count: 3,
         priority: 1,
         nodes: ["squad_arena_store"],
         notes:
@@ -11338,7 +11338,7 @@ module.exports = [
       { id: "squad_arena_store", dropRate: 0.3, slot: 22, count: 5 },
       { id: "shard_store", dropRate: 0.1667, slot: 13, count: 6 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "101Salvage",
@@ -11360,7 +11360,7 @@ module.exports = [
       { id: "shard_store", dropRate: 0.125, slot: 14, count: 6 },
       { id: "challenges_agi" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "102Salvage",
@@ -11384,7 +11384,7 @@ module.exports = [
       { id: "guild_events_store1", dropRate: 0.2, slot: 18, count: 5 },
     ],
     scavenger: [
-      { id: "carbonite_circuit_board", count: 2 },
+      { id: "carbonite_circuit_board", count: 1 },
       {
         id: "aurodium_heatsink",
         count: 500,
@@ -11418,7 +11418,7 @@ module.exports = [
       { id: "squad_arena_store", dropRate: 0.25, slot: 23, count: 5 },
       { id: "shard_store", dropRate: 0.1667, slot: 13, count: 6 },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 2 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 1 }],
   },
   {
     id: "104PrototypeSalvage",
@@ -11439,7 +11439,7 @@ module.exports = [
       { id: "guild_events_store1", dropRate: 0.2, slot: 16, count: 5 },
       { id: "shard_store", dropRate: 0.1667, slot: 12, count: 6 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "106PrototypeSalvage",
@@ -11460,7 +11460,7 @@ module.exports = [
       { id: "guild_events_store1", dropRate: 0.2, slot: 17, count: 10 },
       { id: "shard_store", dropRate: 0.1667, slot: 12, count: 6 },
     ],
-    scavenger: [{ id: "carbonite_circuit_board", count: 2 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 1 }],
   },
   {
     id: "108Salvage",
@@ -11484,8 +11484,8 @@ module.exports = [
       { id: "challenges_str" },
     ],
     scavenger: [
-      { id: "carbonite_circuit_board", count: 2 },
-      { id: "aurodium_heatsink", count: 10 },
+      { id: "carbonite_circuit_board", count: 1 },
+      { id: "aurodium_heatsink", count: 5 },
     ],
   },
   {
@@ -11516,8 +11516,8 @@ module.exports = [
       { id: "challenges_agi" },
     ],
     scavenger: [
-      { id: "carbonite_circuit_board", count: 2 },
-      { id: "aurodium_heatsink", count: 10 },
+      { id: "carbonite_circuit_board", count: 1 },
+      { id: "aurodium_heatsink", count: 5 },
     ],
   },
   {
@@ -11539,7 +11539,7 @@ module.exports = [
       { id: "championship_store", dropRate: 0.125, slot: 10, count: 5 },
       { id: "challenges_agi" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "114PrototypeSalvage",
@@ -11558,7 +11558,7 @@ module.exports = [
       { id: "fleet_hard_3a" },
       { id: "fleet_normal_5f" },
     ],
-    scavenger: [{ id: "chromium_transistor", count: 6 }],
+    scavenger: [{ id: "chromium_transistor", count: 3 }],
   },
   {
     id: "116PrototypeSalvage",
@@ -11578,7 +11578,7 @@ module.exports = [
       { id: "guild_events_store1", dropRate: 0.1667, slot: 13, count: 5 },
       { id: "championship_store", dropRate: 0.125, slot: 7, count: 5 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "117PrototypeSalvage",
@@ -11605,7 +11605,7 @@ module.exports = [
       { id: "challenges_tac" },
     ],
     scavenger: [
-      { id: "bronzium_wiring", count: 4 },
+      { id: "bronzium_wiring", count: 2 },
       {
         id: "aurodium_heatsink",
         count: 10,
@@ -11633,7 +11633,7 @@ module.exports = [
       { id: "fleet_hard_3a" },
       { id: "shard_store", dropRate: 0.1667, slot: 12, count: 6 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "120PrototypeSalvage",
@@ -11655,7 +11655,7 @@ module.exports = [
       { id: "guild_store", dropRate: 0.25, slot: 4, count: 5 },
       { id: "championship_store", dropRate: 0.125, slot: 10, count: 5 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "123Salvage",
@@ -11676,7 +11676,7 @@ module.exports = [
     scavenger: [
       {
         id: "chromium_transistor",
-        count: 6,
+        count: 3,
         priority: 7,
         nodes: ["challenges_tac"],
         notes:
@@ -11700,7 +11700,7 @@ module.exports = [
       { id: "shard_store", dropRate: 14.285714285714286, slot: 11, count: 5 },
       { id: "challenges_str" },
     ],
-    scavenger: [{ id: "chromium_transistor", count: 6 }],
+    scavenger: [{ id: "chromium_transistor", count: 3 }],
   },
   {
     id: "130Salvage",
@@ -11718,7 +11718,7 @@ module.exports = [
       { id: "championship_store", dropRate: 0.125, slot: 9, count: 5 },
       { id: "challenges_tac" },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "133Salvage",
@@ -11735,7 +11735,7 @@ module.exports = [
       { id: "lightside_hard_8d" },
       { id: "guild_store", dropRate: 0.2, slot: 6, count: 5 },
     ],
-    scavenger: [{ id: "chromium_transistor", count: 6 }],
+    scavenger: [{ id: "chromium_transistor", count: 3 }],
   },
   {
     id: "135Salvage",
@@ -11758,7 +11758,7 @@ module.exports = [
       { id: "challenges_str" },
     ],
     scavenger: [
-      { id: "bronzium_wiring", count: 4 },
+      { id: "bronzium_wiring", count: 2 },
       {
         id: "aurodium_heatsink",
         count: 10,
@@ -11783,7 +11783,7 @@ module.exports = [
       { id: "championship_store", dropRate: 0.125, slot: 7, count: 5 },
       { id: "shard_store", dropRate: 0.1111, slot: 10, count: 3 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "138Salvage",
@@ -11804,7 +11804,7 @@ module.exports = [
     scavenger: [
       {
         id: "chromium_transistor",
-        count: 6,
+        count: 3,
         priority: 8,
         nodes: ["challenges_agi"],
         notes:
@@ -11825,7 +11825,7 @@ module.exports = [
       { id: "squad_arena_store", dropRate: 0.33, slot: 24, count: 5 },
       { id: "shard_store", dropRate: 14.285714285714286, slot: 11, count: 3 },
     ],
-    scavenger: [{ id: "chromium_transistor", count: 6 }],
+    scavenger: [{ id: "chromium_transistor", count: 3 }],
   },
   {
     id: "146Salvage",
@@ -11841,7 +11841,7 @@ module.exports = [
       { id: "championship_store", dropRate: 0.125, slot: 7, count: 5 },
       { id: "conquest_store", dropRate: 0.2, slot: 10, count: 5 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "149Salvage",
@@ -11858,7 +11858,7 @@ module.exports = [
       { id: "shard_store", dropRate: 0.1111, slot: 10, count: 5 },
       { id: "conquest_store", dropRate: 0.2, slot: 10, count: 5 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "150Salvage",
@@ -11880,7 +11880,7 @@ module.exports = [
         count: 5,
       },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "153Salvage",
@@ -11901,7 +11901,7 @@ module.exports = [
         count: 5,
       },
     ],
-    scavenger: [{ id: "chromium_transistor", count: 6 }],
+    scavenger: [{ id: "chromium_transistor", count: 3 }],
   },
   {
     id: "156Salvage",
@@ -11951,7 +11951,7 @@ module.exports = [
       { id: "guild_events_store1", dropRate: 0.125, slot: 15, count: 5 },
       { id: "shard_store", dropRate: 14.285714285714286, slot: 11, count: 5 },
     ],
-    scavenger: [{ id: "chromium_transistor", count: 6 }],
+    scavenger: [{ id: "chromium_transistor", count: 3 }],
   },
   {
     id: "159Salvage",
@@ -11968,7 +11968,7 @@ module.exports = [
       { id: "championship_store", dropRate: 0.125, slot: 7, count: 5 },
       { id: "shard_store", dropRate: 0.1111, slot: 10, count: 5 },
     ],
-    scavenger: [{ id: "chromium_transistor", count: 6 }],
+    scavenger: [{ id: "chromium_transistor", count: 3 }],
   },
   {
     id: "160Salvage",
@@ -11983,7 +11983,7 @@ module.exports = [
       { id: "shard_store", dropRate: 14.285714285714286, slot: 11, count: 3 },
       { id: "conquest_store", dropRate: 0.2, slot: 10, count: 5 },
     ],
-    scavenger: [{ id: "chromium_transistor", count: 6 }],
+    scavenger: [{ id: "chromium_transistor", count: 3 }],
   },
   {
     id: "161Salvage",
@@ -12002,7 +12002,7 @@ module.exports = [
       { id: "guild_events_store1", dropRate: 0.125, slot: 15, count: 5 },
       { id: "shard_store", dropRate: 14.285714285714286, slot: 11, count: 5 },
     ],
-    scavenger: [{ id: "chromium_transistor", count: 6 }],
+    scavenger: [{ id: "chromium_transistor", count: 3 }],
   },
   {
     id: "131Salvage",
@@ -12022,7 +12022,7 @@ module.exports = [
       { id: "shard_store", dropRate: 0.25, slot: 8, count: 4 },
     ],
     scavenger: [
-      { id: "chromium_transistor", count: 6 },
+      { id: "chromium_transistor", count: 3 },
       {
         id: "aurodium_heatsink",
         count: 10,
@@ -12048,7 +12048,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_prototype.png",
     ingredients: [{ gear: "133Component", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 30 }],
+    scavenger: [{ id: "chromium_transistor", count: 15 }],
   },
   {
     id: "133Component",
@@ -12067,7 +12067,7 @@ module.exports = [
     scavenger: [
       {
         id: "chromium_transistor",
-        count: 6,
+        count: 3,
         priority: 8,
         nodes: ["lightside_normal_9b"],
         notes: "Recommended to save 200-300 in reserves.",
@@ -12091,7 +12091,7 @@ module.exports = [
       "https://game-assets.swgoh.gg/tex.equip_electrobinoculars_prototype.png",
     ingredients: [{ gear: "123Component", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 30 }],
+    scavenger: [{ id: "chromium_transistor", count: 15 }],
   },
   {
     id: "123Component",
@@ -12107,7 +12107,7 @@ module.exports = [
       { id: "darkside_hard_9a" },
       { id: "shard_store", dropRate: 14.285714285714286, slot: 11, count: 5 },
     ],
-    scavenger: [{ id: "chromium_transistor", count: 6 }],
+    scavenger: [{ id: "chromium_transistor", count: 3 }],
   },
   {
     id: "129Prototype",
@@ -12126,8 +12126,8 @@ module.exports = [
     ingredients: [{ gear: "129Component", amount: 50 }],
     locations: [],
     scavenger: [
-      { id: "chromium_transistor", count: 30 },
-      { id: "aurodium_heatsink", count: 500 },
+      { id: "chromium_transistor", count: 15 },
+      { id: "aurodium_heatsink", count: 250 },
     ],
   },
   {
@@ -12148,8 +12148,8 @@ module.exports = [
       { id: "challenges_tac" },
     ],
     scavenger: [
-      { id: "chromium_transistor", count: 6 },
-      { id: "aurodium_heatsink", count: 10 },
+      { id: "chromium_transistor", count: 3 },
+      { id: "aurodium_heatsink", count: 5 },
     ],
   },
   {
@@ -12169,8 +12169,8 @@ module.exports = [
     ingredients: [{ gear: "130Component", amount: 50 }],
     locations: [],
     scavenger: [
-      { id: "bronzium_wiring", count: 12 },
-      { id: "aurodium_heatsink", count: 500 },
+      { id: "bronzium_wiring", count: 6 },
+      { id: "aurodium_heatsink", count: 250 },
     ],
   },
   {
@@ -12189,7 +12189,7 @@ module.exports = [
       { id: "shard_store", dropRate: 0.1111, slot: 10, count: 5 },
     ],
     scavenger: [
-      { id: "bronzium_wiring", count: 4 },
+      { id: "bronzium_wiring", count: 2 },
       {
         id: "aurodium_heatsink",
         count: 10,
@@ -12215,7 +12215,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_datapad_prototype.png",
     ingredients: [{ gear: "138Component", amount: 50 }],
     locations: [],
-    scavenger: [{ id: "chromium_transistor", count: 30 }],
+    scavenger: [{ id: "chromium_transistor", count: 15 }],
   },
   {
     id: "138Component",
@@ -12234,7 +12234,7 @@ module.exports = [
       { id: "championship_store", dropRate: 0.125, slot: 10, count: 5 },
       { id: "shard_store", dropRate: 14.285714285714286, slot: 11, count: 5 },
     ],
-    scavenger: [{ id: "chromium_transistor", count: 6 }],
+    scavenger: [{ id: "chromium_transistor", count: 3 }],
   },
   {
     id: "139Salvage",
@@ -12248,7 +12248,7 @@ module.exports = [
       { id: "shard_store", dropRate: 0.1111, slot: 10, count: 3 },
       { id: "conquest_store", dropRate: 0.2, slot: 10, count: 5 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "140Salvage",
@@ -12259,7 +12259,7 @@ module.exports = [
     image: "https://game-assets.swgoh.gg/tex.equip_bactagel_salvage.png",
     ingredients: [],
     locations: [{ id: "guild_store", dropRate: 0.25, slot: 4, count: 5 }],
-    scavenger: [{ id: "carbonite_circuit_board", count: 2 }],
+    scavenger: [{ id: "carbonite_circuit_board", count: 1 }],
   },
   {
     id: "143Salvage",
@@ -12273,7 +12273,7 @@ module.exports = [
       { id: "guild_store", dropRate: 0.25, slot: 4, count: 5 },
       { id: "conquest_store", dropRate: 0.2, slot: 10, count: 5 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "144Salvage",
@@ -12288,7 +12288,7 @@ module.exports = [
       { id: "guild_store", dropRate: 0.25, slot: 4, count: 5 },
       { id: "shard_store", dropRate: 0.1111, slot: 10, count: 3 },
     ],
-    scavenger: [{ id: "bronzium_wiring", count: 4 }],
+    scavenger: [{ id: "bronzium_wiring", count: 2 }],
   },
   {
     id: "147Salvage",
@@ -12460,9 +12460,10 @@ module.exports = [
       {
         id: "electrium_conductor",
         count: 15,
-        priority: 2,
+        priority: 1,
         nodes: ["lightside_normal_9a", "guild_events_store1"],
-        notes: "Recommended to save 60-90 in reserves.",
+        notes:
+          "Recommended to save 60-90 in reserves. Best node to farm if you need either Carbonite Circuit Boards and/or Bronzium Wiring. Also drops Mk 7 Merr-Sonn Shield Generator Salvage for using with gearing characters.",
       },
     ],
   },
@@ -12576,9 +12577,10 @@ module.exports = [
       {
         id: "electrium_conductor",
         count: 15,
-        priority: 3,
+        priority: 1,
         nodes: ["lightside_normal_9e"],
-        notes: "Recommended to save 90-90 in reserves.",
+        notes:
+          "Recommended to save 90-120 in reserves. Best node to farm if you need either Carbonite Circuit Boards and/or Chromium Transistors. Also drops Mk 9 Fabritech Data Pad Salvage for using with gearing characters.",
       },
     ],
   },
@@ -12621,7 +12623,8 @@ module.exports = [
         count: 15,
         priority: 2,
         nodes: ["darkside_normal_9a", "guild_events_store1"],
-        notes: "Recommended to save 90-120 in reserves.",
+        notes:
+          "Recommended to save 90-120 in reserves. Not recommended to farm as the additional gear does not provide a substantial gain.",
       },
     ],
   },
@@ -12664,7 +12667,8 @@ module.exports = [
         count: 15,
         priority: 1,
         nodes: ["darkside_normal_9c", "guild_events_store1"],
-        notes: "Recommended to save 60-90 in reserves.",
+        notes:
+          "Recommended to save 60-90 in reserves. Best node to farm if you need BOTH Bronzium Wirings AND Chromium Transistors. Also drops Mk 4 Zaltin Bacta Gel Salvage for using with gearing characters.",
       },
     ],
   },
@@ -13334,8 +13338,8 @@ module.exports = [
     ingredients: [{ gear: "172Salvage", amount: 50 }],
     locations: [],
     scavenger: [
-      { id: "chromium_transistor", count: 30 },
-      { id: "aurodium_heatsink", count: 500 },
+      { id: "chromium_transistor", count: 15 },
+      { id: "aurodium_heatsink", count: 250 },
     ],
   },
   {
@@ -13352,8 +13356,8 @@ module.exports = [
       { id: "championship_store", dropRate: 0.25, slot: 6, count: 4 },
     ],
     scavenger: [
-      { id: "chromium_transistor", count: 6 },
-      { id: "aurodium_heatsink", count: 10 },
+      { id: "chromium_transistor", count: 3 },
+      { id: "aurodium_heatsink", count: 5 },
     ],
   },
   {
@@ -13374,8 +13378,8 @@ module.exports = [
     ingredients: [{ gear: "173Salvage", amount: 50 }],
     locations: [],
     scavenger: [
-      { id: "chromium_transistor", count: 30 },
-      { id: "aurodium_heatsink", count: 500 },
+      { id: "chromium_transistor", count: 15 },
+      { id: "aurodium_heatsink", count: 250 },
     ],
   },
   {
@@ -13393,8 +13397,8 @@ module.exports = [
       { id: "championship_store", dropRate: 0.25, slot: 6, count: 4 },
     ],
     scavenger: [
-      { id: "chromium_transistor", count: 6 },
-      { id: "aurodium_heatsink", count: 10 },
+      { id: "chromium_transistor", count: 3 },
+      { id: "aurodium_heatsink", count: 5 },
     ],
   },
   {
@@ -15130,6 +15134,38 @@ module.exports = [
       { gear: "172Salvage", amount: 100 },
     ],
     name: "Power Cell Injector (Ionic) - Zorii Bliss",
+    locations: [],
+    scavenger: [],
+  },
+  {
+    id: "G12Finisher_TRENCH_A",
+    recipes: [
+      {
+        id: "recipeG12Finisher_TRENCH_A",
+        result_id: "G12Finisher_TRENCH_A",
+        cost: 124000,
+        ingredients: [
+          { amount: 1, gear: "174Ingredient" },
+          { amount: 1, gear: "168Prototype" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 1500, 4: 200, 5: 8, 17: 0.3, 18: 0.3 },
+    mark: " ",
+    cost: 124000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_TRENCH_A/power-cell-injector-plasma-admiral-trench/",
+    ingredients: [
+      { gear: "174Ingredient_Salvage", amount: 50 },
+      { gear: "168PrototypeSalvage", amount: 50 },
+      { gear: "135Salvage", amount: 50 },
+      { gear: "172Salvage", amount: 100 },
+    ],
+    name: "Power Cell Injector (Plasma) - Admiral Trench",
     locations: [],
     scavenger: [],
   },
