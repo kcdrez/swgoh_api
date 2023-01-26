@@ -98,7 +98,7 @@ module.exports = [
     map: 2,
     mission: "A",
     energy: 12,
-    characters: ["EWOKSCOUT"],
+    characters: ["EWOKSCOUT", "EWOKELDER"],
     gear: [
       {
         id: "006",
@@ -143,7 +143,7 @@ module.exports = [
     difficulty: "Hard",
     map: 2,
     mission: "C",
-    characters: ["EWOKELDER"],
+    characters: ["BT1"],
     gear: [
       {
         id: "007",
@@ -916,7 +916,7 @@ module.exports = [
     difficulty: "Hard",
     map: 2,
     mission: "A",
-    characters: ["FIRSTORDERTROOPER"],
+    characters: ["TRIPLEZERO"],
     gear: [],
   },
   {
