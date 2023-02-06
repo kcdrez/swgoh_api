@@ -6,6 +6,7 @@ const territoryBattles = {
     { id: "IMPERIALPROBEDROID" },
     { id: "WATTAMBOR" },
     { id: "KIADIMUNDI" },
+    { id: "THIRDSISTER" },
   ],
 };
 
@@ -27,12 +28,7 @@ const dailyChallenges = [
 const conquest = {
   id: "conquest",
   table: "Conquest",
-  characters: [
-    { id: "BOBAFETTSCION" },
-    { id: "TIEINTERCEPTOR" },
-    { id: "DARTHMALGUS" },
-    { id: "BENSOLO" },
-  ],
+  characters: [{ id: "SCYTHE" }, { id: "TRENCH" }],
 };
 
 const raids = [
@@ -93,6 +89,11 @@ const provingGrounds = {
     },
     {
       id: "BOBAFETTSCION",
+      shardCount: 20,
+      dropRate: 1,
+    },
+    {
+      id: "TIEINTERCEPTOR",
       shardCount: 20,
       dropRate: 1,
     },
@@ -632,6 +633,44 @@ const assaultBattles = [
   },
 ];
 
+const contrabandCargo = [
+  {
+    id: "contrabandCargo",
+    table: "Contraband Cargo",
+    frequency: {
+      type: "day",
+      amount: 1 / 14,
+    },
+    characters: [
+      {
+        id: "MILLENNIUMFALCONEP7",
+        droprate: 0.2,
+        shardCount: 5,
+      },
+      {
+        id: "SLAVE1",
+        droprate: 0.2,
+        shardCount: 5,
+      },
+      {
+        id: "MILLENNIUMFALCONPRISTINE",
+        droprate: 0.2,
+        shardCount: 5,
+      },
+      {
+        id: "PHANTOM2",
+        droprate: 0.2,
+        shardCount: 5,
+      },
+      {
+        id: "GHOST",
+        droprate: 0.2,
+        shardCount: 5,
+      },
+    ],
+  },
+];
+
 const capitalShipEvents = [
   {
     id: "HomeOneEvent",
@@ -734,4 +773,5 @@ module.exports = [
   ...galacticBounties,
   ...assaultBattles,
   ...capitalShipEvents,
+  ...contrabandCargo,
 ];
