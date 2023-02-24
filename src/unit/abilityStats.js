@@ -2060,6 +2060,9 @@ module.exports = {
         abilityId: "uniqueskill_DROIDEKA01",
         note: "Granted only while damage immunity is not present, which is not at the start of battle.",
         type: "speed",
+        omicron: {
+          mode: "Territory Wars",
+        },
       },
     ],
   },
@@ -3166,6 +3169,11 @@ module.exports = {
   },
   ZORIIBLISS_V2: {
     unique: [
+      {
+        omicron: {
+          mode: "Grand Arena",
+        },
+      },
       //   {
       //   type: 'speed',
       //   value: 35,
@@ -3216,6 +3224,24 @@ module.exports = {
           type: "protection",
           value: 0.75,
           tags: ["!Droid & Separatist"],
+        },
+      },
+    ],
+  },
+  TUSKENCHIEFTAIN: {
+    leader: [
+      {
+        omicron: {
+          mode: "Grand Arena",
+        },
+      },
+    ],
+  },
+  TUSKENCHIEFTAIN: {
+    unique: [
+      {
+        omicron: {
+          mode: "Territory Wars",
         },
       },
     ],
