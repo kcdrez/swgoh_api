@@ -898,7 +898,7 @@ module.exports = [
     difficulty: "Hard",
     map: 1,
     mission: "C",
-    characters: ["COUNTDOOKU"],
+    characters: ["ZORIIBLISS_V2"],
     gear: [],
   },
   {

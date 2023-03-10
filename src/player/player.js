@@ -79,6 +79,7 @@ class Player {
         continue;
       }
 
+      console.log(unitId, crew);
       const match = ggPlayer.units.find((x) => x.data.base_id === defId);
       if (match) {
         try {

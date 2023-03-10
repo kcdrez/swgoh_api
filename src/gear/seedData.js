@@ -15233,4 +15233,36 @@ module.exports = [
     locations: [],
     scavenger: [],
   },
+  {
+    id: "G12Finisher_CALKESTIS_A",
+    recipes: [
+      {
+        id: "recipeG12Finisher_CALKESTIS_A",
+        result_id: "G12Finisher_CALKESTIS_A",
+        cost: 124000,
+        ingredients: [
+          { amount: 1, gear: "174Ingredient" },
+          { amount: 1, gear: "168Prototype" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 1200, 3: 150, 5: 8, 6: 550, 8: 100, 9: 100 },
+    mark: " ",
+    cost: 124000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_CALKESTIS_A/power-cell-injector-plasma-cal-kestis/",
+    ingredients: [
+      { gear: "174Ingredient_Salvage", amount: 50 },
+      { gear: "168PrototypeSalvage", amount: 50 },
+      { gear: "135Salvage", amount: 50 },
+      { gear: "172Salvage", amount: 100 },
+    ],
+    name: "Power Cell Injector (Plasma) - Cal Kestis",
+    locations: [],
+    scavenger: [],
+  },
 ];

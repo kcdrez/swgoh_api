@@ -3237,8 +3237,27 @@ module.exports = {
       },
     ],
   },
-  TUSKENCHIEFTAIN: {
+  TUSKENHUNTRESS: {
     unique: [
+      {
+        omicron: {
+          mode: "Territory Wars",
+        },
+      },
+    ],
+  },
+  CALKESTIS: {
+    unique: [
+      {
+        value: 0.3,
+        type: "health",
+        tags: ["Unaligned Force User"],
+      },
+      {
+        value: 0.3,
+        type: "tenacity",
+        tags: ["Unaligned Force User"],
+      },
       {
         omicron: {
           mode: "Territory Wars",
