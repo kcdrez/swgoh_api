@@ -97,7 +97,7 @@ routes.post("/:guildId/stats", async (req, res) => {
           if (unit.relic_tier > 1) {
             acc.units.push({
               owner: player.name,
-              relicLevel: unit.relic_tier + 2,
+              relicLevel: unit.relic_tier,
               id: unit.base_id,
               name: unit.name,
               alignment: unit.alignment,
