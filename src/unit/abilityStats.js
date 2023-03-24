@@ -3265,4 +3265,95 @@ module.exports = {
       },
     ],
   },
+  CEREJUNDA: {
+    unique: [
+      {
+        value: 0.2,
+        type: "tenacity",
+        tags: ["Self"],
+        scaledBy: ["Unaligned Force User & Dark Side"],
+      },
+      {
+        value: 0.2,
+        type: "protection",
+        tags: ["Self"],
+        scaledBy: ["Unaligned Force User & Light Side"],
+      },
+      {
+        value: 0.2,
+        type: "defense",
+        tags: ["Self"],
+        scaledBy: ["Jedi"],
+      },
+    ],
+    leader: [
+      {
+        value: 0.2,
+        type: "defense",
+        tags: [
+          "Light Side & !Unaligned Force User",
+          "Dark Side & !Unaligned Force User",
+        ],
+      },
+      {
+        value: 0.4,
+        type: "defense",
+        tags: ["Unaligned Force User"],
+      },
+      {
+        value: 0.2,
+        type: "health",
+        tags: [
+          "Light Side & !Unaligned Force User",
+          "Dark Side & !Unaligned Force User",
+        ],
+      },
+      {
+        value: 0.4,
+        type: "health",
+        tags: ["Unaligned Force User"],
+      },
+      {
+        value: 0.2,
+        type: "protection",
+        tags: [
+          "Light Side & !Unaligned Force User",
+          "Dark Side & !Unaligned Force User",
+        ],
+      },
+      {
+        value: 0.4,
+        type: "protection",
+        tags: ["Unaligned Force User"],
+      },
+      {
+        omicron: {
+          mode: "Grand Arena",
+          value: 0.3,
+          type: "protection",
+          tags: ["Unaligned Force User"],
+          conditions: [
+            {
+              allAllies: true,
+              tags: ["Unaligned Force User & !Galactic Legend"],
+            },
+          ],
+        },
+      },
+      {
+        omicron: {
+          mode: "Grand Arena",
+          value: 0.3,
+          type: "health",
+          tags: ["Unaligned Force User"],
+          conditions: [
+            {
+              allAllies: true,
+              tags: ["Unaligned Force User & !Galactic Legend"],
+            },
+          ],
+        },
+      },
+    ],
+  },
 };

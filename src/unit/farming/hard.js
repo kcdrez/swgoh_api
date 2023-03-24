@@ -944,7 +944,7 @@ module.exports = [
     map: 2,
     mission: "D",
     energy: 12,
-    characters: ["CT5555"],
+    characters: ["CT5555", "UMBARANSTARFIGHTER"],
     gear: [],
   },
   {
@@ -1439,7 +1439,7 @@ module.exports = [
     map: 3,
     mission: "B",
     energy: 20,
-    characters: ["UMBARANSTARFIGHTER"],
+    characters: ["TIEDEFENDER"],
     gear: [],
   },
   {

@@ -15265,4 +15265,36 @@ module.exports = [
     locations: [],
     scavenger: [],
   },
+  {
+    id: "G12Finisher_CEREJUNDA_B",
+    recipes: [
+      {
+        id: "recipeG12Finisher_CEREJUNDA_B",
+        result_id: "G12Finisher_CEREJUNDA_B",
+        cost: 124000,
+        ingredients: [
+          { amount: 1, gear: "175Ingredient" },
+          { amount: 1, gear: "169Prototype" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "173Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 1500, 3: 200, 8: 100, 9: 100, 18: 0.4 },
+    mark: " ",
+    cost: 124000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_CEREJUNDA_B/power-cell-injector-fusion-cere-junda/",
+    ingredients: [
+      { gear: "175Ingredient_Salvage", amount: 50 },
+      { gear: "169PrototypeSalvage", amount: 50 },
+      { gear: "173Salvage", amount: 100 },
+      { gear: "135Salvage", amount: 50 },
+    ],
+    name: "Power Cell Injector (Fusion) - Cere Junda",
+    locations: [],
+    scavenger: [],
+  },
 ];
