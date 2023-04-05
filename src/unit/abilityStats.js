@@ -408,7 +408,7 @@ module.exports = {
         value: 50,
         flat: true,
         type: "defense",
-        tags: ["Allies"],
+        tags: ["Light Side", "Dark Side", "Neutral"],
         abilityId: "uniqueskill_CLONEWARSCHEWBACCA01",
       },
     ],
@@ -3352,6 +3352,23 @@ module.exports = {
               tags: ["Unaligned Force User & !Galactic Legend"],
             },
           ],
+        },
+      },
+    ],
+  },
+  MERRIN: {
+    unique: [
+      {
+        setSpeed: 0,
+        conditions: [
+          {
+            hasAllies: true,
+          },
+        ],
+      },
+      {
+        omicrons: {
+          mode: "Grand Arena",
         },
       },
     ],

@@ -121,7 +121,7 @@ module.exports = [
     map: 2,
     mission: "B",
     energy: 12,
-    characters: ["FIRSTORDERTROOPER"],
+    characters: ["FIRSTORDERTROOPER", "FOSITHTROOPER"],
     gear: [
       {
         id: "019",
@@ -1179,7 +1179,7 @@ module.exports = [
     map: 6,
     mission: "C",
     energy: 16,
-    characters: ["FOSITHTROOPER", "TUSKENRAIDER"],
+    characters: ["TUSKENCHIEFTAIN", "TUSKENRAIDER"],
     gear: [],
   },
   {
