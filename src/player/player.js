@@ -13,12 +13,16 @@ class Player {
 
     console.info("Fetching player data from both APIs", allyCode);
 
-    const [{ roster, name }, ggPlayer] = await Promise.all([
-      helpApi.fetchPlayer(allyCode),
-      ggApi.fetchPlayer(allyCode),
-    ]);
+    // const [{ roster, name }, ggPlayer] = await Promise.all([
+    //   helpApi.fetchPlayer(allyCode),
+    //   ggApi.fetchPlayer(allyCode),
+    // ]);
 
-    const player = await this.mapPlayer(name, allyCode, roster, ggPlayer);
+    const ggPlayer = await ggApi.fetchPlayer(allyCode);
+
+    // console.log("name", ggPlayer); //843518525
+
+    const player = await this.mapPlayer(ggPlayer.data.name, allyCode, ggPlayer);
 
     if (result) {
       player.gear = result.gear || {};
@@ -70,56 +74,52 @@ class Player {
     return players;
   }
 
-  async mapPlayer(name, allyCode, roster, ggPlayer, unitId) {
+  async mapPlayer(name, allyCode, ggPlayer, unitId) {
     const unitList = [];
-    for (let i = 0; i < roster.length; i++) {
-      const { mods, crew, defId } = roster[i];
+    for (let i = 0; i < ggPlayer.units.length; i++) {
+      // const { mods, crew, defId } = roster[i];
+      const {
+        gear_level,
+        level,
+        power,
+        gear,
+        stats,
+        ability_data,
+        zeta_abilities,
+        omicron_abilities,
+        relic_tier,
+        has_ultimate,
+        rarity: stars,
+        base_id,
+      } = ggPlayer.units[i].data;
 
-      if (unitId && defId !== unitId) {
+      if (unitId && unitId !== base_id) {
         continue;
       }
 
-      const match = ggPlayer.units.find((x) => x.data.base_id === defId);
-      if (match) {
-        try {
-          const { base_id: id, ...unitData } = await unit.fetchUnit(defId);
+      // const match = ggPlayer.units.find((x) => x.data.base_id === defId);
+      try {
+        const { base_id: id, ...unitData } = await unit.fetchUnit(base_id);
 
-          const {
-            gear_level,
-            level,
-            power,
-            gear,
-            stats,
-            ability_data,
-            zeta_abilities,
-            omicron_abilities,
-            relic_tier,
-            has_ultimate,
-            rarity: stars,
-          } = match.data;
-          unitList.push({
-            id,
-            gear_level,
-            level,
-            power,
-            gear,
-            stats,
-            ability_data,
-            zeta_abilities,
-            omicron_abilities,
-            relic_tier: relic_tier - 2,
-            has_ultimate,
-            // xp,
-            mods,
-            crew,
-            stars,
-            ...unitData,
-          });
-        } catch (err) {
-          console.error("error getting unit", defId);
-        }
-      } else {
-        console.info("no unit match in ggPlayer units", defId);
+        unitList.push({
+          id,
+          gear_level,
+          level,
+          power,
+          gear,
+          stats,
+          ability_data,
+          zeta_abilities,
+          omicron_abilities,
+          relic_tier: relic_tier - 2,
+          has_ultimate,
+          mods: null, //todo
+          crew: null, //todo
+          stars,
+          ...unitData,
+        });
+      } catch (err) {
+        console.error("error getting unit", base_id, err);
       }
     }
 
