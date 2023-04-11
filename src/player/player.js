@@ -1,8 +1,8 @@
 const moment = require("moment");
 
-const helpApi = require("../api/swgoh.help");
 const ggApi = require("../api/swgoh.gg");
 const unit = require("../unit/unit");
+const { getCrew } = require("../gg/units/ships");
 const dbClient = require("../db/dynamoDbClient");
 
 class Player {
@@ -10,18 +10,7 @@ class Player {
 
   async fetchPlayer(allyCode) {
     const result = await dbClient.getUserByAllyCode(allyCode);
-
-    console.info("Fetching player data from both APIs", allyCode);
-
-    // const [{ roster, name }, ggPlayer] = await Promise.all([
-    //   helpApi.fetchPlayer(allyCode),
-    //   ggApi.fetchPlayer(allyCode),
-    // ]);
-
     const ggPlayer = await ggApi.fetchPlayer(allyCode);
-
-    // console.log("name", ggPlayer); //843518525
-
     const player = await this.mapPlayer(ggPlayer.data.name, allyCode, ggPlayer);
 
     if (result) {
@@ -77,7 +66,6 @@ class Player {
   async mapPlayer(name, allyCode, ggPlayer, unitId) {
     const unitList = [];
     for (let i = 0; i < ggPlayer.units.length; i++) {
-      // const { mods, crew, defId } = roster[i];
       const {
         gear_level,
         level,
@@ -97,9 +85,12 @@ class Player {
         continue;
       }
 
-      // const match = ggPlayer.units.find((x) => x.data.base_id === defId);
       try {
         const { base_id: id, ...unitData } = await unit.fetchUnit(base_id);
+        const crew = getCrew(base_id);
+        const mods = ggPlayer.mods.filter((mod) => {
+          return mod.character === base_id;
+        });
 
         unitList.push({
           id,
@@ -113,8 +104,8 @@ class Player {
           omicron_abilities,
           relic_tier: relic_tier - 2,
           has_ultimate,
-          mods: null, //todo
-          crew: null, //todo
+          mods,
+          crew,
           stars,
           ...unitData,
         });
@@ -133,8 +124,8 @@ class Player {
   }
 
   async createUser(allyCode) {
-    const { name } = await helpApi.fetchPlayer(allyCode);
-    await dbClient.createUser(allyCode, { name });
+    const { data } = await ggApi.fetchPlayer(allyCode);
+    await dbClient.createUser(allyCode, { name: data.name });
     return await this.fetchPlayer(allyCode);
   }
 

@@ -1,6 +1,5 @@
 const moment = require("moment");
 
-const helpApi = require("../api/swgoh.help");
 const ggApi = require("../api/swgoh.gg");
 const unitsList = require("../gg/units");
 const abilityStats = require("./abilityStats");
@@ -27,29 +26,7 @@ class Unit {
 
   async fetchAllUnits() {
     //very slow and might error out
-    const [helpUnits, ggUnits] = await Promise.all([
-      helpApi.fetchAllUnits(),
-      ggApi.fetchUnits(),
-    ]);
-
-    return helpUnits.map((unit) => {
-      const match = ggUnits.find((x) => x.base_id === unit.baseId);
-      if (match) {
-        return {
-          thumbnailName: unit.thumbnailName,
-          unitTierList: unit.unitTierList,
-          name: match.name,
-          id: match.base_id,
-          alignment: match.alignment,
-          categories: match.categories,
-          ability_classes: match.ability_classes,
-          role: match.role,
-        };
-      } else {
-        console.info("No match from ggUnits", unit.id, unit.nameKey);
-        return unit;
-      }
-    });
+    return await ggApi.fetchUnits();
   }
 
   getAbilityStats() {

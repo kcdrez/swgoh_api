@@ -1,4 +1,6 @@
-const ships = [
+const units = require("./units");
+
+const shipsList = [
   {
     name: "Ahsoka Tano's Jedi Starfighter",
     id: "JEDISTARFIGHTERAHSOKATANO",
@@ -2523,10 +2525,24 @@ const shipsStats = [
   },
 ];
 
-module.exports = ships.map((x) => {
-  const match = shipsStats.find((stats) => stats.name === x.name);
-  if (!match) {
-    console.error(`No ship stats match for ${x.name}`);
-  }
-  return { ...x, is_ship: true, statMultipliers: { ...match } };
-});
+module.exports = {
+  ships: shipsList.map((x) => {
+    const match = shipsStats.find((stats) => stats.name === x.name);
+    if (!match) {
+      console.error(`No ship stats match for ${x.name}`);
+    }
+    return { ...x, is_ship: true, statMultipliers: { ...match } };
+  }),
+  getCrew: (shipId) => {
+    if (shipId) {
+      return units.reduce((acc, unit) => {
+        if (unit.ship === shipId) {
+          acc.push(unit.id);
+        }
+        return acc;
+      }, []);
+    } else {
+      return null;
+    }
+  },
+};

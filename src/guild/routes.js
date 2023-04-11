@@ -3,7 +3,7 @@ const express = require("express");
 const guild = require("./guild");
 const apiClient = require("../api/swgoh.gg");
 const units = require("../gg/units/units");
-const ships = require("../gg/units/ships");
+const { ships } = require("../gg/units/ships");
 
 const routes = express.Router({
   mergeParams: true,
