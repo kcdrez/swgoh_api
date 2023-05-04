@@ -90,6 +90,6 @@ Add ship stats (find via swgoh.gg)
 
 Go to https://vkpnob5w55.execute-api.us-east-1.amazonaws.com/dev/gg/gear
 Find the new gear
-Add to /gear/seedData.js, include emepty array for `locations` and `scavenger`
+Add to /gear/seedData.js, include empty array for `locations` and `scavenger`
 
 Change all references of 'base_id' to 'id'

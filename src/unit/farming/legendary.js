@@ -1584,6 +1584,39 @@ const legendary = {
         },
       ],
     },
+    {
+      id: "JEDIKNIGHTCALKESTIS",
+      prerequisites: [
+        {
+          id: "CALKESTIS",
+          requirement: {
+            value: 12,
+            type: "Gear",
+          },
+        },
+        {
+          id: "CEREJUNDA",
+          requirement: {
+            value: 12,
+            type: "Gear",
+          },
+        },
+        {
+          id: "MERRIN",
+          requirement: {
+            value: 12,
+            type: "Gear",
+          },
+        },
+        {
+          id: "TARFFUL",
+          requirement: {
+            value: 12,
+            type: "Gear",
+          },
+        },
+      ],
+    },
   ],
 };
 

@@ -209,7 +209,7 @@ module.exports = [
     difficulty: "Hard",
     map: 2,
     mission: "F",
-    characters: ["TALIA"],
+    characters: ["HERASYNDULLAS3", "GHOST"],
     gear: [
       {
         id: "035",
@@ -1309,7 +1309,7 @@ module.exports = [
     map: 9,
     mission: "C",
     energy: 20,
-    characters: ["GHOST"],
+    characters: ["TALIA"],
     gear: [],
   },
   {
@@ -1640,7 +1640,7 @@ module.exports = [
     map: 1,
     mission: "F",
     energy: 8,
-    characters: ["HERASYNDULLAS3"],
+    characters: ["CALKESTIS"],
     gear: [],
   },
   {

@@ -3373,4 +3373,72 @@ module.exports = {
       },
     ],
   },
+  TARFFUL: {
+    unique: [
+      {
+        value: 0.3,
+        type: "tenacity",
+        tags: ["Self"],
+      },
+      {
+        value: 20,
+        type: "speed",
+        tags: ["Self"],
+      },
+    ],
+    leader: [
+      {
+        value: 0.2,
+        type: "defence",
+        tags: ["!Wookie"],
+      },
+      {
+        value: 0.4,
+        type: "defence",
+        tags: ["Wookie"],
+      },
+      {
+        value: 0.2,
+        type: "health",
+        tags: ["!Wookie"],
+      },
+      {
+        value: 0.4,
+        type: "health",
+        tags: ["Wookie"],
+      },
+      {
+        omicron: {
+          mode: "Grand Arena",
+          value: 0.25,
+          type: "defense",
+          tags: ["Light Side", "!Light Side"],
+        },
+      },
+    ],
+  },
+  SAWGERRERA: {
+    unique: [
+      {
+        value: 0.3,
+        type: "health",
+        tags: ["Self"],
+      },
+    ],
+    leader: [
+      {
+        value: 0.3,
+        type: "health",
+        tags: ["Self"],
+      },
+      {
+        omicron: {
+          mode: "Grand Arena",
+          value: 0.3,
+          type: "health",
+          tags: ["Self"],
+        },
+      },
+    ],
+  },
 };
