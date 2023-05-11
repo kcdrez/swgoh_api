@@ -5828,7 +5828,6 @@ module.exports = [
     name: "Ezra Bridger",
     aliases: ["EB"],
     id: "EZRABRIDGERS3",
-    pk: 230,
     url: "http://swgoh.gg/characters/ezra-bridger/",
     image: "https://game-assets.swgoh.gg/tex.charui_ezra_s3.png",
     description:
@@ -19662,7 +19661,7 @@ module.exports = [
   },
   {
     name: "Cere Junda",
-    base_id: "CEREJUNDA",
+    id: "CEREJUNDA",
     url: "http://swgoh.gg/characters/cere-junda/",
     image: "https://game-assets.swgoh.gg/tex.charui_cerejunda.png",
     description:
@@ -19759,7 +19758,7 @@ module.exports = [
   },
   {
     name: "Tarfful",
-    base_id: "TARFFUL",
+    id: "TARFFUL",
     url: "http://swgoh.gg/characters/tarfful/",
     image: "https://game-assets.swgoh.gg/tex.charui_tarfful.png",
     description:

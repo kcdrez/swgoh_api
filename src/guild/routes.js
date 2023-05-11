@@ -92,7 +92,7 @@ routes.post("/:guildId/stats", async (req, res) => {
               acc.ships.neutral += unit.power;
             }
           } else {
-            console.log("no match", unit.id);
+            console.info("no match", unit.id);
           }
           if (unit.relic_tier > 1) {
             acc.units.push({
@@ -173,6 +173,21 @@ routes.patch("/:guildId/territoryBattle", async (req, res) => {
         guildId,
         territoryBattleEvents
       );
+      res.status(201).json(result);
+    } catch (err) {
+      res.status(500).json({ error: err.message });
+    }
+  }
+});
+
+routes.patch("/:guildId/raidEvents", async (req, res) => {
+  const { raidEvents } = req.body;
+  const { guildId } = req.params;
+  if (!raidEvents) {
+    res.status(500).json({ error: "Missing required field: raidEvents" });
+  } else {
+    try {
+      const result = await guild.updateRaidEvents(guildId, raidEvents);
       res.status(201).json(result);
     } catch (err) {
       res.status(500).json({ error: err.message });

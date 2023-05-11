@@ -5,6 +5,7 @@ const dbClient = require("../db/dynamoDbClient");
 const apiClient = require("../api/swgoh.gg");
 const { tbMapping, tbNameMapping } = require("./tbMapping");
 const { twMapping } = require("./twMapping");
+const { raidMapping } = require("./raidMapping");
 const player = require("../player/player");
 
 class Guild {
@@ -119,6 +120,37 @@ class Guild {
         };
       });
     }
+    if (response.raidEvents) {
+      response.raidEvents = response.raidEvents.map((event) => {
+        const rewardsList = raidMapping[event.type];
+        const rewardsMap = rewardsList.find((rewards) => {
+          return moment(event.date).isBetween(
+            rewards.dates.start,
+            rewards.dates.end
+          );
+        });
+        console.log(rewardsMap);
+        if (rewardsMap && event.score) {
+          const rewards = rewardsMap.rewards[event.score];
+          if (rewards) {
+            return {
+              ...event,
+              ...rewards,
+            };
+          }
+        }
+
+        return {
+          date: event.date,
+          id: event.id,
+          currencies: {
+            raid1: event.raid1,
+            raid2: event.raid2,
+            raid3: event.raid3,
+          },
+        };
+      });
+    }
     return response;
   }
 
@@ -160,6 +192,24 @@ class Guild {
       }
     });
     await dbClient.updateGuild(guildId, { territoryBattle });
+    return await this.fetchGuild(guildId);
+  }
+
+  async updateRaidEvents(guildId, raidEvents) {
+    const raidEventsList = raidEvents.map((event) => {
+      if (event.id) {
+        return {
+          id: event.id,
+          score: event.score,
+          date: event.date,
+          type: event.type,
+        };
+      } else {
+        event.id = uuidv4();
+        return event;
+      }
+    });
+    await dbClient.updateGuild(guildId, { raidEvents: raidEventsList });
     return await this.fetchGuild(guildId);
   }
 
