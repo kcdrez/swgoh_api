@@ -82,7 +82,7 @@ class Guild {
         });
         if (rewardsMap && war.guildGP) {
           const rewards =
-            rewardsMap.rewards[war.guildGP][war.win ? "win" : "loss"];
+            rewardsMap.rewards[war.guildGP][!!war.win ? "win" : "loss"];
           if (rewards) {
             return {
               ...war,
@@ -129,7 +129,6 @@ class Guild {
             rewards.dates.end
           );
         });
-        console.log(rewardsMap);
         if (rewardsMap && event.score) {
           const rewards = rewardsMap.rewards[event.score];
           if (rewards) {
