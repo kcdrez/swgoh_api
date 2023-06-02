@@ -24,6 +24,7 @@ class Player {
       player.wallet = result.wallet || {};
       player.dailyCurrency = result.currency || {};
       player.goalList = result.goalList || [];
+      player.settings = result.settings || null;
     }
 
     return player;
@@ -159,6 +160,10 @@ class Player {
 
   async updateGoalList(id, goalList) {
     await dbClient.updateUser(id, { goalList });
+  }
+
+  async updateSettings(id, settings) {
+    await dbClient.updateUser(id, { settings });
   }
 }
 

@@ -70,65 +70,98 @@ exports.raidMapping = {
         start: "05-09-2023",
         end: new Date(),
       },
-      rewards: {
+      rewards:
         //in millions
-        10: {
-          currencies: {
-            raid1: 6250,
-            raid2: 2750,
-            raid3: 250,
+        [
+          {
+            currencies: {
+              raid1: 6250,
+              raid2: 2750,
+              raid3: 250,
+            },
+            score: {
+              start: 0,
+              end: 10,
+            },
           },
-        },
-        17: {
-          currencies: {
-            raid1: 8250,
-            raid2: 4200,
-            raid3: 500,
+          {
+            currencies: {
+              raid1: 8250,
+              raid2: 4200,
+              raid3: 500,
+            },
+            score: {
+              start: 10,
+              end: 17,
+            },
           },
-        },
-        25: {
-          currencies: {
-            raid1: 8250,
-            raid2: 4850,
-            raid3: 750,
+          {
+            currencies: {
+              raid1: 8250,
+              raid2: 4850,
+              raid3: 750,
+            },
+            score: {
+              start: 17,
+              end: 25,
+            },
           },
-        },
-        90: {
-          currencies: {
-            raid1: 8250,
-            raid2: 4850,
-            raid3: 1000,
+          {
+            currencies: {
+              raid1: 8250,
+              raid2: 4850,
+              raid3: 1000,
+            },
+            score: {
+              start: 25,
+              end: 90,
+            },
           },
-        },
-        130: {
-          currencies: {
-            raid1: 8250,
-            raid2: 4850,
-            raid3: 1450,
+          {
+            currencies: {
+              raid1: 8250,
+              raid2: 4850,
+              raid3: 1450,
+            },
+            score: {
+              start: 90,
+              end: 130,
+            },
           },
-        },
-        265: {
-          currencies: {
-            raid1: 8250,
-            raid2: 4850,
-            raid3: 2350,
+          {
+            currencies: {
+              raid1: 8250,
+              raid2: 4850,
+              raid3: 2350,
+            },
+            score: {
+              start: 190,
+              end: 265,
+            },
           },
-        },
-        416: {
-          currencies: {
-            raid1: 8250,
-            raid2: 4850,
-            raid3: 3350,
+          {
+            currencies: {
+              raid1: 8250,
+              raid2: 4850,
+              raid3: 3350,
+            },
+            score: {
+              start: 265,
+              end: 416,
+            },
           },
-        },
-        520: {
-          currencies: {
-            raid1: 8250,
-            raid2: 4850,
-            raid3: 4385,
+          {
+            currencies: {
+              raid1: 8250,
+              raid2: 4850,
+              raid3: 4385,
+            },
+            score: {
+              start: 416,
+              end: 520,
+            },
           },
-        },
-      },
+        ],
     },
   ],
 };

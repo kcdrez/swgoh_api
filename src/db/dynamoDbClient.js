@@ -70,6 +70,7 @@ class DbClient {
       wallet,
       currency,
       goalList,
+      settings,
     }
   ) {
     const expressions = [];
@@ -109,6 +110,10 @@ class DbClient {
     if (goalList) {
       expressions.push("goalList = :goalList");
       values[":goalList"] = goalList;
+    }
+    if (settings) {
+      expressions.push("settings = :settings");
+      values[":settings"] = settings;
     }
 
     if (expressions.length > 0) {

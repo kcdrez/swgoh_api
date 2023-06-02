@@ -145,6 +145,22 @@ routes.patch("/goalList/:userId", async (req, res) => {
   }
 });
 
+routes.patch("/settings/:userId", async (req, res) => {
+  const { settings } = req.body;
+  if (!settings) {
+    res.status(500).json({ error: "Missing required field: settings" });
+  } else {
+    try {
+      await player.updateSettings(req.params.userId, settings);
+      res.status(200).json({ success: true });
+    } catch (err) {
+      res.status(500).json({
+        error: err.message,
+      });
+    }
+  }
+});
+
 module.exports = {
   routes,
 };

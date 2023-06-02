@@ -130,11 +130,17 @@ class Guild {
           );
         });
         if (rewardsMap && event.score) {
-          const rewards = rewardsMap.rewards[event.score];
+          const rewards = rewardsMap.rewards.find((rewards) => {
+            return (
+              rewards.score.start * 1000000 <= event.score &&
+              rewards.score.end * 1000000 >= event.score
+            );
+          });
+
           if (rewards) {
             return {
-              ...event,
               ...rewards,
+              ...event,
             };
           }
         }
@@ -195,6 +201,7 @@ class Guild {
   }
 
   async updateRaidEvents(guildId, raidEvents) {
+    console.log(raidEvents);
     const raidEventsList = raidEvents.map((event) => {
       if (event.id) {
         return {
