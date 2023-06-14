@@ -156,6 +156,7 @@ class Guild {
         };
       });
     }
+
     return response;
   }
 
@@ -201,7 +202,6 @@ class Guild {
   }
 
   async updateRaidEvents(guildId, raidEvents) {
-    console.log(raidEvents);
     const raidEventsList = raidEvents.map((event) => {
       if (event.id) {
         return {
@@ -219,8 +219,27 @@ class Guild {
     return await this.fetchGuild(guildId);
   }
 
-  async fetchGuildUnits(unitId, ggPlayers) {
-    const players = await player.fetchPlayers(unitId, ggPlayers);
+  async updateGuildGoals(guildId, goals) {
+    const goalList = goals.map((goal) => {
+      if (goal.id) {
+        return goal;
+      } else {
+        goal.id = uuidv4();
+        return goal;
+      }
+    });
+    await dbClient.updateGuild(guildId, { goalList });
+    return await this.fetchGuild(guildId);
+  }
+
+  async fetchGuildUnits(unitId, ggPlayers, guildId) {
+    const guildData = await this.fetchGuild(guildId);
+    const players = await player.fetchPlayers(
+      unitId,
+      ggPlayers,
+      guildData,
+      guildId
+    );
     if (Array.isArray(unitId) || !unitId) {
       return players;
     } else {

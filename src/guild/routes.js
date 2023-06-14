@@ -39,7 +39,8 @@ routes.get("/:guildId/:unitId", async (req, res) => {
     const guildResponse = await apiClient.fetchGuild(req.params.guildId);
     const guildData = await guild.fetchGuildUnits(
       req.params.unitId,
-      guildResponse.members
+      guildResponse.members,
+      req.params.guildId
     );
     res.status(200).json(guildData);
   } catch (error) {
@@ -52,11 +53,15 @@ routes.get("/:guildId/:unitId", async (req, res) => {
 routes.post("/:guildId/units", async (req, res) => {
   try {
     const { unitIds } = req.body;
+    console.time("guild");
     const guildResponse = await apiClient.fetchGuild(req.params.guildId);
+    console.timeLog("guild");
     const guildData = await guild.fetchGuildUnits(
       unitIds,
-      guildResponse.members
+      guildResponse.members,
+      req.params.guildId
     );
+    console.timeEnd("guild");
     res.status(200).json(guildData);
   } catch (error) {
     res.status(500).json({
@@ -188,6 +193,21 @@ routes.patch("/:guildId/raidEvents", async (req, res) => {
   } else {
     try {
       const result = await guild.updateRaidEvents(guildId, raidEvents);
+      res.status(201).json(result);
+    } catch (err) {
+      res.status(500).json({ error: err.message });
+    }
+  }
+});
+
+routes.patch("/:guildId/goals", async (req, res) => {
+  const { goalList } = req.body;
+  const { guildId } = req.params;
+  if (!goalList) {
+    res.status(500).json({ error: "Missing required field: goalList" });
+  } else {
+    try {
+      const result = await guild.updateGuildGoals(guildId, goalList);
       res.status(201).json(result);
     } catch (err) {
       res.status(500).json({ error: err.message });

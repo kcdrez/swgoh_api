@@ -30,34 +30,45 @@ class Player {
     return player;
   }
 
-  async fetchPlayers(unitId, ggPlayers) {
-    const players = [];
+  async fetchPlayers(unitId, ggPlayers, guildData, guildId) {
+    let players = [];
+    //get now minus 24 hours
+    // if lastUpdated is after above date, use archive data
+    const lastUpdated = guildData.lastUpdated ? guildData.lastUpdated : 0;
 
-    for (let i = 0; i <= ggPlayers.length - 1; i++) {
-      const player = ggPlayers[i];
-      const unitList = (await ggApi.fetchPlayer(player.ally_code)).units;
-      players.push({
-        units: unitList
-          .map((x) => {
-            const { relic_tier, rarity, ...restUnit } = x.data;
-            return {
-              relic_tier: relic_tier - 2,
-              stars: rarity,
-              ...restUnit,
-            };
-          })
-          .filter((x) => {
-            if (!unitId) {
-              return true;
-            } else if (Array.isArray(unitId)) {
-              return unitId.includes(x.base_id);
-            } else {
-              return x.base_id === unitId;
-            }
-          }),
-        name: player.player_name,
-        allyCode: player.ally_code,
-        totalGP: player.galactic_power,
+    if (moment(lastUpdated).isAfter(moment().subtract(24, "hours"))) {
+      players = guildData.playerList;
+    } else {
+      for (let i = 0; i <= ggPlayers.length - 1; i++) {
+        const player = ggPlayers[i];
+        const unitList = (await ggApi.fetchPlayer(player.ally_code)).units;
+        players.push({
+          units: unitList
+            .map((x) => {
+              const { relic_tier, rarity, ...restUnit } = x.data;
+              return {
+                relic_tier: relic_tier - 2,
+                stars: rarity,
+                ...restUnit,
+              };
+            })
+            .filter((x) => {
+              if (!unitId) {
+                return true;
+              } else if (Array.isArray(unitId)) {
+                return unitId.includes(x.base_id);
+              } else {
+                return x.base_id === unitId;
+              }
+            }),
+          name: player.player_name,
+          allyCode: player.ally_code,
+          totalGP: player.galactic_power,
+        });
+      }
+      dbClient.updateGuild(guildId, {
+        playerList: players,
+        lastUpdated: moment().toString(),
       });
     }
 

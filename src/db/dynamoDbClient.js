@@ -200,7 +200,17 @@ class DbClient {
     return result.Item;
   }
 
-  async updateGuild(id, { territoryWar, territoryBattle, raidEvents }) {
+  async updateGuild(
+    id,
+    {
+      territoryWar,
+      territoryBattle,
+      raidEvents,
+      goalList,
+      playerList,
+      lastUpdated,
+    }
+  ) {
     const expressions = [];
     const values = {};
 
@@ -217,6 +227,21 @@ class DbClient {
     if (raidEvents) {
       expressions.push("raidEvents = :raidEvents");
       values[":raidEvents"] = raidEvents;
+    }
+
+    if (goalList) {
+      expressions.push("goalList = :goalList");
+      values[":goalList"] = goalList;
+    }
+
+    if (playerList) {
+      expressions.push("playerList = :playerList");
+      values[":playerList"] = playerList;
+    }
+
+    if (lastUpdated) {
+      expressions.push("lastUpdated = :lastUpdated");
+      values[":lastUpdated"] = lastUpdated;
     }
 
     if (expressions.length > 0) {
