@@ -924,6 +924,137 @@ const palpatine = {
   ],
 };
 
+const darthrevan = {
+  id: "DARTHREVAN",
+  prerequisites: [
+    {
+      id: "BASTILASHANDARK",
+      recommended: {
+        value: 18800,
+        type: "Power",
+      },
+    },
+    {
+      id: "CANDEROUSORDO",
+      recommended: {
+        value: 18800,
+        type: "Power",
+      },
+    },
+    {
+      id: "HK47",
+      recommended: {
+        value: 18800,
+        type: "Power",
+      },
+    },
+    {
+      id: "JUHANI",
+      recommended: {
+        value: 18000,
+        type: "Power",
+      },
+    },
+    {
+      id: "CARTHONASI",
+      recommended: {
+        value: 16200,
+        type: "Power",
+      },
+    },
+  ],
+};
+
+const malak = {
+  id: "DARTHMALAK",
+  prerequisites: [
+    {
+      id: "JEDIKNIGHTREVAN",
+      recommended: {
+        value: 21500,
+        type: "Power",
+      },
+    },
+    {
+      id: "BASTILASHAN",
+      recommended: {
+        value: 21500,
+        type: "Power",
+      },
+    },
+    {
+      id: "JOLEEBINDO",
+      recommended: {
+        value: 21500,
+        type: "Power",
+      },
+    },
+    {
+      id: "MISSIONVAO",
+      recommended: {
+        value: 21500,
+        type: "Power",
+      },
+    },
+    {
+      id: "ZAALBAR",
+      recommended: {
+        value: 21500,
+        type: "Power",
+      },
+    },
+    {
+      id: "T3_M4",
+      recommended: {
+        value: 21500,
+        type: "Power",
+      },
+    },
+    {
+      id: "DARTHREVAN",
+      recommended: {
+        value: 21500,
+        type: "Power",
+      },
+    },
+    {
+      id: "BASTILASHANDARK",
+      recommended: {
+        value: 18800,
+        type: "Power",
+      },
+    },
+    {
+      id: "CANDEROUSORDO",
+      recommended: {
+        value: 20500,
+        type: "Power",
+      },
+    },
+    {
+      id: "HK47",
+      recommended: {
+        value: 20500,
+        type: "Power",
+      },
+    },
+    {
+      id: "JUHANI",
+      recommended: {
+        value: 20500,
+        type: "Power",
+      },
+    },
+    {
+      id: "CARTHONASI",
+      recommended: {
+        value: 20500,
+        type: "Power",
+      },
+    },
+  ],
+};
+
 const legendary = {
   id: "legendary",
   table: "Legendary Events",
@@ -1060,138 +1191,11 @@ const legendary = {
         },
       ],
     },
-    {
-      id: "DARTHREVAN",
-      prerequisites: [
-        {
-          id: "BASTILASHANDARK",
-          recommended: {
-            value: 18800,
-            type: "Power",
-          },
-        },
-        {
-          id: "CANDEROUSORDO",
-          recommended: {
-            value: 18800,
-            type: "Power",
-          },
-        },
-        {
-          id: "HK47",
-          recommended: {
-            value: 18800,
-            type: "Power",
-          },
-        },
-        {
-          id: "JUHANI",
-          recommended: {
-            value: 18000,
-            type: "Power",
-          },
-        },
-        {
-          id: "CARTHONASI",
-          recommended: {
-            value: 16200,
-            type: "Power",
-          },
-        },
-      ],
-    },
+    darthrevan,
     chewy,
     c3p0,
     falcon,
-    {
-      id: "DARTHMALAK",
-      prerequisites: [
-        {
-          id: "JEDIKNIGHTREVAN",
-          recommended: {
-            value: 21500,
-            type: "Power",
-          },
-        },
-        {
-          id: "BASTILASHAN",
-          recommended: {
-            value: 21500,
-            type: "Power",
-          },
-        },
-        {
-          id: "JOLEEBINDO",
-          recommended: {
-            value: 21500,
-            type: "Power",
-          },
-        },
-        {
-          id: "MISSIONVAO",
-          recommended: {
-            value: 21500,
-            type: "Power",
-          },
-        },
-        {
-          id: "ZAALBAR",
-          recommended: {
-            value: 21500,
-            type: "Power",
-          },
-        },
-        {
-          id: "T3_M4",
-          recommended: {
-            value: 21500,
-            type: "Power",
-          },
-        },
-        {
-          id: "DARTHREVAN",
-          recommended: {
-            value: 21500,
-            type: "Power",
-          },
-        },
-        {
-          id: "BASTILASHANDARK",
-          recommended: {
-            value: 18800,
-            type: "Power",
-          },
-        },
-        {
-          id: "CANDEROUSORDO",
-          recommended: {
-            value: 20500,
-            type: "Power",
-          },
-        },
-        {
-          id: "HK47",
-          recommended: {
-            value: 20500,
-            type: "Power",
-          },
-        },
-        {
-          id: "JUHANI",
-          recommended: {
-            value: 20500,
-            type: "Power",
-          },
-        },
-        {
-          id: "CARTHONASI",
-          recommended: {
-            value: 20500,
-            type: "Power",
-          },
-        },
-      ],
-    },
+    malak,
     gas,
     jkl,
     {
@@ -1613,6 +1617,123 @@ const legendary = {
           requirement: {
             value: 12,
             type: "Gear",
+          },
+        },
+      ],
+    },
+    {
+      id: "CAPITALLEVIATHAN",
+      prerequisites: [
+        {
+          ...darthrevan,
+          requirement: {
+            value: 9,
+            type: "Relic",
+          },
+        },
+        {
+          ...malak,
+          requirement: {
+            value: 9,
+            type: "Relic",
+          },
+        },
+        {
+          id: "SITHTROOPER",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "FOSITHTROOPER",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "DARTHMAUL",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "HK47",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "BASTILASHAN",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "SITHASSASSIN",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "50RT",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "FURYCLASSINTERCEPTOR",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          id: "TIEDAGGER",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          id: "XWISITHSUPREMACYCLASSNGRED3",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          id: "SITHBOMBER",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          id: "SITHINFILTRATOR",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          id: "SITHFIGHTER",
+          requirement: {
+            value: 7,
+            type: "Stars",
+          },
+        },
+        {
+          id: "EBONHAWK",
+          requirement: {
+            value: 7,
+            type: "Stars",
           },
         },
       ],
