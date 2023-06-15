@@ -53,15 +53,13 @@ routes.get("/:guildId/:unitId", async (req, res) => {
 routes.post("/:guildId/units", async (req, res) => {
   try {
     const { unitIds } = req.body;
-    console.time("guild");
     const guildResponse = await apiClient.fetchGuild(req.params.guildId);
-    console.timeLog("guild");
     const guildData = await guild.fetchGuildUnits(
       unitIds,
       guildResponse.members,
       req.params.guildId
     );
-    console.timeEnd("guild");
+
     res.status(200).json(guildData);
   } catch (error) {
     res.status(500).json({

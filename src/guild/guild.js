@@ -229,7 +229,9 @@ class Guild {
       }
     });
     await dbClient.updateGuild(guildId, { goalList });
-    return await this.fetchGuild(guildId);
+
+    const response = await this.fetchGuild(guildId);
+    return response?.goalList ?? [];
   }
 
   async fetchGuildUnits(unitId, ggPlayers, guildId) {
