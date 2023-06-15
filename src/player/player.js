@@ -38,6 +38,7 @@ class Player {
         return ggApi.fetchPlayer(player.ally_code);
       })
     );
+
     for (let i = 0; i <= ggPlayers.length - 1; i++) {
       const player = ggPlayers[i];
       const matchPlayer = results.find(

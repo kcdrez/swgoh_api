@@ -230,8 +230,12 @@ class Guild {
     });
     await dbClient.updateGuild(guildId, { goalList });
 
-    const response = await this.fetchGuild(guildId);
-    return response?.goalList ?? [];
+    const guildResponse = await apiClient.fetchGuild(guildId);
+    const unitIds = goalList.reduce((acc, goal) => {
+      acc.push(...goal.list.map((unit) => unit.id));
+      return acc;
+    }, []);
+    return await this.fetchGuildUnits(unitIds, guildResponse.members, guildId);
   }
 
   async fetchGuildUnits(unitId, ggPlayers, guildId) {
