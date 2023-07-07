@@ -1589,7 +1589,7 @@ const legendary = {
       ],
     },
     {
-      id: "JEDIKNIGHTCALKESTIS",
+      id: "JEDIKNIGHTCAL",
       prerequisites: [
         {
           id: "CALKESTIS",
