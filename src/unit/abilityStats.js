@@ -3441,4 +3441,52 @@ module.exports = {
       },
     ],
   },
+  CAPTAINREX: {
+    unique: [
+      {
+        value: 0.25,
+        type: "critChance",
+        tags: ["Self"],
+      },
+      {
+        value: 0.4,
+        type: "health",
+        tags: ["Self"],
+      },
+      {
+        value: 25,
+        type: "speed",
+        tags: ["Self"],
+      },
+      {
+        value: 0.4,
+        type: "tenacity",
+        tags: ["Self"],
+      },
+      {
+        omicron: {
+          mode: "Grand Arena",
+          value: 0.3,
+          type: "critDamage",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          mode: "Grand Arena",
+          value: 0.6,
+          type: "health",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          mode: "Grand Arena",
+          value: 25,
+          type: "speed",
+          tags: ["Self"],
+        },
+      },
+    ],
+  },
 };
