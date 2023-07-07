@@ -219,7 +219,7 @@ class Guild {
     return await this.fetchGuild(guildId);
   }
 
-  async updateGuildGoals(guildId, goals) {
+  async updateGuildGoals(guildId, goals, refresh) {
     const goalList = goals.map((goal) => {
       if (goal.id) {
         return goal;
@@ -230,8 +230,20 @@ class Guild {
     });
     await dbClient.updateGuild(guildId, { goalList });
 
-    const response = await this.fetchGuild(guildId);
-    return response?.goalList ?? [];
+    if (refresh) {
+      const guildResponse = await apiClient.fetchGuild(guildId);
+      const unitIds = goalList.reduce((acc, goal) => {
+        acc.push(...goal.list.map((unit) => unit.id));
+        return acc;
+      }, []);
+      return await this.fetchGuildUnits(
+        unitIds,
+        guildResponse.members,
+        guildId
+      );
+    } else {
+      return "ok";
+    }
   }
 
   async fetchGuildUnits(unitId, ggPlayers, guildId) {

@@ -199,13 +199,13 @@ routes.patch("/:guildId/raidEvents", async (req, res) => {
 });
 
 routes.patch("/:guildId/goals", async (req, res) => {
-  const { goalList } = req.body;
+  const { goalList, refresh } = req.body;
   const { guildId } = req.params;
   if (!goalList) {
     res.status(500).json({ error: "Missing required field: goalList" });
   } else {
     try {
-      const result = await guild.updateGuildGoals(guildId, goalList);
+      const result = await guild.updateGuildGoals(guildId, goalList, refresh);
       res.status(201).json(result);
     } catch (err) {
       res.status(500).json({ error: err.message });
