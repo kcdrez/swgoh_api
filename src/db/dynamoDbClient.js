@@ -1,9 +1,9 @@
 const { v4: uuidv4 } = require("uuid");
-const AWS = require("aws-sdk");
+const { DynamoDBDocument } = require("@aws-sdk/lib-dynamodb");
+const { DynamoDB } = require("@aws-sdk/client-dynamodb");
 const moment = require("moment");
-const sha512 = require("js-sha512");
 
-const db = new AWS.DynamoDB.DocumentClient();
+const db = DynamoDBDocument.from(new DynamoDB());
 
 class DbClient {
   constructor() {}
@@ -15,7 +15,7 @@ class DbClient {
         id,
       },
     };
-    const result = await db.get(params).promise();
+    const result = await db.get(params);
     return result.Item;
   }
 
@@ -27,7 +27,7 @@ class DbClient {
         ":allyCode": allyCode,
       },
     };
-    const result = await db.scan(params).promise();
+    const result = await db.scan(params);
 
     if (result.Items.length > 0) {
       return result.Items[0];
@@ -47,7 +47,7 @@ class DbClient {
         updatedAt: moment().unix(),
       },
     };
-    await db.put(params).promise();
+    await db.put(params);
     return params.Item;
   }
 
@@ -55,7 +55,7 @@ class DbClient {
     const params = {
       TableName: "usersTable",
     };
-    return await db.scan(params).promise();
+    return await db.scan(params);
   }
 
   async updateUser(
@@ -123,7 +123,7 @@ class DbClient {
         UpdateExpression: `SET ${expressions.join(", ")}`,
         ExpressionAttributeValues: values,
       };
-      await db.update(params).promise();
+      await db.update(params);
     }
   }
 
@@ -153,7 +153,7 @@ class DbClient {
         UpdateExpression: `SET ${expressions.join(", ")}`,
         ExpressionAttributeValues: values,
       };
-      await db.update(params).promise();
+      await db.update(params);
     }
   }
 
@@ -164,7 +164,7 @@ class DbClient {
         id,
       },
     };
-    const result = await db.get(params).promise();
+    const result = await db.get(params);
     return result.Item;
   }
 
@@ -175,7 +175,7 @@ class DbClient {
         id,
       },
     };
-    await db.delete(params).promise();
+    await db.delete(params);
   }
 
   async createGuild(guildId) {
@@ -185,7 +185,7 @@ class DbClient {
         id: guildId,
       },
     };
-    await db.put(params).promise();
+    await db.put(params);
     return params.Item;
   }
 
@@ -196,7 +196,7 @@ class DbClient {
         id,
       },
     };
-    const result = await db.get(params).promise();
+    const result = await db.get(params);
     return result.Item;
   }
 
@@ -234,7 +234,7 @@ class DbClient {
         UpdateExpression: `SET ${expressions.join(", ")}`,
         ExpressionAttributeValues: values,
       };
-      await db.update(params).promise();
+      await db.update(params);
     }
   }
 }
