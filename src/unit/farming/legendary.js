@@ -1589,7 +1589,7 @@ const legendary = {
       ],
     },
     {
-      id: "JEDIKNIGHTCALKESTIS",
+      id: "JEDIKNIGHTCAL",
       prerequisites: [
         {
           id: "CALKESTIS",
@@ -2466,6 +2466,116 @@ const galacticLegends = {
         },
         {
           id: "HUMANTHUG",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+      ],
+    },
+    {
+      id: "LEIAORGANA",
+      prerequisites: [
+        {
+          id: "CAPTAINREX",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "PRINCESSKNEESAA",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "WICKET",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "ADMINISTRATORLANDO",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "ADMIRALACKBAR",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "UNKNOWN",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "UNKNOWN",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "UNKNOWN",
+          requirement: {
+            value: 3,
+            type: "Relic",
+          },
+        },
+        {
+          id: "UNKNOWN",
+          requirement: {
+            value: 4,
+            type: "Relic",
+          },
+        },
+        {
+          id: "UNKNOWN",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "UNKNOWN",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "UNKNOWN",
+          requirement: {
+            value: 6,
+            type: "Relic",
+          },
+        },
+        {
+          id: "UNKNOWN",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "UNKNOWN",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "UNKNOWN",
           requirement: {
             value: 3,
             type: "Relic",

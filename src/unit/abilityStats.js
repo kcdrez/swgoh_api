@@ -3465,6 +3465,7 @@ module.exports = {
       },
       {
         omicron: {
+          mode: "Grand Arena",
           value: 0.3,
           type: "critDamage",
           tags: ["Self"],
@@ -3472,6 +3473,7 @@ module.exports = {
       },
       {
         omicron: {
+          mode: "Grand Arena",
           value: 0.6,
           type: "health",
           tags: ["Self"],
@@ -3479,6 +3481,7 @@ module.exports = {
       },
       {
         omicron: {
+          mode: "Grand Arena",
           value: 25,
           type: "speed",
           tags: ["Self"],

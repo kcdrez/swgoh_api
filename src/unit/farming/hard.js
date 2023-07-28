@@ -1064,7 +1064,7 @@ module.exports = [
     map: 4,
     mission: "D",
     energy: 12,
-    characters: ["YOUNGCHEWBACCA"],
+    characters: ["YOUNGCHEWBACCA", "TARFFUL"],
     gear: [],
   },
   {
@@ -1349,7 +1349,7 @@ module.exports = [
     map: 1,
     mission: "C",
     energy: 16,
-    characters: ["TIEFIGHTERIMPERIAL"],
+    characters: ["MERRIN"],
     gear: [],
   },
   {
@@ -1810,7 +1810,7 @@ module.exports = [
     map: 4,
     mission: "B",
     energy: 10,
-    characters: ["TIEFIGHTERPILOT"],
+    characters: ["TIEFIGHTERPILOT", "TIEFIGHTERIMPERIAL"],
     gear: [],
   },
   {
