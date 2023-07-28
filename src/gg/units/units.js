@@ -19722,7 +19722,6 @@ module.exports = [
     activate_shard_count: 25,
   },
   {
-<<<<<<< HEAD
     name: "Princess Kneesaa",
     id: "PRINCESSKNEESAA",
     url: "http://swgoh.gg/characters/princess-kneesaa/",
@@ -19784,9 +19783,6 @@ module.exports = [
   {
     name: "Jedi Knight Cal Kestis",
     aliases: ["jack", "jkck", "jk cal", "jedi cal"],
-=======
-    name: "Jedi Knight Cal Kestis",
->>>>>>> cd3066875d9a1020f4b2890b49b177ca27c90195
     id: "JEDIKNIGHTCAL",
     url: "http://swgoh.gg/characters/jedi-knight-cal-kestis/",
     image: "https://game-assets.swgoh.gg/tex.charui_jediknightcal.png",
@@ -19847,7 +19843,6 @@ module.exports = [
     ship_slot: null,
     activate_shard_count: 330,
   },
-<<<<<<< HEAD
   {
     name: "Taron Malicos",
     id: "TARONMALICOS",
@@ -19906,6 +19901,4 @@ module.exports = [
     ship_slot: null,
     activate_shard_count: 330,
   },
-=======
->>>>>>> cd3066875d9a1020f4b2890b49b177ca27c90195
 ];
