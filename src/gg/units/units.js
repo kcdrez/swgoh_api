@@ -3,7 +3,6 @@ module.exports = [
     name: "Aayla Secura",
     aliases: ["AS"],
     id: "AAYLASECURA",
-    pk: 80,
     url: "http://swgoh.gg/characters/aayla-secura/",
     image: "https://game-assets.swgoh.gg/tex.charui_aaylasecura.png",
     description:
@@ -81,7 +80,6 @@ module.exports = [
     name: "Admiral Ackbar",
     aliases: ["AA", "Fish"],
     id: "ADMIRALACKBAR",
-    pk: 169,
     url: "http://swgoh.gg/characters/admiral-ackbar/",
     image: "https://game-assets.swgoh.gg/tex.charui_ackbaradmiral.png",
     description:
@@ -171,7 +169,6 @@ module.exports = [
     name: "Admiral Piett",
     aliases: ["AP"],
     id: "ADMIRALPIETT",
-    pk: 562,
     url: "http://swgoh.gg/characters/admiral-piett/",
     image: "https://game-assets.swgoh.gg/tex.charui_piett.png",
     description:
@@ -263,7 +260,6 @@ module.exports = [
     name: "Ahsoka Tano",
     aliases: ["AT", "Asoka"],
     id: "AHSOKATANO",
-    pk: 64,
     url: "http://swgoh.gg/characters/ahsoka-tano/",
     image: "https://game-assets.swgoh.gg/tex.charui_ahsoka.png",
     description:
@@ -344,7 +340,6 @@ module.exports = [
     name: "Ahsoka Tano (Fulcrum)",
     aliases: ["AT", "Asoka"],
     id: "FULCRUMAHSOKA",
-    pk: 236,
     url: "http://swgoh.gg/characters/ahsoka-tano-fulcrum/",
     image: "https://game-assets.swgoh.gg/tex.charui_ahsokaadult.png",
     description:
@@ -431,7 +426,6 @@ module.exports = [
     name: "Amilyn Holdo",
     aliases: ["AH"],
     id: "AMILYNHOLDO",
-    pk: 254,
     url: "http://swgoh.gg/characters/amilyn-holdo/",
     image: "https://game-assets.swgoh.gg/tex.charui_holdo.png",
     description:
@@ -511,7 +505,6 @@ module.exports = [
     name: "ARC Trooper",
     aliases: ["AT"],
     id: "ARCTROOPER501ST",
-    pk: 394,
     url: "http://swgoh.gg/characters/arc-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_arc.png",
     description:
@@ -590,7 +583,6 @@ module.exports = [
     name: "Asajj Ventress",
     aliases: ["AV"],
     id: "ASAJVENTRESS",
-    pk: 23,
     url: "http://swgoh.gg/characters/asajj-ventress/",
     image: "https://game-assets.swgoh.gg/tex.charui_ventress.png",
     description:
@@ -678,7 +670,6 @@ module.exports = [
     name: "Aurra Sing",
     aliases: ["AS"],
     id: "AURRA_SING",
-    pk: 294,
     url: "http://swgoh.gg/characters/aurra-sing/",
     image: "https://game-assets.swgoh.gg/tex.charui_aurrasing.png",
     description:
@@ -758,7 +749,6 @@ module.exports = [
     name: "B1 Battle Droid",
     aliases: ["Roger"],
     id: "B1BATTLEDROIDV2",
-    pk: 324,
     url: "http://swgoh.gg/characters/b1-battle-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_b1.png",
     description:
@@ -844,7 +834,6 @@ module.exports = [
   {
     name: "B2 Super Battle Droid",
     id: "B2SUPERBATTLEDROID",
-    pk: 195,
     url: "http://swgoh.gg/characters/b2-super-battle-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_b2.png",
     description:
@@ -932,7 +921,6 @@ module.exports = [
     name: "Barriss Offee",
     aliases: ["BO"],
     id: "BARRISSOFFEE",
-    pk: 61,
     url: "http://swgoh.gg/characters/barriss-offee/",
     image: "https://game-assets.swgoh.gg/tex.charui_barriss_light.png",
     description:
@@ -1013,7 +1001,6 @@ module.exports = [
     name: "Bastila Shan",
     aliases: ["BS"],
     id: "BASTILASHAN",
-    pk: 284,
     url: "http://swgoh.gg/characters/bastila-shan/",
     image: "https://game-assets.swgoh.gg/tex.charui_bastilashan.png",
     description:
@@ -1099,7 +1086,6 @@ module.exports = [
     name: "Bastila Shan (Fallen)",
     aliases: ["BSF"],
     id: "BASTILASHANDARK",
-    pk: 305,
     url: "http://swgoh.gg/characters/bastila-shan-fallen/",
     image: "https://game-assets.swgoh.gg/tex.charui_bastilashan_dark.png",
     description:
@@ -1194,7 +1180,6 @@ module.exports = [
     name: "Baze Malbus",
     aliases: ["Chaze"],
     id: "BAZEMALBUS",
-    pk: 216,
     url: "http://swgoh.gg/characters/baze-malbus/",
     image: "https://game-assets.swgoh.gg/tex.charui_bazemalbus.png",
     description:
@@ -1275,7 +1260,6 @@ module.exports = [
     name: "BB-8",
     aliases: ["BB8"],
     id: "BB8",
-    pk: 242,
     url: "http://swgoh.gg/characters/bb-8/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb8.png",
     description:
@@ -1363,7 +1347,6 @@ module.exports = [
     name: "Biggs Darklighter",
     aliases: ["BD"],
     id: "BIGGSDARKLIGHTER",
-    pk: 152,
     url: "http://swgoh.gg/characters/biggs-darklighter/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebelpilot_biggs.png",
     description: "Rebel Support with Critical Hit synergies who calls Assists",
@@ -1446,7 +1429,6 @@ module.exports = [
   {
     name: "Bistan",
     id: "BISTAN",
-    pk: 214,
     url: "http://swgoh.gg/characters/bistan/",
     image: "https://game-assets.swgoh.gg/tex.charui_bistan.png",
     description:
@@ -1518,7 +1500,6 @@ module.exports = [
     name: "Bo-Katan Kryze",
     aliases: ["Bo Katan", "BoKatan"],
     id: "BOKATAN",
-    pk: 938,
     url: "http://swgoh.gg/characters/bo-katan-kryze/",
     image: "https://game-assets.swgoh.gg/tex.charui_bokatan.png",
     description:
@@ -1604,7 +1585,6 @@ module.exports = [
     name: "Boba Fett",
     aliases: ["BF"],
     id: "BOBAFETT",
-    pk: 164,
     url: "http://swgoh.gg/characters/boba-fett/",
     image: "https://game-assets.swgoh.gg/tex.charui_bobafett.png",
     description:
@@ -1693,7 +1673,6 @@ module.exports = [
     name: "Boba Fett, Scion of Jango",
     aliases: ["DBB", "SoJ", "BF", "BFSOJ"],
     id: "BOBAFETTSCION",
-    pk: 1942,
     url: "http://swgoh.gg/characters/boba-fett-scion-of-jango/",
     image: "https://game-assets.swgoh.gg/tex.charui_bobafettold.png",
     description:
@@ -1789,7 +1768,6 @@ module.exports = [
     name: "Bodhi Rook",
     aliases: ["BR"],
     id: "BODHIROOK",
-    pk: 232,
     url: "http://swgoh.gg/characters/bodhi-rook/",
     image: "https://game-assets.swgoh.gg/tex.charui_bodhi.png",
     description: "Clever Rebel Support who spots enemy units for his allies",
@@ -1867,7 +1845,6 @@ module.exports = [
   {
     name: "Bossk",
     id: "BOSSK",
-    pk: 264,
     url: "http://swgoh.gg/characters/bossk/",
     image: "https://game-assets.swgoh.gg/tex.charui_bossk.png",
     description:
@@ -1950,7 +1927,6 @@ module.exports = [
     name: "C-3PO",
     aliases: ["C3PO", "C3P0"],
     id: "C3POLEGENDARY",
-    pk: 312,
     url: "http://swgoh.gg/characters/c-3po/",
     image: "https://game-assets.swgoh.gg/tex.charui_c3p0.png",
     description:
@@ -2047,7 +2023,6 @@ module.exports = [
     name: "Cad Bane",
     aliases: ["CB"],
     id: "CADBANE",
-    pk: 121,
     url: "http://swgoh.gg/characters/cad-bane/",
     image: "https://game-assets.swgoh.gg/tex.charui_cadbane.png",
     description:
@@ -2130,7 +2105,6 @@ module.exports = [
     name: "Canderous Ordo",
     aliases: ["Candy", "CO"],
     id: "CANDEROUSORDO",
-    pk: 307,
     url: "http://swgoh.gg/characters/canderous-ordo/",
     image: "https://game-assets.swgoh.gg/tex.charui_canderous.png",
     description: "Powerful attacker who can make short work of enemy Tanks",
@@ -2219,7 +2193,6 @@ module.exports = [
     name: "Captain Han Solo",
     aliases: ["Hoth Han", "CHOLO"],
     id: "HOTHHAN",
-    pk: 239,
     url: "http://swgoh.gg/characters/captain-han-solo/",
     image: "https://game-assets.swgoh.gg/tex.charui_hoth_han.png",
     description:
@@ -2291,7 +2264,6 @@ module.exports = [
     name: "Captain Phasma",
     aliases: ["CP"],
     id: "PHASMA",
-    pk: 67,
     url: "http://swgoh.gg/characters/captain-phasma/",
     image: "https://game-assets.swgoh.gg/tex.charui_phasma.png",
     description:
@@ -2373,7 +2345,6 @@ module.exports = [
     name: "Cara Dune",
     aliases: ["CD"],
     id: "CARADUNE",
-    pk: 444,
     url: "http://swgoh.gg/characters/cara-dune/",
     image: "https://game-assets.swgoh.gg/tex.charui_caradune.png",
     description:
@@ -2454,7 +2425,6 @@ module.exports = [
     name: "Carth Onasi",
     aliases: ["CO"],
     id: "CARTHONASI",
-    pk: 310,
     url: "http://swgoh.gg/characters/carth-onasi/",
     image: "https://game-assets.swgoh.gg/tex.charui_carth.png",
     description:
@@ -2538,7 +2508,6 @@ module.exports = [
     name: "Cassian Andor",
     aliases: ["CA"],
     id: "CASSIANANDOR",
-    pk: 219,
     url: "http://swgoh.gg/characters/cassian-andor/",
     image: "https://game-assets.swgoh.gg/tex.charui_cassian.png",
     description:
@@ -2625,7 +2594,6 @@ module.exports = [
     name: 'CC-2224 "Cody"',
     aliases: ["CC2224"],
     id: "CC2224",
-    pk: 26,
     url: "http://swgoh.gg/characters/cc-2224-cody/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_cody.png",
     description: "Clone Attacker that Stuns and calls tons of Assists",
@@ -2702,7 +2670,6 @@ module.exports = [
     name: "Chewbacca",
     aliases: ["Chewy"],
     id: "CHEWBACCALEGENDARY",
-    pk: 300,
     url: "http://swgoh.gg/characters/chewbacca/",
     image: "https://game-assets.swgoh.gg/tex.charui_chewbacca_ot.png",
     description: "Mighty Rebel Attacker who Guards the weakest ally",
@@ -2792,7 +2759,6 @@ module.exports = [
     name: "Chief Chirpa",
     aliases: ["CC"],
     id: "CHIEFCHIRPA",
-    pk: 72,
     url: "http://swgoh.gg/characters/chief-chirpa/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_chirpa.png",
     description: "Ewok Leader that greatly improves ally Basic abilities",
@@ -2871,7 +2837,6 @@ module.exports = [
     name: "Chief Nebit",
     aliases: ["CN"],
     id: "CHIEFNEBIT",
-    pk: 93,
     url: "http://swgoh.gg/characters/chief-nebit/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_nebit.png",
     description:
@@ -2953,7 +2918,6 @@ module.exports = [
     name: "Chirrut Îmwe",
     aliases: ["Chaze"],
     id: "CHIRRUTIMWE",
-    pk: 215,
     url: "http://swgoh.gg/characters/chirrut-imwe/",
     image: "https://game-assets.swgoh.gg/tex.charui_chirrut.png",
     description:
@@ -3024,7 +2988,6 @@ module.exports = [
   {
     name: "Chopper",
     id: "CHOPPERS3",
-    pk: 225,
     url: "http://swgoh.gg/characters/chopper/",
     image: "https://game-assets.swgoh.gg/tex.charui_chopper.png",
     description:
@@ -3105,9 +3068,8 @@ module.exports = [
   },
   {
     name: "Clone Sergeant - Phase I",
-    aliases: ["CS", "CS1", "CSP", "CSP1"],
+    aliases: ["CS", "CS1", "CSP", "CSP1", "Clone Sarge"],
     id: "CLONESERGEANTPHASEI",
-    pk: 186,
     url: "http://swgoh.gg/characters/clone-sergeant-phase-i/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclonegreen.png",
     description: "Clone Attacker with AoE damage and Turn Meter Reduction",
@@ -3190,7 +3152,6 @@ module.exports = [
     name: "Clone Wars Chewbacca",
     aliases: ["Chewy", "CW Chewy"],
     id: "CLONEWARSCHEWBACCA",
-    pk: 62,
     url: "http://swgoh.gg/characters/clone-wars-chewbacca/",
     image: "https://game-assets.swgoh.gg/tex.charui_chewbacca.png",
     description: "Durable Tank with both Taunt and self-Healing",
@@ -3275,7 +3236,6 @@ module.exports = [
     name: "Colonel Starck",
     aliases: ["CS"],
     id: "COLONELSTARCK",
-    pk: 247,
     url: "http://swgoh.gg/characters/colonel-starck/",
     image: "https://game-assets.swgoh.gg/tex.charui_colonel_stark.png",
     description:
@@ -3363,7 +3323,6 @@ module.exports = [
     name: "Commander Ahsoka Tano",
     aliases: ["CAT"],
     id: "COMMANDERAHSOKA",
-    pk: 1084,
     url: "http://swgoh.gg/characters/commander-ahsoka-tano/",
     image: "https://game-assets.swgoh.gg/tex.charui_commanderahsokatano.png",
     description:
@@ -3456,7 +3415,6 @@ module.exports = [
     name: "Commander Luke Skywalker",
     aliases: ["CLS", "Rebel Luke"],
     id: "COMMANDERLUKESKYWALKER",
-    pk: 238,
     url: "http://swgoh.gg/characters/commander-luke-skywalker/",
     image: "https://game-assets.swgoh.gg/tex.charui_lukebespin.png",
     description:
@@ -3547,7 +3505,6 @@ module.exports = [
     name: "Coruscant Underworld Police",
     aliases: ["CUP"],
     id: "CORUSCANTUNDERWORLDPOLICE",
-    pk: 78,
     url: "http://swgoh.gg/characters/coruscant-underworld-police/",
     image: "https://game-assets.swgoh.gg/tex.charui_coruscantpolice.png",
     description: "Support that shuts down enemies with Stuns and Offense Down",
@@ -3625,7 +3582,6 @@ module.exports = [
     name: "Count Dooku",
     aliases: ["CS", "Saruman"],
     id: "COUNTDOOKU",
-    pk: 91,
     url: "http://swgoh.gg/characters/count-dooku/",
     image: "https://game-assets.swgoh.gg/tex.charui_dooku.png",
     description:
@@ -3709,7 +3665,6 @@ module.exports = [
     name: 'CT-21-0408 "Echo"',
     aliases: ["CT210408"],
     id: "CT210408",
-    pk: 149,
     url: "http://swgoh.gg/characters/ct-21-0408-echo/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_echo.png",
     description:
@@ -3789,7 +3744,6 @@ module.exports = [
     name: 'CT-5555 "Fives"',
     aliases: ["CT5555"],
     id: "CT5555",
-    pk: 189,
     url: "http://swgoh.gg/characters/ct-5555-fives/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_fives.png",
     description:
@@ -3876,7 +3830,6 @@ module.exports = [
     name: 'CT-7567 "Rex"',
     aliases: ["CT7567"],
     id: "CT7567",
-    pk: 16,
     url: "http://swgoh.gg/characters/ct-7567-rex/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_rex.png",
     description:
@@ -3963,7 +3916,6 @@ module.exports = [
     name: "Dark Trooper",
     aliases: ["DT"],
     id: "DARKTROOPER",
-    pk: 907,
     url: "http://swgoh.gg/characters/dark-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_darktrooper.png",
     description:
@@ -4048,7 +4000,6 @@ module.exports = [
     name: "Darth Malak",
     aliases: ["DM"],
     id: "DARTHMALAK",
-    pk: 342,
     url: "http://swgoh.gg/characters/darth-malak/",
     image: "https://game-assets.swgoh.gg/tex.charui_darthmalak.png",
     description:
@@ -4130,7 +4081,6 @@ module.exports = [
     name: "Darth Maul",
     aliases: ["DM"],
     id: "MAUL",
-    pk: 82,
     url: "http://swgoh.gg/characters/darth-maul/",
     image: "https://game-assets.swgoh.gg/tex.charui_maul.png",
     description:
@@ -4212,7 +4162,6 @@ module.exports = [
     name: "Darth Nihilus",
     aliases: ["DN", "Sith Raid", "Triumvirate"],
     id: "DARTHNIHILUS",
-    pk: 222,
     url: "http://swgoh.gg/characters/darth-nihilus/",
     image: "https://game-assets.swgoh.gg/tex.charui_nihilus.png",
     description:
@@ -4293,7 +4242,6 @@ module.exports = [
     name: "Darth Revan",
     aliases: ["DRevan", "DR", "Revan Dark"],
     id: "DARTHREVAN",
-    pk: 336,
     url: "http://swgoh.gg/characters/darth-revan/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithrevan.png",
     description:
@@ -4371,15 +4319,14 @@ module.exports = [
       "Stun",
     ],
     role: "Leader",
-    ship: "",
-    ship_slot: null,
+    ship: "CAPITALLEVIATHAN",
+    ship_slot: 0,
     activate_shard_count: 330,
   },
   {
     name: "Darth Sidious",
     aliases: ["DS", "Palpatine"],
     id: "DARTHSIDIOUS",
-    pk: 73,
     url: "http://swgoh.gg/characters/darth-sidious/",
     image: "https://game-assets.swgoh.gg/tex.charui_sidious.png",
     description:
@@ -4459,7 +4406,6 @@ module.exports = [
     name: "Darth Sion",
     aliases: ["DS", "Sith Raid", "Triumvirate"],
     id: "DARTHSION",
-    pk: 259,
     url: "http://swgoh.gg/characters/darth-sion/",
     image: "https://game-assets.swgoh.gg/tex.charui_sion.png",
     description: "Aggressive Sith tank that becomes stronger with Hatred",
@@ -4530,7 +4476,6 @@ module.exports = [
     name: "Darth Talon",
     aliases: ["DT"],
     id: "DARTHTALON",
-    pk: 2296,
     url: "http://swgoh.gg/characters/darth-talon/",
     image: "https://game-assets.swgoh.gg/tex.charui_darthtalon.png",
     description:
@@ -4612,7 +4557,6 @@ module.exports = [
     name: "Darth Traya",
     aliases: ["DT", "Sith Raid", "Triumvirate"],
     id: "DARTHTRAYA",
-    pk: 258,
     url: "http://swgoh.gg/characters/darth-traya/",
     image: "https://game-assets.swgoh.gg/tex.charui_traya.png",
     description: "Sith support who punishes enemies for relying on others",
@@ -4694,7 +4638,6 @@ module.exports = [
     name: "Darth Vader",
     aliases: ["DV"],
     id: "VADER",
-    pk: 200,
     url: "http://swgoh.gg/characters/darth-vader/",
     image: "https://game-assets.swgoh.gg/tex.charui_vader.png",
     description:
@@ -4779,7 +4722,6 @@ module.exports = [
     name: "Dash Rendar",
     aliases: ["DR"],
     id: "DASHRENDAR",
-    pk: 2063,
     url: "http://swgoh.gg/characters/dash-rendar/",
     image: "https://game-assets.swgoh.gg/tex.charui_dashrendar.png",
     description:
@@ -4864,7 +4806,6 @@ module.exports = [
   {
     name: "Dathcha",
     id: "DATHCHA",
-    pk: 142,
     url: "http://swgoh.gg/characters/dathcha/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_dathcha.png",
     description:
@@ -4944,7 +4885,6 @@ module.exports = [
     name: "Death Trooper",
     aliases: ["DT"],
     id: "DEATHTROOPER",
-    pk: 221,
     url: "http://swgoh.gg/characters/death-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperdeath.png",
     description:
@@ -5026,7 +4966,6 @@ module.exports = [
   {
     name: "Dengar",
     id: "DENGAR",
-    pk: 115,
     url: "http://swgoh.gg/characters/dengar/",
     image: "https://game-assets.swgoh.gg/tex.charui_dengar.png",
     description:
@@ -5110,7 +5049,6 @@ module.exports = [
     name: "Director Krennic",
     aliases: ["DK"],
     id: "DIRECTORKRENNIC",
-    pk: 220,
     url: "http://swgoh.gg/characters/director-krennic/",
     image: "https://game-assets.swgoh.gg/tex.charui_krennic.png",
     description:
@@ -5200,7 +5138,6 @@ module.exports = [
     name: "Droideka",
     aliases: ["DDK"],
     id: "DROIDEKA",
-    pk: 325,
     url: "http://swgoh.gg/characters/droideka/",
     image: "https://game-assets.swgoh.gg/tex.charui_droideka.png",
     description:
@@ -5279,7 +5216,6 @@ module.exports = [
     name: "Echo",
     aliases: ["Bad Batch Echo"],
     id: "BADBATCHECHO",
-    pk: 1051,
     url: "http://swgoh.gg/characters/echo/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb_echo.png",
     description: "Loyal Clone Trooper who supports his allies in battle",
@@ -5362,7 +5298,6 @@ module.exports = [
     name: "Eeth Koth",
     aliases: ["EK"],
     id: "EETHKOTH",
-    pk: 203,
     url: "http://swgoh.gg/characters/eeth-koth/",
     image: "https://game-assets.swgoh.gg/tex.charui_eethkoth.png",
     description: "Stunning Jedi Support extremely effective against Droids",
@@ -5438,7 +5373,6 @@ module.exports = [
   {
     name: "Embo",
     id: "EMBO",
-    pk: 290,
     url: "http://swgoh.gg/characters/embo/",
     image: "https://game-assets.swgoh.gg/tex.charui_embo.png",
     description:
@@ -5510,7 +5444,6 @@ module.exports = [
     name: "Emperor Palpatine",
     aliases: ["EP"],
     id: "EMPERORPALPATINE",
-    pk: 180,
     url: "http://swgoh.gg/characters/emperor-palpatine/",
     image: "https://game-assets.swgoh.gg/tex.charui_palpatineemperor.png",
     description:
@@ -5598,7 +5531,6 @@ module.exports = [
     name: "Enfys Nest",
     aliases: ["EN"],
     id: "ENFYSNEST",
-    pk: 274,
     url: "http://swgoh.gg/characters/enfys-nest/",
     image: "https://game-assets.swgoh.gg/tex.charui_enfys.png",
     description:
@@ -5685,7 +5617,6 @@ module.exports = [
     name: "Ewok Elder",
     aliases: ["EE"],
     id: "EWOKELDER",
-    pk: 21,
     url: "http://swgoh.gg/characters/ewok-elder/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_chief.png",
     description: "Ewok Healer that specializes in Revives",
@@ -5756,7 +5687,6 @@ module.exports = [
     name: "Ewok Scout",
     aliases: ["ES"],
     id: "EWOKSCOUT",
-    pk: 71,
     url: "http://swgoh.gg/characters/ewok-scout/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_scout.png",
     description:
@@ -5914,7 +5844,6 @@ module.exports = [
     name: "Fennec Shand",
     aliases: ["FS"],
     id: "FENNECSHAND",
-    pk: 1926,
     url: "http://swgoh.gg/characters/fennec-shand/",
     image: "https://game-assets.swgoh.gg/tex.charui_fennec.png",
     description:
@@ -5995,7 +5924,6 @@ module.exports = [
   {
     name: "Finn",
     id: "FINN",
-    pk: 66,
     url: "http://swgoh.gg/characters/finn/",
     image: "https://game-assets.swgoh.gg/tex.charui_finnjakku.png",
     description:
@@ -6078,7 +6006,6 @@ module.exports = [
     name: "First Order Executioner",
     aliases: ["FOE"],
     id: "FIRSTORDEREXECUTIONER",
-    pk: 253,
     url: "http://swgoh.gg/characters/first-order-executioner/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorder_executioner.png",
     description: "Merciless First Order Attacker who executes powerful attacks",
@@ -6163,7 +6090,6 @@ module.exports = [
     name: "First Order Officer",
     aliases: ["FOO"],
     id: "FIRSTORDEROFFICERMALE",
-    pk: 166,
     url: "http://swgoh.gg/characters/first-order-officer/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorderofficer.png",
     description:
@@ -6249,7 +6175,6 @@ module.exports = [
     name: "First Order SF TIE Pilot",
     aliases: ["FOSF", "FOTP"],
     id: "FIRSTORDERSPECIALFORCESPILOT",
-    pk: 246,
     url: "http://swgoh.gg/characters/first-order-sf-tie-pilot/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorder_pilot.png",
     description:
@@ -6335,7 +6260,6 @@ module.exports = [
     name: "First Order Stormtrooper",
     aliases: ["FOS"],
     id: "FIRSTORDERTROOPER",
-    pk: 150,
     url: "http://swgoh.gg/characters/first-order-stormtrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstordertrooper.png",
     description: "First Order tank that uses Advantage to disrupt enemies",
@@ -6422,7 +6346,6 @@ module.exports = [
     name: "First Order TIE Pilot",
     aliases: ["FOTP"],
     id: "FIRSTORDERTIEPILOT",
-    pk: 199,
     url: "http://swgoh.gg/characters/first-order-tie-pilot/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstordertiepilot.png",
     description:
@@ -6507,7 +6430,6 @@ module.exports = [
     name: "Gamorrean Guard",
     aliases: ["GG"],
     id: "GAMORREANGUARD",
-    pk: 207,
     url: "http://swgoh.gg/characters/gamorrean-guard/",
     image: "https://game-assets.swgoh.gg/tex.charui_gamorreanguard.png",
     description:
@@ -6586,7 +6508,6 @@ module.exports = [
     name: "Gar Saxon",
     aliases: ["GS"],
     id: "GARSAXON",
-    pk: 234,
     url: "http://swgoh.gg/characters/gar-saxon/",
     image: "https://game-assets.swgoh.gg/tex.charui_gar_saxon.png",
     description:
@@ -6664,7 +6585,6 @@ module.exports = [
   {
     name: 'Garazeb "Zeb" Orrelios',
     id: "ZEBS3",
-    pk: 229,
     url: "http://swgoh.gg/characters/garazeb-zeb-orrelios/",
     image: "https://game-assets.swgoh.gg/tex.charui_zeb_s3.png",
     description:
@@ -6745,7 +6665,6 @@ module.exports = [
     name: "General Grievous",
     aliases: ["GG"],
     id: "GRIEVOUS",
-    pk: 1,
     url: "http://swgoh.gg/characters/general-grievous/",
     image: "https://game-assets.swgoh.gg/tex.charui_grievous.png",
     description:
@@ -6834,7 +6753,6 @@ module.exports = [
     name: "General Hux",
     aliases: ["GH"],
     id: "GENERALHUX",
-    pk: 408,
     url: "http://swgoh.gg/characters/general-hux/",
     image: "https://game-assets.swgoh.gg/tex.charui_generalhux.png",
     description:
@@ -6914,7 +6832,6 @@ module.exports = [
     name: "General Kenobi",
     aliases: ["GK", "ObiWan", "Obi Wan"],
     id: "GENERALKENOBI",
-    pk: 213,
     url: "http://swgoh.gg/characters/general-kenobi/",
     image: "https://game-assets.swgoh.gg/tex.charui_obiwangeneral.png",
     description:
@@ -7013,7 +6930,6 @@ module.exports = [
     name: "General Skywalker",
     aliases: ["GAS", "Anakin"],
     id: "GENERALSKYWALKER",
-    pk: 385,
     url: "http://swgoh.gg/characters/general-skywalker/",
     image: "https://game-assets.swgoh.gg/tex.charui_generalanakin.png",
     description: "Fierce Jedi Attacker who protects his battalion at all costs",
@@ -7104,7 +7020,6 @@ module.exports = [
     name: "General Veers",
     aliases: ["GV"],
     id: "VEERS",
-    pk: 132,
     url: "http://swgoh.gg/characters/general-veers/",
     image: "https://game-assets.swgoh.gg/tex.charui_veers.png",
     description:
@@ -7184,7 +7099,6 @@ module.exports = [
     name: "Geonosian Brood Alpha",
     aliases: ["GBA"],
     id: "GEONOSIANBROODALPHA",
-    pk: 363,
     url: "http://swgoh.gg/characters/geonosian-brood-alpha/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_broodalpha.png",
     description:
@@ -7277,7 +7191,6 @@ module.exports = [
     name: "Geonosian Soldier",
     aliases: ["GS"],
     id: "GEONOSIANSOLDIER",
-    pk: 57,
     url: "http://swgoh.gg/characters/geonosian-soldier/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_soldier.png",
     description:
@@ -7356,7 +7269,6 @@ module.exports = [
     name: "Geonosian Spy",
     aliases: ["GS"],
     id: "GEONOSIANSPY",
-    pk: 88,
     url: "http://swgoh.gg/characters/geonosian-spy/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_spy.png",
     description:
@@ -7438,7 +7350,6 @@ module.exports = [
     name: "Grand Admiral Thrawn",
     aliases: ["GAT"],
     id: "GRANDADMIRALTHRAWN",
-    pk: 237,
     url: "http://swgoh.gg/characters/grand-admiral-thrawn/",
     image: "https://game-assets.swgoh.gg/tex.charui_thrawn.png",
     description:
@@ -7527,7 +7438,6 @@ module.exports = [
     name: "Grand Master Yoda",
     aliases: ["GMY"],
     id: "GRANDMASTERYODA",
-    pk: 144,
     url: "http://swgoh.gg/characters/grand-master-yoda/",
     image: "https://game-assets.swgoh.gg/tex.charui_yodagrandmaster.png",
     description:
@@ -7623,7 +7533,6 @@ module.exports = [
     name: "Grand Moff Tarkin",
     aliases: ["GMT"],
     id: "GRANDMOFFTARKIN",
-    pk: 138,
     url: "http://swgoh.gg/characters/grand-moff-tarkin/",
     image: "https://game-assets.swgoh.gg/tex.charui_tarkinadmiral.png",
     description: "Offensive Empire Support with crushing AoE debuffs",
@@ -7711,7 +7620,6 @@ module.exports = [
   {
     name: "Greedo",
     id: "GREEDO",
-    pk: 190,
     url: "http://swgoh.gg/characters/greedo/",
     image: "https://game-assets.swgoh.gg/tex.charui_greedo.png",
     description: "Deadly Attacker that gains extra attacks from Critical Hits",
@@ -7793,7 +7701,6 @@ module.exports = [
     name: "Greef Karga",
     aliases: ["GK"],
     id: "GREEFKARGA",
-    pk: 446,
     url: "http://swgoh.gg/characters/greef-karga/",
     image: "https://game-assets.swgoh.gg/tex.charui_greefkarga.png",
     description:
@@ -7878,7 +7785,6 @@ module.exports = [
   {
     name: "Han Solo",
     id: "HANSOLO",
-    pk: 41,
     url: "http://swgoh.gg/characters/han-solo/",
     image: "https://game-assets.swgoh.gg/tex.charui_han.png",
     description:
@@ -7958,7 +7864,6 @@ module.exports = [
   {
     name: "Hera Syndulla",
     id: "HERASYNDULLAS3",
-    pk: 227,
     url: "http://swgoh.gg/characters/hera-syndulla/",
     image: "https://game-assets.swgoh.gg/tex.charui_hera_s3.png",
     description:
@@ -8047,7 +7952,6 @@ module.exports = [
     name: "Hermit Yoda",
     aliases: ["HODA"],
     id: "HERMITYODA",
-    pk: 74,
     url: "http://swgoh.gg/characters/hermit-yoda/",
     image: "https://game-assets.swgoh.gg/tex.charui_yodahermit.png",
     description:
@@ -8129,7 +8033,6 @@ module.exports = [
     name: "HK-47",
     aliases: ["HK47"],
     id: "HK47",
-    pk: 172,
     url: "http://swgoh.gg/characters/hk-47/",
     image: "https://game-assets.swgoh.gg/tex.charui_hk47.png",
     description: "Offensive Attacker with powerful Darth Revan synergy",
@@ -8211,7 +8114,6 @@ module.exports = [
     name: "Hoth Rebel Scout",
     aliases: ["HRS"],
     id: "HOTHREBELSCOUT",
-    pk: 157,
     url: "http://swgoh.gg/characters/hoth-rebel-scout/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebelhothscout.png",
     description:
@@ -8290,7 +8192,6 @@ module.exports = [
     name: "Hoth Rebel Soldier",
     aliases: ["HRS"],
     id: "HOTHREBELSOLDIER",
-    pk: 54,
     url: "http://swgoh.gg/characters/hoth-rebel-soldier/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebelhoth.png",
     description:
@@ -8369,7 +8270,6 @@ module.exports = [
     name: "Hunter",
     aliases: ["Bad Batch Hunter", "BBH"],
     id: "BADBATCHHUNTER",
-    pk: 975,
     url: "http://swgoh.gg/characters/hunter/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb_hunter.png",
     description:
@@ -8565,7 +8465,6 @@ module.exports = [
     name: "IG-100 MagnaGuard",
     aliases: ["Maggy", "Maggie"],
     id: "MAGNAGUARD",
-    pk: 17,
     url: "http://swgoh.gg/characters/ig-100-magnaguard/",
     image: "https://game-assets.swgoh.gg/tex.charui_magnaguard.png",
     description:
@@ -8647,7 +8546,6 @@ module.exports = [
     name: "IG-11",
     aliases: ["IG11", "Nanny"],
     id: "IG11",
-    pk: 638,
     url: "http://swgoh.gg/characters/ig-11/",
     image: "https://game-assets.swgoh.gg/tex.charui_ig11_nurse.png",
     description: "Versatile Healer with strong Scoundrel and Droid synergies",
@@ -8727,7 +8625,6 @@ module.exports = [
     name: "IG-86 Sentinel Droid",
     aliases: ["IG86"],
     id: "IG86SENTINELDROID",
-    pk: 167,
     url: "http://swgoh.gg/characters/ig-86-sentinel-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_ig86.png",
     description:
@@ -8806,7 +8703,6 @@ module.exports = [
     name: "IG-88",
     aliases: ["IG88"],
     id: "IG88",
-    pk: 143,
     url: "http://swgoh.gg/characters/ig-88/",
     image: "https://game-assets.swgoh.gg/tex.charui_ig88.png",
     description:
@@ -8886,7 +8782,6 @@ module.exports = [
     name: "Ima-Gun Di",
     aliases: ["IGD", "Gundy"],
     id: "IMAGUNDI",
-    pk: 147,
     url: "http://swgoh.gg/characters/ima-gun-di/",
     image: "https://game-assets.swgoh.gg/tex.charui_imagundi.png",
     description:
@@ -8963,7 +8858,6 @@ module.exports = [
     name: "Imperial Probe Droid",
     aliases: ["IPD"],
     id: "IMPERIALPROBEDROID",
-    pk: 248,
     url: "http://swgoh.gg/characters/imperial-probe-droid/",
     image: "https://game-assets.swgoh.gg/tex.charui_probedroid.png",
     description:
@@ -9053,7 +8947,6 @@ module.exports = [
     name: "Imperial Super Commando",
     aliases: ["ISC"],
     id: "IMPERIALSUPERCOMMANDO",
-    pk: 233,
     url: "http://swgoh.gg/characters/imperial-super-commando/",
     image:
       "https://game-assets.swgoh.gg/tex.charui_imperial_super_commando.png",
@@ -9140,7 +9033,6 @@ module.exports = [
     name: "Jango Fett",
     aliases: ["JF"],
     id: "JANGOFETT",
-    pk: 298,
     url: "http://swgoh.gg/characters/jango-fett/",
     image: "https://game-assets.swgoh.gg/tex.charui_jangofett.png",
     description:
@@ -9231,7 +9123,6 @@ module.exports = [
   {
     name: "Jawa",
     id: "JAWA",
-    pk: 123,
     url: "http://swgoh.gg/characters/jawa/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_jawa.png",
     description:
@@ -9303,7 +9194,6 @@ module.exports = [
     name: "Jawa Engineer",
     aliases: ["JE"],
     id: "JAWAENGINEER",
-    pk: 87,
     url: "http://swgoh.gg/characters/jawa-engineer/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_engineer.png",
     description:
@@ -9381,7 +9271,6 @@ module.exports = [
     name: "Jawa Scavenger",
     aliases: ["JS"],
     id: "JAWASCAVENGER",
-    pk: 209,
     url: "http://swgoh.gg/characters/jawa-scavenger/",
     image: "https://game-assets.swgoh.gg/tex.charui_jawa_scavenger.png",
     description:
@@ -9469,7 +9358,6 @@ module.exports = [
     name: "Jedi Consular",
     aliases: ["JC"],
     id: "JEDIKNIGHTCONSULAR",
-    pk: 100,
     url: "http://swgoh.gg/characters/jedi-consular/",
     image: "https://game-assets.swgoh.gg/tex.charui_jedi_consular_03.png",
     description: "Well-rounded Jedi Healer with a mix of offense and defense",
@@ -9547,7 +9435,6 @@ module.exports = [
     name: "Jedi Knight Anakin",
     aliases: ["JKA", "Jedi Anakin"],
     id: "ANAKINKNIGHT",
-    pk: 112,
     url: "http://swgoh.gg/characters/jedi-knight-anakin/",
     image: "https://game-assets.swgoh.gg/tex.charui_anakinknight.png",
     description:
@@ -9629,7 +9516,6 @@ module.exports = [
     name: "Jedi Knight Guardian",
     aliases: ["JKG"],
     id: "JEDIKNIGHTGUARDIAN",
-    pk: 107,
     url: "http://swgoh.gg/characters/jedi-knight-guardian/",
     image: "https://game-assets.swgoh.gg/tex.charui_jedi_guardian_01.png",
     description:
@@ -9708,7 +9594,6 @@ module.exports = [
     name: "Jedi Knight Luke Skywalker",
     aliases: ["JKL", "Jedi Luke"],
     id: "JEDIKNIGHTLUKE",
-    pk: 487,
     url: "http://swgoh.gg/characters/jedi-knight-luke-skywalker/",
     image: "https://game-assets.swgoh.gg/tex.charui_luke_jediknight.png",
     description:
@@ -9799,7 +9684,6 @@ module.exports = [
     name: "Jedi Knight Revan",
     aliases: ["JKR", "Jedi Revan", "Revan Light"],
     id: "JEDIKNIGHTREVAN",
-    pk: 302,
     url: "http://swgoh.gg/characters/jedi-knight-revan/",
     image: "https://game-assets.swgoh.gg/tex.charui_jedirevan.png",
     description:
@@ -9897,7 +9781,6 @@ module.exports = [
     name: "Jedi Master Kenobi",
     aliases: ["JMK", "GL Kenobi", "Obi Wan", "Obiwan"],
     id: "JEDIMASTERKENOBI",
-    pk: 1264,
     url: "http://swgoh.gg/characters/jedi-master-kenobi/",
     image: "https://game-assets.swgoh.gg/tex.charui_globiwan.png",
     description:
@@ -10004,7 +9887,6 @@ module.exports = [
     name: "Jedi Master Luke Skywalker",
     aliases: ["JML", "Master Luke", "GL Luke"],
     id: "GRANDMASTERLUKE",
-    pk: 600,
     url: "http://swgoh.gg/characters/jedi-master-luke-skywalker/",
     image: "https://game-assets.swgoh.gg/tex.charui_luke_jml.png",
     description:
@@ -10108,7 +9990,6 @@ module.exports = [
     name: "Jolee Bindo",
     aliases: ["JB"],
     id: "JOLEEBINDO",
-    pk: 283,
     url: "http://swgoh.gg/characters/jolee-bindo/",
     image: "https://game-assets.swgoh.gg/tex.charui_joleebindo.png",
     description:
@@ -10185,7 +10066,6 @@ module.exports = [
   {
     name: "Juhani",
     id: "JUHANI",
-    pk: 308,
     url: "http://swgoh.gg/characters/juhani/",
     image: "https://game-assets.swgoh.gg/tex.charui_juhani.png",
     description:
@@ -10266,7 +10146,6 @@ module.exports = [
     name: "Jyn Erso",
     aliases: ["JE"],
     id: "JYNERSO",
-    pk: 217,
     url: "http://swgoh.gg/characters/jyn-erso/",
     image: "https://game-assets.swgoh.gg/tex.charui_jyn.png",
     description:
@@ -10346,7 +10225,6 @@ module.exports = [
     name: "K-2SO",
     aliases: ["K2S0", "K2SO"],
     id: "K2SO",
-    pk: 218,
     url: "http://swgoh.gg/characters/k-2so/",
     image: "https://game-assets.swgoh.gg/tex.charui_k2so.png",
     description: "Rebel Tank who Taunts and Counter Attacks",
@@ -10424,7 +10302,6 @@ module.exports = [
     name: "Kanan Jarrus",
     aliases: ["KJ"],
     id: "KANANJARRUSS3",
-    pk: 226,
     url: "http://swgoh.gg/characters/kanan-jarrus/",
     image: "https://game-assets.swgoh.gg/tex.charui_kanan_s3.png",
     description:
@@ -10512,7 +10389,6 @@ module.exports = [
     name: "Ki-Adi-Mundi",
     aliases: ["KAM"],
     id: "KIADIMUNDI",
-    pk: 397,
     url: "http://swgoh.gg/characters/ki-adi-mundi/",
     image: "https://game-assets.swgoh.gg/tex.charui_kiadimundi.png",
     description:
@@ -10594,7 +10470,6 @@ module.exports = [
     name: "Kit Fisto",
     aliases: ["KF"],
     id: "KITFISTO",
-    pk: 187,
     url: "http://swgoh.gg/characters/kit-fisto/",
     image: "https://game-assets.swgoh.gg/tex.charui_kitfisto.png",
     description:
@@ -10673,7 +10548,6 @@ module.exports = [
   {
     name: "Kuiil",
     id: "KUIIL",
-    pk: 609,
     url: "http://swgoh.gg/characters/kuiil/",
     image: "https://game-assets.swgoh.gg/tex.charui_kuiil.png",
     description: "A supportive mechanic who aids Droids and Scoundrels.",
@@ -10751,7 +10625,6 @@ module.exports = [
     name: "Kyle Katarn",
     aliases: ["KK"],
     id: "KYLEKATARN",
-    pk: 2243,
     url: "http://swgoh.gg/characters/kyle-katarn/",
     image: "https://game-assets.swgoh.gg/tex.charui_kylekatarn.png",
     description: "A Force-sensitive Rebel operative and Jedi Knight",
@@ -10834,7 +10707,6 @@ module.exports = [
     name: "Kylo Ren",
     aliases: ["OG Kylo"],
     id: "KYLOREN",
-    pk: 141,
     url: "http://swgoh.gg/characters/kylo-ren/",
     image: "https://game-assets.swgoh.gg/tex.charui_kyloren.png",
     description:
@@ -10915,7 +10787,6 @@ module.exports = [
     name: "Kylo Ren (Unmasked)",
     aliases: ["KRU"],
     id: "KYLORENUNMASKED",
-    pk: 245,
     url: "http://swgoh.gg/characters/kylo-ren-unmasked/",
     image: "https://game-assets.swgoh.gg/tex.charui_kylo_unmasked.png",
     description: "Tough First Order Tank with a powerful Stun",
@@ -11002,7 +10873,6 @@ module.exports = [
     name: "L3-37",
     aliases: ["L337"],
     id: "L3_37",
-    pk: 279,
     url: "http://swgoh.gg/characters/l3-37/",
     image: "https://game-assets.swgoh.gg/tex.charui_l337.png",
     description:
@@ -11081,7 +10951,6 @@ module.exports = [
     name: "Lando Calrissian",
     aliases: ["LC"],
     id: "ADMINISTRATORLANDO",
-    pk: 4,
     url: "http://swgoh.gg/characters/lando-calrissian/",
     image: "https://game-assets.swgoh.gg/tex.charui_landobespin.png",
     description:
@@ -11164,7 +11033,6 @@ module.exports = [
   {
     name: "Lobot",
     id: "LOBOT",
-    pk: 84,
     url: "http://swgoh.gg/characters/lobot/",
     image: "https://game-assets.swgoh.gg/tex.charui_lobot.png",
     description:
@@ -11242,7 +11110,6 @@ module.exports = [
   {
     name: "Logray",
     id: "LOGRAY",
-    pk: 170,
     url: "http://swgoh.gg/characters/logray/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_logray.png",
     description:
@@ -11325,7 +11192,6 @@ module.exports = [
     name: "Lord Vader",
     aliases: ["LV", "GL Vader", "GL Anakin"],
     id: "LORDVADER",
-    pk: 1712,
     url: "http://swgoh.gg/characters/lord-vader/",
     image: "https://game-assets.swgoh.gg/tex.charui_lordvader.png",
     description:
@@ -11416,7 +11282,6 @@ module.exports = [
     name: "Luke Skywalker (Farmboy)",
     aliases: ["Farmer Luke", "LSF"],
     id: "LUKESKYWALKER",
-    pk: 24,
     url: "http://swgoh.gg/characters/luke-skywalker-farmboy/",
     image: "https://game-assets.swgoh.gg/tex.charui_luke_ep4.png",
     description:
@@ -11505,7 +11370,6 @@ module.exports = [
     name: "Luminara Unduli",
     aliases: ["Lumi", "LU"],
     id: "LUMINARAUNDULI",
-    pk: 158,
     url: "http://swgoh.gg/characters/luminara-unduli/",
     image: "https://game-assets.swgoh.gg/tex.charui_luminara.png",
     description:
@@ -11591,7 +11455,6 @@ module.exports = [
     name: "Mace Windu",
     aliases: ["Samuel", "Sam", "MW"],
     id: "MACEWINDU",
-    pk: 70,
     url: "http://swgoh.gg/characters/mace-windu/",
     image: "https://game-assets.swgoh.gg/tex.charui_macewindu.png",
     description:
@@ -11675,7 +11538,6 @@ module.exports = [
     name: "Magmatrooper",
     aliases: ["MT"],
     id: "MAGMATROOPER",
-    pk: 47,
     url: "http://swgoh.gg/characters/magmatrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperstorm_magma.png",
     description:
@@ -11747,7 +11609,6 @@ module.exports = [
     name: "Mara Jade, The Emperor's Hand",
     aliases: ["MJ", "Lukes Wife", "MJTEH"],
     id: "MARAJADE",
-    pk: 2494,
     url: "http://swgoh.gg/characters/mara-jade-the-emperors-hand/",
     image: "https://game-assets.swgoh.gg/tex.charui_marajade.png",
     description:
@@ -11832,7 +11693,6 @@ module.exports = [
   {
     name: "Maul",
     id: "MAULS7",
-    pk: 1575,
     url: "http://swgoh.gg/characters/maul/",
     image: "https://game-assets.swgoh.gg/tex.charui_maul_cyborg.png",
     description: "Unrelenting attacker that uses his anguish to crush his foes",
@@ -11918,7 +11778,6 @@ module.exports = [
     name: "Mission Vao",
     aliases: ["MV"],
     id: "MISSIONVAO",
-    pk: 287,
     url: "http://swgoh.gg/characters/mission-vao/",
     image: "https://game-assets.swgoh.gg/tex.charui_mission.png",
     description: "Slippery Scoundrel Attacker who blinds her enemies",
@@ -12040,7 +11899,6 @@ module.exports = [
     name: "Moff Gideon",
     aliases: ["MG"],
     id: "MOFFGIDEONS1",
-    pk: 691,
     url: "http://swgoh.gg/characters/moff-gideon/",
     image: "https://game-assets.swgoh.gg/tex.charui_moffgideon.png",
     description:
@@ -12130,7 +11988,6 @@ module.exports = [
     name: "Mon Mothma",
     aliases: ["MM"],
     id: "MONMOTHMA",
-    pk: 543,
     url: "http://swgoh.gg/characters/mon-mothma/",
     image: "https://game-assets.swgoh.gg/tex.charui_monmothma.png",
     description: "Rebel Leader who supports and rallies her allies",
@@ -12210,7 +12067,6 @@ module.exports = [
     name: "Mother Talzin",
     aliases: ["MT"],
     id: "MOTHERTALZIN",
-    pk: 75,
     url: "http://swgoh.gg/characters/mother-talzin/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsisters_talzin.png",
     description:
@@ -12291,7 +12147,6 @@ module.exports = [
     name: "Nightsister Acolyte",
     aliases: ["NA"],
     id: "NIGHTSISTERACOLYTE",
-    pk: 108,
     url: "http://swgoh.gg/characters/nightsister-acolyte/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsister_acolyte.png",
     description:
@@ -12370,7 +12225,6 @@ module.exports = [
     name: "Nightsister Initiate",
     aliases: ["NI"],
     id: "NIGHTSISTERINITIATE",
-    pk: 129,
     url: "http://swgoh.gg/characters/nightsister-initiate/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsister_initiate.png",
     description:
@@ -12449,7 +12303,6 @@ module.exports = [
     name: "Nightsister Spirit",
     aliases: ["NS"],
     id: "NIGHTSISTERSPIRIT",
-    pk: 244,
     url: "http://swgoh.gg/characters/nightsister-spirit/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsisters_wraith.png",
     description:
@@ -12536,7 +12389,6 @@ module.exports = [
     name: "Nightsister Zombie",
     aliases: ["NZ"],
     id: "NIGHTSISTERZOMBIE",
-    pk: 243,
     url: "http://swgoh.gg/characters/nightsister-zombie/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsisters_zombie.png",
     description:
@@ -12615,7 +12467,6 @@ module.exports = [
     name: "Nute Gunray",
     aliases: ["NG"],
     id: "NUTEGUNRAY",
-    pk: 177,
     url: "http://swgoh.gg/characters/nute-gunray/",
     image: "https://game-assets.swgoh.gg/tex.charui_nutegunray.png",
     description:
@@ -12696,7 +12547,6 @@ module.exports = [
     name: "Obi-Wan Kenobi (Old Ben)",
     aliases: ["Obiwan", "Obi Wan"],
     id: "OLDBENKENOBI",
-    pk: 154,
     url: "http://swgoh.gg/characters/obi-wan-kenobi-old-ben/",
     image: "https://game-assets.swgoh.gg/tex.charui_obiwanep4.png",
     description:
@@ -12781,7 +12631,6 @@ module.exports = [
     name: "Old Daka",
     aliases: ["OD"],
     id: "DAKA",
-    pk: 25,
     url: "http://swgoh.gg/characters/old-daka/",
     image: "https://game-assets.swgoh.gg/tex.charui_daka.png",
     description: "Defensive Nightsister Healer who Stuns and Revives",
@@ -12861,7 +12710,6 @@ module.exports = [
     name: "Omega",
     aliases: ["Bad Batch Omega"],
     id: "BADBATCHOMEGA",
-    pk: 1417,
     url: "http://swgoh.gg/characters/omega/",
     image: "https://game-assets.swgoh.gg/tex.charui_badbatchomega.png",
     description:
@@ -12957,7 +12805,6 @@ module.exports = [
     name: "Padmé Amidala",
     aliases: ["Padme", "PA"],
     id: "PADMEAMIDALA",
-    pk: 346,
     url: "http://swgoh.gg/characters/padme-amidala/",
     image: "https://game-assets.swgoh.gg/tex.charui_padme_geonosis.png",
     description:
@@ -13036,7 +12883,6 @@ module.exports = [
   {
     name: "Pao",
     id: "PAO",
-    pk: 228,
     url: "http://swgoh.gg/characters/pao/",
     image: "https://game-assets.swgoh.gg/tex.charui_pao.png",
     description: "Unrelenting Rebel Attacker with a mighty battle cry",
@@ -13112,7 +12958,6 @@ module.exports = [
   {
     name: "Paploo",
     id: "PAPLOO",
-    pk: 185,
     url: "http://swgoh.gg/characters/paploo/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_paploo.png",
     description: "Resourceful Ewok Tank with assist and buff synergies",
@@ -13191,7 +13036,6 @@ module.exports = [
     name: "Plo Koon",
     aliases: ["PK"],
     id: "PLOKOON",
-    pk: 7,
     url: "http://swgoh.gg/characters/plo-koon/",
     image: "https://game-assets.swgoh.gg/tex.charui_plokoon.png",
     description:
@@ -13271,7 +13115,6 @@ module.exports = [
     name: "Poe Dameron",
     aliases: ["PD"],
     id: "POE",
-    pk: 179,
     url: "http://swgoh.gg/characters/poe-dameron/",
     image: "https://game-assets.swgoh.gg/tex.charui_poe.png",
     description:
@@ -13349,7 +13192,6 @@ module.exports = [
     name: "Poggle the Lesser",
     aliases: ["PL", "PTL"],
     id: "POGGLETHELESSER",
-    pk: 81,
     url: "http://swgoh.gg/characters/poggle-the-lesser/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_poggle.png",
     description:
@@ -13436,7 +13278,6 @@ module.exports = [
     name: "Princess Leia",
     aliases: ["PL"],
     id: "PRINCESSLEIA",
-    pk: 122,
     url: "http://swgoh.gg/characters/princess-leia/",
     image: "https://game-assets.swgoh.gg/tex.charui_leia_princess.png",
     description:
@@ -13519,7 +13360,6 @@ module.exports = [
     name: "Qi'ra",
     aliases: ["Qira", "Qi Ra"],
     id: "QIRA",
-    pk: 272,
     url: "http://swgoh.gg/characters/qira/",
     image: "https://game-assets.swgoh.gg/tex.charui_qira.png",
     description:
@@ -13605,7 +13445,6 @@ module.exports = [
     name: "Qui-Gon Jinn",
     aliases: ["Quigon", "Qui Gon", "QGJ", "Liam"],
     id: "QUIGONJINN",
-    pk: 44,
     url: "http://swgoh.gg/characters/qui-gon-jinn/",
     image: "https://game-assets.swgoh.gg/tex.charui_quigon.png",
     description: "Versatile attacker focused on generating extra attacks.",
@@ -13690,7 +13529,6 @@ module.exports = [
     name: "R2-D2",
     aliases: ["R2D2"],
     id: "R2D2_LEGENDARY",
-    pk: 235,
     url: "http://swgoh.gg/characters/r2-d2/",
     image: "https://game-assets.swgoh.gg/tex.charui_astromech_r2d2.png",
     description:
@@ -13784,7 +13622,6 @@ module.exports = [
     name: "Range Trooper",
     aliases: ["RT"],
     id: "RANGETROOPER",
-    pk: 280,
     url: "http://swgoh.gg/characters/range-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperranger.png",
     description:
@@ -13856,7 +13693,6 @@ module.exports = [
     name: "Rebel Officer Leia Organa",
     aliases: ["ROLO", "Hoth Leia"],
     id: "HOTHLEIA",
-    pk: 92,
     url: "http://swgoh.gg/characters/rebel-officer-leia-organa/",
     image: "https://game-assets.swgoh.gg/tex.charui_leiahoth.png",
     description:
@@ -13938,7 +13774,6 @@ module.exports = [
     name: "Resistance Hero Finn",
     aliases: ["Hero Finn", "RHF", "Bromance"],
     id: "EPIXFINN",
-    pk: 417,
     url: "http://swgoh.gg/characters/resistance-hero-finn/",
     image: "https://game-assets.swgoh.gg/tex.charui_finn.png",
     description:
@@ -14017,7 +13852,6 @@ module.exports = [
     name: "Resistance Hero Poe",
     aliases: ["Hero Poe", "RHP", "Bromance"],
     id: "EPIXPOE",
-    pk: 420,
     url: "http://swgoh.gg/characters/resistance-hero-poe/",
     image: "https://game-assets.swgoh.gg/tex.charui_poe_tros.png",
     description:
@@ -14097,7 +13931,6 @@ module.exports = [
     name: "Resistance Pilot",
     aliases: ["RP"],
     id: "RESISTANCEPILOT",
-    pk: 38,
     url: "http://swgoh.gg/characters/resistance-pilot/",
     image: "https://game-assets.swgoh.gg/tex.charui_resistancepilot.png",
     description:
@@ -14176,7 +14009,6 @@ module.exports = [
     name: "Resistance Trooper",
     aliases: ["RT"],
     id: "RESISTANCETROOPER",
-    pk: 133,
     url: "http://swgoh.gg/characters/resistance-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_resistancetrooper.png",
     description:
@@ -14255,7 +14087,6 @@ module.exports = [
     name: "Rey",
     aliases: ["GL Rey"],
     id: "GLREY",
-    pk: 434,
     url: "http://swgoh.gg/characters/rey/",
     image: "https://game-assets.swgoh.gg/tex.charui_rey_tros.png",
     description:
@@ -14343,7 +14174,6 @@ module.exports = [
     name: "Rey (Jedi Training)",
     aliases: ["RJT", "JTR"],
     id: "REYJEDITRAINING",
-    pk: 250,
     url: "http://swgoh.gg/characters/rey-jedi-training/",
     image: "https://game-assets.swgoh.gg/tex.charui_rey_tlj.png",
     description:
@@ -14439,7 +14269,6 @@ module.exports = [
     name: "Rey (Scavenger)",
     aliases: ["RS", "Rey Scavenger"],
     id: "REY",
-    pk: 116,
     url: "http://swgoh.gg/characters/rey-scavenger/",
     image: "https://game-assets.swgoh.gg/tex.charui_reyjakku.png",
     description:
@@ -14511,7 +14340,6 @@ module.exports = [
     name: "Rose Tico",
     aliases: ["RT"],
     id: "ROSETICO",
-    pk: 255,
     url: "http://swgoh.gg/characters/rose-tico/",
     image: "https://game-assets.swgoh.gg/tex.charui_rose.png",
     description:
@@ -14592,7 +14420,6 @@ module.exports = [
     name: "Royal Guard",
     aliases: ["RG", "Red Coat"],
     id: "ROYALGUARD",
-    pk: 18,
     url: "http://swgoh.gg/characters/royal-guard/",
     image: "https://game-assets.swgoh.gg/tex.charui_royalguard.png",
     description:
@@ -14664,7 +14491,6 @@ module.exports = [
     name: "Sabine Wren",
     aliases: ["SW", "SR"],
     id: "SABINEWRENS3",
-    pk: 231,
     url: "http://swgoh.gg/characters/sabine-wren/",
     image: "https://game-assets.swgoh.gg/tex.charui_sabine_s3.png",
     description:
@@ -14745,7 +14571,6 @@ module.exports = [
     name: "Savage Opress",
     aliases: ["SO"],
     id: "SAVAGEOPRESS",
-    pk: 137,
     url: "http://swgoh.gg/characters/savage-opress/",
     image: "https://game-assets.swgoh.gg/tex.charui_savageopress.png",
     description:
@@ -14827,7 +14652,6 @@ module.exports = [
     name: "Scarif Rebel Pathfinder",
     aliases: ["SRP"],
     id: "SCARIFREBEL",
-    pk: 210,
     url: "http://swgoh.gg/characters/scarif-rebel-pathfinder/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebel_scarif.png",
     description: "Steadfast Rebel Tank who debuffs, Taunts, and self-revives",
@@ -14906,7 +14730,6 @@ module.exports = [
     name: "Second Sister",
     aliases: ["SS", "2nd Sister"],
     id: "SECONDSISTER",
-    pk: 2700,
     url: "http://swgoh.gg/characters/second-sister/",
     image: "https://game-assets.swgoh.gg/tex.charui_secondsister.png",
     description:
@@ -14992,7 +14815,6 @@ module.exports = [
     name: "Shaak Ti",
     aliases: ["ST"],
     id: "SHAAKTI",
-    pk: 351,
     url: "http://swgoh.gg/characters/shaak-ti/",
     image: "https://game-assets.swgoh.gg/tex.charui_shaakti.png",
     description: "Inspiring Jedi Leader with heightened reflexes",
@@ -15077,7 +14899,6 @@ module.exports = [
     name: "Shoretrooper",
     aliases: ["ST"],
     id: "SHORETROOPER",
-    pk: 212,
     url: "http://swgoh.gg/characters/shoretrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_troopershore.png",
     description:
@@ -15319,7 +15140,6 @@ module.exports = [
       "Sith Palpatine",
     ],
     id: "SITHPALPATINE",
-    pk: 596,
     url: "http://swgoh.gg/characters/sith-eternal-emperor/",
     image: "https://game-assets.swgoh.gg/tex.charui_espalpatine_pre.png",
     description:
@@ -15412,7 +15232,6 @@ module.exports = [
     name: "Sith Marauder",
     aliases: ["SM"],
     id: "SITHMARAUDER",
-    pk: 256,
     url: "http://swgoh.gg/characters/sith-marauder/",
     image: "https://game-assets.swgoh.gg/tex.charui_sithmarauder.png",
     description:
@@ -15489,7 +15308,6 @@ module.exports = [
     name: "Sith Trooper",
     aliases: ["ST"],
     id: "FOSITHTROOPER",
-    pk: 405,
     url: "http://swgoh.gg/characters/sith-trooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_firstorder_sithtrooper.png",
     description:
@@ -15575,7 +15393,6 @@ module.exports = [
     name: "Snowtrooper",
     aliases: ["ST"],
     id: "SNOWTROOPER",
-    pk: 162,
     url: "http://swgoh.gg/characters/snowtrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_troopersnow.png",
     description:
@@ -15652,7 +15469,6 @@ module.exports = [
     name: "Starkiller",
     aliases: ["SK"],
     id: "STARKILLER",
-    pk: 2476,
     url: "http://swgoh.gg/characters/starkiller/",
     image: "https://game-assets.swgoh.gg/tex.charui_starkiller.png",
     description:
@@ -15740,7 +15556,6 @@ module.exports = [
     name: "Stormtrooper",
     aliases: ["ST", "Gary"],
     id: "STORMTROOPER",
-    pk: 55,
     url: "http://swgoh.gg/characters/stormtrooper/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperstorm.png",
     description:
@@ -15812,7 +15627,6 @@ module.exports = [
     name: "Stormtrooper Han",
     aliases: ["STH", "StHan"],
     id: "STORMTROOPERHAN",
-    pk: 202,
     url: "http://swgoh.gg/characters/stormtrooper-han/",
     image: "https://game-assets.swgoh.gg/tex.charui_trooperstorm_han.png",
     description:
@@ -15896,7 +15710,6 @@ module.exports = [
     name: "Sun Fac",
     aliases: ["SF"],
     id: "SUNFAC",
-    pk: 192,
     url: "http://swgoh.gg/characters/sun-fac/",
     image: "https://game-assets.swgoh.gg/tex.charui_geonosian_sunfac.png",
     description:
@@ -15979,7 +15792,6 @@ module.exports = [
     name: "Supreme Leader Kylo Ren",
     aliases: ["SLKR", "GL Kylo"],
     id: "SUPREMELEADERKYLOREN",
-    pk: 441,
     url: "http://swgoh.gg/characters/supreme-leader-kylo-ren/",
     image: "https://game-assets.swgoh.gg/tex.charui_kyloren_tros.png",
     description:
@@ -16078,7 +15890,6 @@ module.exports = [
     name: "T3-M4",
     aliases: ["T3M4"],
     id: "T3_M4",
-    pk: 286,
     url: "http://swgoh.gg/characters/t3-m4/",
     image: "https://game-assets.swgoh.gg/tex.charui_t3m4.png",
     description:
@@ -16159,7 +15970,6 @@ module.exports = [
   {
     name: "Talia",
     id: "TALIA",
-    pk: 197,
     url: "http://swgoh.gg/characters/talia/",
     image: "https://game-assets.swgoh.gg/tex.charui_nightsister_talia.png",
     description:
@@ -16238,7 +16048,6 @@ module.exports = [
     name: "Tech",
     aliases: ["Bad Batch Tech"],
     id: "BADBATCHTECH",
-    pk: 1003,
     url: "http://swgoh.gg/characters/tech/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb_tech.png",
     description:
@@ -16322,7 +16131,6 @@ module.exports = [
   {
     name: "Teebo",
     id: "TEEBO",
-    pk: 168,
     url: "http://swgoh.gg/characters/teebo/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_teebo.png",
     description:
@@ -16399,7 +16207,6 @@ module.exports = [
     name: "The Armorer",
     aliases: ["TA"],
     id: "ARMORER",
-    pk: 798,
     url: "http://swgoh.gg/characters/the-armorer/",
     image: "https://game-assets.swgoh.gg/tex.charui_armorer.png",
     description:
@@ -16478,7 +16285,6 @@ module.exports = [
     name: "The Mandalorian",
     aliases: ["Mando", "TM"],
     id: "THEMANDALORIAN",
-    pk: 447,
     url: "http://swgoh.gg/characters/the-mandalorian/",
     image: "https://game-assets.swgoh.gg/tex.charui_mandalorian.png",
     description:
@@ -16573,7 +16379,6 @@ module.exports = [
     name: "The Mandalorian (Beskar Armor)",
     aliases: ["Mando", "BAM"],
     id: "THEMANDALORIANBESKARARMOR",
-    pk: 724,
     url: "http://swgoh.gg/characters/the-mandalorian-beskar-armor/",
     image: "https://game-assets.swgoh.gg/tex.charui_mandobeskar.png",
     description:
@@ -16755,7 +16560,6 @@ module.exports = [
     name: "TIE Fighter Pilot",
     aliases: ["TFP"],
     id: "TIEFIGHTERPILOT",
-    pk: 124,
     url: "http://swgoh.gg/characters/tie-fighter-pilot/",
     image: "https://game-assets.swgoh.gg/tex.charui_tiepilot.png",
     description:
@@ -16841,7 +16645,6 @@ module.exports = [
     name: "Tusken Raider",
     aliases: ["TR"],
     id: "TUSKENRAIDER",
-    pk: 43,
     url: "http://swgoh.gg/characters/tusken-raider/",
     image: "https://game-assets.swgoh.gg/tex.charui_tuskenraider.png",
     description:
@@ -16913,7 +16716,6 @@ module.exports = [
     name: "Tusken Shaman",
     aliases: ["TS"],
     id: "TUSKENSHAMAN",
-    pk: 39,
     url: "http://swgoh.gg/characters/tusken-shaman/",
     image: "https://game-assets.swgoh.gg/tex.charui_tuskenshaman.png",
     description:
@@ -16984,7 +16786,6 @@ module.exports = [
   {
     name: "Ugnaught",
     id: "UGNAUGHT",
-    pk: 58,
     url: "http://swgoh.gg/characters/ugnaught/",
     image: "https://game-assets.swgoh.gg/tex.charui_ugnaught.png",
     description:
@@ -17056,7 +16857,6 @@ module.exports = [
     name: "URoRRuR'R'R",
     aliases: ["Urorora"],
     id: "URORRURRR",
-    pk: 125,
     url: "http://swgoh.gg/characters/urorrurrr/",
     image: "https://game-assets.swgoh.gg/tex.charui_urorrurrr.png",
     description:
@@ -17298,7 +17098,6 @@ module.exports = [
     name: "Veteran Smuggler Han Solo",
     aliases: ["Vet Han", "VS Han"],
     id: "SMUGGLERHAN",
-    pk: 241,
     url: "http://swgoh.gg/characters/veteran-smuggler-han-solo/",
     image: "https://game-assets.swgoh.gg/tex.charui_tfa_han.png",
     description:
@@ -17379,7 +17178,6 @@ module.exports = [
     name: "Visas Marr",
     aliases: ["VM"],
     id: "VISASMARR",
-    pk: 257,
     url: "http://swgoh.gg/characters/visas-marr/",
     image: "https://game-assets.swgoh.gg/tex.charui_visas.png",
     description: "Offensive Healer with strong anti-Sith synergy",
@@ -17456,7 +17254,6 @@ module.exports = [
   {
     name: "Wampa",
     id: "WAMPA",
-    pk: 249,
     url: "http://swgoh.gg/characters/wampa/",
     image: "https://game-assets.swgoh.gg/tex.charui_wampa.png",
     description:
@@ -17540,7 +17337,6 @@ module.exports = [
     name: "Wat Tambor",
     aliases: ["WT"],
     id: "WATTAMBOR",
-    pk: 360,
     url: "http://swgoh.gg/characters/wat-tambor/",
     image: "https://game-assets.swgoh.gg/tex.charui_wattambor.png",
     description:
@@ -17620,7 +17416,6 @@ module.exports = [
     name: "Wedge Antilles",
     aliases: ["Wiggs"],
     id: "WEDGEANTILLES",
-    pk: 191,
     url: "http://swgoh.gg/characters/wedge-antilles/",
     image: "https://game-assets.swgoh.gg/tex.charui_rebelpilot_wedge.png",
     description: "Rebel Attacker with a strong offensive opening",
@@ -17697,7 +17492,6 @@ module.exports = [
   {
     name: "Wicket",
     id: "WICKET",
-    pk: 105,
     url: "http://swgoh.gg/characters/wicket/",
     image: "https://game-assets.swgoh.gg/tex.charui_ewok_wicket.png",
     description:
@@ -17776,7 +17570,6 @@ module.exports = [
     name: "Wrecker",
     aliases: ["Bad Batch Wrecker"],
     id: "BADBATCHWRECKER",
-    pk: 1031,
     url: "http://swgoh.gg/characters/wrecker/",
     image: "https://game-assets.swgoh.gg/tex.charui_bb_wrecker.png",
     description:
@@ -17867,7 +17660,6 @@ module.exports = [
     name: "Young Han Solo",
     aliases: ["YHS"],
     id: "YOUNGHAN",
-    pk: 267,
     url: "http://swgoh.gg/characters/young-han-solo/",
     image: "https://game-assets.swgoh.gg/tex.charui_han_young.png",
     description: "Scoundrel Attacker who becomes more deadly over time",
@@ -17944,7 +17736,6 @@ module.exports = [
     name: "Young Lando Calrissian",
     aliases: ["YLC"],
     id: "YOUNGLANDO",
-    pk: 277,
     url: "http://swgoh.gg/characters/young-lando-calrissian/",
     image: "https://game-assets.swgoh.gg/tex.charui_younglando.png",
     description:
@@ -18175,7 +17966,6 @@ module.exports = [
     name: "Ninth Sister",
     aliases: ["9th Sister", "NS", "9Sister"],
     id: "NINTHSISTER",
-    pk: 2818,
     url: "http://swgoh.gg/characters/ninth-sister/",
     image: "https://game-assets.swgoh.gg/tex.charui_ninthsister.png",
     description:
@@ -18268,7 +18058,6 @@ module.exports = [
     name: "Seventh Sister",
     aliases: ["7th Sister", "SS", "7Sister"],
     id: "SEVENTHSISTER",
-    pk: 3048,
     url: "http://swgoh.gg/characters/seventh-sister/",
     image: "https://game-assets.swgoh.gg/tex.charui_seventhsister.png",
     description: "Inquisitorius Healer that helps her squad eliminate the Jedi",
@@ -18427,7 +18216,6 @@ module.exports = [
     name: "Eighth Brother",
     aliases: ["EB", "8th Brother", "8Brother"],
     id: "EIGHTHBROTHER",
-    pk: 3117,
     url: "http://swgoh.gg/characters/eighth-brother/",
     image: "https://game-assets.swgoh.gg/tex.charui_eighthbrother.png",
     description:
@@ -19874,5 +19662,243 @@ module.exports = [
     ship: "",
     ship_slot: null,
     activate_shard_count: 25,
+  },
+  {
+    name: "Captain Rex",
+    id: "CAPTAINREX",
+    url: "http://swgoh.gg/characters/captain-rex/",
+    image: "https://game-assets.swgoh.gg/tex.charui_captainrex.png",
+    description:
+      "A former Captain of the 501st Clone Battalion and veteran Support of countless conflicts",
+    combat_type: 1,
+    gear_levels: [
+      { tier: 1, gear: ["001", "002", "003", "004", "004", "005"] },
+      { tier: 2, gear: ["025", "021", "015", "021", "028", "034"] },
+      { tier: 3, gear: ["029", "076", "050", "041", "069", "049"] },
+      { tier: 4, gear: ["042", "058", "060", "055", "063", "030"] },
+      { tier: 5, gear: ["093", "043", "079", "051", "084", "079"] },
+      { tier: 6, gear: ["075", "055", "092", "092", "093", "097"] },
+      { tier: 7, gear: ["102", "079", "104", "102", "099", "099"] },
+      { tier: 8, gear: ["108", "101", "117", "108", "117", "111"] },
+      { tier: 9, gear: ["079", "108", "096", "109", "117", "111"] },
+      { tier: 10, gear: ["119", "121", "102", "172", "112", "144"] },
+      { tier: 11, gear: ["116", "172", "173", "134", "153", "139"] },
+      {
+        tier: 12,
+        gear: ["158", "159", "160", "168", "171", "G12Finisher_CAPTAINREX_C"],
+      },
+      { tier: 13, gear: ["9999", "9999", "9999", "9999", "9999", "9999"] },
+    ],
+    alignment: "Light Side",
+    categories: [
+      "Clone Trooper",
+      "Phoenix",
+      "Rebel",
+      "Rebel Fighter",
+      "Support",
+    ],
+    ability_classes: [
+      "Ability Block",
+      "AoE",
+      "Armor Shred",
+      "Assist",
+      "Counter",
+      "Critical Chance Up",
+      "Daze",
+      "Dispel",
+      "DoT",
+      "Gain Turn Meter",
+      "Heal",
+      "Offense Down",
+      "Offense Up",
+      "Reset Cooldown",
+      "Stun",
+      "Tenacity Down",
+      "Tenacity Up",
+    ],
+    role: "Support",
+    ship: "",
+    ship_slot: null,
+    activate_shard_count: 25,
+  },
+  {
+    name: "Princess Kneesaa",
+    id: "PRINCESSKNEESAA",
+    url: "http://swgoh.gg/characters/princess-kneesaa/",
+    image: "https://game-assets.swgoh.gg/tex.charui_princesskneesaa.png",
+    description:
+      "A small but mighty Attacker Ewok, here to fight for Bright Tree Village",
+    combat_type: 1,
+    gear_levels: [
+      { tier: 1, gear: ["011", "006", "003", "004", "001", "006"] },
+      { tier: 2, gear: ["025", "021", "015", "028", "028", "034"] },
+      { tier: 3, gear: ["062", "076", "053", "041", "069", "049"] },
+      { tier: 4, gear: ["038", "058", "040", "038", "060", "074"] },
+      { tier: 5, gear: ["093", "043", "086", "051", "084", "079"] },
+      { tier: 6, gear: ["079", "055", "092", "092", "093", "097"] },
+      { tier: 7, gear: ["102", "079", "110", "024", "100", "110"] },
+      { tier: 8, gear: ["112", "101", "112", "112", "118", "118"] },
+      { tier: 9, gear: ["109", "102", "117", "117", "173", "126"] },
+      { tier: 10, gear: ["144", "117", "173", "109", "116", "173"] },
+      { tier: 11, gear: ["109", "112", "146", "141", "144", "149"] },
+      {
+        tier: 12,
+        gear: [
+          "158",
+          "160",
+          "160",
+          "170",
+          "167",
+          "G12Finisher_PRINCESSKNEESAA_C",
+        ],
+      },
+      { tier: 13, gear: ["9999", "9999", "9999", "9999", "9999", "9999"] },
+    ],
+    alignment: "Light Side",
+    categories: ["Attacker", "Ewok"],
+    ability_classes: [
+      "AoE",
+      "Assist",
+      "Counter",
+      "Critical Chance Up",
+      "Critical Damage Up",
+      "Daze",
+      "Dispel",
+      "DoT",
+      "Foresight",
+      "Gain Turn Meter",
+      "Offense Up",
+      "Potency Down",
+      "Protection Up",
+      "Reduce Cooldowns",
+      "Remove Turn Meter",
+      "Speed Down",
+      "Stun",
+    ],
+    role: "Attacker",
+    ship: "",
+    ship_slot: null,
+    activate_shard_count: 25,
+  },
+  {
+    name: "Jedi Knight Cal Kestis",
+    aliases: ["jack", "jkck", "jk cal", "jedi cal"],
+    id: "JEDIKNIGHTCAL",
+    url: "http://swgoh.gg/characters/jedi-knight-cal-kestis/",
+    image: "https://game-assets.swgoh.gg/tex.charui_jediknightcal.png",
+    description:
+      "Utilizing different lightsaber masteries, Jedi Knight Cal Kestis weaves between offensive and defensive stances to claim victory over his opponents",
+    combat_type: 1,
+    gear_levels: [
+      { tier: 1, gear: ["004", "011", "006", "006", "003", "003"] },
+      { tier: 2, gear: ["019", "019", "034", "034", "021", "017"] },
+      { tier: 3, gear: ["034", "027", "039", "056", "042", "042"] },
+      { tier: 4, gear: ["051", "069", "077", "042", "071", "071"] },
+      { tier: 5, gear: ["093", "042", "086", "051", "071", "071"] },
+      { tier: 6, gear: ["056", "093", "040", "084", "081", "097"] },
+      { tier: 7, gear: ["067", "075", "046", "110", "107", "107"] },
+      { tier: 8, gear: ["117", "112", "112", "112", "118", "117"] },
+      { tier: 9, gear: ["173", "117", "117", "126", "173", "117"] },
+      { tier: 10, gear: ["112", "145", "112", "173", "135", "112"] },
+      { tier: 11, gear: ["149", "153", "173", "117", "107", "140"] },
+      {
+        tier: 12,
+        gear: [
+          "165",
+          "158",
+          "158",
+          "167",
+          "168",
+          "G12Finisher_JEDIKNIGHTCAL_A",
+        ],
+      },
+      { tier: 13, gear: ["9999", "9999", "9999", "9999", "9999", "9999"] },
+    ],
+    alignment: "Light Side",
+    categories: ["Attacker", "Jedi", "Leader"],
+    ability_classes: [
+      "Ability Block",
+      "Advantage",
+      "AoE",
+      "Armor Shred",
+      "Assist",
+      "Counter",
+      "Damage Immunity",
+      "Daze",
+      "Defense Penetration Up",
+      "Dispel",
+      "Frenzy",
+      "Gain Turn Meter",
+      "Leader: +Defense",
+      "Leader: +Max Health",
+      "Protection Up",
+      "Revive",
+      "Speed Down",
+      "Stagger",
+      "Stun",
+      "Taunt",
+    ],
+    role: "Leader",
+    ship: "",
+    ship_slot: null,
+    activate_shard_count: 330,
+  },
+  {
+    name: "Taron Malicos",
+    id: "TARONMALICOS",
+    aliases: ["tm"],
+    url: "http://swgoh.gg/characters/taron-malicos/",
+    image: "https://game-assets.swgoh.gg/tex.charui_taronmalicos.png",
+    description:
+      "A formidable Attacker and former Jedi with dark ambitions who fights on the edge of madness",
+    combat_type: 1,
+    gear_levels: [
+      { tier: 1, gear: ["001", "001", "003", "005", "003", "011"] },
+      { tier: 2, gear: ["003", "022", "016", "021", "021", "034"] },
+      { tier: 3, gear: ["021", "043", "055", "050", "062", "055"] },
+      { tier: 4, gear: ["039", "058", "060", "055", "063", "074"] },
+      { tier: 5, gear: ["021", "038", "041", "040", "064", "089"] },
+      { tier: 6, gear: ["079", "084", "086", "075", "084", "092"] },
+      { tier: 7, gear: ["077", "055", "064", "092", "099", "110"] },
+      { tier: 8, gear: ["110", "084", "172", "172", "092", "117"] },
+      { tier: 9, gear: ["125", "172", "117", "108", "118", "118"] },
+      { tier: 10, gear: ["107", "129", "120", "172", "135", "139"] },
+      { tier: 11, gear: ["129", "145", "138", "139", "116", "142"] },
+      {
+        tier: 12,
+        gear: ["159", "158", "160", "170", "171", "G12Finisher_TARONMALICOS_B"],
+      },
+      { tier: 13, gear: ["9999", "9999", "9999", "9999", "9999", "9999"] },
+    ],
+    alignment: "Dark Side",
+    categories: ["Attacker", "Unaligned Force User"],
+    ability_classes: [
+      "AoE",
+      "Assist",
+      "Buff Immunity",
+      "Counter",
+      "Critical Chance Up",
+      "Critical Damage Up",
+      "Critical Hit Immunity",
+      "Damage Immunity",
+      "Daze",
+      "Defense Down",
+      "Defense Up",
+      "Dispel",
+      "Gain Turn Meter",
+      "Healing Immunity",
+      "Offense Up",
+      "Protection Up",
+      "Reduce Cooldowns",
+      "Reset Cooldown",
+      "Revive",
+      "Stun",
+      "Taunt",
+      "Vulnerable",
+    ],
+    role: "Attacker",
+    ship: "",
+    ship_slot: null,
+    activate_shard_count: 330,
   },
 ];

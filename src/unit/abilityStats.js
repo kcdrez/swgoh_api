@@ -3441,4 +3441,195 @@ module.exports = {
       },
     ],
   },
+  CAPTAINREX: {
+    unique: [
+      {
+        value: 0.25,
+        type: "critChance",
+        tags: ["Self"],
+      },
+      {
+        value: 0.25,
+        type: "health",
+        tags: ["Self"],
+      },
+      {
+        value: 25,
+        type: "speed",
+        tags: ["Self"],
+      },
+      {
+        value: 0.4,
+        type: "tenacity",
+        tags: ["Self"],
+      },
+      {
+        omicron: {
+          value: 0.3,
+          type: "critDamage",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          value: 0.6,
+          type: "health",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          value: 25,
+          type: "speed",
+          tags: ["Self"],
+        },
+      },
+    ],
+  },
+  PRINCESSKNEESAA: {
+    unique: [
+      {
+        value: 0.2,
+        type: "critChance",
+        tags: ["Self"],
+      },
+      {
+        value: 0.5,
+        type: "defense",
+        tags: ["Self"],
+      },
+      {
+        value: 0.5,
+        type: "health",
+        tags: ["Self"],
+      },
+      {
+        value: 0.4,
+        type: "tenacity",
+        tags: ["Self"],
+      },
+      {
+        value: 0.15,
+        type: "defense",
+        tags: ["Ewok & !Self"],
+      },
+      {
+        value: 0.2,
+        type: "health",
+        tags: ["Ewok & !Self"],
+      },
+      {
+        value: 0.2,
+        type: "potency",
+        tags: ["Ewok & !Self"],
+      },
+      {
+        omicron: {
+          mode: "Territory Wars",
+          value: 0.95,
+          type: "critChance",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          mode: "Territory Wars",
+          value: 0.25,
+          type: "critDamage",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          mode: "Territory Wars",
+          value: 0.1,
+          type: "health",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          mode: "Territory Wars",
+          value: 10,
+          type: "speed",
+          tags: ["Self"],
+          scalesBy: ["Ewok & !Self"],
+        },
+      },
+    ],
+  },
+  TARONMALICOS: {
+    unique: [
+      {
+        value: 1,
+        type: "healthSteal",
+        tags: ["Self"],
+      },
+      {
+        value: 0.25,
+        type: "offense",
+        tags: ["Self"],
+        scalesBy: [
+          "Dark Side & Unaligned Force User & !Self",
+          "Light Side & Unaligned Force User & !Self",
+        ],
+      },
+      {
+        omicron: {
+          mode: "Grand Arena",
+          value: 1,
+          type: "health",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          mode: "Grand Arena",
+          value: 0.5,
+          type: "mastery",
+          tags: ["Self"],
+        },
+      },
+    ],
+  },
+  JEDIKNIGHTCAL: {
+    leader: [
+      {
+        value: 0.5,
+        type: "defense",
+        tags: ["Jedi"],
+      },
+      {
+        value: 0.5,
+        type: "offense",
+        tags: ["Jedi"],
+      },
+      {
+        omicron: {
+          mode: "Territory Battle",
+          value: 1,
+          type: "health",
+          tags: ["Dark Side", "!Dark Side"],
+        },
+      },
+      {
+        omicron: {
+          mode: "Territory Battle",
+          value: 1,
+          type: "protection",
+          tags: ["Dark Side", "!Dark Side"],
+        },
+      },
+      {
+        omicron: {
+          mode: "Territory Battle",
+          value: 3,
+          type: "defense",
+          tags: ["Dark Side", "!Dark Side"],
+          scalesBy: ["Self"],
+          scaleSource: "defense",
+        },
+      },
+    ],
+  },
 };

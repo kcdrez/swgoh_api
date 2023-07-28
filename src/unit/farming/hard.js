@@ -898,7 +898,7 @@ module.exports = [
     difficulty: "Hard",
     map: 1,
     mission: "C",
-    characters: ["ZORIIBLISS_V2"],
+    characters: ["ZORIIBLISS_V2", "PRINCESSLEIA"],
     gear: [],
   },
   {
@@ -907,7 +907,7 @@ module.exports = [
     difficulty: "Hard",
     map: 1,
     mission: "D",
-    characters: ["JEDIKNIGHTCONSULAR"],
+    characters: ["JEDIKNIGHTCONSULAR", "CHOPPERS3"],
     gear: [],
   },
   {
@@ -1650,7 +1650,7 @@ module.exports = [
     map: 1,
     mission: "G",
     energy: 8,
-    characters: ["TALIA"],
+    characters: ["TALIA", "ZEBS3"],
     gear: [],
   },
   {
@@ -1660,7 +1660,7 @@ module.exports = [
     map: 2,
     mission: "A",
     energy: 8,
-    characters: ["NIGHTSISTERACOLYTE"],
+    characters: ["NIGHTSISTERACOLYTE", "STORMTROOPERHAN"],
     gear: [],
   },
   {
@@ -1670,7 +1670,7 @@ module.exports = [
     map: 2,
     mission: "B",
     energy: 8,
-    characters: ["EZRABRIDGERS3"],
+    characters: ["EZRABRIDGERS3", "KANANJARRUSS3"],
     gear: [],
   },
   {

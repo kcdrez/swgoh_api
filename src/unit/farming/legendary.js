@@ -1653,7 +1653,7 @@ const legendary = {
           },
         },
         {
-          id: "DARTHMAUL",
+          id: "MAUL",
           requirement: {
             value: 7,
             type: "Relic",

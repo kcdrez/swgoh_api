@@ -86,6 +86,7 @@ Go to https://vkpnob5w55.execute-api.us-east-1.amazonaws.com/dev/gg/units (or /s
 Find the new unit
 Add to /gg/unit/units.js or /gg/unit/ships.js (make sure to update `ship` to the ship id and `ship_slot` to the correct integer (usually 0 for single crewed ships) in /units.js)
 Add to abilityStats.js if applicable
+Add to notAccelerated list in /unit/farming/index.js
 Add ship stats (find via swgoh.gg)
 
 Go to https://vkpnob5w55.execute-api.us-east-1.amazonaws.com/dev/gg/gear
