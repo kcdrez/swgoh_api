@@ -1,0 +1,24 @@
+org: kcdrez
+app: swgoh-sls
+service: aws-express-swgoh-api
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - dynamodb:*
+          Resource: "*"
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - http:
+          path: /{proxy+}
+          method: any
+          cors: true
