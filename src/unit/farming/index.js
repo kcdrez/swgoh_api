@@ -51,7 +51,6 @@ const ships = [
 ];
 
 const notAcceleratedUnits = [
-  "UNDERCOVERLANDO",
   "BOUSHH",
   "HONDO",
   "TRIPLEZERO",

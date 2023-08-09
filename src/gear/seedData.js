@@ -15578,4 +15578,36 @@ module.exports = [
     locations: [],
     scavenger: [],
   },
+  {
+    id: "G12Finisher_SCOUTTROOPER_V3_A",
+    recipes: [
+      {
+        id: "recipeG12Finisher_SCOUTTROOPER_V3_A",
+        result_id: "G12Finisher_SCOUTTROOPER_V3_A",
+        cost: 124000,
+        ingredients: [
+          { amount: 1, gear: "174Ingredient" },
+          { amount: 1, gear: "168Prototype" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 1000, 3: 300, 5: 8, 17: 0.4 },
+    mark: " ",
+    cost: 124000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_SCOUTTROOPER_V3_A/power-cell-injector-plasma-scout-trooper/",
+    ingredients: [
+      { gear: "174Ingredient_Salvage", amount: 50 },
+      { gear: "168PrototypeSalvage", amount: 50 },
+      { gear: "135Salvage", amount: 50 },
+      { gear: "172Salvage", amount: 100 },
+    ],
+    name: "Power Cell Injector (Plasma) - Scout Trooper",
+    locations: [],
+    scavenger: [],
+  },
 ];

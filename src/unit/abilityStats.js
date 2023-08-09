@@ -3635,4 +3635,28 @@ module.exports = {
       },
     ],
   },
+  SCOUTTROOPER_V3: {
+    unique: [
+      {
+        value: 10,
+        type: "speed",
+        tags: ["Imperial Remnant"],
+      },
+      {
+        value: 0.1,
+        type: "critChance",
+        tags: ["Imperial Trooper"],
+      },
+      {
+        value: 0.2,
+        type: "health",
+        tags: ["Leader Slot && Imperial Remnant & !ADMIRALPIETT"],
+      },
+      {
+        value: 20,
+        type: "speed",
+        tags: ["Leader Slot && Imperial Remnant & !ADMIRALPIETT"],
+      },
+    ],
+  },
 };

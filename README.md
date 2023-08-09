@@ -1,3 +1,27 @@
+### Local development
+
+To run locally, run the command
+
+Default port (3000): `sls offline`
+Custom port: `sls offline --httpPort 3001`
+
+which will run the services on localhost:3000 by default.
+
+### Adding New Characters
+
+Go to https://vkpnob5w55.execute-api.us-east-1.amazonaws.com/dev/gg/units (or /ships)
+Find the new unit
+Add to /gg/unit/units.js or /gg/unit/ships.js (make sure to update `ship` to the ship id and `ship_slot` to the correct integer (usually 0 for single crewed ships) in /units.js)
+Add to abilityStats.js if applicable
+Add to notAccelerated list in /unit/farming/index.js
+Add ship stats (find via swgoh.gg)
+
+Go to https://vkpnob5w55.execute-api.us-east-1.amazonaws.com/dev/gg/gear
+Find the new gear
+Add to /gear/seedData.js, include empty array for `locations` and `scavenger`
+
+Change all references of 'base_id' to 'id'
+
 <!--
 title: 'Serverless Framework Node Express API service backed by DynamoDB on AWS'
 description: 'This template demonstrates how to develop and deploy a simple Node Express API service backed by DynamoDB running on AWS Lambda using the traditional Serverless Framework.'
@@ -14,7 +38,6 @@ authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 # Serverless Framework Node Express API on AWS
 
 This template demonstrates how to develop and deploy a simple Node Express API service, backed by DynamoDB database, running on AWS Lambda using the traditional Serverless Framework.
-
 
 ## Anatomy of the template
 
@@ -122,8 +145,8 @@ with the following:
 ```javascript
 const dynamoDbClientParams = {};
 if (process.env.IS_OFFLINE) {
-  dynamoDbClientParams.region = 'localhost'
-  dynamoDbClientParams.endpoint = 'http://localhost:8000'
+  dynamoDbClientParams.region = "localhost";
+  dynamoDbClientParams.endpoint = "http://localhost:8000";
 }
 const dynamoDbClient = new AWS.DynamoDB.DocumentClient(dynamoDbClientParams);
 ```
@@ -135,5 +158,6 @@ serverless offline start
 ```
 
 To learn more about the capabilities of `serverless-offline` and `serverless-dynamodb-local`, please refer to their corresponding GitHub repositories:
+
 - https://github.com/dherault/serverless-offline
 - https://github.com/99x/serverless-dynamodb-local

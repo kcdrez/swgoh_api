@@ -1024,7 +1024,7 @@ module.exports = [
     map: 3,
     mission: "F",
     energy: 12,
-    characters: ["JEDIKNIGHTGUARDIAN"],
+    characters: ["CAPTAINREX"],
     gear: [],
   },
   {

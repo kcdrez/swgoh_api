@@ -2512,37 +2512,37 @@ const galacticLegends = {
           },
         },
         {
-          id: "UNKNOWN",
+          id: "SCOUTTROOPER_V3",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "R2D2_LEGENDARY",
+          requirement: {
+            value: 8,
+            type: "Relic",
+          },
+        },
+        {
+          id: "HOTHHAN",
           requirement: {
             value: 5,
             type: "Relic",
           },
         },
         {
-          id: "UNKNOWN",
+          id: "HOTHLEIA",
           requirement: {
-            value: 7,
+            value: 5,
             type: "Relic",
           },
         },
         {
-          id: "UNKNOWN",
+          id: "CHIEFCHIRPA",
           requirement: {
             value: 3,
-            type: "Relic",
-          },
-        },
-        {
-          id: "UNKNOWN",
-          requirement: {
-            value: 4,
-            type: "Relic",
-          },
-        },
-        {
-          id: "UNKNOWN",
-          requirement: {
-            value: 7,
             type: "Relic",
           },
         },
