@@ -1353,7 +1353,7 @@ const shipsList = [
   },
   {
     name: "Leviathan",
-    base_id: "CAPITALLEVIATHAN",
+    id: "CAPITALLEVIATHAN",
     url: "http://swgoh.gg/ships/leviathan/",
     image: "https://game-assets.swgoh.gg/tex.charui_leviathan.png",
     description:

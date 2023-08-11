@@ -2547,35 +2547,35 @@ const galacticLegends = {
           },
         },
         {
-          id: "UNKNOWN",
+          id: "CAPTAINDROGAN",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "COMMANDERLUKESKYWALKER",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "BOUSHH",
           requirement: {
             value: 5,
             type: "Relic",
           },
         },
         {
-          id: "UNKNOWN",
-          requirement: {
-            value: 6,
-            type: "Relic",
-          },
-        },
-        {
-          id: "UNKNOWN",
+          id: "C3POCHEWBACCA",
           requirement: {
             value: 7,
             type: "Relic",
           },
         },
         {
-          id: "UNKNOWN",
-          requirement: {
-            value: 7,
-            type: "Relic",
-          },
-        },
-        {
-          id: "UNKNOWN",
+          id: "LOBOT",
           requirement: {
             value: 3,
             type: "Relic",
