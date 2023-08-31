@@ -2302,6 +2302,35 @@ module.exports = {
         abilityId: "uniqueskill_LOBOT01",
         type: "speed",
       },
+      {
+        value: 0.055,
+        tags: ["Self"],
+        scalesBy: ["Droid"],
+        abilityId: "uniqueskill_LOBOT01",
+        type: "tenacity",
+      },
+      {
+        value: 0.1,
+        tags: ["Droid"],
+        conditions: [
+          {
+            leader: ["Light Side & Droid & Leader"],
+          },
+        ],
+        abilityId: "uniqueskill_LOBOT02",
+        type: "potency",
+      },
+      {
+        value: 25,
+        tags: ["Droid"],
+        conditions: [
+          {
+            leader: ["Light Side & Droid & Leader"],
+          },
+        ],
+        abilityId: "uniqueskill_LOBOT02",
+        type: "speed",
+      },
     ],
   },
   SHAAKTI: {
@@ -3656,6 +3685,23 @@ module.exports = {
         value: 20,
         type: "speed",
         tags: ["Leader Slot && Imperial Remnant & !ADMIRALPIETT"],
+      },
+    ],
+  },
+  CAPTAINDROGAN: {
+    unique: [
+      {
+        value: 0.5,
+        type: "potency",
+        tags: ["Self"],
+      },
+      {
+        omicron: {
+          value: 0.5,
+          type: "health",
+          tags: ["Self"],
+          mode: "Grand Arena",
+        },
       },
     ],
   },

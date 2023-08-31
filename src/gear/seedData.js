@@ -15610,4 +15610,36 @@ module.exports = [
     locations: [],
     scavenger: [],
   },
+  {
+    id: "G12Finisher_CAPTAINDROGAN_B",
+    recipes: [
+      {
+        id: "recipeG12Finisher_CAPTAINDROGAN_B",
+        result_id: "G12Finisher_CAPTAINDROGAN_B",
+        cost: 124000,
+        ingredients: [
+          { amount: 1, gear: "175Ingredient" },
+          { amount: 1, gear: "169Prototype" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "173Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 2000, 4: 300, 5: 8, 7: 400, 17: 0.3, 18: 0.3 },
+    mark: " ",
+    cost: 124000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_CAPTAINDROGAN_B/power-cell-injector-fusion-captain-drogan/",
+    ingredients: [
+      { gear: "175Ingredient_Salvage", amount: 50 },
+      { gear: "169PrototypeSalvage", amount: 50 },
+      { gear: "173Salvage", amount: 100 },
+      { gear: "135Salvage", amount: 50 },
+    ],
+    name: "Power Cell Injector (Fusion) - Captain Drogan",
+    locations: [],
+    scavenger: [],
+  },
 ];
