@@ -73,9 +73,13 @@ const notAccelerated = [...ships, ...notAcceleratedUnits];
 const farmNodeList = [...hardNodes, ...normalNodes].map(
   ({ characters, ...node }) => {
     const gear = gearList.reduce((acc, gear) => {
-      const match = gear.locations.find((location) => location.id === node.id);
-      if (match) {
-        acc.push({ id: gear.id });
+      if (gear.locations) {
+        const match = gear.locations.find(
+          (location) => location.id === node.id
+        );
+        if (match) {
+          acc.push({ id: gear.id });
+        }
       }
       return acc;
     }, []);

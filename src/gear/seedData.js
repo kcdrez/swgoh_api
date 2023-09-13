@@ -15671,5 +15671,7 @@ module.exports = [
       { gear: "172Salvage", amount: 100 },
     ],
     name: "Power Cell Injector (Ionic) - Leia Organa",
+    locations: [],
+    scavenger: [],
   },
 ];
