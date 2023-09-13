@@ -20012,7 +20012,7 @@ module.exports = [
   },
   {
     name: "Leia Organa",
-    base_id: "GLLEIA",
+    id: "GLLEIA",
     url: "http://swgoh.gg/characters/leia-organa/",
     image: "https://game-assets.swgoh.gg/tex.charui_leiaendor.png",
     description:
