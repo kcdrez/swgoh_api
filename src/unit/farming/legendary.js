@@ -2474,7 +2474,7 @@ const galacticLegends = {
       ],
     },
     {
-      id: "LEIAORGANA",
+      id: "GLLEIA",
       prerequisites: [
         {
           id: "CAPTAINREX",

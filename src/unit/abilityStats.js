@@ -3705,4 +3705,45 @@ module.exports = {
       },
     ],
   },
+  GLLEIA: {
+    leader: [
+      {
+        value: 40,
+        type: "speed",
+        tags: ["Rebel"],
+      },
+      {
+        value: 0.5,
+        type: "protection",
+        tags: ["Rebel & !Scoundrel & Attacker"],
+      },
+      {
+        value: 0.5,
+        type: "health",
+        tags: ["Rebel & !Scoundrel & Attacker"],
+      },
+    ],
+    unique: [
+      {
+        value: 0.75,
+        type: "health",
+        tags: ["R2D2_LEGENDARY"],
+      },
+      {
+        value: 0.75,
+        type: "protection",
+        tags: ["R2D2_LEGENDARY"],
+      },
+      {
+        value: 0.75,
+        type: "offense",
+        tags: ["R2D2_LEGENDARY"],
+      },
+      {
+        value: 0.75,
+        type: "potency",
+        tags: ["R2D2_LEGENDARY"],
+      },
+    ],
+  },
 };
