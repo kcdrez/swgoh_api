@@ -572,7 +572,7 @@ module.exports = [
     difficulty: "Hard",
     map: 5,
     mission: "C",
-    characters: ["CLONESERGEANTPHASEI"],
+    characters: ["PRINCESSKNEESAA"],
     gear: [
       {
         id: "091Salvage",
