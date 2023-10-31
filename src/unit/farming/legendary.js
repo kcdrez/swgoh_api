@@ -1738,6 +1738,39 @@ const legendary = {
         },
       ],
     },
+    {
+      id: "BOKATANMANDALOR",
+      prerequisites: [
+        {
+          id: "PAZVIZSLA",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          ...beskarMando,
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "IG12GROGU",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "KELLERANBEQ",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+      ],
+    },
   ],
 };
 

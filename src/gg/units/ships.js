@@ -1375,6 +1375,21 @@ const shipsList = [
     capital_ship: true,
     activate_shard_count: 80,
   },
+  {
+    name: "Marauder",
+    id: "MARAUDER",
+    url: "http://swgoh.gg/ships/marauder/",
+    image: "https://game-assets.swgoh.gg/tex.charui_marauder.png",
+    description:
+      "Stealthy Support ship that uses a mixture of damage and buffs to control the battlefield",
+    combat_type: 2,
+    alignment: "Light Side",
+    categories: ["Clone Trooper", "Galactic Republic", "Support"],
+    ability_classes: ["Gain Turn Meter", "Stealth"],
+    role: "Support",
+    capital_ship: false,
+    activate_shard_count: 80,
+  },
 ];
 
 const shipsStats = [
@@ -2697,6 +2712,27 @@ const shipsStats = [
     specialCritRating: 0,
     potency: 0.00002268,
     tenacity: 0.00002268,
+  },
+  {
+    name: "Marauder",
+    baseSpeed: 100,
+    baseHealth: 15300,
+    baseProtection: 0,
+    baseDamage: 2179,
+    baseCrit: 0.3592,
+    baseSpecialDamage: 2040,
+    baseSpecialCrit: 0.1,
+    basePotency: 0,
+    baseTenacity: 0.15,
+    speed: 0.00121429,
+    health: 2.42379171,
+    protection: 0.91586114,
+    physicalDamage: 0.42616242,
+    critRating: 0,
+    specialDamage: 0,
+    specialCritRating: 0,
+    potency: 0.00002351,
+    tenacity: 0.00002351,
   },
 ];
 

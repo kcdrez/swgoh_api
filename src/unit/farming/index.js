@@ -48,12 +48,10 @@ const ships = [
   "TIEDEFENDER",
   "SITHSUPREMACYCLASS",
   "TIEDAGGER",
+  "MARAUDER",
 ];
 
 const notAcceleratedUnits = [
-  "HONDO",
-  "TRIPLEZERO",
-  "BT1",
   "SANASTARROS",
   "ZORIIBLISS_V2",
   "TUSKENCHIEFTAIN",

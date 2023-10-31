@@ -1549,7 +1549,7 @@ module.exports = [
     map: 5,
     mission: "C",
     energy: 20,
-    characters: [],
+    characters: ["SCOUTTROOPER_V3"],
     gear: [],
   },
 
@@ -1990,7 +1990,7 @@ module.exports = [
     map: 6,
     mission: "F",
     energy: 12,
-    characters: ["WEDGEANTILLES"],
+    characters: ["CAPTAINDROGAN"],
     gear: [],
   },
   {

@@ -3746,4 +3746,127 @@ module.exports = {
       },
     ],
   },
+  PAZVIZLA: {
+    unqiue: [
+      {
+        value: 0.1,
+        type: "defense",
+        tags: ["Self"],
+        scalesBy: ["Mandolorian & !Self"],
+      },
+      {
+        value: 0.1,
+        type: "health",
+        tags: ["Self"],
+        scalesBy: ["Mandolorian & !Self"],
+      },
+      {
+        value: 0.15,
+        type: "defense",
+        tags: ["Self"],
+        scalesBy: ["Light Side & Mandolorian & !Self"],
+      },
+      {
+        value: 0.15,
+        type: "health",
+        tags: ["Self"],
+        scalesBy: ["Light Side & Mandolorian & !Self"],
+      },
+      {
+        omicron: {
+          mode: "Territory Battle",
+          value: 0.25,
+          type: "defense",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          mode: "Territory Battle",
+          value: 0.25,
+          type: "health",
+          tags: ["Self"],
+        },
+      },
+      {
+        omicron: {
+          mode: "Territory Battle",
+          value: 0.25,
+          type: "protection",
+          tags: ["Self"],
+        },
+      },
+    ],
+  },
+  MOFFGIDEONS3: {
+    leader: [
+      {
+        value: 0.75,
+        type: "critChance",
+        tags: ["Imperial Remnant & !Droid"],
+      },
+      {
+        value: 0.75,
+        type: "critDamage",
+        tags: ["Imperial Remnant & !Droid"],
+      },
+      {
+        value: 0.75,
+        type: "defnese",
+        tags: ["Imperial Remnant & !Droid"],
+      },
+      {
+        value: 0.75,
+        type: "offense",
+        tags: ["Imperial Remnant & !Droid"],
+      },
+      {
+        omicron: {
+          mode: "Territory War",
+          value: 0.75,
+          type: "health",
+          tags: ["Imperial Remnant & !Droid"],
+        },
+      },
+      {
+        omicron: {
+          mode: "Territory War",
+          value: 0.75,
+          type: "mastery",
+          tags: ["Imperial Remnant & !Droid"],
+        },
+      },
+      {
+        omicron: {
+          mode: "Territory War",
+          value: 30,
+          type: "speed",
+          tags: ["Imperial Remnant & !Droid"],
+        },
+      },
+    ],
+    unique: [
+      { value: 1, type: "critAvoidance", tags: ["Self"] },
+      { value: 0.5, type: "defense", tags: ["Self"] },
+      { value: 0.3, type: "health", tags: ["Self"] },
+      { value: 0.3, type: "protection", tags: ["Self"] },
+      {
+        omicron: {
+          mode: "Territory War",
+          value: 0.3,
+          type: "protection",
+          tags: ["Self"],
+        },
+      },
+    ],
+  },
+  IMPERIALSUPERCOMMANDO: {
+    unique: [
+      { value: 1, type: "counterChance", tags: ["Self"] },
+      { value: 0.3, type: "defense", tags: ["Self", "GARSAXON"] },
+      { value: 0.5, type: "critAvoidance", tags: ["Self", "GARSAXON"] },
+      { value: 0.2, type: "health", tags: ["Self", "GARSAXON"] },
+      { value: 0.2, type: "protection", tags: ["Self", "GARSAXON"] },
+    ],
+  },
 };
