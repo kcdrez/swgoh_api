@@ -1756,7 +1756,7 @@ const legendary = {
           },
         },
         {
-          id: "IG12GROGU",
+          id: "IG12",
           requirement: {
             value: 7,
             type: "Relic",

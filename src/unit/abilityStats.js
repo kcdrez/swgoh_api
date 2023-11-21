@@ -3869,4 +3869,15 @@ module.exports = {
       { value: 0.2, type: "protection", tags: ["Self", "GARSAXON"] },
     ],
   },
+  IG12: {
+    unique: [
+      { value: 1, type: "counterChance", tags: ["Self"] },
+      {
+        value: 0.2,
+        type: "health",
+        tags: ["Self"],
+        scalesBy: ["Light Side & Mandalorian"],
+      },
+    ],
+  },
 };

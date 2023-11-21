@@ -68,7 +68,7 @@ exports.raidMapping = {
     {
       dates: {
         start: "05-09-2023",
-        end: new Date(),
+        end: "11-16-2023",
       },
       rewards:
         //in millions
@@ -162,6 +162,257 @@ exports.raidMapping = {
             },
           },
         ],
+    },
+    {
+      dates: {
+        start: "11-16-2023",
+        end: new Date(),
+      },
+      rewards:
+        //in millions
+        [
+          {
+            currencies: {
+              raid1: 12500,
+              raid2: 5500,
+              raid3: 500,
+            },
+            score: {
+              start: 10,
+              end: 14.499999,
+            },
+          },
+          {
+            currencies: {
+              raid1: 16500,
+              raid2: 8400,
+              raid3: 0,
+            },
+            score: {
+              start: 14.5,
+              end: 22.4999999,
+            },
+          },
+          {
+            currencies: {
+              raid1: 17000,
+              raid2: 9700,
+              raid3: 0,
+            },
+            score: {
+              start: 22.5,
+              end: 67.499999,
+            },
+          },
+          {
+            currencies: {
+              raid1: 17000,
+              raid2: 9825,
+              raid3: 0,
+            },
+            score: {
+              start: 67.5,
+              end: 78.499999,
+            },
+          },
+          {
+            currencies: {
+              raid1: 17000,
+              raid2: 9950,
+              raid3: 0,
+            },
+            score: {
+              start: 78.5,
+              end: 89.99999,
+            },
+          },
+          {
+            currencies: {
+              raid1: 17000,
+              raid2: 10000,
+              raid3: 0,
+            },
+            score: {
+              start: 90,
+              end: 129.99999,
+            },
+          },
+          {
+            currencies: {
+              raid1: 17000,
+              raid2: 10200,
+              raid3: 0,
+            },
+            score: {
+              start: 130,
+              end: 264.99999,
+            },
+          },
+          {
+            currencies: {
+              raid1: 17000,
+              raid2: 10300,
+              raid3: 0,
+            },
+            score: {
+              start: 265,
+              end: 415.99999,
+            },
+          },
+          {
+            currencies: {
+              raid1: 17000,
+              raid2: 10400,
+              raid3: 0,
+            },
+            score: {
+              start: 416,
+              end: 519.99999,
+            },
+          },
+          {
+            currencies: {
+              raid1: 17000,
+              raid2: 10500,
+              raid3: 0,
+            },
+            score: {
+              start: 520,
+              end: Infinity,
+            },
+          },
+        ],
+    },
+  ],
+  Endor: [
+    {
+      dates: {
+        start: "11-16-2023",
+        end: new Date(),
+      },
+      rewards: [
+        {
+          currencies: {
+            raid1: 12500,
+            raid2: 5500,
+            raid3: 500,
+          },
+          score: {
+            start: 16,
+            end: 23.1999999,
+          },
+        },
+        {
+          currencies: {
+            raid1: 16500,
+            raid2: 8400,
+            raid3: 100,
+          },
+          score: {
+            start: 23.2,
+            end: 35.999999,
+          },
+        },
+        {
+          currencies: {
+            raid1: 16500,
+            raid2: 9700,
+            raid3: 1500,
+          },
+          score: {
+            start: 36,
+            end: 107.999999,
+          },
+        },
+        {
+          currencies: {
+            raid1: 16500,
+            raid2: 9700,
+            raid3: 2000,
+          },
+          score: {
+            start: 23.2,
+            end: 125.5999999,
+          },
+        },
+        {
+          currencies: {
+            raid1: 16500,
+            raid2: 9700,
+            raid3: 2500,
+          },
+          score: {
+            start: 125.6,
+            end: 143.999999,
+          },
+        },
+        {
+          currencies: {
+            raid1: 16500,
+            raid2: 9700,
+            raid3: 3000,
+          },
+          score: {
+            start: 144,
+            end: 207.999999,
+          },
+        },
+        {
+          currencies: {
+            raid1: 16500,
+            raid2: 9700,
+            raid3: 3500,
+          },
+          score: {
+            start: 208,
+            end: 423.999999,
+          },
+        },
+        {
+          currencies: {
+            raid1: 16500,
+            raid2: 9700,
+            raid3: 4000,
+          },
+          score: {
+            start: 208,
+            end: 423.999999,
+          },
+        },
+        {
+          currencies: {
+            raid1: 16500,
+            raid2: 9700,
+            raid3: 5250,
+          },
+          score: {
+            start: 424,
+            end: 664.6999999,
+          },
+        },
+        {
+          currencies: {
+            raid1: 16500,
+            raid2: 9700,
+            raid3: 6770,
+          },
+          score: {
+            start: 665,
+            end: 831.999999,
+          },
+        },
+        {
+          currencies: {
+            raid1: 16500,
+            raid2: 9700,
+            raid3: 8770,
+          },
+          score: {
+            start: 832,
+            end: Infinity,
+          },
+        },
+      ],
     },
   ],
 };

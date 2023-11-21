@@ -64,6 +64,8 @@ const notAcceleratedUnits = [
   "PRINCESSKNEESAA",
   "SCOUTTROOPER_V3",
   "CAPTAINDROGAN",
+  "PAZVIZSLA",
+  "IG12",
 ];
 
 const notAccelerated = [...ships, ...notAcceleratedUnits];
