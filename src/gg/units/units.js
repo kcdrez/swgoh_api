@@ -20244,7 +20244,7 @@ module.exports = [
     id: "KELLERANBEQ",
     url: "http://swgoh.gg/characters/ig-12-grogu/",
     image: "https://game-assets.swgoh.gg/tex.charui_ig12.png",
-    description: ""
+    description: "",
     combat_type: 1,
     gear_levels: [
       { tier: 1, gear: ["010", "011", "009", "003", "004", "008"] },
@@ -20266,9 +20266,7 @@ module.exports = [
     ],
     alignment: "Light Side",
     categories: ["Jedi"],
-    ability_classes: [
-
-    ],
+    ability_classes: [],
     role: "",
     ship: "",
     ship_slot: null,
