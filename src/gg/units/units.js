@@ -16560,6 +16560,7 @@ module.exports = [
     ship: "",
     ship_slot: null,
     activate_shard_count: 25,
+    primaryStat: "str",
   },
   {
     name: "TIE Fighter Pilot",
