@@ -2019,6 +2019,7 @@ module.exports = [
     ship: "",
     ship_slot: null,
     activate_shard_count: 145,
+    primaryStat: "tac",
   },
   {
     name: "Cad Bane",
