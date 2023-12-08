@@ -3880,4 +3880,24 @@ module.exports = {
       },
     ],
   },
+  KELLERANBEQ: {
+    unique: [],
+    leader: [
+      {
+        value: 0.5,
+        type: "defense",
+        tags: ["Galactic Republic & Jedi"],
+      },
+      {
+        value: 0.4,
+        type: "tenacity",
+        tags: ["Galactic Republic & Jedi"],
+      },
+      {
+        value: 30,
+        type: "speed",
+        tags: ["Galactic Republic & Jedi"],
+      },
+    ],
+  },
 };

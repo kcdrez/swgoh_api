@@ -367,7 +367,7 @@ module.exports = [
     difficulty: "Hard",
     map: 4,
     mission: "A",
-    characters: ["TEEBO"],
+    characters: ["PAZVIZSLA"],
     gear: [
       {
         id: "078Prototype",
@@ -1469,7 +1469,7 @@ module.exports = [
     map: 3,
     mission: "E",
     energy: 20,
-    characters: ["SITHFIGHTER"],
+    characters: ["MARAUDER"],
     gear: [],
   },
   {
@@ -1960,7 +1960,7 @@ module.exports = [
     map: 6,
     mission: "C",
     energy: 12,
-    characters: ["SITHASSASSIN"],
+    characters: ["SITHASSASSIN", "SITHFIGHTER"],
     gear: [],
   },
   {

@@ -15770,4 +15770,36 @@ module.exports = [
     locations: [],
     scavenger: [],
   },
+  {
+    id: "G12Finisher_KELLERANBEQ_A",
+    recipes: [
+      {
+        id: "recipeG12Finisher_KELLERANBEQ_A",
+        result_id: "G12Finisher_KELLERANBEQ_A",
+        cost: 124000,
+        ingredients: [
+          { amount: 1, gear: "174Ingredient" },
+          { amount: 1, gear: "168Prototype" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 3: 120, 5: 8, 6: 100, 14: 100, 28: 10000 },
+    mark: " ",
+    cost: 124000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_KELLERANBEQ_A/power-cell-injector-plasma-kelleran-beq/",
+    ingredients: [
+      { gear: "174Ingredient_Salvage", amount: 50 },
+      { gear: "168PrototypeSalvage", amount: 50 },
+      { gear: "135Salvage", amount: 50 },
+      { gear: "172Salvage", amount: 100 },
+    ],
+    name: "Power Cell Injector (Plasma) - Kelleran Beq",
+    locations: [],
+    scavenger: [],
+  },
 ];
