@@ -1739,7 +1739,7 @@ const legendary = {
       ],
     },
     {
-      id: "BOKATANMANDALOR",
+      id: "MANDALORBOKATAN",
       prerequisites: [
         {
           id: "PAZVIZSLA",
