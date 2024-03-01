@@ -954,7 +954,7 @@ module.exports = [
     map: 2,
     mission: "E",
     energy: 12,
-    characters: ["LUMINARAUNDULI"],
+    characters: ["KELLERANBEQ"],
     gear: [],
   },
   {
@@ -1399,7 +1399,7 @@ module.exports = [
     map: 2,
     mission: "C",
     energy: 20,
-    characters: ["UWINGSCARIF", "SCARIFREBEL"],
+    characters: ["IG12"],
     gear: [],
   },
   {

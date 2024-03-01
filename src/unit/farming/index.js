@@ -52,9 +52,6 @@ const ships = [
 ];
 
 const notAcceleratedUnits = [
-  "ZORIIBLISS_V2",
-  "TUSKENCHIEFTAIN",
-  "TUSKENHUNTRESS",
   "CALKESTIS",
   "CEREJUNDA",
   "MERRIN",
@@ -66,6 +63,8 @@ const notAcceleratedUnits = [
   "PAZVIZSLA",
   "IG12",
   "KELLERANBEQ",
+  "STAP",
+  "BOSSNASS",
 ];
 
 const notAccelerated = [...ships, ...notAcceleratedUnits];
