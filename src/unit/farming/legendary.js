@@ -1771,6 +1771,39 @@ const legendary = {
         },
       ],
     },
+    {
+      id: "JARJARBINKS",
+      prerequisites: [
+        {
+          id: "BOSSNASS",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "CAPTAINTARPALS",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "GUNGANBOOMADIER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "GUNGANPHALANX",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+      ],
+    },
   ],
 };
 

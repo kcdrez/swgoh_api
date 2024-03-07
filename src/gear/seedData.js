@@ -15930,4 +15930,36 @@ module.exports = [
     locations: [],
     scavenger: [],
   },
+  {
+    id: "G12Finisher_CAPTAINTARPALS_C",
+    recipes: [
+      {
+        id: "G12Finisher_CAPTAINTARPALS_C",
+        result_id: "G12Finisher_CAPTAINTARPALS_C",
+        cost: 138000,
+        ingredients: [
+          { amount: 1, gear: "176Ingredient" },
+          { amount: 1, gear: "170Prototype" },
+          { amount: 1, gear: "123Prototype" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 3: 350, 5: 8, 6: 560, 8: 150, 9: 150 },
+    mark: " ",
+    cost: 138000,
+    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/db/gear/G12Finisher_CAPTAINTARPALS_C/power-cell-injector-ionic-captain-tarpals/",
+    ingredients: [
+      { gear: "176Ingredient_Salvage", amount: 50 },
+      { gear: "170PrototypeSalvage", amount: 50 },
+      { gear: "123Component", amount: 50 },
+      { gear: "172Salvage", amount: 100 },
+    ],
+    name: "Power Cell Injector (Ionic) - Captain Tarpals",
+    locations: [],
+    scavenger: [],
+  },
 ];
