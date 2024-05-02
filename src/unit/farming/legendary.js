@@ -1796,7 +1796,7 @@ const legendary = {
           },
         },
         {
-          id: "GUNGANPHALANX",
+          id: "BOOMADIER",
           requirement: {
             value: 5,
             type: "Relic",

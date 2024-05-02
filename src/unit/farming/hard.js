@@ -1730,7 +1730,7 @@ module.exports = [
     map: 3,
     mission: "A",
     energy: 10,
-    characters: ["JEDIKNIGHTCONSULAR"],
+    characters: ["COMEUPPANCE"],
     gear: [],
   },
   {
@@ -2060,7 +2060,7 @@ module.exports = [
     map: 7,
     mission: "F",
     energy: 16,
-    characters: ["NIGHTSISTERSPIRIT", "BLADEOFDORIN"],
+    characters: ["STAP", "BLADEOFDORIN"],
     gear: [],
   },
   {
