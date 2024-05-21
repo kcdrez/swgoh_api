@@ -1279,7 +1279,7 @@ module.exports = [
     map: 8,
     mission: "D",
     energy: 20,
-    characters: ["NIGHTSISTERZOMBIE"],
+    characters: ["BOSSNASS"],
     gear: [],
   },
   {
