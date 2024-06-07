@@ -53,7 +53,6 @@ const ships = [
 ];
 
 const notAcceleratedUnits = [
-  "CAPTAINREX",
   "PRINCESSKNEESAA",
   "SCOUTTROOPER_V3",
   "CAPTAINDROGAN",
@@ -66,6 +65,7 @@ const notAcceleratedUnits = [
   "BOOMADIER",
   "GUNGANPHALANX",
   "PADAWANOBIWAN",
+  "MASTERQUIGON",
 ];
 
 const notAccelerated = [...ships, ...notAcceleratedUnits];

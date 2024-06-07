@@ -676,7 +676,7 @@ module.exports = [
     difficulty: "Hard",
     map: 6,
     mission: "A",
-    characters: ["JUHANI"],
+    characters: ["BOOMADIER"],
     gear: [
       {
         id: "100PrototypeSalvage",
@@ -1509,7 +1509,7 @@ module.exports = [
     map: 4,
     mission: "D",
     energy: 20,
-    characters: ["BADBATCHOMEGA"],
+    characters: ["GUNGANPHALANX"],
     gear: [],
   },
   {

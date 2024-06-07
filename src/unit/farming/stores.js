@@ -153,6 +153,8 @@ module.exports = [
       { id: "RESISTANCEPILOT", dropRate: 1, shardCount: 10, cost: 400 },
       { id: "PHASMA", dropRate: 1, shardCount: 10, cost: 400 },
       { id: "MAGMATROOPER", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "JUHANI", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "BADBATCHOMEGA", dropRate: 1, shardCount: 10, cost: 400 },
     ],
   },
   {
