@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const baseUrl = "http://api.swgoh.gg";
+const baseUrl = "https://swgoh.gg/api";
 
 class apiClient {
   constructor() {}
