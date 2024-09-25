@@ -20,6 +20,7 @@ module.exports = [
       { id: "FIRSTORDEROFFICERMALE", dropRate: 1, shardCount: 10, cost: 400 },
       { id: "QUIGONJINN", dropRate: 1, shardCount: 10, cost: 400 },
       { id: "POE", dropRate: 1, shardCount: 10, cost: 400 },
+      { id: "EMBO", dropRate: 1, shardCount: 10, cost: 400 },
     ],
   },
   {
