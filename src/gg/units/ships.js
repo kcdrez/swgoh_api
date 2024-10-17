@@ -5,7 +5,8 @@ const shipsList = [
     name: "Ahsoka Tano's Jedi Starfighter",
     id: "JEDISTARFIGHTERAHSOKATANO",
     url: "http://swgoh.gg/ships/ahsoka-tanos-jedi-starfighter/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jedi_fighter_ahsoka.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_jedi_fighter_ahsoka.png",
     description:
       "Versatile Jedi Attacker that uses dispels and buffs to adapt to the battle",
     combat_type: 2,
@@ -25,7 +26,8 @@ const shipsList = [
     name: "Anakin's Eta-2 Starfighter",
     id: "JEDISTARFIGHTERANAKIN",
     url: "http://swgoh.gg/ships/anakins-eta-2-starfighter/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jedi_fighter_anakin.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_jedi_fighter_anakin.png",
     description:
       "Aggressive Jedi Attacker that bolsters Offense and retaliates when allies are in trouble",
     combat_type: 2,
@@ -48,7 +50,7 @@ const shipsList = [
     aliases: ["Sith Marauder"],
     url: "http://swgoh.gg/ships/b-28-extinction-class-bomber/",
     image:
-      "https://game-assets.swgoh.gg/tex.charui_b28extinctionclassbomber.png",
+      "https://game-assets.swgoh.gg/textures/tex.charui_b28extinctionclassbomber.png",
     description:
       "Aggressive Sith Tank with a passive Taunt and self-preservation tactics",
     combat_type: 2,
@@ -64,7 +66,7 @@ const shipsList = [
     id: "XWINGRED3",
     aliases: ["xwing", "rebel xwing", "rebel x-wing"],
     url: "http://swgoh.gg/ships/biggs-darklighters-x-wing/",
-    image: "https://game-assets.swgoh.gg/tex.charui_xwing_red3.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_xwing_red3.png",
     description:
       "Heroic Rebel Tank that can exploit Target Lock for Taunts and Assists",
     combat_type: 2,
@@ -80,7 +82,7 @@ const shipsList = [
     id: "UWINGSCARIF",
     aliases: ["uwing", "rebel uwing", "rebel u-wing"],
     url: "http://swgoh.gg/ships/bistans-u-wing/",
-    image: "https://game-assets.swgoh.gg/tex.charui_uwing.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_uwing.png",
     description:
       "Elusive Rebel Support that boosts ally Turn Meter while using Stealth and Target Lock",
     combat_type: 2,
@@ -104,7 +106,7 @@ const shipsList = [
       "why wing",
     ],
     url: "http://swgoh.gg/ships/btl-b-y-wing-starfighter/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ywing_btlb.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ywing_btlb.png",
     description:
       "Galactic Republic Tank that can withstand significant damage and Taunts when its allies are in need",
     combat_type: 2,
@@ -126,7 +128,7 @@ const shipsList = [
       "cassian's uwing",
     ],
     url: "http://swgoh.gg/ships/cassians-u-wing/",
-    image: "https://game-assets.swgoh.gg/tex.charui_uwing_hero.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_uwing_hero.png",
     description:
       "Evasive Rebel Support ship that turns the tide of battle with Stealth and Turn Meter manipulation",
     combat_type: 2,
@@ -149,7 +151,7 @@ const shipsList = [
     id: "CAPITALCHIMAERA",
     aliases: ["thrawn"],
     url: "http://swgoh.gg/ships/chimaera/",
-    image: "https://game-assets.swgoh.gg/tex.charui_chimaera.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_chimaera.png",
     description:
       "Tactical Empire Capital Ship that shuts down enemy Capital Ships and manipulates the flow of battle",
     combat_type: 2,
@@ -187,7 +189,7 @@ const shipsList = [
     name: "Clone Sergeant's ARC-170",
     id: "ARC170CLONESERGEANT",
     url: "http://swgoh.gg/ships/clone-sergeants-arc-170/",
-    image: "https://game-assets.swgoh.gg/tex.charui_arc170.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_arc170.png",
     description:
       "Reliable Clone Tank that both inflicts and exploits Target Lock",
     combat_type: 2,
@@ -203,7 +205,7 @@ const shipsList = [
     id: "EBONHAWK",
     aliases: ["T3M4", "carth"],
     url: "http://swgoh.gg/ships/ebon-hawk/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ebonhawk.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ebonhawk.png",
     description:
       "Durable Old Republic Support that dispels enemies and prevents Target Lock",
     combat_type: 2,
@@ -226,7 +228,8 @@ const shipsList = [
     id: "EMPERORSSHUTTLE",
     aliases: ["royal guard"],
     url: "http://swgoh.gg/ships/emperors-shuttle/",
-    image: "https://game-assets.swgoh.gg/tex.charui_imperialshuttle.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_imperialshuttle.png",
     description:
       "Versatile Support that boosts Empire and Sith survivability while debuffing enemies",
     combat_type: 2,
@@ -242,7 +245,7 @@ const shipsList = [
     id: "CAPITALJEDICRUISER",
     aliases: ["mace"],
     url: "http://swgoh.gg/ships/endurance/",
-    image: "https://game-assets.swgoh.gg/tex.charui_venator.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_venator.png",
     description:
       "Defensive Jedi Capital Ship that uses Valor to gain a huge Speed advantage",
     combat_type: 2,
@@ -269,7 +272,7 @@ const shipsList = [
     id: "CAPITALEXECUTOR",
     aliases: ["piett", "bh capital"],
     url: "http://swgoh.gg/ships/executor/",
-    image: "https://game-assets.swgoh.gg/tex.charui_executor.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_executor.png",
     description: "Empire Capital Ship with strong Bounty Hunter synergy.",
     combat_type: 2,
     alignment: "Dark Side",
@@ -294,7 +297,7 @@ const shipsList = [
     id: "CAPITALSTARDESTROYER",
     aliases: ["tarkin"],
     url: "http://swgoh.gg/ships/executrix/",
-    image: "https://game-assets.swgoh.gg/tex.charui_stardestroyer.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_stardestroyer.png",
     description: "Aggressive Empire Capital Ship that crushes debuffed enemies",
     combat_type: 2,
     alignment: "Dark Side",
@@ -317,7 +320,7 @@ const shipsList = [
     id: "CAPITALFINALIZER",
     aliases: ["hux"],
     url: "http://swgoh.gg/ships/finalizer/",
-    image: "https://game-assets.swgoh.gg/tex.charui_finalizer.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_finalizer.png",
     description:
       "First Order Capital Ship that enables the First Order fleet to have an early game advantage and relentlessly pursue enemies",
     combat_type: 2,
@@ -340,7 +343,8 @@ const shipsList = [
     id: "TIEFIGHTERFOSF",
     aliases: ["fo sf tie", "fosf tie"],
     url: "http://swgoh.gg/ships/first-order-sf-tie-fighter/",
-    image: "https://game-assets.swgoh.gg/tex.charui_fosf_tie_fighter.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_fosf_tie_fighter.png",
     description:
       "Superior First Order Attacker that has multiple offensive capabilities and inflicts multiple debuffs",
     combat_type: 2,
@@ -356,7 +360,8 @@ const shipsList = [
     id: "TIEFIGHTERFIRSTORDER",
     aliases: ["fo tie fighter"],
     url: "http://swgoh.gg/ships/first-order-tie-fighter/",
-    image: "https://game-assets.swgoh.gg/tex.charui_firstorder_tiefighter.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_firstorder_tiefighter.png",
     description:
       "Aggressive First Order Attacker with reliable Target Lock and rapid-fire Special ability",
     combat_type: 2,
@@ -378,7 +383,7 @@ const shipsList = [
       "empire",
     ],
     url: "http://swgoh.gg/ships/gauntlet-starfighter/",
-    image: "https://game-assets.swgoh.gg/tex.charui_gauntlet.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_gauntlet.png",
     description:
       "Reliable Empire Support that dispels ally debuffs and prevents enemy buffs",
     combat_type: 2,
@@ -395,7 +400,7 @@ const shipsList = [
     aliases: ["geo ship", "geo soldier"],
     url: "http://swgoh.gg/ships/geonosian-soldiers-starfighter/",
     image:
-      "https://game-assets.swgoh.gg/tex.charui_geonosis_fighter_soldier.png",
+      "https://game-assets.swgoh.gg/textures/tex.charui_geonosis_fighter_soldier.png",
     description:
       "Aggressive Separatist Attacker that can Assist allies automatically",
     combat_type: 2,
@@ -416,7 +421,8 @@ const shipsList = [
     id: "GEONOSIANSTARFIGHTER3",
     aliases: ["geo ship", "geo spy"],
     url: "http://swgoh.gg/ships/geonosian-spys-starfighter/",
-    image: "https://game-assets.swgoh.gg/tex.charui_geonosis_fighter_spy.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_geonosis_fighter_spy.png",
     description:
       "Elusive Separatist Attacker that uses Stealth for both offense and defense",
     combat_type: 2,
@@ -432,7 +438,7 @@ const shipsList = [
     id: "GHOST",
     aliases: ["kanan", "hera", "zeb"],
     url: "http://swgoh.gg/ships/ghost/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ghost.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ghost.png",
     description:
       "Elusive Rebel attacker that reduces enemy Potency and wreaks havok with Rebel allies",
     combat_type: 2,
@@ -448,7 +454,7 @@ const shipsList = [
     id: "MILLENNIUMFALCON",
     aliases: ["milf", "chewy", "chewbacca"],
     url: "http://swgoh.gg/ships/hans-millennium-falcon/",
-    image: "https://game-assets.swgoh.gg/tex.charui_mfalcon.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_mfalcon.png",
     description:
       "Highly-modified Rebel Attacker that specializes in assists and shows up at just the right time",
     combat_type: 2,
@@ -465,7 +471,7 @@ const shipsList = [
     aliases: ["ackbar", "h1", "home1", "homeone"],
     url: "http://swgoh.gg/ships/home-one/",
     image:
-      "https://game-assets.swgoh.gg/tex.charui_moncalamarilibertycruiser.png",
+      "https://game-assets.swgoh.gg/textures/tex.charui_moncalamarilibertycruiser.png",
     description:
       "Versatile Rebel Capital Ship that uses Advantage and bonus attacks to turn the tide",
     combat_type: 2,
@@ -488,7 +494,7 @@ const shipsList = [
     id: "HOUNDSTOOTH",
     aliases: ["ht", "bossk"],
     url: "http://swgoh.gg/ships/hounds-tooth/",
-    image: "https://game-assets.swgoh.gg/tex.charui_houndstooth.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_houndstooth.png",
     description: "Sustainable Bounty Hunter Tank that debilitates enemies",
     combat_type: 2,
     alignment: "Dark Side",
@@ -503,7 +509,7 @@ const shipsList = [
     id: "HYENABOMBER",
     aliases: ["crewless"],
     url: "http://swgoh.gg/ships/hyena-bomber/",
-    image: "https://game-assets.swgoh.gg/tex.charui_hyenabomber.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_hyenabomber.png",
     description:
       "Robust Separatist Tank that inflicts Buzz Droids and protects allies",
     combat_type: 2,
@@ -519,7 +525,7 @@ const shipsList = [
     id: "IG2000",
     aliases: ["ig88", "ig-88"],
     url: "http://swgoh.gg/ships/ig-2000/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ig2000.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ig2000.png",
     description:
       "Aggressive Bounty Hunter Attacker that deals massive damage to Breached enemies",
     combat_type: 2,
@@ -535,7 +541,7 @@ const shipsList = [
     id: "TIEBOMBERIMPERIAL",
     aliases: ["crewless"],
     url: "http://swgoh.gg/ships/imperial-tie-bomber/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tiebomber.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tiebomber.png",
     description:
       "Debilitating Empire Tank that inflicts Burning, cripples enemies' Offense, and provides heavy defensive capability.",
     combat_type: 2,
@@ -551,7 +557,7 @@ const shipsList = [
     id: "TIEFIGHTERIMPERIAL",
     aliases: ["empire tie"],
     url: "http://swgoh.gg/ships/imperial-tie-fighter/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tiefighter.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tiefighter.png",
     description:
       "Evasive Empire Attacker that both inflicts and exploits Target Lock",
     combat_type: 2,
@@ -566,7 +572,7 @@ const shipsList = [
     name: "Jedi Consular's Starfighter",
     id: "JEDISTARFIGHTERCONSULAR",
     url: "http://swgoh.gg/ships/jedi-consulars-starfighter/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jedi_fighter.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_jedi_fighter.png",
     description:
       "Defensive Jedi Support that can rapidly restore ally Protection",
     combat_type: 2,
@@ -582,7 +588,8 @@ const shipsList = [
     id: "COMMANDSHUTTLE",
     aliases: ["kylo", "phasma"],
     url: "http://swgoh.gg/ships/kylo-rens-command-shuttle/",
-    image: "https://game-assets.swgoh.gg/tex.charui_upsilon_shuttle_kylo.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_upsilon_shuttle_kylo.png",
     description:
       "Durable First Order Support with unparalleled ability to manipulate allied Turn Meter",
     combat_type: 2,
@@ -603,7 +610,8 @@ const shipsList = [
     name: "Lando's Millennium Falcon",
     id: "MILLENNIUMFALCONPRISTINE",
     url: "http://swgoh.gg/ships/landos-millennium-falcon/",
-    image: "https://game-assets.swgoh.gg/tex.charui_mil_fal_pristine.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_mil_fal_pristine.png",
     description:
       "Devastating Scoundrel attacker that becomes more threatening after each ally reinforcement",
     combat_type: 2,
@@ -619,7 +627,7 @@ const shipsList = [
     id: "CAPITALMALEVOLENCE",
     aliases: ["grievous", "gg"],
     url: "http://swgoh.gg/ships/malevolence/",
-    image: "https://game-assets.swgoh.gg/tex.charui_malevolence.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_malevolence.png",
     description:
       "Separatist Capital Ship that powers up both Separatists and Droids and has the means to shut down entire enemy fleets.",
     combat_type: 2,
@@ -643,7 +651,7 @@ const shipsList = [
     id: "CAPITALNEGOTIATOR",
     aliases: ["gk", "kenobi", "general kenobi"],
     url: "http://swgoh.gg/ships/negotiator/",
-    image: "https://game-assets.swgoh.gg/tex.charui_negotiator.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_negotiator.png",
     description:
       "Offensive Jedi Capital Ship that uses Valor to bolster ally attacks and increase its Speed",
     combat_type: 2,
@@ -668,7 +676,7 @@ const shipsList = [
     id: "PHANTOM2",
     aliases: ["sabine", "ezra", "chopper"],
     url: "http://swgoh.gg/ships/phantom-ii/",
-    image: "https://game-assets.swgoh.gg/tex.charui_phantom2.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_phantom2.png",
     description:
       "Evasive Rebel attacker that provides as a decoy for the Ghost while applying buffs to allies",
     combat_type: 2,
@@ -691,7 +699,7 @@ const shipsList = [
     id: "BLADEOFDORIN",
     url: "http://swgoh.gg/ships/plo-koons-jedi-starfighter/",
     image:
-      "https://game-assets.swgoh.gg/tex.charui_jedi_fighter_bladeofdorin.png",
+      "https://game-assets.swgoh.gg/textures/tex.charui_jedi_fighter_bladeofdorin.png",
     description:
       "Versatile Jedi Support with powerful Republic buffs and a targeted ally Taunt",
     combat_type: 2,
@@ -714,7 +722,8 @@ const shipsList = [
       "resistance x wing",
     ],
     url: "http://swgoh.gg/ships/poe-damerons-x-wing/",
-    image: "https://game-assets.swgoh.gg/tex.charui_xwing_blackone.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_xwing_blackone.png",
     description:
       "Heroic Resistance Attacker that can exploit Turn Meter and punish enemies without Protection",
     combat_type: 2,
@@ -736,7 +745,7 @@ const shipsList = [
     id: "CAPITALRADDUS",
     aliases: ["raddus ship", "holdo"],
     url: "http://swgoh.gg/ships/raddus/",
-    image: "https://game-assets.swgoh.gg/tex.charui_raddus.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_raddus.png",
     description:
       "Supportive Resistance Capital Ship that will do whatever is necessary to protect the fleet",
     combat_type: 2,
@@ -762,7 +771,7 @@ const shipsList = [
     id: "RAZORCREST",
     aliases: ["rc", "bam", "mando", "mandalorian"],
     url: "http://swgoh.gg/ships/razor-crest/",
-    image: "https://game-assets.swgoh.gg/tex.charui_razorcrest.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_razorcrest.png",
     description: "Tenacious Bounty Hunter attacker with Breach synergy.",
     combat_type: 2,
     alignment: "Light Side",
@@ -784,7 +793,7 @@ const shipsList = [
     id: "YWINGREBEL",
     aliases: ["y wing", "crewless", "rebel ywing"],
     url: "http://swgoh.gg/ships/rebel-y-wing/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ywing.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ywing.png",
     description: "Sturdy Rebel Tank that can disable enemy Protection",
     combat_type: 2,
     alignment: "Light Side",
@@ -799,7 +808,8 @@ const shipsList = [
     id: "XWINGRESISTANCE",
     aliases: ["resistance xwing", "xwing", "x wing"],
     url: "http://swgoh.gg/ships/resistance-x-wing/",
-    image: "https://game-assets.swgoh.gg/tex.charui_xwing_resistance.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_xwing_resistance.png",
     description:
       "Aggressive Resistance Support that shuts down enemies with Expose, Target Lock, and Daze",
     combat_type: 2,
@@ -820,7 +830,7 @@ const shipsList = [
     name: "Rex's ARC-170",
     id: "ARC170REX",
     url: "http://swgoh.gg/ships/rexs-arc-170/",
-    image: "https://game-assets.swgoh.gg/tex.charui_arc170_02.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_arc170_02.png",
     description:
       "Defensive Clone Tank that can inflict Target Lock and boost ally Protection and Tenacity",
     combat_type: 2,
@@ -835,7 +845,7 @@ const shipsList = [
     name: "Rey's Millennium Falcon",
     id: "MILLENNIUMFALCONEP7",
     url: "http://swgoh.gg/ships/reys-millennium-falcon/",
-    image: "https://game-assets.swgoh.gg/tex.charui_mfalcon_ep7.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_mfalcon_ep7.png",
     description:
       "Daring Resistance freighter that can turn the tide by sacrificing buffs",
     combat_type: 2,
@@ -851,7 +861,8 @@ const shipsList = [
     aliases: ["maul", "maul's ship"],
     id: "SITHINFILTRATOR",
     url: "http://swgoh.gg/ships/scimitar/",
-    image: "https://game-assets.swgoh.gg/tex.charui_sithinfiltrator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_sithinfiltrator.png",
     description:
       "Deadly Sith Support that can Stealth allies to set up devastating attacks",
     combat_type: 2,
@@ -867,7 +878,7 @@ const shipsList = [
     id: "SITHFIGHTER",
     aliases: ["SITHASSASSIN", "assassin"],
     url: "http://swgoh.gg/ships/sith-fighter/",
-    image: "https://game-assets.swgoh.gg/tex.charui_sithfighter.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_sithfighter.png",
     description: "Agile Sith Attacker that bypasses enemy defenses",
     combat_type: 2,
     alignment: "Dark Side",
@@ -882,7 +893,7 @@ const shipsList = [
     id: "SLAVE1",
     aliases: ["boba", "fett", "boba's ship"],
     url: "http://swgoh.gg/ships/slave-i/",
-    image: "https://game-assets.swgoh.gg/tex.charui_slave1.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_slave1.png",
     description:
       "Deadly Bounty Hunter Attacker that inflicts and exploits Target Lock for high area-of-effect damage",
     combat_type: 2,
@@ -907,7 +918,7 @@ const shipsList = [
     aliases: ["geo ship", "sunfac"],
     url: "http://swgoh.gg/ships/sun-facs-geonosian-starfighter/",
     image:
-      "https://game-assets.swgoh.gg/tex.charui_geonosis_fighter_sunfac.png",
+      "https://game-assets.swgoh.gg/textures/tex.charui_geonosis_fighter_sunfac.png",
     description:
       "Punishing Separatist Tank that automatically Taunts against buffed enemies",
     combat_type: 2,
@@ -923,7 +934,7 @@ const shipsList = [
     id: "TIEADVANCED",
     aliases: ["vader", "vader's ship", "empire tie"],
     url: "http://swgoh.gg/ships/tie-advanced-x1/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tieadvanced.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tieadvanced.png",
     description:
       "Fearsome Empire Attacker that shuts enemies down with stacking debuffs and permanent Target Locks",
     combat_type: 2,
@@ -945,7 +956,7 @@ const shipsList = [
       "empire tie",
     ],
     url: "http://swgoh.gg/ships/tie-reaper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tiereaper.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tiereaper.png",
     description:
       "Defensive Empire Support that Dispels, delays cooldowns, and removes Turn Meter from the enemy Capital Ship",
     combat_type: 2,
@@ -974,7 +985,7 @@ const shipsList = [
       "first order silencer",
     ],
     url: "http://swgoh.gg/ships/tie-silencer/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tie_silencer.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tie_silencer.png",
     description:
       "Superior First Order Attacker that gains unlimited speed and deals massive damage",
     combat_type: 2,
@@ -998,7 +1009,7 @@ const shipsList = [
     aliases: ["SECONDSISTER", "2nd sister", "2sister", "empire tie"],
     url: "http://swgoh.gg/ships/tiein-interceptor-prototype/",
     image:
-      "https://game-assets.swgoh.gg/tex.charui_tie_interceptor_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.charui_tie_interceptor_prototype.png",
     description:
       "Imperial fast-attack craft that is as nimble as it is deadly. Second Sister's force powers allow her to perform maneuvers many would consider unnatural.",
     combat_type: 2,
@@ -1020,7 +1031,8 @@ const shipsList = [
     id: "UMBARANSTARFIGHTER",
     aliases: ["fives", "clone ship"],
     url: "http://swgoh.gg/ships/umbaran-starfighter/",
-    image: "https://game-assets.swgoh.gg/tex.charui_umbaran_star_fighter.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_umbaran_star_fighter.png",
     description:
       "Risky Clone Tank that inflicts great damage and debuffs, but grants Turn Meter to enemies",
     combat_type: 2,
@@ -1044,7 +1056,7 @@ const shipsList = [
     id: "VULTUREDROID",
     aliases: ["crewless"],
     url: "http://swgoh.gg/ships/vulture-droid/",
-    image: "https://game-assets.swgoh.gg/tex.charui_vulturedroid.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_vulturedroid.png",
     description:
       "Persistent Separatist Attacker that inflicts Buzz Droids and is replaced when defeated",
     combat_type: 2,
@@ -1067,7 +1079,7 @@ const shipsList = [
     id: "XWINGRED2",
     aliases: ["xwing", "x wing", "rebel xwing", "rebel x wing"],
     url: "http://swgoh.gg/ships/wedge-antilless-x-wing/",
-    image: "https://game-assets.swgoh.gg/tex.charui_xwing_red2.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_xwing_red2.png",
     description:
       "Aggressive Rebel Attacker that overwhelms enemies with debuffs",
     combat_type: 2,
@@ -1088,7 +1100,7 @@ const shipsList = [
     id: "XANADUBLOOD",
     aliases: ["cad bane", "xb"],
     url: "http://swgoh.gg/ships/xanadu-blood/",
-    image: "https://game-assets.swgoh.gg/tex.charui_xanadublood.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_xanadublood.png",
     description:
       "Debilitating Bounty Hunter Support that shuts down enemy offenses",
     combat_type: 2,
@@ -1110,7 +1122,7 @@ const shipsList = [
     id: "MG100STARFORTRESSSF17",
     aliases: ["rose", "reistance trooper"],
     url: "http://swgoh.gg/ships/mg-100-starfortress-sf-17/",
-    image: "https://game-assets.swgoh.gg/tex.charui_mg100.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_mg100.png",
     description:
       "Resilient Resistance Tank that can take punishment and debilitate enemies",
     combat_type: 2,
@@ -1139,7 +1151,8 @@ const shipsList = [
       "foo",
     ],
     url: "http://swgoh.gg/ships/tie-echelon/",
-    image: "https://game-assets.swgoh.gg/tex.charui_firstordertieechelon.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_firstordertieechelon.png",
     description:
       "First Order Tank that covers its allies by providing them with Stealth",
     combat_type: 2,
@@ -1162,7 +1175,7 @@ const shipsList = [
     id: "OUTRIDER",
     alieases: ["or", "dash"],
     url: "http://swgoh.gg/ships/outrider/",
-    image: "https://game-assets.swgoh.gg/tex.charui_outrider.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_outrider.png",
     description:
       "A daring Rebel Support that increases the Download of allied ships",
     combat_type: 2,
@@ -1187,7 +1200,7 @@ const shipsList = [
     id: "RAVENSCLAW",
     aliases: ["kk", "kyle katarn"],
     url: "http://swgoh.gg/ships/ravens-claw/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ravensclaw.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ravensclaw.png",
     description:
       "A Rebel ship crewed by Kyle Katarn that is able to dictate the flow of battle",
     combat_type: 2,
@@ -1215,7 +1228,7 @@ const shipsList = [
     id: "CAPITALPROFUNDITY",
     aliases: ["raddus", "admiral raddus"],
     url: "http://swgoh.gg/ships/profundity/",
-    image: "https://game-assets.swgoh.gg/tex.charui_profundity.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_profundity.png",
     description:
       "Rebel Capital Ship that uses tactical synergy to acquire stolen plans",
     combat_type: 2,
@@ -1250,7 +1263,7 @@ const shipsList = [
     name: "Scythe",
     id: "SCYTHE",
     url: "http://swgoh.gg/ships/scythe/",
-    image: "https://game-assets.swgoh.gg/tex.charui_scythe.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_scythe.png",
     description:
       "Support shuttle that boosts Empire ships by providing potent buffs and summoning TIE fighters",
     combat_type: 2,
@@ -1273,7 +1286,7 @@ const shipsList = [
     name: "TIE Defender",
     id: "TIEDEFENDER",
     url: "http://swgoh.gg/ships/tie-defender/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tiedefender.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tiedefender.png",
     description:
       "Powerful reinforcement Empire Attacker capable of stunning enemies and boosting allies, specifically TIE fighters",
     combat_type: 2,
@@ -1289,7 +1302,8 @@ const shipsList = [
     id: "FURYCLASSINTERCEPTOR",
     alias: ["malgus"],
     url: "http://swgoh.gg/ships/fury-class-interceptor/",
-    image: "https://game-assets.swgoh.gg/tex.charui_furyclassinterceptor.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_furyclassinterceptor.png",
     description:
       "Sith Support ship that provides powerful defensive bonuses to allies while inflicting debilitating debuffs to enemies",
     combat_type: 2,
@@ -1315,7 +1329,7 @@ const shipsList = [
     id: "TIEDAGGER",
     aliases: ["tie dorito"],
     url: "http://swgoh.gg/ships/tie-dagger/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tiedagger.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tiedagger.png",
     description:
       "Retaliatory Attacker that uses Vengeance to undercut enemy defenses",
     combat_type: 2,
@@ -1340,7 +1354,8 @@ const shipsList = [
     id: "SITHSUPREMACYCLASS",
     aliases: ["mark 6 interceptor", "mk6", "mk 6"],
     url: "http://swgoh.gg/ships/mark-vi-interceptor/",
-    image: "https://game-assets.swgoh.gg/tex.charui_sithsupremacyclass.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_sithsupremacyclass.png",
     description:
       "A reinforced Attacker ship called to swarm its enemy until it's defeated.",
     combat_type: 2,
@@ -1355,7 +1370,7 @@ const shipsList = [
     name: "Leviathan",
     id: "CAPITALLEVIATHAN",
     url: "http://swgoh.gg/ships/leviathan/",
-    image: "https://game-assets.swgoh.gg/tex.charui_leviathan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_leviathan.png",
     description:
       "Sith Capital Ship that takes over the enemy Capital Ship over the course of the battle",
     combat_type: 2,
@@ -1379,7 +1394,7 @@ const shipsList = [
     name: "Marauder",
     id: "MARAUDER",
     url: "http://swgoh.gg/ships/marauder/",
-    image: "https://game-assets.swgoh.gg/tex.charui_marauder.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_marauder.png",
     description:
       "Stealthy Support ship that uses a mixture of damage and buffs to control the battlefield",
     combat_type: 2,
@@ -1394,7 +1409,7 @@ const shipsList = [
     name: "Comeuppance",
     id: "COMEUPPANCE",
     url: "http://swgoh.gg/ships/comeuppance/",
-    image: "https://game-assets.swgoh.gg/tex.charui_comeuppance.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_comeuppance.png",
     description:
       "Strong Support ship whose dramatic entrance empowers Resistance allies.",
     combat_type: 2,

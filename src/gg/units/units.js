@@ -4,7 +4,7 @@ module.exports = [
     aliases: ["AS"],
     id: "AAYLASECURA",
     url: "http://swgoh.gg/characters/aayla-secura/",
-    image: "https://game-assets.swgoh.gg/tex.charui_aaylasecura.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_aaylasecura.png",
     description:
       "Versatile attacker with high survivability through Dodge, Hitpoints, and self healing.",
     combat_type: 1,
@@ -82,7 +82,7 @@ module.exports = [
     aliases: ["AA", "Fish"],
     id: "ADMIRALACKBAR",
     url: "http://swgoh.gg/characters/admiral-ackbar/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ackbaradmiral.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ackbaradmiral.png",
     description:
       "Rebel Support that can Dispel debuffs and grant allies extra turns",
     combat_type: 1,
@@ -171,7 +171,7 @@ module.exports = [
     aliases: ["AP"],
     id: "ADMIRALPIETT",
     url: "http://swgoh.gg/characters/admiral-piett/",
-    image: "https://game-assets.swgoh.gg/tex.charui_piett.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_piett.png",
     description:
       "An ambitious Imperial Officer who supports his allies while plotting their demise",
     combat_type: 1,
@@ -262,7 +262,7 @@ module.exports = [
     aliases: ["AT", "Asoka"],
     id: "AHSOKATANO",
     url: "http://swgoh.gg/characters/ahsoka-tano/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ahsoka.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ahsoka.png",
     description:
       "Versatile Attacker who constantly assists while healing and dispelling",
     combat_type: 1,
@@ -342,7 +342,7 @@ module.exports = [
     aliases: ["AT", "Asoka"],
     id: "FULCRUMAHSOKA",
     url: "http://swgoh.gg/characters/ahsoka-tano-fulcrum/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ahsokaadult.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ahsokaadult.png",
     description:
       "Enduring Rebel Attacker who shrugs off debuffs and consumes buffs to deal extra damage",
     combat_type: 1,
@@ -428,7 +428,7 @@ module.exports = [
     aliases: ["AH"],
     id: "AMILYNHOLDO",
     url: "http://swgoh.gg/characters/amilyn-holdo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_holdo.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_holdo.png",
     description:
       "Seasoned Resistance Tank with powerful ally support and enemy debuffs",
     combat_type: 1,
@@ -507,7 +507,8 @@ module.exports = [
     aliases: ["AT"],
     id: "ARCTROOPER501ST",
     url: "http://swgoh.gg/characters/arc-trooper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_arc.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_trooperclone_arc.png",
     description:
       "Powerful Clone Attacker that can command a Blaster Turret on the battlefield",
     combat_type: 1,
@@ -585,7 +586,7 @@ module.exports = [
     aliases: ["AV"],
     id: "ASAJVENTRESS",
     url: "http://swgoh.gg/characters/asajj-ventress/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ventress.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ventress.png",
     description:
       "Nightsister controller with healing who generates attack power as characters are defeated",
     combat_type: 1,
@@ -672,7 +673,7 @@ module.exports = [
     aliases: ["AS"],
     id: "AURRA_SING",
     url: "http://swgoh.gg/characters/aurra-sing/",
-    image: "https://game-assets.swgoh.gg/tex.charui_aurrasing.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_aurrasing.png",
     description:
       "Deadly Bounty Hunter that has increased damage while Stealthed",
     combat_type: 1,
@@ -751,7 +752,7 @@ module.exports = [
     aliases: ["Roger"],
     id: "B1BATTLEDROIDV2",
     url: "http://swgoh.gg/characters/b1-battle-droid/",
-    image: "https://game-assets.swgoh.gg/tex.charui_b1.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_b1.png",
     description:
       "Fragile Separatist Attacker that overwhelms their enemies with numbers",
     combat_type: 1,
@@ -836,7 +837,7 @@ module.exports = [
     name: "B2 Super Battle Droid",
     id: "B2SUPERBATTLEDROID",
     url: "http://swgoh.gg/characters/b2-super-battle-droid/",
-    image: "https://game-assets.swgoh.gg/tex.charui_b2.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_b2.png",
     description:
       "Droid Tank that relentlessly punishes enemies that evade attacks or damage allies",
     combat_type: 1,
@@ -923,7 +924,7 @@ module.exports = [
     aliases: ["BO"],
     id: "BARRISSOFFEE",
     url: "http://swgoh.gg/characters/barriss-offee/",
-    image: "https://game-assets.swgoh.gg/tex.charui_barriss_light.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_barriss_light.png",
     description:
       "Jedi Healer that can balance party Health and Dispel allied Jedi frequently",
     combat_type: 1,
@@ -1003,7 +1004,7 @@ module.exports = [
     aliases: ["BS"],
     id: "BASTILASHAN",
     url: "http://swgoh.gg/characters/bastila-shan/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bastilashan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bastilashan.png",
     description:
       "Strong Jedi Support that grants allies an overwhelming first turn with her Leader ability",
     combat_type: 1,
@@ -1088,7 +1089,8 @@ module.exports = [
     aliases: ["BSF"],
     id: "BASTILASHANDARK",
     url: "http://swgoh.gg/characters/bastila-shan-fallen/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bastilashan_dark.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_bastilashan_dark.png",
     description:
       "Strong Sith Support who inflicts a large number of debuffs including Shock, Fear, and Corrupted Battle Meditation",
     combat_type: 1,
@@ -1182,7 +1184,7 @@ module.exports = [
     aliases: ["Chaze"],
     id: "BAZEMALBUS",
     url: "http://swgoh.gg/characters/baze-malbus/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bazemalbus.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bazemalbus.png",
     description:
       "Fearsome Rebel Tank who Taunts, dispels buffs, and inflicts debuffs",
     combat_type: 1,
@@ -1262,7 +1264,7 @@ module.exports = [
     aliases: ["BB8"],
     id: "BB8",
     url: "http://swgoh.gg/characters/bb-8/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bb8.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bb8.png",
     description:
       "Persistent Resistance Droid who empowers allies by circulating Secret Intel",
     combat_type: 1,
@@ -1349,7 +1351,8 @@ module.exports = [
     aliases: ["BD"],
     id: "BIGGSDARKLIGHTER",
     url: "http://swgoh.gg/characters/biggs-darklighter/",
-    image: "https://game-assets.swgoh.gg/tex.charui_rebelpilot_biggs.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_rebelpilot_biggs.png",
     description: "Rebel Support with Critical Hit synergies who calls Assists",
     combat_type: 1,
     gear_levels: [
@@ -1431,7 +1434,7 @@ module.exports = [
     name: "Bistan",
     id: "BISTAN",
     url: "http://swgoh.gg/characters/bistan/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bistan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bistan.png",
     description:
       "Wild Rebel Attacker who gains Frenzy, debuffs enemies, and removes Turn Meter",
     combat_type: 1,
@@ -1502,7 +1505,7 @@ module.exports = [
     aliases: ["Bo Katan", "BoKatan"],
     id: "BOKATAN",
     url: "http://swgoh.gg/characters/bo-katan-kryze/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bokatan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bokatan.png",
     description:
       "A Mandalorian leader that unites fellow Mandalorians and rallies them to assist.",
     combat_type: 1,
@@ -1587,7 +1590,7 @@ module.exports = [
     aliases: ["BF"],
     id: "BOBAFETT",
     url: "http://swgoh.gg/characters/boba-fett/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bobafett.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bobafett.png",
     description:
       "Ruthless Bounty Hunter Attacker who ignores Taunts, Ability Blocks and self-revives",
     combat_type: 1,
@@ -1675,7 +1678,7 @@ module.exports = [
     aliases: ["DBB", "SoJ", "BF", "BFSOJ"],
     id: "BOBAFETTSCION",
     url: "http://swgoh.gg/characters/boba-fett-scion-of-jango/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bobafettold.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bobafettold.png",
     description:
       "Infamous Bounty Hunter Attacker with a variety of debuffs and synergy with both Bounty Hunters and Scoundrels",
     combat_type: 1,
@@ -1770,7 +1773,7 @@ module.exports = [
     aliases: ["BR"],
     id: "BODHIROOK",
     url: "http://swgoh.gg/characters/bodhi-rook/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bodhi.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bodhi.png",
     description: "Clever Rebel Support who spots enemy units for his allies",
     combat_type: 1,
     gear_levels: [
@@ -1847,7 +1850,7 @@ module.exports = [
     name: "Bossk",
     id: "BOSSK",
     url: "http://swgoh.gg/characters/bossk/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bossk.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bossk.png",
     description:
       "Bounty Hunter Tank that constantly regenerates Health and Protection",
     combat_type: 1,
@@ -1929,7 +1932,7 @@ module.exports = [
     aliases: ["C3PO", "C3P0"],
     id: "C3POLEGENDARY",
     url: "http://swgoh.gg/characters/c-3po/",
-    image: "https://game-assets.swgoh.gg/tex.charui_c3p0.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_c3p0.png",
     description:
       "Evasive support character that Confuses foes and strengthens mixed-faction interplay with Translation.",
     combat_type: 1,
@@ -2026,7 +2029,7 @@ module.exports = [
     aliases: ["CB"],
     id: "CADBANE",
     url: "http://swgoh.gg/characters/cad-bane/",
-    image: "https://game-assets.swgoh.gg/tex.charui_cadbane.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_cadbane.png",
     description:
       "Bounty Hunter Support with a powerful Stun and bonuses against Jedi characters",
     combat_type: 1,
@@ -2108,7 +2111,7 @@ module.exports = [
     aliases: ["Candy", "CO"],
     id: "CANDEROUSORDO",
     url: "http://swgoh.gg/characters/canderous-ordo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_canderous.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_canderous.png",
     description: "Powerful attacker who can make short work of enemy Tanks",
     combat_type: 1,
     gear_levels: [
@@ -2196,7 +2199,7 @@ module.exports = [
     aliases: ["Hoth Han", "CHOLO"],
     id: "HOTHHAN",
     url: "http://swgoh.gg/characters/captain-han-solo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_hoth_han.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_hoth_han.png",
     description:
       "Daring Rebel Support that risks himself to Revive allies and Daze enemies",
     combat_type: 1,
@@ -2267,7 +2270,7 @@ module.exports = [
     aliases: ["CP"],
     id: "PHASMA",
     url: "http://swgoh.gg/characters/captain-phasma/",
-    image: "https://game-assets.swgoh.gg/tex.charui_phasma.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_phasma.png",
     description:
       "High-damage First Order support that can grant allies many extra attacks",
     combat_type: 1,
@@ -2348,7 +2351,7 @@ module.exports = [
     aliases: ["CD"],
     id: "CARADUNE",
     url: "http://swgoh.gg/characters/cara-dune/",
-    image: "https://game-assets.swgoh.gg/tex.charui_caradune.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_caradune.png",
     description:
       "A Scoundrel/Rebel Tank who gains benefits when being led by either.",
     combat_type: 1,
@@ -2428,7 +2431,7 @@ module.exports = [
     aliases: ["CO"],
     id: "CARTHONASI",
     url: "http://swgoh.gg/characters/carth-onasi/",
-    image: "https://game-assets.swgoh.gg/tex.charui_carth.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_carth.png",
     description:
       "Old Republic soldier that excels at clearing waves of enemies",
     combat_type: 1,
@@ -2511,7 +2514,7 @@ module.exports = [
     aliases: ["CA"],
     id: "CASSIANANDOR",
     url: "http://swgoh.gg/characters/cassian-andor/",
-    image: "https://game-assets.swgoh.gg/tex.charui_cassian.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_cassian.png",
     description:
       "Rebel Support who buffs allies at the start of battle and debuffs enemies during battle",
     combat_type: 1,
@@ -2597,7 +2600,8 @@ module.exports = [
     aliases: ["CC2224"],
     id: "CC2224",
     url: "http://swgoh.gg/characters/cc-2224-cody/",
-    image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_cody.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_trooperclone_cody.png",
     description: "Clone Attacker that Stuns and calls tons of Assists",
     combat_type: 1,
     gear_levels: [
@@ -2673,7 +2677,7 @@ module.exports = [
     aliases: ["Chewy"],
     id: "CHEWBACCALEGENDARY",
     url: "http://swgoh.gg/characters/chewbacca/",
-    image: "https://game-assets.swgoh.gg/tex.charui_chewbacca_ot.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_chewbacca_ot.png",
     description: "Mighty Rebel Attacker who Guards the weakest ally",
     combat_type: 1,
     gear_levels: [
@@ -2763,7 +2767,7 @@ module.exports = [
     aliases: ["CC"],
     id: "CHIEFCHIRPA",
     url: "http://swgoh.gg/characters/chief-chirpa/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ewok_chirpa.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ewok_chirpa.png",
     description: "Ewok Leader that greatly improves ally Basic abilities",
     combat_type: 1,
     gear_levels: [
@@ -2841,7 +2845,7 @@ module.exports = [
     aliases: ["CN"],
     id: "CHIEFNEBIT",
     url: "http://swgoh.gg/characters/chief-nebit/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jawa_nebit.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_jawa_nebit.png",
     description:
       "Cunning Jawa Tank with Stealth synergies who can reduce cooldowns",
     combat_type: 1,
@@ -2922,7 +2926,7 @@ module.exports = [
     aliases: ["Chaze"],
     id: "CHIRRUTIMWE",
     url: "http://swgoh.gg/characters/chirrut-imwe/",
-    image: "https://game-assets.swgoh.gg/tex.charui_chirrut.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_chirrut.png",
     description:
       "Balanced Rebel Attacker who dispels debuffs, heals allies, and grants Tenacity Up",
     combat_type: 1,
@@ -2992,7 +2996,7 @@ module.exports = [
     name: "Chopper",
     id: "CHOPPERS3",
     url: "http://swgoh.gg/characters/chopper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_chopper.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_chopper.png",
     description:
       "Surly Phoenix Support who Taunts and Dispels, and can recover Phoenix cooldowns",
     combat_type: 1,
@@ -3074,7 +3078,8 @@ module.exports = [
     aliases: ["CS", "CS1", "CSP", "CSP1", "Clone Sarge"],
     id: "CLONESERGEANTPHASEI",
     url: "http://swgoh.gg/characters/clone-sergeant-phase-i/",
-    image: "https://game-assets.swgoh.gg/tex.charui_trooperclonegreen.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_trooperclonegreen.png",
     description: "Clone Attacker with AoE damage and Turn Meter Reduction",
     combat_type: 1,
     gear_levels: [
@@ -3156,7 +3161,7 @@ module.exports = [
     aliases: ["Chewy", "CW Chewy"],
     id: "CLONEWARSCHEWBACCA",
     url: "http://swgoh.gg/characters/clone-wars-chewbacca/",
-    image: "https://game-assets.swgoh.gg/tex.charui_chewbacca.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_chewbacca.png",
     description: "Durable Tank with both Taunt and self-Healing",
     combat_type: 1,
     gear_levels: [
@@ -3240,7 +3245,7 @@ module.exports = [
     aliases: ["CS"],
     id: "COLONELSTARCK",
     url: "http://swgoh.gg/characters/colonel-starck/",
-    image: "https://game-assets.swgoh.gg/tex.charui_colonel_stark.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_colonel_stark.png",
     description:
       "Offensive Support who provides critical buffs and removes enemy Turn Meter",
     combat_type: 1,
@@ -3327,7 +3332,8 @@ module.exports = [
     aliases: ["CAT"],
     id: "COMMANDERAHSOKA",
     url: "http://swgoh.gg/characters/commander-ahsoka-tano/",
-    image: "https://game-assets.swgoh.gg/tex.charui_commanderahsokatano.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_commanderahsokatano.png",
     description:
       "Legendary Master of Jar'Kai and Shien form Attacker, who deals high damage to a single target.",
     combat_type: 1,
@@ -3419,7 +3425,7 @@ module.exports = [
     aliases: ["CLS", "Rebel Luke"],
     id: "COMMANDERLUKESKYWALKER",
     url: "http://swgoh.gg/characters/commander-luke-skywalker/",
-    image: "https://game-assets.swgoh.gg/tex.charui_lukebespin.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_lukebespin.png",
     description:
       "Determined Rebel hero who can ignore debuffs or ignore Taunts",
     combat_type: 1,
@@ -3510,7 +3516,8 @@ module.exports = [
     aliases: ["CUP"],
     id: "CORUSCANTUNDERWORLDPOLICE",
     url: "http://swgoh.gg/characters/coruscant-underworld-police/",
-    image: "https://game-assets.swgoh.gg/tex.charui_coruscantpolice.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_coruscantpolice.png",
     description: "Support that shuts down enemies with Stuns and Offense Down",
     combat_type: 1,
     gear_levels: [
@@ -3587,7 +3594,7 @@ module.exports = [
     aliases: ["CS", "Saruman"],
     id: "COUNTDOOKU",
     url: "http://swgoh.gg/characters/count-dooku/",
-    image: "https://game-assets.swgoh.gg/tex.charui_dooku.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_dooku.png",
     description:
       "Disciplined Separatist Attacker with high damage, counter attacks, and debuff capabilities",
     combat_type: 1,
@@ -3670,7 +3677,8 @@ module.exports = [
     aliases: ["CT210408"],
     id: "CT210408",
     url: "http://swgoh.gg/characters/ct-21-0408-echo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_echo.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_trooperclone_echo.png",
     description:
       "Clone Trooper Support that automatically assists allies and can dispel all enemy buffs",
     combat_type: 1,
@@ -3749,7 +3757,8 @@ module.exports = [
     aliases: ["CT5555"],
     id: "CT5555",
     url: "http://swgoh.gg/characters/ct-5555-fives/",
-    image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_fives.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_trooperclone_fives.png",
     description:
       "Tank with high Defense, enemy Speed reduction, and team-wide stat bonuses",
     combat_type: 1,
@@ -3835,7 +3844,8 @@ module.exports = [
     aliases: ["CT7567"],
     id: "CT7567",
     url: "http://swgoh.gg/characters/ct-7567-rex/",
-    image: "https://game-assets.swgoh.gg/tex.charui_trooperclone_rex.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_trooperclone_rex.png",
     description:
       "Clone Leader who fiercely supports and protects his 501st and Clone Trooper allies",
     combat_type: 1,
@@ -3921,7 +3931,7 @@ module.exports = [
     aliases: ["DT"],
     id: "DARKTROOPER",
     url: "http://swgoh.gg/characters/dark-trooper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_darktrooper.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_darktrooper.png",
     description:
       "An Imperial Remnant attacker whose abilities are modified by the amount in Dark Trooper Squad",
     combat_type: 1,
@@ -4005,7 +4015,7 @@ module.exports = [
     aliases: ["DM"],
     id: "DARTHMALAK",
     url: "http://swgoh.gg/characters/darth-malak/",
-    image: "https://game-assets.swgoh.gg/tex.charui_darthmalak.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_darthmalak.png",
     description:
       "Brutal Sith Tank who terrorizes and drains enemies to stay alive",
     combat_type: 1,
@@ -4086,7 +4096,7 @@ module.exports = [
     aliases: ["DM"],
     id: "MAUL",
     url: "http://swgoh.gg/characters/darth-maul/",
-    image: "https://game-assets.swgoh.gg/tex.charui_maul.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_maul.png",
     description:
       "Deadly Attacker that gains power and extra turns as enemies are defeated",
     combat_type: 1,
@@ -4167,7 +4177,7 @@ module.exports = [
     aliases: ["DN", "Sith Raid", "Triumvirate"],
     id: "DARTHNIHILUS",
     url: "http://swgoh.gg/characters/darth-nihilus/",
-    image: "https://game-assets.swgoh.gg/tex.charui_nihilus.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_nihilus.png",
     description:
       "Sith Support that can instantly defeat enemies by draining cooldowns",
     combat_type: 1,
@@ -4247,7 +4257,7 @@ module.exports = [
     aliases: ["DRevan", "DR", "Revan Dark"],
     id: "DARTHREVAN",
     url: "http://swgoh.gg/characters/darth-revan/",
-    image: "https://game-assets.swgoh.gg/tex.charui_sithrevan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_sithrevan.png",
     description:
       "Ruthless Sith Lord that is extremely effective at taking down the enemy leader",
     combat_type: 1,
@@ -4332,7 +4342,7 @@ module.exports = [
     aliases: ["DS", "Palpatine"],
     id: "DARTHSIDIOUS",
     url: "http://swgoh.gg/characters/darth-sidious/",
-    image: "https://game-assets.swgoh.gg/tex.charui_sidious.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_sidious.png",
     description:
       "Brutal Attacker effective against Healers and Jedi while boosting allied Criticals as a Leader",
     combat_type: 1,
@@ -4411,7 +4421,7 @@ module.exports = [
     aliases: ["DS", "Sith Raid", "Triumvirate"],
     id: "DARTHSION",
     url: "http://swgoh.gg/characters/darth-sion/",
-    image: "https://game-assets.swgoh.gg/tex.charui_sion.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_sion.png",
     description: "Aggressive Sith tank that becomes stronger with Hatred",
     combat_type: 1,
     gear_levels: [
@@ -4481,7 +4491,7 @@ module.exports = [
     aliases: ["DT"],
     id: "DARTHTALON",
     url: "http://swgoh.gg/characters/darth-talon/",
-    image: "https://game-assets.swgoh.gg/tex.charui_darthtalon.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_darthtalon.png",
     description:
       "Nimble Sith attacker whose loyalty and lethality is without question",
     combat_type: 1,
@@ -4562,7 +4572,7 @@ module.exports = [
     aliases: ["DT", "Sith Raid", "Triumvirate"],
     id: "DARTHTRAYA",
     url: "http://swgoh.gg/characters/darth-traya/",
-    image: "https://game-assets.swgoh.gg/tex.charui_traya.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_traya.png",
     description: "Sith support who punishes enemies for relying on others",
     combat_type: 1,
     gear_levels: [
@@ -4643,7 +4653,7 @@ module.exports = [
     aliases: ["DV"],
     id: "VADER",
     url: "http://swgoh.gg/characters/darth-vader/",
-    image: "https://game-assets.swgoh.gg/tex.charui_vader.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_vader.png",
     description:
       "Fearsome Attacker that applies AoE Damage Over Time, and crushes debuffed targets for extra turns",
     combat_type: 1,
@@ -4727,7 +4737,7 @@ module.exports = [
     aliases: ["DR"],
     id: "DASHRENDAR",
     url: "http://swgoh.gg/characters/dash-rendar/",
-    image: "https://game-assets.swgoh.gg/tex.charui_dashrendar.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_dashrendar.png",
     description:
       "Charismatic Scoundrel Leader who gives Scoundrel allies Prepared",
     combat_type: 1,
@@ -4811,7 +4821,7 @@ module.exports = [
     name: "Dathcha",
     id: "DATHCHA",
     url: "http://swgoh.gg/characters/dathcha/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jawa_dathcha.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_jawa_dathcha.png",
     description:
       "Versatile Support able to Ability Block and Stealth, effective against Droids or with Jawas",
     combat_type: 1,
@@ -4890,7 +4900,7 @@ module.exports = [
     aliases: ["DT"],
     id: "DEATHTROOPER",
     url: "http://swgoh.gg/characters/death-trooper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_trooperdeath.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_trooperdeath.png",
     description:
       "Terrifying Empire Attacker who inflicts debilitating debuffs and prevents revives",
     combat_type: 1,
@@ -4971,7 +4981,7 @@ module.exports = [
     name: "Dengar",
     id: "DENGAR",
     url: "http://swgoh.gg/characters/dengar/",
-    image: "https://game-assets.swgoh.gg/tex.charui_dengar.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_dengar.png",
     description:
       "Adaptable Scoundrel attacker that Stuns and inflicts Tenacity Down.",
     combat_type: 1,
@@ -5054,7 +5064,7 @@ module.exports = [
     aliases: ["DK"],
     id: "DIRECTORKRENNIC",
     url: "http://swgoh.gg/characters/director-krennic/",
-    image: "https://game-assets.swgoh.gg/tex.charui_krennic.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_krennic.png",
     description:
       "Intimidating Empire Support who inflicts devastating debuffs and slows enemies",
     combat_type: 1,
@@ -5143,7 +5153,7 @@ module.exports = [
     aliases: ["DDK"],
     id: "DROIDEKA",
     url: "http://swgoh.gg/characters/droideka/",
-    image: "https://game-assets.swgoh.gg/tex.charui_droideka.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_droideka.png",
     description:
       "Destructive Droid attacker that punishes fast enemies from behind its deflector shield",
     combat_type: 1,
@@ -5221,7 +5231,7 @@ module.exports = [
     aliases: ["Bad Batch Echo"],
     id: "BADBATCHECHO",
     url: "http://swgoh.gg/characters/echo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bb_echo.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bb_echo.png",
     description: "Loyal Clone Trooper who supports his allies in battle",
     combat_type: 1,
     gear_levels: [
@@ -5303,7 +5313,7 @@ module.exports = [
     aliases: ["EK"],
     id: "EETHKOTH",
     url: "http://swgoh.gg/characters/eeth-koth/",
-    image: "https://game-assets.swgoh.gg/tex.charui_eethkoth.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_eethkoth.png",
     description: "Stunning Jedi Support extremely effective against Droids",
     combat_type: 1,
     gear_levels: [
@@ -5378,7 +5388,7 @@ module.exports = [
     name: "Embo",
     id: "EMBO",
     url: "http://swgoh.gg/characters/embo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_embo.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_embo.png",
     description:
       "Deadly Bounty Hunter Attacker that consumes his Protection to boost his damage",
     combat_type: 1,
@@ -5449,7 +5459,8 @@ module.exports = [
     aliases: ["EP"],
     id: "EMPERORPALPATINE",
     url: "http://swgoh.gg/characters/emperor-palpatine/",
-    image: "https://game-assets.swgoh.gg/tex.charui_palpatineemperor.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_palpatineemperor.png",
     description:
       "Overwhelming Sith Support who inflicts Shock and can Stun targets for multiple turns",
     combat_type: 1,
@@ -5536,7 +5547,7 @@ module.exports = [
     aliases: ["EN"],
     id: "ENFYSNEST",
     url: "http://swgoh.gg/characters/enfys-nest/",
-    image: "https://game-assets.swgoh.gg/tex.charui_enfys.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_enfys.png",
     description:
       "Powerhouse attacker that stacks Protection when attacked, then dismantles enemy defenses with Dispels and Turn Meter manipulation",
     combat_type: 1,
@@ -5622,7 +5633,7 @@ module.exports = [
     aliases: ["EE"],
     id: "EWOKELDER",
     url: "http://swgoh.gg/characters/ewok-elder/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ewok_chief.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ewok_chief.png",
     description: "Ewok Healer that specializes in Revives",
     combat_type: 1,
     gear_levels: [
@@ -5692,7 +5703,7 @@ module.exports = [
     aliases: ["ES"],
     id: "EWOKSCOUT",
     url: "http://swgoh.gg/characters/ewok-scout/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ewok_scout.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ewok_scout.png",
     description:
       "Powerful single-target Attacker that becomes evasive with Ewok allies",
     combat_type: 1,
@@ -5763,7 +5774,7 @@ module.exports = [
     aliases: ["EB"],
     id: "EZRABRIDGERS3",
     url: "http://swgoh.gg/characters/ezra-bridger/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ezra_s3.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ezra_s3.png",
     description:
       "Versatile Phoenix Attacker that can perform a variety of effects based on the Roles of allies",
     combat_type: 1,
@@ -5849,7 +5860,7 @@ module.exports = [
     aliases: ["FS"],
     id: "FENNECSHAND",
     url: "http://swgoh.gg/characters/fennec-shand/",
-    image: "https://game-assets.swgoh.gg/tex.charui_fennec.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_fennec.png",
     description:
       "Lethal Bounty Hunter capable of taking on the most dangerous foes",
     combat_type: 1,
@@ -5929,7 +5940,7 @@ module.exports = [
     name: "Finn",
     id: "FINN",
     url: "http://swgoh.gg/characters/finn/",
-    image: "https://game-assets.swgoh.gg/tex.charui_finnjakku.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_finnjakku.png",
     description:
       "Resistance tank that keeps the pressure up with a balance between offense and defense",
     combat_type: 1,
@@ -6011,7 +6022,8 @@ module.exports = [
     aliases: ["FOE"],
     id: "FIRSTORDEREXECUTIONER",
     url: "http://swgoh.gg/characters/first-order-executioner/",
-    image: "https://game-assets.swgoh.gg/tex.charui_firstorder_executioner.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_firstorder_executioner.png",
     description: "Merciless First Order Attacker who executes powerful attacks",
     combat_type: 1,
     gear_levels: [
@@ -6095,7 +6107,8 @@ module.exports = [
     aliases: ["FOO"],
     id: "FIRSTORDEROFFICERMALE",
     url: "http://swgoh.gg/characters/first-order-officer/",
-    image: "https://game-assets.swgoh.gg/tex.charui_firstorderofficer.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_firstorderofficer.png",
     description:
       "First Order support that grants Advantage and can manipulate both ally and enemy Turn Meters",
     combat_type: 1,
@@ -6180,7 +6193,8 @@ module.exports = [
     aliases: ["FOSF", "FOTP"],
     id: "FIRSTORDERSPECIALFORCESPILOT",
     url: "http://swgoh.gg/characters/first-order-sf-tie-pilot/",
-    image: "https://game-assets.swgoh.gg/tex.charui_firstorder_pilot.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_firstorder_pilot.png",
     description:
       "Subversive First Order Attacker who buffs allies and disrupts enemies",
     combat_type: 1,
@@ -6265,7 +6279,8 @@ module.exports = [
     aliases: ["FOS"],
     id: "FIRSTORDERTROOPER",
     url: "http://swgoh.gg/characters/first-order-stormtrooper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_firstordertrooper.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_firstordertrooper.png",
     description: "First Order tank that uses Advantage to disrupt enemies",
     combat_type: 1,
     gear_levels: [
@@ -6351,7 +6366,8 @@ module.exports = [
     aliases: ["FOTP"],
     id: "FIRSTORDERTIEPILOT",
     url: "http://swgoh.gg/characters/first-order-tie-pilot/",
-    image: "https://game-assets.swgoh.gg/tex.charui_firstordertiepilot.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_firstordertiepilot.png",
     description:
       "First Order attacker that can deal extreme damage in a single turn with Advantage",
     combat_type: 1,
@@ -6435,7 +6451,8 @@ module.exports = [
     aliases: ["GG"],
     id: "GAMORREANGUARD",
     url: "http://swgoh.gg/characters/gamorrean-guard/",
-    image: "https://game-assets.swgoh.gg/tex.charui_gamorreanguard.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_gamorreanguard.png",
     description:
       "Aggressive tank that Taunts and Counters with multiple Damage Over Time effects",
     combat_type: 1,
@@ -6513,7 +6530,7 @@ module.exports = [
     aliases: ["GS"],
     id: "GARSAXON",
     url: "http://swgoh.gg/characters/gar-saxon/",
-    image: "https://game-assets.swgoh.gg/tex.charui_gar_saxon.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_gar_saxon.png",
     description:
       "Leader who grants Empire allies Counter Chance and Assists them when they Counter Attack",
     combat_type: 1,
@@ -6590,7 +6607,7 @@ module.exports = [
     name: 'Garazeb "Zeb" Orrelios',
     id: "ZEBS3",
     url: "http://swgoh.gg/characters/garazeb-zeb-orrelios/",
-    image: "https://game-assets.swgoh.gg/tex.charui_zeb_s3.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_zeb_s3.png",
     description:
       "Versatile Phoenix Tank with wide variety of effects for allies or enemies with or without debuffs",
     combat_type: 1,
@@ -6670,7 +6687,7 @@ module.exports = [
     aliases: ["GG"],
     id: "GRIEVOUS",
     url: "http://swgoh.gg/characters/general-grievous/",
-    image: "https://game-assets.swgoh.gg/tex.charui_grievous.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_grievous.png",
     description:
       "Aggressive Attacker that grows increasingly stronger as the Droids around him fall. Although he hates being called a droid, he counts as one in combat.",
     combat_type: 1,
@@ -6758,7 +6775,7 @@ module.exports = [
     aliases: ["GH"],
     id: "GENERALHUX",
     url: "http://swgoh.gg/characters/general-hux/",
-    image: "https://game-assets.swgoh.gg/tex.charui_generalhux.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_generalhux.png",
     description:
       "Ruthless First Order Support that can prevent enemies from counterattacking.",
     combat_type: 1,
@@ -6837,7 +6854,7 @@ module.exports = [
     aliases: ["GK", "ObiWan", "Obi Wan"],
     id: "GENERALKENOBI",
     url: "http://swgoh.gg/characters/general-kenobi/",
-    image: "https://game-assets.swgoh.gg/tex.charui_obiwangeneral.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_obiwangeneral.png",
     description:
       "Vigorous Jedi Tank who gains Foresight, dispels debuffs to grant buffs, and calls buffed allies to Assist",
     combat_type: 1,
@@ -6935,7 +6952,7 @@ module.exports = [
     aliases: ["GAS", "Anakin"],
     id: "GENERALSKYWALKER",
     url: "http://swgoh.gg/characters/general-skywalker/",
-    image: "https://game-assets.swgoh.gg/tex.charui_generalanakin.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_generalanakin.png",
     description: "Fierce Jedi Attacker who protects his battalion at all costs",
     combat_type: 1,
     gear_levels: [
@@ -7025,7 +7042,7 @@ module.exports = [
     aliases: ["GV"],
     id: "VEERS",
     url: "http://swgoh.gg/characters/general-veers/",
-    image: "https://game-assets.swgoh.gg/tex.charui_veers.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_veers.png",
     description:
       "Aggressive Empire Support that becomes stronger as enemies are defeated",
     combat_type: 1,
@@ -7104,7 +7121,8 @@ module.exports = [
     aliases: ["GBA"],
     id: "GEONOSIANBROODALPHA",
     url: "http://swgoh.gg/characters/geonosian-brood-alpha/",
-    image: "https://game-assets.swgoh.gg/tex.charui_geonosian_broodalpha.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_geonosian_broodalpha.png",
     description:
       "Geonosian Support that swarms enemies with summoned allies and Hive Mind",
     combat_type: 1,
@@ -7196,7 +7214,8 @@ module.exports = [
     aliases: ["GS"],
     id: "GEONOSIANSOLDIER",
     url: "http://swgoh.gg/characters/geonosian-soldier/",
-    image: "https://game-assets.swgoh.gg/tex.charui_geonosian_soldier.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_geonosian_soldier.png",
     description:
       "Aggressive Attacker who calls assists and grants powerful offensive bonuses to Geonosian allies",
     combat_type: 1,
@@ -7274,7 +7293,7 @@ module.exports = [
     aliases: ["GS"],
     id: "GEONOSIANSPY",
     url: "http://swgoh.gg/characters/geonosian-spy/",
-    image: "https://game-assets.swgoh.gg/tex.charui_geonosian_spy.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_geonosian_spy.png",
     description:
       "Stealthy Geonosian Attacker who Exposes enemies and has high damage potential",
     combat_type: 1,
@@ -7355,7 +7374,7 @@ module.exports = [
     aliases: ["GAT"],
     id: "GRANDADMIRALTHRAWN",
     url: "http://swgoh.gg/characters/grand-admiral-thrawn/",
-    image: "https://game-assets.swgoh.gg/tex.charui_thrawn.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_thrawn.png",
     description:
       "Calculating Empire Leader who can halt enemies in their tracks, and grants Empire allies a new Special ability",
     combat_type: 1,
@@ -7443,7 +7462,8 @@ module.exports = [
     aliases: ["GMY"],
     id: "GRANDMASTERYODA",
     url: "http://swgoh.gg/characters/grand-master-yoda/",
-    image: "https://game-assets.swgoh.gg/tex.charui_yodagrandmaster.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_yodagrandmaster.png",
     description:
       "Masterful Jedi support that can replicate enemy buffs and share them with allies",
     combat_type: 1,
@@ -7538,7 +7558,7 @@ module.exports = [
     aliases: ["GMT"],
     id: "GRANDMOFFTARKIN",
     url: "http://swgoh.gg/characters/grand-moff-tarkin/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tarkinadmiral.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tarkinadmiral.png",
     description: "Offensive Empire Support with crushing AoE debuffs",
     combat_type: 1,
     gear_levels: [
@@ -7625,7 +7645,7 @@ module.exports = [
     name: "Greedo",
     id: "GREEDO",
     url: "http://swgoh.gg/characters/greedo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_greedo.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_greedo.png",
     description: "Deadly Attacker that gains extra attacks from Critical Hits",
     combat_type: 1,
     gear_levels: [
@@ -7706,7 +7726,7 @@ module.exports = [
     aliases: ["GK"],
     id: "GREEFKARGA",
     url: "http://swgoh.gg/characters/greef-karga/",
-    image: "https://game-assets.swgoh.gg/tex.charui_greefkarga.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_greefkarga.png",
     description:
       "Bounty Hunter Support that provides recovery and assist calls",
     combat_type: 1,
@@ -7790,7 +7810,7 @@ module.exports = [
     name: "Han Solo",
     id: "HANSOLO",
     url: "http://swgoh.gg/characters/han-solo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_han.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_han.png",
     description:
       "Daring Attacker that stacks Criticals in his favor and always shoots first",
     combat_type: 1,
@@ -7870,7 +7890,7 @@ module.exports = [
     name: "Hera Syndulla",
     id: "HERASYNDULLAS3",
     url: "http://swgoh.gg/characters/hera-syndulla/",
-    image: "https://game-assets.swgoh.gg/tex.charui_hera_s3.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_hera_s3.png",
     description:
       "Cunning Phoenix Support that allows Phoenix allies to share their Unique abilities with each other",
     combat_type: 1,
@@ -7958,7 +7978,7 @@ module.exports = [
     aliases: ["HODA"],
     id: "HERMITYODA",
     url: "http://swgoh.gg/characters/hermit-yoda/",
-    image: "https://game-assets.swgoh.gg/tex.charui_yodahermit.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_yodahermit.png",
     description:
       "Jedi recluse who imparts sage wisdom in the ways of the Force",
     combat_type: 1,
@@ -8039,7 +8059,7 @@ module.exports = [
     aliases: ["HK47"],
     id: "HK47",
     url: "http://swgoh.gg/characters/hk-47/",
-    image: "https://game-assets.swgoh.gg/tex.charui_hk47.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_hk47.png",
     description: "Offensive Attacker with powerful Darth Revan synergy",
     combat_type: 1,
     gear_levels: [
@@ -8120,7 +8140,8 @@ module.exports = [
     aliases: ["HRS"],
     id: "HOTHREBELSCOUT",
     url: "http://swgoh.gg/characters/hoth-rebel-scout/",
-    image: "https://game-assets.swgoh.gg/tex.charui_rebelhothscout.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_rebelhothscout.png",
     description:
       "Single target attacker with crit synergies and speed building abilities.",
     combat_type: 1,
@@ -8198,7 +8219,7 @@ module.exports = [
     aliases: ["HRS"],
     id: "HOTHREBELSOLDIER",
     url: "http://swgoh.gg/characters/hoth-rebel-soldier/",
-    image: "https://game-assets.swgoh.gg/tex.charui_rebelhoth.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_rebelhoth.png",
     description:
       "Support character that debuffs, taunts, and defensively buffs, with Rebel and anti-Empire synergies.",
     combat_type: 1,
@@ -8276,7 +8297,7 @@ module.exports = [
     aliases: ["Bad Batch Hunter", "BBH"],
     id: "BADBATCHHUNTER",
     url: "http://swgoh.gg/characters/hunter/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bb_hunter.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bb_hunter.png",
     description:
       "Tactical leader of the Bad Batch who subtly destroys his enemies.",
     combat_type: 1,
@@ -8378,7 +8399,8 @@ module.exports = [
     aliases: ["IV"],
     id: "IDENVERSIOEMPIRE",
     url: "http://swgoh.gg/characters/iden-versio/",
-    image: "https://game-assets.swgoh.gg/tex.charui_idenversioempire.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_idenversioempire.png",
     description:
       "Tenacious Empire Attacker who expertly takes out foes while supporting her squad",
     combat_type: 1,
@@ -8471,7 +8493,7 @@ module.exports = [
     aliases: ["Maggy", "Maggie"],
     id: "MAGNAGUARD",
     url: "http://swgoh.gg/characters/ig-100-magnaguard/",
-    image: "https://game-assets.swgoh.gg/tex.charui_magnaguard.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_magnaguard.png",
     description:
       "Disruptive Droid Tank that Taunts and takes an extra turn before it is defeated",
     combat_type: 1,
@@ -8552,7 +8574,7 @@ module.exports = [
     aliases: ["IG11", "Nanny"],
     id: "IG11",
     url: "http://swgoh.gg/characters/ig-11/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ig11_nurse.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ig11_nurse.png",
     description: "Versatile Healer with strong Scoundrel and Droid synergies",
     combat_type: 1,
     gear_levels: [
@@ -8631,7 +8653,7 @@ module.exports = [
     aliases: ["IG86"],
     id: "IG86SENTINELDROID",
     url: "http://swgoh.gg/characters/ig-86-sentinel-droid/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ig86.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ig86.png",
     description:
       "Droid Attacker with a powerful Droid Assist and devastating Criticals",
     combat_type: 1,
@@ -8709,7 +8731,7 @@ module.exports = [
     aliases: ["IG88"],
     id: "IG88",
     url: "http://swgoh.gg/characters/ig-88/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ig88.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ig88.png",
     description:
       "Droid Attacker with debuffs and a damage bonus against debuffed enemies",
     combat_type: 1,
@@ -8788,7 +8810,7 @@ module.exports = [
     aliases: ["IGD", "Gundy"],
     id: "IMAGUNDI",
     url: "http://swgoh.gg/characters/ima-gun-di/",
-    image: "https://game-assets.swgoh.gg/tex.charui_imagundi.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_imagundi.png",
     description:
       "Supportive Tank that boost ally defense and grants Jedi allies Counter Chance",
     combat_type: 1,
@@ -8864,7 +8886,7 @@ module.exports = [
     aliases: ["IPD"],
     id: "IMPERIALPROBEDROID",
     url: "http://swgoh.gg/characters/imperial-probe-droid/",
-    image: "https://game-assets.swgoh.gg/tex.charui_probedroid.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_probedroid.png",
     description:
       "Imperial Droid who reveals and tracks enemies with Target Lock",
     combat_type: 1,
@@ -8954,7 +8976,7 @@ module.exports = [
     id: "IMPERIALSUPERCOMMANDO",
     url: "http://swgoh.gg/characters/imperial-super-commando/",
     image:
-      "https://game-assets.swgoh.gg/tex.charui_imperial_super_commando.png",
+      "https://game-assets.swgoh.gg/textures/tex.charui_imperial_super_commando.png",
     description:
       "An Empire Attacker with counter mechanics who dispels buffs and applies buff immunity",
     combat_type: 1,
@@ -9039,7 +9061,7 @@ module.exports = [
     aliases: ["JF"],
     id: "JANGOFETT",
     url: "http://swgoh.gg/characters/jango-fett/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jangofett.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_jangofett.png",
     description:
       "Notorious Bounty Hunter that exploits debuffed foes and inflicts Burning",
     combat_type: 1,
@@ -9129,7 +9151,7 @@ module.exports = [
     name: "Jawa",
     id: "JAWA",
     url: "http://swgoh.gg/characters/jawa/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jawa_jawa.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_jawa_jawa.png",
     description:
       "Attacker effective against debuffed enemies as well as Droids",
     combat_type: 1,
@@ -9200,7 +9222,7 @@ module.exports = [
     aliases: ["JE"],
     id: "JAWAENGINEER",
     url: "http://swgoh.gg/characters/jawa-engineer/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jawa_engineer.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_jawa_engineer.png",
     description:
       "High-speed Jawa Healer with a Critical Chance buff and both Jawa and Droid synergy",
     combat_type: 1,
@@ -9277,7 +9299,8 @@ module.exports = [
     aliases: ["JS"],
     id: "JAWASCAVENGER",
     url: "http://swgoh.gg/characters/jawa-scavenger/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jawa_scavenger.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_jawa_scavenger.png",
     description:
       "Versatile Jawa Support who can detonate Thermal Detonators to inflict a large variety of status effects",
     combat_type: 1,
@@ -9364,7 +9387,8 @@ module.exports = [
     aliases: ["JC"],
     id: "JEDIKNIGHTCONSULAR",
     url: "http://swgoh.gg/characters/jedi-consular/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jedi_consular_03.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_jedi_consular_03.png",
     description: "Well-rounded Jedi Healer with a mix of offense and defense",
     combat_type: 1,
     gear_levels: [
@@ -9441,7 +9465,7 @@ module.exports = [
     aliases: ["JKA", "Jedi Anakin"],
     id: "ANAKINKNIGHT",
     url: "http://swgoh.gg/characters/jedi-knight-anakin/",
-    image: "https://game-assets.swgoh.gg/tex.charui_anakinknight.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_anakinknight.png",
     description:
       "High-pressure Jedi attacker that punishes enemies for wounding his allies",
     combat_type: 1,
@@ -9522,7 +9546,8 @@ module.exports = [
     aliases: ["JKG"],
     id: "JEDIKNIGHTGUARDIAN",
     url: "http://swgoh.gg/characters/jedi-knight-guardian/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jedi_guardian_01.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_jedi_guardian_01.png",
     description:
       "Tenacious Jedi tank with crippling debuffs and natural recovery at low Health",
     combat_type: 1,
@@ -9600,7 +9625,8 @@ module.exports = [
     aliases: ["JKL", "Jedi Luke"],
     id: "JEDIKNIGHTLUKE",
     url: "http://swgoh.gg/characters/jedi-knight-luke-skywalker/",
-    image: "https://game-assets.swgoh.gg/tex.charui_luke_jediknight.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_luke_jediknight.png",
     description:
       "Stalwart Jedi hero of legend who ascends to victorious heights alongside his Jedi allies through the will of the Force",
     combat_type: 1,
@@ -9690,7 +9716,7 @@ module.exports = [
     aliases: ["JKR", "Jedi Revan", "Revan Light"],
     id: "JEDIKNIGHTREVAN",
     url: "http://swgoh.gg/characters/jedi-knight-revan/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jedirevan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_jedirevan.png",
     description:
       "Fabled Jedi leader who controls the battle with a wide mix of powerful abilities",
     combat_type: 1,
@@ -9787,7 +9813,7 @@ module.exports = [
     aliases: ["JMK", "GL Kenobi", "Obi Wan", "Obiwan"],
     id: "JEDIMASTERKENOBI",
     url: "http://swgoh.gg/characters/jedi-master-kenobi/",
-    image: "https://game-assets.swgoh.gg/tex.charui_globiwan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_globiwan.png",
     description:
       "Renowned Jedi Master that provides damage and support through a diverse set of abilities",
     combat_type: 1,
@@ -9893,7 +9919,7 @@ module.exports = [
     aliases: ["JML", "Master Luke", "GL Luke"],
     id: "GRANDMASTERLUKE",
     url: "http://swgoh.gg/characters/jedi-master-luke-skywalker/",
-    image: "https://game-assets.swgoh.gg/tex.charui_luke_jml.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_luke_jml.png",
     description:
       "The wizened Jedi master of legend who empowers his Jedi allies with the knowledge and skills he has obtained",
     combat_type: 1,
@@ -9996,7 +10022,7 @@ module.exports = [
     aliases: ["JB"],
     id: "JOLEEBINDO",
     url: "http://swgoh.gg/characters/jolee-bindo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_joleebindo.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_joleebindo.png",
     description:
       "Potent Jedi Healer with high durability and resistance to disruption",
     combat_type: 1,
@@ -10072,7 +10098,7 @@ module.exports = [
     name: "Juhani",
     id: "JUHANI",
     url: "http://swgoh.gg/characters/juhani/",
-    image: "https://game-assets.swgoh.gg/tex.charui_juhani.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_juhani.png",
     description:
       "Unique Jedi Tank who dispels debuffs from Old Republic allies and becomes more dangerous below full Health",
     combat_type: 1,
@@ -10152,7 +10178,7 @@ module.exports = [
     aliases: ["JE"],
     id: "JYNERSO",
     url: "http://swgoh.gg/characters/jyn-erso/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jyn.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_jyn.png",
     description:
       "Offensive Rebel Leader who gains Advantage, Stuns enemies, revives Rebel allies and grants them Potency Up",
     combat_type: 1,
@@ -10231,7 +10257,7 @@ module.exports = [
     aliases: ["K2S0", "K2SO"],
     id: "K2SO",
     url: "http://swgoh.gg/characters/k-2so/",
-    image: "https://game-assets.swgoh.gg/tex.charui_k2so.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_k2so.png",
     description: "Rebel Tank who Taunts and Counter Attacks",
     combat_type: 1,
     gear_levels: [
@@ -10308,7 +10334,7 @@ module.exports = [
     aliases: ["KJ"],
     id: "KANANJARRUSS3",
     url: "http://swgoh.gg/characters/kanan-jarrus/",
-    image: "https://game-assets.swgoh.gg/tex.charui_kanan_s3.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_kanan_s3.png",
     description:
       "Durable Phoenix Tank that keeps enemy Offense crippled and allies healthy",
     combat_type: 1,
@@ -10395,7 +10421,7 @@ module.exports = [
     aliases: ["KAM"],
     id: "KIADIMUNDI",
     url: "http://swgoh.gg/characters/ki-adi-mundi/",
-    image: "https://game-assets.swgoh.gg/tex.charui_kiadimundi.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_kiadimundi.png",
     description:
       "Formidable Jedi Master who shifts between Ataru and Makashi lightsaber forms",
     combat_type: 1,
@@ -10476,7 +10502,7 @@ module.exports = [
     aliases: ["KF"],
     id: "KITFISTO",
     url: "http://swgoh.gg/characters/kit-fisto/",
-    image: "https://game-assets.swgoh.gg/tex.charui_kitfisto.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_kitfisto.png",
     description:
       "Versatile Jedi Attacker with multi-attack, Counter Chance, and a variety of ally buffs",
     combat_type: 1,
@@ -10554,7 +10580,7 @@ module.exports = [
     name: "Kuiil",
     id: "KUIIL",
     url: "http://swgoh.gg/characters/kuiil/",
-    image: "https://game-assets.swgoh.gg/tex.charui_kuiil.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_kuiil.png",
     description: "A supportive mechanic who aids Droids and Scoundrels.",
     combat_type: 1,
     gear_levels: [
@@ -10631,7 +10657,7 @@ module.exports = [
     aliases: ["KK"],
     id: "KYLEKATARN",
     url: "http://swgoh.gg/characters/kyle-katarn/",
-    image: "https://game-assets.swgoh.gg/tex.charui_kylekatarn.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_kylekatarn.png",
     description: "A Force-sensitive Rebel operative and Jedi Knight",
     combat_type: 1,
     gear_levels: [
@@ -10713,7 +10739,7 @@ module.exports = [
     aliases: ["OG Kylo"],
     id: "KYLOREN",
     url: "http://swgoh.gg/characters/kylo-ren/",
-    image: "https://game-assets.swgoh.gg/tex.charui_kyloren.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_kyloren.png",
     description:
       "Versatile First Order attacker that can reuse special attacks when damaged",
     combat_type: 1,
@@ -10793,7 +10819,7 @@ module.exports = [
     aliases: ["KRU"],
     id: "KYLORENUNMASKED",
     url: "http://swgoh.gg/characters/kylo-ren-unmasked/",
-    image: "https://game-assets.swgoh.gg/tex.charui_kylo_unmasked.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_kylo_unmasked.png",
     description: "Tough First Order Tank with a powerful Stun",
     combat_type: 1,
     gear_levels: [
@@ -10879,7 +10905,7 @@ module.exports = [
     aliases: ["L337"],
     id: "L3_37",
     url: "http://swgoh.gg/characters/l3-37/",
-    image: "https://game-assets.swgoh.gg/tex.charui_l337.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_l337.png",
     description:
       "Droid Tank that can dispel allies and has multiple ways to increase her stats permanently",
     combat_type: 1,
@@ -10957,7 +10983,7 @@ module.exports = [
     aliases: ["LC"],
     id: "ADMINISTRATORLANDO",
     url: "http://swgoh.gg/characters/lando-calrissian/",
-    image: "https://game-assets.swgoh.gg/tex.charui_landobespin.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_landobespin.png",
     description:
       "Scoundrel leader with high offense and excellent Critical Hit synergy",
     combat_type: 1,
@@ -11039,7 +11065,7 @@ module.exports = [
     name: "Lobot",
     id: "LOBOT",
     url: "http://swgoh.gg/characters/lobot/",
-    image: "https://game-assets.swgoh.gg/tex.charui_lobot.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_lobot.png",
     description:
       "Rebel Support that can reliably inflict Defense Down, clear allied debuffs, and speed up allied Droids",
     combat_type: 1,
@@ -11116,7 +11142,7 @@ module.exports = [
     name: "Logray",
     id: "LOGRAY",
     url: "http://swgoh.gg/characters/logray/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ewok_logray.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ewok_logray.png",
     description:
       "Sage Ewok Support who can Daze enemies and grant Ewok allies many buffs",
     combat_type: 1,
@@ -11198,7 +11224,7 @@ module.exports = [
     aliases: ["LV", "GL Vader", "GL Anakin"],
     id: "LORDVADER",
     url: "http://swgoh.gg/characters/lord-vader/",
-    image: "https://game-assets.swgoh.gg/tex.charui_lordvader.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_lordvader.png",
     description:
       "Legendary Sith Lord who utilizes the actions of others to empower his own potential and is not to be underestimated",
     combat_type: 1,
@@ -11288,7 +11314,7 @@ module.exports = [
     aliases: ["Farmer Luke", "LSF"],
     id: "LUKESKYWALKER",
     url: "http://swgoh.gg/characters/luke-skywalker-farmboy/",
-    image: "https://game-assets.swgoh.gg/tex.charui_luke_ep4.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_luke_ep4.png",
     description:
       "Attacker that can boost his own Critical Rate, then disable enemies with Critical Hits",
     combat_type: 1,
@@ -11376,7 +11402,7 @@ module.exports = [
     aliases: ["Lumi", "LU"],
     id: "LUMINARAUNDULI",
     url: "http://swgoh.gg/characters/luminara-unduli/",
-    image: "https://game-assets.swgoh.gg/tex.charui_luminara.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_luminara.png",
     description:
       "Versatile attacker with ability block and powerful party heal.",
     combat_type: 1,
@@ -11461,7 +11487,7 @@ module.exports = [
     aliases: ["Samuel", "Sam", "MW"],
     id: "MACEWINDU",
     url: "http://swgoh.gg/characters/mace-windu/",
-    image: "https://game-assets.swgoh.gg/tex.charui_macewindu.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_macewindu.png",
     description:
       "Aggressive Jedi tank with devastating damage if left unchecked",
     combat_type: 1,
@@ -11544,7 +11570,8 @@ module.exports = [
     aliases: ["MT"],
     id: "MAGMATROOPER",
     url: "http://swgoh.gg/characters/magmatrooper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_trooperstorm_magma.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_trooperstorm_magma.png",
     description:
       "Resilient Attacker that recovers quickly from debuffs and deals potent AoE damage",
     combat_type: 1,
@@ -11615,7 +11642,7 @@ module.exports = [
     aliases: ["MJ", "Lukes Wife", "MJTEH"],
     id: "MARAJADE",
     url: "http://swgoh.gg/characters/mara-jade-the-emperors-hand/",
-    image: "https://game-assets.swgoh.gg/tex.charui_marajade.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_marajade.png",
     description:
       "Dark Side force user Attacker who uses her allies to boost her own power and supports Emperor Palpatine",
     combat_type: 1,
@@ -11699,7 +11726,7 @@ module.exports = [
     name: "Maul",
     id: "MAULS7",
     url: "http://swgoh.gg/characters/maul/",
-    image: "https://game-assets.swgoh.gg/tex.charui_maul_cyborg.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_maul_cyborg.png",
     description: "Unrelenting attacker that uses his anguish to crush his foes",
     combat_type: 1,
     gear_levels: [
@@ -11784,7 +11811,7 @@ module.exports = [
     aliases: ["MV"],
     id: "MISSIONVAO",
     url: "http://swgoh.gg/characters/mission-vao/",
-    image: "https://game-assets.swgoh.gg/tex.charui_mission.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_mission.png",
     description: "Slippery Scoundrel Attacker who blinds her enemies",
     combat_type: 1,
     gear_levels: [
@@ -11862,7 +11889,7 @@ module.exports = [
     name: "Mob Enforcer",
     id: "HUMANTHUG",
     url: "http://swgoh.gg/characters/mob-enforcer/",
-    image: "https://game-assets.swgoh.gg/tex.charui_mob_enforcer.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_mob_enforcer.png",
     description:
       "Scoundrel Support with enemy debuff ability and a thermal detonator.",
     combat_type: 1,
@@ -11905,7 +11932,7 @@ module.exports = [
     aliases: ["MG"],
     id: "MOFFGIDEONS1",
     url: "http://swgoh.gg/characters/moff-gideon/",
-    image: "https://game-assets.swgoh.gg/tex.charui_moffgideon.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_moffgideon.png",
     description:
       "Empire Leader that can lead a fireteam into battle and punish enemies with the Leader tag",
     combat_type: 1,
@@ -11994,7 +12021,7 @@ module.exports = [
     aliases: ["MM"],
     id: "MONMOTHMA",
     url: "http://swgoh.gg/characters/mon-mothma/",
-    image: "https://game-assets.swgoh.gg/tex.charui_monmothma.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_monmothma.png",
     description: "Rebel Leader who supports and rallies her allies",
     combat_type: 1,
     gear_levels: [
@@ -12073,7 +12100,8 @@ module.exports = [
     aliases: ["MT"],
     id: "MOTHERTALZIN",
     url: "http://swgoh.gg/characters/mother-talzin/",
-    image: "https://game-assets.swgoh.gg/tex.charui_nightsisters_talzin.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_nightsisters_talzin.png",
     description:
       "Vicious Nightsister Leader who inflicts Plague, preventing enemies from Dispelling debuffs",
     combat_type: 1,
@@ -12153,7 +12181,8 @@ module.exports = [
     aliases: ["NA"],
     id: "NIGHTSISTERACOLYTE",
     url: "http://swgoh.gg/characters/nightsister-acolyte/",
-    image: "https://game-assets.swgoh.gg/tex.charui_nightsister_acolyte.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_nightsister_acolyte.png",
     description:
       "Stealth attacker with some enemy debuffing and self healing ability.",
     combat_type: 1,
@@ -12231,7 +12260,8 @@ module.exports = [
     aliases: ["NI"],
     id: "NIGHTSISTERINITIATE",
     url: "http://swgoh.gg/characters/nightsister-initiate/",
-    image: "https://game-assets.swgoh.gg/tex.charui_nightsister_initiate.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_nightsister_initiate.png",
     description:
       "Critical-focused Attacker that can render enemies immune to buffs",
     combat_type: 1,
@@ -12309,7 +12339,8 @@ module.exports = [
     aliases: ["NS"],
     id: "NIGHTSISTERSPIRIT",
     url: "http://swgoh.gg/characters/nightsister-spirit/",
-    image: "https://game-assets.swgoh.gg/tex.charui_nightsisters_wraith.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_nightsisters_wraith.png",
     description:
       "Veiled Nightsister Attacker who Dispels, Stuns, and gains Foresight",
     combat_type: 1,
@@ -12395,7 +12426,8 @@ module.exports = [
     aliases: ["NZ"],
     id: "NIGHTSISTERZOMBIE",
     url: "http://swgoh.gg/characters/nightsister-zombie/",
-    image: "https://game-assets.swgoh.gg/tex.charui_nightsisters_zombie.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_nightsisters_zombie.png",
     description:
       "Vile Nightsister Tank who inflicts Tenacity Down and can't be stopped from reviving endlessly",
     combat_type: 1,
@@ -12473,7 +12505,7 @@ module.exports = [
     aliases: ["NG"],
     id: "NUTEGUNRAY",
     url: "http://swgoh.gg/characters/nute-gunray/",
-    image: "https://game-assets.swgoh.gg/tex.charui_nutegunray.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_nutegunray.png",
     description:
       "Separatist Support who specializes in sabotaging enemy strategies",
     combat_type: 1,
@@ -12553,7 +12585,7 @@ module.exports = [
     aliases: ["Obiwan", "Obi Wan"],
     id: "OLDBENKENOBI",
     url: "http://swgoh.gg/characters/obi-wan-kenobi-old-ben/",
-    image: "https://game-assets.swgoh.gg/tex.charui_obiwanep4.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_obiwanep4.png",
     description:
       "Durable Jedi Tank able to shut down enemy offense with multiple debuffs",
     combat_type: 1,
@@ -12638,7 +12670,7 @@ module.exports = [
     aliases: ["OD"],
     id: "DAKA",
     url: "http://swgoh.gg/characters/old-daka/",
-    image: "https://game-assets.swgoh.gg/tex.charui_daka.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_daka.png",
     description: "Defensive Nightsister Healer who Stuns and Revives",
     combat_type: 1,
     gear_levels: [
@@ -12717,7 +12749,7 @@ module.exports = [
     aliases: ["Bad Batch Omega"],
     id: "BADBATCHOMEGA",
     url: "http://swgoh.gg/characters/omega/",
-    image: "https://game-assets.swgoh.gg/tex.charui_badbatchomega.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_badbatchomega.png",
     description:
       "Clever and empathetic attacker who utilizes buffs, debuffs, and the presence of her Bad Batch allies to take out her foes.",
     combat_type: 1,
@@ -12812,7 +12844,8 @@ module.exports = [
     aliases: ["Padme", "PA"],
     id: "PADMEAMIDALA",
     url: "http://swgoh.gg/characters/padme-amidala/",
-    image: "https://game-assets.swgoh.gg/tex.charui_padme_geonosis.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_padme_geonosis.png",
     description:
       "Courageous leader who continuously helps her allies and adapts to any circumstance",
     combat_type: 1,
@@ -12890,7 +12923,7 @@ module.exports = [
     name: "Pao",
     id: "PAO",
     url: "http://swgoh.gg/characters/pao/",
-    image: "https://game-assets.swgoh.gg/tex.charui_pao.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_pao.png",
     description: "Unrelenting Rebel Attacker with a mighty battle cry",
     combat_type: 1,
     gear_levels: [
@@ -12965,7 +12998,7 @@ module.exports = [
     name: "Paploo",
     id: "PAPLOO",
     url: "http://swgoh.gg/characters/paploo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ewok_paploo.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ewok_paploo.png",
     description: "Resourceful Ewok Tank with assist and buff synergies",
     combat_type: 1,
     gear_levels: [
@@ -13043,7 +13076,7 @@ module.exports = [
     aliases: ["PK"],
     id: "PLOKOON",
     url: "http://swgoh.gg/characters/plo-koon/",
-    image: "https://game-assets.swgoh.gg/tex.charui_plokoon.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_plokoon.png",
     description:
       "Jedi Tank with Clone synergy, reliable enemy Dispel and anti-Stealth",
     combat_type: 1,
@@ -13122,7 +13155,7 @@ module.exports = [
     aliases: ["PD"],
     id: "POE",
     url: "http://swgoh.gg/characters/poe-dameron/",
-    image: "https://game-assets.swgoh.gg/tex.charui_poe.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_poe.png",
     description:
       "Resistance Tank with a Taunt that inflicts Expose for big reversals",
     combat_type: 1,
@@ -13199,7 +13232,8 @@ module.exports = [
     aliases: ["PL", "PTL"],
     id: "POGGLETHELESSER",
     url: "http://swgoh.gg/characters/poggle-the-lesser/",
-    image: "https://game-assets.swgoh.gg/tex.charui_geonosian_poggle.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_geonosian_poggle.png",
     description:
       "Support for Geonosian and Separatist allies, with strong offensive synergies",
     combat_type: 1,
@@ -13285,7 +13319,7 @@ module.exports = [
     aliases: ["PL"],
     id: "PRINCESSLEIA",
     url: "http://swgoh.gg/characters/princess-leia/",
-    image: "https://game-assets.swgoh.gg/tex.charui_leia_princess.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_leia_princess.png",
     description:
       "Well-rounded Rebel Attacker with extra attacks, Stealth, and team Critical bonuses.",
     combat_type: 1,
@@ -13367,7 +13401,7 @@ module.exports = [
     aliases: ["Qira", "Qi Ra"],
     id: "QIRA",
     url: "http://swgoh.gg/characters/qira/",
-    image: "https://game-assets.swgoh.gg/tex.charui_qira.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_qira.png",
     description:
       "High-utility Support that uses Prepared, debuffs, and an adaptable Leader ability to overwhelm enemies",
     combat_type: 1,
@@ -13452,7 +13486,7 @@ module.exports = [
     aliases: ["Quigon", "Qui Gon", "QGJ", "Liam"],
     id: "QUIGONJINN",
     url: "http://swgoh.gg/characters/qui-gon-jinn/",
-    image: "https://game-assets.swgoh.gg/tex.charui_quigon.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_quigon.png",
     description: "Versatile attacker focused on generating extra attacks.",
     combat_type: 1,
     gear_levels: [
@@ -13536,7 +13570,8 @@ module.exports = [
     aliases: ["R2D2"],
     id: "R2D2_LEGENDARY",
     url: "http://swgoh.gg/characters/r2-d2/",
-    image: "https://game-assets.swgoh.gg/tex.charui_astromech_r2d2.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_astromech_r2d2.png",
     description:
       "Versatile Support Droid that inflicts Burning and grants allies Stealth",
     combat_type: 1,
@@ -13629,7 +13664,7 @@ module.exports = [
     aliases: ["RT"],
     id: "RANGETROOPER",
     url: "http://swgoh.gg/characters/range-trooper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_trooperranger.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_trooperranger.png",
     description:
       "Aggressive Empire Support that provides other Imperial Trooper allies with Assist chance",
     combat_type: 1,
@@ -13700,7 +13735,7 @@ module.exports = [
     aliases: ["ROLO", "Hoth Leia"],
     id: "HOTHLEIA",
     url: "http://swgoh.gg/characters/rebel-officer-leia-organa/",
-    image: "https://game-assets.swgoh.gg/tex.charui_leiahoth.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_leiahoth.png",
     description:
       "Tenacious Rebel Attacker that counters debuffs and is more effective against healthy targets",
     combat_type: 1,
@@ -13781,7 +13816,7 @@ module.exports = [
     aliases: ["Hero Finn", "RHF", "Bromance"],
     id: "EPIXFINN",
     url: "http://swgoh.gg/characters/resistance-hero-finn/",
-    image: "https://game-assets.swgoh.gg/tex.charui_finn.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_finn.png",
     description:
       "Supportive Attacker whose inspiration empowers his allies on the battlefield",
     combat_type: 1,
@@ -13859,7 +13894,7 @@ module.exports = [
     aliases: ["Hero Poe", "RHP", "Bromance"],
     id: "EPIXPOE",
     url: "http://swgoh.gg/characters/resistance-hero-poe/",
-    image: "https://game-assets.swgoh.gg/tex.charui_poe_tros.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_poe_tros.png",
     description:
       "Offensive Attacker who overpowers his enemies with debilitating effects",
     combat_type: 1,
@@ -13938,7 +13973,8 @@ module.exports = [
     aliases: ["RP"],
     id: "RESISTANCEPILOT",
     url: "http://swgoh.gg/characters/resistance-pilot/",
-    image: "https://game-assets.swgoh.gg/tex.charui_resistancepilot.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_resistancepilot.png",
     description:
       "Resistance attacker that can use Expose, Foresight, and Turn Meter gains to surprise enemies",
     combat_type: 1,
@@ -14016,7 +14052,8 @@ module.exports = [
     aliases: ["RT"],
     id: "RESISTANCETROOPER",
     url: "http://swgoh.gg/characters/resistance-trooper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_resistancetrooper.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_resistancetrooper.png",
     description:
       "Opportunistic Resistance attacker that can deal heavy damage to debuffed enemies",
     combat_type: 1,
@@ -14094,7 +14131,7 @@ module.exports = [
     aliases: ["GL Rey"],
     id: "GLREY",
     url: "http://swgoh.gg/characters/rey/",
-    image: "https://game-assets.swgoh.gg/tex.charui_rey_tros.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_rey_tros.png",
     description:
       "Resistance Leader who safeguards her allies by providing powerful shields and delivering high damage",
     combat_type: 1,
@@ -14181,7 +14218,7 @@ module.exports = [
     aliases: ["RJT", "JTR"],
     id: "REYJEDITRAINING",
     url: "http://swgoh.gg/characters/rey-jedi-training/",
-    image: "https://game-assets.swgoh.gg/tex.charui_rey_tlj.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_rey_tlj.png",
     description:
       "Resilient Resistance Tank who avenges debuffed allies and controls the battlefield",
     combat_type: 1,
@@ -14276,7 +14313,7 @@ module.exports = [
     aliases: ["RS", "Rey Scavenger"],
     id: "REY",
     url: "http://swgoh.gg/characters/rey-scavenger/",
-    image: "https://game-assets.swgoh.gg/tex.charui_reyjakku.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_reyjakku.png",
     description:
       "Risky Attacker that has high damage and evasion, but is vulnerable to debuffs",
     combat_type: 1,
@@ -14347,7 +14384,7 @@ module.exports = [
     aliases: ["RT"],
     id: "ROSETICO",
     url: "http://swgoh.gg/characters/rose-tico/",
-    image: "https://game-assets.swgoh.gg/tex.charui_rose.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_rose.png",
     description:
       "A brave Resistance Attacker who can Stun and grant allies buffs.",
     combat_type: 1,
@@ -14427,7 +14464,7 @@ module.exports = [
     aliases: ["RG", "Red Coat"],
     id: "ROYALGUARD",
     url: "http://swgoh.gg/characters/royal-guard/",
-    image: "https://game-assets.swgoh.gg/tex.charui_royalguard.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_royalguard.png",
     description:
       "Versatile Empire Tank that punishes enemies for attacking other allies",
     combat_type: 1,
@@ -14498,7 +14535,7 @@ module.exports = [
     aliases: ["SW", "SR"],
     id: "SABINEWRENS3",
     url: "http://swgoh.gg/characters/sabine-wren/",
-    image: "https://game-assets.swgoh.gg/tex.charui_sabine_s3.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_sabine_s3.png",
     description:
       "Aggressive Phoenix Attacker that permanently strips Defense and punishes slower enemies",
     combat_type: 1,
@@ -14578,7 +14615,7 @@ module.exports = [
     aliases: ["SO"],
     id: "SAVAGEOPRESS",
     url: "http://swgoh.gg/characters/savage-opress/",
-    image: "https://game-assets.swgoh.gg/tex.charui_savageopress.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_savageopress.png",
     description:
       "Durable Attacker that crushes low-health units and becomes stronger when attacked",
     combat_type: 1,
@@ -14659,7 +14696,7 @@ module.exports = [
     aliases: ["SRP"],
     id: "SCARIFREBEL",
     url: "http://swgoh.gg/characters/scarif-rebel-pathfinder/",
-    image: "https://game-assets.swgoh.gg/tex.charui_rebel_scarif.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_rebel_scarif.png",
     description: "Steadfast Rebel Tank who debuffs, Taunts, and self-revives",
     combat_type: 1,
     gear_levels: [
@@ -14737,7 +14774,7 @@ module.exports = [
     aliases: ["SS", "2nd Sister"],
     id: "SECONDSISTER",
     url: "http://swgoh.gg/characters/second-sister/",
-    image: "https://game-assets.swgoh.gg/tex.charui_secondsister.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_secondsister.png",
     description:
       "Ruthless Inquisitor Attacker that specializes in eliminating Jedi",
     combat_type: 1,
@@ -14822,7 +14859,7 @@ module.exports = [
     aliases: ["ST"],
     id: "SHAAKTI",
     url: "http://swgoh.gg/characters/shaak-ti/",
-    image: "https://game-assets.swgoh.gg/tex.charui_shaakti.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_shaakti.png",
     description: "Inspiring Jedi Leader with heightened reflexes",
     combat_type: 1,
     gear_levels: [
@@ -14906,7 +14943,7 @@ module.exports = [
     aliases: ["ST"],
     id: "SHORETROOPER",
     url: "http://swgoh.gg/characters/shoretrooper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_troopershore.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_troopershore.png",
     description:
       "Empire Tank who enters battle with Taunt, heals allies, and grants them Critical Hit Immunity",
     combat_type: 1,
@@ -14983,7 +15020,7 @@ module.exports = [
     aliases: ["SA"],
     id: "SITHASSASSIN",
     url: "http://swgoh.gg/characters/sith-assassin/",
-    image: "https://game-assets.swgoh.gg/tex.charui_sithassassin.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_sithassassin.png",
     description: "Elusive Sith Attacker with Stealth synergy",
     combat_type: 1,
     gear_levels: [
@@ -15063,7 +15100,7 @@ module.exports = [
     aliases: ["SET"],
     id: "SITHTROOPER",
     url: "http://swgoh.gg/characters/sith-empire-trooper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_sithtrooper.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_sithtrooper.png",
     description: "Sith Tank who Taunts and ignores enemy Protection",
     combat_type: 1,
     gear_levels: [
@@ -15147,7 +15184,8 @@ module.exports = [
     ],
     id: "SITHPALPATINE",
     url: "http://swgoh.gg/characters/sith-eternal-emperor/",
-    image: "https://game-assets.swgoh.gg/tex.charui_espalpatine_pre.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_espalpatine_pre.png",
     description:
       "Cunning Emperor of the Sith that eliminates his enemies with the overwhelming power of the dark side",
     combat_type: 1,
@@ -15239,7 +15277,7 @@ module.exports = [
     aliases: ["SM"],
     id: "SITHMARAUDER",
     url: "http://swgoh.gg/characters/sith-marauder/",
-    image: "https://game-assets.swgoh.gg/tex.charui_sithmarauder.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_sithmarauder.png",
     description:
       "Destructive Sith Attacker that takes advantage of all buffs and debuffs in battle",
     combat_type: 1,
@@ -15315,7 +15353,8 @@ module.exports = [
     aliases: ["ST"],
     id: "FOSITHTROOPER",
     url: "http://swgoh.gg/characters/sith-trooper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_firstorder_sithtrooper.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_firstorder_sithtrooper.png",
     description:
       "Elite trooper with powerful First Order and Sith synergy and high damage potential.",
     combat_type: 1,
@@ -15400,7 +15439,7 @@ module.exports = [
     aliases: ["ST"],
     id: "SNOWTROOPER",
     url: "http://swgoh.gg/characters/snowtrooper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_troopersnow.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_troopersnow.png",
     description:
       "Empire Attacker that becomes faster and stronger as enemies are defeated",
     combat_type: 1,
@@ -15476,7 +15515,7 @@ module.exports = [
     aliases: ["SK"],
     id: "STARKILLER",
     url: "http://swgoh.gg/characters/starkiller/",
-    image: "https://game-assets.swgoh.gg/tex.charui_starkiller.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_starkiller.png",
     description:
       "A powerful Dark Side Force User whose inner conflict lifts up other Force Users",
     combat_type: 1,
@@ -15563,7 +15602,7 @@ module.exports = [
     aliases: ["ST", "Gary"],
     id: "STORMTROOPER",
     url: "http://swgoh.gg/characters/stormtrooper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_trooperstorm.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_trooperstorm.png",
     description:
       "Empire Tank that can Taunt and surprise enemies with unpredictable damage",
     combat_type: 1,
@@ -15634,7 +15673,8 @@ module.exports = [
     aliases: ["STH", "StHan"],
     id: "STORMTROOPERHAN",
     url: "http://swgoh.gg/characters/stormtrooper-han/",
-    image: "https://game-assets.swgoh.gg/tex.charui_trooperstorm_han.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_trooperstorm_han.png",
     description:
       "Versatile tank able to surprise enemies with sudden Turn Meter changes and Offense boosts",
     combat_type: 1,
@@ -15717,7 +15757,8 @@ module.exports = [
     aliases: ["SF"],
     id: "SUNFAC",
     url: "http://swgoh.gg/characters/sun-fac/",
-    image: "https://game-assets.swgoh.gg/tex.charui_geonosian_sunfac.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_geonosian_sunfac.png",
     description:
       "Geonosian Tank who punishes attackers with a variety of negative effects",
     combat_type: 1,
@@ -15799,7 +15840,7 @@ module.exports = [
     aliases: ["SLKR", "GL Kylo"],
     id: "SUPREMELEADERKYLOREN",
     url: "http://swgoh.gg/characters/supreme-leader-kylo-ren/",
-    image: "https://game-assets.swgoh.gg/tex.charui_kyloren_tros.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_kyloren_tros.png",
     description:
       "Destructive Leader of the First Order who overpowers his enemies with brutal attacks",
     combat_type: 1,
@@ -15897,7 +15938,7 @@ module.exports = [
     aliases: ["T3M4"],
     id: "T3_M4",
     url: "http://swgoh.gg/characters/t3-m4/",
-    image: "https://game-assets.swgoh.gg/tex.charui_t3m4.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_t3m4.png",
     description:
       "Offensive Droid who supports a Droid team with extra stats and debuffs the enemy team",
     combat_type: 1,
@@ -15977,7 +16018,8 @@ module.exports = [
     name: "Talia",
     id: "TALIA",
     url: "http://swgoh.gg/characters/talia/",
-    image: "https://game-assets.swgoh.gg/tex.charui_nightsister_talia.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_nightsister_talia.png",
     description:
       "Aggressive Healer that sacrifices Health so allies can recover Health and Turn Meter",
     combat_type: 1,
@@ -16055,7 +16097,7 @@ module.exports = [
     aliases: ["Bad Batch Tech"],
     id: "BADBATCHTECH",
     url: "http://swgoh.gg/characters/tech/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bb_tech.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bb_tech.png",
     description:
       "Stealthy support character that gives Translation to other Clone Troopers and applies Target Lock to enemies.",
     combat_type: 1,
@@ -16138,7 +16180,7 @@ module.exports = [
     name: "Teebo",
     id: "TEEBO",
     url: "http://swgoh.gg/characters/teebo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ewok_teebo.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ewok_teebo.png",
     description:
       "Ewok stealth character with stealth synergies and some control ability.",
     combat_type: 1,
@@ -16214,7 +16256,7 @@ module.exports = [
     aliases: ["TA"],
     id: "ARMORER",
     url: "http://swgoh.gg/characters/the-armorer/",
-    image: "https://game-assets.swgoh.gg/tex.charui_armorer.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_armorer.png",
     description:
       "A Mandalorian leader and support unit that collects beskar to buff her team and rally them.",
     combat_type: 1,
@@ -16292,7 +16334,7 @@ module.exports = [
     aliases: ["Mando", "TM"],
     id: "THEMANDALORIAN",
     url: "http://swgoh.gg/characters/the-mandalorian/",
-    image: "https://game-assets.swgoh.gg/tex.charui_mandalorian.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_mandalorian.png",
     description:
       "Powerful Mandalorian bounty hunter who relies on critical hits to overwhelm his enemies",
     combat_type: 1,
@@ -16386,7 +16428,7 @@ module.exports = [
     aliases: ["Mando", "BAM"],
     id: "THEMANDALORIANBESKARARMOR",
     url: "http://swgoh.gg/characters/the-mandalorian-beskar-armor/",
-    image: "https://game-assets.swgoh.gg/tex.charui_mandobeskar.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_mandobeskar.png",
     description:
       "Fearless Scoundrel leader who hunts down enemies to protect his allies",
     combat_type: 1,
@@ -16479,7 +16521,8 @@ module.exports = [
     aliases: ["C3P0", "C3PO", "Chewy", "Chewbacca", "Chewpio", "3Pacca"],
     id: "C3POCHEWBACCA",
     url: "http://swgoh.gg/characters/threepio-chewie/",
-    image: "https://game-assets.swgoh.gg/tex.charui_chewbacca_c3po.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_chewbacca_c3po.png",
     description:
       "Rebel Attacker duo that can distract their enemies with Blind and deal significant damage to all enemies in multi-encounter battles",
     combat_type: 1,
@@ -16568,7 +16611,7 @@ module.exports = [
     aliases: ["TFP"],
     id: "TIEFIGHTERPILOT",
     url: "http://swgoh.gg/characters/tie-fighter-pilot/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tiepilot.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tiepilot.png",
     description:
       "Empire Attacker who inflicts Buff Immunity and gains Foresight",
     combat_type: 1,
@@ -16653,7 +16696,7 @@ module.exports = [
     aliases: ["TR"],
     id: "TUSKENRAIDER",
     url: "http://swgoh.gg/characters/tusken-raider/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tuskenraider.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tuskenraider.png",
     description:
       "Durable Attacker with Tusken Synergy and a strong Assist attack",
     combat_type: 1,
@@ -16724,7 +16767,7 @@ module.exports = [
     aliases: ["TS"],
     id: "TUSKENSHAMAN",
     url: "http://swgoh.gg/characters/tusken-shaman/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tuskenshaman.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tuskenshaman.png",
     description:
       "Offensive Healer that can also boost Offense and rapidly stack Damage Over Time effects",
     combat_type: 1,
@@ -16794,7 +16837,7 @@ module.exports = [
     name: "Ugnaught",
     id: "UGNAUGHT",
     url: "http://swgoh.gg/characters/ugnaught/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ugnaught.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ugnaught.png",
     description:
       "Anti-Droid Support with AoE damage and high Evasion against Droids",
     combat_type: 1,
@@ -16865,7 +16908,7 @@ module.exports = [
     aliases: ["Urorora"],
     id: "URORRURRR",
     url: "http://swgoh.gg/characters/urorrurrr/",
-    image: "https://game-assets.swgoh.gg/tex.charui_urorrurrr.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_urorrurrr.png",
     description:
       "Tusken Support that can Stun frequently and speed up Tuskens for surprise attacks",
     combat_type: 1,
@@ -16942,7 +16985,8 @@ module.exports = [
     aliases: ["Young Chewy", "Young Chewbacca", "Chewie", "Chewy", "VC"],
     id: "YOUNGCHEWBACCA",
     url: "http://swgoh.gg/characters/vandor-chewbacca/",
-    image: "https://game-assets.swgoh.gg/tex.charui_chewbacca_vandor.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_chewbacca_vandor.png",
     description:
       "Aggressive Scoundrel Tank that provides Protection Recovery for his allies when they are attacked",
     combat_type: 1,
@@ -17020,7 +17064,7 @@ module.exports = [
     aliases: ["VSC", "Old Chewie", "Old Chewbacca", "Chewie", "Chewy"],
     id: "SMUGGLERCHEWBACCA",
     url: "http://swgoh.gg/characters/veteran-smuggler-chewbacca/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tfa_chewbacca.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tfa_chewbacca.png",
     description:
       "Lumbering attacker who accumulates Offensive capabilities as enemies take actions",
     combat_type: 1,
@@ -17106,7 +17150,7 @@ module.exports = [
     aliases: ["Vet Han", "VS Han"],
     id: "SMUGGLERHAN",
     url: "http://swgoh.gg/characters/veteran-smuggler-han-solo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tfa_han.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tfa_han.png",
     description:
       "Scoundrel Attacker with multi-attack and multiple devastating debuffs",
     combat_type: 1,
@@ -17186,7 +17230,7 @@ module.exports = [
     aliases: ["VM"],
     id: "VISASMARR",
     url: "http://swgoh.gg/characters/visas-marr/",
-    image: "https://game-assets.swgoh.gg/tex.charui_visas.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_visas.png",
     description: "Offensive Healer with strong anti-Sith synergy",
     combat_type: 1,
     gear_levels: [
@@ -17262,7 +17306,7 @@ module.exports = [
     name: "Wampa",
     id: "WAMPA",
     url: "http://swgoh.gg/characters/wampa/",
-    image: "https://game-assets.swgoh.gg/tex.charui_wampa.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_wampa.png",
     description:
       "Fearsome predator from Hoth that attacks constantly with increasing strength",
     combat_type: 1,
@@ -17345,7 +17389,7 @@ module.exports = [
     aliases: ["WT"],
     id: "WATTAMBOR",
     url: "http://swgoh.gg/characters/wat-tambor/",
-    image: "https://game-assets.swgoh.gg/tex.charui_wattambor.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_wattambor.png",
     description:
       "Separatist Support who distributes powerful Tech to his allies",
     combat_type: 1,
@@ -17424,7 +17468,8 @@ module.exports = [
     aliases: ["Wiggs"],
     id: "WEDGEANTILLES",
     url: "http://swgoh.gg/characters/wedge-antilles/",
-    image: "https://game-assets.swgoh.gg/tex.charui_rebelpilot_wedge.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_rebelpilot_wedge.png",
     description: "Rebel Attacker with a strong offensive opening",
     combat_type: 1,
     gear_levels: [
@@ -17500,7 +17545,7 @@ module.exports = [
     name: "Wicket",
     id: "WICKET",
     url: "http://swgoh.gg/characters/wicket/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ewok_wicket.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ewok_wicket.png",
     description:
       "Jittery Ewok Attacker with Critical Hit and Stealth synergies",
     combat_type: 1,
@@ -17578,7 +17623,7 @@ module.exports = [
     aliases: ["Bad Batch Wrecker"],
     id: "BADBATCHWRECKER",
     url: "http://swgoh.gg/characters/wrecker/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bb_wrecker.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bb_wrecker.png",
     description:
       "Resilient Clone Trooper who protects his allies and gets empowered when taking damage",
     combat_type: 1,
@@ -17668,7 +17713,7 @@ module.exports = [
     aliases: ["YHS"],
     id: "YOUNGHAN",
     url: "http://swgoh.gg/characters/young-han-solo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_han_young.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_han_young.png",
     description: "Scoundrel Attacker who becomes more deadly over time",
     combat_type: 1,
     gear_levels: [
@@ -17744,7 +17789,7 @@ module.exports = [
     aliases: ["YLC"],
     id: "YOUNGLANDO",
     url: "http://swgoh.gg/characters/young-lando-calrissian/",
-    image: "https://game-assets.swgoh.gg/tex.charui_younglando.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_younglando.png",
     description:
       "Scoundrel Attacker that takes advantage of debuffed enemies and deals ever-increasing damage",
     combat_type: 1,
@@ -17823,7 +17868,7 @@ module.exports = [
     name: "Zaalbar",
     id: "ZAALBAR",
     url: "http://swgoh.gg/characters/zaalbar/",
-    image: "https://game-assets.swgoh.gg/tex.charui_zaalbar.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_zaalbar.png",
     description:
       "Versatile Scoundrel Tank with a powerful AoE attack and reactive Taunt",
     combat_type: 1,
@@ -17894,7 +17939,7 @@ module.exports = [
     aliases: ["ZW"],
     id: "ZAMWESELL",
     url: "http://swgoh.gg/characters/zam-wesell/",
-    image: "https://game-assets.swgoh.gg/tex.charui_zamwesell.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_zamwesell.png",
     description:
       "Lightning fast Scoundrel attacker that inflicts Evasion Down and detonates bombs.",
     combat_type: 1,
@@ -17974,7 +18019,7 @@ module.exports = [
     aliases: ["9th Sister", "NS", "9Sister"],
     id: "NINTHSISTER",
     url: "http://swgoh.gg/characters/ninth-sister/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ninthsister.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ninthsister.png",
     description:
       "A ruthless member of the feared Inquisitorius who will stop at nothing in her hunt for the Jedi",
     combat_type: 1,
@@ -18066,7 +18111,7 @@ module.exports = [
     aliases: ["7th Sister", "SS", "7Sister"],
     id: "SEVENTHSISTER",
     url: "http://swgoh.gg/characters/seventh-sister/",
-    image: "https://game-assets.swgoh.gg/tex.charui_seventhsister.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_seventhsister.png",
     description: "Inquisitorius Healer that helps her squad eliminate the Jedi",
     combat_type: 1,
     gear_levels: [
@@ -18165,7 +18210,7 @@ module.exports = [
     name: "Fifth Brother",
     id: "FIFTHBROTHER",
     url: "http://swgoh.gg/characters/fifth-brother/",
-    image: "https://game-assets.swgoh.gg/tex.charui_fifthbrother.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_fifthbrother.png",
     description:
       "A powerful Inquisitor that specializes in supporting the purge of all Jedi by applying devastating debuffs.",
     combat_type: 1,
@@ -18224,7 +18269,7 @@ module.exports = [
     aliases: ["EB", "8th Brother", "8Brother"],
     id: "EIGHTHBROTHER",
     url: "http://swgoh.gg/characters/eighth-brother/",
-    image: "https://game-assets.swgoh.gg/tex.charui_eighthbrother.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_eighthbrother.png",
     description:
       "A stealthy member of the Inquisitorious with an arsenal of tricks and weapons to surprise his opponent.",
     combat_type: 1,
@@ -18325,7 +18370,7 @@ module.exports = [
     aliases: ["Sortie", "Sorty", "shortie", "shorty"],
     id: "50RT",
     url: "http://swgoh.gg/characters/50r-t/",
-    image: "https://game-assets.swgoh.gg/tex.charui_50rt.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_50rt.png",
     description:
       "A highly intelligent Droid who can quickly calculate the odds and determine how to defy them",
     combat_type: 1,
@@ -18386,7 +18431,7 @@ module.exports = [
     aliases: ["DM"],
     id: "DARTHMALGUS",
     url: "http://swgoh.gg/characters/darth-malgus/",
-    image: "https://game-assets.swgoh.gg/tex.charui_darthmalgus.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_darthmalgus.png",
     description:
       "Legendary Sith Lord who causes doubt among his foes and heralds the return of the Sith Empire",
     combat_type: 1,
@@ -18441,7 +18486,7 @@ module.exports = [
     id: "ADMIRALRADDUS",
     aliases: ["AR", "Fish", "Adrad"],
     url: "http://swgoh.gg/characters/admiral-raddus/",
-    image: "https://game-assets.swgoh.gg/tex.charui_admiralraddus.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_admiralraddus.png",
     description:
       "A brilliant Rebel tactician who supports his allies by buying time for them to carry out their mission",
     combat_type: 1,
@@ -18507,7 +18552,8 @@ module.exports = [
     id: "GRANDINQUISITOR",
     aliases: ["GI"],
     url: "http://swgoh.gg/characters/grand-inquisitor/",
-    image: "https://game-assets.swgoh.gg/tex.charui_grandinquisitor.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_grandinquisitor.png",
     description:
       "The calculating and relentless master of the Inquisitorius who specializes in dealing with Jedi",
     combat_type: 1,
@@ -18581,7 +18627,7 @@ module.exports = [
     id: "KRRSANTAN",
     aliases: ["Black", "Dark"],
     url: "http://swgoh.gg/characters/krrsantan/",
-    image: "https://game-assets.swgoh.gg/tex.charui_krrsantan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_krrsantan.png",
     description:
       "Infamous Bounty Hunter Tank with an intimidating presence and unstoppable raw strength",
     combat_type: 1,
@@ -18642,7 +18688,7 @@ module.exports = [
     id: "BENSOLO",
     aliases: ["Swolo"],
     url: "http://swgoh.gg/characters/ben-solo/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bensolo.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bensolo.png",
     description:
       "A powerful Force user whose internal struggles have long placed him on the edge of light and dark",
     combat_type: 1,
@@ -18695,7 +18741,8 @@ module.exports = [
     id: "UNDERCOVERLANDO",
     aliases: ["Skando"],
     url: "http://swgoh.gg/characters/skiff-guard-lando-calrissian/",
-    image: "https://game-assets.swgoh.gg/tex.charui_undercoverlando.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_undercoverlando.png",
     description:
       "Cunning Scoundrel Attacker who assists his allies and gains ramping damage the longer he stays undercover",
     combat_type: 1,
@@ -18748,7 +18795,7 @@ module.exports = [
     id: "BOUSHH",
     aliases: ["Bush"],
     url: "http://swgoh.gg/characters/boushh-leia-organa/",
-    image: "https://game-assets.swgoh.gg/tex.charui_boushh.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_boushh.png",
     description:
       "A princess in disguise, fooling Jabba's court with strong Thermal Detonator synergy",
     combat_type: 1,
@@ -18803,7 +18850,7 @@ module.exports = [
     name: "Jabba the Hutt",
     id: "JABBATHEHUTT",
     url: "http://swgoh.gg/characters/jabba-the-hutt/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jabbathehutt.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_jabbathehutt.png",
     description:
       "A ruthless crime boss who exerts his influence on others to control the flow of battle to support his criminal underworld and Hutt Cartel enforcers",
     combat_type: 1,
@@ -18870,7 +18917,7 @@ module.exports = [
     name: "Hondo Ohnaka",
     id: "HONDO",
     url: "http://swgoh.gg/characters/hondo-ohnaka/",
-    image: "https://game-assets.swgoh.gg/tex.charui_hondoohnaka.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_hondoohnaka.png",
     description:
       "The unparalleled Scoundrel willing to play all angles for his own gains",
     combat_type: 1,
@@ -18918,7 +18965,7 @@ module.exports = [
     id: "BT1",
     aliases: ["Beetee", "BT1", "Murder Droids"],
     url: "http://swgoh.gg/characters/bt-1/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bt1.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bt1.png",
     description:
       "A blastomech prototype droid who is known for destroying the Tarkin Initiative base in which he was created.",
     combat_type: 1,
@@ -18961,7 +19008,7 @@ module.exports = [
     id: "TRIPLEZERO",
     aliases: ["Trip", "000", "Murder Droids", "OOO"],
     url: "http://swgoh.gg/characters/0-0-0/",
-    image: "https://game-assets.swgoh.gg/tex.charui_triplezero.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_triplezero.png",
     description:
       "A protocol droid specialized in etiquette, customs, translation, and torture.",
     combat_type: 1,
@@ -19004,7 +19051,7 @@ module.exports = [
     name: "Sana Starros",
     id: "SANASTARROS",
     url: "http://swgoh.gg/characters/sana-starros/",
-    image: "https://game-assets.swgoh.gg/tex.charui_sanastarros.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_sanastarros.png",
     description:
       "Scoundrel turned Rebel sympathizer that helps her team deal area of effect damage",
     combat_type: 1,
@@ -19063,7 +19110,7 @@ module.exports = [
     id: "THIRDSISTER",
     aliases: ["Reva", "3rd Sister"],
     url: "http://swgoh.gg/characters/third-sister/",
-    image: "https://game-assets.swgoh.gg/tex.charui_thirdsister.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_thirdsister.png",
     description:
       "A merciless Inquisitor who will stop at nothing till she achieves her goals",
     combat_type: 1,
@@ -19124,7 +19171,7 @@ module.exports = [
     name: "Doctor Aphra",
     id: "DOCTORAPHRA",
     url: "http://swgoh.gg/characters/doctor-aphra/",
-    image: "https://game-assets.swgoh.gg/tex.charui_doctoraphra.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_doctoraphra.png",
     description:
       "An inventive and chaotic Support who employs dangerous treasures and technology to empower her team and unravel her foes",
     combat_type: 1,
@@ -19181,7 +19228,7 @@ module.exports = [
     name: "Zorii Bliss",
     id: "ZORIIBLISS_V2",
     url: "http://swgoh.gg/characters/zorii-bliss/",
-    image: "https://game-assets.swgoh.gg/tex.charui_zoriibliss.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_zoriibliss.png",
     description:
       "An elusive Smuggler that uses her spice runner skills to help the Resistance",
     combat_type: 1,
@@ -19241,7 +19288,7 @@ module.exports = [
     name: "Admiral Trench",
     id: "TRENCH",
     url: "http://swgoh.gg/characters/admiral-trench/",
-    image: "https://game-assets.swgoh.gg/tex.charui_admiraltrench.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_admiraltrench.png",
     description:
       "A cunning Separatist admiral who supports his allies with potent buffs and ruins his foes with debilitating debuffs",
     combat_type: 1,
@@ -19296,7 +19343,8 @@ module.exports = [
     name: "Tusken Chieftain",
     id: "TUSKENCHIEFTAIN",
     url: "http://swgoh.gg/characters/tusken-chieftain/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tuskenchieftain.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_tuskenchieftain.png",
     description:
       "A strong tribal leader who protects his allies with Momentum and inflicts foes with damaging effects",
     combat_type: 1,
@@ -19348,7 +19396,8 @@ module.exports = [
     name: "Tusken Warrior",
     id: "TUSKENHUNTRESS",
     url: "http://swgoh.gg/characters/tusken-warrior/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tuskenhuntress.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_tuskenhuntress.png",
     description:
       "Brave and fearless Tusken warrior whose attacks become stronger with Momentum",
     combat_type: 1,
@@ -19399,7 +19448,7 @@ module.exports = [
     name: "Cal Kestis",
     id: "CALKESTIS",
     url: "http://swgoh.gg/characters/cal-kestis/",
-    image: "https://game-assets.swgoh.gg/tex.charui_calkestis.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_calkestis.png",
     description:
       "A determined Force user who uses his unique abilities to support his allies and manipulate the flow of battle",
     combat_type: 1,
@@ -19456,7 +19505,7 @@ module.exports = [
     name: "Cere Junda",
     id: "CEREJUNDA",
     url: "http://swgoh.gg/characters/cere-junda/",
-    image: "https://game-assets.swgoh.gg/tex.charui_cerejunda.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_cerejunda.png",
     description:
       "Resilient Support who aids her allies with an assortment of different buffs and punishes fast opponents",
     combat_type: 1,
@@ -19509,7 +19558,7 @@ module.exports = [
     name: "Merrin",
     id: "MERRIN",
     url: "http://swgoh.gg/characters/merrin/",
-    image: "https://game-assets.swgoh.gg/tex.charui_merrin.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_merrin.png",
     description:
       "A Nightsister witch who proactively defends her allies and inflicts enemies with Plague",
     combat_type: 1,
@@ -19553,7 +19602,7 @@ module.exports = [
     name: "Tarfful",
     id: "TARFFUL",
     url: "http://swgoh.gg/characters/tarfful/",
-    image: "https://game-assets.swgoh.gg/tex.charui_tarfful.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_tarfful.png",
     description:
       "Ferocious Support that provides Defense to his allies and punishes enemies with Provoked",
     combat_type: 1,
@@ -19612,7 +19661,7 @@ module.exports = [
     name: "Saw Gerrera",
     id: "SAWGERRERA",
     url: "http://swgoh.gg/characters/saw-gerrera/",
-    image: "https://game-assets.swgoh.gg/tex.charui_sawgerrera.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_sawgerrera.png",
     description:
       "An extreme guerrilla fighter who leads his Partisans against the Empire",
     combat_type: 1,
@@ -19674,7 +19723,7 @@ module.exports = [
     name: "Captain Rex",
     id: "CAPTAINREX",
     url: "http://swgoh.gg/characters/captain-rex/",
-    image: "https://game-assets.swgoh.gg/tex.charui_captainrex.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_captainrex.png",
     description:
       "A former Captain of the 501st Clone Battalion and veteran Support of countless conflicts",
     combat_type: 1,
@@ -19732,7 +19781,8 @@ module.exports = [
     name: "Princess Kneesaa",
     id: "PRINCESSKNEESAA",
     url: "http://swgoh.gg/characters/princess-kneesaa/",
-    image: "https://game-assets.swgoh.gg/tex.charui_princesskneesaa.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_princesskneesaa.png",
     description:
       "A small but mighty Attacker Ewok, here to fight for Bright Tree Village",
     combat_type: 1,
@@ -19792,7 +19842,7 @@ module.exports = [
     aliases: ["jack", "jkck", "jk cal", "jedi cal"],
     id: "JEDIKNIGHTCAL",
     url: "http://swgoh.gg/characters/jedi-knight-cal-kestis/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jediknightcal.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_jediknightcal.png",
     description:
       "Utilizing different lightsaber masteries, Jedi Knight Cal Kestis weaves between offensive and defensive stances to claim victory over his opponents",
     combat_type: 1,
@@ -19855,7 +19905,7 @@ module.exports = [
     id: "TARONMALICOS",
     aliases: ["tm"],
     url: "http://swgoh.gg/characters/taron-malicos/",
-    image: "https://game-assets.swgoh.gg/tex.charui_taronmalicos.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_taronmalicos.png",
     description:
       "A formidable Attacker and former Jedi with dark ambitions who fights on the edge of madness",
     combat_type: 1,
@@ -19912,7 +19962,7 @@ module.exports = [
     name: "Scout Trooper",
     id: "SCOUTTROOPER_V3",
     url: "http://swgoh.gg/characters/scout-trooper/",
-    image: "https://game-assets.swgoh.gg/tex.charui_trooperscout.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_trooperscout.png",
     description:
       "A stealthy soldier from the Galactic Empire that supports her teammates from the shadows",
     combat_type: 1,
@@ -19969,7 +20019,7 @@ module.exports = [
     name: "Captain Drogan",
     id: "CAPTAINDROGAN",
     url: "http://swgoh.gg/characters/captain-drogan/",
-    image: "https://game-assets.swgoh.gg/tex.charui_captaindrogan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_captaindrogan.png",
     description:
       "Respected Rebel Captain who employs coordinated strikes to ruin enemy forces and turn the tide of battle",
     combat_type: 1,
@@ -20022,7 +20072,7 @@ module.exports = [
     id: "GLLEIA",
     aliases: ["glo", "gllo"],
     url: "http://swgoh.gg/characters/leia-organa/",
-    image: "https://game-assets.swgoh.gg/tex.charui_leiaendor.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_leiaendor.png",
     description:
       "Leia Organa, the tactical leader of the Rebellion and high priority target of the Empire, dictates the precise strikes of the battle while inspiring and defending her allies",
     combat_type: 1,
@@ -20088,7 +20138,7 @@ module.exports = [
     id: "MOFFGIDEONS3",
     aliases: ["beskar gideon", "dtmg"],
     url: "http://swgoh.gg/characters/dark-trooper-moff-gideon/",
-    image: "https://game-assets.swgoh.gg/tex.charui_moffgideons3.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_moffgideons3.png",
     description:
       "Imperial Remnant Leader that sacrifices his weakest allies to stay alive and controls the battle with insight",
     combat_type: 1,
@@ -20143,7 +20193,7 @@ module.exports = [
     id: "PAZVIZSLA",
     aliases: ["pv"],
     url: "http://swgoh.gg/characters/paz-vizsla/",
-    image: "https://game-assets.swgoh.gg/tex.charui_pazvizsla.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_pazvizsla.png",
     description:
       "A proud and stalwart Mandalorian Tank who upholds the Creed while laying down heavy fire from his blaster cannon",
     combat_type: 1,
@@ -20196,7 +20246,7 @@ module.exports = [
     name: "IG-12 & Grogu",
     id: "IG12",
     url: "http://swgoh.gg/characters/ig-12-grogu/",
-    image: "https://game-assets.swgoh.gg/tex.charui_ig12.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_ig12.png",
     description:
       "A restructured assassin droid who heals allies and disrupts enemies",
     combat_type: 1,
@@ -20249,7 +20299,7 @@ module.exports = [
     id: "KELLERANBEQ",
     aliases: ["best jedi", "kb"],
     url: "http://swgoh.gg/characters/kelleran-beq/",
-    image: "https://game-assets.swgoh.gg/tex.charui_kelleranbeq.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_kelleranbeq.png",
     description:
       "Known as the Sabered Hand for his lightsaber mastery, Kelleran Beq used his Force knowledge to mentor younglings and rescued Grogu during Order 66",
     combat_type: 1,
@@ -20302,7 +20352,7 @@ module.exports = [
     name: "Darth Bane",
     id: "DARTHBANE",
     url: "http://swgoh.gg/characters/darth-bane/",
-    image: "https://game-assets.swgoh.gg/tex.charui_darthbane.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_darthbane.png",
     description:
       "Ancient Sith Lord spoken of in whispers who defeats foes through strength and cunning and believes only the strong should live to wield the power of the dark side",
     combat_type: 1,
@@ -20364,7 +20414,8 @@ module.exports = [
     name: "Bo-Katan (Mand'alor)",
     id: "MANDALORBOKATAN",
     url: "http://swgoh.gg/characters/bo-katan-mandalor/",
-    image: "https://game-assets.swgoh.gg/tex.charui_mandalorbokatan.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_mandalorbokatan.png",
     description:
       "A brave leader of the Mandalorians who wields the Darksaber and leads her allies into battle",
     combat_type: 1,
@@ -20419,7 +20470,7 @@ module.exports = [
     name: "STAP",
     id: "STAP",
     url: "http://swgoh.gg/characters/stap/",
-    image: "https://game-assets.swgoh.gg/tex.charui_stap.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_stap.png",
     description:
       "Used as a reconnaissance and patrol vehicle by the Trade Federation and the Separatists, the STAP was instrumental for gathering intel, especially during the invasion of Naboo",
     combat_type: 1,
@@ -20460,7 +20511,7 @@ module.exports = [
     name: "Boss Nass",
     id: "BOSSNASS",
     url: "http://swgoh.gg/characters/boss-nass/",
-    image: "https://game-assets.swgoh.gg/tex.charui_bossnass.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_bossnass.png",
     description:
       "A boisterous Leader who commands the Gungans of Otoh Gunga with pride and utilizes their unique technology to achieve victory",
     combat_type: 1,
@@ -20514,7 +20565,8 @@ module.exports = [
     name: "Captain Tarpals",
     id: "CAPTAINTARPALS",
     url: "http://swgoh.gg/characters/captain-tarpals/",
-    image: "https://game-assets.swgoh.gg/tex.charui_captaintarpals.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_captaintarpals.png",
     description:
       "A powerful Gungan Attacker who crushes his foes with area damage and wrecks debuffed enemies",
     combat_type: 1,
@@ -20573,7 +20625,8 @@ module.exports = [
     name: "Gungan Boomadier",
     id: "BOOMADIER",
     url: "http://swgoh.gg/characters/gungan-boomadier/",
-    image: "https://game-assets.swgoh.gg/tex.charui_gunganboomadier.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.charui_gunganboomadier.png",
     description:
       "Gungan Boomadier's swift attacks are most amplified when capitalizing on debuffed enemies and gains impressive bonuses while the Shield Generator is active.",
     combat_type: 1,
@@ -20624,7 +20677,7 @@ module.exports = [
     name: "Gungan Phalanx",
     id: "GUNGANPHALANX",
     url: "http://swgoh.gg/characters/gungan-phalanx/",
-    image: "https://game-assets.swgoh.gg/tex.charui_gunganphalanx.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_gunganphalanx.png",
     description:
       "Gungan Phalanx is a Tank who shields his allies and assists them when they are attacked instead of him",
     combat_type: 1,
@@ -20682,7 +20735,7 @@ module.exports = [
     name: "Jar Jar Binks",
     id: "JARJARBINKS",
     url: "http://swgoh.gg/characters/jar-jar-binks/",
-    image: "https://game-assets.swgoh.gg/tex.charui_jarjarbinks.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_jarjarbinks.png",
     description:
       "A Gungan Support who isn’t afraid to interject into the battle and offer his own brand of help, frustrating the enemy.",
     combat_type: 1,
@@ -20737,7 +20790,7 @@ module.exports = [
     name: "Queen Amidala",
     id: "QUEENAMIDALA",
     url: "http://swgoh.gg/characters/queen-amidala/",
-    image: "https://game-assets.swgoh.gg/tex.charui_queenamidala.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_queenamidala.png",
     description:
       "Queen of Naboo who will stop at nothing to protect her people, and her people will stop at nothing to protect her",
     combat_type: 1,
@@ -20805,7 +20858,7 @@ module.exports = [
     name: "Padawan Obi-Wan",
     id: "PADAWANOBIWAN",
     url: "http://swgoh.gg/characters/padawan-obi-wan/",
-    image: "https://game-assets.swgoh.gg/tex.charui_padawanobiwan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_padawanobiwan.png",
     description:
       "Disciplined Attacker who utilizes years of Jedi training to protect his allies and overwhelm his foes",
     combat_type: 1,
@@ -20876,7 +20929,7 @@ module.exports = [
     name: "Master Qui-Gon",
     id: "MASTERQUIGON",
     url: "http://swgoh.gg/characters/master-qui-gon/",
-    image: "https://game-assets.swgoh.gg/tex.charui_masterquigon.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_masterquigon.png",
     description:
       "A bold Support willing to take a chance to save and assist his allies.",
     combat_type: 1,
@@ -20934,7 +20987,7 @@ module.exports = [
     name: "Luthen Rael",
     id: "LUTHENRAEL",
     url: "http://swgoh.gg/characters/luthen-rael/",
-    image: "https://game-assets.swgoh.gg/tex.charui_luthenrael.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_luthenrael.png",
     description:
       "A cold-hearted Support who's willing to use any resource necessary to further his goals",
     combat_type: 1,
