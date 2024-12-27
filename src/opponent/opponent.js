@@ -1,4 +1,4 @@
-const dbClient = require("../db/dynamoDbClient");
+import dbClient from "../db/dynamoDbClient";
 
 class Opponent {
   constructor() {}

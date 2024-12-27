@@ -1,7 +1,7 @@
-const dbClient = require("../db/dynamoDbClient");
+import dbClient from "../db/dynamoDbClient";
 
 class Relic {
-  constructor() { }
+  constructor() {}
 
   async updateRelic(id, relicData) {
     await dbClient.updateUser(id, relicData);

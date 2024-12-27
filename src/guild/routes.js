@@ -1,9 +1,8 @@
-const express = require("express");
-
-const guild = require("./guild");
-const apiClient = require("../api/swgoh.gg");
-const units = require("../gg/units/units");
-const { ships } = require("../gg/units/ships");
+import express from "express";
+import guild from "./guild";
+import apiClient from "../api/swgoh.gg";
+import units from "../gg/units/units";
+import { ships } from "../gg/units/ships";
 
 const routes = express.Router({
   mergeParams: true,

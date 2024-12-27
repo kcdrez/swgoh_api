@@ -1,7 +1,5 @@
-const moment = require("moment");
-
-const dbClient = require("../db/dynamoDbClient");
-const gearList = require("./seedData");
+import dbClient from "../db/dynamoDbClient";
+import gearList from "./seedData";
 
 class Gear {
   constructor() {}

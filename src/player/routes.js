@@ -1,6 +1,5 @@
-const express = require("express");
-
-const player = require("./player");
+import express from "express";
+import player from "./player";
 
 const routes = express.Router({
   mergeParams: true,

@@ -1,7 +1,6 @@
-const express = require("express");
-
-const Gear = require("./gear");
-const gearList = require("./seedData");
+import express from "express";
+import Gear from "./gear";
+import gearList from "./seedData";
 
 const routes = express.Router({
   mergeParams: true,

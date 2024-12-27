@@ -1,6 +1,5 @@
-const express = require("express");
-
-const Relic = require("./relic");
+import express from "express";
+import Relic from "./relic";
 
 const routes = express.Router({
   mergeParams: true,

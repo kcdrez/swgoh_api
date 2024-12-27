@@ -1,7 +1,7 @@
-const { v4: uuidv4 } = require("uuid");
-const { DynamoDBDocument } = require("@aws-sdk/lib-dynamodb");
-const { DynamoDB } = require("@aws-sdk/client-dynamodb");
-const moment = require("moment");
+import { v4 as uuidv4 } from "uuid";
+import { DynamoDBDocument } from "@aws-sdk/lib-dynamodb";
+import { DynamoDB } from "@aws-sdk/client-dynamodb";
+import moment from "moment";
 
 const db = DynamoDBDocument.from(new DynamoDB());
 

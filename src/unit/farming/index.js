@@ -1,9 +1,9 @@
-const hardNodes = require("./hard");
-const normalNodes = require("./normal");
-const legendary = require("./legendary");
-const stores = require("./stores");
-const other = require("./other");
-const gearList = require("../../gear/seedData");
+import hardNodes from "./hard";
+import normalNodes from "./normal";
+import legendary from "./legendary";
+import stores from "./stores";
+import other from "./other";
+import gearList from "../../gear/seedData";
 
 const ships = [
   "EBONHAWK",

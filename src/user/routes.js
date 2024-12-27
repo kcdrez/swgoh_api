@@ -1,6 +1,5 @@
-const express = require("express");
-
-const dbClient = require("../db/dynamoDbClient");
+import express from "express";
+import dbClient from "../db/dynamoDbClient";
 
 const routes = express.Router({
   mergeParams: true,

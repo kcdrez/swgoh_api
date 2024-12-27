@@ -1,6 +1,5 @@
-const express = require("express");
-
-const apiClient = require("../api/swgoh.gg");
+import express from "express";
+import apiClient from "../api/swgoh.gg";
 
 const routes = express.Router({
   mergeParams: true,

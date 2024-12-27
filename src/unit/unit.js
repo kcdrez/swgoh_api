@@ -1,9 +1,7 @@
-const moment = require("moment");
-
-const ggApi = require("../api/swgoh.gg");
-const unitsList = require("../gg/units");
-const abilityStats = require("./abilityStats");
-const shardFarmingData = require("./farming");
+import ggApi from "../api/swgoh.gg";
+import unitsList from "../gg/units";
+import abilityStats from "./abilityStats";
+import shardFarmingData from "./farming";
 
 class Unit {
   constructor() {}

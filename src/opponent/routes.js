@@ -1,6 +1,5 @@
-const express = require("express");
-
-const opponent = require("./opponent");
+import express from "express";
+import opponent from "./opponent";
 
 const routes = express.Router({
   mergeParams: true,

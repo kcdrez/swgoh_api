@@ -1,7 +1,5 @@
-const express = require("express");
-
-const { version } = require("../package.json");
-const Unit = require("./unit/unit");
+import express from "express";
+import { version } from "../package.json";
 
 const routes = express.Router({
   mergeParams: true,

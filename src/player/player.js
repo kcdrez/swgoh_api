@@ -1,9 +1,7 @@
-const moment = require("moment");
-
-const ggApi = require("../api/swgoh.gg");
-const unit = require("../unit/unit");
-const { getCrew } = require("../gg/units/ships");
-const dbClient = require("../db/dynamoDbClient");
+import ggApi from "../api/swgoh.gg";
+import unit from "../unit/unit";
+import { getCrew } from "../gg/units/ships";
+import dbClient from "../db/dynamoDbClient";
 
 class Player {
   constructor() {}

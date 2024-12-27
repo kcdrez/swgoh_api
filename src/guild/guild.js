@@ -1,12 +1,11 @@
-const { v4: uuidv4 } = require("uuid");
-const moment = require("moment");
-
-const dbClient = require("../db/dynamoDbClient");
-const apiClient = require("../api/swgoh.gg");
-const { tbMapping, tbNameMapping } = require("./tbMapping");
-const { twMapping } = require("./twMapping");
-const { raidMapping } = require("./raidMapping");
-const player = require("../player/player");
+import { vs as uuidv4 } from "uuid";
+import moment from "moment";
+import dbClient from "../db/dynamoDbClient";
+import apiClient from "../api/swgoh.gg";
+import { tbMapping, tbNameMapping } from "./tbMapping";
+import { twMapping } from "./twMapping";
+import { raidMapping } from "./raidMapping";
+import player from "../player/player";
 
 class Guild {
   constructor() {}

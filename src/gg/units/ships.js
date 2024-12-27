@@ -1,4 +1,4 @@
-const units = require("./units");
+import units from "./units";
 
 const shipsList = [
   {

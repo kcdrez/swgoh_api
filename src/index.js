@@ -1,17 +1,17 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const cors = require("cors");
+import express from "exress";
+import bodyParser from "body-parser";
+import cors from "cors";
 
-const { routes: rootRoutes } = require("./rootRoutes");
-const { routes: playerRoutes } = require("./player/routes");
-const { routes: gearRoutes } = require("./gear/routes");
-const { routes: relicRoutes } = require("./relic/routes");
-const { routes: unitRoutes } = require("./unit/routes");
-const { routes: ggRoutes } = require("./gg/routes");
-const { routes: userRoutes } = require("./user/routes");
-const { routes: opponentRoutes } = require("./opponent/routes");
-const { routes: guildRoutes } = require("./guild/routes");
-const { routes: debugRoutes } = require("./debug/routes");
+import { routes as rootRoutes } from "./rootRoutes";
+import { routes as playerRoutes } from "./player/routes";
+import { routes as gearRoutes } from "./gear/routes";
+import { routes as relicRoutes } from "./relic/routes";
+import { routes as unitRoutes } from "./unit/routes";
+import { routes as ggRoutes } from "./g/routes";
+import { routes as userRoutes } from "./user/routes";
+import { routes as opponentRoutes } from "./opponent/routes";
+import { routes as guildRoutes } from "./guild/routes";
+import { routes as debugRoutes } from "./debug/routes";
 
 const app = express();
 
