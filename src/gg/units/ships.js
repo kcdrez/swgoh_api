@@ -1429,6 +1429,42 @@ const shipsList = [
     capital_ship: false,
     activate_shard_count: 80,
   },
+  {
+    name: "Punishing One",
+    id: "PUNISHINGONE",
+    url: "//swgoh.gg/units/punishing-one/",
+    image: "https://game-assets.swgoh.gg/textures/tex.charui_punishingone.png",
+    power: 89310,
+    description:
+      "A speedy Bounty Hunter ship whose armament can debilitate the biggest bounties",
+    combat_type: 2,
+    alignment: "Dark Side",
+    categories: ["Bounty Hunter", "Scoundrel"],
+    ability_classes: [
+      "Counter",
+      "Assist",
+      "Dispel",
+      "Taunt",
+      "AoE",
+      "Healing",
+      "Stealth",
+      "+Evasion",
+      "Defense Penetration Up",
+      "+Speed",
+      "Buff Immunity",
+      "+Critical",
+      "+Defense",
+      "Stun",
+      "Marked",
+      "Deathmark",
+      "Target Lock",
+      "Breach",
+      "Potency Up",
+    ],
+    role: "Attacker",
+    capital_ship: false,
+    activate_shard_count: 25,
+  },
 ];
 
 const shipsStats = [
@@ -2784,15 +2820,36 @@ const shipsStats = [
     baseSpecialCrit: 0.1,
     basePotency: 0,
     baseTenacity: 0.15,
-    speed: 0.00121429,
-    health: 2.42379171,
-    protection: 0.91586114,
-    physicalDamage: 0.42616242,
+    speed: 0.00158142, //
+    health: 1.82870287, //
+    protection: 1.21913524, //
+    physicalDamage: 0.18114509, //
     critRating: 0,
     specialDamage: 0,
     specialCritRating: 0,
-    potency: 0.00002351,
-    tenacity: 0.00002351,
+    potency: 0.00001198, //
+    tenacity: 0.00001198, //
+  },
+  {
+    name: "PUNISHINGONE",
+    baseHealth: 24354, //
+    baseProtection: 0, //
+    baseSpeed: 100, //
+    basePotency: 0, //
+    baseTenacity: 0.15, //
+    baseDamage: 1894, //
+    baseCrit: 0.28, //
+    baseSpecialDamage: 1939, //
+    baseSpecialCrit: 0.1, //
+    speed: 0.00322344, //
+    health: 4.25807692, //
+    protection: 1.41935897, //
+    physicalDamage: 0.38461538, //
+    critRating: 0.0058608, //
+    specialDamage: 0,
+    specialCritRating: 0,
+    potency: 0.00002442, //
+    tenacity: 0.00002442, //
   },
 ];
 

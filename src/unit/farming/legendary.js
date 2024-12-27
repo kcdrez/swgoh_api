@@ -1804,6 +1804,46 @@ const legendary = {
         },
       ],
     },
+    {
+      id: "BAYLANSKOLL",
+      prerequisites: [
+        {
+          id: "GRANDADMIRALTHRAWN",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "MORGANELSBETH",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "GREATMOTHERS",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "SHINHATI",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "MARROK",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+      ],
+    },
   ],
 };
 
@@ -2645,6 +2685,123 @@ const galacticLegends = {
           requirement: {
             value: 3,
             type: "Relic",
+          },
+        },
+      ],
+    },
+    {
+      id: "GLAHSOKATANO",
+      prerequisites: [
+        {
+          id: "AHSOKATANO",
+          requirement: {
+            value: 9,
+            type: "Relic",
+          },
+        },
+        {
+          id: "GENERALSKYWALKER",
+          requirement: {
+            value: 8,
+            type: "Relic",
+          },
+        },
+        {
+          id: "ASAJVENTRESS",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "NIGHTTROOPER",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "COMMANDERAHSOKA",
+          requirement: {
+            value: 9,
+            type: "Relic",
+          },
+        },
+        {
+          id: "CAPTAINENOCH",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "DEATHTROOPERPERIDEA",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "EZRABRIDGERS3",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "FULCRUMAHSOKA",
+          requirement: {
+            value: 9,
+            type: "Relic",
+          },
+        },
+        {
+          id: "CT7567",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "BARRISSOFFEE",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "PADAWANSABINE",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "GENERALSYNDULLA",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "PLOKOON",
+          requirement: {
+            value: 8,
+            type: "Relic",
+          },
+        },
+        {
+          id: "HUYANG",
+          requirement: {
+            value: 7,
+            type: "Relic",
+          },
+        },
+        {
+          id: "JEDISTARFIGHTERAHSOKATANO",
+          requirement: {
+            value: 7,
+            type: "Stars",
           },
         },
       ],

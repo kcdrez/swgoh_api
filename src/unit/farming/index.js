@@ -53,9 +53,6 @@ const ships = [
 ];
 
 const notAcceleratedUnits = [
-  "PAZVIZSLA",
-  "IG12",
-  "KELLERANBEQ",
   "STAP",
   "BOSSNASS",
   "CAPTAINTARPALS",

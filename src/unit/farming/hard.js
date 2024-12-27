@@ -808,7 +808,7 @@ module.exports = [
     difficulty: "Hard",
     map: 8,
     mission: "A",
-    characters: ["MOTHERTALZIN"],
+    characters: ["MOTHERTALZIN", "MARROK"],
     gear: [],
   },
   {
@@ -826,7 +826,7 @@ module.exports = [
     difficulty: "Hard",
     map: 8,
     mission: "C",
-    characters: ["EPIXFINN", "SNOWTROOPER"],
+    characters: ["EPIXFINN", "CAPTAINENOCH"],
     gear: [],
   },
   {
@@ -1249,7 +1249,7 @@ module.exports = [
     map: 8,
     mission: "A",
     energy: 20,
-    characters: ["WICKET"],
+    characters: ["WICKET", "DEATHTROOPERPERIDEA"],
     gear: [],
   },
   {
@@ -1309,7 +1309,7 @@ module.exports = [
     map: 9,
     mission: "C",
     energy: 20,
-    characters: ["TALIA"],
+    characters: ["SHINHATI"],
     gear: [],
   },
   {
@@ -1860,7 +1860,7 @@ module.exports = [
     map: 4,
     mission: "G",
     energy: 10,
-    characters: ["PLOKOON"],
+    characters: ["EBONHAWK", "CARTHONASI"],
     gear: [],
   },
   {
@@ -2020,7 +2020,7 @@ module.exports = [
     map: 7,
     mission: "B",
     energy: 16,
-    characters: ["SNOWTROOPER"],
+    characters: ["MORGANELSBETH"],
     gear: [],
   },
   {
@@ -2120,7 +2120,7 @@ module.exports = [
     map: 8,
     mission: "E",
     energy: 16,
-    characters: ["EBONHAWK", "CARTHONASI"],
+    characters: ["GREATMOTHERS"],
     gear: [],
   },
   {
