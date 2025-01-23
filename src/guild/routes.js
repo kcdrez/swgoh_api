@@ -1,8 +1,8 @@
 import express from "express";
-import guild from "./guild";
-import apiClient from "../api/swgoh.gg";
-import units from "../gg/units/units";
-import { ships } from "../gg/units/ships";
+import guild from "./guild.js";
+import apiClient from "../api/swgoh.gg.js";
+import units from "../gg/units/units.js";
+import { ships } from "../gg/units/ships.js";
 
 const routes = express.Router({
   mergeParams: true,
@@ -212,6 +212,4 @@ routes.patch("/:guildId/goals", async (req, res) => {
   }
 });
 
-module.exports = {
-  routes,
-};
+export { routes };

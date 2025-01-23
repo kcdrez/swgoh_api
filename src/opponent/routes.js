@@ -1,5 +1,5 @@
 import express from "express";
-import opponent from "./opponent";
+import opponent from "./opponent.js";
 
 const routes = express.Router({
   mergeParams: true,
@@ -61,6 +61,4 @@ routes.patch("/matches/:playerId", async (req, res) => {
   }
 });
 
-module.exports = {
-  routes,
-};
+export { routes };

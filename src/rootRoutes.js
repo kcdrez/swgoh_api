@@ -1,5 +1,4 @@
 import express from "express";
-import { version } from "../package.json";
 
 const routes = express.Router({
   mergeParams: true,
@@ -7,7 +6,7 @@ const routes = express.Router({
 
 routes.get("/metadata", async (req, res) => {
   try {
-    res.status(200).json({ version });
+    res.status(200).json({ version: "1.0.0" });
   } catch (error) {
     res.status(500).json({
       error: error.message,
@@ -15,6 +14,4 @@ routes.get("/metadata", async (req, res) => {
   }
 });
 
-module.exports = {
-  routes,
-};
+export { routes };

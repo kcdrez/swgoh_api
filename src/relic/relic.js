@@ -1,4 +1,4 @@
-import dbClient from "../db/dynamoDbClient";
+import dbClient from "../db/dynamoDbClient.js";
 
 class Relic {
   constructor() {}
@@ -8,4 +8,4 @@ class Relic {
   }
 }
 
-module.exports = new Relic();
+export default new Relic();

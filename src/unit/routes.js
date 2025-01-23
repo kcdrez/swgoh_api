@@ -1,5 +1,5 @@
 import express from "express";
-import unit from "./unit";
+import unit from "./unit.js";
 
 const routes = express.Router({
   mergeParams: true,
@@ -71,6 +71,4 @@ routes.get("/:unitId", async (req, res) => {
   }
 });
 
-module.exports = {
-  routes,
-};
+export { routes };

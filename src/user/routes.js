@@ -1,5 +1,5 @@
 import express from "express";
-import dbClient from "../db/dynamoDbClient";
+import dbClient from "../db/dynamoDbClient.js";
 
 const routes = express.Router({
   mergeParams: true,
@@ -37,6 +37,4 @@ routes.patch("/:userId", async (req, res) => {
   }
 });
 
-module.exports = {
-  routes,
-};
+export { routes };

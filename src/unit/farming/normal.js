@@ -12,7 +12,7 @@ const normal = Normal.toLowerCase();
 const Hard = "Hard";
 const hard = Hard.toLowerCase();
 
-module.exports = [
+export default [
   {
     id: `${light}_${normal}_1a`,
     table: Light,

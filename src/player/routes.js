@@ -1,5 +1,5 @@
 import express from "express";
-import player from "./player";
+import player from "./player.js";
 
 const routes = express.Router({
   mergeParams: true,
@@ -160,6 +160,4 @@ routes.patch("/settings/:userId", async (req, res) => {
   }
 });
 
-module.exports = {
-  routes,
-};
+export { routes };

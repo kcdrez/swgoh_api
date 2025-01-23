@@ -1,4 +1,4 @@
-exports.raidMapping = {
+export default {
   Krayt: [
     {
       dates: {

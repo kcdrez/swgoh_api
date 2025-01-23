@@ -1,5 +1,5 @@
 import express from "express";
-import gearData from "../gear/seedData";
+import gearData from "../gear/seedData.js";
 
 const routes = express.Router({
   mergeParams: true,
@@ -84,9 +84,7 @@ function getMappedGear() {
   });
 }
 
-module.exports = {
-  routes,
-};
+export { routes };
 
 //todo Dark Hard seem to be off
 

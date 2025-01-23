@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   {
     id: "cantina_battles_store",
     table: "Cantina Battles Store",

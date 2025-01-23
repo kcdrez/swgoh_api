@@ -1,7 +1,6 @@
 org: kcdrez
 app: swgoh-sls
 service: aws-express-swgoh-api
-frameworkVersion: "3"
 
 provider:
   name: aws
@@ -25,3 +24,52 @@ functions:
 
 plugins:
   - serverless-offline
+#   org: kcdrez
+# app: test
+# service: testingProject
+
+# custom:
+#   tableName: "users-table-${sls:stage}"
+
+# provider:
+#   name: aws
+#   runtime: nodejs18.x
+#   iam:
+#     role:
+#       statements:
+#         - Effect: Allow
+#           Action:
+#             - dynamodb:Query
+#             - dynamodb:Scan
+#             - dynamodb:GetItem
+#             - dynamodb:PutItem
+#             - dynamodb:UpdateItem
+#             - dynamodb:DeleteItem
+#           Resource:
+#             - Fn::GetAtt: [UsersTable, Arn]
+#   environment:
+#     USERS_TABLE: ${self:custom.tableName}
+
+# functions:
+#   api:
+#     handler: index.handler
+#     events:
+#       - httpApi: "*"
+
+# resources:
+#   Resources:
+#     UsersTable:
+#       Type: AWS::DynamoDB::Table
+#       Properties:
+#         AttributeDefinitions:
+#           - AttributeName: userId
+#             AttributeType: S
+#         KeySchema:
+#           - AttributeName: userId
+#             KeyType: HASH
+#         BillingMode: PAY_PER_REQUEST
+#         TableName: ${self:custom.tableName}
+
+# plugins:
+#   - serverless-offline
+

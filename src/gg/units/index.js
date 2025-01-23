@@ -1,4 +1,4 @@
-import units from "./units";
-import { ships } from "./ships";
+import units from "./units.js";
+import { ships } from "./ships.js";
 
-module.exports = [...units, ...ships];
+export default [...units, ...ships];

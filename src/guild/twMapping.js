@@ -1,4 +1,4 @@
-exports.twMapping = [
+export default [
   {
     dates: {
       start: "01-01-2022",

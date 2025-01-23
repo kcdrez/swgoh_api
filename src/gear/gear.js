@@ -1,5 +1,5 @@
-import dbClient from "../db/dynamoDbClient";
-import gearList from "./seedData";
+import dbClient from "../db/dynamoDbClient.js";
+import gearList from "./seedData.js";
 
 class Gear {
   constructor() {}
@@ -19,4 +19,4 @@ class Gear {
   }
 }
 
-module.exports = new Gear();
+export default new Gear();

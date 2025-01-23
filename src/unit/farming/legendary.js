@@ -2809,4 +2809,4 @@ const galacticLegends = {
   ],
 };
 
-module.exports = [legendary, galacticLegends];
+export default [legendary, galacticLegends];

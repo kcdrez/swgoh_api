@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   {
     id: `lightside_hard_1a`,
     table: "Light Side",

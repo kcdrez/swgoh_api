@@ -764,7 +764,7 @@ const capitalShipEvents = [
   },
 ];
 
-module.exports = [
+export default [
   ...raids,
   conquest,
   territoryBattles,

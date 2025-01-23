@@ -1,11 +1,11 @@
-import { vs as uuidv4 } from "uuid";
+import { v4 as uuidv4 } from "uuid";
 import moment from "moment";
-import dbClient from "../db/dynamoDbClient";
-import apiClient from "../api/swgoh.gg";
-import { tbMapping, tbNameMapping } from "./tbMapping";
-import { twMapping } from "./twMapping";
-import { raidMapping } from "./raidMapping";
-import player from "../player/player";
+import dbClient from "../db/dynamoDbClient.js";
+import apiClient from "../api/swgoh.gg.js";
+import { tbMapping, tbNameMapping } from "./tbMapping.js";
+import twMapping from "./twMapping.js";
+import raidMapping from "./raidMapping.js";
+import player from "../player/player.js";
 
 class Guild {
   constructor() {}
@@ -267,4 +267,4 @@ class Guild {
   }
 }
 
-module.exports = new Guild();
+export default new Guild();

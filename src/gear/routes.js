@@ -1,6 +1,6 @@
 import express from "express";
-import Gear from "./gear";
-import gearList from "./seedData";
+import Gear from "./gear.js";
+import gearList from "./seedData.js";
 
 const routes = express.Router({
   mergeParams: true,
@@ -54,6 +54,4 @@ routes.get("/debug", async (req, res) => {
   }
 });
 
-module.exports = {
-  routes,
-};
+export { routes };

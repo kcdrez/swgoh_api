@@ -1,4 +1,4 @@
-import dbClient from "../db/dynamoDbClient";
+import dbClient from "../db/dynamoDbClient.js";
 
 class Opponent {
   constructor() {}
@@ -20,4 +20,4 @@ class Opponent {
   }
 }
 
-module.exports = new Opponent();
+export default new Opponent();

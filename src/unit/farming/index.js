@@ -1,9 +1,9 @@
-import hardNodes from "./hard";
-import normalNodes from "./normal";
-import legendary from "./legendary";
-import stores from "./stores";
-import other from "./other";
-import gearList from "../../gear/seedData";
+import hardNodes from "./hard.js";
+import normalNodes from "./normal.js";
+import legendary from "./legendary.js";
+import stores from "./stores.js";
+import other from "./other.js";
+import gearList from "../../gear/seedData.js";
 
 const ships = [
   "EBONHAWK",
@@ -97,4 +97,4 @@ const farmNodeList = [...hardNodes, ...normalNodes].map(
   }
 );
 
-module.exports = [...farmNodeList, ...legendary, ...stores, ...other];
+export default [...farmNodeList, ...legendary, ...stores, ...other];

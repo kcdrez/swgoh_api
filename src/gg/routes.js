@@ -1,5 +1,5 @@
 import express from "express";
-import apiClient from "../api/swgoh.gg";
+import apiClient from "../api/swgoh.gg.js";
 
 const routes = express.Router({
   mergeParams: true,
@@ -49,6 +49,15 @@ routes.get("/ships", async (_req, res) => {
   }
 });
 
-module.exports = {
-  routes,
-};
+routes.get("/guild/:guildId", async (req, res) => {
+  try {
+    const response = await apiClient.fetchGuild(req.params.guildId);
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+    });
+  }
+});
+
+export { routes };

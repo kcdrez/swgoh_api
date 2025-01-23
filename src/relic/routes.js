@@ -1,5 +1,5 @@
 import express from "express";
-import Relic from "./relic";
+import Relic from "./relic.js";
 
 const routes = express.Router({
   mergeParams: true,
@@ -21,6 +21,4 @@ routes.patch("/:userId", async (req, res) => {
   }
 });
 
-module.exports = {
-  routes,
-};
+export { routes };

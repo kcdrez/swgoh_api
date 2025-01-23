@@ -59,4 +59,4 @@ class apiClient {
   }
 }
 
-module.exports = new apiClient();
+export default new apiClient();

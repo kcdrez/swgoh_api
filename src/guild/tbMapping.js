@@ -1424,5 +1424,4 @@ const tbNameMapping = {
   "Rise of the Empire": "riseOfTheEmpire",
 };
 
-exports.tbMapping = tbMapping;
-exports.tbNameMapping = tbNameMapping;
+export { tbMapping, tbNameMapping };

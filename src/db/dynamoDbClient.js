@@ -239,4 +239,4 @@ class DbClient {
   }
 }
 
-module.exports = new DbClient();
+export default new DbClient();

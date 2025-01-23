@@ -1,7 +1,7 @@
-import ggApi from "../api/swgoh.gg";
-import unitsList from "../gg/units";
-import abilityStats from "./abilityStats";
-import shardFarmingData from "./farming";
+import ggApi from "../api/swgoh.gg.js";
+import unitsList from "../gg/units/index.js";
+import abilityStats from "./abilityStats.js";
+import shardFarmingData from "./farming/index.js";
 
 class Unit {
   constructor() {}
@@ -36,4 +36,4 @@ class Unit {
   }
 }
 
-module.exports = new Unit();
+export default new Unit();
