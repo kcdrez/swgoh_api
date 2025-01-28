@@ -16671,4 +16671,72 @@ export default [
     locations: [],
     scavenger: [],
   },
+  {
+    id: "G12Finisher_OMEGAS3_A",
+    recipes: [
+      {
+        id: "recipeG12Finisher_OMEGAS3_A",
+        result_id: "G12Finisher_OMEGAS3_A",
+        cost: 124000,
+        ingredients: [
+          { amount: 124000, gear: "GRIND" },
+          { amount: 1, gear: "168Prototype" },
+          { amount: 1, gear: "174Ingredient" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 4000, 4: 150, 5: 8, 8: 45, 18: 0.3 },
+    mark: " ",
+    cost: 124000,
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/equipment/G12Finisher_OMEGAS3_A/",
+    ingredients: [
+      { amount: 50, gear: "168PrototypeSalvage" },
+      { amount: 50, gear: "174Ingredient_Salvage" },
+      { amount: 50, gear: "135Salvage" },
+      { amount: 100, gear: "172Salvage" },
+    ],
+    name: "Power Cell Injector (Plasma) - Omega (Fugitive)",
+    locations: [],
+    scavenger: [],
+  },
+  {
+    id: "G12Finisher_BATCHERS3_B",
+    recipes: [
+      {
+        id: "recipeG12Finisher_BATCHERS3_B",
+        result_id: "G12Finisher_BATCHERS3_B",
+        cost: 124000,
+        ingredients: [
+          { amount: 124000, gear: "GRIND" },
+          { amount: 1, gear: "169Prototype" },
+          { amount: 1, gear: "175Ingredient" },
+          { amount: 2, gear: "173Prototype" },
+          { amount: 50, gear: "135Salvage" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 2: 250, 5: 8, 8: 150, 9: 150, 17: 0.7 },
+    mark: " ",
+    cost: 124000,
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/equipment/G12Finisher_BATCHERS3_B/",
+    ingredients: [
+      { amount: 50, gear: "169PrototypeSalvage" },
+      { amount: 50, gear: "175Ingredient_Salvage" },
+      { amount: 100, gear: "173Salvage" },
+      { amount: 50, gear: "135Salvage" },
+    ],
+    name: "Power Cell Injector (Fusion) - Batcher",
+    locations: [],
+    scavenger: [],
+  },
 ];

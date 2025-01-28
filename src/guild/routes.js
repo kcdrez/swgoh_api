@@ -70,7 +70,11 @@ routes.post("/:guildId/units", async (req, res) => {
 routes.post("/:guildId/stats", async (req, res) => {
   try {
     const guildResponse = await apiClient.fetchGuild(req.params.guildId);
-    const guildData = await guild.fetchGuildUnits(null, guildResponse.members);
+    const guildData = await guild.fetchGuildUnits(
+      null,
+      guildResponse.members,
+      req.params.guildId
+    );
 
     const data = guildData.reduce(
       (acc, player) => {

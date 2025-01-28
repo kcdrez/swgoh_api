@@ -31,43 +31,42 @@ class Player {
   async fetchPlayers(unitId, ggPlayers, guildData, guildId) {
     let players = [];
 
-    // const results = await Promise.all(
-    //   ggPlayers.map((player) => {
-    //     console.log("player time took in ms:", player, Date.now() - now);
-    //     return ggApi.fetchPlayer(player.ally_code);
-    //   })
-    // );
+    const results = await Promise.all(
+      ggPlayers.map((player) => {
+        return ggApi.fetchPlayer(player.ally_code);
+      })
+    );
 
-    // for (let i = 0; i <= ggPlayers.length - 1; i++) {
-    //   const player = ggPlayers[i];
-    //   const matchPlayer = results.find(
-    //     (p) => player.ally_code === p.data.ally_code
-    //   );
+    for (let i = 0; i <= ggPlayers.length - 1; i++) {
+      const player = ggPlayers[i];
+      const matchPlayer = results.find(
+        (p) => player.ally_code === p.data.ally_code
+      );
 
-    //   const unitList = matchPlayer.units.map((unit) => {
-    //     const { relic_tier, rarity, ...restUnit } = unit.data;
-    //     return {
-    //       relic_tier: relic_tier - 2,
-    //       stars: rarity,
-    //       ...restUnit,
-    //     };
-    //   });
+      const unitList = matchPlayer.units.map((unit) => {
+        const { relic_tier, rarity, ...restUnit } = unit.data;
+        return {
+          relic_tier: relic_tier - 2,
+          stars: rarity,
+          ...restUnit,
+        };
+      });
 
-    //   players.push({
-    //     units: unitList.filter((unit) => {
-    //       if (!unitId) {
-    //         return true;
-    //       } else if (Array.isArray(unitId)) {
-    //         return unitId.includes(unit.base_id);
-    //       } else {
-    //         return unit.base_id === unitId;
-    //       }
-    //     }),
-    //     name: player.player_name,
-    //     allyCode: player.ally_code,
-    //     totalGP: player.galactic_power,
-    //   });
-    // }
+      players.push({
+        units: unitList.filter((unit) => {
+          if (!unitId) {
+            return true;
+          } else if (Array.isArray(unitId)) {
+            return unitId.includes(unit.base_id);
+          } else {
+            return unit.base_id === unitId;
+          }
+        }),
+        name: player.player_name,
+        allyCode: player.ally_code,
+        totalGP: player.galactic_power,
+      });
+    }
 
     return players;
   }
