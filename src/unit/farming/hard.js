@@ -341,7 +341,7 @@ export default [
     difficulty: "Hard",
     map: 3,
     mission: "F",
-    characters: ["DATHCHA"],
+    characters: ["HUYANG"],
     gear: [
       {
         id: "028Prototype",
@@ -1004,7 +1004,7 @@ export default [
     map: 3,
     mission: "D",
     energy: 12,
-    characters: ["TEEBO"],
+    characters: ["OMEGAS3"],
     gear: [],
   },
   {
@@ -1199,7 +1199,7 @@ export default [
     map: 6,
     mission: "E",
     energy: 16,
-    characters: ["MAGNAGUARD"],
+    characters: ["PADAWANSABINE"],
     gear: [],
   },
   {
@@ -1580,7 +1580,7 @@ export default [
     map: 5,
     mission: "F",
     energy: 20,
-    characters: [],
+    characters: ["PUNISHINGONE"],
     gear: [],
   },
   {
