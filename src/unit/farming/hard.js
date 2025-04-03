@@ -1499,7 +1499,7 @@ export default [
     map: 4,
     mission: "C",
     energy: 20,
-    characters: ["GREEFKARGA", "YWINGREBEL"],
+    characters: ["BATCHERS3", "YWINGREBEL"],
     gear: [],
   },
   {

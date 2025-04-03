@@ -5,7 +5,7 @@ export default [
     tier: 1,
     name: "Mk 1 BlasTech Weapon Mod",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_1d" },
@@ -39,7 +39,7 @@ export default [
     tier: 1,
     name: "Mk 1 BAW Armor Mod",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_armormod.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2c" },
@@ -73,7 +73,8 @@ export default [
     tier: 1,
     name: "Mk 1 Neuro-Saav Electrobinoculars",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_electrobinoculars.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars.png",
     ingredients: [],
     locations: [
       { id: "darkside_hard_2a" },
@@ -104,7 +105,7 @@ export default [
     tier: 1,
     name: "Mk 1 TaggeCo Holo Lens",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_4f" },
@@ -134,7 +135,7 @@ export default [
     tier: 1,
     name: "Mk 1 Nubian Security Scanner",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_securityscan.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_1b" },
@@ -161,7 +162,7 @@ export default [
     tier: 1,
     name: "Mk 1 Loronar Power Cell",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_energycell.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_energycell.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_4l" },
@@ -190,7 +191,7 @@ export default [
     tier: 1,
     name: "Mk 1 Fabritech Data Pad",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_datapad.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_4j" },
@@ -214,7 +215,7 @@ export default [
     tier: 1,
     name: "Mk 1 Arakyd Droid Caller",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_droidcaller.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_droidcaller.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2d" },
@@ -237,7 +238,7 @@ export default [
     tier: 1,
     name: "Mk 1 BioTech Implant",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_implant.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_1f" },
@@ -257,7 +258,7 @@ export default [
     tier: 1,
     name: "Mk 1 A/KT Stun Gun",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_stungun.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_stungun.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2i" },
@@ -278,7 +279,7 @@ export default [
     tier: 1,
     name: "Mk 1 CEC Fusion Furnace",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_4g" },
@@ -297,7 +298,8 @@ export default [
     tier: 1,
     name: "Mk 1 Merr-Sonn Shield Generator",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_shieldgenerator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_shieldgenerator.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_4h" },
@@ -318,7 +320,7 @@ export default [
     tier: 1,
     name: "Mk 2 BlasTech Weapon Mod",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_1f" },
@@ -356,7 +358,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_armormod.png",
     ingredients: [
       { gear: "014Prototype", amount: 1 },
       { gear: "009", amount: 1 },
@@ -382,7 +384,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_electrobinoculars.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars.png",
     ingredients: [
       { gear: "015Prototype", amount: 1 },
       { gear: "011", amount: 1 },
@@ -397,7 +400,7 @@ export default [
     tier: 2,
     name: "Mk 2 TaggeCo Holo Lens",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_1a" },
@@ -430,7 +433,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_securityscan.png",
     ingredients: [
       { gear: "017Prototype", amount: 1 },
       { gear: "006", amount: 1 },
@@ -455,7 +458,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_energycell.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_energycell.png",
     ingredients: [
       { gear: "010", amount: 1 },
       { gear: "008", amount: 1 },
@@ -469,7 +472,7 @@ export default [
     tier: 2,
     name: "Mk 1 SoroSuub Keypad",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_keypad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_keypad.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_1c" },
@@ -498,7 +501,7 @@ export default [
     tier: 2,
     name: "Mk 1 Czerka Stun Cuffs",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_stuncuffs.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_stuncuffs.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_3a" },
@@ -527,7 +530,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe.png",
     ingredients: [
       { gear: "021Prototype", amount: 1 },
       { gear: "005", amount: 1 },
@@ -552,7 +555,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_implant.png",
     ingredients: [
       { gear: "007", amount: 1 },
       { gear: "006", amount: 2 },
@@ -566,7 +569,7 @@ export default [
     tier: 2,
     name: "Mk 2 CEC Fusion Furnace",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_1a" },
@@ -587,7 +590,8 @@ export default [
     tier: 2,
     name: "Mk 2 Merr-Sonn Shield Generator",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_shieldgenerator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_shieldgenerator.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2h" },
@@ -607,7 +611,7 @@ export default [
     tier: 2,
     name: "Mk 3 BlasTech Weapon Mod",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_3c" },
@@ -634,7 +638,7 @@ export default [
     tier: 2,
     name: "Mk 3 BAW Armor Mod",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_armormod.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_1e" },
@@ -655,7 +659,8 @@ export default [
     tier: 2,
     name: "Mk 3 Neuro-Saav Electrobinoculars",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_electrobinoculars.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_3g" },
@@ -687,7 +692,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens.png",
     ingredients: [
       { gear: "028Prototype", amount: 1 },
       { gear: "004", amount: 1 },
@@ -702,7 +707,7 @@ export default [
     tier: 2,
     name: "Mk 3 Loronar Power Cell",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_energycell.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_energycell.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_1b" },
@@ -723,7 +728,7 @@ export default [
     tier: 2,
     name: "Mk 2 Fabritech Data Pad",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_datapad.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_3h" },
@@ -753,7 +758,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech.png",
     ingredients: [
       { gear: "031Prototype", amount: 1 },
       { gear: "011", amount: 1 },
@@ -779,7 +784,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_keypad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_keypad.png",
     ingredients: [
       { gear: "032Prototype", amount: 1 },
       { gear: "035", amount: 1 },
@@ -794,7 +799,7 @@ export default [
     tier: 2,
     name: "Mk 2 Arakyd Droid Caller",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_droidcaller.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_droidcaller.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_3e" },
@@ -824,7 +829,7 @@ export default [
     tier: 2,
     name: "Mk 1 Sienar Holo Projector",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_holoprojector.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holoprojector.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_3b" },
@@ -841,7 +846,7 @@ export default [
     tier: 2,
     name: "Mk 2 Chiewab Hypo Syringe",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe.png",
     ingredients: [],
     locations: [
       { id: "darkside_hard_2f" },
@@ -876,7 +881,7 @@ export default [
     tier: 2,
     name: "Mk 3 BioTech Implant",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_implant.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_1d" },
@@ -922,7 +927,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod.png",
     ingredients: [
       { gear: "037Prototype", amount: 1 },
       { gear: "008", amount: 1 },
@@ -948,7 +953,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_electrobinoculars.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars.png",
     ingredients: [
       { gear: "012", amount: 1 },
       { gear: "010", amount: 1 },
@@ -974,7 +980,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_securityscan.png",
     ingredients: [
       { gear: "029", amount: 1 },
       { gear: "020", amount: 1 },
@@ -1000,7 +1006,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_energycell.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_energycell.png",
     ingredients: [
       { gear: "040Prototype", amount: 1 },
       { gear: "020", amount: 1 },
@@ -1027,7 +1033,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_datapad.png",
     ingredients: [
       { gear: "017Prototype", amount: 1 },
       { gear: "006", amount: 1 },
@@ -1054,7 +1060,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech.png",
     ingredients: [
       { gear: "012", amount: 1 },
       { gear: "013", amount: 2 },
@@ -1078,7 +1084,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_keypad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_keypad.png",
     ingredients: [
       { gear: "026", amount: 1 },
       { gear: "030", amount: 1 },
@@ -1111,7 +1117,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_implant.png",
     ingredients: [
       { gear: "044Prototype", amount: 1 },
       { gear: "026", amount: 1 },
@@ -1138,7 +1144,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_stungun.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_stungun.png",
     ingredients: [
       { gear: "023", amount: 1 },
       { gear: "016", amount: 1 },
@@ -1164,7 +1170,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace.png",
     ingredients: [
       { gear: "023", amount: 1 },
       { gear: "019", amount: 1 },
@@ -1190,7 +1196,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_shieldgenerator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_shieldgenerator.png",
     ingredients: [
       { gear: "036", amount: 1 },
       { gear: "024", amount: 1 },
@@ -1216,7 +1223,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_thermaldetonator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator.png",
     ingredients: [
       { gear: "034", amount: 1 },
       { gear: "036", amount: 1 },
@@ -1242,7 +1250,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod.png",
     ingredients: [
       { gear: "049Prototype", amount: 1 },
       { gear: "032Prototype", amount: 1 },
@@ -1284,7 +1292,7 @@ export default [
         ingredients: [{ amount: 5, gear: "050Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_armormod.png",
     ingredients: [{ gear: "050Salvage", amount: 5 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -1302,7 +1310,8 @@ export default [
         ingredients: [{ amount: 5, gear: "051Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_electrobinoculars.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars.png",
     ingredients: [{ gear: "051Salvage", amount: 5 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -1320,7 +1329,7 @@ export default [
         ingredients: [{ amount: 5, gear: "052Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens.png",
     ingredients: [{ gear: "052Salvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 14, count: 1 }],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -1338,7 +1347,7 @@ export default [
         ingredients: [{ amount: 5, gear: "053Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_droidcaller.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_droidcaller.png",
     ingredients: [{ gear: "053Salvage", amount: 5 }],
     locations: [],
     scavenger: [
@@ -1363,7 +1372,7 @@ export default [
         ingredients: [{ amount: 5, gear: "054Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_energycell.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_energycell.png",
     ingredients: [{ gear: "054Salvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -1385,7 +1394,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_datapad.png",
     ingredients: [
       { gear: "055Prototype", amount: 1 },
       { gear: "050Salvage", amount: 5 },
@@ -1411,7 +1420,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_implant.png",
     ingredients: [
       { gear: "056Prototype", amount: 1 },
       { gear: "053Salvage", amount: 5 },
@@ -1435,7 +1444,7 @@ export default [
         ingredients: [{ amount: 5, gear: "057Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_medpack.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_medpack.png",
     ingredients: [{ gear: "057Salvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
     scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
@@ -1453,7 +1462,7 @@ export default [
         ingredients: [{ amount: 5, gear: "058Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_comlink.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_comlink.png",
     ingredients: [{ gear: "058Salvage", amount: 5 }],
     locations: [],
     scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
@@ -1474,7 +1483,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_stungun.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_stungun.png",
     ingredients: [
       { gear: "025", amount: 1 },
       { gear: "012", amount: 1 },
@@ -1498,7 +1507,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_thermaldetonator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator.png",
     ingredients: [
       { gear: "036", amount: 1 },
       { gear: "025", amount: 1 },
@@ -1531,7 +1541,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod.png",
     ingredients: [
       { gear: "061Prototype", amount: 1 },
       { gear: "026", amount: 1 },
@@ -1557,7 +1567,7 @@ export default [
         ingredients: [{ amount: 5, gear: "062Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_armormod.png",
     ingredients: [{ gear: "062Salvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 14, count: 1 }],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -1580,7 +1590,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens.png",
     ingredients: [
       { gear: "063PrototypeSalvage", amount: 5 },
       { gear: "023", amount: 1 },
@@ -1607,7 +1617,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_securityscan.png",
     ingredients: [
       { gear: "064PrototypeSalvage", amount: 5 },
       { gear: "062Salvage", amount: 5 },
@@ -1634,7 +1644,7 @@ export default [
         ingredients: [{ amount: 5, gear: "065Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_energycell.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_energycell.png",
     ingredients: [{ gear: "065Salvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 14, count: 1 }],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -1645,7 +1655,7 @@ export default [
     tier: 2,
     name: "Mk 5 Fabritech Data Pad",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_datapad.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_5k" },
@@ -1687,7 +1697,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech.png",
     ingredients: [
       { gear: "062Salvage", amount: 5 },
       { gear: "035", amount: 1 },
@@ -1713,7 +1723,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe.png",
     ingredients: [
       { gear: "068PrototypeSalvage", amount: 5 },
       { gear: "054Salvage", amount: 5 },
@@ -1739,7 +1749,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_comlink.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_comlink.png",
     ingredients: [
       { gear: "069Prototype", amount: 1 },
       { gear: "035", amount: 1 },
@@ -1765,7 +1775,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_shieldgenerator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_shieldgenerator.png",
     ingredients: [
       { gear: "023", amount: 1 },
       { gear: "020", amount: 1 },
@@ -1790,7 +1801,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray.png",
     ingredients: [
       { gear: "071PrototypeSalvage", amount: 5 },
       { gear: "012", amount: 1 },
@@ -1815,7 +1826,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_thermaldetonator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator.png",
     ingredients: [
       { gear: "072PrototypeSalvage", amount: 5 },
       { gear: "054Salvage", amount: 5 },
@@ -1844,7 +1856,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod.png",
     ingredients: [
       { gear: "073PrototypeSalvage", amount: 5 },
       { gear: "054Salvage", amount: 5 },
@@ -1877,7 +1889,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_armormod.png",
     ingredients: [
       { gear: "057Salvage", amount: 5 },
       { gear: "076Salvage", amount: 5 },
@@ -1902,7 +1914,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens.png",
     ingredients: [
       { gear: "075PrototypeSalvage", amount: 5 },
       { gear: "050Salvage", amount: 5 },
@@ -1924,7 +1936,7 @@ export default [
         ingredients: [{ amount: 5, gear: "076Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_datapad.png",
     ingredients: [{ gear: "076Salvage", amount: 5 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -1946,7 +1958,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech.png",
     ingredients: [
       { gear: "025", amount: 1 },
       { gear: "034", amount: 1 },
@@ -1972,7 +1984,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_holoprojector.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holoprojector.png",
     ingredients: [
       { gear: "078PrototypeSalvage", amount: 5 },
       { gear: "053Salvage", amount: 10 },
@@ -2008,7 +2020,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_stuncuffs.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_stuncuffs.png",
     ingredients: [
       { gear: "057Salvage", amount: 5 },
       { gear: "036", amount: 1 },
@@ -2037,7 +2049,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_bactagel.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_bactagel.png",
     ingredients: [
       { gear: "080PrototypeSalvage", amount: 5 },
       { gear: "054Salvage", amount: 5 },
@@ -2062,7 +2074,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_medpack.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_medpack.png",
     ingredients: [
       { gear: "055Prototype", amount: 1 },
       { gear: "056Prototype", amount: 1 },
@@ -2092,7 +2104,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_shieldgenerator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_shieldgenerator.png",
     ingredients: [
       { gear: "050Salvage", amount: 5 },
       { gear: "053Salvage", amount: 5 },
@@ -2118,7 +2131,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray.png",
     ingredients: [
       { gear: "054Salvage", amount: 10 },
       { gear: "027", amount: 1 },
@@ -2143,7 +2156,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_thermaldetonator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator.png",
     ingredients: [
       { gear: "084PrototypeSalvage", amount: 5 },
       { gear: "058Salvage", amount: 5 },
@@ -2169,7 +2183,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_armormod.png",
     ingredients: [
       { gear: "085PrototypeSalvage", amount: 5 },
       { gear: "030", amount: 1 },
@@ -2205,7 +2219,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_electrobinoculars.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars.png",
     ingredients: [
       { gear: "086PrototypeSalvage", amount: 5 },
       { gear: "051Salvage", amount: 10 },
@@ -2231,7 +2246,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_securityscan.png",
     ingredients: [
       { gear: "087PrototypeSalvage", amount: 5 },
       { gear: "101Salvage", amount: 20 },
@@ -2257,7 +2272,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_energycell.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_energycell.png",
     ingredients: [
       { gear: "036", amount: 1 },
       { gear: "034", amount: 1 },
@@ -2294,7 +2309,7 @@ export default [
         ingredients: [{ amount: 2, gear: "049" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_datapad.png",
     ingredients: [
       { gear: "049Prototype", amount: 2 },
       { gear: "032Prototype", amount: 2 },
@@ -2332,7 +2347,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech.png",
     ingredients: [
       { gear: "090PrototypeSalvage", amount: 20 },
       { gear: "095Salvage", amount: 20 },
@@ -2355,7 +2370,7 @@ export default [
         ingredients: [{ amount: 20, gear: "091Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_keypad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_keypad.png",
     ingredients: [{ gear: "091Salvage", amount: 20 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -2373,7 +2388,7 @@ export default [
         ingredients: [{ amount: 20, gear: "092Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_droidcaller.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_droidcaller.png",
     ingredients: [{ gear: "092Salvage", amount: 20 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -2395,7 +2410,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe.png",
     ingredients: [
       { gear: "051Salvage", amount: 5 },
       { gear: "093PrototypeSalvage", amount: 20 },
@@ -2421,7 +2436,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_implant.png",
     ingredients: [
       { gear: "094PrototypeSalvage", amount: 20 },
       { gear: "036", amount: 1 },
@@ -2446,7 +2461,7 @@ export default [
         ingredients: [{ amount: 20, gear: "095Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_stungun.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_stungun.png",
     ingredients: [{ gear: "095Salvage", amount: 20 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -2467,7 +2482,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace.png",
     ingredients: [
       { gear: "096PrototypeSalvage", amount: 20 },
       { gear: "029", amount: 2 },
@@ -2494,7 +2509,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod.png",
     ingredients: [
       { gear: "097PrototypeSalvage", amount: 20 },
       { gear: "091Salvage", amount: 20 },
@@ -2518,7 +2533,8 @@ export default [
         ingredients: [{ amount: 2, gear: "072" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_electrobinoculars.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars.png",
     ingredients: [
       { gear: "072PrototypeSalvage", amount: 10 },
       { gear: "054Salvage", amount: 10 },
@@ -2560,7 +2576,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens.png",
     ingredients: [
       { gear: "102Salvage", amount: 20 },
       { gear: "055Prototype", amount: 1 },
@@ -2587,7 +2603,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_securityscan.png",
     ingredients: [
       { gear: "100PrototypeSalvage", amount: 20 },
       { gear: "091Salvage", amount: 20 },
@@ -2610,7 +2626,7 @@ export default [
         ingredients: [{ amount: 20, gear: "101Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_keypad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_keypad.png",
     ingredients: [{ gear: "101Salvage", amount: 20 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -2628,7 +2644,7 @@ export default [
         ingredients: [{ amount: 20, gear: "102Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_holoprojector.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holoprojector.png",
     ingredients: [{ gear: "102Salvage", amount: 20 }],
     locations: [],
     scavenger: [
@@ -2653,7 +2669,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_bactagel.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_bactagel.png",
     ingredients: [
       { gear: "103PrototypeSalvage", amount: 20 },
       { gear: "036", amount: 1 },
@@ -2682,7 +2698,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe.png",
     ingredients: [
       { gear: "104PrototypeSalvage", amount: 20 },
       { gear: "101Salvage", amount: 20 },
@@ -2706,7 +2722,7 @@ export default [
         ingredients: [{ amount: 2, gear: "080" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_medpack.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_medpack.png",
     ingredients: [
       { gear: "080PrototypeSalvage", amount: 10 },
       { gear: "054Salvage", amount: 10 },
@@ -2732,7 +2748,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_comlink.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_comlink.png",
     ingredients: [
       { gear: "106PrototypeSalvage", amount: 20 },
       { gear: "092Salvage", amount: 20 },
@@ -2758,7 +2774,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_shieldgenerator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_shieldgenerator.png",
     ingredients: [
       { gear: "091Salvage", amount: 40 },
       { gear: "027", amount: 1 },
@@ -2780,7 +2797,7 @@ export default [
         ingredients: [{ amount: 50, gear: "108Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray.png",
     ingredients: [{ gear: "108Salvage", amount: 50 }],
     locations: [],
     scavenger: [
@@ -2801,7 +2818,7 @@ export default [
         ingredients: [{ amount: 2, gear: "089" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens.png",
     ingredients: [
       { gear: "049Prototype", amount: 4 },
       { gear: "032Prototype", amount: 4 },
@@ -2826,7 +2843,7 @@ export default [
         ingredients: [{ amount: 2, gear: "078" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_datapad.png",
     ingredients: [
       { gear: "078PrototypeSalvage", amount: 10 },
       { gear: "053Salvage", amount: 20 },
@@ -2863,7 +2880,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_droidcaller.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_droidcaller.png",
     ingredients: [
       { gear: "135Salvage", amount: 50 },
       { gear: "080PrototypeSalvage", amount: 20 },
@@ -2886,7 +2903,7 @@ export default [
         ingredients: [{ amount: 50, gear: "112Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_stuncuffs.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_stuncuffs.png",
     ingredients: [{ gear: "112Salvage", amount: 50 }],
     locations: [],
     scavenger: [
@@ -2907,7 +2924,7 @@ export default [
         ingredients: [{ amount: 50, gear: "113Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe.png",
     ingredients: [{ gear: "113Salvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -2929,7 +2946,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_implant.png",
     ingredients: [
       { gear: "095Salvage", amount: 20 },
       { gear: "114PrototypeSalvage", amount: 50 },
@@ -2954,7 +2971,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_medpack.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_medpack.png",
     ingredients: [
       { gear: "113Salvage", amount: 50 },
       { gear: "052Salvage", amount: 5 },
@@ -2978,7 +2995,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_comlink.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_comlink.png",
     ingredients: [
       { gear: "116PrototypeSalvage", amount: 50 },
       { gear: "112Salvage", amount: 50 },
@@ -3003,7 +3020,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_stungun.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_stungun.png",
     ingredients: [
       { gear: "117PrototypeSalvage", amount: 50 },
       { gear: "108Salvage", amount: 50 },
@@ -3033,7 +3050,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace.png",
     ingredients: [
       { gear: "102Salvage", amount: 20 },
       { gear: "136Salvage", amount: 50 },
@@ -3060,7 +3077,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray.png",
     ingredients: [
       { gear: "092Salvage", amount: 20 },
       { gear: "119PrototypeSalvage", amount: 50 },
@@ -3088,7 +3105,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_thermaldetonator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator.png",
     ingredients: [
       { gear: "120PrototypeSalvage", amount: 50 },
       { gear: "108Salvage", amount: 50 },
@@ -3114,7 +3132,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod.png",
     ingredients: [
       { gear: "112Salvage", amount: 50 },
       { gear: "084PrototypeSalvage", amount: 5 },
@@ -3137,7 +3155,7 @@ export default [
         ingredients: [{ amount: 2, gear: "098" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_armormod.png",
     ingredients: [
       { gear: "072PrototypeSalvage", amount: 20 },
       { gear: "054Salvage", amount: 20 },
@@ -3164,7 +3182,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_electrobinoculars.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars.png",
     ingredients: [
       { gear: "123Salvage", amount: 50 },
       { gear: "123Component", amount: 50 },
@@ -3189,7 +3208,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens.png",
     ingredients: [
       { gear: "103PrototypeSalvage", amount: 20 },
       { gear: "123Salvage", amount: 50 },
@@ -3220,7 +3239,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_securityscan.png",
     ingredients: [
       { gear: "145Salvage", amount: 50 },
       { gear: "049Prototype", amount: 8 },
@@ -3249,7 +3268,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech.png",
     ingredients: [
       { gear: "146Salvage", amount: 50 },
       { gear: "078PrototypeSalvage", amount: 20 },
@@ -3277,7 +3296,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_keypad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_keypad.png",
     ingredients: [
       { gear: "130Component", amount: 50 },
       { gear: "130Salvage", amount: 60 },
@@ -3311,7 +3330,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_stuncuffs.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_stuncuffs.png",
     ingredients: [
       { gear: "161Salvage", amount: 50 },
       { gear: "117PrototypeSalvage", amount: 50 },
@@ -3338,7 +3357,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_implant.png",
     ingredients: [
       { gear: "129Component", amount: 50 },
       { gear: "129Salvage", amount: 60 },
@@ -3365,7 +3384,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_medpack.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_medpack.png",
     ingredients: [
       { gear: "130Component", amount: 50 },
       { gear: "130Salvage", amount: 60 },
@@ -3391,7 +3410,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_shieldgenerator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_shieldgenerator.png",
     ingredients: [
       { gear: "092Salvage", amount: 20 },
       { gear: "101Salvage", amount: 20 },
@@ -3417,7 +3437,7 @@ export default [
         ingredients: [{ amount: 2, gear: "122" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray.png",
     ingredients: [
       { gear: "072PrototypeSalvage", amount: 40 },
       { gear: "054Salvage", amount: 40 },
@@ -3444,7 +3464,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod.png",
     ingredients: [
       { gear: "133Salvage", amount: 50 },
       { gear: "133Component", amount: 50 },
@@ -3469,7 +3489,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_armormod.png",
     ingredients: [
       { gear: "153Salvage", amount: 50 },
       { gear: "116PrototypeSalvage", amount: 50 },
@@ -3495,7 +3515,8 @@ export default [
         ingredients: [{ amount: 50, gear: "158Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_electrobinoculars.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars.png",
     ingredients: [{ gear: "158Salvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "chromium_transistor", count: 150 }],
@@ -3513,7 +3534,7 @@ export default [
         ingredients: [{ amount: 50, gear: "159Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens.png",
     ingredients: [{ gear: "159Salvage", amount: 50 }],
     locations: [],
     scavenger: [],
@@ -3535,7 +3556,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_energycell.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_energycell.png",
     ingredients: [
       { gear: "130Component", amount: 50 },
       { gear: "130Salvage", amount: 60 },
@@ -3564,7 +3585,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_datapad.png",
     ingredients: [
       { gear: "138Component", amount: 50 },
       { gear: "138Salvage", amount: 60 },
@@ -3590,7 +3611,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_holoprojector.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holoprojector.png",
     ingredients: [
       { gear: "139Salvage", amount: 50 },
       { gear: "112Salvage", amount: 50 },
@@ -3621,7 +3642,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_bactagel.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_bactagel.png",
     ingredients: [
       { gear: "091Salvage", amount: 20 },
       { gear: "090PrototypeSalvage", amount: 20 },
@@ -3656,7 +3677,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_comlink.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_comlink.png",
     ingredients: [
       { gear: "138Component", amount: 50 },
       { gear: "138Salvage", amount: 60 },
@@ -3684,7 +3705,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_stungun.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_stungun.png",
     ingredients: [
       { gear: "129Component", amount: 50 },
       { gear: "129Salvage", amount: 60 },
@@ -3712,7 +3733,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace.png",
     ingredients: [
       { gear: "123Salvage", amount: 50 },
       { gear: "123Component", amount: 50 },
@@ -3737,7 +3758,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_thermaldetonator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator.png",
     ingredients: [
       { gear: "144Salvage", amount: 50 },
       { gear: "036", amount: 1 },
@@ -3759,7 +3781,7 @@ export default [
         ingredients: [{ amount: 50, gear: "160Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod.png",
     ingredients: [{ gear: "160Salvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "chromium_transistor", count: 150 }],
@@ -3777,7 +3799,8 @@ export default [
         ingredients: [{ amount: 50, gear: "161Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_electrobinoculars.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars.png",
     ingredients: [{ gear: "161Salvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "chromium_transistor", count: 150 }],
@@ -3795,7 +3818,7 @@ export default [
         ingredients: [{ amount: 20, gear: "147Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_securityscan.png",
     ingredients: [{ gear: "147Salvage", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -3813,7 +3836,7 @@ export default [
         ingredients: [{ amount: 20, gear: "148Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech.png",
     ingredients: [{ gear: "148Salvage", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -3831,7 +3854,7 @@ export default [
         ingredients: [{ amount: 50, gear: "149Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_droidcaller.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_droidcaller.png",
     ingredients: [{ gear: "149Salvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -3849,7 +3872,7 @@ export default [
         ingredients: [{ amount: 50, gear: "150Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_bactagel.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_bactagel.png",
     ingredients: [{ gear: "150Salvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 10 }],
@@ -3867,7 +3890,7 @@ export default [
         ingredients: [{ amount: 20, gear: "151Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe.png",
     ingredients: [{ gear: "151Salvage", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -3885,7 +3908,7 @@ export default [
         ingredients: [{ amount: 20, gear: "152Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_medpack.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_medpack.png",
     ingredients: [{ gear: "152Salvage", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -3903,7 +3926,7 @@ export default [
         ingredients: [{ amount: 50, gear: "153Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_implant.png",
     ingredients: [{ gear: "153Salvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "chromium_transistor", count: 150 }],
@@ -3921,7 +3944,7 @@ export default [
         ingredients: [{ amount: 20, gear: "154Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace.png",
     ingredients: [{ gear: "154Salvage", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -3939,7 +3962,7 @@ export default [
         ingredients: [{ amount: 20, gear: "155Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray.png",
     ingredients: [{ gear: "155Salvage", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -3957,7 +3980,8 @@ export default [
         ingredients: [{ amount: 20, gear: "156Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_thermaldetonator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator.png",
     ingredients: [{ gear: "156Salvage", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -3975,7 +3999,7 @@ export default [
         ingredients: [{ amount: 20, gear: "157Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech.png",
     ingredients: [{ gear: "157Salvage", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -3996,7 +4020,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_multitool.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_multitool.png",
     ingredients: [
       { gear: "158PrototypeSalvage", amount: 30 },
       { gear: "147Salvage", amount: 40 },
@@ -4020,7 +4045,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_armor_plating.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_armor_plating.png",
     ingredients: [
       { gear: "159PrototypeSalvage", amount: 30 },
       { gear: "148Salvage", amount: 40 },
@@ -4044,7 +4070,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_bayonet.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_bayonet.png",
     ingredients: [
       { gear: "160PrototypeSalvage", amount: 30 },
       { gear: "151Salvage", amount: 40 },
@@ -4068,7 +4095,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_data.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_armatek_data.png",
     ingredients: [
       { gear: "161PrototypeSalvage", amount: 30 },
       { gear: "157Salvage", amount: 40 },
@@ -4092,7 +4119,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_visor.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_armatek_visor.png",
     ingredients: [
       { gear: "162PrototypeSalvage", amount: 30 },
       { gear: "154Salvage", amount: 40 },
@@ -4116,7 +4143,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_wrist_band.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_wrist_band.png",
     ingredients: [
       { gear: "163PrototypeSalvage", amount: 30 },
       { gear: "155Salvage", amount: 40 },
@@ -4140,7 +4168,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_cybernetics.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_cybernetics.png",
     ingredients: [
       { gear: "164PrototypeSalvage", amount: 30 },
       { gear: "156Salvage", amount: 40 },
@@ -4164,7 +4193,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_medpack.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_medpack.png",
     ingredients: [
       { gear: "165PrototypeSalvage", amount: 30 },
       { gear: "152Salvage", amount: 40 },
@@ -4189,7 +4219,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_thermaldetonator.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator.png",
     ingredients: [
       { gear: "166PrototypeSalvage_V2", amount: 40 },
       { gear: "166PrototypeSalvage", amount: 50 },
@@ -4216,7 +4247,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_keypad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_keypad.png",
     ingredients: [
       { gear: "167PrototypeSalvage_V2", amount: 40 },
       { gear: "167PrototypeSalvage", amount: 50 },
@@ -4243,7 +4274,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace.png",
     ingredients: [
       { gear: "168PrototypeSalvage_V2", amount: 40 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -4270,7 +4301,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_datapad.png",
     ingredients: [
       { gear: "169PrototypeSalvage_V2", amount: 40 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -4297,7 +4328,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens.png",
     ingredients: [
       { gear: "170PrototypeSalvage_V2", amount: 40 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -4324,7 +4355,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_stungun.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_stungun.png",
     ingredients: [
       { gear: "171PrototypeSalvage_V2", amount: 40 },
       { gear: "171PrototypeSalvage", amount: 50 },
@@ -4350,7 +4381,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_shockprod.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_shockprod.png",
     ingredients: [
       { gear: "173Salvage", amount: 50 },
       { gear: "172Salvage", amount: 50 },
@@ -4377,7 +4408,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_battlecomputer.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_battlecomputer.png",
     ingredients: [
       { gear: "173Salvage", amount: 50 },
       { gear: "172Salvage", amount: 50 },
@@ -4406,7 +4437,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -4434,7 +4466,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -4462,7 +4495,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -4490,7 +4524,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -4518,7 +4553,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -4546,7 +4582,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -4574,7 +4611,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -4602,7 +4640,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -4630,7 +4669,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -4658,7 +4698,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -4686,7 +4727,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -4714,7 +4756,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -4742,7 +4785,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -4770,7 +4814,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -4798,7 +4843,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -4826,7 +4872,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -4854,7 +4901,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -4882,7 +4930,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -4910,7 +4959,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -4938,7 +4988,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -4966,7 +5017,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -4994,7 +5046,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -5022,7 +5075,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -5050,7 +5104,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -5078,7 +5133,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -5106,7 +5162,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -5134,7 +5191,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -5162,7 +5220,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -5190,7 +5249,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -5218,7 +5278,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -5246,7 +5307,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -5274,7 +5336,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -5302,7 +5365,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -5330,7 +5394,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -5358,7 +5423,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -5386,7 +5452,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -5414,7 +5481,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -5442,7 +5510,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -5470,7 +5539,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -5498,7 +5568,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -5526,7 +5597,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -5554,7 +5626,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -5582,7 +5655,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -5610,7 +5684,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -5638,7 +5713,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -5666,7 +5742,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -5694,7 +5771,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -5722,7 +5800,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -5750,7 +5829,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -5778,7 +5858,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -5806,7 +5887,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -5834,7 +5916,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -5862,7 +5945,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -5890,7 +5974,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -5918,7 +6003,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -5946,7 +6032,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -5974,7 +6061,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -6002,7 +6090,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -6030,7 +6119,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -6058,7 +6148,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -6086,7 +6177,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -6114,7 +6206,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -6142,7 +6235,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -6170,7 +6264,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -6198,7 +6293,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -6226,7 +6322,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -6254,7 +6351,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -6282,7 +6380,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -6310,7 +6409,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -6338,7 +6438,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -6366,7 +6467,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -6394,7 +6496,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -6422,7 +6525,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -6450,7 +6554,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -6478,7 +6583,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -6506,7 +6612,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -6534,7 +6641,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -6562,7 +6670,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -6590,7 +6699,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -6618,7 +6728,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -6646,7 +6757,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -6674,7 +6786,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -6702,7 +6815,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -6730,7 +6844,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -6758,7 +6873,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -6786,7 +6902,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -6814,7 +6931,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -6842,7 +6960,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -6870,7 +6989,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -6898,7 +7018,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -6926,7 +7047,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -6954,7 +7076,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -6982,7 +7105,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -7010,7 +7134,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -7038,7 +7163,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -7066,7 +7192,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -7094,7 +7221,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -7122,7 +7250,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -7150,7 +7279,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -7178,7 +7308,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -7206,7 +7337,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -7234,7 +7366,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -7262,7 +7395,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -7290,7 +7424,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -7318,7 +7453,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -7346,7 +7482,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -7374,7 +7511,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -7402,7 +7540,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -7430,7 +7569,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -7458,7 +7598,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -7486,7 +7627,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -7514,7 +7656,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -7542,7 +7685,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -7570,7 +7714,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -7598,7 +7743,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -7626,7 +7772,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -7654,7 +7801,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -7682,7 +7830,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -7710,7 +7859,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -7738,7 +7888,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -7766,7 +7917,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -7794,7 +7946,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -7822,7 +7975,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -7850,7 +8004,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -7878,7 +8033,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -7906,7 +8062,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -7934,7 +8091,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -7962,7 +8120,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -7990,7 +8149,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -8018,7 +8178,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -8046,7 +8207,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -8074,7 +8236,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -8102,7 +8265,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -8130,7 +8294,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -8158,7 +8323,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -8186,7 +8352,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -8214,7 +8381,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -8242,7 +8410,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -8270,7 +8439,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -8298,7 +8468,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -8326,7 +8497,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -8354,7 +8526,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -8382,7 +8555,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -8410,7 +8584,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -8438,7 +8613,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -8466,7 +8642,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -8494,7 +8671,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -8522,7 +8700,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -8550,7 +8729,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -8578,7 +8758,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -8606,7 +8787,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -8634,7 +8816,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -8662,7 +8845,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -8690,7 +8874,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -8718,7 +8903,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -8746,7 +8932,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -8774,7 +8961,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -8802,7 +8990,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -8830,7 +9019,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -8858,7 +9048,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -8886,7 +9077,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -8914,7 +9106,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -8942,7 +9135,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -8970,7 +9164,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -8998,7 +9193,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -9026,7 +9222,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -9054,7 +9251,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -9082,7 +9280,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -9110,7 +9309,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -9138,7 +9338,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -9166,7 +9367,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -9194,7 +9396,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -9222,7 +9425,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -9250,7 +9454,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -9278,7 +9483,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -9306,7 +9512,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -9334,7 +9541,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -9362,7 +9570,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -9390,7 +9599,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -9418,7 +9628,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -9446,7 +9657,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -9474,7 +9686,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -9502,7 +9715,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -9530,7 +9744,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -9558,7 +9773,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -9586,7 +9802,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -9602,7 +9819,8 @@ export default [
     tier: 1,
     name: "Mk 2 BAW Armor Mod Prototype",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armormod_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_3c" },
@@ -9620,7 +9838,7 @@ export default [
     name: "Mk 2 Neuro-Saav Electrobinoculars Prototype",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_electrobinoculars_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_4d" },
@@ -9639,7 +9857,8 @@ export default [
     tier: 1,
     name: "Mk 2 Nubian Security Scanner Prototype",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_securityscan_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2g" },
@@ -9658,7 +9877,8 @@ export default [
     tier: 1,
     name: "Mk 1 Chiewab Hypo Syringe Prototype",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_3h" },
@@ -9680,7 +9900,7 @@ export default [
     name: "Mk 3 TaggeCo Holo Lens Prototype",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_holotargetlens_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens_prototype.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_3i" },
@@ -9709,7 +9929,7 @@ export default [
     tier: 2,
     name: "Mk 1 Nubian Design Tech Prototype",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech_prototype.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_1e" },
@@ -9735,7 +9955,8 @@ export default [
     tier: 2,
     name: "Mk 2 SoroSuub Keypad Prototype",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_keypad_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_keypad_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_1f" },
@@ -9755,7 +9976,8 @@ export default [
     tier: 2,
     name: "Mk 4 BlasTech Weapon Mod Prototype",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armormod_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2h" },
@@ -9783,7 +10005,8 @@ export default [
     tier: 2,
     name: "Mk 4 Loronar Power Cell Prototype",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_energycell_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_energycell_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2c" },
@@ -9811,7 +10034,8 @@ export default [
     tier: 2,
     name: "Mk 4 BioTech Implant Prototype",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_implant_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2e" },
@@ -9842,7 +10066,8 @@ export default [
     tier: 2,
     name: "Mk 5 BlasTech Weapon Mod Prototype",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2b" },
@@ -9870,7 +10095,8 @@ export default [
     tier: 4,
     name: "Mk 4 Fabritech Data Pad Prototype",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_datapad_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2f" },
@@ -9899,7 +10125,8 @@ export default [
     tier: 4,
     name: "Mk 5 BioTech Implant Prototype",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_implant_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_1c" },
@@ -9919,7 +10146,8 @@ export default [
     tier: 2,
     name: "Mk 6 BlasTech Weapon Mod Prototype",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_5e" },
@@ -9948,7 +10176,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_holotargetlens_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens_prototype.png",
     ingredients: [{ gear: "063PrototypeSalvage", amount: 5 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -9966,7 +10194,8 @@ export default [
         ingredients: [{ amount: 5, gear: "064PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_securityscan_prototype.png",
     ingredients: [{ gear: "064PrototypeSalvage", amount: 5 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -9984,7 +10213,8 @@ export default [
         ingredients: [{ amount: 5, gear: "068PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe_prototype.png",
     ingredients: [{ gear: "068PrototypeSalvage", amount: 5 }],
     locations: [],
     scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
@@ -9995,7 +10225,8 @@ export default [
     tier: 2,
     name: "Mk 2 Chedak Comlink Prototype",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_comlink_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_comlink_prototype.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2d" },
@@ -10031,7 +10262,8 @@ export default [
         ingredients: [{ amount: 5, gear: "071PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray_prototype.png",
     ingredients: [{ gear: "071PrototypeSalvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
     scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
@@ -10050,7 +10282,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator_prototype.png",
     ingredients: [{ gear: "072PrototypeSalvage", amount: 5 }],
     locations: [],
     scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
@@ -10068,7 +10300,8 @@ export default [
         ingredients: [{ amount: 5, gear: "073PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod_prototype.png",
     ingredients: [{ gear: "073PrototypeSalvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
     scavenger: [{ id: "chromium_transistor", count: 15 }],
@@ -10087,7 +10320,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_holotargetlens_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens_prototype.png",
     ingredients: [{ gear: "075PrototypeSalvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10105,7 +10338,8 @@ export default [
         ingredients: [{ amount: 5, gear: "078PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_holoprojector_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_holoprojector_prototype.png",
     ingredients: [{ gear: "078PrototypeSalvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
     scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
@@ -10123,7 +10357,8 @@ export default [
         ingredients: [{ amount: 5, gear: "080PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_bactagel_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_bactagel_prototype.png",
     ingredients: [{ gear: "080PrototypeSalvage", amount: 5 }],
     locations: [],
     scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
@@ -10142,7 +10377,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator_prototype.png",
     ingredients: [{ gear: "084PrototypeSalvage", amount: 5 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10160,7 +10395,8 @@ export default [
         ingredients: [{ amount: 5, gear: "085PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armormod_prototype.png",
     ingredients: [{ gear: "085PrototypeSalvage", amount: 5 }],
     locations: [],
     scavenger: [{ id: "chromium_transistor", count: 15 }],
@@ -10179,7 +10415,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_electrobinoculars_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars_prototype.png",
     ingredients: [{ gear: "086PrototypeSalvage", amount: 5 }],
     locations: [{ id: "shard_store", dropRate: 0.125, slot: 15, count: 1 }],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10197,7 +10433,8 @@ export default [
         ingredients: [{ amount: 5, gear: "087PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_securityscan_prototype.png",
     ingredients: [{ gear: "087PrototypeSalvage", amount: 5 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10215,7 +10452,7 @@ export default [
         ingredients: [{ amount: 20, gear: "090PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech_prototype.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech_prototype.png",
     ingredients: [{ gear: "090PrototypeSalvage", amount: 20 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10233,7 +10470,8 @@ export default [
         ingredients: [{ amount: 20, gear: "093PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe_prototype.png",
     ingredients: [{ gear: "093PrototypeSalvage", amount: 20 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10251,7 +10489,8 @@ export default [
         ingredients: [{ amount: 20, gear: "094PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_implant_prototype.png",
     ingredients: [{ gear: "094PrototypeSalvage", amount: 20 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10269,7 +10508,8 @@ export default [
         ingredients: [{ amount: 20, gear: "096PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace_prototype.png",
     ingredients: [{ gear: "096PrototypeSalvage", amount: 20 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10287,7 +10527,8 @@ export default [
         ingredients: [{ amount: 20, gear: "097PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod_prototype.png",
     ingredients: [{ gear: "097PrototypeSalvage", amount: 20 }],
     locations: [],
     scavenger: [{ id: "chromium_transistor", count: 15 }],
@@ -10305,7 +10546,8 @@ export default [
         ingredients: [{ amount: 20, gear: "100PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_securityscan_prototype.png",
     ingredients: [{ gear: "100PrototypeSalvage", amount: 20 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10323,7 +10565,8 @@ export default [
         ingredients: [{ amount: 20, gear: "103PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_bactagel_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_bactagel_prototype.png",
     ingredients: [{ gear: "103PrototypeSalvage", amount: 20 }],
     locations: [],
     scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
@@ -10341,7 +10584,8 @@ export default [
         ingredients: [{ amount: 20, gear: "104PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe_prototype.png",
     ingredients: [{ gear: "104PrototypeSalvage", amount: 20 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10359,7 +10603,8 @@ export default [
         ingredients: [{ amount: 20, gear: "106PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_comlink_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_comlink_prototype.png",
     ingredients: [{ gear: "106PrototypeSalvage", amount: 20 }],
     locations: [],
     scavenger: [{ id: "carbonite_circuit_board", count: 3 }],
@@ -10377,7 +10622,8 @@ export default [
         ingredients: [{ amount: 50, gear: "114PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_implant_prototype.png",
     ingredients: [{ gear: "114PrototypeSalvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "chromium_transistor", count: 15 }],
@@ -10395,7 +10641,8 @@ export default [
         ingredients: [{ amount: 50, gear: "116PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_comlink_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_comlink_prototype.png",
     ingredients: [{ gear: "116PrototypeSalvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10413,7 +10660,8 @@ export default [
         ingredients: [{ amount: 50, gear: "117PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_stungun_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_stungun_prototype.png",
     ingredients: [{ gear: "117PrototypeSalvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10431,7 +10679,8 @@ export default [
         ingredients: [{ amount: 50, gear: "119PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray_prototype.png",
     ingredients: [{ gear: "119PrototypeSalvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10450,7 +10699,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator_prototype.png",
     ingredients: [{ gear: "120PrototypeSalvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 6 }],
@@ -10461,7 +10710,8 @@ export default [
     tier: 4,
     name: "Mk 4 BAW Armor Mod Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armormod_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2c" },
@@ -10500,7 +10750,7 @@ export default [
     name: "Mk 5 Neuro-Saav Electrobinoculars Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_electrobinoculars_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_4g" },
@@ -10528,7 +10778,8 @@ export default [
     tier: 4,
     name: "Mk 4 TaggeCo Holo Lens Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_4c" },
@@ -10550,7 +10801,8 @@ export default [
     tier: 4,
     name: "Mk 3 Arakyd Droid Caller Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_droidcaller_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_droidcaller_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2g" },
@@ -10578,7 +10830,8 @@ export default [
     tier: 4,
     name: "Mk 5 Loronar Power Cell Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_energycell_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_energycell_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2e" },
@@ -10605,7 +10858,8 @@ export default [
     tier: 4,
     name: "Mk 4 Fabritech Data Pad Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_datapad_salvage.png",
     ingredients: [],
     locations: [],
     scavenger: [{ id: "bronzium_wiring", count: 2 }],
@@ -10616,7 +10870,8 @@ export default [
     tier: 4,
     name: "Mk 5 BioTech Implant Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_implant_salvage.png",
     ingredients: [],
     locations: [],
     scavenger: [],
@@ -10627,7 +10882,8 @@ export default [
     tier: 4,
     name: "Mk 1 Athakam Medpac Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_medpack_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_medpack_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_3f" },
@@ -10655,7 +10911,8 @@ export default [
     tier: 4,
     name: "Mk 1 Chedak Comlink Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_comlink_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_comlink_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2i" },
@@ -10676,7 +10933,8 @@ export default [
     tier: 2,
     name: "Mk 6 BlasTech Weapon Mod Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod_salvage.png",
     ingredients: [],
     locations: [],
     scavenger: [],
@@ -10687,7 +10945,8 @@ export default [
     tier: 4,
     name: "Mk 5 BAW Armor Mod Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armormod_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_4i" },
@@ -10705,7 +10964,8 @@ export default [
     tier: 4,
     name: "Mk 5 TaggeCo Holo Lens Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_3g" },
@@ -10729,7 +10989,8 @@ export default [
     tier: 4,
     name: "Mk 4 Nubian Security Scanner Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_securityscan_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_3c" },
@@ -10756,7 +11017,8 @@ export default [
     tier: 4,
     name: "Mk 6 Loronar Power Cell Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_energycell_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_energycell_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_2a" },
@@ -10778,7 +11040,8 @@ export default [
     tier: 4,
     name: "Mk 3 Chiewab Hypo Syringe Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_3i" },
@@ -10804,7 +11067,8 @@ export default [
     tier: 2,
     name: "Mk 2 Chedak Comlink Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_comlink_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_comlink_salvage.png",
     ingredients: [],
     locations: [],
     scavenger: [],
@@ -10815,7 +11079,8 @@ export default [
     tier: 4,
     name: "Mk 1 Carbanti Sensor Array Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_3d" },
@@ -10852,7 +11117,7 @@ export default [
     name: "Mk 3 Merr-Sonn Thermal Detonator Prototype Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_3a" },
@@ -10878,7 +11143,8 @@ export default [
     tier: 4,
     name: "MK 7 BlasTech Weapon Mod Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_4e" },
@@ -10903,7 +11169,8 @@ export default [
     tier: 4,
     name: "Mk 6 TaggeCo Holo Lens Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_4c" },
@@ -10930,7 +11197,8 @@ export default [
     tier: 4,
     name: "Mk 6 Fabritech Data Pad Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_datapad_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_3b" },
@@ -10958,7 +11226,8 @@ export default [
     tier: 4,
     name: "Mk 2 Sienar Holo Projector Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_holoprojector_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_holoprojector_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_3h" },
@@ -10987,7 +11256,8 @@ export default [
     tier: 4,
     name: "Mk 1 Zaltin Bacta Gel Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_bactagel_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_bactagel_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_4a" },
@@ -11016,7 +11286,7 @@ export default [
     name: "Mk 4 Merr-Sonn Thermal Detonator Prototype Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_4k" },
@@ -11048,7 +11318,8 @@ export default [
     tier: 4,
     name: "Mk 7 BAW Armor Mod Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_armormod_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armormod_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_4f" },
@@ -11075,7 +11346,7 @@ export default [
     name: "Mk 6 Neuro-Saav Electrobinoculars Prototype Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_electrobinoculars_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_6c" },
@@ -11102,7 +11373,8 @@ export default [
     tier: 7,
     name: "Mk 5 Nubian Security Scanner Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_securityscan_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_5a" },
@@ -11123,7 +11395,7 @@ export default [
     tier: 7,
     name: "Mk 5 Nubian Design Tech Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech_salvage.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_5f" },
@@ -11146,7 +11418,7 @@ export default [
     tier: 7,
     name: "Mk 4 SoroSuub Keypad Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_keypad_salvage.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_keypad_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_6c" },
@@ -11174,7 +11446,8 @@ export default [
     tier: 7,
     name: "Mk 4 Arakyd Droid Caller Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_droidcaller_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_droidcaller_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_5k" },
@@ -11201,7 +11474,8 @@ export default [
     tier: 4,
     name: "Mk 4 Chiewab Hypo Syringe Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_3e" },
@@ -11226,7 +11500,8 @@ export default [
     tier: 7,
     name: "Mk 6 BioTech Implant Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_implant_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_5l" },
@@ -11245,7 +11520,8 @@ export default [
     tier: 7,
     name: "Mk 4 A/KT Stun Gun Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_stungun_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_stungun_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_6f" },
@@ -11273,7 +11549,8 @@ export default [
     tier: 7,
     name: "Mk 4 CEC Fusion Furnace Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_5d" },
@@ -11293,7 +11570,8 @@ export default [
     tier: 7,
     name: "Mk 8 BlasTech Weapon Mod Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_5h" },
@@ -11327,7 +11605,8 @@ export default [
     tier: 7,
     name: "Mk 6 Nubian Security Scanner Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_securityscan_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_6b" },
@@ -11347,7 +11626,7 @@ export default [
     tier: 7,
     name: "Mk 5 SoroSuub Keypad Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_keypad_salvage.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_keypad_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_5k" },
@@ -11369,7 +11648,8 @@ export default [
     tier: 7,
     name: "Mk 3 Sienar Holo Projector Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_holoprojector_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_holoprojector_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_8h" },
@@ -11403,7 +11683,8 @@ export default [
     tier: 7,
     name: "Mk 2 Zaltin Bacta Gel Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_bactagel_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_bactagel_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_6d" },
@@ -11428,7 +11709,8 @@ export default [
     tier: 7,
     name: "Mk 5 Chiewab Hypo Syringe Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_7h" },
@@ -11449,7 +11731,8 @@ export default [
     tier: 7,
     name: "Mk 3 Chedak Comlink Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_comlink_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_comlink_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_6j" },
@@ -11470,7 +11753,8 @@ export default [
     tier: 7,
     name: "Mk 3 Carbanti Sensor Array Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_6g" },
@@ -11497,7 +11781,8 @@ export default [
     tier: 7,
     name: "Mk 3 Czerka Stun Cuffs Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_stuncuffs_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_stuncuffs_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_8c" },
@@ -11529,7 +11814,8 @@ export default [
     tier: 7,
     name: "Mk 6 Chiewab Hypo Syringe Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_7e" },
@@ -11551,7 +11837,8 @@ export default [
     tier: 7,
     name: "Mk 7 BioTech Implant Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_implant_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_7a" },
@@ -11571,7 +11858,8 @@ export default [
     tier: 7,
     name: "Mk 4 Chedak Comlink Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_comlink_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_comlink_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_7b" },
@@ -11592,7 +11880,8 @@ export default [
     tier: 7,
     name: "Mk 5 A/KT Stun Gun Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_stungun_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_stungun_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_7e" },
@@ -11629,7 +11918,8 @@ export default [
     tier: 7,
     name: "Mk 4 Carbanti Sensor Array Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_7c" },
@@ -11650,7 +11940,7 @@ export default [
     name: "Mk 5 Merr-Sonn Thermal Detonator Prototype Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_7f" },
@@ -11672,7 +11962,7 @@ export default [
     name: "MK 8 Neuro-Saav Electrobinoculars Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_electrobinoculars_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9d" },
@@ -11699,7 +11989,8 @@ export default [
     tier: 12,
     name: "Mk 8 BioTech Implant Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_implant_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9f" },
@@ -11718,7 +12009,8 @@ export default [
     tier: 12,
     name: "Mk 5 Athakam Medpac Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_medpack_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_medpack_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9g" },
@@ -11736,7 +12028,8 @@ export default [
     tier: 4,
     name: "Mk 10 BlasTech Weapon Mod Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9a" },
@@ -11754,7 +12047,8 @@ export default [
     tier: 7,
     name: "Mk 5 Arakyd Droid Caller Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_droidcaller_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_droidcaller_salvage.png",
     ingredients: [],
     locations: [
       { id: "guild_store", dropRate: 0.25, slot: 10, count: 5 },
@@ -11787,7 +12081,8 @@ export default [
     tier: 7,
     name: "Mk 5 CEC Fusion Furnace Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace_salvage.png",
     ingredients: [],
     locations: [
       { id: "guild_store", dropRate: 0.25, slot: 10, count: 5 },
@@ -11804,7 +12099,8 @@ export default [
     tier: 12,
     name: "Mk 9 Fabritech Data Pad Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_datapad_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9d" },
@@ -11831,7 +12127,8 @@ export default [
     tier: 7,
     name: "Mk 7 Nubian Security Scanner Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_securityscan_salvage.png",
     ingredients: [],
     locations: [
       { id: "guild_store", dropRate: 0.25, slot: 10, count: 5 },
@@ -11847,7 +12144,7 @@ export default [
     tier: 7,
     name: "Mk 6 Nubian Design Tech Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech_salvage.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech_salvage.png",
     ingredients: [],
     locations: [
       { id: "guild_store", dropRate: 0.25, slot: 10, count: 5 },
@@ -11864,7 +12161,8 @@ export default [
     tier: 7,
     name: "Mk 6 Arakyd Droid Caller Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_droidcaller_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_droidcaller_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9d" },
@@ -11882,7 +12180,8 @@ export default [
     tier: 7,
     name: "Mk 4 Zaltin Bacta Gel Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_bactagel_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_bactagel_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9c" },
@@ -11905,7 +12204,8 @@ export default [
     tier: 7,
     name: "Mk 9 BioTech Implant Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_implant_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9d" },
@@ -11928,7 +12228,7 @@ export default [
     name: "Mk 7 Merr-Sonn Thermal Detonator Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9g" },
@@ -11944,7 +12244,7 @@ export default [
     tier: 11,
     name: "Mk 8 Nubian Design Tech Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech_salvage.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9e" },
@@ -11961,7 +12261,7 @@ export default [
     name: "Mk 9 Neuro-Saav Electrobinoculars Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_electrobinoculars_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9c" },
@@ -11980,7 +12280,8 @@ export default [
     tier: 7,
     name: "Mk 10 TaggeCo Holo Lens Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_4d" },
@@ -11998,7 +12299,8 @@ export default [
     tier: 7,
     name: "Mk 11 BlasTech Weapon Mod Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod_salvage.png",
     ingredients: [],
     locations: [
       { id: "guild_store", dropRate: 0.2, slot: 6, count: 5 },
@@ -12015,7 +12317,7 @@ export default [
     name: "Mk 10 Neuro-Saav Electrobinoculars Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_electrobinoculars_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9c" },
@@ -12034,7 +12336,8 @@ export default [
     tier: 7,
     name: "Mk 7 Merr-Sonn Shield Generator Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_shieldgenerator_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_shieldgenerator_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9a" },
@@ -12070,7 +12373,8 @@ export default [
         ingredients: [{ amount: 50, gear: "133Component" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod_prototype.png",
     ingredients: [{ gear: "133Component", amount: 50 }],
     locations: [],
     scavenger: [{ id: "chromium_transistor", count: 15 }],
@@ -12081,7 +12385,8 @@ export default [
     tier: 4,
     name: "Mk 10 BlasTech Weapon Mod Component",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_weaponmod_component.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_weaponmod_component.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9b" },
@@ -12113,7 +12418,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_electrobinoculars_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars_prototype.png",
     ingredients: [{ gear: "123Component", amount: 50 }],
     locations: [],
     scavenger: [{ id: "chromium_transistor", count: 15 }],
@@ -12125,7 +12430,7 @@ export default [
     name: "MK 8 Neuro-Saav Electrobinoculars Component",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_electrobinoculars_component.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_electrobinoculars_component.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9b" },
@@ -12148,7 +12453,8 @@ export default [
         ingredients: [{ amount: 50, gear: "129Component" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_implant_prototype.png",
     ingredients: [{ gear: "129Component", amount: 50 }],
     locations: [],
     scavenger: [
@@ -12162,7 +12468,8 @@ export default [
     tier: 12,
     name: "Mk 8 BioTech Implant Component",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant_component.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_implant_component.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9e" },
@@ -12192,7 +12499,8 @@ export default [
         ingredients: [{ amount: 50, gear: "130Component" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_medpack_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_medpack_prototype.png",
     ingredients: [{ gear: "130Component", amount: 50 }],
     locations: [],
     scavenger: [
@@ -12206,7 +12514,8 @@ export default [
     tier: 12,
     name: "Mk 5 Athakam Medpac Component",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_medpack_component.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_medpack_component.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9f" },
@@ -12240,7 +12549,8 @@ export default [
         ingredients: [{ amount: 50, gear: "138Component" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_datapad_prototype.png",
     ingredients: [{ gear: "138Component", amount: 50 }],
     locations: [],
     scavenger: [{ id: "chromium_transistor", count: 15 }],
@@ -12251,7 +12561,8 @@ export default [
     tier: 12,
     name: "Mk 9 Fabritech Data Pad Component",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad_component.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_datapad_component.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9e" },
@@ -12271,7 +12582,8 @@ export default [
     tier: 7,
     name: "Mk 4 Sienar Holo Projector Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_holoprojector_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_holoprojector_salvage.png",
     ingredients: [],
     locations: [
       { id: "shard_store", dropRate: 0.1111, slot: 10, count: 3 },
@@ -12286,7 +12598,8 @@ export default [
     tier: 7,
     name: "Mk 3 Zaltin Bacta Gel Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_bactagel_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_bactagel_salvage.png",
     ingredients: [],
     locations: [
       { id: "guild_store", dropRate: 0.25, slot: 4, count: 5 },
@@ -12300,7 +12613,8 @@ export default [
     tier: 7,
     name: "Mk 6 CEC Fusion Furnace Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace_salvage.png",
     ingredients: [],
     locations: [
       { id: "guild_store", dropRate: 0.25, slot: 4, count: 5 },
@@ -12316,7 +12630,7 @@ export default [
     name: "Mk 6 Merr-Sonn Thermal Detonator Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator_salvage.png",
     ingredients: [],
     locations: [
       { id: "guild_store", dropRate: 0.25, slot: 4, count: 5 },
@@ -12331,7 +12645,8 @@ export default [
     tier: 11,
     name: "Mk 8 Nubian Security Scanner Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_securityscan_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_5f" },
@@ -12347,7 +12662,7 @@ export default [
     tier: 11,
     name: "Mk 7 Nubian Design Tech Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_tech_salvage.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_tech_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9h" },
@@ -12363,7 +12678,8 @@ export default [
     tier: 11,
     name: "Mk 7 Chiewab Hypo Syringe Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_5g" },
@@ -12379,7 +12695,8 @@ export default [
     tier: 11,
     name: "Mk 6 Athakam Medpac Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_medpack_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_medpack_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_5h" },
@@ -12395,7 +12712,8 @@ export default [
     tier: 11,
     name: "Mk 7 CEC Fusion Furnace Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9h" },
@@ -12411,7 +12729,8 @@ export default [
     tier: 11,
     name: "Mk 6 Carbanti Sensor Array Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9f" },
@@ -12435,7 +12754,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_armatek_multitool_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_multitool_prototype.png",
     ingredients: [{ gear: "158PrototypeSalvage", amount: 30 }],
     locations: [],
     scavenger: [{ id: "impulse_detector", count: 360 }],
@@ -12447,7 +12766,7 @@ export default [
     name: "Mk 12 ArmaTek Multi-tool Prototype Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_armatek_multitool_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_multitool_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9d" },
@@ -12479,7 +12798,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_armatek_armor_plating_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_armor_plating_prototype.png",
     ingredients: [{ gear: "159PrototypeSalvage", amount: 30 }],
     locations: [],
     scavenger: [{ id: "electrium_conductor", count: 450 }],
@@ -12491,7 +12810,7 @@ export default [
     name: "Mk 12 ArmaTek Armor Plating Prototype Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_armatek_armor_plating_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_armor_plating_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9a" },
@@ -12524,7 +12843,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_armatek_bayonet_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_bayonet_prototype.png",
     ingredients: [{ gear: "160PrototypeSalvage", amount: 30 }],
     locations: [],
     scavenger: [{ id: "impulse_detector", count: 360 }],
@@ -12535,7 +12854,8 @@ export default [
     tier: 12,
     name: "Mk 12 ArmaTek Bayonet Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_bayonet_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_bayonet_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9f" },
@@ -12565,7 +12885,8 @@ export default [
         ingredients: [{ amount: 30, gear: "161PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_data_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_data_prototype.png",
     ingredients: [{ gear: "161PrototypeSalvage", amount: 30 }],
     locations: [],
     scavenger: [],
@@ -12576,7 +12897,8 @@ export default [
     tier: 12,
     name: "Mk 12 ArmaTek Tactical Data Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_data_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_data_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9b" },
@@ -12599,7 +12921,8 @@ export default [
         ingredients: [{ amount: 30, gear: "162PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_visor_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_visor_prototype.png",
     ingredients: [{ gear: "162PrototypeSalvage", amount: 30 }],
     locations: [],
     scavenger: [{ id: "electrium_conductor", count: 450 }],
@@ -12610,7 +12933,8 @@ export default [
     tier: 12,
     name: "Mk 12 ArmaTek Visor Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_visor_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_visor_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9e" },
@@ -12642,7 +12966,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_armatek_wrist_band_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_wrist_band_prototype.png",
     ingredients: [{ gear: "163PrototypeSalvage", amount: 30 }],
     locations: [],
     scavenger: [{ id: "electrium_conductor", count: 450 }],
@@ -12654,7 +12978,7 @@ export default [
     name: "Mk 12 ArmaTek Wrist Band Prototype Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_armatek_wrist_band_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_wrist_band_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9a" },
@@ -12687,7 +13011,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_armatek_cybernetics_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_cybernetics_prototype.png",
     ingredients: [{ gear: "164PrototypeSalvage", amount: 30 }],
     locations: [],
     scavenger: [{ id: "electrium_conductor", count: 450 }],
@@ -12699,7 +13023,7 @@ export default [
     name: "Mk 12 ArmaTek Cybernetics Prototype Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_armatek_cybernetics_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_cybernetics_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_9c" },
@@ -12732,7 +13056,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_armatek_medpack_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_medpack_prototype.png",
     ingredients: [{ gear: "165PrototypeSalvage", amount: 30 }],
     locations: [],
     scavenger: [{ id: "impulse_detector", count: 360 }],
@@ -12743,7 +13067,8 @@ export default [
     tier: 12,
     name: "Mk 12 ArmaTek Medpac Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_armatek_medpack_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_armatek_medpack_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_9c" },
@@ -12775,7 +13100,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator_prototype.png",
     ingredients: [{ gear: "166PrototypeSalvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "zinbiddle_card", count: 900 }],
@@ -12787,7 +13112,7 @@ export default [
     name: "Mk 12 ArmaTek Thermal Detonator Prototype Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_4e" },
@@ -12823,7 +13148,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_thermaldetonator_component.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_thermaldetonator_component.png",
     ingredients: [
       { gear: "152Salvage", amount: 40 },
       { gear: "108Salvage", amount: 50 },
@@ -12844,7 +13169,8 @@ export default [
         ingredients: [{ amount: 50, gear: "167PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_keypad_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_keypad_prototype.png",
     ingredients: [{ gear: "167PrototypeSalvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "zinbiddle_card", count: 900 }],
@@ -12855,7 +13181,7 @@ export default [
     tier: 12,
     name: "Mk 12 ArmaTek Key Pad Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_keypad_salvage.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_keypad_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_3a" },
@@ -12890,7 +13216,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_keypad_component.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_keypad_component.png",
     ingredients: [
       { gear: "147Salvage", amount: 40 },
       { gear: "150Salvage", amount: 50 },
@@ -12911,7 +13238,8 @@ export default [
         ingredients: [{ amount: 50, gear: "168PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace_prototype.png",
     ingredients: [{ gear: "168PrototypeSalvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "gyrda_keypad", count: 500 }],
@@ -12922,7 +13250,8 @@ export default [
     tier: 12,
     name: "Mk 12 ArmaTek Fusion Furnace Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_2e" },
@@ -12957,7 +13286,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_fusionfurnace_component.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_fusionfurnace_component.png",
     ingredients: [
       { gear: "152Salvage", amount: 40 },
       { gear: "112Salvage", amount: 50 },
@@ -12978,7 +13308,8 @@ export default [
         ingredients: [{ amount: 50, gear: "169PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_datapad_prototype.png",
     ingredients: [{ gear: "169PrototypeSalvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "gyrda_keypad", count: 500 }],
@@ -12989,7 +13320,8 @@ export default [
     tier: 12,
     name: "Mk 12 ArmaTek Data Pad Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_datapad_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_5a" },
@@ -13024,7 +13356,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_datapad_component.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_datapad_component.png",
     ingredients: [
       { gear: "152Salvage", amount: 40 },
       { gear: "159Salvage", amount: 50 },
@@ -13046,7 +13379,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_holotargetlens_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens_prototype.png",
     ingredients: [{ gear: "170PrototypeSalvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "zinbiddle_card", count: 900 }],
@@ -13057,7 +13390,8 @@ export default [
     tier: 12,
     name: "Mk 12 ArmaTek Holo Lens Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_holotargetlens_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_3c" },
@@ -13093,7 +13427,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_holotargetlens_component.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_holotargetlens_component.png",
     ingredients: [
       { gear: "129Component", amount: 50 },
       { gear: "151Salvage", amount: 40 },
@@ -13114,7 +13448,8 @@ export default [
         ingredients: [{ amount: 50, gear: "171PrototypeSalvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_stungun_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_stungun_prototype.png",
     ingredients: [{ gear: "171PrototypeSalvage", amount: 50 }],
     locations: [],
     scavenger: [{ id: "gyrda_keypad", count: 500 }],
@@ -13125,7 +13460,8 @@ export default [
     tier: 12,
     name: "Mk 12 ArmaTek Stun Gun Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_stungun_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_stungun_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_3e" },
@@ -13159,7 +13495,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_stungun_component.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_stungun_component.png",
     ingredients: [
       { gear: "147Salvage", amount: 40 },
       { gear: "117PrototypeSalvage", amount: 50 },
@@ -13180,7 +13517,8 @@ export default [
         ingredients: [{ amount: 20, gear: "166PrototypeSalvage_V2" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray_prototype.png",
     ingredients: [{ gear: "166PrototypeSalvage_V2", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -13191,7 +13529,8 @@ export default [
     tier: 12,
     name: "Mk 12 Czerka Sensor Array Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_sensorarray_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_sensorarray_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_4g" },
@@ -13215,7 +13554,8 @@ export default [
         ingredients: [{ amount: 20, gear: "167PrototypeSalvage_V2" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_securityscan_prototype.png",
     ingredients: [{ gear: "167PrototypeSalvage_V2", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -13226,7 +13566,8 @@ export default [
     tier: 12,
     name: "Mk 12 Czerka Security Scanner Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_securityscan_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_securityscan_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_3b" },
@@ -13250,7 +13591,8 @@ export default [
         ingredients: [{ amount: 20, gear: "168PrototypeSalvage_V2" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_stuncuffs_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_stuncuffs_prototype.png",
     ingredients: [{ gear: "168PrototypeSalvage_V2", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -13261,7 +13603,8 @@ export default [
     tier: 12,
     name: "Mk 12 Czerka Stun Cuffs Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_stuncuffs_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_stuncuffs_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_2f" },
@@ -13286,7 +13629,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_shieldgenerator_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_shieldgenerator_prototype.png",
     ingredients: [{ gear: "169PrototypeSalvage_V2", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -13297,7 +13640,8 @@ export default [
     tier: 12,
     name: "Mk 12 Czerka Shield Generator Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_shieldgenerator_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_shieldgenerator_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_5e" },
@@ -13321,7 +13665,8 @@ export default [
         ingredients: [{ amount: 20, gear: "170PrototypeSalvage_V2" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_implant_prototype.png",
     ingredients: [{ gear: "170PrototypeSalvage_V2", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -13332,7 +13677,8 @@ export default [
     tier: 12,
     name: "Mk 12 Czerka Implant Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_implant_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_implant_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_3d" },
@@ -13356,7 +13702,8 @@ export default [
         ingredients: [{ amount: 20, gear: "171PrototypeSalvage_V2" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_prototype.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe_prototype.png",
     ingredients: [{ gear: "171PrototypeSalvage_V2", amount: 20 }],
     locations: [],
     scavenger: [],
@@ -13367,7 +13714,8 @@ export default [
     tier: 12,
     name: "Mk 12 Czerka Hypo Syringe Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_hyposyringe_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_hyposyringe_salvage.png",
     ingredients: [],
     locations: [
       { id: "fleet_normal_4a" },
@@ -13391,7 +13739,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_mods_shockprod_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_mods_shockprod_prototype.png",
     ingredients: [{ gear: "172Salvage", amount: 50 }],
     locations: [],
     scavenger: [
@@ -13405,7 +13753,8 @@ export default [
     tier: 7,
     name: "Mk 7 Kyrotech Shock Prod Prototype Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_mods_shockprod_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_mods_shockprod_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_7b", dropRate: 0.2 },
@@ -13431,7 +13780,7 @@ export default [
       },
     ],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_mods_battlecomputer_prototype.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_mods_battlecomputer_prototype.png",
     ingredients: [{ gear: "173Salvage", amount: 50 }],
     locations: [],
     scavenger: [
@@ -13446,7 +13795,7 @@ export default [
     name: "Mk 9 Kyrotech Battle Computer Prototype Salvage",
     recipes: [],
     image:
-      "https://game-assets.swgoh.gg/tex.equip_mods_battlecomputer_salvage.png",
+      "https://game-assets.swgoh.gg/textures/tex.equip_mods_battlecomputer_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_8a", dropRate: 0.2 },
@@ -13471,7 +13820,7 @@ export default [
         ingredients: [{ amount: 50, gear: "174Ingredient_Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_injectorcell.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_injectorcell.png",
     ingredients: [{ gear: "174Ingredient_Salvage", amount: 50 }],
     locations: [],
     scavenger: [],
@@ -13489,7 +13838,7 @@ export default [
         ingredients: [{ amount: 50, gear: "175Ingredient_Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_injectorhandle.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_injectorhandle.png",
     ingredients: [{ gear: "175Ingredient_Salvage", amount: 50 }],
     locations: [],
     scavenger: [],
@@ -13507,7 +13856,7 @@ export default [
         ingredients: [{ amount: 50, gear: "176Ingredient_Salvage" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_injectorhead.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_injectorhead.png",
     ingredients: [{ gear: "176Ingredient_Salvage", amount: 50 }],
     locations: [],
     scavenger: [],
@@ -13518,7 +13867,8 @@ export default [
     tier: 12,
     name: "Injector Cell Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_injectorcell_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_injectorcell_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_8h" },
@@ -13533,7 +13883,8 @@ export default [
     tier: 12,
     name: "Injector Handle Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_injectorhandle_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_injectorhandle_salvage.png",
     ingredients: [],
     locations: [
       { id: "lightside_normal_8e" },
@@ -13548,7 +13899,8 @@ export default [
     tier: 12,
     name: "Injector Head Salvage",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_injectorhead_salvage.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_injectorhead_salvage.png",
     ingredients: [],
     locations: [
       { id: "darkside_normal_8e" },
@@ -13570,7 +13922,7 @@ export default [
         ingredients: [{ amount: 1, gear: "9999" }],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_unknowngear.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_unknowngear.png",
     ingredients: [{ gear: "9999", amount: 1 }],
     locations: [],
     scavenger: [],
@@ -13581,7 +13933,7 @@ export default [
     tier: 12,
     name: "Unknown Gear",
     recipes: [],
-    image: "https://game-assets.swgoh.gg/tex.equip_unknowngear.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_unknowngear.png",
     ingredients: [],
     locations: [],
     scavenger: [],
@@ -13604,7 +13956,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -13632,7 +13985,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -13660,7 +14014,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -13688,7 +14043,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -13716,7 +14072,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -13744,7 +14101,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -13772,7 +14130,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -13800,7 +14159,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -13828,7 +14188,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -13856,7 +14217,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -13884,7 +14246,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -13912,7 +14275,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -13940,7 +14304,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -13968,7 +14333,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -13996,7 +14362,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -14024,7 +14391,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -14052,7 +14420,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -14080,7 +14449,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -14108,7 +14478,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -14136,7 +14507,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -14164,7 +14536,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -14192,7 +14565,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -14220,7 +14594,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -14248,7 +14623,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -14276,7 +14652,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -14304,7 +14681,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -14332,7 +14710,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -14360,7 +14739,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -14388,7 +14768,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -14416,7 +14797,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -14444,7 +14826,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -14472,7 +14855,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -14500,7 +14884,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -14528,7 +14913,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -14556,7 +14942,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -14584,7 +14971,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -14612,7 +15000,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -14640,7 +15029,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -14668,7 +15058,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -14696,7 +15087,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -14724,7 +15116,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -14752,7 +15145,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -14780,7 +15174,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -14808,7 +15203,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -14836,7 +15232,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -14864,7 +15261,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -14890,7 +15288,7 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powerconvertor.png",
+    image: "https://game-assets.swgoh.gg/textures/tex.equip_powerconvertor.png",
     ingredients: [
       { gear: "173Salvage", amount: 50 },
       { gear: "172Salvage", amount: 50 },
@@ -14916,7 +15314,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -14944,7 +15343,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -14972,7 +15372,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -15000,7 +15401,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
       { gear: "170PrototypeSalvage", amount: 50 },
@@ -15028,7 +15430,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
       { gear: "169PrototypeSalvage", amount: 50 },
@@ -15056,7 +15459,8 @@ export default [
         ],
       },
     ],
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
       { gear: "168PrototypeSalvage", amount: 50 },
@@ -15086,7 +15490,8 @@ export default [
     stats: { 1: 3000, 3: 200, 5: 8, 8: 100, 15: 150, 27: 0.15 },
     mark: " ",
     cost: 138000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_SANASTARROS_C/power-cell-injector-ionic-sana-starros/",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
@@ -15118,7 +15523,8 @@ export default [
     stats: { 1: 2000, 2: 85, 5: 8, 6: 654, 8: 50, 9: 50 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_THIRDSISTER_A/power-cell-injector-plasma-third-sister/",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
@@ -15150,7 +15556,8 @@ export default [
     stats: { 1: 2000, 5: 8, 8: 75, 9: 75, 17: 0.2, 18: 0.15 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_DOCTORAPHRA_B/power-cell-injector-fusion-doctor-aphra/",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
@@ -15182,7 +15589,8 @@ export default [
     stats: { 1: 500, 2: 170, 5: 8, 6: 300, 8: 100, 9: 50, 17: 0.2 },
     mark: " ",
     cost: 138000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_ZORIIBLISS_V2_C/power-cell-injector-ionic-zorii-bliss/",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
@@ -15214,7 +15622,8 @@ export default [
     stats: { 1: 1500, 4: 200, 5: 8, 17: 0.3, 18: 0.3 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_TRENCH_A/power-cell-injector-plasma-admiral-trench/",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
@@ -15246,7 +15655,8 @@ export default [
     stats: { 1: 1600, 5: 8, 8: 150 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_TUSKENCHIEFTAIN_B/power-cell-injector-fusion-tusken-chieftain/",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
@@ -15278,7 +15688,8 @@ export default [
     stats: { 1: 500, 3: 350, 5: 8, 8: 50, 9: 50, 17: 0.2 },
     mark: " ",
     cost: 138000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_TUSKENHUNTRESS_C/power-cell-injector-ionic-tusken-warrior/",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
@@ -15310,7 +15721,8 @@ export default [
     stats: { 1: 1200, 3: 150, 5: 8, 6: 550, 8: 100, 9: 100 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_CALKESTIS_A/power-cell-injector-plasma-cal-kestis/",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
@@ -15342,7 +15754,8 @@ export default [
     stats: { 1: 1500, 3: 200, 8: 100, 9: 100, 18: 0.4 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_CEREJUNDA_B/power-cell-injector-fusion-cere-junda/",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
@@ -15374,7 +15787,8 @@ export default [
     stats: { 1: 1000, 4: 200, 8: 150, 17: 0.3, 18: 0.3 },
     mark: " ",
     cost: 138000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_MERRIN_C/power-cell-injector-ionic-merrin/",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
@@ -15406,7 +15820,8 @@ export default [
     stats: { 1: 1500, 2: 85, 5: 8, 6: 450, 9: 100, 17: 0.15, 27: 0.1 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_TARFFUL_A/power-cell-injector-plasma-tarfful/",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
@@ -15438,7 +15853,8 @@ export default [
     stats: { 1: 2000, 5: 8, 8: 100, 9: 100, 17: 0.3 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_SAWGERRERA_B/power-cell-injector-fusion-saw-gerrera/",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
@@ -15470,7 +15886,8 @@ export default [
     stats: { 1: 1800, 2: 95, 5: 8, 6: 150, 17: 0.15, 18: 0.3 },
     mark: " ",
     cost: 138000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_CAPTAINREX_C/power-cell-injector-ionic-captain-rex/",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
@@ -15502,7 +15919,8 @@ export default [
     stats: { 1: 500, 5: 8, 6: 500, 14: 300, 18: 0.4 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_JEDIKNIGHTCAL_A/power-cell-injector-plasma-jedi-knight-cal-kestis/",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
@@ -15534,7 +15952,8 @@ export default [
     stats: { 1: 2000, 2: 200, 5: 8, 6: 200, 14: 500, 27: 0.2 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_TARONMALICOS_B/power-cell-injector-fusion-taron-malicos/",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
@@ -15566,7 +15985,8 @@ export default [
     stats: { 1: 1200, 3: 150, 5: 8, 6: 177, 8: 100, 9: 100 },
     mark: " ",
     cost: 138000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_PRINCESSKNEESAA_C/power-cell-injector-ionic-princess-kneesaa/",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
@@ -15598,7 +16018,8 @@ export default [
     stats: { 1: 1000, 3: 300, 5: 8, 17: 0.4 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_SCOUTTROOPER_V3_A/power-cell-injector-plasma-scout-trooper/",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
@@ -15630,7 +16051,8 @@ export default [
     stats: { 1: 2000, 4: 300, 5: 8, 7: 400, 17: 0.3, 18: 0.3 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_CAPTAINDROGAN_B/power-cell-injector-fusion-captain-drogan/",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
@@ -15662,7 +16084,8 @@ export default [
     stats: { 1: 4000, 5: 8, 8: 300, 9: 300, 10: 50, 17: 0.2, 18: 0.2, 27: 0.2 },
     mark: " ",
     cost: 138000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_GLLEIA_C/power-cell-injector-ionic-leia-organa/",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
@@ -15694,7 +16117,8 @@ export default [
     stats: { 1: 2000, 5: 8, 6: 1000, 7: 1000, 8: 200, 9: 200, 18: 0.3 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_MOFFGIDEONS3_A/power-cell-injector-plasma-dark-trooper-moff-gideon/",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
@@ -15726,7 +16150,8 @@ export default [
     stats: { 1: 2000, 2: 95, 5: 8, 6: 500, 9: 100, 17: 0.25, 27: 0.15 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_PAZVIZSLA_B/power-cell-injector-fusion-paz-vizsla/",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
@@ -15758,7 +16183,8 @@ export default [
     stats: { 1: 2700, 4: 200, 5: 8, 8: 100, 17: 0.45 },
     mark: " ",
     cost: 138000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_IG12_C/power-cell-injector-ionic-ig-12-grogu/",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
@@ -15790,7 +16216,8 @@ export default [
     stats: { 3: 120, 5: 8, 6: 100, 14: 100, 28: 10000 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_KELLERANBEQ_A/power-cell-injector-plasma-kelleran-beq/",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
@@ -15822,7 +16249,8 @@ export default [
     stats: { 3: 350, 5: 8, 6: 560, 8: 150, 9: 150 },
     mark: "I",
     cost: 138000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_MANDALORBOKATAN_C/power-cell-injector-ionic-bo-katan-mandalor/",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
@@ -15854,7 +16282,8 @@ export default [
     stats: { 1: 3000, 2: 200, 5: 8, 6: 800, 27: 0.2 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_DARTHBANE_B/power-cell-injector-fusion-darth-bane/",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
@@ -15886,7 +16315,8 @@ export default [
     stats: { 1: 1000, 3: 200, 5: 8, 6: 400, 14: 70, 17: 0.6 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_STAP_A/power-cell-injector-plasma-stap/",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
@@ -15918,7 +16348,8 @@ export default [
     stats: { 1: 2000, 4: 200, 5: 8, 8: 150, 9: 150, 17: 0.6 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_BOSSNASS_B/power-cell-injector-fusion-boss-nass/",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
@@ -15950,7 +16381,8 @@ export default [
     stats: { 3: 350, 5: 8, 6: 560, 8: 150, 9: 150 },
     mark: " ",
     cost: 138000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_CAPTAINTARPALS_C/power-cell-injector-ionic-captain-tarpals/",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
@@ -15982,7 +16414,8 @@ export default [
     stats: { 3: 350, 5: 8, 6: 560, 8: 150, 9: 150 },
     mark: "I",
     cost: 138000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_QUEENAMIDALA_C/power-cell-injector-ionic-queen-amidala/",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
@@ -16014,7 +16447,8 @@ export default [
     stats: { 2: 200, 5: 8, 6: 500, 17: 0.4, 28: 2000 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_BOOMADIER_A/power-cell-injector-plasma-gungan-boomadier/",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
@@ -16046,7 +16480,8 @@ export default [
     stats: { 1: 1000, 2: 150, 5: 8, 8: 110, 9: 100, 17: 0.5, 28: 500 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_GUNGANPHALANX_B/power-cell-injector-fusion-gungan-phalanx/",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
@@ -16078,7 +16513,8 @@ export default [
     stats: { 1: 1000, 4: 180, 5: 8, 8: 100, 9: 100, 17: 0.3, 18: 0.3 },
     mark: " ",
     cost: 138000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_JARJARBINKS_C/power-cell-injector-ionic-jar-jar-binks/",
     ingredients: [
       { gear: "176Ingredient_Salvage", amount: 50 },
@@ -16110,7 +16546,8 @@ export default [
     stats: { 1: 5000, 5: 8, 6: 510, 14: 125, 27: 0.15 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_PADAWANOBIWAN_B/power-cell-injector-fusion-padawan-obi-wan/",
     ingredients: [
       { gear: "175Ingredient_Salvage", amount: 50 },
@@ -16142,7 +16579,8 @@ export default [
     stats: { 1: 3500, 4: 120, 5: 8, 8: 30, 9: 30, 17: 0.15, 18: 0.15 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_LUTHENRAEL_A/power-cell-injector-plasma-luthen-rael/",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
@@ -16174,7 +16612,8 @@ export default [
     stats: { 1: 1000, 4: 180, 5: 8, 8: 100, 9: 80, 17: 0.5, 18: 0.3 },
     mark: " ",
     cost: 124000,
-    image: "https://game-assets.swgoh.gg/tex.equip_powercellinjector.png",
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
     url: "//swgoh.gg/db/gear/G12Finisher_MASTERQUIGON_A/power-cell-injector-plasma-master-qui-gon/",
     ingredients: [
       { gear: "174Ingredient_Salvage", amount: 50 },
@@ -16752,6 +17191,8 @@ export default [
     url: "//swgoh.gg/equipment/080PrototypeSalvage/",
     ingredients: [],
     name: "Mk 1 Zaltin Bacta Gel Prototype Salvage",
+    locations: [],
+    scavenger: [],
   },
   {
     id: "G12Finisher_HUNTERS3_C",
@@ -16886,6 +17327,40 @@ export default [
       { amount: 100, gear: "172Salvage" },
     ],
     name: "Power Cell Injector (Plasma) - Jocasta Nu",
+    locations: [],
+    scavenger: [],
+  },
+  {
+    id: "G12Finisher_APPO_A",
+    recipes: [
+      {
+        id: "recipeG12Finisher_APPO_A",
+        result_id: "G12Finisher_APPO_A",
+        cost: 124000,
+        ingredients: [
+          { amount: 124000, gear: "GRIND" },
+          { amount: 1, gear: "168Prototype" },
+          { amount: 1, gear: "174Ingredient" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 150, 2: 40, 5: 8, 6: 30, 7: 30, 8: 50, 10: 10 },
+    mark: " ",
+    cost: 124000,
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/equipment/G12Finisher_APPO_A/",
+    ingredients: [
+      { amount: 50, gear: "168PrototypeSalvage" },
+      { amount: 50, gear: "174Ingredient_Salvage" },
+      { amount: 50, gear: "135Salvage" },
+      { amount: 100, gear: "172Salvage" },
+    ],
+    name: 'Power Cell Injector (Plasma) - CC-1119 "Appo"',
     locations: [],
     scavenger: [],
   },
