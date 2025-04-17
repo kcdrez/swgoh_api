@@ -17364,4 +17364,38 @@ export default [
     locations: [],
     scavenger: [],
   },
+  {
+    id: "G12Finisher_OPERATIVE_B",
+    recipes: [
+      {
+        id: "recipeG12Finisher_OPERATIVE_B",
+        result_id: "G12Finisher_OPERATIVE_B",
+        cost: 124000,
+        ingredients: [
+          { amount: 124000, gear: "GRIND" },
+          { amount: 1, gear: "169Prototype" },
+          { amount: 1, gear: "175Ingredient" },
+          { amount: 2, gear: "173Prototype" },
+          { amount: 50, gear: "135Salvage" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 3000, 3: 250, 5: 8, 8: 150, 18: 0.2 },
+    mark: " ",
+    cost: 124000,
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/equipment/G12Finisher_OPERATIVE_B/",
+    ingredients: [
+      { amount: 50, gear: "169PrototypeSalvage" },
+      { amount: 50, gear: "175Ingredient_Salvage" },
+      { amount: 100, gear: "173Salvage" },
+      { amount: 50, gear: "135Salvage" },
+    ],
+    name: "Power Cell Injector (Fusion) - CX-2",
+    locations: [],
+    scavenger: [],
+  },
 ];

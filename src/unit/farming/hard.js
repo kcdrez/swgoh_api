@@ -1830,7 +1830,7 @@ export default [
     map: 4,
     mission: "D",
     energy: 10,
-    characters: ["GEONOSIANSPY"],
+    characters: ["HUNTERS3"],
     gear: [],
   },
   {
