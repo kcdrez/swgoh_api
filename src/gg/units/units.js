@@ -22370,6 +22370,7 @@ export default [
   {
     name: "Disguised Clone Trooper",
     id: "DISGUISEDCLONETROOPER",
+    aliases: ["dct"],
     url: "//swgoh.gg/units/disguised-clone-trooper/",
     image:
       "https://game-assets.swgoh.gg/textures/tex.charui_disguisedclonetrooper.png",
@@ -22428,6 +22429,7 @@ export default [
   {
     name: "SM-33",
     id: "SM33",
+    aliases: ["sm33"],
     url: "//swgoh.gg/units/sm-33/",
     image: "https://game-assets.swgoh.gg/textures/tex.charui_sm33.png",
     description:
