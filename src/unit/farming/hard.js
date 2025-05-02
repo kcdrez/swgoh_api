@@ -1159,7 +1159,7 @@ export default [
     map: 6,
     mission: "A",
     energy: 16,
-    characters: ["GENERALHUX", "HOTHREBELSCOUT"],
+    characters: ["WRECKERS3", "HOTHREBELSCOUT"],
     gear: [],
   },
   {

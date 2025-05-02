@@ -17398,4 +17398,72 @@ export default [
     locations: [],
     scavenger: [],
   },
+  {
+    id: "G12Finisher_DISGUISEDCLONETROOPER_C",
+    recipes: [
+      {
+        id: "recipeG12Finisher_DISGUISEDCLONETROOPER_C",
+        result_id: "G12Finisher_DISGUISEDCLONETROOPER_C",
+        cost: 138000,
+        ingredients: [
+          { amount: 138000, gear: "GRIND" },
+          { amount: 1, gear: "170Prototype" },
+          { amount: 1, gear: "176Ingredient" },
+          { amount: 1, gear: "123Prototype" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 3800, 4: 180, 5: 8, 8: 44, 18: 0.4 },
+    mark: " ",
+    cost: 138000,
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/equipment/G12Finisher_DISGUISEDCLONETROOPER_C/",
+    ingredients: [
+      { amount: 50, gear: "170PrototypeSalvage" },
+      { amount: 50, gear: "176Ingredient_Salvage" },
+      { amount: 50, gear: "123Component" },
+      { amount: 100, gear: "172Salvage" },
+    ],
+    name: "Power Cell Injector (Ionic) - Disguised Clone Trooper",
+    locations: [],
+    scavenger: [],
+  },
+  {
+    id: "G12Finisher_SM33_A",
+    recipes: [
+      {
+        id: "recipeG12Finisher_SM33_A",
+        result_id: "G12Finisher_SM33_A",
+        cost: 124000,
+        ingredients: [
+          { amount: 124000, gear: "GRIND" },
+          { amount: 1, gear: "168Prototype" },
+          { amount: 1, gear: "174Ingredient" },
+          { amount: 50, gear: "135Salvage" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 1500, 2: 40, 5: 8, 6: 30, 8: 100, 9: 100 },
+    mark: " ",
+    cost: 124000,
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/equipment/G12Finisher_SM33_A/",
+    ingredients: [
+      { amount: 50, gear: "168PrototypeSalvage" },
+      { amount: 50, gear: "174Ingredient_Salvage" },
+      { amount: 50, gear: "135Salvage" },
+      { amount: 100, gear: "172Salvage" },
+    ],
+    name: "Power Cell Injector (Plasma) - SM-33",
+    locations: [],
+    scavenger: [],
+  },
 ];

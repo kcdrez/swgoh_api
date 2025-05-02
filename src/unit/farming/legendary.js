@@ -1844,6 +1844,53 @@ const legendary = {
         },
       ],
     },
+    {
+      id: "JEDIMASTERMACEWINDU",
+      prerequisites: [
+        {
+          id: "APPO",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "OPERATIVE",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "DISGUISEDCLONETROOPER",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "SCORCH",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "JEDIVANGUARD1",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+        {
+          id: "JEDIVANGUARD2",
+          requirement: {
+            value: 5,
+            type: "Relic",
+          },
+        },
+      ],
+    },
   ],
 };
 
@@ -2373,7 +2420,7 @@ const galacticLegends = {
           id: "BADBATCHTECH",
           requirement: {
             value: 5,
-            type: "Stars",
+            type: "Relic",
           },
         },
         {
