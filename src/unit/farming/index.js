@@ -54,7 +54,6 @@ const ships = [
 ];
 
 const notAcceleratedUnits = [
-  "PADAWANOBIWAN",
   "MASTERQUIGON",
   "NIGHTTROOPER",
   "DEATHTROOPERPERIDEA",

@@ -17466,4 +17466,38 @@ export default [
     locations: [],
     scavenger: [],
   },
+  {
+    id: "G12Finisher_SCORCH_B",
+    recipes: [
+      {
+        id: "recipeG12Finisher_SCORCH_B",
+        result_id: "G12Finisher_SCORCH_B",
+        cost: 124000,
+        ingredients: [
+          { amount: 124000, gear: "GRIND" },
+          { amount: 1, gear: "169Prototype" },
+          { amount: 1, gear: "175Ingredient" },
+          { amount: 2, gear: "173Prototype" },
+          { amount: 50, gear: "135Salvage" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 1: 800, 2: 150, 5: 8, 8: 175, 9: 100 },
+    mark: " ",
+    cost: 124000,
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/equipment/G12Finisher_SCORCH_B/",
+    ingredients: [
+      { amount: 50, gear: "169PrototypeSalvage" },
+      { amount: 50, gear: "175Ingredient_Salvage" },
+      { amount: 100, gear: "173Salvage" },
+      { amount: 50, gear: "135Salvage" },
+    ],
+    name: "Power Cell Injector (Fusion) - Scorch",
+    locations: [],
+    scavenger: [],
+  },
 ];

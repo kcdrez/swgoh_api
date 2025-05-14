@@ -799,7 +799,7 @@ export default [
     difficulty: "Hard",
     map: 7,
     mission: "D",
-    characters: ["BADBATCHECHO", "LUKESKYWALKER"],
+    characters: ["BADBATCHECHO", "CROSSHAIRS3"],
     gear: [],
   },
   {
