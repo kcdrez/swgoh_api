@@ -57,6 +57,11 @@ class apiClient {
     const response = await axios.get(baseUrl + "/guild-profile/" + guildId);
     return response.data.data;
   }
+
+  async fetchAbilities() {
+    const response = await axios.get(baseUrl + "/abilities");
+    return response.data;
+  }
 }
 
 export default new apiClient();

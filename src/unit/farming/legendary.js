@@ -1876,7 +1876,7 @@ const legendary = {
           },
         },
         {
-          id: "JEDIVANGUARD1",
+          id: "VANGUARDTEMPLEGUARD",
           requirement: {
             value: 5,
             type: "Relic",

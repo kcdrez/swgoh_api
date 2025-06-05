@@ -17500,4 +17500,38 @@ export default [
     locations: [],
     scavenger: [],
   },
+  {
+    id: "G12Finisher_VANGUARDTEMPLEGUARD_C",
+    recipes: [
+      {
+        id: "recipeG12Finisher_VANGUARDTEMPLEGUARD_C",
+        result_id: "G12Finisher_VANGUARDTEMPLEGUARD_C",
+        cost: 138000,
+        ingredients: [
+          { amount: 138000, gear: "GRIND" },
+          { amount: 1, gear: "170Prototype" },
+          { amount: 1, gear: "176Ingredient" },
+          { amount: 1, gear: "123Prototype" },
+          { amount: 2, gear: "172Prototype" },
+        ],
+      },
+    ],
+    tier: 12,
+    required_level: 85,
+    stats: { 2: 200, 5: 8, 8: 100, 9: 100, 18: 0.5 },
+    mark: " ",
+    cost: 138000,
+    image:
+      "https://game-assets.swgoh.gg/textures/tex.equip_powercellinjector.png",
+    url: "//swgoh.gg/equipment/G12Finisher_VANGUARDTEMPLEGUARD_C/",
+    ingredients: [
+      { amount: 50, gear: "170PrototypeSalvage" },
+      { amount: 50, gear: "176Ingredient_Salvage" },
+      { amount: 50, gear: "123Component" },
+      { amount: 100, gear: "172Salvage" },
+    ],
+    name: "Power Cell Injector (Fusion) - Temple Guard",
+    locations: [],
+    scavenger: [],
+  },
 ];
