@@ -1883,7 +1883,7 @@ const legendary = {
           },
         },
         {
-          id: "JEDIVANGUARD2",
+          id: "DEPABILLABA",
           requirement: {
             value: 5,
             type: "Relic",
