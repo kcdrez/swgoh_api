@@ -13,28 +13,26 @@ const routes = express.Router({
 
 routes.get("/ers", async (_req, res) => {
   try {
-    const ersDir = path.join(process.cwd(), "src/guild/ers/members");
+    const __dirname = path.dirname(fileURLToPath(import.meta.url));
+    const folder = path.join(__dirname, "ers/members");
 
-    const files = await readdir(ersDir);
-    const jsonFiles = files
-      .filter((f) => f.endsWith(".json"))
-      .filter((f) => f !== "guildData.json");
+    const files = await readdir(folder);
+    const moduleFiles = files.filter((f) => f.endsWith(".js"));
+    // .filter((f) => f !== "guildData.js");
 
     const results = [];
 
-    for (const file of jsonFiles) {
-      const fullPath = path.join(ersDir, file);
-      const content = await readFile(fullPath, "utf8");
-      const { data, units } = JSON.parse(content);
-      const unitsData = { data, units };
-      results.push(unitsData);
+    for (const file of moduleFiles) {
+      const modulePath = path.join(folder, file);
+      const { default: content } = await import(modulePath);
+
+      const { data, units } = content;
+      results.push({ data, units });
     }
 
     res.status(200).json(results);
-  } catch (error) {
-    res.status(500).json({
-      error: error.message,
-    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
   }
 });
 

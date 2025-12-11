@@ -1,4 +1,4 @@
-{
+export default {
   "data": {
     "ally_code": 555152186,
     "arena_leader_base_id": "GLAHSOKATANO",
@@ -29,12 +29,21 @@
     "arena": {
       "rank": 348,
       "leader": "GLAHSOKATANO",
-      "members": ["EZRAEXILE", "HUYANG", "PADAWANSABINE", "FULCRUMAHSOKA"]
+      "members": [
+        "EZRAEXILE",
+        "HUYANG",
+        "PADAWANSABINE",
+        "FULCRUMAHSOKA"
+      ]
     },
     "fleet_arena": {
       "rank": 22,
       "leader": "CAPITALLEVIATHAN",
-      "members": ["TIEDAGGER", "SITHBOMBER", "FURYCLASSINTERCEPTOR"],
+      "members": [
+        "TIEDAGGER",
+        "SITHBOMBER",
+        "FURYCLASSINTERCEPTOR"
+      ],
       "reinforcements": [
         "SITHSUPREMACYCLASS",
         "SITHFIGHTER",
@@ -174,7 +183,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "8"],
+        "mod_set_ids": [
+          "2",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -322,7 +334,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -483,7 +498,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -620,7 +638,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "3"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -707,7 +729,9 @@
           "18": 0.12290999999999996,
           "28": 16351
         },
-        "zeta_abilities": ["specialskill_LUTHENRAEL02"],
+        "zeta_abilities": [
+          "specialskill_LUTHENRAEL02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -755,7 +779,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -843,7 +871,9 @@
           "18": 0.07677,
           "28": 16365
         },
-        "zeta_abilities": ["uniqueskill_BARRISSOFFEE01"],
+        "zeta_abilities": [
+          "uniqueskill_BARRISSOFFEE01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -891,7 +921,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -1320,7 +1354,9 @@
           "specialskill_THIRDSISTER02",
           "leaderskill_THIRDSISTER"
         ],
-        "omicron_abilities": ["leaderskill_THIRDSISTER"],
+        "omicron_abilities": [
+          "leaderskill_THIRDSISTER"
+        ],
         "ability_data": [
           {
             "id": "basicskill_THIRDSISTER",
@@ -1389,7 +1425,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["1", "2"],
+        "mod_set_ids": [
+          "1",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -1586,7 +1625,9 @@
           "18": 0.04156999999999994,
           "28": 6598
         },
-        "zeta_abilities": ["uniqueskill_ct21040802"],
+        "zeta_abilities": [
+          "uniqueskill_ct21040802"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -1634,7 +1675,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "2"],
+        "mod_set_ids": [
+          "1",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -1722,7 +1766,9 @@
           "18": 0.12663000000000002,
           "28": 6891
         },
-        "zeta_abilities": ["uniqueskill_b1battledroidv2_02"],
+        "zeta_abilities": [
+          "uniqueskill_b1battledroidv2_02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -1770,7 +1816,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "7"],
+        "mod_set_ids": [
+          "2",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -1857,7 +1906,9 @@
           "17": 0.012519999999999976,
           "28": 37636
         },
-        "zeta_abilities": ["uniqueskill_COLONELSTARCK01"],
+        "zeta_abilities": [
+          "uniqueskill_COLONELSTARCK01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -1905,7 +1956,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "5"],
+        "mod_set_ids": [
+          "4",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -2095,7 +2149,9 @@
           "18": 0.03451000000000004,
           "28": 24132
         },
-        "zeta_abilities": ["uniqueskill_VANGUARDTEMPLEGUARD01"],
+        "zeta_abilities": [
+          "uniqueskill_VANGUARDTEMPLEGUARD01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -2143,7 +2199,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -2230,7 +2290,10 @@
           "18": 0.04737999999999992,
           "28": 714
         },
-        "zeta_abilities": ["uniqueskill_BB801", "uniqueskill_BB802"],
+        "zeta_abilities": [
+          "uniqueskill_BB801",
+          "uniqueskill_BB802"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -2289,7 +2352,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "5"],
+        "mod_set_ids": [
+          "4",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -2425,7 +2491,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -2551,7 +2620,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -2639,8 +2711,13 @@
           "18": 0.04176000000000002,
           "28": 18994
         },
-        "zeta_abilities": ["specialskill_CEREJUNDA02", "leaderskill_CEREJUNDA"],
-        "omicron_abilities": ["leaderskill_CEREJUNDA"],
+        "zeta_abilities": [
+          "specialskill_CEREJUNDA02",
+          "leaderskill_CEREJUNDA"
+        ],
+        "omicron_abilities": [
+          "leaderskill_CEREJUNDA"
+        ],
         "ability_data": [
           {
             "id": "basicskill_CEREJUNDA",
@@ -2698,7 +2775,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "3"],
+        "mod_set_ids": [
+          "4",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -2785,7 +2865,9 @@
           "18": 0.25327,
           "28": 25924
         },
-        "zeta_abilities": ["uniqueskill_GENERALKENOBI01"],
+        "zeta_abilities": [
+          "uniqueskill_GENERALKENOBI01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -2844,7 +2926,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "8"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -3091,7 +3177,10 @@
             "tier_max": 7
           }
         ],
-        "mod_set_ids": ["1", "2"],
+        "mod_set_ids": [
+          "1",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -3179,7 +3268,9 @@
           "18": 0.11083999999999994,
           "28": 5796
         },
-        "zeta_abilities": ["uniqueskill_CAPTAINTARPALS01"],
+        "zeta_abilities": [
+          "uniqueskill_CAPTAINTARPALS01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -3227,7 +3318,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "5"],
+        "mod_set_ids": [
+          "4",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -3313,7 +3407,9 @@
           "15": 5.908000000000001,
           "28": 24130
         },
-        "zeta_abilities": ["uniqueskill_l3_37_01"],
+        "zeta_abilities": [
+          "uniqueskill_l3_37_01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -3361,7 +3457,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -3449,8 +3549,12 @@
           "18": 0.24000000000000005,
           "28": 3881
         },
-        "zeta_abilities": ["uniqueskill_DROIDEKA01"],
-        "omicron_abilities": ["uniqueskill_DROIDEKA01"],
+        "zeta_abilities": [
+          "uniqueskill_DROIDEKA01"
+        ],
+        "omicron_abilities": [
+          "uniqueskill_DROIDEKA01"
+        ],
         "ability_data": [
           {
             "id": "basicskill_DROIDEKA",
@@ -3497,7 +3601,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -3623,7 +3730,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "1"],
+        "mod_set_ids": [
+          "6",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -3709,7 +3819,9 @@
           "18": 0.6810800000000001,
           "28": 25443
         },
-        "zeta_abilities": ["uniqueskill_K2SO02"],
+        "zeta_abilities": [
+          "uniqueskill_K2SO02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -3757,7 +3869,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["8", "8", "8"],
+        "mod_set_ids": [
+          "8",
+          "8",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -3982,7 +4098,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "1", "1"],
+        "mod_set_ids": [
+          "5",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -4107,7 +4227,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "1"],
+        "mod_set_ids": [
+          "2",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -4254,7 +4377,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "1"],
+        "mod_set_ids": [
+          "5",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -4342,7 +4468,9 @@
           "18": 0.05361000000000002,
           "28": 5501
         },
-        "zeta_abilities": ["leaderskill_BADBATCHHUNTER"],
+        "zeta_abilities": [
+          "leaderskill_BADBATCHHUNTER"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -4390,7 +4518,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -4515,7 +4646,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -4641,7 +4775,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -4804,7 +4941,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "7"],
+        "mod_set_ids": [
+          "6",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -4892,7 +5032,9 @@
           "18": 0.13124999999999998,
           "28": 8317
         },
-        "zeta_abilities": ["specialskill_C3POCHEWBACCA02"],
+        "zeta_abilities": [
+          "specialskill_C3POCHEWBACCA02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -4940,7 +5082,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "6"],
+        "mod_set_ids": [
+          "5",
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -5028,8 +5173,12 @@
           "18": 0.04052,
           "28": 5141
         },
-        "zeta_abilities": ["uniqueskill_KRRSANTAN01"],
-        "omicron_abilities": ["uniqueskill_KRRSANTAN01"],
+        "zeta_abilities": [
+          "uniqueskill_KRRSANTAN01"
+        ],
+        "omicron_abilities": [
+          "uniqueskill_KRRSANTAN01"
+        ],
         "ability_data": [
           {
             "id": "basicskill_KRRSANTAN",
@@ -5098,7 +5247,11 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["3", "1", "1"],
+        "mod_set_ids": [
+          "3",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -5186,7 +5339,9 @@
           "18": 0.04364000000000001,
           "28": 17799
         },
-        "zeta_abilities": ["uniqueskill_BATCHERS301"],
+        "zeta_abilities": [
+          "uniqueskill_BATCHERS301"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -5234,7 +5389,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "5"],
+        "mod_set_ids": [
+          "4",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -5323,7 +5481,9 @@
           "18": 0.09726000000000001,
           "28": 13050
         },
-        "zeta_abilities": ["specialskill_KYLOREN02"],
+        "zeta_abilities": [
+          "specialskill_KYLOREN02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -5371,7 +5531,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -5459,7 +5622,9 @@
           "18": 0.04127999999999993,
           "28": 12968
         },
-        "zeta_abilities": ["uniqueskill_DENGAR01"],
+        "zeta_abilities": [
+          "uniqueskill_DENGAR01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -5529,7 +5694,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -5617,7 +5785,9 @@
           "17": 0.09319999999999995,
           "28": 15587
         },
-        "zeta_abilities": ["uniqueskill_kiadimundi01"],
+        "zeta_abilities": [
+          "uniqueskill_kiadimundi01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -5676,7 +5846,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -5867,7 +6040,9 @@
           "18": 0.20000000000000007,
           "28": 20059
         },
-        "zeta_abilities": ["uniqueskill_GUNGANPHALANX01"],
+        "zeta_abilities": [
+          "uniqueskill_GUNGANPHALANX01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -5915,7 +6090,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "8"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -6105,7 +6284,9 @@
           "18": 0.07116,
           "28": 5834
         },
-        "zeta_abilities": ["uniqueskill_BOKATAN01"],
+        "zeta_abilities": [
+          "uniqueskill_BOKATAN01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -6153,7 +6334,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "1"],
+        "mod_set_ids": [
+          "6",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -6239,7 +6423,9 @@
           "18": 0.69988,
           "28": 34399
         },
-        "zeta_abilities": ["specialskill_MAGNAGUARD02"],
+        "zeta_abilities": [
+          "specialskill_MAGNAGUARD02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -6287,7 +6473,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["8", "8", "8"],
+        "mod_set_ids": [
+          "8",
+          "8",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -6491,7 +6681,9 @@
           "specialskill_MANDALORBOKATAN02",
           "leaderskill_MANDALORBOKATAN"
         ],
-        "omicron_abilities": ["leaderskill_MANDALORBOKATAN"],
+        "omicron_abilities": [
+          "leaderskill_MANDALORBOKATAN"
+        ],
         "ability_data": [
           {
             "id": "basicskill_MANDALORBOKATAN",
@@ -6549,7 +6741,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -6634,7 +6829,9 @@
           "18": 0.058199999999999974,
           "28": 48671
         },
-        "zeta_abilities": ["specialskill_FIFTHBROTHER02"],
+        "zeta_abilities": [
+          "specialskill_FIFTHBROTHER02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -6704,7 +6901,9 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4"],
+        "mod_set_ids": [
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -6941,7 +7140,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "8"],
+        "mod_set_ids": [
+          "2",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -7029,8 +7231,12 @@
           "18": 0.053519999999999984,
           "28": 11509
         },
-        "zeta_abilities": ["leaderskill_QUIGONJINN"],
-        "omicron_abilities": ["leaderskill_QUIGONJINN"],
+        "zeta_abilities": [
+          "leaderskill_QUIGONJINN"
+        ],
+        "omicron_abilities": [
+          "leaderskill_QUIGONJINN"
+        ],
         "ability_data": [
           {
             "id": "specialskill_QUIGONJINN01",
@@ -7077,7 +7283,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["4", "5"],
+        "mod_set_ids": [
+          "4",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -7163,7 +7372,9 @@
           "18": 0.02099000000000001,
           "28": 24721
         },
-        "zeta_abilities": ["uniqueskill_ROYALGUARD01"],
+        "zeta_abilities": [
+          "uniqueskill_ROYALGUARD01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -7200,7 +7411,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["3", "3", "3"],
+        "mod_set_ids": [
+          "3",
+          "3",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -7287,7 +7502,9 @@
           "17": 0.32337,
           "28": 15994
         },
-        "zeta_abilities": ["leaderskill_BASTILASHAN"],
+        "zeta_abilities": [
+          "leaderskill_BASTILASHAN"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -7357,7 +7574,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["1", "4"],
+        "mod_set_ids": [
+          "1",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -7494,7 +7714,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -7582,7 +7805,9 @@
           "18": 0.05515000000000003,
           "28": 19350
         },
-        "zeta_abilities": ["uniqueskill_BT101"],
+        "zeta_abilities": [
+          "uniqueskill_BT101"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -7630,7 +7855,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -7755,7 +7983,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -8044,7 +8276,9 @@
           "17": 0.019220000000000015,
           "28": 10007
         },
-        "zeta_abilities": ["uniqueskill_QIRA01"],
+        "zeta_abilities": [
+          "uniqueskill_QIRA01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -8103,7 +8337,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "5"],
+        "mod_set_ids": [
+          "4",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -8239,7 +8476,10 @@
             "tier_max": 7
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -8379,7 +8619,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 8,
         "has_ultimate": false,
@@ -8466,7 +8709,10 @@
           "17": 1.00197,
           "28": 4473
         },
-        "zeta_abilities": ["uniqueskill_MERRIN02", "specialskill_MERRIN01"],
+        "zeta_abilities": [
+          "uniqueskill_MERRIN02",
+          "specialskill_MERRIN01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -8525,7 +8771,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["7", "7", "7"],
+        "mod_set_ids": [
+          "7",
+          "7",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -8613,7 +8863,9 @@
           "18": 0.08791000000000004,
           "28": 46857
         },
-        "zeta_abilities": ["specialskill_EIGHTHBROTHER02"],
+        "zeta_abilities": [
+          "specialskill_EIGHTHBROTHER02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -8683,7 +8935,9 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4"],
+        "mod_set_ids": [
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -8819,7 +9073,10 @@
             "tier_max": 7
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -8910,7 +9167,9 @@
           "specialskill_ADMIRALRADDUS01",
           "uniqueskill_ADMIRALRADDUS01"
         ],
-        "omicron_abilities": ["leaderskill_ADMIRALRADDUS"],
+        "omicron_abilities": [
+          "leaderskill_ADMIRALRADDUS"
+        ],
         "ability_data": [
           {
             "id": "basicskill_ADMIRALRADDUS",
@@ -8968,7 +9227,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "4"],
+        "mod_set_ids": [
+          "1",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -9107,7 +9369,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -9243,7 +9508,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "3"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -9491,7 +9760,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -9616,7 +9888,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -9704,7 +9979,9 @@
           "18": 0.20216999999999996,
           "28": 20419
         },
-        "zeta_abilities": ["uniqueskill_GRANDADMIRALTHRAWN01"],
+        "zeta_abilities": [
+          "uniqueskill_GRANDADMIRALTHRAWN01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -9763,7 +10040,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -10136,7 +10416,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -10272,7 +10555,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["3", "3", "3"],
+        "mod_set_ids": [
+          "3",
+          "3",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -10408,7 +10695,9 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5"],
+        "mod_set_ids": [
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -10542,7 +10831,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["7", "4"],
+        "mod_set_ids": [
+          "7",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -10667,7 +10959,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -10755,7 +11050,9 @@
           "18": 0.02844000000000002,
           "28": 5413
         },
-        "zeta_abilities": ["uniqueskill_EPIXPOE01"],
+        "zeta_abilities": [
+          "uniqueskill_EPIXPOE01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -10803,7 +11100,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "7"],
+        "mod_set_ids": [
+          "2",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -10956,7 +11256,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -11045,7 +11348,9 @@
           "18": 0.025760000000000005,
           "28": 3680
         },
-        "zeta_abilities": ["uniqueskill_CROSSHAIRS301"],
+        "zeta_abilities": [
+          "uniqueskill_CROSSHAIRS301"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -11093,7 +11398,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -11258,7 +11566,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": true,
@@ -11347,7 +11658,9 @@
           "18": 0.07081,
           "28": 14453
         },
-        "zeta_abilities": ["leaderskill_CHIEFCHIRPA"],
+        "zeta_abilities": [
+          "leaderskill_CHIEFCHIRPA"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -11395,7 +11708,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["6", "1"],
+        "mod_set_ids": [
+          "6",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -11483,8 +11799,12 @@
           "18": 0.044520000000000004,
           "28": 1446
         },
-        "zeta_abilities": ["uniqueskill_PADAWANSABINE01"],
-        "omicron_abilities": ["uniqueskill_PADAWANSABINE01"],
+        "zeta_abilities": [
+          "uniqueskill_PADAWANSABINE01"
+        ],
+        "omicron_abilities": [
+          "uniqueskill_PADAWANSABINE01"
+        ],
         "ability_data": [
           {
             "id": "basicskill_PADAWANSABINE",
@@ -11531,7 +11851,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -11619,7 +11942,9 @@
           "18": 0.24915999999999994,
           "28": 2877
         },
-        "zeta_abilities": ["uniqueskill_GENERALHUX01"],
+        "zeta_abilities": [
+          "uniqueskill_GENERALHUX01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -11678,7 +12003,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["8", "4"],
+        "mod_set_ids": [
+          "8",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -11764,7 +12092,10 @@
           "18": 0.39048000000000005,
           "28": 6003
         },
-        "zeta_abilities": ["uniqueskill_CT555501", "uniqueskill_CT555502"],
+        "zeta_abilities": [
+          "uniqueskill_CT555501",
+          "uniqueskill_CT555502"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -11823,7 +12154,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -11910,7 +12245,9 @@
           "18": 0.09114000000000003,
           "28": 10994
         },
-        "zeta_abilities": ["uniqueskill_VISASMARR01"],
+        "zeta_abilities": [
+          "uniqueskill_VISASMARR01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -11958,7 +12295,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "4"],
+        "mod_set_ids": [
+          "1",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -12098,7 +12438,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -12234,7 +12577,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "1"],
+        "mod_set_ids": [
+          "5",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -12496,7 +12842,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "2"],
+        "mod_set_ids": [
+          "1",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -12661,7 +13010,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["1", "4"],
+        "mod_set_ids": [
+          "1",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": true,
@@ -12795,7 +13147,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["7", "7", "7"],
+        "mod_set_ids": [
+          "7",
+          "7",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -12932,7 +13288,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "1"],
+        "mod_set_ids": [
+          "6",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -13073,7 +13432,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -13312,7 +13674,10 @@
             "tier_max": 7
           }
         ],
-        "mod_set_ids": ["6", "1"],
+        "mod_set_ids": [
+          "6",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -13399,7 +13764,9 @@
           "18": 0.06423999999999996,
           "28": 14260
         },
-        "zeta_abilities": ["uniqueskill_ANAKINKNIGHT01"],
+        "zeta_abilities": [
+          "uniqueskill_ANAKINKNIGHT01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -13447,7 +13814,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "2"],
+        "mod_set_ids": [
+          "1",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -13597,7 +13967,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "4"],
+        "mod_set_ids": [
+          "1",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -13861,7 +14234,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "2"],
+        "mod_set_ids": [
+          "5",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -14212,7 +14588,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "6"],
+        "mod_set_ids": [
+          "5",
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -14376,7 +14755,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": true,
@@ -14542,7 +14924,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["1", "4"],
+        "mod_set_ids": [
+          "1",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -14631,7 +15016,9 @@
           "28": 14324
         },
         "zeta_abilities": [],
-        "omicron_abilities": ["leaderskill_ADMIRALACKBAR"],
+        "omicron_abilities": [
+          "leaderskill_ADMIRALACKBAR"
+        ],
         "ability_data": [
           {
             "id": "basicskill_ADMIRALACKBAR",
@@ -14678,7 +15065,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "2"],
+        "mod_set_ids": [
+          "1",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -14766,8 +15156,12 @@
           "18": 0.16342,
           "28": 13281
         },
-        "zeta_abilities": ["specialskill_FULCRUMAHSOKA02"],
-        "omicron_abilities": ["uniqueskill_FULCRUMAHSOKA01"],
+        "zeta_abilities": [
+          "specialskill_FULCRUMAHSOKA02"
+        ],
+        "omicron_abilities": [
+          "uniqueskill_FULCRUMAHSOKA01"
+        ],
         "ability_data": [
           {
             "id": "basicskill_FULCRUMAHSOKA",
@@ -14814,7 +15208,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["2", "1"],
+        "mod_set_ids": [
+          "2",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -14939,7 +15336,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["3", "3", "3"],
+        "mod_set_ids": [
+          "3",
+          "3",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -15025,8 +15426,12 @@
           "18": 0.38731000000000004,
           "28": 4470
         },
-        "zeta_abilities": ["uniqueskill_HUNTERS301"],
-        "omicron_abilities": ["uniqueskill_HUNTERS301"],
+        "zeta_abilities": [
+          "uniqueskill_HUNTERS301"
+        ],
+        "omicron_abilities": [
+          "uniqueskill_HUNTERS301"
+        ],
         "ability_data": [
           {
             "id": "basicskill_HUNTERS3",
@@ -15084,7 +15489,11 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -15172,7 +15581,9 @@
           "18": 0.17013999999999996,
           "28": 26967
         },
-        "zeta_abilities": ["uniqueskill_SCORCH01"],
+        "zeta_abilities": [
+          "uniqueskill_SCORCH01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -15220,7 +15631,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["3", "1", "1"],
+        "mod_set_ids": [
+          "3",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -15308,7 +15723,9 @@
           "18": 0.013900000000000023,
           "28": 21973
         },
-        "zeta_abilities": ["leaderskill_LUMINARAUNDULI"],
+        "zeta_abilities": [
+          "leaderskill_LUMINARAUNDULI"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -15356,7 +15773,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -15445,7 +15866,10 @@
           "18": 0.028349999999999986,
           "28": 22193
         },
-        "zeta_abilities": ["leaderskill_JANGOFETT", "uniqueskill_JANGOFETT01"],
+        "zeta_abilities": [
+          "leaderskill_JANGOFETT",
+          "uniqueskill_JANGOFETT01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -15515,7 +15939,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -15641,7 +16068,9 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6"],
+        "mod_set_ids": [
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -15946,7 +16375,9 @@
           "18": 0.029380000000000017,
           "28": 4113
         },
-        "zeta_abilities": ["uniqueskill_NUTEGUNRAY01"],
+        "zeta_abilities": [
+          "uniqueskill_NUTEGUNRAY01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -16005,7 +16436,9 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["7"],
+        "mod_set_ids": [
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -16142,7 +16575,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -16443,7 +16879,9 @@
           "18": 0.05343999999999999,
           "28": 10492
         },
-        "zeta_abilities": ["uniqueskill_VEERS01"],
+        "zeta_abilities": [
+          "uniqueskill_VEERS01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -16491,7 +16929,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "5"],
+        "mod_set_ids": [
+          "4",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -16740,7 +17181,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -16828,7 +17272,10 @@
           "18": 0.05517,
           "28": 26591
         },
-        "zeta_abilities": ["specialskill_APPO02", "uniqueskill_APPO01"],
+        "zeta_abilities": [
+          "specialskill_APPO02",
+          "uniqueskill_APPO01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -16876,7 +17323,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "2"],
+        "mod_set_ids": [
+          "5",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -17042,7 +17492,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": true,
@@ -17131,7 +17584,9 @@
           "18": 0.49126999999999993,
           "28": 13909
         },
-        "zeta_abilities": ["uniqueskill_PAO01"],
+        "zeta_abilities": [
+          "uniqueskill_PAO01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -17179,7 +17634,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "8"],
+        "mod_set_ids": [
+          "2",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 3,
         "has_ultimate": false,
@@ -17267,7 +17725,9 @@
           "18": 0.26164,
           "28": 18650
         },
-        "zeta_abilities": ["uniqueskill_DARTHTALON01"],
+        "zeta_abilities": [
+          "uniqueskill_DARTHTALON01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -17326,7 +17786,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "1"],
+        "mod_set_ids": [
+          "2",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -17415,7 +17878,9 @@
           "18": 0.27509,
           "28": 14787
         },
-        "zeta_abilities": ["uniqueskill_IG8801"],
+        "zeta_abilities": [
+          "uniqueskill_IG8801"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -17474,7 +17939,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -17787,7 +18255,9 @@
           "18": 0.04296999999999998,
           "28": 11633
         },
-        "zeta_abilities": ["uniqueskill_REY01"],
+        "zeta_abilities": [
+          "uniqueskill_REY01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -17835,7 +18305,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "6"],
+        "mod_set_ids": [
+          "5",
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -18023,7 +18496,9 @@
           "18": 0.10920999999999997,
           "28": 12830
         },
-        "zeta_abilities": ["uniqueskill_DARTHNIHILUS01"],
+        "zeta_abilities": [
+          "uniqueskill_DARTHNIHILUS01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -18082,7 +18557,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -18232,7 +18710,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["7", "7", "1"],
+        "mod_set_ids": [
+          "7",
+          "7",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -18317,7 +18799,9 @@
           "17": 0.06989999999999996,
           "18": 1.1831800000000001
         },
-        "zeta_abilities": ["uniqueskill_HOTHHAN01"],
+        "zeta_abilities": [
+          "uniqueskill_HOTHHAN01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -18365,7 +18849,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["8", "8", "8"],
+        "mod_set_ids": [
+          "8",
+          "8",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -18452,7 +18940,10 @@
           "18": 0.44000000000000006,
           "28": 739
         },
-        "zeta_abilities": ["leaderskill_MONMOTHMA", "uniqueskill_MONMOTHMA01"],
+        "zeta_abilities": [
+          "leaderskill_MONMOTHMA",
+          "uniqueskill_MONMOTHMA01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -18511,7 +19002,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "8"],
+        "mod_set_ids": [
+          "4",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -18846,7 +19340,9 @@
           "18": 0.13842999999999994,
           "28": 16798
         },
-        "zeta_abilities": ["uniqueskill_DAKA01"],
+        "zeta_abilities": [
+          "uniqueskill_DAKA01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -18894,7 +19390,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -19045,7 +19545,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["7", "7", "1"],
+        "mod_set_ids": [
+          "7",
+          "7",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -19182,7 +19686,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -19434,7 +19941,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "7"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -19526,7 +20037,9 @@
           "specialskill_KELLERANBEQ02",
           "uniqueskill_KELLERANBEQ01"
         ],
-        "omicron_abilities": ["leaderskill_KELLERANBEQ"],
+        "omicron_abilities": [
+          "leaderskill_KELLERANBEQ"
+        ],
         "ability_data": [
           {
             "id": "basicskill_KELLERANBEQ",
@@ -19584,7 +20097,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -19709,7 +20225,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "6"],
+        "mod_set_ids": [
+          "5",
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -19795,7 +20314,9 @@
           "18": 0.26917,
           "28": 4744
         },
-        "zeta_abilities": ["uniqueskill_CARADUNE02"],
+        "zeta_abilities": [
+          "uniqueskill_CARADUNE02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -19843,7 +20364,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -19982,7 +20507,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -20352,7 +20880,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["1", "4"],
+        "mod_set_ids": [
+          "1",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": true,
@@ -20478,7 +21009,10 @@
             "tier_max": 7
           }
         ],
-        "mod_set_ids": ["2", "7"],
+        "mod_set_ids": [
+          "2",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -20567,7 +21101,10 @@
           "18": 0.036579999999999946,
           "28": 10326
         },
-        "zeta_abilities": ["uniqueskill_HK4701", "uniqueskill_HK4702"],
+        "zeta_abilities": [
+          "uniqueskill_HK4701",
+          "uniqueskill_HK4702"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -20637,7 +21174,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -20762,7 +21302,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["2", "8"],
+        "mod_set_ids": [
+          "2",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -20849,7 +21392,9 @@
           "17": 0.07816000000000001,
           "28": 11212
         },
-        "zeta_abilities": ["uniqueskill_DASHRENDAR"],
+        "zeta_abilities": [
+          "uniqueskill_DASHRENDAR"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -20908,7 +21453,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "5"],
+        "mod_set_ids": [
+          "4",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -20995,7 +21543,9 @@
           "17": 0.27444,
           "28": 21389
         },
-        "zeta_abilities": ["uniqueskill_CASSIANANDOR01"],
+        "zeta_abilities": [
+          "uniqueskill_CASSIANANDOR01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -21043,7 +21593,9 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["2"],
+        "mod_set_ids": [
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -21132,7 +21684,9 @@
           "18": 0.07050999999999996,
           "28": 7802
         },
-        "zeta_abilities": ["uniqueskill_MARROK01"],
+        "zeta_abilities": [
+          "uniqueskill_MARROK01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -21191,7 +21745,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -21283,7 +21840,9 @@
           "leaderskill_DARTHTRAYA",
           "uniqueskill_DARTHTRAYA01"
         ],
-        "omicron_abilities": ["uniqueskill_DARTHTRAYA01"],
+        "omicron_abilities": [
+          "uniqueskill_DARTHTRAYA01"
+        ],
         "ability_data": [
           {
             "id": "basicskill_DARTHTRAYA",
@@ -21341,7 +21900,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -21495,7 +22057,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -21642,7 +22208,11 @@
             "tier_max": 7
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -21730,7 +22300,9 @@
           "18": 0.3838499999999998,
           "28": 5377
         },
-        "zeta_abilities": ["uniqueskill_EPIXFINN01"],
+        "zeta_abilities": [
+          "uniqueskill_EPIXFINN01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -21778,7 +22350,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "5"],
+        "mod_set_ids": [
+          "4",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -21917,7 +22492,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -22003,7 +22581,9 @@
           "18": 0.28462,
           "28": 18008
         },
-        "zeta_abilities": ["uniqueskill_ZAALBAR02"],
+        "zeta_abilities": [
+          "uniqueskill_ZAALBAR02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -22051,7 +22631,11 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -22187,7 +22771,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["3", "3", "1"],
+        "mod_set_ids": [
+          "3",
+          "3",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -22275,7 +22863,10 @@
           "18": 0.14481,
           "28": 5043
         },
-        "zeta_abilities": ["specialskill_HUYANG01", "uniqueskill_HUYANG01"],
+        "zeta_abilities": [
+          "specialskill_HUYANG01",
+          "uniqueskill_HUYANG01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -22323,7 +22914,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -22485,7 +23079,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "5"],
+        "mod_set_ids": [
+          "4",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -22573,7 +23170,9 @@
           "18": 0.03600000000000003,
           "28": 14330
         },
-        "zeta_abilities": ["uniqueskill_B2SUPERBATTLEDROID02"],
+        "zeta_abilities": [
+          "uniqueskill_B2SUPERBATTLEDROID02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -22621,7 +23220,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["7", "7", "7"],
+        "mod_set_ids": [
+          "7",
+          "7",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -22886,7 +23489,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "2"],
+        "mod_set_ids": [
+          "5",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -22975,7 +23581,9 @@
           "18": 0.06923999999999997,
           "28": 3704
         },
-        "zeta_abilities": ["uniqueskill_DARTHSIDIOUS01"],
+        "zeta_abilities": [
+          "uniqueskill_DARTHSIDIOUS01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -23023,7 +23631,11 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["1", "1", "7"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -23283,7 +23895,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["3", "3", "7"],
+        "mod_set_ids": [
+          "3",
+          "3",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -23433,7 +24049,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "3"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -23569,7 +24189,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -23705,7 +24329,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -23841,7 +24469,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "5"],
+        "mod_set_ids": [
+          "1",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -23929,7 +24560,9 @@
           "17": 0.02139000000000002,
           "28": 4403
         },
-        "zeta_abilities": ["uniqueskill_HANSOLO01"],
+        "zeta_abilities": [
+          "uniqueskill_HANSOLO01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -23977,7 +24610,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -24064,7 +24700,9 @@
           "18": 0.11029,
           "28": 34292
         },
-        "zeta_abilities": ["specialskill_ARMORER01"],
+        "zeta_abilities": [
+          "specialskill_ARMORER01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -24123,7 +24761,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "4"],
+        "mod_set_ids": [
+          "1",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -24211,7 +24852,9 @@
           "17": 0.055989999999999984,
           "28": 4080
         },
-        "zeta_abilities": ["specialskill_DEATHTROOPERPERIDEA01"],
+        "zeta_abilities": [
+          "specialskill_DEATHTROOPERPERIDEA01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -24259,7 +24902,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -24396,7 +25042,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -24485,7 +25134,9 @@
           "18": 0.32567,
           "28": 3673
         },
-        "zeta_abilities": ["uniqueskill_BADBATCHWRECKER01"],
+        "zeta_abilities": [
+          "uniqueskill_BADBATCHWRECKER01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -24533,7 +25184,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["3", "3", "3"],
+        "mod_set_ids": [
+          "3",
+          "3",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -24625,7 +25280,9 @@
           "uniqueskill_ZORIIBLISS_V201",
           "uniqueskill_ZORIIBLISS_V202"
         ],
-        "omicron_abilities": ["uniqueskill_ZORIIBLISS_V201"],
+        "omicron_abilities": [
+          "uniqueskill_ZORIIBLISS_V201"
+        ],
         "ability_data": [
           {
             "id": "basicskill_ZORIIBLISS_V2",
@@ -24683,7 +25340,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -24834,7 +25494,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["6", "1"],
+        "mod_set_ids": [
+          "6",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -24960,7 +25623,9 @@
             "tier_max": 7
           }
         ],
-        "mod_set_ids": ["1"],
+        "mod_set_ids": [
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -25049,7 +25714,9 @@
           "18": 0.19999999999999996,
           "28": 2188
         },
-        "zeta_abilities": ["uniqueskill_FOSITHTROOPER01"],
+        "zeta_abilities": [
+          "uniqueskill_FOSITHTROOPER01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -25097,7 +25764,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "8"],
+        "mod_set_ids": [
+          "6",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -25184,7 +25854,9 @@
           "17": 0.16180000000000005,
           "28": 5729
         },
-        "zeta_abilities": ["uniqueskill_TRIPLEZERO02"],
+        "zeta_abilities": [
+          "uniqueskill_TRIPLEZERO02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -25232,7 +25904,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -25422,8 +26097,13 @@
           "18": 0.64934,
           "28": 11450
         },
-        "zeta_abilities": ["specialskill_WAMPA02", "uniqueskill_WAMPA02"],
-        "omicron_abilities": ["uniqueskill_WAMPA02"],
+        "zeta_abilities": [
+          "specialskill_WAMPA02",
+          "uniqueskill_WAMPA02"
+        ],
+        "omicron_abilities": [
+          "uniqueskill_WAMPA02"
+        ],
         "ability_data": [
           {
             "id": "basicskill_WAMPA",
@@ -25481,7 +26161,11 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["1", "1", "8"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -25567,7 +26251,9 @@
           "18": 0.04627999999999993,
           "28": 4311
         },
-        "zeta_abilities": ["uniqueskill_SMUGGLERCHEWBACCA01"],
+        "zeta_abilities": [
+          "uniqueskill_SMUGGLERCHEWBACCA01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -25615,7 +26301,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -25703,7 +26392,9 @@
           "17": 0.053009999999999974,
           "28": 9484
         },
-        "zeta_abilities": ["uniqueskill_BOBAFETTSCION01"],
+        "zeta_abilities": [
+          "uniqueskill_BOBAFETTSCION01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -25773,7 +26464,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -26020,7 +26714,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -26111,7 +26808,9 @@
           "leaderskill_GRANDINQUISITOR",
           "uniqueskill_GRANDINQUISITOR01"
         ],
-        "omicron_abilities": ["leaderskill_GRANDINQUISITOR"],
+        "omicron_abilities": [
+          "leaderskill_GRANDINQUISITOR"
+        ],
         "ability_data": [
           {
             "id": "basicskill_GRANDINQUISITOR",
@@ -26180,7 +26879,9 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4"],
+        "mod_set_ids": [
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -26268,7 +26969,9 @@
           "18": 0.2634800000000001,
           "28": 12370
         },
-        "zeta_abilities": ["specialskill_DARKTROOPER01"],
+        "zeta_abilities": [
+          "specialskill_DARKTROOPER01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -26316,7 +27019,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["8", "2"],
+        "mod_set_ids": [
+          "8",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -26478,7 +27184,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -26628,7 +27337,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -26714,7 +27427,10 @@
           "18": 0.4362599999999999,
           "28": 29957
         },
-        "zeta_abilities": ["specialskill_HONDO01", "uniqueskill_HONDO01"],
+        "zeta_abilities": [
+          "specialskill_HONDO01",
+          "uniqueskill_HONDO01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -26773,7 +27489,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -26948,7 +27667,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": true,
@@ -27072,7 +27794,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -27333,7 +28058,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "1"],
+        "mod_set_ids": [
+          "2",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -27470,7 +28198,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "7"],
+        "mod_set_ids": [
+          "2",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -27594,7 +28325,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -27682,7 +28416,9 @@
           "18": 0.41318000000000005,
           "28": 19099
         },
-        "zeta_abilities": ["uniqueskill_ENFYSNEST01"],
+        "zeta_abilities": [
+          "uniqueskill_ENFYSNEST01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -27730,7 +28466,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "8", "8"],
+        "mod_set_ids": [
+          "1",
+          "8",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -27880,7 +28620,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -27966,7 +28709,9 @@
           "18": 0.07165999999999995,
           "28": 5809
         },
-        "zeta_abilities": ["uniqueskill_MORGANELSBETH01"],
+        "zeta_abilities": [
+          "uniqueskill_MORGANELSBETH01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -28014,7 +28759,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["3", "1", "1"],
+        "mod_set_ids": [
+          "3",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -28140,7 +28889,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "6"],
+        "mod_set_ids": [
+          "5",
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -28228,7 +28980,9 @@
           "18": 0.07060999999999995,
           "28": 14237
         },
-        "zeta_abilities": ["leaderskill_CC2224"],
+        "zeta_abilities": [
+          "leaderskill_CC2224"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -28276,7 +29030,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "1"],
+        "mod_set_ids": [
+          "2",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -28448,7 +29205,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -28609,7 +29369,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -28759,7 +29522,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -28895,7 +29662,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "1"],
+        "mod_set_ids": [
+          "2",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -28983,7 +29753,9 @@
           "17": 0.06495000000000001,
           "28": 11578
         },
-        "zeta_abilities": ["uniqueskill_REX01"],
+        "zeta_abilities": [
+          "uniqueskill_REX01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -29042,7 +29814,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -29305,7 +30080,11 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 3,
         "has_ultimate": false,
@@ -29455,7 +30234,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -29591,7 +30374,10 @@
             "tier_max": 7
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -29680,7 +30466,9 @@
           "18": 0.09797999999999996,
           "28": 5507
         },
-        "zeta_abilities": ["uniqueskill_ZAMWESELL01"],
+        "zeta_abilities": [
+          "uniqueskill_ZAMWESELL01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -29750,7 +30538,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -29905,7 +30696,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "1"],
+        "mod_set_ids": [
+          "2",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -29998,7 +30792,9 @@
           "specialskill_JEDIKNIGHTCAL03",
           "uniqueskill_JEDIKNIGHTCAL01"
         ],
-        "omicron_abilities": ["specialskill_JEDIKNIGHTCAL01"],
+        "omicron_abilities": [
+          "specialskill_JEDIKNIGHTCAL01"
+        ],
         "ability_data": [
           {
             "id": "basicskill_JEDIKNIGHTCAL",
@@ -30067,7 +30863,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -30155,7 +30955,9 @@
           "18": 0.07250999999999996,
           "28": 14027
         },
-        "zeta_abilities": ["uniqueskill_BOUSHH01"],
+        "zeta_abilities": [
+          "uniqueskill_BOUSHH01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -30225,7 +31027,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -30313,7 +31118,9 @@
           "18": 0.12182000000000004,
           "28": 3435
         },
-        "zeta_abilities": ["leaderskill_SANASTARROS"],
+        "zeta_abilities": [
+          "leaderskill_SANASTARROS"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -30372,7 +31179,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "7"],
+        "mod_set_ids": [
+          "2",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -30512,7 +31322,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["5", "6"],
+        "mod_set_ids": [
+          "5",
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -30662,7 +31475,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -30750,8 +31566,13 @@
           "18": 0.05099999999999999,
           "28": 16434
         },
-        "zeta_abilities": ["leaderskill_BOSSNASS", "uniqueskill_BOSSNASS01"],
-        "omicron_abilities": ["leaderskill_BOSSNASS"],
+        "zeta_abilities": [
+          "leaderskill_BOSSNASS",
+          "uniqueskill_BOSSNASS01"
+        ],
+        "omicron_abilities": [
+          "leaderskill_BOSSNASS"
+        ],
         "ability_data": [
           {
             "id": "basicskill_BOSSNASS",
@@ -30809,7 +31630,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["7", "1", "1"],
+        "mod_set_ids": [
+          "7",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -31055,7 +31880,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["3", "3", "3"],
+        "mod_set_ids": [
+          "3",
+          "3",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -31144,7 +31973,10 @@
           "18": 0.4299799999999999,
           "28": 14403
         },
-        "zeta_abilities": ["basicskill_STARKILLER", "uniqueskill_STARKILLER01"],
+        "zeta_abilities": [
+          "basicskill_STARKILLER",
+          "uniqueskill_STARKILLER01"
+        ],
         "omicron_abilities": [
           "specialskill_STARKILLER01",
           "specialskill_STARKILLER02",
@@ -31207,7 +32039,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "1"],
+        "mod_set_ids": [
+          "6",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -31354,7 +32189,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -31554,7 +32392,9 @@
           "18": 0.03563000000000005,
           "28": 6321
         },
-        "zeta_abilities": ["uniqueskill_BADBATCHECHO01"],
+        "zeta_abilities": [
+          "uniqueskill_BADBATCHECHO01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -31602,7 +32442,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["7", "4"],
+        "mod_set_ids": [
+          "7",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -31691,8 +32534,12 @@
           "18": 0.01918999999999993,
           "28": 12236
         },
-        "zeta_abilities": ["uniqueskill_EMBO01"],
-        "omicron_abilities": ["uniqueskill_EMBO01"],
+        "zeta_abilities": [
+          "uniqueskill_EMBO01"
+        ],
+        "omicron_abilities": [
+          "uniqueskill_EMBO01"
+        ],
         "ability_data": [
           {
             "id": "basicskill_EMBO",
@@ -31750,7 +32597,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 8,
         "has_ultimate": false,
@@ -32081,7 +32931,11 @@
             "tier_max": 7
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -32270,7 +33124,9 @@
           "18": 0.03327000000000002,
           "28": 21180
         },
-        "zeta_abilities": ["uniqueskill_PADAWANOBIWAN01"],
+        "zeta_abilities": [
+          "uniqueskill_PADAWANOBIWAN01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -32318,7 +33174,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "1"],
+        "mod_set_ids": [
+          "6",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -32453,7 +33312,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -32541,7 +33404,9 @@
           "17": 0.10848,
           "28": 5111
         },
-        "zeta_abilities": ["uniqueskill_FENNECSHAND01"],
+        "zeta_abilities": [
+          "uniqueskill_FENNECSHAND01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -32600,7 +33465,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -32856,7 +33724,9 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["5"],
+        "mod_set_ids": [
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -33050,7 +33920,9 @@
           "specialskill_OMEGAS301",
           "leaderskill_OMEGAS3"
         ],
-        "omicron_abilities": ["leaderskill_OMEGAS3"],
+        "omicron_abilities": [
+          "leaderskill_OMEGAS3"
+        ],
         "ability_data": [
           {
             "id": "basicskill_OMEGAS3",
@@ -33108,7 +33980,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "8"],
+        "mod_set_ids": [
+          "4",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -33195,7 +34070,9 @@
           "17": 0.16332999999999998,
           "28": 62339
         },
-        "zeta_abilities": ["specialskill_NINTHSISTER02"],
+        "zeta_abilities": [
+          "specialskill_NINTHSISTER02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -33265,7 +34142,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["3", "3"],
+        "mod_set_ids": [
+          "3",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -33489,7 +34369,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -33640,7 +34524,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["3", "6"],
+        "mod_set_ids": [
+          "3",
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -33727,7 +34614,10 @@
           "18": 0.06437999999999999,
           "28": 8876
         },
-        "zeta_abilities": ["leaderskill_GRIEVOUS", "uniqueskill_GRIEVOUS01"],
+        "zeta_abilities": [
+          "leaderskill_GRIEVOUS",
+          "uniqueskill_GRIEVOUS01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -33786,7 +34676,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -33933,7 +34827,10 @@
             "tier_max": 7
           }
         ],
-        "mod_set_ids": ["2", "8"],
+        "mod_set_ids": [
+          "2",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 8,
         "has_ultimate": false,
@@ -34022,7 +34919,9 @@
           "18": 0.07235999999999998,
           "28": 20280
         },
-        "zeta_abilities": ["uniqueskill_SHINHATI01"],
+        "zeta_abilities": [
+          "uniqueskill_SHINHATI01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -34081,7 +34980,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["2", "1"],
+        "mod_set_ids": [
+          "2",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -34170,7 +35072,9 @@
           "18": 0.9259200000000002,
           "28": 14028
         },
-        "zeta_abilities": ["uniqueskill_juhani01"],
+        "zeta_abilities": [
+          "uniqueskill_juhani01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -34218,7 +35122,11 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["8", "8", "8"],
+        "mod_set_ids": [
+          "8",
+          "8",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -34415,7 +35323,9 @@
           "18": 0.45841999999999994,
           "28": 16928
         },
-        "zeta_abilities": ["specialskill_KANANJARRUSS302"],
+        "zeta_abilities": [
+          "specialskill_KANANJARRUSS302"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -34463,7 +35373,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "8"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -34603,7 +35517,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -34690,7 +35607,9 @@
           "18": 0.06590999999999997,
           "28": 3403
         },
-        "zeta_abilities": ["uniqueskill_ROSETICO01"],
+        "zeta_abilities": [
+          "uniqueskill_ROSETICO01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -34738,7 +35657,11 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["1", "1", "5"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -34827,7 +35750,9 @@
           "18": 0.05942000000000003,
           "28": 14901
         },
-        "zeta_abilities": ["specialskill_PRINCESSKNEESAA02"],
+        "zeta_abilities": [
+          "specialskill_PRINCESSKNEESAA02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -34875,7 +35800,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "6"],
+        "mod_set_ids": [
+          "5",
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -35000,7 +35928,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -35087,7 +36019,9 @@
           "17": 0.33331,
           "28": 4868
         },
-        "zeta_abilities": ["uniqueskill_AHSOKATANO01"],
+        "zeta_abilities": [
+          "uniqueskill_AHSOKATANO01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -35135,7 +36069,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "1", "1"],
+        "mod_set_ids": [
+          "5",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -35546,7 +36484,11 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": true,
@@ -35681,7 +36623,9 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4"],
+        "mod_set_ids": [
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -35769,7 +36713,9 @@
           "18": 0.12257999999999997,
           "28": 20884
         },
-        "zeta_abilities": ["specialskill_HERASYNDULLAS301"],
+        "zeta_abilities": [
+          "specialskill_HERASYNDULLAS301"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -35817,7 +36763,11 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["7", "1", "1"],
+        "mod_set_ids": [
+          "7",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -35903,7 +36853,9 @@
           "18": 0.07822000000000004,
           "28": 15509
         },
-        "zeta_abilities": ["uniqueskill_BASTILASHANDARK02"],
+        "zeta_abilities": [
+          "uniqueskill_BASTILASHANDARK02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -35973,7 +36925,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -36061,7 +37016,10 @@
           "18": 0.07264000000000004,
           "28": 16258
         },
-        "zeta_abilities": ["leaderskill_BOSSK", "uniqueskill_BOSSK01"],
+        "zeta_abilities": [
+          "leaderskill_BOSSK",
+          "uniqueskill_BOSSK01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -36131,7 +37089,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["4", "3"],
+        "mod_set_ids": [
+          "4",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -36257,7 +37218,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "5"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -36420,7 +37385,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -36567,7 +37535,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "3"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -36721,7 +37693,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -36809,7 +37784,9 @@
           "18": 0.10054999999999997,
           "28": 16190
         },
-        "zeta_abilities": ["uniqueskill_COUNTDOOKU01"],
+        "zeta_abilities": [
+          "uniqueskill_COUNTDOOKU01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -36868,7 +37845,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -36957,7 +37937,9 @@
           "18": 0.012220000000000009,
           "28": 3748
         },
-        "zeta_abilities": ["uniqueskill_MISSIONVAO02"],
+        "zeta_abilities": [
+          "uniqueskill_MISSIONVAO02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -37005,7 +37987,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "1"],
+        "mod_set_ids": [
+          "6",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -37268,7 +38253,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["8", "4"],
+        "mod_set_ids": [
+          "8",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -37357,7 +38345,9 @@
           "18": 0.023570000000000008,
           "28": 12929
         },
-        "zeta_abilities": ["leaderskill_MAUL"],
+        "zeta_abilities": [
+          "leaderskill_MAUL"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -37405,7 +38395,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "6"],
+        "mod_set_ids": [
+          "5",
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -37492,7 +38485,9 @@
           "18": 0.59381,
           "28": 4571
         },
-        "zeta_abilities": ["specialskill_JOLEEBINDO02"],
+        "zeta_abilities": [
+          "specialskill_JOLEEBINDO02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -37551,7 +38546,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["8", "4"],
+        "mod_set_ids": [
+          "8",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -37687,7 +38685,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -37813,7 +38815,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -37949,7 +38954,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "7"],
+        "mod_set_ids": [
+          "2",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -38262,7 +39270,9 @@
           "18": 0.05145999999999995,
           "28": 5240
         },
-        "zeta_abilities": ["uniqueskill_FIRSTORDERTIEPILOT01"],
+        "zeta_abilities": [
+          "uniqueskill_FIRSTORDERTIEPILOT01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -38299,7 +39309,11 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["1", "1", "5"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -38387,7 +39401,9 @@
           "18": 0.12540999999999997,
           "28": 20130
         },
-        "zeta_abilities": ["uniqueskill_DARTHSION01"],
+        "zeta_abilities": [
+          "uniqueskill_DARTHSION01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -38446,7 +39462,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "3"],
+        "mod_set_ids": [
+          "4",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -38644,8 +39663,12 @@
           "18": 0.07506000000000002,
           "28": 3837
         },
-        "zeta_abilities": ["uniqueskill_IDENVERSIOEMPIRE01"],
-        "omicron_abilities": ["leaderskill_IDENVERSIOEMPIRE"],
+        "zeta_abilities": [
+          "uniqueskill_IDENVERSIOEMPIRE01"
+        ],
+        "omicron_abilities": [
+          "leaderskill_IDENVERSIOEMPIRE"
+        ],
         "ability_data": [
           {
             "id": "basicskill_IDENVERSIOEMPIRE",
@@ -38703,7 +39726,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "7"],
+        "mod_set_ids": [
+          "6",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -39135,7 +40161,9 @@
           "18": 0.37365,
           "28": 17877
         },
-        "zeta_abilities": ["uniqueskill_FIRSTORDERTROOPER01"],
+        "zeta_abilities": [
+          "uniqueskill_FIRSTORDERTROOPER01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -39172,7 +40200,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "3", "3"],
+        "mod_set_ids": [
+          "1",
+          "3",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -39445,7 +40477,11 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["1", "1", "8"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -39534,7 +40570,9 @@
           "18": 0.02851999999999999,
           "28": 13790
         },
-        "zeta_abilities": ["specialskill_GREEDO02"],
+        "zeta_abilities": [
+          "specialskill_GREEDO02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -39604,7 +40642,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 8,
         "has_ultimate": false,
@@ -39692,7 +40733,9 @@
           "18": 0.48686,
           "28": 7741
         },
-        "zeta_abilities": ["uniqueskill_HOTHLEIA01"],
+        "zeta_abilities": [
+          "uniqueskill_HOTHLEIA01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -39740,7 +40783,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["7", "8", "8"],
+        "mod_set_ids": [
+          "7",
+          "8",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -39830,7 +40877,9 @@
           "specialskill_GENERALSYNDULLA02",
           "uniqueskill_GENERALSYNDULLA01"
         ],
-        "omicron_abilities": ["uniqueskill_GENERALSYNDULLA01"],
+        "omicron_abilities": [
+          "uniqueskill_GENERALSYNDULLA01"
+        ],
         "ability_data": [
           {
             "id": "basicskill_GENERALSYNDULLA",
@@ -39888,7 +40937,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "4"],
+        "mod_set_ids": [
+          "1",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -40025,7 +41077,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -40113,7 +41168,9 @@
           "18": 0.059679999999999955,
           "28": 5460
         },
-        "zeta_abilities": ["uniqueskill_BOOMADIER01"],
+        "zeta_abilities": [
+          "uniqueskill_BOOMADIER01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -40161,7 +41218,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["5", "4"],
+        "mod_set_ids": [
+          "5",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -40312,7 +41372,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 8,
         "has_ultimate": false,
@@ -40447,7 +41510,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "3"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -40535,7 +41602,9 @@
           "18": 0.04185,
           "28": 16922
         },
-        "zeta_abilities": ["uniqueskill_BOBAFETT01"],
+        "zeta_abilities": [
+          "uniqueskill_BOBAFETT01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -40605,7 +41674,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["7", "2"],
+        "mod_set_ids": [
+          "7",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -40693,7 +41765,9 @@
           "18": 0.08296999999999999,
           "28": 2598
         },
-        "zeta_abilities": ["uniqueskill_WATTAMBOR02"],
+        "zeta_abilities": [
+          "uniqueskill_WATTAMBOR02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -40741,7 +41815,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -40878,7 +41955,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "8"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -41015,7 +42096,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "6"],
+        "mod_set_ids": [
+          "5",
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -41107,7 +42191,9 @@
           "specialskill_MARAJADE01",
           "specialskill_MARAJADE02"
         ],
-        "omicron_abilities": ["uniqueskill_MARAJADE01"],
+        "omicron_abilities": [
+          "uniqueskill_MARAJADE01"
+        ],
         "ability_data": [
           {
             "id": "basicskill_MARAJADE",
@@ -41154,7 +42240,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["7", "7", "7"],
+        "mod_set_ids": [
+          "7",
+          "7",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -41290,7 +42380,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 3,
         "has_ultimate": false,
@@ -41377,7 +42470,9 @@
           "18": 0.05229999999999996,
           "28": 12793
         },
-        "zeta_abilities": ["leaderskill_carthonasi"],
+        "zeta_abilities": [
+          "leaderskill_carthonasi"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -41425,7 +42520,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "7"],
+        "mod_set_ids": [
+          "6",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -41513,7 +42611,9 @@
           "18": 0.10832999999999998,
           "28": 1466
         },
-        "zeta_abilities": ["uniqueskill_ARCTROOPER501ST01"],
+        "zeta_abilities": [
+          "uniqueskill_ARCTROOPER501ST01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -41550,7 +42650,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "2"],
+        "mod_set_ids": [
+          "1",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -41643,7 +42746,9 @@
           "leaderskill_TRENCH",
           "uniqueskill_TRENCH01"
         ],
-        "omicron_abilities": ["leaderskill_TRENCH"],
+        "omicron_abilities": [
+          "leaderskill_TRENCH"
+        ],
         "ability_data": [
           {
             "id": "basicskill_TRENCH",
@@ -41690,7 +42795,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["8", "8", "8"],
+        "mod_set_ids": [
+          "8",
+          "8",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -41825,7 +42934,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "8"],
+        "mod_set_ids": [
+          "6",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -42118,7 +43230,9 @@
           "18": 0.061329999999999996,
           "28": 6039
         },
-        "zeta_abilities": ["uniqueskill_SECONDSISTER01"],
+        "zeta_abilities": [
+          "uniqueskill_SECONDSISTER01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -42188,7 +43302,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -42453,7 +43570,11 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -42590,7 +43711,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -42678,7 +43803,9 @@
           "18": 0.15757999999999983,
           "28": 8105
         },
-        "zeta_abilities": ["uniqueskill_MASTERQUIGON01"],
+        "zeta_abilities": [
+          "uniqueskill_MASTERQUIGON01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -42726,7 +43853,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "3"],
+        "mod_set_ids": [
+          "4",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -42814,7 +43944,9 @@
           "18": 0.20000000000000004,
           "28": 2872
         },
-        "zeta_abilities": ["uniqueskill_JYNERSO01"],
+        "zeta_abilities": [
+          "uniqueskill_JYNERSO01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -42873,7 +44005,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["8", "4"],
+        "mod_set_ids": [
+          "8",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -43009,7 +44144,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["7", "7"],
+        "mod_set_ids": [
+          "7",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -43100,7 +44238,9 @@
           "leaderskill_DOCTORAPHRA",
           "uniqueskill_DOCTORAPHRA01"
         ],
-        "omicron_abilities": ["leaderskill_DOCTORAPHRA"],
+        "omicron_abilities": [
+          "leaderskill_DOCTORAPHRA"
+        ],
         "ability_data": [
           {
             "id": "basicskill_DOCTORAPHRA",
@@ -43158,7 +44298,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -43246,7 +44389,9 @@
           "18": 0.08535999999999999,
           "28": 464
         },
-        "zeta_abilities": ["uniqueskill_BADBATCHTECH01"],
+        "zeta_abilities": [
+          "uniqueskill_BADBATCHTECH01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -43294,7 +44439,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["7", "4"],
+        "mod_set_ids": [
+          "7",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -43663,7 +44811,11 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": true,
@@ -43751,7 +44903,9 @@
           "18": 0.06251999999999996,
           "28": 36999
         },
-        "zeta_abilities": ["uniqueskill_AMILYNHOLDO01"],
+        "zeta_abilities": [
+          "uniqueskill_AMILYNHOLDO01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -43799,7 +44953,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -43963,7 +45121,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": true,
@@ -44099,7 +45260,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 6,
         "has_ultimate": false,
@@ -44337,7 +45501,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "5"],
+        "mod_set_ids": [
+          "4",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -44462,7 +45629,9 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5"],
+        "mod_set_ids": [
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -44587,7 +45756,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -44676,8 +45849,12 @@
           "18": 0.016439999999999955,
           "28": 1410
         },
-        "zeta_abilities": ["uniqueskill_PRINCESSLEIA01"],
-        "omicron_abilities": ["uniqueskill_PRINCESSLEIA01"],
+        "zeta_abilities": [
+          "uniqueskill_PRINCESSLEIA01"
+        ],
+        "omicron_abilities": [
+          "uniqueskill_PRINCESSLEIA01"
+        ],
         "ability_data": [
           {
             "id": "basicskill_PRINCESSLEIA",
@@ -44724,7 +45901,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -44813,8 +45993,12 @@
           "18": 0.28071,
           "28": 15559
         },
-        "zeta_abilities": ["uniqueskill_SAVAGEOPRESS01"],
-        "omicron_abilities": ["uniqueskill_SAVAGEOPRESS01"],
+        "zeta_abilities": [
+          "uniqueskill_SAVAGEOPRESS01"
+        ],
+        "omicron_abilities": [
+          "uniqueskill_SAVAGEOPRESS01"
+        ],
         "ability_data": [
           {
             "id": "basicskill_SAVAGEOPRESS",
@@ -44861,7 +46045,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["1", "6"],
+        "mod_set_ids": [
+          "1",
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -45011,7 +46198,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 11,
         "has_ultimate": false,
@@ -45100,7 +46291,9 @@
           "18": 0.03273999999999999,
           "28": 2870
         },
-        "zeta_abilities": ["leaderskill_FINN"],
+        "zeta_abilities": [
+          "leaderskill_FINN"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -45148,7 +46341,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["7", "6"],
+        "mod_set_ids": [
+          "7",
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -45284,7 +46480,10 @@
             "tier_max": 9
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -45372,7 +46571,9 @@
           "18": 0.25176,
           "28": 8083
         },
-        "zeta_abilities": ["specialskill_UNDERCOVERLANDO02"],
+        "zeta_abilities": [
+          "specialskill_UNDERCOVERLANDO02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -45420,7 +46621,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -45617,7 +46821,9 @@
           "18": 0.10660000000000003,
           "28": 11734
         },
-        "zeta_abilities": ["specialskill_EZRABRIDGERS301"],
+        "zeta_abilities": [
+          "specialskill_EZRABRIDGERS301"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -45665,7 +46871,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 8,
         "has_ultimate": false,
@@ -46025,7 +47234,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -46251,7 +47463,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["7", "4"],
+        "mod_set_ids": [
+          "7",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -46509,7 +47724,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "5", "7"],
+        "mod_set_ids": [
+          "5",
+          "5",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -46690,7 +47909,9 @@
           "18": 0.04803999999999997,
           "28": 51938
         },
-        "zeta_abilities": ["specialskill_SEVENTHSISTER02"],
+        "zeta_abilities": [
+          "specialskill_SEVENTHSISTER02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -46760,7 +47981,9 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4"],
+        "mod_set_ids": [
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -46914,7 +48137,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["3", "1", "1"],
+        "mod_set_ids": [
+          "3",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -47036,7 +48263,9 @@
             "tier_max": 7
           }
         ],
-        "mod_set_ids": ["7"],
+        "mod_set_ids": [
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -47123,7 +48352,9 @@
           "18": 0.13351000000000002,
           "28": 6248
         },
-        "zeta_abilities": ["uniqueskill_KUIIL01"],
+        "zeta_abilities": [
+          "uniqueskill_KUIIL01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -47171,7 +48402,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "7"],
+        "mod_set_ids": [
+          "4",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -47260,7 +48494,9 @@
           "18": 0.07645000000000002,
           "28": 23169
         },
-        "zeta_abilities": ["specialskill_KYLEKATARN02"],
+        "zeta_abilities": [
+          "specialskill_KYLEKATARN02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -47308,7 +48544,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "3"],
+        "mod_set_ids": [
+          "2",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -47466,7 +48705,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["6", "5"],
+        "mod_set_ids": [
+          "6",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 8,
         "has_ultimate": false,
@@ -47591,7 +48833,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -47679,7 +48925,9 @@
           "18": 0.09431999999999996,
           "28": 4239
         },
-        "zeta_abilities": ["uniqueskill_CANDEROUSORDO01"],
+        "zeta_abilities": [
+          "uniqueskill_CANDEROUSORDO01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -47727,7 +48975,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "2"],
+        "mod_set_ids": [
+          "1",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 5,
         "has_ultimate": false,
@@ -47878,7 +49129,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -48136,7 +49391,10 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["5", "6"],
+        "mod_set_ids": [
+          "5",
+          "6"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -48272,7 +49530,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 1,
         "has_ultimate": false,
@@ -48397,7 +49658,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "5"],
+        "mod_set_ids": [
+          "4",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -48483,7 +49747,9 @@
           "15": 12.579000000000004,
           "28": 1120
         },
-        "zeta_abilities": ["specialskill_GRANDMASTERYODA03"],
+        "zeta_abilities": [
+          "specialskill_GRANDMASTERYODA03"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -48542,7 +49808,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -48698,7 +49967,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 10,
         "has_ultimate": false,
@@ -48786,7 +50059,9 @@
           "18": 0.13576,
           "28": 2846
         },
-        "zeta_abilities": ["uniqueskill_IG1201"],
+        "zeta_abilities": [
+          "uniqueskill_IG1201"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -48834,7 +50109,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -48922,7 +50200,10 @@
           "18": 0.041529999999999956,
           "28": 2496
         },
-        "zeta_abilities": ["leaderskill_SHAAKTI", "uniqueskill_SHAAKTI01"],
+        "zeta_abilities": [
+          "leaderskill_SHAAKTI",
+          "uniqueskill_SHAAKTI01"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -48981,7 +50262,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -49115,7 +50399,11 @@
             "tier_max": 7
           }
         ],
-        "mod_set_ids": ["7", "7", "7"],
+        "mod_set_ids": [
+          "7",
+          "7",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -49204,7 +50492,9 @@
           "18": 0.18714999999999998,
           "28": 16182
         },
-        "zeta_abilities": ["uniqueskill_IG1101"],
+        "zeta_abilities": [
+          "uniqueskill_IG1101"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -49252,7 +50542,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "7"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "7"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -49399,7 +50693,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["5", "2"],
+        "mod_set_ids": [
+          "5",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -49487,7 +50784,10 @@
           "18": 0.02808999999999995,
           "28": 26474
         },
-        "zeta_abilities": ["uniqueskill_QUIGGOLD01", "uniqueskill_QUIGGOLD02"],
+        "zeta_abilities": [
+          "uniqueskill_QUIGGOLD01",
+          "uniqueskill_QUIGGOLD02"
+        ],
         "omicron_abilities": [],
         "ability_data": [
           {
@@ -49535,7 +50835,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "3"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "3"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -49675,7 +50979,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "2"],
+        "mod_set_ids": [
+          "1",
+          "2"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -49811,7 +51118,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["4", "1"],
+        "mod_set_ids": [
+          "4",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 8,
         "has_ultimate": false,
@@ -49947,7 +51257,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["2", "5"],
+        "mod_set_ids": [
+          "2",
+          "5"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -50083,7 +51396,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "8"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -50230,7 +51547,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -50434,7 +51754,9 @@
           "leaderskill_JEDIMASTERMACEWINDU",
           "uniqueskill_JEDIMASTERMACEWINDU01"
         ],
-        "omicron_abilities": ["leaderskill_JEDIMASTERMACEWINDU"],
+        "omicron_abilities": [
+          "leaderskill_JEDIMASTERMACEWINDU"
+        ],
         "ability_data": [
           {
             "id": "basicskill_JEDIMASTERMACEWINDU",
@@ -50492,7 +51814,10 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "4"],
+        "mod_set_ids": [
+          "1",
+          "4"
+        ],
         "combat_type": 1,
         "relic_tier": 9,
         "has_ultimate": false,
@@ -50754,7 +52079,11 @@
             "tier_max": 8
           }
         ],
-        "mod_set_ids": ["1", "1", "1"],
+        "mod_set_ids": [
+          "1",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 7,
         "has_ultimate": false,
@@ -50913,7 +52242,11 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["8", "1", "1"],
+        "mod_set_ids": [
+          "8",
+          "1",
+          "1"
+        ],
         "combat_type": 1,
         "relic_tier": 3,
         "has_ultimate": false,
@@ -51070,7 +52403,9 @@
             "tier_max": 3
           }
         ],
-        "mod_set_ids": ["8"],
+        "mod_set_ids": [
+          "8"
+        ],
         "combat_type": 1,
         "relic_tier": 2,
         "has_ultimate": false,
@@ -51337,4 +52672,4 @@
       }
     }
   ]
-}
+};
