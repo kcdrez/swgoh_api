@@ -3,9 +3,41 @@ import guild from "./guild.js";
 import apiClient from "../api/swgoh.gg.js";
 import units from "../gg/units/units.js";
 import { ships } from "../gg/units/ships.js";
+import { readdir, readFile } from "fs/promises";
+import path from "path";
+import { fileURLToPath } from "url";
 
 const routes = express.Router({
   mergeParams: true,
+});
+
+routes.get("/ers", async (req, res) => {
+  try {
+    const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+    const ersDir = path.join(__dirname, "ers/members");
+
+    const files = await readdir(ersDir);
+    const jsonFiles = files
+      .filter((f) => f.endsWith(".json"))
+      .filter((f) => f !== "guildData.json");
+
+    const results = [];
+
+    for (const file of jsonFiles) {
+      const fullPath = path.join(ersDir, file);
+      const content = await readFile(fullPath, "utf8");
+      const { data, units } = JSON.parse(content);
+      const unitsData = { data, units };
+      results.push(unitsData);
+    }
+
+    res.status(200).json(results);
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+    });
+  }
 });
 
 routes.get("/access/:guildId/:allyCode", async (req, res) => {

@@ -6,8 +6,12 @@ class apiClient {
   constructor() {}
 
   async fetchPlayer(allyCode) {
-    const response = await axios.get(baseUrl + "/player/" + allyCode);
-    return response.data;
+    try {
+      const response = await axios.get(baseUrl + "/player/" + allyCode);
+      return response.data;
+    } catch (err) {
+      console.log(err);
+    }
   }
 
   async fetchPlayers(allyCodes) {
