@@ -11,11 +11,9 @@ const routes = express.Router({
   mergeParams: true,
 });
 
-routes.get("/ers", async (req, res) => {
+routes.get("/ers", async (_req, res) => {
   try {
-    const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-    const ersDir = path.join(__dirname, "ers/members");
+    const ersDir = path.join(process.cwd(), "src/guild/ers/members");
 
     const files = await readdir(ersDir);
     const jsonFiles = files

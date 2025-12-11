@@ -24,6 +24,10 @@ functions:
 
 plugins:
   - serverless-offline
+
+package:
+  include:
+    - src/guild/ers/**
 #   org: kcdrez
 # app: test
 # service: testingProject
