@@ -6,13 +6,13 @@
     "banner_color_id": "bright_blue_dark_blue",
     "banner_logo_id": "guild_icon_Rebel",
     "enrollment_status": 2,
-    "galactic_power": 565575384,
+    "galactic_power": 503204088,
     "guild_type": null,
     "level_requirement": 85,
-    "member_count": 50,
+    "member_count": 45,
     "members": [
       {
-        "galactic_power": 11362799,
+        "galactic_power": 11367953,
         "guild_join_time": "2016-11-18T19:20:42Z",
         "lifetime_season_score": 510532,
         "member_level": 2,
@@ -24,10 +24,10 @@
         "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_chromium.png",
         "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_glleia.png",
         "title": "Princess",
-        "squad_power": 185549
+        "squad_power": 190899
       },
       {
-        "galactic_power": 9902365,
+        "galactic_power": 9925409,
         "guild_join_time": "2016-11-21T06:08:32Z",
         "lifetime_season_score": 242257,
         "member_level": 2,
@@ -42,7 +42,7 @@
         "squad_power": 185184
       },
       {
-        "galactic_power": 13095280,
+        "galactic_power": 13135445,
         "guild_join_time": "2017-07-29T01:44:23Z",
         "lifetime_season_score": 630905,
         "member_level": 2,
@@ -57,7 +57,7 @@
         "squad_power": 177498
       },
       {
-        "galactic_power": 13403811,
+        "galactic_power": 13444899,
         "guild_join_time": "2017-12-08T14:52:17Z",
         "lifetime_season_score": 662901,
         "member_level": 3,
@@ -72,7 +72,7 @@
         "squad_power": 175173
       },
       {
-        "galactic_power": 11479468,
+        "galactic_power": 11490804,
         "guild_join_time": "2018-08-30T21:27:26Z",
         "lifetime_season_score": 692236,
         "member_level": 2,
@@ -87,7 +87,7 @@
         "squad_power": 179307
       },
       {
-        "galactic_power": 13390961,
+        "galactic_power": 13399221,
         "guild_join_time": "2020-11-14T22:05:00Z",
         "lifetime_season_score": 514102,
         "member_level": 3,
@@ -99,10 +99,10 @@
         "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_kyber.png",
         "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_jangofett.png",
         "title": "Not a Clone",
-        "squad_power": 187434
+        "squad_power": 190065
       },
       {
-        "galactic_power": 12333418,
+        "galactic_power": 12349718,
         "guild_join_time": "2020-11-23T03:14:44Z",
         "lifetime_season_score": 698140,
         "member_level": 3,
@@ -117,7 +117,7 @@
         "squad_power": 168431
       },
       {
-        "galactic_power": 13038775,
+        "galactic_power": 13046714,
         "guild_join_time": "2021-04-07T04:57:39Z",
         "lifetime_season_score": 212676,
         "member_level": 4,
@@ -129,10 +129,10 @@
         "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_kyber.png",
         "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_mission.png",
         "title": "Jedi Master",
-        "squad_power": 193564
+        "squad_power": 193182
       },
       {
-        "galactic_power": 13702941,
+        "galactic_power": 13736046,
         "guild_join_time": "2021-10-02T01:04:23Z",
         "lifetime_season_score": 358540,
         "member_level": 2,
@@ -147,7 +147,7 @@
         "squad_power": 182870
       },
       {
-        "galactic_power": 9984962,
+        "galactic_power": 10087401,
         "guild_join_time": "2022-04-21T15:14:29Z",
         "lifetime_season_score": 502889,
         "member_level": 2,
@@ -159,10 +159,10 @@
         "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_aurodium.png",
         "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_lordvader.png",
         "title": "Director",
-        "squad_power": 173223
+        "squad_power": 173573
       },
       {
-        "galactic_power": 12377360,
+        "galactic_power": 12383928,
         "guild_join_time": "2022-07-31T18:01:27Z",
         "lifetime_season_score": 275275,
         "member_level": 2,
@@ -177,7 +177,7 @@
         "squad_power": 177544
       },
       {
-        "galactic_power": 13039212,
+        "galactic_power": 13041781,
         "guild_join_time": "2022-10-13T18:14:54Z",
         "lifetime_season_score": 70272,
         "member_level": 2,
@@ -192,7 +192,7 @@
         "squad_power": 199884
       },
       {
-        "galactic_power": 13255901,
+        "galactic_power": 13273042,
         "guild_join_time": "2022-10-28T19:49:04Z",
         "lifetime_season_score": 951834,
         "member_level": 2,
@@ -207,7 +207,7 @@
         "squad_power": 172495
       },
       {
-        "galactic_power": 12648391,
+        "galactic_power": 12706047,
         "guild_join_time": "2022-11-27T23:56:12Z",
         "lifetime_season_score": 98925,
         "member_level": 2,
@@ -222,7 +222,7 @@
         "squad_power": 166070
       },
       {
-        "galactic_power": 13599460,
+        "galactic_power": 13605979,
         "guild_join_time": "2023-05-10T21:21:37Z",
         "lifetime_season_score": 512029,
         "member_level": 2,
@@ -237,7 +237,7 @@
         "squad_power": 168199
       },
       {
-        "galactic_power": 13550256,
+        "galactic_power": 13590470,
         "guild_join_time": "2023-07-19T21:58:29Z",
         "lifetime_season_score": 793001,
         "member_level": 2,
@@ -252,7 +252,7 @@
         "squad_power": 179323
       },
       {
-        "galactic_power": 13354324,
+        "galactic_power": 13354373,
         "guild_join_time": "2023-07-24T10:41:34Z",
         "lifetime_season_score": 817971,
         "member_level": 2,
@@ -267,22 +267,7 @@
         "squad_power": 215441
       },
       {
-        "galactic_power": 12900972,
-        "guild_join_time": "2024-02-15T02:00:09Z",
-        "lifetime_season_score": 134954,
-        "member_level": 2,
-        "ally_code": 861115824,
-        "player_level": 85,
-        "player_name": "Ceth Senpai",
-        "league_id": "KYBER",
-        "league_name": "Kyber",
-        "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_kyber.png",
-        "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_sithrevan.png",
-        "title": "Prodigal Knight",
-        "squad_power": 186510
-      },
-      {
-        "galactic_power": 11281074,
+        "galactic_power": 11292744,
         "guild_join_time": "2024-03-01T15:29:37Z",
         "lifetime_season_score": 421908,
         "member_level": 2,
@@ -297,7 +282,7 @@
         "squad_power": 167279
       },
       {
-        "galactic_power": 12811286,
+        "galactic_power": 12857342,
         "guild_join_time": "2024-03-27T18:55:20Z",
         "lifetime_season_score": 602897,
         "member_level": 2,
@@ -312,7 +297,7 @@
         "squad_power": 191881
       },
       {
-        "galactic_power": 10509474,
+        "galactic_power": 10540329,
         "guild_join_time": "2024-05-19T19:30:13Z",
         "lifetime_season_score": 335482,
         "member_level": 2,
@@ -324,10 +309,10 @@
         "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_chromium.png",
         "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_ahsoka.png",
         "title": "Fulcrum",
-        "squad_power": 193401
+        "squad_power": 196287
       },
       {
-        "galactic_power": 12019017,
+        "galactic_power": 12051421,
         "guild_join_time": "2024-07-14T23:11:38Z",
         "lifetime_season_score": 116831,
         "member_level": 2,
@@ -339,10 +324,10 @@
         "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_aurodium.png",
         "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_sith_holocron.png",
         "title": "No Equal",
-        "squad_power": 166651
+        "squad_power": 165935
       },
       {
-        "galactic_power": 11382380,
+        "galactic_power": 11390306,
         "guild_join_time": "2024-07-28T20:17:44Z",
         "lifetime_season_score": 20189,
         "member_level": 2,
@@ -357,13 +342,13 @@
         "squad_power": 171086
       },
       {
-        "galactic_power": 10502104,
+        "galactic_power": 10587236,
         "guild_join_time": "2024-08-18T23:23:22Z",
         "lifetime_season_score": 149310,
         "member_level": 2,
         "ally_code": 777622935,
         "player_level": 85,
-        "player_name": "Saint père",
+        "player_name": "Saint p\u00e8re",
         "league_id": "AURODIUM",
         "league_name": "Aurodium",
         "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_aurodium.png",
@@ -387,7 +372,7 @@
         "squad_power": 168340
       },
       {
-        "galactic_power": 11556263,
+        "galactic_power": 11593019,
         "guild_join_time": "2024-10-13T17:28:35Z",
         "lifetime_season_score": 715436,
         "member_level": 2,
@@ -402,7 +387,7 @@
         "squad_power": 168198
       },
       {
-        "galactic_power": 12046957,
+        "galactic_power": 12075749,
         "guild_join_time": "2024-11-07T19:05:27Z",
         "lifetime_season_score": 435758,
         "member_level": 2,
@@ -417,7 +402,7 @@
         "squad_power": 170706
       },
       {
-        "galactic_power": 8698115,
+        "galactic_power": 8696469,
         "guild_join_time": "2024-11-24T21:00:11Z",
         "lifetime_season_score": 55017,
         "member_level": 2,
@@ -432,7 +417,7 @@
         "squad_power": 178972
       },
       {
-        "galactic_power": 10298923,
+        "galactic_power": 10326505,
         "guild_join_time": "2025-01-16T21:50:15Z",
         "lifetime_season_score": 0,
         "member_level": 2,
@@ -444,10 +429,10 @@
         "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_aurodium.png",
         "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_thrawn.png",
         "title": "Goodest Girl",
-        "squad_power": 152498
+        "squad_power": 152116
       },
       {
-        "galactic_power": 13214086,
+        "galactic_power": 13234130,
         "guild_join_time": "2025-05-18T00:13:52Z",
         "lifetime_season_score": 871381,
         "member_level": 2,
@@ -462,7 +447,7 @@
         "squad_power": 179967
       },
       {
-        "galactic_power": 9465166,
+        "galactic_power": 9471680,
         "guild_join_time": "2025-06-02T02:07:12Z",
         "lifetime_season_score": 0,
         "member_level": 3,
@@ -474,55 +459,10 @@
         "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_aurodium.png",
         "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_scorch.png",
         "title": "Republic Commando",
-        "squad_power": 184125
+        "squad_power": 190640
       },
       {
-        "galactic_power": 9437555,
-        "guild_join_time": "2025-07-01T21:01:29Z",
-        "lifetime_season_score": 740,
-        "member_level": 2,
-        "ally_code": 294235654,
-        "player_level": 85,
-        "player_name": "Scotsman5",
-        "league_id": "AURODIUM",
-        "league_name": "Aurodium",
-        "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_aurodium.png",
-        "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_tarkin.png",
-        "title": "General of the 501st",
-        "squad_power": 162090
-      },
-      {
-        "galactic_power": 9233300,
-        "guild_join_time": "2025-07-13T17:41:27Z",
-        "lifetime_season_score": 0,
-        "member_level": 2,
-        "ally_code": 691989759,
-        "player_level": 85,
-        "player_name": "Power",
-        "league_id": "KYBER",
-        "league_name": "Kyber",
-        "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_kyber.png",
-        "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_appo.png",
-        "title": "Blade",
-        "squad_power": 158586
-      },
-      {
-        "galactic_power": 10942278,
-        "guild_join_time": "2025-07-13T17:49:25Z",
-        "lifetime_season_score": 24549,
-        "member_level": 2,
-        "ally_code": 524481289,
-        "player_level": 85,
-        "player_name": "GrāqhīçāL",
-        "league_id": "AURODIUM",
-        "league_name": "Aurodium",
-        "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_aurodium.png",
-        "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_darthvader.png",
-        "title": "Holotable Hero",
-        "squad_power": 172972
-      },
-      {
-        "galactic_power": 9756271,
+        "galactic_power": 9796832,
         "guild_join_time": "2025-07-16T20:10:53Z",
         "lifetime_season_score": 68453,
         "member_level": 2,
@@ -534,10 +474,10 @@
         "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_aurodium.png",
         "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_globiwan.png",
         "title": "Hello There",
-        "squad_power": 197525
+        "squad_power": 186811
       },
       {
-        "galactic_power": 10778719,
+        "galactic_power": 10863147,
         "guild_join_time": "2025-08-03T17:44:46Z",
         "lifetime_season_score": 0,
         "member_level": 2,
@@ -549,10 +489,10 @@
         "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_kyber.png",
         "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_macewindu.png",
         "title": "Royalty",
-        "squad_power": 178581
+        "squad_power": 172954
       },
       {
-        "galactic_power": 12123017,
+        "galactic_power": 12137244,
         "guild_join_time": "2025-08-27T18:40:56Z",
         "lifetime_season_score": 0,
         "member_level": 2,
@@ -567,7 +507,7 @@
         "squad_power": 168075
       },
       {
-        "galactic_power": 12461577,
+        "galactic_power": 12479769,
         "guild_join_time": "2025-09-21T17:54:01Z",
         "lifetime_season_score": 442590,
         "member_level": 2,
@@ -597,7 +537,7 @@
         "squad_power": 166663
       },
       {
-        "galactic_power": 10014534,
+        "galactic_power": 10030155,
         "guild_join_time": "2025-10-23T15:58:56Z",
         "lifetime_season_score": 0,
         "member_level": 2,
@@ -612,22 +552,7 @@
         "squad_power": 64485
       },
       {
-        "galactic_power": 8261968,
-        "guild_join_time": "2025-10-23T21:56:45Z",
-        "lifetime_season_score": 0,
-        "member_level": 2,
-        "ally_code": 818494958,
-        "player_level": 85,
-        "player_name": "GnarlyElijahh",
-        "league_id": "CHROMIUM",
-        "league_name": "Chromium",
-        "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_chromium.png",
-        "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_mandalorbokatan.png",
-        "title": "The Better General",
-        "squad_power": 148236
-      },
-      {
-        "galactic_power": 8521892,
+        "galactic_power": 8547950,
         "guild_join_time": "2025-11-02T17:14:16Z",
         "lifetime_season_score": 0,
         "member_level": 2,
@@ -642,22 +567,7 @@
         "squad_power": 193295
       },
       {
-        "galactic_power": 9938660,
-        "guild_join_time": "2025-11-03T10:28:56Z",
-        "lifetime_season_score": 133934,
-        "member_level": 2,
-        "ally_code": 974356391,
-        "player_level": 85,
-        "player_name": "Late",
-        "league_id": "AURODIUM",
-        "league_name": "Aurodium",
-        "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_aurodium.png",
-        "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_reytros.png",
-        "title": "Championship Vanguard",
-        "squad_power": 167987
-      },
-      {
-        "galactic_power": 8848871,
+        "galactic_power": 8860723,
         "guild_join_time": "2025-11-03T10:28:58Z",
         "lifetime_season_score": 290644,
         "member_level": 2,
@@ -669,10 +579,10 @@
         "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_aurodium.png",
         "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_darthtraya.png",
         "title": "Balanced Master of the Force",
-        "squad_power": 183525
+        "squad_power": 183542
       },
       {
-        "galactic_power": 11009396,
+        "galactic_power": 11052451,
         "guild_join_time": "2025-11-05T20:48:54Z",
         "lifetime_season_score": 0,
         "member_level": 2,
@@ -687,7 +597,7 @@
         "squad_power": 187188
       },
       {
-        "galactic_power": 10367178,
+        "galactic_power": 10371580,
         "guild_join_time": "2025-11-07T07:04:27Z",
         "lifetime_season_score": 0,
         "member_level": 2,
@@ -702,22 +612,7 @@
         "squad_power": 169545
       },
       {
-        "galactic_power": 13801965,
-        "guild_join_time": "2025-11-17T15:17:41Z",
-        "lifetime_season_score": 917397,
-        "member_level": 2,
-        "ally_code": 213544622,
-        "player_level": 85,
-        "player_name": "iζεταツ",
-        "league_id": "CHROMIUM",
-        "league_name": "Chromium",
-        "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_chromium.png",
-        "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_cup.png",
-        "title": "Beep-Boop",
-        "squad_power": 184359
-      },
-      {
-        "galactic_power": 5869974,
+        "galactic_power": 5938645,
         "guild_join_time": "2025-12-03T21:18:56Z",
         "lifetime_season_score": 0,
         "member_level": 2,
@@ -729,25 +624,10 @@
         "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_chromium.png",
         "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_starkiller.png",
         "title": "Betrayer",
-        "squad_power": 161785
+        "squad_power": 164663
       },
       {
-        "galactic_power": 13425807,
-        "guild_join_time": "2025-12-05T04:01:17Z",
-        "lifetime_season_score": 776825,
-        "member_level": 3,
-        "ally_code": 555152186,
-        "player_level": 85,
-        "player_name": "Auros",
-        "league_id": "KYBER",
-        "league_name": "Kyber",
-        "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_kyber.png",
-        "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_nightsisters_ventress.png",
-        "title": "Queen",
-        "squad_power": 183423
-      },
-      {
-        "galactic_power": 8498210,
+        "galactic_power": 8570362,
         "guild_join_time": "2025-12-06T03:57:32Z",
         "lifetime_season_score": 0,
         "member_level": 2,
@@ -760,13 +640,58 @@
         "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_cantinakeeper.png",
         "title": "Sith Eternal",
         "squad_power": 191233
+      },
+      {
+        "galactic_power": 9011229,
+        "guild_join_time": "2025-12-14T18:54:29Z",
+        "lifetime_season_score": 0,
+        "member_level": 2,
+        "ally_code": 572743495,
+        "player_level": 85,
+        "player_name": "Zalandar",
+        "league_id": "BRONZIUM",
+        "league_name": "Bronzium",
+        "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_bronzium.png",
+        "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_hothrebel.png",
+        "title": "The Cavalry",
+        "squad_power": 178319
+      },
+      {
+        "galactic_power": 8753531,
+        "guild_join_time": "2025-12-14T19:38:02Z",
+        "lifetime_season_score": 18992,
+        "member_level": 2,
+        "ally_code": 129729657,
+        "player_level": 85,
+        "player_name": "OxyA1r",
+        "league_id": "AURODIUM",
+        "league_name": "Aurodium",
+        "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_aurodium.png",
+        "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_darthsidious.png",
+        "title": "Fight Me",
+        "squad_power": 164230
+      },
+      {
+        "galactic_power": 6657876,
+        "guild_join_time": "2025-12-14T22:32:24Z",
+        "lifetime_season_score": 0,
+        "member_level": 2,
+        "ally_code": 664188741,
+        "player_level": 85,
+        "player_name": "MjRsT85",
+        "league_id": "CHROMIUM",
+        "league_name": "Chromium",
+        "league_frame_image": "https://game-assets.swgoh.gg/textures/tex.vanity_portrait_league_chromium.png",
+        "portrait_image": "https://game-assets.swgoh.gg/textures/tex.vanity_kylomasked.png",
+        "title": "Legend of the Rebellion",
+        "squad_power": 183105
       }
     ],
-    "avg_galactic_power": 11311507,
-    "avg_arena_rank": 141.294117647059,
-    "avg_fleet_arena_rank": 26.8627450980392,
-    "avg_skill_rating": 2883,
-    "last_sync": "2025-12-11 06:39:00.514932"
+    "avg_galactic_power": 11182313,
+    "avg_arena_rank": 156.91304347826087,
+    "avg_fleet_arena_rank": 29.97826086956522,
+    "avg_skill_rating": 2849,
+    "last_sync": "2025-12-15 15:19:45.511180"
   },
   "message": null,
   "total_count": null

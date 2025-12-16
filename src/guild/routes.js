@@ -3,9 +3,7 @@ import guild from "./guild.js";
 import apiClient from "../api/swgoh.gg.js";
 import units from "../gg/units/units.js";
 import { ships } from "../gg/units/ships.js";
-import { readdir, readFile } from "fs/promises";
-import path from "path";
-import { fileURLToPath } from "url";
+import members from "./ers/members/index.js";
 
 const routes = express.Router({
   mergeParams: true,
@@ -13,25 +11,25 @@ const routes = express.Router({
 
 routes.get("/ers", async (_req, res) => {
   try {
-    const __dirname = path.dirname(fileURLToPath(import.meta.url));
-    const folder = path.join(__dirname, "ers/members");
+    const cleanedMembers = members.map((member) => {
+      const { ally_code, name } = member.data;
+      return {
+        data: {
+          ally_code,
+          name,
+        },
+        units: member.units.map((unit) => {
+          const { base_id, name, gear_level, relic_tier } = unit.data;
+          return {
+            data: { base_id, name, gear_level, relic_tier },
+          };
+        }),
+      };
+    });
 
-    const files = await readdir(folder);
-    const moduleFiles = files.filter((f) => f.endsWith(".js"));
-    // .filter((f) => f !== "guildData.js");
-
-    const results = [];
-
-    for (const file of moduleFiles) {
-      const modulePath = path.join(folder, file);
-      const { default: content } = await import(modulePath);
-
-      const { data, units } = content;
-      results.push({ data, units });
-    }
-
-    res.status(200).json(results);
+    res.status(200).json(cleanedMembers);
   } catch (err) {
+    console.error(err);
     res.status(500).json({ error: err.message });
   }
 });

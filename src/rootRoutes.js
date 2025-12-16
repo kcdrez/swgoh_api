@@ -6,7 +6,7 @@ const routes = express.Router({
 
 routes.get("/metadata", async (req, res) => {
   try {
-    res.status(200).json({ version: "1.0.0" });
+    res.status(200).json({ version: "1.0.4" });
   } catch (error) {
     res.status(500).json({
       error: error.message,
