@@ -19,9 +19,9 @@ routes.get("/ers", async (_req, res) => {
           name,
         },
         units: member.units.map((unit) => {
-          const { base_id, name, gear_level, relic_tier } = unit.data;
+          const { base_id, name, gear_level, relic_tier, rarity } = unit.data;
           return {
-            data: { base_id, name, gear_level, relic_tier },
+            data: { base_id, name, gear_level, relic_tier, rarity },
           };
         }),
       };
